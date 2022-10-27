@@ -1,0 +1,4 @@
+Le but du mémoire est de réaliser un modèle de classification afin de pouvoir détecter en fonction de leur activités, les comptes bot sur Github.
+Pour faire cela, on va utiliser l'api REST et Event de Github afin de pouvoir récupérer les activités d'un ensemble de compte, à la fois humain et bot. Une fois les activités obtenus sous formes de fichiers .json, on va les étudier dans le but de découvrir des charactéristiques dans le comportement des bot (on pense que les bots effectuent souvent les memes actions, effectués aussi des actions plus souvent que des humains, dans des repositories souvent plus nombreux par rapport aux humains qui seront souvent dans les même)
+Après avoir trouver ses charactéristiques, on va générer un modèle de classification.
+Enfin, on va vouloir prouver empiriquement que notre modèle est efficace en le testant sur un grand échantillon de comptes.
