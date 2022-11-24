@@ -1,0 +1,1364 @@
+[
+    {
+        "id": "24847757045",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 553776416,
+            "name": "redsolver/S5",
+            "url": "https://api.github.com/repos/redsolver/S5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-26T17:16:04Z"
+    },
+    {
+        "id": "24792154777",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 537053063,
+            "name": "n8maninger/renterc",
+            "url": "https://api.github.com/repos/n8maninger/renterc"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-24T14:30:05Z"
+    },
+    {
+        "id": "24534986316",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 100061716,
+            "name": "nrwl/nx",
+            "url": "https://api.github.com/repos/nrwl/nx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/12522",
+                "repository_url": "https://api.github.com/repos/nrwl/nx",
+                "labels_url": "https://api.github.com/repos/nrwl/nx/issues/12522/labels{/name}",
+                "comments_url": "https://api.github.com/repos/nrwl/nx/issues/12522/comments",
+                "events_url": "https://api.github.com/repos/nrwl/nx/issues/12522/events",
+                "html_url": "https://github.com/nrwl/nx/issues/12522",
+                "id": 1404732175,
+                "node_id": "I_kwDOBfbSFM5TuoMP",
+                "number": 12522,
+                "title": "'nx serve' is not serving assets from other libraries",
+                "user": {
+                    "login": "anthodb",
+                    "id": 2890350,
+                    "node_id": "MDQ6VXNlcjI4OTAzNTA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2890350?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/anthodb",
+                    "html_url": "https://github.com/anthodb",
+                    "followers_url": "https://api.github.com/users/anthodb/followers",
+                    "following_url": "https://api.github.com/users/anthodb/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/anthodb/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/anthodb/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/anthodb/subscriptions",
+                    "organizations_url": "https://api.github.com/users/anthodb/orgs",
+                    "repos_url": "https://api.github.com/users/anthodb/repos",
+                    "events_url": "https://api.github.com/users/anthodb/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/anthodb/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 666969767,
+                        "node_id": "MDU6TGFiZWw2NjY5Njk3Njc=",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "e99695",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-11T14:20:52Z",
+                "updated_at": "2022-10-11T19:52:19Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Current Behavior\r\n\r\nI just migrated to nx 14.8.3.\r\nPrevious was 14.4.0\r\n\r\nI'm serving my application using this command:\r\n```\r\nnx myapp:serve:development\r\n```\r\n\r\nThis is the project.json inside myapp :\r\n\r\n```\r\n\"targets\": {\r\n    \"build\": {\r\n      \"executor\": \"@nrwl/next:build\",\r\n      \"outputs\": [\"{options.outputPath}\"],\r\n      \"defaultConfiguration\": \"production\",\r\n      \"dependsOn\": [],\r\n      \"options\": {\r\n        \"root\": \"apps/myapp\",\r\n        \"outputPath\": \"dist/apps/myapp\",\r\n        \"assets\": [\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/auth/public/html\",\r\n            \"output\": \"html\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared-ui/public/fonts\",\r\n            \"output\": \"fonts\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/i18n/public/locales\",\r\n            \"output\": \"locales\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared-ui/public/images\",\r\n            \"output\": \"images\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared/public/images\",\r\n            \"output\": \"images\"\r\n          }\r\n        ]\r\n      },\r\n      \"configurations\": {\r\n        \"development\": {},\r\n        \"production\": {}\r\n      }\r\n    },\r\n\"serve\": {\r\n      \"executor\": \"@nrwl/next:server\",\r\n      \"defaultConfiguration\": \"development\",\r\n      \"options\": {\r\n        \"buildTarget\": \"myapp:build\",\r\n        \"port\": 3000\r\n      },\r\n      \"configurations\": {\r\n        \"development\": {\r\n          \"buildTarget\": \"myapp:build:development\",\r\n          \"dev\": true\r\n        },\r\n        \"production\": {\r\n          \"buildTarget\": \"myapp:build:production\",\r\n          \"dev\": false\r\n        }\r\n      }\r\n    }\r\n}\r\n```\r\n\r\n## Issue\r\n\r\nThe dev application is not serving anymore the asset files from other libraries. (logo, fonts, etc..)\r\n\r\n## Expected Behavior\r\nIt was correctly serving the asset files from other libraries before (last version working was 14.4.0)\r\nI tested all nx imports and the @nrwl/nx is creating the issue starting, all other libs can be updated to 14.8.3.\r\n\r\n## Environment\r\n\r\nNX   Report complete - copy this into the issue template\r\n\r\n Node : 16.13.2\r\n OS   : darwin x64\r\n npm  : 8.8.0\r\n \r\n nx : 14.8.3\r\n @nrwl/angular : Not Found\r\n @nrwl/cypress : 14.8.3\r\n @nrwl/detox : Not Found\r\n @nrwl/devkit : 14.4.0\r\n @nrwl/esbuild : Not Found\r\n @nrwl/eslint-plugin-nx : 14.8.3\r\n @nrwl/expo : Not Found\r\n @nrwl/express : Not Found\r\n @nrwl/jest : 14.8.3\r\n @nrwl/js : 14.4.0\r\n @nrwl/linter : 14.8.3\r\n @nrwl/nest : Not Found\r\n @nrwl/next : 14.8.3\r\n @nrwl/node : Not Found\r\n @nrwl/nx-cloud : Not Found\r\n @nrwl/nx-plugin : Not Found\r\n @nrwl/react : 14.8.3\r\n @nrwl/react-native : Not Found\r\n @nrwl/rollup : 14.8.3\r\n @nrwl/schematics : Not Found\r\n @nrwl/storybook : 14.8.3\r\n @nrwl/web : 14.8.3\r\n @nrwl/webpack : 14.8.3\r\n @nrwl/workspace : 14.8.3\r\n typescript : 4.7.3\r\n ---------------------------------------\r\n Local workspace plugins:\r\n ---------------------------------------\r\n Community plugins:\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/12522/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/nrwl/nx/issues/12522/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1275198298",
+                "html_url": "https://github.com/nrwl/nx/issues/12522#issuecomment-1275198298",
+                "issue_url": "https://api.github.com/repos/nrwl/nx/issues/12522",
+                "id": 1275198298,
+                "node_id": "IC_kwDOBfbSFM5MAfta",
+                "user": {
+                    "login": "alexfreska",
+                    "id": 1412796,
+                    "node_id": "MDQ6VXNlcjE0MTI3OTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1412796?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alexfreska",
+                    "html_url": "https://github.com/alexfreska",
+                    "followers_url": "https://api.github.com/users/alexfreska/followers",
+                    "following_url": "https://api.github.com/users/alexfreska/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alexfreska/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alexfreska/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alexfreska/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alexfreska/orgs",
+                    "repos_url": "https://api.github.com/users/alexfreska/repos",
+                    "events_url": "https://api.github.com/users/alexfreska/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alexfreska/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-11T19:52:19Z",
+                "updated_at": "2022-10-11T19:52:19Z",
+                "author_association": "NONE",
+                "body": "Hey @anthodb, few people with related problems commenting on this closed issue: https://github.com/nrwl/nx/issues/11524",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1275198298/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-11T19:52:19Z",
+        "org": {
+            "id": 23692104,
+            "login": "nrwl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/nrwl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23692104?"
+        }
+    },
+    {
+        "id": "24534828133",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 351532442,
+            "name": "riftdweb/rift",
+            "url": "https://api.github.com/repos/riftdweb/rift"
+        },
+        "payload": {
+            "push_id": 11296609032,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "cab23724fe396064c2deebbcbca4df67094fe0e2",
+            "before": "a7f3505a18f954be004ccccd520153232eb09448",
+            "commits": [
+                {
+                    "sha": "cab23724fe396064c2deebbcbca4df67094fe0e2",
+                    "author": {
+                        "email": "alex.freska@gmail.com",
+                        "name": "Alex Freska"
+                    },
+                    "message": "Update bots.yml",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/riftdweb/rift/commits/cab23724fe396064c2deebbcbca4df67094fe0e2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-11T19:43:25Z",
+        "org": {
+            "id": 81110002,
+            "login": "riftdweb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/riftdweb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/81110002?"
+        }
+    },
+    {
+        "id": "24510631269",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 100061716,
+            "name": "nrwl/nx",
+            "url": "https://api.github.com/repos/nrwl/nx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/11524",
+                "repository_url": "https://api.github.com/repos/nrwl/nx",
+                "labels_url": "https://api.github.com/repos/nrwl/nx/issues/11524/labels{/name}",
+                "comments_url": "https://api.github.com/repos/nrwl/nx/issues/11524/comments",
+                "events_url": "https://api.github.com/repos/nrwl/nx/issues/11524/events",
+                "html_url": "https://github.com/nrwl/nx/issues/11524",
+                "id": 1333757262,
+                "node_id": "I_kwDOBfbSFM5Pf4VO",
+                "number": 11524,
+                "title": "@nrwl/next static assets 404 with @nrwl/next:server executor",
+                "user": {
+                    "login": "pmualaba",
+                    "id": 1754718,
+                    "node_id": "MDQ6VXNlcjE3NTQ3MTg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1754718?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/pmualaba",
+                    "html_url": "https://github.com/pmualaba",
+                    "followers_url": "https://api.github.com/users/pmualaba/followers",
+                    "following_url": "https://api.github.com/users/pmualaba/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/pmualaba/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/pmualaba/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/pmualaba/subscriptions",
+                    "organizations_url": "https://api.github.com/users/pmualaba/orgs",
+                    "repos_url": "https://api.github.com/users/pmualaba/repos",
+                    "events_url": "https://api.github.com/users/pmualaba/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/pmualaba/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 666969767,
+                        "node_id": "MDU6TGFiZWw2NjY5Njk3Njc=",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "e99695",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1622541579,
+                        "node_id": "MDU6TGFiZWwxNjIyNTQxNTc5",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/scope:%20nextjs",
+                        "name": "scope: nextjs",
+                        "color": "dbaaf7",
+                        "default": false,
+                        "description": "Issues related to NextJS support for Nx"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "jaysoo",
+                    "id": 53559,
+                    "node_id": "MDQ6VXNlcjUzNTU5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/53559?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaysoo",
+                    "html_url": "https://github.com/jaysoo",
+                    "followers_url": "https://api.github.com/users/jaysoo/followers",
+                    "following_url": "https://api.github.com/users/jaysoo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaysoo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaysoo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaysoo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaysoo/orgs",
+                    "repos_url": "https://api.github.com/users/jaysoo/repos",
+                    "events_url": "https://api.github.com/users/jaysoo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaysoo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "jaysoo",
+                        "id": 53559,
+                        "node_id": "MDQ6VXNlcjUzNTU5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/53559?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/jaysoo",
+                        "html_url": "https://github.com/jaysoo",
+                        "followers_url": "https://api.github.com/users/jaysoo/followers",
+                        "following_url": "https://api.github.com/users/jaysoo/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/jaysoo/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/jaysoo/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/jaysoo/subscriptions",
+                        "organizations_url": "https://api.github.com/users/jaysoo/orgs",
+                        "repos_url": "https://api.github.com/users/jaysoo/repos",
+                        "events_url": "https://api.github.com/users/jaysoo/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/jaysoo/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-08-09T20:33:33Z",
+                "updated_at": "2022-10-10T21:01:58Z",
+                "closed_at": "2022-09-01T18:55:46Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!-- Please do your best to fill out all of the sections below! -->\r\n\r\n## Current Behavior\r\n<!-- What is the behavior that currently you experience? -->\r\n\r\nWhen using the **@nrwl/next:server executor** (nx serve), static assets are served only from **apps/app/public** source folder. Even when we configure project.json like this:\r\n\r\n` \"options\": {\r\n        \"root\": \"apps/app\",\r\n        \"outputPath\": \"dist/apps/app\",\r\n        \"assets\": [\r\n          {\r\n            \"input\": \"libs/ui/static\",\r\n            \"glob\": \"**/*\",\r\n            \"output\": \"\"\r\n          },\r\n          {\r\n            \"input\": \"libs/ui/icons/assets\",\r\n            \"glob\": \"**/*\",\r\n            \"output\": \"assets/icons\"\r\n          }\r\n        ]\r\n      },`\r\n\r\nThis results in 404 resource not found for all static assets that are moved out of the next public folder into the nx library when launching the local dev server with **nx serve app**\r\n\r\n\r\n\r\n## Expected Behavior\r\n<!-- What is the behavior that you expect to happen? -->\r\n<!-- Is this a regression? .i.e Did this used to be the behavior at one point?  -->\r\n\r\nnx serve app SHOULD serve static assets according to the configuration in project.json and NOT serve the static assets only from next public folder\r\n\r\n\r\n## Steps to Reproduce\r\n<!-- Help us help you by making it easy for us to reproduce your issue! -->\r\n\r\n<!-- Can you reproduce this on https://github.com/nrwl/nx-examples? -->\r\n<!-- If so, open a PR with your changes and link it below. -->\r\n<!-- If not, please provide a minimal Github repo -->\r\n<!-- At the very least, provide as much detail as possible to help us reproduce the issue -->\r\n\r\n<!-- Remove this line -->\r\nThis issue may not be prioritized if details are not provided to help us reproduce the issue.\r\n\r\n### Failure Logs\r\n<!-- Please include any relevant log snippets or files here. -->\r\n\r\n<img width=\"583\" alt=\"image\" src=\"https://user-images.githubusercontent.com/1754718/183755365-c73ccac3-d5bf-4eae-9f29-8bc64f41dd7d.png\">\r\n\r\n\r\n### Environment\r\n<!-- It's important for us to know the context in which you experience this behavior! -->\r\n<!-- Please paste the result of `nx report` below! -->\r\n\r\n\"next\": \"12.2.3\",\r\n\r\n >  NX   Report complete - copy this into the issue template\r\n\r\n   Node : 16.15.0\r\n   OS   : linux x64\r\n   yarn : 3.2.2\r\n   \r\n   nx : 14.5.4\r\n   @nrwl/angular : Not Found\r\n   @nrwl/cypress : 14.5.4\r\n   @nrwl/detox : Not Found\r\n   @nrwl/devkit : 14.5.4\r\n   @nrwl/eslint-plugin-nx : 14.5.4\r\n   @nrwl/express : Not Found\r\n   @nrwl/jest : 14.5.4\r\n   @nrwl/js : 14.5.4\r\n   @nrwl/linter : 14.5.4\r\n   @nrwl/nest : 14.5.4\r\n   @nrwl/next : 14.5.4\r\n   @nrwl/node : 14.5.4\r\n   @nrwl/nx-cloud : 14.3.0\r\n   @nrwl/nx-plugin : Not Found\r\n   @nrwl/react : 14.5.4\r\n   @nrwl/react-native : Not Found\r\n   @nrwl/schematics : Not Found\r\n   @nrwl/storybook : 14.5.4\r\n   @nrwl/web : 14.5.4\r\n   @nrwl/workspace : 14.5.4\r\n   typescript : 4.7.4\r\n   ---------------------------------------\r\n   Community plugins:\r\n         @nx-go/nx-go: 2.6.0\r\n         @nx-tools/nx-docker: 3.0.2\r\n         nest-commander-schematics: 3.0.0\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/11524/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/nrwl/nx/issues/11524/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1273816363",
+                "html_url": "https://github.com/nrwl/nx/issues/11524#issuecomment-1273816363",
+                "issue_url": "https://api.github.com/repos/nrwl/nx/issues/11524",
+                "id": 1273816363,
+                "node_id": "IC_kwDOBfbSFM5L7OUr",
+                "user": {
+                    "login": "alexfreska",
+                    "id": 1412796,
+                    "node_id": "MDQ6VXNlcjE0MTI3OTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1412796?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alexfreska",
+                    "html_url": "https://github.com/alexfreska",
+                    "followers_url": "https://api.github.com/users/alexfreska/followers",
+                    "following_url": "https://api.github.com/users/alexfreska/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alexfreska/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alexfreska/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alexfreska/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alexfreska/orgs",
+                    "repos_url": "https://api.github.com/users/alexfreska/repos",
+                    "events_url": "https://api.github.com/users/alexfreska/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alexfreska/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-10T21:01:58Z",
+                "updated_at": "2022-10-10T21:01:58Z",
+                "author_association": "NONE",
+                "body": "Hi @jaysoo just upgraded NX and hit the same issue as @Puertas and @JeanBarriere (  https://github.com/nrwl/nx/pull/11257#issuecomment-1231944630). As the others have described, I have a directory of public assets that are copied from a design system lib into the public directory of multiple next apps, so the above change means all shared assets from the design system are missing in dev mode. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1273816363/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-10T21:01:59Z",
+        "org": {
+            "id": 23692104,
+            "login": "nrwl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/nrwl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23692104?"
+        }
+    },
+    {
+        "id": "24121602472",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 524225168,
+            "name": "SiaFoundation/jape",
+            "url": "https://api.github.com/repos/SiaFoundation/jape"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-20T19:14:53Z",
+        "org": {
+            "id": 71667087,
+            "login": "SiaFoundation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SiaFoundation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71667087?"
+        }
+    },
+    {
+        "id": "24847757045",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 553776416,
+            "name": "redsolver/S5",
+            "url": "https://api.github.com/repos/redsolver/S5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-26T17:16:04Z"
+    },
+    {
+        "id": "24792154777",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 537053063,
+            "name": "n8maninger/renterc",
+            "url": "https://api.github.com/repos/n8maninger/renterc"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-24T14:30:05Z"
+    },
+    {
+        "id": "24534986316",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 100061716,
+            "name": "nrwl/nx",
+            "url": "https://api.github.com/repos/nrwl/nx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/12522",
+                "repository_url": "https://api.github.com/repos/nrwl/nx",
+                "labels_url": "https://api.github.com/repos/nrwl/nx/issues/12522/labels{/name}",
+                "comments_url": "https://api.github.com/repos/nrwl/nx/issues/12522/comments",
+                "events_url": "https://api.github.com/repos/nrwl/nx/issues/12522/events",
+                "html_url": "https://github.com/nrwl/nx/issues/12522",
+                "id": 1404732175,
+                "node_id": "I_kwDOBfbSFM5TuoMP",
+                "number": 12522,
+                "title": "'nx serve' is not serving assets from other libraries",
+                "user": {
+                    "login": "anthodb",
+                    "id": 2890350,
+                    "node_id": "MDQ6VXNlcjI4OTAzNTA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2890350?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/anthodb",
+                    "html_url": "https://github.com/anthodb",
+                    "followers_url": "https://api.github.com/users/anthodb/followers",
+                    "following_url": "https://api.github.com/users/anthodb/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/anthodb/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/anthodb/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/anthodb/subscriptions",
+                    "organizations_url": "https://api.github.com/users/anthodb/orgs",
+                    "repos_url": "https://api.github.com/users/anthodb/repos",
+                    "events_url": "https://api.github.com/users/anthodb/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/anthodb/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 666969767,
+                        "node_id": "MDU6TGFiZWw2NjY5Njk3Njc=",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "e99695",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-11T14:20:52Z",
+                "updated_at": "2022-10-11T19:52:19Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Current Behavior\r\n\r\nI just migrated to nx 14.8.3.\r\nPrevious was 14.4.0\r\n\r\nI'm serving my application using this command:\r\n```\r\nnx myapp:serve:development\r\n```\r\n\r\nThis is the project.json inside myapp :\r\n\r\n```\r\n\"targets\": {\r\n    \"build\": {\r\n      \"executor\": \"@nrwl/next:build\",\r\n      \"outputs\": [\"{options.outputPath}\"],\r\n      \"defaultConfiguration\": \"production\",\r\n      \"dependsOn\": [],\r\n      \"options\": {\r\n        \"root\": \"apps/myapp\",\r\n        \"outputPath\": \"dist/apps/myapp\",\r\n        \"assets\": [\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/auth/public/html\",\r\n            \"output\": \"html\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared-ui/public/fonts\",\r\n            \"output\": \"fonts\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/i18n/public/locales\",\r\n            \"output\": \"locales\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared-ui/public/images\",\r\n            \"output\": \"images\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared/public/images\",\r\n            \"output\": \"images\"\r\n          }\r\n        ]\r\n      },\r\n      \"configurations\": {\r\n        \"development\": {},\r\n        \"production\": {}\r\n      }\r\n    },\r\n\"serve\": {\r\n      \"executor\": \"@nrwl/next:server\",\r\n      \"defaultConfiguration\": \"development\",\r\n      \"options\": {\r\n        \"buildTarget\": \"myapp:build\",\r\n        \"port\": 3000\r\n      },\r\n      \"configurations\": {\r\n        \"development\": {\r\n          \"buildTarget\": \"myapp:build:development\",\r\n          \"dev\": true\r\n        },\r\n        \"production\": {\r\n          \"buildTarget\": \"myapp:build:production\",\r\n          \"dev\": false\r\n        }\r\n      }\r\n    }\r\n}\r\n```\r\n\r\n## Issue\r\n\r\nThe dev application is not serving anymore the asset files from other libraries. (logo, fonts, etc..)\r\n\r\n## Expected Behavior\r\nIt was correctly serving the asset files from other libraries before (last version working was 14.4.0)\r\nI tested all nx imports and the @nrwl/nx is creating the issue starting, all other libs can be updated to 14.8.3.\r\n\r\n## Environment\r\n\r\nNX   Report complete - copy this into the issue template\r\n\r\n Node : 16.13.2\r\n OS   : darwin x64\r\n npm  : 8.8.0\r\n \r\n nx : 14.8.3\r\n @nrwl/angular : Not Found\r\n @nrwl/cypress : 14.8.3\r\n @nrwl/detox : Not Found\r\n @nrwl/devkit : 14.4.0\r\n @nrwl/esbuild : Not Found\r\n @nrwl/eslint-plugin-nx : 14.8.3\r\n @nrwl/expo : Not Found\r\n @nrwl/express : Not Found\r\n @nrwl/jest : 14.8.3\r\n @nrwl/js : 14.4.0\r\n @nrwl/linter : 14.8.3\r\n @nrwl/nest : Not Found\r\n @nrwl/next : 14.8.3\r\n @nrwl/node : Not Found\r\n @nrwl/nx-cloud : Not Found\r\n @nrwl/nx-plugin : Not Found\r\n @nrwl/react : 14.8.3\r\n @nrwl/react-native : Not Found\r\n @nrwl/rollup : 14.8.3\r\n @nrwl/schematics : Not Found\r\n @nrwl/storybook : 14.8.3\r\n @nrwl/web : 14.8.3\r\n @nrwl/webpack : 14.8.3\r\n @nrwl/workspace : 14.8.3\r\n typescript : 4.7.3\r\n ---------------------------------------\r\n Local workspace plugins:\r\n ---------------------------------------\r\n Community plugins:\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/12522/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/nrwl/nx/issues/12522/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1275198298",
+                "html_url": "https://github.com/nrwl/nx/issues/12522#issuecomment-1275198298",
+                "issue_url": "https://api.github.com/repos/nrwl/nx/issues/12522",
+                "id": 1275198298,
+                "node_id": "IC_kwDOBfbSFM5MAfta",
+                "user": {
+                    "login": "alexfreska",
+                    "id": 1412796,
+                    "node_id": "MDQ6VXNlcjE0MTI3OTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1412796?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alexfreska",
+                    "html_url": "https://github.com/alexfreska",
+                    "followers_url": "https://api.github.com/users/alexfreska/followers",
+                    "following_url": "https://api.github.com/users/alexfreska/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alexfreska/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alexfreska/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alexfreska/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alexfreska/orgs",
+                    "repos_url": "https://api.github.com/users/alexfreska/repos",
+                    "events_url": "https://api.github.com/users/alexfreska/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alexfreska/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-11T19:52:19Z",
+                "updated_at": "2022-10-11T19:52:19Z",
+                "author_association": "NONE",
+                "body": "Hey @anthodb, few people with related problems commenting on this closed issue: https://github.com/nrwl/nx/issues/11524",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1275198298/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-11T19:52:19Z",
+        "org": {
+            "id": 23692104,
+            "login": "nrwl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/nrwl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23692104?"
+        }
+    },
+    {
+        "id": "24534828133",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 351532442,
+            "name": "riftdweb/rift",
+            "url": "https://api.github.com/repos/riftdweb/rift"
+        },
+        "payload": {
+            "push_id": 11296609032,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "cab23724fe396064c2deebbcbca4df67094fe0e2",
+            "before": "a7f3505a18f954be004ccccd520153232eb09448",
+            "commits": [
+                {
+                    "sha": "cab23724fe396064c2deebbcbca4df67094fe0e2",
+                    "author": {
+                        "email": "alex.freska@gmail.com",
+                        "name": "Alex Freska"
+                    },
+                    "message": "Update bots.yml",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/riftdweb/rift/commits/cab23724fe396064c2deebbcbca4df67094fe0e2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-11T19:43:25Z",
+        "org": {
+            "id": 81110002,
+            "login": "riftdweb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/riftdweb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/81110002?"
+        }
+    },
+    {
+        "id": "24510631269",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 100061716,
+            "name": "nrwl/nx",
+            "url": "https://api.github.com/repos/nrwl/nx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/11524",
+                "repository_url": "https://api.github.com/repos/nrwl/nx",
+                "labels_url": "https://api.github.com/repos/nrwl/nx/issues/11524/labels{/name}",
+                "comments_url": "https://api.github.com/repos/nrwl/nx/issues/11524/comments",
+                "events_url": "https://api.github.com/repos/nrwl/nx/issues/11524/events",
+                "html_url": "https://github.com/nrwl/nx/issues/11524",
+                "id": 1333757262,
+                "node_id": "I_kwDOBfbSFM5Pf4VO",
+                "number": 11524,
+                "title": "@nrwl/next static assets 404 with @nrwl/next:server executor",
+                "user": {
+                    "login": "pmualaba",
+                    "id": 1754718,
+                    "node_id": "MDQ6VXNlcjE3NTQ3MTg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1754718?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/pmualaba",
+                    "html_url": "https://github.com/pmualaba",
+                    "followers_url": "https://api.github.com/users/pmualaba/followers",
+                    "following_url": "https://api.github.com/users/pmualaba/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/pmualaba/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/pmualaba/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/pmualaba/subscriptions",
+                    "organizations_url": "https://api.github.com/users/pmualaba/orgs",
+                    "repos_url": "https://api.github.com/users/pmualaba/repos",
+                    "events_url": "https://api.github.com/users/pmualaba/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/pmualaba/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 666969767,
+                        "node_id": "MDU6TGFiZWw2NjY5Njk3Njc=",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "e99695",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1622541579,
+                        "node_id": "MDU6TGFiZWwxNjIyNTQxNTc5",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/scope:%20nextjs",
+                        "name": "scope: nextjs",
+                        "color": "dbaaf7",
+                        "default": false,
+                        "description": "Issues related to NextJS support for Nx"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "jaysoo",
+                    "id": 53559,
+                    "node_id": "MDQ6VXNlcjUzNTU5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/53559?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaysoo",
+                    "html_url": "https://github.com/jaysoo",
+                    "followers_url": "https://api.github.com/users/jaysoo/followers",
+                    "following_url": "https://api.github.com/users/jaysoo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaysoo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaysoo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaysoo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaysoo/orgs",
+                    "repos_url": "https://api.github.com/users/jaysoo/repos",
+                    "events_url": "https://api.github.com/users/jaysoo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaysoo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "jaysoo",
+                        "id": 53559,
+                        "node_id": "MDQ6VXNlcjUzNTU5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/53559?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/jaysoo",
+                        "html_url": "https://github.com/jaysoo",
+                        "followers_url": "https://api.github.com/users/jaysoo/followers",
+                        "following_url": "https://api.github.com/users/jaysoo/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/jaysoo/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/jaysoo/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/jaysoo/subscriptions",
+                        "organizations_url": "https://api.github.com/users/jaysoo/orgs",
+                        "repos_url": "https://api.github.com/users/jaysoo/repos",
+                        "events_url": "https://api.github.com/users/jaysoo/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/jaysoo/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-08-09T20:33:33Z",
+                "updated_at": "2022-10-10T21:01:58Z",
+                "closed_at": "2022-09-01T18:55:46Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!-- Please do your best to fill out all of the sections below! -->\r\n\r\n## Current Behavior\r\n<!-- What is the behavior that currently you experience? -->\r\n\r\nWhen using the **@nrwl/next:server executor** (nx serve), static assets are served only from **apps/app/public** source folder. Even when we configure project.json like this:\r\n\r\n` \"options\": {\r\n        \"root\": \"apps/app\",\r\n        \"outputPath\": \"dist/apps/app\",\r\n        \"assets\": [\r\n          {\r\n            \"input\": \"libs/ui/static\",\r\n            \"glob\": \"**/*\",\r\n            \"output\": \"\"\r\n          },\r\n          {\r\n            \"input\": \"libs/ui/icons/assets\",\r\n            \"glob\": \"**/*\",\r\n            \"output\": \"assets/icons\"\r\n          }\r\n        ]\r\n      },`\r\n\r\nThis results in 404 resource not found for all static assets that are moved out of the next public folder into the nx library when launching the local dev server with **nx serve app**\r\n\r\n\r\n\r\n## Expected Behavior\r\n<!-- What is the behavior that you expect to happen? -->\r\n<!-- Is this a regression? .i.e Did this used to be the behavior at one point?  -->\r\n\r\nnx serve app SHOULD serve static assets according to the configuration in project.json and NOT serve the static assets only from next public folder\r\n\r\n\r\n## Steps to Reproduce\r\n<!-- Help us help you by making it easy for us to reproduce your issue! -->\r\n\r\n<!-- Can you reproduce this on https://github.com/nrwl/nx-examples? -->\r\n<!-- If so, open a PR with your changes and link it below. -->\r\n<!-- If not, please provide a minimal Github repo -->\r\n<!-- At the very least, provide as much detail as possible to help us reproduce the issue -->\r\n\r\n<!-- Remove this line -->\r\nThis issue may not be prioritized if details are not provided to help us reproduce the issue.\r\n\r\n### Failure Logs\r\n<!-- Please include any relevant log snippets or files here. -->\r\n\r\n<img width=\"583\" alt=\"image\" src=\"https://user-images.githubusercontent.com/1754718/183755365-c73ccac3-d5bf-4eae-9f29-8bc64f41dd7d.png\">\r\n\r\n\r\n### Environment\r\n<!-- It's important for us to know the context in which you experience this behavior! -->\r\n<!-- Please paste the result of `nx report` below! -->\r\n\r\n\"next\": \"12.2.3\",\r\n\r\n >  NX   Report complete - copy this into the issue template\r\n\r\n   Node : 16.15.0\r\n   OS   : linux x64\r\n   yarn : 3.2.2\r\n   \r\n   nx : 14.5.4\r\n   @nrwl/angular : Not Found\r\n   @nrwl/cypress : 14.5.4\r\n   @nrwl/detox : Not Found\r\n   @nrwl/devkit : 14.5.4\r\n   @nrwl/eslint-plugin-nx : 14.5.4\r\n   @nrwl/express : Not Found\r\n   @nrwl/jest : 14.5.4\r\n   @nrwl/js : 14.5.4\r\n   @nrwl/linter : 14.5.4\r\n   @nrwl/nest : 14.5.4\r\n   @nrwl/next : 14.5.4\r\n   @nrwl/node : 14.5.4\r\n   @nrwl/nx-cloud : 14.3.0\r\n   @nrwl/nx-plugin : Not Found\r\n   @nrwl/react : 14.5.4\r\n   @nrwl/react-native : Not Found\r\n   @nrwl/schematics : Not Found\r\n   @nrwl/storybook : 14.5.4\r\n   @nrwl/web : 14.5.4\r\n   @nrwl/workspace : 14.5.4\r\n   typescript : 4.7.4\r\n   ---------------------------------------\r\n   Community plugins:\r\n         @nx-go/nx-go: 2.6.0\r\n         @nx-tools/nx-docker: 3.0.2\r\n         nest-commander-schematics: 3.0.0\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/11524/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/nrwl/nx/issues/11524/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1273816363",
+                "html_url": "https://github.com/nrwl/nx/issues/11524#issuecomment-1273816363",
+                "issue_url": "https://api.github.com/repos/nrwl/nx/issues/11524",
+                "id": 1273816363,
+                "node_id": "IC_kwDOBfbSFM5L7OUr",
+                "user": {
+                    "login": "alexfreska",
+                    "id": 1412796,
+                    "node_id": "MDQ6VXNlcjE0MTI3OTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1412796?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alexfreska",
+                    "html_url": "https://github.com/alexfreska",
+                    "followers_url": "https://api.github.com/users/alexfreska/followers",
+                    "following_url": "https://api.github.com/users/alexfreska/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alexfreska/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alexfreska/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alexfreska/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alexfreska/orgs",
+                    "repos_url": "https://api.github.com/users/alexfreska/repos",
+                    "events_url": "https://api.github.com/users/alexfreska/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alexfreska/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-10T21:01:58Z",
+                "updated_at": "2022-10-10T21:01:58Z",
+                "author_association": "NONE",
+                "body": "Hi @jaysoo just upgraded NX and hit the same issue as @Puertas and @JeanBarriere (  https://github.com/nrwl/nx/pull/11257#issuecomment-1231944630). As the others have described, I have a directory of public assets that are copied from a design system lib into the public directory of multiple next apps, so the above change means all shared assets from the design system are missing in dev mode. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1273816363/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-10T21:01:59Z",
+        "org": {
+            "id": 23692104,
+            "login": "nrwl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/nrwl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23692104?"
+        }
+    },
+    {
+        "id": "24121602472",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 524225168,
+            "name": "SiaFoundation/jape",
+            "url": "https://api.github.com/repos/SiaFoundation/jape"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-20T19:14:53Z",
+        "org": {
+            "id": 71667087,
+            "login": "SiaFoundation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SiaFoundation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71667087?"
+        }
+    },
+    {
+        "id": "24847757045",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 553776416,
+            "name": "redsolver/S5",
+            "url": "https://api.github.com/repos/redsolver/S5"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-26T17:16:04Z"
+    },
+    {
+        "id": "24792154777",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 537053063,
+            "name": "n8maninger/renterc",
+            "url": "https://api.github.com/repos/n8maninger/renterc"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-24T14:30:05Z"
+    },
+    {
+        "id": "24534986316",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 100061716,
+            "name": "nrwl/nx",
+            "url": "https://api.github.com/repos/nrwl/nx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/12522",
+                "repository_url": "https://api.github.com/repos/nrwl/nx",
+                "labels_url": "https://api.github.com/repos/nrwl/nx/issues/12522/labels{/name}",
+                "comments_url": "https://api.github.com/repos/nrwl/nx/issues/12522/comments",
+                "events_url": "https://api.github.com/repos/nrwl/nx/issues/12522/events",
+                "html_url": "https://github.com/nrwl/nx/issues/12522",
+                "id": 1404732175,
+                "node_id": "I_kwDOBfbSFM5TuoMP",
+                "number": 12522,
+                "title": "'nx serve' is not serving assets from other libraries",
+                "user": {
+                    "login": "anthodb",
+                    "id": 2890350,
+                    "node_id": "MDQ6VXNlcjI4OTAzNTA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2890350?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/anthodb",
+                    "html_url": "https://github.com/anthodb",
+                    "followers_url": "https://api.github.com/users/anthodb/followers",
+                    "following_url": "https://api.github.com/users/anthodb/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/anthodb/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/anthodb/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/anthodb/subscriptions",
+                    "organizations_url": "https://api.github.com/users/anthodb/orgs",
+                    "repos_url": "https://api.github.com/users/anthodb/repos",
+                    "events_url": "https://api.github.com/users/anthodb/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/anthodb/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 666969767,
+                        "node_id": "MDU6TGFiZWw2NjY5Njk3Njc=",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "e99695",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-11T14:20:52Z",
+                "updated_at": "2022-10-11T19:52:19Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Current Behavior\r\n\r\nI just migrated to nx 14.8.3.\r\nPrevious was 14.4.0\r\n\r\nI'm serving my application using this command:\r\n```\r\nnx myapp:serve:development\r\n```\r\n\r\nThis is the project.json inside myapp :\r\n\r\n```\r\n\"targets\": {\r\n    \"build\": {\r\n      \"executor\": \"@nrwl/next:build\",\r\n      \"outputs\": [\"{options.outputPath}\"],\r\n      \"defaultConfiguration\": \"production\",\r\n      \"dependsOn\": [],\r\n      \"options\": {\r\n        \"root\": \"apps/myapp\",\r\n        \"outputPath\": \"dist/apps/myapp\",\r\n        \"assets\": [\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/auth/public/html\",\r\n            \"output\": \"html\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared-ui/public/fonts\",\r\n            \"output\": \"fonts\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/i18n/public/locales\",\r\n            \"output\": \"locales\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared-ui/public/images\",\r\n            \"output\": \"images\"\r\n          },\r\n          {\r\n            \"glob\": \"**/*\",\r\n            \"input\": \"libs/shared/public/images\",\r\n            \"output\": \"images\"\r\n          }\r\n        ]\r\n      },\r\n      \"configurations\": {\r\n        \"development\": {},\r\n        \"production\": {}\r\n      }\r\n    },\r\n\"serve\": {\r\n      \"executor\": \"@nrwl/next:server\",\r\n      \"defaultConfiguration\": \"development\",\r\n      \"options\": {\r\n        \"buildTarget\": \"myapp:build\",\r\n        \"port\": 3000\r\n      },\r\n      \"configurations\": {\r\n        \"development\": {\r\n          \"buildTarget\": \"myapp:build:development\",\r\n          \"dev\": true\r\n        },\r\n        \"production\": {\r\n          \"buildTarget\": \"myapp:build:production\",\r\n          \"dev\": false\r\n        }\r\n      }\r\n    }\r\n}\r\n```\r\n\r\n## Issue\r\n\r\nThe dev application is not serving anymore the asset files from other libraries. (logo, fonts, etc..)\r\n\r\n## Expected Behavior\r\nIt was correctly serving the asset files from other libraries before (last version working was 14.4.0)\r\nI tested all nx imports and the @nrwl/nx is creating the issue starting, all other libs can be updated to 14.8.3.\r\n\r\n## Environment\r\n\r\nNX   Report complete - copy this into the issue template\r\n\r\n Node : 16.13.2\r\n OS   : darwin x64\r\n npm  : 8.8.0\r\n \r\n nx : 14.8.3\r\n @nrwl/angular : Not Found\r\n @nrwl/cypress : 14.8.3\r\n @nrwl/detox : Not Found\r\n @nrwl/devkit : 14.4.0\r\n @nrwl/esbuild : Not Found\r\n @nrwl/eslint-plugin-nx : 14.8.3\r\n @nrwl/expo : Not Found\r\n @nrwl/express : Not Found\r\n @nrwl/jest : 14.8.3\r\n @nrwl/js : 14.4.0\r\n @nrwl/linter : 14.8.3\r\n @nrwl/nest : Not Found\r\n @nrwl/next : 14.8.3\r\n @nrwl/node : Not Found\r\n @nrwl/nx-cloud : Not Found\r\n @nrwl/nx-plugin : Not Found\r\n @nrwl/react : 14.8.3\r\n @nrwl/react-native : Not Found\r\n @nrwl/rollup : 14.8.3\r\n @nrwl/schematics : Not Found\r\n @nrwl/storybook : 14.8.3\r\n @nrwl/web : 14.8.3\r\n @nrwl/webpack : 14.8.3\r\n @nrwl/workspace : 14.8.3\r\n typescript : 4.7.3\r\n ---------------------------------------\r\n Local workspace plugins:\r\n ---------------------------------------\r\n Community plugins:\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/12522/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/nrwl/nx/issues/12522/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1275198298",
+                "html_url": "https://github.com/nrwl/nx/issues/12522#issuecomment-1275198298",
+                "issue_url": "https://api.github.com/repos/nrwl/nx/issues/12522",
+                "id": 1275198298,
+                "node_id": "IC_kwDOBfbSFM5MAfta",
+                "user": {
+                    "login": "alexfreska",
+                    "id": 1412796,
+                    "node_id": "MDQ6VXNlcjE0MTI3OTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1412796?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alexfreska",
+                    "html_url": "https://github.com/alexfreska",
+                    "followers_url": "https://api.github.com/users/alexfreska/followers",
+                    "following_url": "https://api.github.com/users/alexfreska/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alexfreska/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alexfreska/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alexfreska/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alexfreska/orgs",
+                    "repos_url": "https://api.github.com/users/alexfreska/repos",
+                    "events_url": "https://api.github.com/users/alexfreska/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alexfreska/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-11T19:52:19Z",
+                "updated_at": "2022-10-11T19:52:19Z",
+                "author_association": "NONE",
+                "body": "Hey @anthodb, few people with related problems commenting on this closed issue: https://github.com/nrwl/nx/issues/11524",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1275198298/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-11T19:52:19Z",
+        "org": {
+            "id": 23692104,
+            "login": "nrwl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/nrwl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23692104?"
+        }
+    },
+    {
+        "id": "24534828133",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 351532442,
+            "name": "riftdweb/rift",
+            "url": "https://api.github.com/repos/riftdweb/rift"
+        },
+        "payload": {
+            "push_id": 11296609032,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "cab23724fe396064c2deebbcbca4df67094fe0e2",
+            "before": "a7f3505a18f954be004ccccd520153232eb09448",
+            "commits": [
+                {
+                    "sha": "cab23724fe396064c2deebbcbca4df67094fe0e2",
+                    "author": {
+                        "email": "alex.freska@gmail.com",
+                        "name": "Alex Freska"
+                    },
+                    "message": "Update bots.yml",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/riftdweb/rift/commits/cab23724fe396064c2deebbcbca4df67094fe0e2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-11T19:43:25Z",
+        "org": {
+            "id": 81110002,
+            "login": "riftdweb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/riftdweb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/81110002?"
+        }
+    },
+    {
+        "id": "24510631269",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 100061716,
+            "name": "nrwl/nx",
+            "url": "https://api.github.com/repos/nrwl/nx"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/11524",
+                "repository_url": "https://api.github.com/repos/nrwl/nx",
+                "labels_url": "https://api.github.com/repos/nrwl/nx/issues/11524/labels{/name}",
+                "comments_url": "https://api.github.com/repos/nrwl/nx/issues/11524/comments",
+                "events_url": "https://api.github.com/repos/nrwl/nx/issues/11524/events",
+                "html_url": "https://github.com/nrwl/nx/issues/11524",
+                "id": 1333757262,
+                "node_id": "I_kwDOBfbSFM5Pf4VO",
+                "number": 11524,
+                "title": "@nrwl/next static assets 404 with @nrwl/next:server executor",
+                "user": {
+                    "login": "pmualaba",
+                    "id": 1754718,
+                    "node_id": "MDQ6VXNlcjE3NTQ3MTg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1754718?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/pmualaba",
+                    "html_url": "https://github.com/pmualaba",
+                    "followers_url": "https://api.github.com/users/pmualaba/followers",
+                    "following_url": "https://api.github.com/users/pmualaba/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/pmualaba/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/pmualaba/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/pmualaba/subscriptions",
+                    "organizations_url": "https://api.github.com/users/pmualaba/orgs",
+                    "repos_url": "https://api.github.com/users/pmualaba/repos",
+                    "events_url": "https://api.github.com/users/pmualaba/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/pmualaba/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 666969767,
+                        "node_id": "MDU6TGFiZWw2NjY5Njk3Njc=",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/type:%20bug",
+                        "name": "type: bug",
+                        "color": "e99695",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1622541579,
+                        "node_id": "MDU6TGFiZWwxNjIyNTQxNTc5",
+                        "url": "https://api.github.com/repos/nrwl/nx/labels/scope:%20nextjs",
+                        "name": "scope: nextjs",
+                        "color": "dbaaf7",
+                        "default": false,
+                        "description": "Issues related to NextJS support for Nx"
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": {
+                    "login": "jaysoo",
+                    "id": 53559,
+                    "node_id": "MDQ6VXNlcjUzNTU5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/53559?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jaysoo",
+                    "html_url": "https://github.com/jaysoo",
+                    "followers_url": "https://api.github.com/users/jaysoo/followers",
+                    "following_url": "https://api.github.com/users/jaysoo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jaysoo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jaysoo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jaysoo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jaysoo/orgs",
+                    "repos_url": "https://api.github.com/users/jaysoo/repos",
+                    "events_url": "https://api.github.com/users/jaysoo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jaysoo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "jaysoo",
+                        "id": 53559,
+                        "node_id": "MDQ6VXNlcjUzNTU5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/53559?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/jaysoo",
+                        "html_url": "https://github.com/jaysoo",
+                        "followers_url": "https://api.github.com/users/jaysoo/followers",
+                        "following_url": "https://api.github.com/users/jaysoo/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/jaysoo/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/jaysoo/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/jaysoo/subscriptions",
+                        "organizations_url": "https://api.github.com/users/jaysoo/orgs",
+                        "repos_url": "https://api.github.com/users/jaysoo/repos",
+                        "events_url": "https://api.github.com/users/jaysoo/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/jaysoo/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-08-09T20:33:33Z",
+                "updated_at": "2022-10-10T21:01:58Z",
+                "closed_at": "2022-09-01T18:55:46Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "<!-- Please do your best to fill out all of the sections below! -->\r\n\r\n## Current Behavior\r\n<!-- What is the behavior that currently you experience? -->\r\n\r\nWhen using the **@nrwl/next:server executor** (nx serve), static assets are served only from **apps/app/public** source folder. Even when we configure project.json like this:\r\n\r\n` \"options\": {\r\n        \"root\": \"apps/app\",\r\n        \"outputPath\": \"dist/apps/app\",\r\n        \"assets\": [\r\n          {\r\n            \"input\": \"libs/ui/static\",\r\n            \"glob\": \"**/*\",\r\n            \"output\": \"\"\r\n          },\r\n          {\r\n            \"input\": \"libs/ui/icons/assets\",\r\n            \"glob\": \"**/*\",\r\n            \"output\": \"assets/icons\"\r\n          }\r\n        ]\r\n      },`\r\n\r\nThis results in 404 resource not found for all static assets that are moved out of the next public folder into the nx library when launching the local dev server with **nx serve app**\r\n\r\n\r\n\r\n## Expected Behavior\r\n<!-- What is the behavior that you expect to happen? -->\r\n<!-- Is this a regression? .i.e Did this used to be the behavior at one point?  -->\r\n\r\nnx serve app SHOULD serve static assets according to the configuration in project.json and NOT serve the static assets only from next public folder\r\n\r\n\r\n## Steps to Reproduce\r\n<!-- Help us help you by making it easy for us to reproduce your issue! -->\r\n\r\n<!-- Can you reproduce this on https://github.com/nrwl/nx-examples? -->\r\n<!-- If so, open a PR with your changes and link it below. -->\r\n<!-- If not, please provide a minimal Github repo -->\r\n<!-- At the very least, provide as much detail as possible to help us reproduce the issue -->\r\n\r\n<!-- Remove this line -->\r\nThis issue may not be prioritized if details are not provided to help us reproduce the issue.\r\n\r\n### Failure Logs\r\n<!-- Please include any relevant log snippets or files here. -->\r\n\r\n<img width=\"583\" alt=\"image\" src=\"https://user-images.githubusercontent.com/1754718/183755365-c73ccac3-d5bf-4eae-9f29-8bc64f41dd7d.png\">\r\n\r\n\r\n### Environment\r\n<!-- It's important for us to know the context in which you experience this behavior! -->\r\n<!-- Please paste the result of `nx report` below! -->\r\n\r\n\"next\": \"12.2.3\",\r\n\r\n >  NX   Report complete - copy this into the issue template\r\n\r\n   Node : 16.15.0\r\n   OS   : linux x64\r\n   yarn : 3.2.2\r\n   \r\n   nx : 14.5.4\r\n   @nrwl/angular : Not Found\r\n   @nrwl/cypress : 14.5.4\r\n   @nrwl/detox : Not Found\r\n   @nrwl/devkit : 14.5.4\r\n   @nrwl/eslint-plugin-nx : 14.5.4\r\n   @nrwl/express : Not Found\r\n   @nrwl/jest : 14.5.4\r\n   @nrwl/js : 14.5.4\r\n   @nrwl/linter : 14.5.4\r\n   @nrwl/nest : 14.5.4\r\n   @nrwl/next : 14.5.4\r\n   @nrwl/node : 14.5.4\r\n   @nrwl/nx-cloud : 14.3.0\r\n   @nrwl/nx-plugin : Not Found\r\n   @nrwl/react : 14.5.4\r\n   @nrwl/react-native : Not Found\r\n   @nrwl/schematics : Not Found\r\n   @nrwl/storybook : 14.5.4\r\n   @nrwl/web : 14.5.4\r\n   @nrwl/workspace : 14.5.4\r\n   typescript : 4.7.4\r\n   ---------------------------------------\r\n   Community plugins:\r\n         @nx-go/nx-go: 2.6.0\r\n         @nx-tools/nx-docker: 3.0.2\r\n         nest-commander-schematics: 3.0.0\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/11524/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/nrwl/nx/issues/11524/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1273816363",
+                "html_url": "https://github.com/nrwl/nx/issues/11524#issuecomment-1273816363",
+                "issue_url": "https://api.github.com/repos/nrwl/nx/issues/11524",
+                "id": 1273816363,
+                "node_id": "IC_kwDOBfbSFM5L7OUr",
+                "user": {
+                    "login": "alexfreska",
+                    "id": 1412796,
+                    "node_id": "MDQ6VXNlcjE0MTI3OTY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1412796?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/alexfreska",
+                    "html_url": "https://github.com/alexfreska",
+                    "followers_url": "https://api.github.com/users/alexfreska/followers",
+                    "following_url": "https://api.github.com/users/alexfreska/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/alexfreska/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/alexfreska/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/alexfreska/subscriptions",
+                    "organizations_url": "https://api.github.com/users/alexfreska/orgs",
+                    "repos_url": "https://api.github.com/users/alexfreska/repos",
+                    "events_url": "https://api.github.com/users/alexfreska/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/alexfreska/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-10T21:01:58Z",
+                "updated_at": "2022-10-10T21:01:58Z",
+                "author_association": "NONE",
+                "body": "Hi @jaysoo just upgraded NX and hit the same issue as @Puertas and @JeanBarriere (  https://github.com/nrwl/nx/pull/11257#issuecomment-1231944630). As the others have described, I have a directory of public assets that are copied from a design system lib into the public directory of multiple next apps, so the above change means all shared assets from the design system are missing in dev mode. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/nrwl/nx/issues/comments/1273816363/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-10T21:01:59Z",
+        "org": {
+            "id": 23692104,
+            "login": "nrwl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/nrwl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/23692104?"
+        }
+    },
+    {
+        "id": "24121602472",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1412796,
+            "login": "alexfreska",
+            "display_login": "alexfreska",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alexfreska",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1412796?"
+        },
+        "repo": {
+            "id": 524225168,
+            "name": "SiaFoundation/jape",
+            "url": "https://api.github.com/repos/SiaFoundation/jape"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-20T19:14:53Z",
+        "org": {
+            "id": 71667087,
+            "login": "SiaFoundation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SiaFoundation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71667087?"
+        }
+    }
+]

@@ -1,0 +1,557 @@
+[
+    {
+        "id": "24194596319",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 540625564,
+            "name": "jayphelps/stunning-palm-tree",
+            "url": "https://api.github.com/repos/jayphelps/stunning-palm-tree"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-23T21:40:09Z"
+    },
+    {
+        "id": "24194595927",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 540625564,
+            "name": "jayphelps/stunning-palm-tree",
+            "url": "https://api.github.com/repos/jayphelps/stunning-palm-tree"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "master",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-23T21:40:07Z"
+    },
+    {
+        "id": "23597736133",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 56723754,
+            "name": "redux-observable/redux-observable",
+            "url": "https://api.github.com/repos/redux-observable/redux-observable"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772",
+                "repository_url": "https://api.github.com/repos/redux-observable/redux-observable",
+                "labels_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/labels{/name}",
+                "comments_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/comments",
+                "events_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/events",
+                "html_url": "https://github.com/redux-observable/redux-observable/issues/772",
+                "id": 1347645453,
+                "node_id": "I_kwDOA2GJKs5QU3AN",
+                "number": 772,
+                "title": "Combination of Redux Toolkit and Redux Observables is not working in mobile browsers.",
+                "user": {
+                    "login": "vforvaios",
+                    "id": 26392354,
+                    "node_id": "MDQ6VXNlcjI2MzkyMzU0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/26392354?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vforvaios",
+                    "html_url": "https://github.com/vforvaios",
+                    "followers_url": "https://api.github.com/users/vforvaios/followers",
+                    "following_url": "https://api.github.com/users/vforvaios/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vforvaios/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vforvaios/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vforvaios/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vforvaios/orgs",
+                    "repos_url": "https://api.github.com/users/vforvaios/repos",
+                    "events_url": "https://api.github.com/users/vforvaios/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vforvaios/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-08-23T09:40:51Z",
+                "updated_at": "2022-08-23T21:03:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi everyone. Recently I am experiencing a problem with a local pet project using react, rtk and redux observables ONLY IN MOBILE BROWSERS (chrome, firefox etc). (desktop browsers are playing nice and easy)\r\n\r\nLets see an example:\r\n\r\n**ACTION**\r\n`const someAction = createAction('someAction')`\r\n\r\n**COMPONENT**\r\n`.....\r\nconst dispatch = useDispatch();\r\n....\r\n<button onClick={() => dispatch(someAction())}\r\n....`\r\n\r\n**EPICS**\r\n`const someActionEpic = action$ => action$.pipe(\r\nofType(someAction.type),\r\nmap(.........)\r\n)`\r\n\r\nWith this example, the epic is not triggered. Its as if the action is dispatched but the epic is not listening.\r\n\r\nIf I change the rtk setup with the old redux setup, everything is fine!!!!!!!\r\n\r\nIs there a limitation for redux-observables regarding action of rtk in mobile????\r\n\r\nThanks in advance",
+                "reactions": {
+                    "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/comments/1224883808",
+                "html_url": "https://github.com/redux-observable/redux-observable/issues/772#issuecomment-1224883808",
+                "issue_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772",
+                "id": 1224883808,
+                "node_id": "IC_kwDOA2GJKs5JAj5g",
+                "user": {
+                    "login": "jayphelps",
+                    "id": 762949,
+                    "node_id": "MDQ6VXNlcjc2Mjk0OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/762949?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jayphelps",
+                    "html_url": "https://github.com/jayphelps",
+                    "followers_url": "https://api.github.com/users/jayphelps/followers",
+                    "following_url": "https://api.github.com/users/jayphelps/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jayphelps/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jayphelps/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jayphelps/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jayphelps/orgs",
+                    "repos_url": "https://api.github.com/users/jayphelps/repos",
+                    "events_url": "https://api.github.com/users/jayphelps/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jayphelps/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-23T21:03:00Z",
+                "updated_at": "2022-08-23T21:03:00Z",
+                "author_association": "MEMBER",
+                "body": "There are no known issues specific to mobile  or RTK. If you\u2019re able to reproduce it with a fresh project and can share that reproduction I can take a look!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/comments/1224883808/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-23T21:03:00Z",
+        "org": {
+            "id": 19417071,
+            "login": "redux-observable",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/redux-observable",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19417071?"
+        }
+    },
+    {
+        "id": "24194596319",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 540625564,
+            "name": "jayphelps/stunning-palm-tree",
+            "url": "https://api.github.com/repos/jayphelps/stunning-palm-tree"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-23T21:40:09Z"
+    },
+    {
+        "id": "24194595927",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 540625564,
+            "name": "jayphelps/stunning-palm-tree",
+            "url": "https://api.github.com/repos/jayphelps/stunning-palm-tree"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "master",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-23T21:40:07Z"
+    },
+    {
+        "id": "23597736133",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 56723754,
+            "name": "redux-observable/redux-observable",
+            "url": "https://api.github.com/repos/redux-observable/redux-observable"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772",
+                "repository_url": "https://api.github.com/repos/redux-observable/redux-observable",
+                "labels_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/labels{/name}",
+                "comments_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/comments",
+                "events_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/events",
+                "html_url": "https://github.com/redux-observable/redux-observable/issues/772",
+                "id": 1347645453,
+                "node_id": "I_kwDOA2GJKs5QU3AN",
+                "number": 772,
+                "title": "Combination of Redux Toolkit and Redux Observables is not working in mobile browsers.",
+                "user": {
+                    "login": "vforvaios",
+                    "id": 26392354,
+                    "node_id": "MDQ6VXNlcjI2MzkyMzU0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/26392354?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vforvaios",
+                    "html_url": "https://github.com/vforvaios",
+                    "followers_url": "https://api.github.com/users/vforvaios/followers",
+                    "following_url": "https://api.github.com/users/vforvaios/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vforvaios/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vforvaios/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vforvaios/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vforvaios/orgs",
+                    "repos_url": "https://api.github.com/users/vforvaios/repos",
+                    "events_url": "https://api.github.com/users/vforvaios/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vforvaios/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-08-23T09:40:51Z",
+                "updated_at": "2022-08-23T21:03:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi everyone. Recently I am experiencing a problem with a local pet project using react, rtk and redux observables ONLY IN MOBILE BROWSERS (chrome, firefox etc). (desktop browsers are playing nice and easy)\r\n\r\nLets see an example:\r\n\r\n**ACTION**\r\n`const someAction = createAction('someAction')`\r\n\r\n**COMPONENT**\r\n`.....\r\nconst dispatch = useDispatch();\r\n....\r\n<button onClick={() => dispatch(someAction())}\r\n....`\r\n\r\n**EPICS**\r\n`const someActionEpic = action$ => action$.pipe(\r\nofType(someAction.type),\r\nmap(.........)\r\n)`\r\n\r\nWith this example, the epic is not triggered. Its as if the action is dispatched but the epic is not listening.\r\n\r\nIf I change the rtk setup with the old redux setup, everything is fine!!!!!!!\r\n\r\nIs there a limitation for redux-observables regarding action of rtk in mobile????\r\n\r\nThanks in advance",
+                "reactions": {
+                    "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/comments/1224883808",
+                "html_url": "https://github.com/redux-observable/redux-observable/issues/772#issuecomment-1224883808",
+                "issue_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772",
+                "id": 1224883808,
+                "node_id": "IC_kwDOA2GJKs5JAj5g",
+                "user": {
+                    "login": "jayphelps",
+                    "id": 762949,
+                    "node_id": "MDQ6VXNlcjc2Mjk0OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/762949?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jayphelps",
+                    "html_url": "https://github.com/jayphelps",
+                    "followers_url": "https://api.github.com/users/jayphelps/followers",
+                    "following_url": "https://api.github.com/users/jayphelps/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jayphelps/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jayphelps/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jayphelps/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jayphelps/orgs",
+                    "repos_url": "https://api.github.com/users/jayphelps/repos",
+                    "events_url": "https://api.github.com/users/jayphelps/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jayphelps/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-23T21:03:00Z",
+                "updated_at": "2022-08-23T21:03:00Z",
+                "author_association": "MEMBER",
+                "body": "There are no known issues specific to mobile  or RTK. If you\u2019re able to reproduce it with a fresh project and can share that reproduction I can take a look!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/comments/1224883808/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-23T21:03:00Z",
+        "org": {
+            "id": 19417071,
+            "login": "redux-observable",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/redux-observable",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19417071?"
+        }
+    },
+    {
+        "id": "24194596319",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 540625564,
+            "name": "jayphelps/stunning-palm-tree",
+            "url": "https://api.github.com/repos/jayphelps/stunning-palm-tree"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-23T21:40:09Z"
+    },
+    {
+        "id": "24194595927",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 540625564,
+            "name": "jayphelps/stunning-palm-tree",
+            "url": "https://api.github.com/repos/jayphelps/stunning-palm-tree"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "master",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-23T21:40:07Z"
+    },
+    {
+        "id": "23597736133",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 762949,
+            "login": "jayphelps",
+            "display_login": "jayphelps",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jayphelps",
+            "avatar_url": "https://avatars.githubusercontent.com/u/762949?"
+        },
+        "repo": {
+            "id": 56723754,
+            "name": "redux-observable/redux-observable",
+            "url": "https://api.github.com/repos/redux-observable/redux-observable"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772",
+                "repository_url": "https://api.github.com/repos/redux-observable/redux-observable",
+                "labels_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/labels{/name}",
+                "comments_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/comments",
+                "events_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/events",
+                "html_url": "https://github.com/redux-observable/redux-observable/issues/772",
+                "id": 1347645453,
+                "node_id": "I_kwDOA2GJKs5QU3AN",
+                "number": 772,
+                "title": "Combination of Redux Toolkit and Redux Observables is not working in mobile browsers.",
+                "user": {
+                    "login": "vforvaios",
+                    "id": 26392354,
+                    "node_id": "MDQ6VXNlcjI2MzkyMzU0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/26392354?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vforvaios",
+                    "html_url": "https://github.com/vforvaios",
+                    "followers_url": "https://api.github.com/users/vforvaios/followers",
+                    "following_url": "https://api.github.com/users/vforvaios/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vforvaios/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vforvaios/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vforvaios/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vforvaios/orgs",
+                    "repos_url": "https://api.github.com/users/vforvaios/repos",
+                    "events_url": "https://api.github.com/users/vforvaios/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vforvaios/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-08-23T09:40:51Z",
+                "updated_at": "2022-08-23T21:03:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi everyone. Recently I am experiencing a problem with a local pet project using react, rtk and redux observables ONLY IN MOBILE BROWSERS (chrome, firefox etc). (desktop browsers are playing nice and easy)\r\n\r\nLets see an example:\r\n\r\n**ACTION**\r\n`const someAction = createAction('someAction')`\r\n\r\n**COMPONENT**\r\n`.....\r\nconst dispatch = useDispatch();\r\n....\r\n<button onClick={() => dispatch(someAction())}\r\n....`\r\n\r\n**EPICS**\r\n`const someActionEpic = action$ => action$.pipe(\r\nofType(someAction.type),\r\nmap(.........)\r\n)`\r\n\r\nWith this example, the epic is not triggered. Its as if the action is dispatched but the epic is not listening.\r\n\r\nIf I change the rtk setup with the old redux setup, everything is fine!!!!!!!\r\n\r\nIs there a limitation for redux-observables regarding action of rtk in mobile????\r\n\r\nThanks in advance",
+                "reactions": {
+                    "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/comments/1224883808",
+                "html_url": "https://github.com/redux-observable/redux-observable/issues/772#issuecomment-1224883808",
+                "issue_url": "https://api.github.com/repos/redux-observable/redux-observable/issues/772",
+                "id": 1224883808,
+                "node_id": "IC_kwDOA2GJKs5JAj5g",
+                "user": {
+                    "login": "jayphelps",
+                    "id": 762949,
+                    "node_id": "MDQ6VXNlcjc2Mjk0OQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/762949?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jayphelps",
+                    "html_url": "https://github.com/jayphelps",
+                    "followers_url": "https://api.github.com/users/jayphelps/followers",
+                    "following_url": "https://api.github.com/users/jayphelps/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jayphelps/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jayphelps/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jayphelps/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jayphelps/orgs",
+                    "repos_url": "https://api.github.com/users/jayphelps/repos",
+                    "events_url": "https://api.github.com/users/jayphelps/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jayphelps/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-23T21:03:00Z",
+                "updated_at": "2022-08-23T21:03:00Z",
+                "author_association": "MEMBER",
+                "body": "There are no known issues specific to mobile  or RTK. If you\u2019re able to reproduce it with a fresh project and can share that reproduction I can take a look!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/redux-observable/redux-observable/issues/comments/1224883808/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-23T21:03:00Z",
+        "org": {
+            "id": 19417071,
+            "login": "redux-observable",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/redux-observable",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19417071?"
+        }
+    }
+]

@@ -1,0 +1,377 @@
+[
+    {
+        "id": "23780158034",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "push_id": 10904457703,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/release/0.6.8",
+            "head": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
+            "before": "0795141a1c855365993354e8d5f6577bd68cb12d",
+            "commits": [
+                {
+                    "sha": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
+                    "author": {
+                        "email": "milo-bot@eclipse.org",
+                        "name": "eclipse-milo-bot"
+                    },
+                    "message": "[maven-release-plugin] prepare for next development iteration",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse/milo/commits/7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:13Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780157884",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "ref": "v0.6.8",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": " Eclipse Milo\u2122 - an open source implementation of OPC UA (IEC 62541).",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:12Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780157707",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "push_id": 10904457521,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/release/0.6.8",
+            "head": "0795141a1c855365993354e8d5f6577bd68cb12d",
+            "before": "938ed51db759872a87d98543561027b4766f2c9e",
+            "commits": [
+                {
+                    "sha": "0795141a1c855365993354e8d5f6577bd68cb12d",
+                    "author": {
+                        "email": "milo-bot@eclipse.org",
+                        "name": "eclipse-milo-bot"
+                    },
+                    "message": "[maven-release-plugin] prepare release v0.6.8",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse/milo/commits/0795141a1c855365993354e8d5f6577bd68cb12d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:11Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780158034",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "push_id": 10904457703,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/release/0.6.8",
+            "head": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
+            "before": "0795141a1c855365993354e8d5f6577bd68cb12d",
+            "commits": [
+                {
+                    "sha": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
+                    "author": {
+                        "email": "milo-bot@eclipse.org",
+                        "name": "eclipse-milo-bot"
+                    },
+                    "message": "[maven-release-plugin] prepare for next development iteration",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse/milo/commits/7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:13Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780157884",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "ref": "v0.6.8",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": " Eclipse Milo\u2122 - an open source implementation of OPC UA (IEC 62541).",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:12Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780157707",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "push_id": 10904457521,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/release/0.6.8",
+            "head": "0795141a1c855365993354e8d5f6577bd68cb12d",
+            "before": "938ed51db759872a87d98543561027b4766f2c9e",
+            "commits": [
+                {
+                    "sha": "0795141a1c855365993354e8d5f6577bd68cb12d",
+                    "author": {
+                        "email": "milo-bot@eclipse.org",
+                        "name": "eclipse-milo-bot"
+                    },
+                    "message": "[maven-release-plugin] prepare release v0.6.8",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse/milo/commits/0795141a1c855365993354e8d5f6577bd68cb12d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:11Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780158034",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "push_id": 10904457703,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/release/0.6.8",
+            "head": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
+            "before": "0795141a1c855365993354e8d5f6577bd68cb12d",
+            "commits": [
+                {
+                    "sha": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
+                    "author": {
+                        "email": "milo-bot@eclipse.org",
+                        "name": "eclipse-milo-bot"
+                    },
+                    "message": "[maven-release-plugin] prepare for next development iteration",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse/milo/commits/7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:13Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780157884",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "ref": "v0.6.8",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": " Eclipse Milo\u2122 - an open source implementation of OPC UA (IEC 62541).",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:12Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    },
+    {
+        "id": "23780157707",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48804891,
+            "login": "eclipse-milo-bot",
+            "display_login": "eclipse-milo-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/eclipse-milo-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
+        },
+        "repo": {
+            "id": 58208693,
+            "name": "eclipse/milo",
+            "url": "https://api.github.com/repos/eclipse/milo"
+        },
+        "payload": {
+            "push_id": 10904457521,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/release/0.6.8",
+            "head": "0795141a1c855365993354e8d5f6577bd68cb12d",
+            "before": "938ed51db759872a87d98543561027b4766f2c9e",
+            "commits": [
+                {
+                    "sha": "0795141a1c855365993354e8d5f6577bd68cb12d",
+                    "author": {
+                        "email": "milo-bot@eclipse.org",
+                        "name": "eclipse-milo-bot"
+                    },
+                    "message": "[maven-release-plugin] prepare release v0.6.8",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/eclipse/milo/commits/0795141a1c855365993354e8d5f6577bd68cb12d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-02T03:14:11Z",
+        "org": {
+            "id": 56974,
+            "login": "eclipse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/eclipse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
+        }
+    }
+]

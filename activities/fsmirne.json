@@ -1,0 +1,2381 @@
+[
+    {
+        "id": "24801866218",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 327398568,
+            "name": "QuestPDF/QuestPDF-ExampleInvoice",
+            "url": "https://api.github.com/repos/QuestPDF/QuestPDF-ExampleInvoice"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-24T22:39:08Z",
+        "org": {
+            "id": 73763469,
+            "login": "QuestPDF",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/QuestPDF",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73763469?"
+        }
+    },
+    {
+        "id": "24755187694",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 525118601,
+            "name": "fsmirne/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal"
+        },
+        "payload": {
+            "push_id": 11409637914,
+            "size": 118,
+            "distinct_size": 118,
+            "ref": "refs/heads/main",
+            "head": "dcc6dcd9bea4a0064010cfbb665c99282ad31fd3",
+            "before": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+            "commits": [
+                {
+                    "sha": "9768767b17a8dc6d7cbab74f8c62439421e087b8",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Multi-threaded download with aria2\n\nClose #24",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9768767b17a8dc6d7cbab74f8c62439421e087b8"
+                },
+                {
+                    "sha": "89f23006de51a9eda68f84cd8011d4fcf2c0448c",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Fixed some text\n\nOpenG \"A \"pps, etc.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/89f23006de51a9eda68f84cd8011d4fcf2c0448c"
+                },
+                {
+                    "sha": "08638400bdbd244f3040b31c4c66f98fbbe2d2ba",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix some missing strings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/08638400bdbd244f3040b31c4c66f98fbbe2d2ba"
+                },
+                {
+                    "sha": "08e84dddd4e04aa93cb5d485eca11403f9c0d292",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #37 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/08e84dddd4e04aa93cb5d485eca11403f9c0d292"
+                },
+                {
+                    "sha": "e5b9f3b9e3f4adecd76de22957d7604ef4890387",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Some permissions are pre-set to remove warnings before copying.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e5b9f3b9e3f4adecd76de22957d7604ef4890387"
+                },
+                {
+                    "sha": "5c59ac539cdcf0621af87f8b539eba665082e87a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix MindTheGapps build",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/5c59ac539cdcf0621af87f8b539eba665082e87a"
+                },
+                {
+                    "sha": "3fb9ef1e773e5b8979bea80ecdd7b79bddf52e1c",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Fix some strings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/3fb9ef1e773e5b8979bea80ecdd7b79bddf52e1c"
+                },
+                {
+                    "sha": "614d105e23b92d105a7c6ac2b9921d38af602456",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #40 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/614d105e23b92d105a7c6ac2b9921d38af602456"
+                },
+                {
+                    "sha": "111fd20c1811a7ec42cb3a20204120e2a9d4f6e2",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Rewrite Integrate GApps",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/111fd20c1811a7ec42cb3a20204120e2a9d4f6e2"
+                },
+                {
+                    "sha": "cd138840d897d41d1d0b7ab3a16a1d08f2761b2a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/cd138840d897d41d1d0b7ab3a16a1d08f2761b2a"
+                },
+                {
+                    "sha": "b996fda4760d5cc52c6b73ec987f8d565d5911af",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/b996fda4760d5cc52c6b73ec987f8d565d5911af"
+                },
+                {
+                    "sha": "f6a348a59637d4e227b1b14af8f25a56ef7ba6fa",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Download on demand\n\nDelete only when files are corrupted\nDownload only when a new version of a file is available\nclose #39",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/f6a348a59637d4e227b1b14af8f25a56ef7ba6fa"
+                },
+                {
+                    "sha": "38373a5945af0dc52868247dbc136a37da527b8c",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Minor Changes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/38373a5945af0dc52868247dbc136a37da527b8c"
+                },
+                {
+                    "sha": "312dfd680c7c57b62baac49b2fe1d653dd5bfef9",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update artifact name",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/312dfd680c7c57b62baac49b2fe1d653dd5bfef9"
+                },
+                {
+                    "sha": "96f25dc7874cb3fc62ec959b4bcb7cd21bd7102b",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #41 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/96f25dc7874cb3fc62ec959b4bcb7cd21bd7102b"
+                },
+                {
+                    "sha": "a3c9842d68fd2840a5fc949e9cd9abe01b99ee91",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix Magisk file path error.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/a3c9842d68fd2840a5fc949e9cd9abe01b99ee91"
+                },
+                {
+                    "sha": "259400452cccc369d0b4065eff54e430763208f0",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Add an easy way to skip OpenGApps variant locking\n\nNow all but the pico variant will bootloops.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/259400452cccc369d0b4065eff54e430763208f0"
+                },
+                {
+                    "sha": "646417b9da6049e97497df8d5e657f94df76b340",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Show OpenGApps variant warning message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/646417b9da6049e97497df8d5e657f94df76b340"
+                },
+                {
+                    "sha": "bc4664ded8cff07cbbbd62e0310e834502943b95",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Easy way to install self-build Magisk.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/bc4664ded8cff07cbbbd62e0310e834502943b95"
+                },
+                {
+                    "sha": "4e0aca05bd43d0020ce29e1fabe3eb68811cce6f",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Implement cli",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4e0aca05bd43d0020ce29e1fabe3eb68811cce6f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-21T17:00:19Z"
+    },
+    {
+        "id": "23592371440",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 525118601,
+            "name": "fsmirne/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal"
+        },
+        "payload": {
+            "push_id": 10809343752,
+            "size": 18,
+            "distinct_size": 18,
+            "ref": "refs/heads/main",
+            "head": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+            "before": "04da6f240657ef97ece5a31412ed50935ca40f47",
+            "commits": [
+                {
+                    "sha": "3fb48840f587c64ce4de9997c2b0606d5f994aff",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix permissions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/3fb48840f587c64ce4de9997c2b0606d5f994aff"
+                },
+                {
+                    "sha": "b57fe04095e2fc34d3458aeb097b3974ff02e45e",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update .gitattributes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/b57fe04095e2fc34d3458aeb097b3974ff02e45e"
+                },
+                {
+                    "sha": "ac410b3f6c5fda3035a1f9efa9c93b32447d2bbf",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Changing file permissions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/ac410b3f6c5fda3035a1f9efa9c93b32447d2bbf"
+                },
+                {
+                    "sha": "a0e09aa7742c802ce13a0518c5d1c0ebddf9a94b",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Warning if not run in bash",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/a0e09aa7742c802ce13a0518c5d1c0ebddf9a94b"
+                },
+                {
+                    "sha": "88cab1de9edbfff693b93fbc6a71def20b125621",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Exit when an error is encountered",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/88cab1de9edbfff693b93fbc6a71def20b125621"
+                },
+                {
+                    "sha": "e180b3a3efd718f6647363788861a132d85f5a19",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #11",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e180b3a3efd718f6647363788861a132d85f5a19"
+                },
+                {
+                    "sha": "fec3e7649fa129f382704138d8d781a95cf172a8",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Speed up the build\n\nChange work directory to `/tmp`\nUnmount partition before cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/fec3e7649fa129f382704138d8d781a95cf172a8"
+                },
+                {
+                    "sha": "4c2fb756f7b645fc415dca08f7573d7a44d286d0",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "WSA already starts `logd` at `on init`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4c2fb756f7b645fc415dca08f7573d7a44d286d0"
+                },
+                {
+                    "sha": "289088134cc0087a2fde6aa1d93745aabc8e8c36",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #19",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/289088134cc0087a2fde6aa1d93745aabc8e8c36"
+                },
+                {
+                    "sha": "29d55d7a655485ec3376bdbd8d6f7f7dabcbb5cf",
+                    "author": {
+                        "email": "59087068+alex-sandro92@users.noreply.github.com",
+                        "name": "Alessandro"
+                    },
+                    "message": "Update extractWSA.py",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/29d55d7a655485ec3376bdbd8d6f7f7dabcbb5cf"
+                },
+                {
+                    "sha": "9817f89a942df106c886980045341a61e383eac8",
+                    "author": {
+                        "email": "59087068+alex-sandro92@users.noreply.github.com",
+                        "name": "Alessandro"
+                    },
+                    "message": "Update run.sh",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9817f89a942df106c886980045341a61e383eac8"
+                },
+                {
+                    "sha": "9117ee91d14a4b12ff3323466d367fc13219e3cd",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #28",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9117ee91d14a4b12ff3323466d367fc13219e3cd"
+                },
+                {
+                    "sha": "efff5046e45cba3ece42803dee60d7ff3a227e9a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #28 from alex-sandro92/FriendlyOutput",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/efff5046e45cba3ece42803dee60d7ff3a227e9a"
+                },
+                {
+                    "sha": "95003e88e63ff6a9aa5e4648ba86d5995cd4e6c6",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Handle unexpected exit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/95003e88e63ff6a9aa5e4648ba86d5995cd4e6c6"
+                },
+                {
+                    "sha": "e13b05c68ca596131e101133de4514cb0d26d0d4",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix normal exit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e13b05c68ca596131e101133de4514cb0d26d0d4"
+                },
+                {
+                    "sha": "4a932186a143755065cac03d2329f26dba2f24f2",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #30",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4a932186a143755065cac03d2329f26dba2f24f2"
+                },
+                {
+                    "sha": "f2b05674dc499b9d20b7d7c8edea970edc0e91f7",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update Permissions\n\nWindows gives a very bad habit: not checking the permissions of executable files.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/f2b05674dc499b9d20b7d7c8edea970edc0e91f7"
+                },
+                {
+                    "sha": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #32",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9905925e641a47ee2cbec4fda146e37f3662d8f5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-23T16:11:26Z"
+    },
+    {
+        "id": "23592231444",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 524596709,
+            "name": "LSPosed/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSALocal"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-23T16:04:48Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23446095027",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 524596709,
+            "name": "LSPosed/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSALocal"
+        },
+        "payload": {
+            "forkee": {
+                "id": 525118601,
+                "node_id": "R_kgDOH0ysiQ",
+                "name": "MagiskOnWSALocal",
+                "full_name": "fsmirne/MagiskOnWSALocal",
+                "private": false,
+                "owner": {
+                    "login": "fsmirne",
+                    "id": 2401859,
+                    "node_id": "MDQ6VXNlcjI0MDE4NTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2401859?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fsmirne",
+                    "html_url": "https://github.com/fsmirne",
+                    "followers_url": "https://api.github.com/users/fsmirne/followers",
+                    "following_url": "https://api.github.com/users/fsmirne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fsmirne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fsmirne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fsmirne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fsmirne/orgs",
+                    "repos_url": "https://api.github.com/users/fsmirne/repos",
+                    "events_url": "https://api.github.com/users/fsmirne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fsmirne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/fsmirne/MagiskOnWSALocal",
+                "description": null,
+                "fork": true,
+                "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal",
+                "forks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/forks",
+                "keys_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/teams",
+                "hooks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/hooks",
+                "issue_events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/events",
+                "assignees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/tags",
+                "blobs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/languages",
+                "stargazers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/stargazers",
+                "contributors_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/contributors",
+                "subscribers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/subscribers",
+                "subscription_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/subscription",
+                "commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/merges",
+                "archive_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/downloads",
+                "issues_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/labels{/name}",
+                "releases_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/deployments",
+                "created_at": "2022-08-15T19:48:33Z",
+                "updated_at": "2022-08-15T19:44:07Z",
+                "pushed_at": "2022-08-15T14:47:52Z",
+                "git_url": "git://github.com/fsmirne/MagiskOnWSALocal.git",
+                "ssh_url": "git@github.com:fsmirne/MagiskOnWSALocal.git",
+                "clone_url": "https://github.com/fsmirne/MagiskOnWSALocal.git",
+                "svn_url": "https://github.com/fsmirne/MagiskOnWSALocal",
+                "homepage": null,
+                "size": 22386,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "agpl-3.0",
+                    "name": "GNU Affero General Public License v3.0",
+                    "spdx_id": "AGPL-3.0",
+                    "url": "https://api.github.com/licenses/agpl-3.0",
+                    "node_id": "MDc6TGljZW5zZTE="
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-15T19:48:34Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23411477841",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 421357495,
+            "name": "LSPosed/MagiskOnWSA",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSA"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T18:03:01Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23411271323",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 421357495,
+            "name": "LSPosed/MagiskOnWSA",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSA"
+        },
+        "payload": {
+            "forkee": {
+                "id": 524177557,
+                "node_id": "R_kgDOHz5QlQ",
+                "name": "MagiskOnWSA",
+                "full_name": "fsmirne/MagiskOnWSA",
+                "private": false,
+                "owner": {
+                    "login": "fsmirne",
+                    "id": 2401859,
+                    "node_id": "MDQ6VXNlcjI0MDE4NTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2401859?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fsmirne",
+                    "html_url": "https://github.com/fsmirne",
+                    "followers_url": "https://api.github.com/users/fsmirne/followers",
+                    "following_url": "https://api.github.com/users/fsmirne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fsmirne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fsmirne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fsmirne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fsmirne/orgs",
+                    "repos_url": "https://api.github.com/users/fsmirne/repos",
+                    "events_url": "https://api.github.com/users/fsmirne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fsmirne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/fsmirne/MagiskOnWSA",
+                "description": "Integrate Magisk root and Google Apps (OpenGApps) into WSA (Windows Subsystem for Android)",
+                "fork": true,
+                "url": "https://api.github.com/repos/fsmirne/MagiskOnWSA",
+                "forks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/forks",
+                "keys_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/teams",
+                "hooks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/hooks",
+                "issue_events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/events",
+                "assignees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/tags",
+                "blobs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/languages",
+                "stargazers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/stargazers",
+                "contributors_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/contributors",
+                "subscribers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/subscribers",
+                "subscription_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/subscription",
+                "commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/merges",
+                "archive_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/downloads",
+                "issues_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/labels{/name}",
+                "releases_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/deployments",
+                "created_at": "2022-08-12T17:49:10Z",
+                "updated_at": "2022-08-12T17:29:38Z",
+                "pushed_at": "2022-08-12T03:46:56Z",
+                "git_url": "git://github.com/fsmirne/MagiskOnWSA.git",
+                "ssh_url": "git@github.com:fsmirne/MagiskOnWSA.git",
+                "clone_url": "https://github.com/fsmirne/MagiskOnWSA.git",
+                "svn_url": "https://github.com/fsmirne/MagiskOnWSA",
+                "homepage": "",
+                "size": 21963,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "agpl-3.0",
+                    "name": "GNU Affero General Public License v3.0",
+                    "spdx_id": "AGPL-3.0",
+                    "url": "https://api.github.com/licenses/agpl-3.0",
+                    "node_id": "MDc6TGljZW5zZTE="
+                },
+                "allow_forking": true,
+                "is_template": true,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-12T17:49:11Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "24801866218",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 327398568,
+            "name": "QuestPDF/QuestPDF-ExampleInvoice",
+            "url": "https://api.github.com/repos/QuestPDF/QuestPDF-ExampleInvoice"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-24T22:39:08Z",
+        "org": {
+            "id": 73763469,
+            "login": "QuestPDF",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/QuestPDF",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73763469?"
+        }
+    },
+    {
+        "id": "24755187694",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 525118601,
+            "name": "fsmirne/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal"
+        },
+        "payload": {
+            "push_id": 11409637914,
+            "size": 118,
+            "distinct_size": 118,
+            "ref": "refs/heads/main",
+            "head": "dcc6dcd9bea4a0064010cfbb665c99282ad31fd3",
+            "before": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+            "commits": [
+                {
+                    "sha": "9768767b17a8dc6d7cbab74f8c62439421e087b8",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Multi-threaded download with aria2\n\nClose #24",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9768767b17a8dc6d7cbab74f8c62439421e087b8"
+                },
+                {
+                    "sha": "89f23006de51a9eda68f84cd8011d4fcf2c0448c",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Fixed some text\n\nOpenG \"A \"pps, etc.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/89f23006de51a9eda68f84cd8011d4fcf2c0448c"
+                },
+                {
+                    "sha": "08638400bdbd244f3040b31c4c66f98fbbe2d2ba",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix some missing strings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/08638400bdbd244f3040b31c4c66f98fbbe2d2ba"
+                },
+                {
+                    "sha": "08e84dddd4e04aa93cb5d485eca11403f9c0d292",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #37 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/08e84dddd4e04aa93cb5d485eca11403f9c0d292"
+                },
+                {
+                    "sha": "e5b9f3b9e3f4adecd76de22957d7604ef4890387",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Some permissions are pre-set to remove warnings before copying.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e5b9f3b9e3f4adecd76de22957d7604ef4890387"
+                },
+                {
+                    "sha": "5c59ac539cdcf0621af87f8b539eba665082e87a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix MindTheGapps build",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/5c59ac539cdcf0621af87f8b539eba665082e87a"
+                },
+                {
+                    "sha": "3fb9ef1e773e5b8979bea80ecdd7b79bddf52e1c",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Fix some strings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/3fb9ef1e773e5b8979bea80ecdd7b79bddf52e1c"
+                },
+                {
+                    "sha": "614d105e23b92d105a7c6ac2b9921d38af602456",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #40 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/614d105e23b92d105a7c6ac2b9921d38af602456"
+                },
+                {
+                    "sha": "111fd20c1811a7ec42cb3a20204120e2a9d4f6e2",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Rewrite Integrate GApps",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/111fd20c1811a7ec42cb3a20204120e2a9d4f6e2"
+                },
+                {
+                    "sha": "cd138840d897d41d1d0b7ab3a16a1d08f2761b2a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/cd138840d897d41d1d0b7ab3a16a1d08f2761b2a"
+                },
+                {
+                    "sha": "b996fda4760d5cc52c6b73ec987f8d565d5911af",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/b996fda4760d5cc52c6b73ec987f8d565d5911af"
+                },
+                {
+                    "sha": "f6a348a59637d4e227b1b14af8f25a56ef7ba6fa",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Download on demand\n\nDelete only when files are corrupted\nDownload only when a new version of a file is available\nclose #39",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/f6a348a59637d4e227b1b14af8f25a56ef7ba6fa"
+                },
+                {
+                    "sha": "38373a5945af0dc52868247dbc136a37da527b8c",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Minor Changes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/38373a5945af0dc52868247dbc136a37da527b8c"
+                },
+                {
+                    "sha": "312dfd680c7c57b62baac49b2fe1d653dd5bfef9",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update artifact name",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/312dfd680c7c57b62baac49b2fe1d653dd5bfef9"
+                },
+                {
+                    "sha": "96f25dc7874cb3fc62ec959b4bcb7cd21bd7102b",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #41 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/96f25dc7874cb3fc62ec959b4bcb7cd21bd7102b"
+                },
+                {
+                    "sha": "a3c9842d68fd2840a5fc949e9cd9abe01b99ee91",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix Magisk file path error.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/a3c9842d68fd2840a5fc949e9cd9abe01b99ee91"
+                },
+                {
+                    "sha": "259400452cccc369d0b4065eff54e430763208f0",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Add an easy way to skip OpenGApps variant locking\n\nNow all but the pico variant will bootloops.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/259400452cccc369d0b4065eff54e430763208f0"
+                },
+                {
+                    "sha": "646417b9da6049e97497df8d5e657f94df76b340",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Show OpenGApps variant warning message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/646417b9da6049e97497df8d5e657f94df76b340"
+                },
+                {
+                    "sha": "bc4664ded8cff07cbbbd62e0310e834502943b95",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Easy way to install self-build Magisk.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/bc4664ded8cff07cbbbd62e0310e834502943b95"
+                },
+                {
+                    "sha": "4e0aca05bd43d0020ce29e1fabe3eb68811cce6f",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Implement cli",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4e0aca05bd43d0020ce29e1fabe3eb68811cce6f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-21T17:00:19Z"
+    },
+    {
+        "id": "23592371440",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 525118601,
+            "name": "fsmirne/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal"
+        },
+        "payload": {
+            "push_id": 10809343752,
+            "size": 18,
+            "distinct_size": 18,
+            "ref": "refs/heads/main",
+            "head": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+            "before": "04da6f240657ef97ece5a31412ed50935ca40f47",
+            "commits": [
+                {
+                    "sha": "3fb48840f587c64ce4de9997c2b0606d5f994aff",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix permissions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/3fb48840f587c64ce4de9997c2b0606d5f994aff"
+                },
+                {
+                    "sha": "b57fe04095e2fc34d3458aeb097b3974ff02e45e",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update .gitattributes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/b57fe04095e2fc34d3458aeb097b3974ff02e45e"
+                },
+                {
+                    "sha": "ac410b3f6c5fda3035a1f9efa9c93b32447d2bbf",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Changing file permissions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/ac410b3f6c5fda3035a1f9efa9c93b32447d2bbf"
+                },
+                {
+                    "sha": "a0e09aa7742c802ce13a0518c5d1c0ebddf9a94b",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Warning if not run in bash",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/a0e09aa7742c802ce13a0518c5d1c0ebddf9a94b"
+                },
+                {
+                    "sha": "88cab1de9edbfff693b93fbc6a71def20b125621",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Exit when an error is encountered",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/88cab1de9edbfff693b93fbc6a71def20b125621"
+                },
+                {
+                    "sha": "e180b3a3efd718f6647363788861a132d85f5a19",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #11",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e180b3a3efd718f6647363788861a132d85f5a19"
+                },
+                {
+                    "sha": "fec3e7649fa129f382704138d8d781a95cf172a8",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Speed up the build\n\nChange work directory to `/tmp`\nUnmount partition before cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/fec3e7649fa129f382704138d8d781a95cf172a8"
+                },
+                {
+                    "sha": "4c2fb756f7b645fc415dca08f7573d7a44d286d0",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "WSA already starts `logd` at `on init`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4c2fb756f7b645fc415dca08f7573d7a44d286d0"
+                },
+                {
+                    "sha": "289088134cc0087a2fde6aa1d93745aabc8e8c36",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #19",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/289088134cc0087a2fde6aa1d93745aabc8e8c36"
+                },
+                {
+                    "sha": "29d55d7a655485ec3376bdbd8d6f7f7dabcbb5cf",
+                    "author": {
+                        "email": "59087068+alex-sandro92@users.noreply.github.com",
+                        "name": "Alessandro"
+                    },
+                    "message": "Update extractWSA.py",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/29d55d7a655485ec3376bdbd8d6f7f7dabcbb5cf"
+                },
+                {
+                    "sha": "9817f89a942df106c886980045341a61e383eac8",
+                    "author": {
+                        "email": "59087068+alex-sandro92@users.noreply.github.com",
+                        "name": "Alessandro"
+                    },
+                    "message": "Update run.sh",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9817f89a942df106c886980045341a61e383eac8"
+                },
+                {
+                    "sha": "9117ee91d14a4b12ff3323466d367fc13219e3cd",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #28",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9117ee91d14a4b12ff3323466d367fc13219e3cd"
+                },
+                {
+                    "sha": "efff5046e45cba3ece42803dee60d7ff3a227e9a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #28 from alex-sandro92/FriendlyOutput",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/efff5046e45cba3ece42803dee60d7ff3a227e9a"
+                },
+                {
+                    "sha": "95003e88e63ff6a9aa5e4648ba86d5995cd4e6c6",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Handle unexpected exit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/95003e88e63ff6a9aa5e4648ba86d5995cd4e6c6"
+                },
+                {
+                    "sha": "e13b05c68ca596131e101133de4514cb0d26d0d4",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix normal exit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e13b05c68ca596131e101133de4514cb0d26d0d4"
+                },
+                {
+                    "sha": "4a932186a143755065cac03d2329f26dba2f24f2",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #30",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4a932186a143755065cac03d2329f26dba2f24f2"
+                },
+                {
+                    "sha": "f2b05674dc499b9d20b7d7c8edea970edc0e91f7",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update Permissions\n\nWindows gives a very bad habit: not checking the permissions of executable files.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/f2b05674dc499b9d20b7d7c8edea970edc0e91f7"
+                },
+                {
+                    "sha": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #32",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9905925e641a47ee2cbec4fda146e37f3662d8f5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-23T16:11:26Z"
+    },
+    {
+        "id": "23592231444",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 524596709,
+            "name": "LSPosed/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSALocal"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-23T16:04:48Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23446095027",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 524596709,
+            "name": "LSPosed/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSALocal"
+        },
+        "payload": {
+            "forkee": {
+                "id": 525118601,
+                "node_id": "R_kgDOH0ysiQ",
+                "name": "MagiskOnWSALocal",
+                "full_name": "fsmirne/MagiskOnWSALocal",
+                "private": false,
+                "owner": {
+                    "login": "fsmirne",
+                    "id": 2401859,
+                    "node_id": "MDQ6VXNlcjI0MDE4NTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2401859?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fsmirne",
+                    "html_url": "https://github.com/fsmirne",
+                    "followers_url": "https://api.github.com/users/fsmirne/followers",
+                    "following_url": "https://api.github.com/users/fsmirne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fsmirne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fsmirne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fsmirne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fsmirne/orgs",
+                    "repos_url": "https://api.github.com/users/fsmirne/repos",
+                    "events_url": "https://api.github.com/users/fsmirne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fsmirne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/fsmirne/MagiskOnWSALocal",
+                "description": null,
+                "fork": true,
+                "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal",
+                "forks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/forks",
+                "keys_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/teams",
+                "hooks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/hooks",
+                "issue_events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/events",
+                "assignees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/tags",
+                "blobs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/languages",
+                "stargazers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/stargazers",
+                "contributors_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/contributors",
+                "subscribers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/subscribers",
+                "subscription_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/subscription",
+                "commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/merges",
+                "archive_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/downloads",
+                "issues_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/labels{/name}",
+                "releases_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/deployments",
+                "created_at": "2022-08-15T19:48:33Z",
+                "updated_at": "2022-08-15T19:44:07Z",
+                "pushed_at": "2022-08-15T14:47:52Z",
+                "git_url": "git://github.com/fsmirne/MagiskOnWSALocal.git",
+                "ssh_url": "git@github.com:fsmirne/MagiskOnWSALocal.git",
+                "clone_url": "https://github.com/fsmirne/MagiskOnWSALocal.git",
+                "svn_url": "https://github.com/fsmirne/MagiskOnWSALocal",
+                "homepage": null,
+                "size": 22386,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "agpl-3.0",
+                    "name": "GNU Affero General Public License v3.0",
+                    "spdx_id": "AGPL-3.0",
+                    "url": "https://api.github.com/licenses/agpl-3.0",
+                    "node_id": "MDc6TGljZW5zZTE="
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-15T19:48:34Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23411477841",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 421357495,
+            "name": "LSPosed/MagiskOnWSA",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSA"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T18:03:01Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23411271323",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 421357495,
+            "name": "LSPosed/MagiskOnWSA",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSA"
+        },
+        "payload": {
+            "forkee": {
+                "id": 524177557,
+                "node_id": "R_kgDOHz5QlQ",
+                "name": "MagiskOnWSA",
+                "full_name": "fsmirne/MagiskOnWSA",
+                "private": false,
+                "owner": {
+                    "login": "fsmirne",
+                    "id": 2401859,
+                    "node_id": "MDQ6VXNlcjI0MDE4NTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2401859?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fsmirne",
+                    "html_url": "https://github.com/fsmirne",
+                    "followers_url": "https://api.github.com/users/fsmirne/followers",
+                    "following_url": "https://api.github.com/users/fsmirne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fsmirne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fsmirne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fsmirne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fsmirne/orgs",
+                    "repos_url": "https://api.github.com/users/fsmirne/repos",
+                    "events_url": "https://api.github.com/users/fsmirne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fsmirne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/fsmirne/MagiskOnWSA",
+                "description": "Integrate Magisk root and Google Apps (OpenGApps) into WSA (Windows Subsystem for Android)",
+                "fork": true,
+                "url": "https://api.github.com/repos/fsmirne/MagiskOnWSA",
+                "forks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/forks",
+                "keys_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/teams",
+                "hooks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/hooks",
+                "issue_events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/events",
+                "assignees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/tags",
+                "blobs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/languages",
+                "stargazers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/stargazers",
+                "contributors_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/contributors",
+                "subscribers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/subscribers",
+                "subscription_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/subscription",
+                "commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/merges",
+                "archive_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/downloads",
+                "issues_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/labels{/name}",
+                "releases_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/deployments",
+                "created_at": "2022-08-12T17:49:10Z",
+                "updated_at": "2022-08-12T17:29:38Z",
+                "pushed_at": "2022-08-12T03:46:56Z",
+                "git_url": "git://github.com/fsmirne/MagiskOnWSA.git",
+                "ssh_url": "git@github.com:fsmirne/MagiskOnWSA.git",
+                "clone_url": "https://github.com/fsmirne/MagiskOnWSA.git",
+                "svn_url": "https://github.com/fsmirne/MagiskOnWSA",
+                "homepage": "",
+                "size": 21963,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "agpl-3.0",
+                    "name": "GNU Affero General Public License v3.0",
+                    "spdx_id": "AGPL-3.0",
+                    "url": "https://api.github.com/licenses/agpl-3.0",
+                    "node_id": "MDc6TGljZW5zZTE="
+                },
+                "allow_forking": true,
+                "is_template": true,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-12T17:49:11Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "24801866218",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 327398568,
+            "name": "QuestPDF/QuestPDF-ExampleInvoice",
+            "url": "https://api.github.com/repos/QuestPDF/QuestPDF-ExampleInvoice"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-24T22:39:08Z",
+        "org": {
+            "id": 73763469,
+            "login": "QuestPDF",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/QuestPDF",
+            "avatar_url": "https://avatars.githubusercontent.com/u/73763469?"
+        }
+    },
+    {
+        "id": "24755187694",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 525118601,
+            "name": "fsmirne/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal"
+        },
+        "payload": {
+            "push_id": 11409637914,
+            "size": 118,
+            "distinct_size": 118,
+            "ref": "refs/heads/main",
+            "head": "dcc6dcd9bea4a0064010cfbb665c99282ad31fd3",
+            "before": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+            "commits": [
+                {
+                    "sha": "9768767b17a8dc6d7cbab74f8c62439421e087b8",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Multi-threaded download with aria2\n\nClose #24",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9768767b17a8dc6d7cbab74f8c62439421e087b8"
+                },
+                {
+                    "sha": "89f23006de51a9eda68f84cd8011d4fcf2c0448c",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Fixed some text\n\nOpenG \"A \"pps, etc.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/89f23006de51a9eda68f84cd8011d4fcf2c0448c"
+                },
+                {
+                    "sha": "08638400bdbd244f3040b31c4c66f98fbbe2d2ba",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix some missing strings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/08638400bdbd244f3040b31c4c66f98fbbe2d2ba"
+                },
+                {
+                    "sha": "08e84dddd4e04aa93cb5d485eca11403f9c0d292",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #37 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/08e84dddd4e04aa93cb5d485eca11403f9c0d292"
+                },
+                {
+                    "sha": "e5b9f3b9e3f4adecd76de22957d7604ef4890387",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Some permissions are pre-set to remove warnings before copying.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e5b9f3b9e3f4adecd76de22957d7604ef4890387"
+                },
+                {
+                    "sha": "5c59ac539cdcf0621af87f8b539eba665082e87a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix MindTheGapps build",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/5c59ac539cdcf0621af87f8b539eba665082e87a"
+                },
+                {
+                    "sha": "3fb9ef1e773e5b8979bea80ecdd7b79bddf52e1c",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Fix some strings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/3fb9ef1e773e5b8979bea80ecdd7b79bddf52e1c"
+                },
+                {
+                    "sha": "614d105e23b92d105a7c6ac2b9921d38af602456",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #40 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/614d105e23b92d105a7c6ac2b9921d38af602456"
+                },
+                {
+                    "sha": "111fd20c1811a7ec42cb3a20204120e2a9d4f6e2",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Rewrite Integrate GApps",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/111fd20c1811a7ec42cb3a20204120e2a9d4f6e2"
+                },
+                {
+                    "sha": "cd138840d897d41d1d0b7ab3a16a1d08f2761b2a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/cd138840d897d41d1d0b7ab3a16a1d08f2761b2a"
+                },
+                {
+                    "sha": "b996fda4760d5cc52c6b73ec987f8d565d5911af",
+                    "author": {
+                        "email": "pub@s1204.me",
+                        "name": "Syuugo"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/b996fda4760d5cc52c6b73ec987f8d565d5911af"
+                },
+                {
+                    "sha": "f6a348a59637d4e227b1b14af8f25a56ef7ba6fa",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Download on demand\n\nDelete only when files are corrupted\nDownload only when a new version of a file is available\nclose #39",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/f6a348a59637d4e227b1b14af8f25a56ef7ba6fa"
+                },
+                {
+                    "sha": "38373a5945af0dc52868247dbc136a37da527b8c",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Minor Changes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/38373a5945af0dc52868247dbc136a37da527b8c"
+                },
+                {
+                    "sha": "312dfd680c7c57b62baac49b2fe1d653dd5bfef9",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update artifact name",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/312dfd680c7c57b62baac49b2fe1d653dd5bfef9"
+                },
+                {
+                    "sha": "96f25dc7874cb3fc62ec959b4bcb7cd21bd7102b",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #41 from s1204IT/main",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/96f25dc7874cb3fc62ec959b4bcb7cd21bd7102b"
+                },
+                {
+                    "sha": "a3c9842d68fd2840a5fc949e9cd9abe01b99ee91",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix Magisk file path error.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/a3c9842d68fd2840a5fc949e9cd9abe01b99ee91"
+                },
+                {
+                    "sha": "259400452cccc369d0b4065eff54e430763208f0",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Add an easy way to skip OpenGApps variant locking\n\nNow all but the pico variant will bootloops.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/259400452cccc369d0b4065eff54e430763208f0"
+                },
+                {
+                    "sha": "646417b9da6049e97497df8d5e657f94df76b340",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Show OpenGApps variant warning message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/646417b9da6049e97497df8d5e657f94df76b340"
+                },
+                {
+                    "sha": "bc4664ded8cff07cbbbd62e0310e834502943b95",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Easy way to install self-build Magisk.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/bc4664ded8cff07cbbbd62e0310e834502943b95"
+                },
+                {
+                    "sha": "4e0aca05bd43d0020ce29e1fabe3eb68811cce6f",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Implement cli",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4e0aca05bd43d0020ce29e1fabe3eb68811cce6f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-21T17:00:19Z"
+    },
+    {
+        "id": "23592371440",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 525118601,
+            "name": "fsmirne/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal"
+        },
+        "payload": {
+            "push_id": 10809343752,
+            "size": 18,
+            "distinct_size": 18,
+            "ref": "refs/heads/main",
+            "head": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+            "before": "04da6f240657ef97ece5a31412ed50935ca40f47",
+            "commits": [
+                {
+                    "sha": "3fb48840f587c64ce4de9997c2b0606d5f994aff",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix permissions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/3fb48840f587c64ce4de9997c2b0606d5f994aff"
+                },
+                {
+                    "sha": "b57fe04095e2fc34d3458aeb097b3974ff02e45e",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update .gitattributes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/b57fe04095e2fc34d3458aeb097b3974ff02e45e"
+                },
+                {
+                    "sha": "ac410b3f6c5fda3035a1f9efa9c93b32447d2bbf",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Changing file permissions",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/ac410b3f6c5fda3035a1f9efa9c93b32447d2bbf"
+                },
+                {
+                    "sha": "a0e09aa7742c802ce13a0518c5d1c0ebddf9a94b",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Warning if not run in bash",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/a0e09aa7742c802ce13a0518c5d1c0ebddf9a94b"
+                },
+                {
+                    "sha": "88cab1de9edbfff693b93fbc6a71def20b125621",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Exit when an error is encountered",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/88cab1de9edbfff693b93fbc6a71def20b125621"
+                },
+                {
+                    "sha": "e180b3a3efd718f6647363788861a132d85f5a19",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #11",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e180b3a3efd718f6647363788861a132d85f5a19"
+                },
+                {
+                    "sha": "fec3e7649fa129f382704138d8d781a95cf172a8",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Speed up the build\n\nChange work directory to `/tmp`\nUnmount partition before cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/fec3e7649fa129f382704138d8d781a95cf172a8"
+                },
+                {
+                    "sha": "4c2fb756f7b645fc415dca08f7573d7a44d286d0",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "WSA already starts `logd` at `on init`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4c2fb756f7b645fc415dca08f7573d7a44d286d0"
+                },
+                {
+                    "sha": "289088134cc0087a2fde6aa1d93745aabc8e8c36",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #19",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/289088134cc0087a2fde6aa1d93745aabc8e8c36"
+                },
+                {
+                    "sha": "29d55d7a655485ec3376bdbd8d6f7f7dabcbb5cf",
+                    "author": {
+                        "email": "59087068+alex-sandro92@users.noreply.github.com",
+                        "name": "Alessandro"
+                    },
+                    "message": "Update extractWSA.py",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/29d55d7a655485ec3376bdbd8d6f7f7dabcbb5cf"
+                },
+                {
+                    "sha": "9817f89a942df106c886980045341a61e383eac8",
+                    "author": {
+                        "email": "59087068+alex-sandro92@users.noreply.github.com",
+                        "name": "Alessandro"
+                    },
+                    "message": "Update run.sh",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9817f89a942df106c886980045341a61e383eac8"
+                },
+                {
+                    "sha": "9117ee91d14a4b12ff3323466d367fc13219e3cd",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #28",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9117ee91d14a4b12ff3323466d367fc13219e3cd"
+                },
+                {
+                    "sha": "efff5046e45cba3ece42803dee60d7ff3a227e9a",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard Wu"
+                    },
+                    "message": "Merge pull request #28 from alex-sandro92/FriendlyOutput",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/efff5046e45cba3ece42803dee60d7ff3a227e9a"
+                },
+                {
+                    "sha": "95003e88e63ff6a9aa5e4648ba86d5995cd4e6c6",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Handle unexpected exit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/95003e88e63ff6a9aa5e4648ba86d5995cd4e6c6"
+                },
+                {
+                    "sha": "e13b05c68ca596131e101133de4514cb0d26d0d4",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Fix normal exit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/e13b05c68ca596131e101133de4514cb0d26d0d4"
+                },
+                {
+                    "sha": "4a932186a143755065cac03d2329f26dba2f24f2",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #30",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/4a932186a143755065cac03d2329f26dba2f24f2"
+                },
+                {
+                    "sha": "f2b05674dc499b9d20b7d7c8edea970edc0e91f7",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "Update Permissions\n\nWindows gives a very bad habit: not checking the permissions of executable files.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/f2b05674dc499b9d20b7d7c8edea970edc0e91f7"
+                },
+                {
+                    "sha": "9905925e641a47ee2cbec4fda146e37f3662d8f5",
+                    "author": {
+                        "email": "40033067+Howard20181@users.noreply.github.com",
+                        "name": "Howard20181"
+                    },
+                    "message": "close #32",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits/9905925e641a47ee2cbec4fda146e37f3662d8f5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-23T16:11:26Z"
+    },
+    {
+        "id": "23592231444",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 524596709,
+            "name": "LSPosed/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSALocal"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-23T16:04:48Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23446095027",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 524596709,
+            "name": "LSPosed/MagiskOnWSALocal",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSALocal"
+        },
+        "payload": {
+            "forkee": {
+                "id": 525118601,
+                "node_id": "R_kgDOH0ysiQ",
+                "name": "MagiskOnWSALocal",
+                "full_name": "fsmirne/MagiskOnWSALocal",
+                "private": false,
+                "owner": {
+                    "login": "fsmirne",
+                    "id": 2401859,
+                    "node_id": "MDQ6VXNlcjI0MDE4NTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2401859?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fsmirne",
+                    "html_url": "https://github.com/fsmirne",
+                    "followers_url": "https://api.github.com/users/fsmirne/followers",
+                    "following_url": "https://api.github.com/users/fsmirne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fsmirne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fsmirne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fsmirne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fsmirne/orgs",
+                    "repos_url": "https://api.github.com/users/fsmirne/repos",
+                    "events_url": "https://api.github.com/users/fsmirne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fsmirne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/fsmirne/MagiskOnWSALocal",
+                "description": null,
+                "fork": true,
+                "url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal",
+                "forks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/forks",
+                "keys_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/teams",
+                "hooks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/hooks",
+                "issue_events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/events",
+                "assignees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/tags",
+                "blobs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/languages",
+                "stargazers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/stargazers",
+                "contributors_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/contributors",
+                "subscribers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/subscribers",
+                "subscription_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/subscription",
+                "commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/merges",
+                "archive_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/downloads",
+                "issues_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/labels{/name}",
+                "releases_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSALocal/deployments",
+                "created_at": "2022-08-15T19:48:33Z",
+                "updated_at": "2022-08-15T19:44:07Z",
+                "pushed_at": "2022-08-15T14:47:52Z",
+                "git_url": "git://github.com/fsmirne/MagiskOnWSALocal.git",
+                "ssh_url": "git@github.com:fsmirne/MagiskOnWSALocal.git",
+                "clone_url": "https://github.com/fsmirne/MagiskOnWSALocal.git",
+                "svn_url": "https://github.com/fsmirne/MagiskOnWSALocal",
+                "homepage": null,
+                "size": 22386,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "agpl-3.0",
+                    "name": "GNU Affero General Public License v3.0",
+                    "spdx_id": "AGPL-3.0",
+                    "url": "https://api.github.com/licenses/agpl-3.0",
+                    "node_id": "MDc6TGljZW5zZTE="
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-15T19:48:34Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23411477841",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 421357495,
+            "name": "LSPosed/MagiskOnWSA",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSA"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T18:03:01Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    },
+    {
+        "id": "23411271323",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 2401859,
+            "login": "fsmirne",
+            "display_login": "fsmirne",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fsmirne",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2401859?"
+        },
+        "repo": {
+            "id": 421357495,
+            "name": "LSPosed/MagiskOnWSA",
+            "url": "https://api.github.com/repos/LSPosed/MagiskOnWSA"
+        },
+        "payload": {
+            "forkee": {
+                "id": 524177557,
+                "node_id": "R_kgDOHz5QlQ",
+                "name": "MagiskOnWSA",
+                "full_name": "fsmirne/MagiskOnWSA",
+                "private": false,
+                "owner": {
+                    "login": "fsmirne",
+                    "id": 2401859,
+                    "node_id": "MDQ6VXNlcjI0MDE4NTk=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2401859?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/fsmirne",
+                    "html_url": "https://github.com/fsmirne",
+                    "followers_url": "https://api.github.com/users/fsmirne/followers",
+                    "following_url": "https://api.github.com/users/fsmirne/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/fsmirne/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/fsmirne/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/fsmirne/subscriptions",
+                    "organizations_url": "https://api.github.com/users/fsmirne/orgs",
+                    "repos_url": "https://api.github.com/users/fsmirne/repos",
+                    "events_url": "https://api.github.com/users/fsmirne/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/fsmirne/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/fsmirne/MagiskOnWSA",
+                "description": "Integrate Magisk root and Google Apps (OpenGApps) into WSA (Windows Subsystem for Android)",
+                "fork": true,
+                "url": "https://api.github.com/repos/fsmirne/MagiskOnWSA",
+                "forks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/forks",
+                "keys_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/teams",
+                "hooks_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/hooks",
+                "issue_events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/events",
+                "assignees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/tags",
+                "blobs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/languages",
+                "stargazers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/stargazers",
+                "contributors_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/contributors",
+                "subscribers_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/subscribers",
+                "subscription_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/subscription",
+                "commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/merges",
+                "archive_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/downloads",
+                "issues_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/labels{/name}",
+                "releases_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/fsmirne/MagiskOnWSA/deployments",
+                "created_at": "2022-08-12T17:49:10Z",
+                "updated_at": "2022-08-12T17:29:38Z",
+                "pushed_at": "2022-08-12T03:46:56Z",
+                "git_url": "git://github.com/fsmirne/MagiskOnWSA.git",
+                "ssh_url": "git@github.com:fsmirne/MagiskOnWSA.git",
+                "clone_url": "https://github.com/fsmirne/MagiskOnWSA.git",
+                "svn_url": "https://github.com/fsmirne/MagiskOnWSA",
+                "homepage": "",
+                "size": 21963,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "agpl-3.0",
+                    "name": "GNU Affero General Public License v3.0",
+                    "spdx_id": "AGPL-3.0",
+                    "url": "https://api.github.com/licenses/agpl-3.0",
+                    "node_id": "MDc6TGljZW5zZTE="
+                },
+                "allow_forking": true,
+                "is_template": true,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-12T17:49:11Z",
+        "org": {
+            "id": 75879071,
+            "login": "LSPosed",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/LSPosed",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75879071?"
+        }
+    }
+]

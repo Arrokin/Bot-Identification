@@ -1,0 +1,1730 @@
+[
+    {
+        "id": "24733821357",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 92867506,
+            "name": "RhoInc/datadigest",
+            "url": "https://api.github.com/repos/RhoInc/datadigest"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-20T20:01:06Z",
+        "org": {
+            "id": 10836202,
+            "login": "RhoInc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/RhoInc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10836202?"
+        }
+    },
+    {
+        "id": "23407324505",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 71487058,
+            "name": "TanStack/table",
+            "url": "https://api.github.com/repos/TanStack/table"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T14:02:47Z",
+        "org": {
+            "id": 72518640,
+            "login": "TanStack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/TanStack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72518640?"
+        }
+    },
+    {
+        "id": "23407151437",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 83073019,
+            "name": "TanStack/react-charts",
+            "url": "https://api.github.com/repos/TanStack/react-charts"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T13:54:02Z",
+        "org": {
+            "id": 72518640,
+            "login": "TanStack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/TanStack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72518640?"
+        }
+    },
+    {
+        "id": "23341314541",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/119",
+                "id": 1330280150,
+                "node_id": "I_kwDODt344c5PSnbW",
+                "number": 119,
+                "title": "Lazy Q: function/resource to find out what settings are needed for specific charts in the library?",
+                "user": {
+                    "login": "MayaGans",
+                    "id": 6053906,
+                    "node_id": "MDQ6VXNlcjYwNTM5MDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6053906?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/MayaGans",
+                    "html_url": "https://github.com/MayaGans",
+                    "followers_url": "https://api.github.com/users/MayaGans/followers",
+                    "following_url": "https://api.github.com/users/MayaGans/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/MayaGans/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/MayaGans/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/MayaGans/subscriptions",
+                    "organizations_url": "https://api.github.com/users/MayaGans/orgs",
+                    "repos_url": "https://api.github.com/users/MayaGans/repos",
+                    "events_url": "https://api.github.com/users/MayaGans/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/MayaGans/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-05T18:54:14Z",
+                "updated_at": "2022-08-09T14:14:29Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Im struggling to find the mandatory mappings for aeTimeline and my mental model was that if I shove in my data here I'd get the settings object I need and then can back fill the NULLs with my column names, but it looks like this function only gives me colors and highlight \r\n\r\n```{r}\r\nsafetyCharts::init_aeTimelines(mydata, list())\r\n```\r\n\r\nBased on AEtimelines.js looks like I also need `id_col`, `seq_col`, `stdy_col`, `endy_col`, and `term_col` as well? Im sure this was intentional to leave out of the init function but I was curious how you'd anticipate a dev to just make this single widget/what that workflow looks like assuming they (read I) am na\u00efve about the mappings needed? I bet this is all written down somewhere just figured I'd share my wacky workflow and expose some design questions, but I totally realize I am most likely using this package in unintended ways \ud83d\ude08 \r\n\r\nThanks for always entertaining my musings!!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/comments/1209439191",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/119#issuecomment-1209439191",
+                "issue_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119",
+                "id": 1209439191,
+                "node_id": "IC_kwDODt344c5IFpPX",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-09T14:14:29Z",
+                "updated_at": "2022-08-09T14:14:29Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Great question @MayaGans - it's not immediately apparent to me where to find the required renderer configurations either and I'm not sure we have documentation. The column mappings live in `safetyCharts::meta_aes`, a data frame, but the renderer settings should be a list:\r\n\r\n```\r\nmapping <- safetyCharts::meta_aes %>%\r\n    dplyr::pull(standard_sdtm) %>% # or standard_adam for ADaM data\r\n    as.list %>%\r\n    rlang::set_names(safetyCharts::meta_aes$text_key)\r\n```\r\n\r\nOnce you have the mapping you can call `render_widget` with your data:\r\n\r\n```\r\nrender_widget('aeTimelines', data, mapping)\r\n```\r\n\r\nAdded a few issues: #120, #121, #122, #123",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/comments/1209439191/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:14:30Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341295307",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/123",
+                "id": 1333323875,
+                "node_id": "I_kwDODt344c5PeOhj",
+                "number": 123,
+                "title": "Expose default column mapping to the user.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:13:42Z",
+                "updated_at": "2022-08-09T14:13:42Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Perhaps just print a message pointing to the metadata, like _View default column mappings in `safetyCharts::meta_[domain]`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:13:42Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341179445",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/122",
+                "id": 1333317503,
+                "node_id": "I_kwDODt344c5PeM9_",
+                "number": 122,
+                "title": "Add a helper function that restructures metadata from data frame to list.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:09:00Z",
+                "updated_at": "2022-08-09T14:09:00Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Like so:\r\n```\r\nmapping <- safetyCharts::meta_aes %>%\r\n    dplyr::pull(standard_sdtm) %>% # or standard_adam for ADaM data\r\n    as.list %>%\r\n    rlang::set_names(safetyCharts::meta_aes$text_key)\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:09:00Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341162841",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/121",
+                "id": 1333316541,
+                "node_id": "I_kwDODt344c5PeMu9",
+                "number": 121,
+                "title": "Add a dedicated AE timelines renderer function.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:08:19Z",
+                "updated_at": "2022-08-09T14:08:19Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:08:20Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341154178",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/120",
+                "id": 1333316040,
+                "node_id": "I_kwDODt344c5PeMnI",
+                "number": 120,
+                "title": "Add a vignette on column mappings and chart configuration.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:07:58Z",
+                "updated_at": "2022-08-09T14:07:58Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:07:59Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "24733821357",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 92867506,
+            "name": "RhoInc/datadigest",
+            "url": "https://api.github.com/repos/RhoInc/datadigest"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-20T20:01:06Z",
+        "org": {
+            "id": 10836202,
+            "login": "RhoInc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/RhoInc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10836202?"
+        }
+    },
+    {
+        "id": "23407324505",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 71487058,
+            "name": "TanStack/table",
+            "url": "https://api.github.com/repos/TanStack/table"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T14:02:47Z",
+        "org": {
+            "id": 72518640,
+            "login": "TanStack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/TanStack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72518640?"
+        }
+    },
+    {
+        "id": "23407151437",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 83073019,
+            "name": "TanStack/react-charts",
+            "url": "https://api.github.com/repos/TanStack/react-charts"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T13:54:02Z",
+        "org": {
+            "id": 72518640,
+            "login": "TanStack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/TanStack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72518640?"
+        }
+    },
+    {
+        "id": "23341314541",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/119",
+                "id": 1330280150,
+                "node_id": "I_kwDODt344c5PSnbW",
+                "number": 119,
+                "title": "Lazy Q: function/resource to find out what settings are needed for specific charts in the library?",
+                "user": {
+                    "login": "MayaGans",
+                    "id": 6053906,
+                    "node_id": "MDQ6VXNlcjYwNTM5MDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6053906?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/MayaGans",
+                    "html_url": "https://github.com/MayaGans",
+                    "followers_url": "https://api.github.com/users/MayaGans/followers",
+                    "following_url": "https://api.github.com/users/MayaGans/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/MayaGans/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/MayaGans/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/MayaGans/subscriptions",
+                    "organizations_url": "https://api.github.com/users/MayaGans/orgs",
+                    "repos_url": "https://api.github.com/users/MayaGans/repos",
+                    "events_url": "https://api.github.com/users/MayaGans/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/MayaGans/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-05T18:54:14Z",
+                "updated_at": "2022-08-09T14:14:29Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Im struggling to find the mandatory mappings for aeTimeline and my mental model was that if I shove in my data here I'd get the settings object I need and then can back fill the NULLs with my column names, but it looks like this function only gives me colors and highlight \r\n\r\n```{r}\r\nsafetyCharts::init_aeTimelines(mydata, list())\r\n```\r\n\r\nBased on AEtimelines.js looks like I also need `id_col`, `seq_col`, `stdy_col`, `endy_col`, and `term_col` as well? Im sure this was intentional to leave out of the init function but I was curious how you'd anticipate a dev to just make this single widget/what that workflow looks like assuming they (read I) am na\u00efve about the mappings needed? I bet this is all written down somewhere just figured I'd share my wacky workflow and expose some design questions, but I totally realize I am most likely using this package in unintended ways \ud83d\ude08 \r\n\r\nThanks for always entertaining my musings!!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/comments/1209439191",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/119#issuecomment-1209439191",
+                "issue_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119",
+                "id": 1209439191,
+                "node_id": "IC_kwDODt344c5IFpPX",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-09T14:14:29Z",
+                "updated_at": "2022-08-09T14:14:29Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Great question @MayaGans - it's not immediately apparent to me where to find the required renderer configurations either and I'm not sure we have documentation. The column mappings live in `safetyCharts::meta_aes`, a data frame, but the renderer settings should be a list:\r\n\r\n```\r\nmapping <- safetyCharts::meta_aes %>%\r\n    dplyr::pull(standard_sdtm) %>% # or standard_adam for ADaM data\r\n    as.list %>%\r\n    rlang::set_names(safetyCharts::meta_aes$text_key)\r\n```\r\n\r\nOnce you have the mapping you can call `render_widget` with your data:\r\n\r\n```\r\nrender_widget('aeTimelines', data, mapping)\r\n```\r\n\r\nAdded a few issues: #120, #121, #122, #123",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/comments/1209439191/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:14:30Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341295307",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/123",
+                "id": 1333323875,
+                "node_id": "I_kwDODt344c5PeOhj",
+                "number": 123,
+                "title": "Expose default column mapping to the user.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:13:42Z",
+                "updated_at": "2022-08-09T14:13:42Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Perhaps just print a message pointing to the metadata, like _View default column mappings in `safetyCharts::meta_[domain]`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:13:42Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341179445",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/122",
+                "id": 1333317503,
+                "node_id": "I_kwDODt344c5PeM9_",
+                "number": 122,
+                "title": "Add a helper function that restructures metadata from data frame to list.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:09:00Z",
+                "updated_at": "2022-08-09T14:09:00Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Like so:\r\n```\r\nmapping <- safetyCharts::meta_aes %>%\r\n    dplyr::pull(standard_sdtm) %>% # or standard_adam for ADaM data\r\n    as.list %>%\r\n    rlang::set_names(safetyCharts::meta_aes$text_key)\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:09:00Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341162841",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/121",
+                "id": 1333316541,
+                "node_id": "I_kwDODt344c5PeMu9",
+                "number": 121,
+                "title": "Add a dedicated AE timelines renderer function.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:08:19Z",
+                "updated_at": "2022-08-09T14:08:19Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:08:20Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341154178",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/120",
+                "id": 1333316040,
+                "node_id": "I_kwDODt344c5PeMnI",
+                "number": 120,
+                "title": "Add a vignette on column mappings and chart configuration.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:07:58Z",
+                "updated_at": "2022-08-09T14:07:58Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:07:59Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "24733821357",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 92867506,
+            "name": "RhoInc/datadigest",
+            "url": "https://api.github.com/repos/RhoInc/datadigest"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-20T20:01:06Z",
+        "org": {
+            "id": 10836202,
+            "login": "RhoInc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/RhoInc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10836202?"
+        }
+    },
+    {
+        "id": "23407324505",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 71487058,
+            "name": "TanStack/table",
+            "url": "https://api.github.com/repos/TanStack/table"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T14:02:47Z",
+        "org": {
+            "id": 72518640,
+            "login": "TanStack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/TanStack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72518640?"
+        }
+    },
+    {
+        "id": "23407151437",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 83073019,
+            "name": "TanStack/react-charts",
+            "url": "https://api.github.com/repos/TanStack/react-charts"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-12T13:54:02Z",
+        "org": {
+            "id": 72518640,
+            "login": "TanStack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/TanStack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/72518640?"
+        }
+    },
+    {
+        "id": "23341314541",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/119",
+                "id": 1330280150,
+                "node_id": "I_kwDODt344c5PSnbW",
+                "number": 119,
+                "title": "Lazy Q: function/resource to find out what settings are needed for specific charts in the library?",
+                "user": {
+                    "login": "MayaGans",
+                    "id": 6053906,
+                    "node_id": "MDQ6VXNlcjYwNTM5MDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6053906?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/MayaGans",
+                    "html_url": "https://github.com/MayaGans",
+                    "followers_url": "https://api.github.com/users/MayaGans/followers",
+                    "following_url": "https://api.github.com/users/MayaGans/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/MayaGans/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/MayaGans/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/MayaGans/subscriptions",
+                    "organizations_url": "https://api.github.com/users/MayaGans/orgs",
+                    "repos_url": "https://api.github.com/users/MayaGans/repos",
+                    "events_url": "https://api.github.com/users/MayaGans/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/MayaGans/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-05T18:54:14Z",
+                "updated_at": "2022-08-09T14:14:29Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Im struggling to find the mandatory mappings for aeTimeline and my mental model was that if I shove in my data here I'd get the settings object I need and then can back fill the NULLs with my column names, but it looks like this function only gives me colors and highlight \r\n\r\n```{r}\r\nsafetyCharts::init_aeTimelines(mydata, list())\r\n```\r\n\r\nBased on AEtimelines.js looks like I also need `id_col`, `seq_col`, `stdy_col`, `endy_col`, and `term_col` as well? Im sure this was intentional to leave out of the init function but I was curious how you'd anticipate a dev to just make this single widget/what that workflow looks like assuming they (read I) am na\u00efve about the mappings needed? I bet this is all written down somewhere just figured I'd share my wacky workflow and expose some design questions, but I totally realize I am most likely using this package in unintended ways \ud83d\ude08 \r\n\r\nThanks for always entertaining my musings!!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/reactions",
+                    "total_count": 1,
+                    "+1": 1,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/comments/1209439191",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/119#issuecomment-1209439191",
+                "issue_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/119",
+                "id": 1209439191,
+                "node_id": "IC_kwDODt344c5IFpPX",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-09T14:14:29Z",
+                "updated_at": "2022-08-09T14:14:29Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Great question @MayaGans - it's not immediately apparent to me where to find the required renderer configurations either and I'm not sure we have documentation. The column mappings live in `safetyCharts::meta_aes`, a data frame, but the renderer settings should be a list:\r\n\r\n```\r\nmapping <- safetyCharts::meta_aes %>%\r\n    dplyr::pull(standard_sdtm) %>% # or standard_adam for ADaM data\r\n    as.list %>%\r\n    rlang::set_names(safetyCharts::meta_aes$text_key)\r\n```\r\n\r\nOnce you have the mapping you can call `render_widget` with your data:\r\n\r\n```\r\nrender_widget('aeTimelines', data, mapping)\r\n```\r\n\r\nAdded a few issues: #120, #121, #122, #123",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/comments/1209439191/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:14:30Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341295307",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/123",
+                "id": 1333323875,
+                "node_id": "I_kwDODt344c5PeOhj",
+                "number": 123,
+                "title": "Expose default column mapping to the user.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:13:42Z",
+                "updated_at": "2022-08-09T14:13:42Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Perhaps just print a message pointing to the metadata, like _View default column mappings in `safetyCharts::meta_[domain]`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/123/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:13:42Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341179445",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/122",
+                "id": 1333317503,
+                "node_id": "I_kwDODt344c5PeM9_",
+                "number": 122,
+                "title": "Add a helper function that restructures metadata from data frame to list.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:09:00Z",
+                "updated_at": "2022-08-09T14:09:00Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Like so:\r\n```\r\nmapping <- safetyCharts::meta_aes %>%\r\n    dplyr::pull(standard_sdtm) %>% # or standard_adam for ADaM data\r\n    as.list %>%\r\n    rlang::set_names(safetyCharts::meta_aes$text_key)\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/122/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:09:00Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341162841",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/121",
+                "id": 1333316541,
+                "node_id": "I_kwDODt344c5PeMu9",
+                "number": 121,
+                "title": "Add a dedicated AE timelines renderer function.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:08:19Z",
+                "updated_at": "2022-08-09T14:08:19Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/121/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:08:20Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    },
+    {
+        "id": "23341154178",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 5428548,
+            "login": "samussiah",
+            "display_login": "samussiah",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samussiah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5428548?"
+        },
+        "repo": {
+            "id": 249428193,
+            "name": "SafetyGraphics/safetyCharts",
+            "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120",
+                "repository_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts",
+                "labels_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/labels{/name}",
+                "comments_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/comments",
+                "events_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/events",
+                "html_url": "https://github.com/SafetyGraphics/safetyCharts/issues/120",
+                "id": 1333316040,
+                "node_id": "I_kwDODt344c5PeMnI",
+                "number": 120,
+                "title": "Add a vignette on column mappings and chart configuration.",
+                "user": {
+                    "login": "samussiah",
+                    "id": 5428548,
+                    "node_id": "MDQ6VXNlcjU0Mjg1NDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5428548?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samussiah",
+                    "html_url": "https://github.com/samussiah",
+                    "followers_url": "https://api.github.com/users/samussiah/followers",
+                    "following_url": "https://api.github.com/users/samussiah/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samussiah/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samussiah/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samussiah/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samussiah/orgs",
+                    "repos_url": "https://api.github.com/users/samussiah/repos",
+                    "events_url": "https://api.github.com/users/samussiah/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samussiah/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-09T14:07:58Z",
+                "updated_at": "2022-08-09T14:07:58Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/SafetyGraphics/safetyCharts/issues/120/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-09T14:07:59Z",
+        "org": {
+            "id": 39590712,
+            "login": "SafetyGraphics",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/SafetyGraphics",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39590712?"
+        }
+    }
+]

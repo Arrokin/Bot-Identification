@@ -1,0 +1,3029 @@
+[
+    {
+        "id": "24768976521",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 442535665,
+            "name": "blaze-slider/blaze-slider",
+            "url": "https://api.github.com/repos/blaze-slider/blaze-slider"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-22T22:36:46Z",
+        "org": {
+            "id": 96789874,
+            "login": "blaze-slider",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/blaze-slider",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96789874?"
+        }
+    },
+    {
+        "id": "24499157667",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "push_id": 11278798112,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "ef205fd8a842da87dfe36ae85cb6b7c797570e24",
+            "before": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+            "commits": [
+                {
+                    "sha": "177d41b3c2c25f4f1d672288c076fe2fba1d2a07",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "Correctly disallow hyphens in modifier names",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/177d41b3c2c25f4f1d672288c076fe2fba1d2a07"
+                },
+                {
+                    "sha": "ef205fd8a842da87dfe36ae85cb6b7c797570e24",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "1.4.2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/ef205fd8a842da87dfe36ae85cb6b7c797570e24"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-10T11:19:14Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "24336523854",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 492996863,
+            "name": "basementstudio/react-dropify",
+            "url": "https://api.github.com/repos/basementstudio/react-dropify"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-01T06:06:41Z",
+        "org": {
+            "id": 32423656,
+            "login": "basementstudio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/basementstudio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32423656?"
+        }
+    },
+    {
+        "id": "24302028430",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/7",
+                "id": 1390928422,
+                "node_id": "I_kwDOCeXrDM5S5-Im",
+                "number": 7,
+                "title": "Issue with `*-comma-after-newline` rules",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-09-29T14:00:06Z",
+                "updated_at": "2022-09-29T14:31:09Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "```css\r\ntransition:\r\n  background-color 0.3s ease,\r\n  backdrop-filter 0.3s ease,\r\n  color 0.3s ease;\r\n```\r\n\r\nThe above works fine locally, but upon saving the pre-commit hook updates the rule to be single line and I get errors about the following rules: `declaration-colon-newline-after` and `value-list-comma-newline-after`.\r\n\r\nI'm unsure if this is a Prettier vs Stylelint conflict, an issue in Stylelint itself or something else but figured it was best I share here",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1262369690",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/7#issuecomment-1262369690",
+                "issue_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7",
+                "id": 1262369690,
+                "node_id": "IC_kwDOCeXrDM5LPjua",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-29T14:31:09Z",
+                "updated_at": "2022-09-29T14:31:09Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "What you have there is my preferred way of it working. Do you know which one of the rules it's crying about?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1262369690/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-29T14:31:09Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "24158342366",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 499586135,
+            "name": "barrel/barrel-shopify",
+            "url": "https://api.github.com/repos/barrel/barrel-shopify"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-22T09:31:59Z",
+        "org": {
+            "id": 641406,
+            "login": "barrel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/barrel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/641406?"
+        }
+    },
+    {
+        "id": "24007942600",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 505864478,
+            "name": "Shopify/cli",
+            "url": "https://api.github.com/repos/Shopify/cli"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/Shopify/cli/issues/470",
+                "repository_url": "https://api.github.com/repos/Shopify/cli",
+                "labels_url": "https://api.github.com/repos/Shopify/cli/issues/470/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Shopify/cli/issues/470/comments",
+                "events_url": "https://api.github.com/repos/Shopify/cli/issues/470/events",
+                "html_url": "https://github.com/Shopify/cli/issues/470",
+                "id": 1373249722,
+                "node_id": "I_kwDOHibhHs5R2iC6",
+                "number": 470,
+                "title": "[Feature]: The ability to provide custom templates",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4254377056,
+                        "node_id": "LA_kwDOHibhHs79lKRg",
+                        "url": "https://api.github.com/repos/Shopify/cli/labels/Type:%20Enhancement",
+                        "name": "Type: Enhancement",
+                        "color": "5103DD",
+                        "default": false,
+                        "description": "New feature or request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-09-14T16:11:00Z",
+                "updated_at": "2022-09-14T16:11:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### What area(s) will this request affect?\n\nApp\n\n### What type of change do you want to see?\n\nSubstantial change to existing feature\n\n### Overview\n\nCurrently, the `shopify app create` command is limited to 3 templates defined [here](https://github.com/Shopify/cli/blob/main/packages/create-app/src/prompts/init.ts#L16). All of these provide excellent starting points but can leave a decent bit of room for feature evolution.\r\n\r\nTaking the Node repo as an example. Converting it to Typescript, adding a job queue to handle webhooks, adding a more production-ready relational database, etc. could add a good few initial days to any app build.\r\n\r\nThe ability to provide a custom template (assuming it's 3.0 compatible) would mean the community can evolve and curate the existing templates to try and fill common gaps that are intentionally left by making the Shopify ones unopinionated.\n\n### Motivation\n\nWe're an agency that creates many custom apps so quite often start and then need to patch on our typical \"stack\" which can be tedious unless automated.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Shopify/cli/issues/470/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Shopify/cli/issues/470/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-14T16:11:01Z",
+        "org": {
+            "id": 8085,
+            "login": "Shopify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Shopify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8085?"
+        }
+    },
+    {
+        "id": "23973004256",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 42489829,
+            "name": "rust-lang/rustlings",
+            "url": "https://api.github.com/repos/rust-lang/rustlings"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-13T09:16:59Z",
+        "org": {
+            "id": 5430905,
+            "login": "rust-lang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/rust-lang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5430905?"
+        }
+    },
+    {
+        "id": "23932022419",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984101973,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f16b38454fa8df53313b0801b6ed9064b1083e1e",
+            "before": "00b54e8ecdec521d588a977b073ec870723e3d96",
+            "commits": [
+                {
+                    "sha": "f16b38454fa8df53313b0801b6ed9064b1083e1e",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.3.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/f16b38454fa8df53313b0801b6ed9064b1083e1e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:41:41Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931931493",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984039830,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "00b54e8ecdec521d588a977b073ec870723e3d96",
+            "before": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+            "commits": [
+                {
+                    "sha": "00b54e8ecdec521d588a977b073ec870723e3d96",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/00b54e8ecdec521d588a977b073ec870723e3d96"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:25:27Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931929030",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984038110,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+            "before": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+            "commits": [
+                {
+                    "sha": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/e7365d27548ea0b99b898e4cb8ecea80e40ccd3a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:25:03Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931918182",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984030837,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+            "before": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+            "commits": [
+                {
+                    "sha": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.1.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/f5629de7b03bbc73be619a6060cb6eeb84e8595f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:23:06Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931906224",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984022738,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+            "before": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+            "commits": [
+                {
+                    "sha": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.1.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/a0b8370282ebcd44a32885e2e11d52257ec29055"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:21:01Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931869380",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10983997759,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+            "before": "977f66b419ab385b25c192726bb9dbfd42b27d77",
+            "commits": [
+                {
+                    "sha": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.0.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/83bf4a55a377cf07368ce119f8cf210b7265a5c3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:14:42Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23800677249",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 442245860,
+            "name": "gestaltjs/gestalt",
+            "url": "https://api.github.com/repos/gestaltjs/gestalt"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-03T08:23:29Z",
+        "org": {
+            "id": 96745338,
+            "login": "gestaltjs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/gestaltjs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96745338?"
+        }
+    },
+    {
+        "id": "23655301013",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1352043997,
+                "node_id": "I_kwDOCeXrDM5Qlo3d",
+                "number": 6,
+                "title": "Hypens allowed in modifier",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-08-26T10:00:12Z",
+                "updated_at": "2022-08-26T10:36:22Z",
+                "closed_at": "2022-08-26T10:36:04Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Just spotted this wasn't caught by the linter on one of our projects. Unless I'm mistaken we don't allow hypens in modifiers?\r\n\r\n```css\r\n.acc-Drawer_LoginFormField-double-margin {}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1228336389",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6#issuecomment-1228336389",
+                "issue_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1228336389,
+                "node_id": "IC_kwDOCeXrDM5JNu0F",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-26T10:36:22Z",
+                "updated_at": "2022-08-26T10:36:22Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Thanks @davidwarrington, you're correct. This is fixed in 1.4.1 if you want to upgrade!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1228336389/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:22Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23655295905",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1352043997,
+                "node_id": "I_kwDOCeXrDM5Qlo3d",
+                "number": 6,
+                "title": "Hypens allowed in modifier",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-26T10:00:12Z",
+                "updated_at": "2022-08-26T10:36:04Z",
+                "closed_at": "2022-08-26T10:36:04Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Just spotted this wasn't caught by the linter on one of our projects. Unless I'm mistaken we don't allow hypens in modifiers?\r\n\r\n```css\r\n.acc-Drawer_LoginFormField-double-margin {}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:04Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23655295673",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "push_id": 10840582245,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+            "before": "50c1e6d7ce0e66c459afd783968699056cf7c89b",
+            "commits": [
+                {
+                    "sha": "ad947d8b0c0dbac2013d29509f30f72fb4813689",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "Disallow hyphens in modifier name\n\nFixes #6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/ad947d8b0c0dbac2013d29509f30f72fb4813689"
+                },
+                {
+                    "sha": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "1.4.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/61cd5e78a5a65552f317e75757b4e9cb3d2b16a1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:04Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23614860820",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 493028759,
+            "name": "Crunchyman-ralph/shopify-app-node-monorepo-express-vite",
+            "url": "https://api.github.com/repos/Crunchyman-ralph/shopify-app-node-monorepo-express-vite"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-24T15:05:21Z"
+    },
+    {
+        "id": "24768976521",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 442535665,
+            "name": "blaze-slider/blaze-slider",
+            "url": "https://api.github.com/repos/blaze-slider/blaze-slider"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-22T22:36:46Z",
+        "org": {
+            "id": 96789874,
+            "login": "blaze-slider",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/blaze-slider",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96789874?"
+        }
+    },
+    {
+        "id": "24499157667",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "push_id": 11278798112,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "ef205fd8a842da87dfe36ae85cb6b7c797570e24",
+            "before": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+            "commits": [
+                {
+                    "sha": "177d41b3c2c25f4f1d672288c076fe2fba1d2a07",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "Correctly disallow hyphens in modifier names",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/177d41b3c2c25f4f1d672288c076fe2fba1d2a07"
+                },
+                {
+                    "sha": "ef205fd8a842da87dfe36ae85cb6b7c797570e24",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "1.4.2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/ef205fd8a842da87dfe36ae85cb6b7c797570e24"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-10T11:19:14Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "24336523854",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 492996863,
+            "name": "basementstudio/react-dropify",
+            "url": "https://api.github.com/repos/basementstudio/react-dropify"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-01T06:06:41Z",
+        "org": {
+            "id": 32423656,
+            "login": "basementstudio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/basementstudio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32423656?"
+        }
+    },
+    {
+        "id": "24302028430",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/7",
+                "id": 1390928422,
+                "node_id": "I_kwDOCeXrDM5S5-Im",
+                "number": 7,
+                "title": "Issue with `*-comma-after-newline` rules",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-09-29T14:00:06Z",
+                "updated_at": "2022-09-29T14:31:09Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "```css\r\ntransition:\r\n  background-color 0.3s ease,\r\n  backdrop-filter 0.3s ease,\r\n  color 0.3s ease;\r\n```\r\n\r\nThe above works fine locally, but upon saving the pre-commit hook updates the rule to be single line and I get errors about the following rules: `declaration-colon-newline-after` and `value-list-comma-newline-after`.\r\n\r\nI'm unsure if this is a Prettier vs Stylelint conflict, an issue in Stylelint itself or something else but figured it was best I share here",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1262369690",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/7#issuecomment-1262369690",
+                "issue_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7",
+                "id": 1262369690,
+                "node_id": "IC_kwDOCeXrDM5LPjua",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-29T14:31:09Z",
+                "updated_at": "2022-09-29T14:31:09Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "What you have there is my preferred way of it working. Do you know which one of the rules it's crying about?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1262369690/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-29T14:31:09Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "24158342366",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 499586135,
+            "name": "barrel/barrel-shopify",
+            "url": "https://api.github.com/repos/barrel/barrel-shopify"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-22T09:31:59Z",
+        "org": {
+            "id": 641406,
+            "login": "barrel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/barrel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/641406?"
+        }
+    },
+    {
+        "id": "24007942600",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 505864478,
+            "name": "Shopify/cli",
+            "url": "https://api.github.com/repos/Shopify/cli"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/Shopify/cli/issues/470",
+                "repository_url": "https://api.github.com/repos/Shopify/cli",
+                "labels_url": "https://api.github.com/repos/Shopify/cli/issues/470/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Shopify/cli/issues/470/comments",
+                "events_url": "https://api.github.com/repos/Shopify/cli/issues/470/events",
+                "html_url": "https://github.com/Shopify/cli/issues/470",
+                "id": 1373249722,
+                "node_id": "I_kwDOHibhHs5R2iC6",
+                "number": 470,
+                "title": "[Feature]: The ability to provide custom templates",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4254377056,
+                        "node_id": "LA_kwDOHibhHs79lKRg",
+                        "url": "https://api.github.com/repos/Shopify/cli/labels/Type:%20Enhancement",
+                        "name": "Type: Enhancement",
+                        "color": "5103DD",
+                        "default": false,
+                        "description": "New feature or request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-09-14T16:11:00Z",
+                "updated_at": "2022-09-14T16:11:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### What area(s) will this request affect?\n\nApp\n\n### What type of change do you want to see?\n\nSubstantial change to existing feature\n\n### Overview\n\nCurrently, the `shopify app create` command is limited to 3 templates defined [here](https://github.com/Shopify/cli/blob/main/packages/create-app/src/prompts/init.ts#L16). All of these provide excellent starting points but can leave a decent bit of room for feature evolution.\r\n\r\nTaking the Node repo as an example. Converting it to Typescript, adding a job queue to handle webhooks, adding a more production-ready relational database, etc. could add a good few initial days to any app build.\r\n\r\nThe ability to provide a custom template (assuming it's 3.0 compatible) would mean the community can evolve and curate the existing templates to try and fill common gaps that are intentionally left by making the Shopify ones unopinionated.\n\n### Motivation\n\nWe're an agency that creates many custom apps so quite often start and then need to patch on our typical \"stack\" which can be tedious unless automated.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Shopify/cli/issues/470/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Shopify/cli/issues/470/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-14T16:11:01Z",
+        "org": {
+            "id": 8085,
+            "login": "Shopify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Shopify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8085?"
+        }
+    },
+    {
+        "id": "23973004256",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 42489829,
+            "name": "rust-lang/rustlings",
+            "url": "https://api.github.com/repos/rust-lang/rustlings"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-13T09:16:59Z",
+        "org": {
+            "id": 5430905,
+            "login": "rust-lang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/rust-lang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5430905?"
+        }
+    },
+    {
+        "id": "23932022419",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984101973,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f16b38454fa8df53313b0801b6ed9064b1083e1e",
+            "before": "00b54e8ecdec521d588a977b073ec870723e3d96",
+            "commits": [
+                {
+                    "sha": "f16b38454fa8df53313b0801b6ed9064b1083e1e",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.3.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/f16b38454fa8df53313b0801b6ed9064b1083e1e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:41:41Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931931493",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984039830,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "00b54e8ecdec521d588a977b073ec870723e3d96",
+            "before": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+            "commits": [
+                {
+                    "sha": "00b54e8ecdec521d588a977b073ec870723e3d96",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/00b54e8ecdec521d588a977b073ec870723e3d96"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:25:27Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931929030",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984038110,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+            "before": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+            "commits": [
+                {
+                    "sha": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/e7365d27548ea0b99b898e4cb8ecea80e40ccd3a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:25:03Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931918182",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984030837,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+            "before": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+            "commits": [
+                {
+                    "sha": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.1.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/f5629de7b03bbc73be619a6060cb6eeb84e8595f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:23:06Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931906224",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984022738,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+            "before": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+            "commits": [
+                {
+                    "sha": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.1.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/a0b8370282ebcd44a32885e2e11d52257ec29055"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:21:01Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931869380",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10983997759,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+            "before": "977f66b419ab385b25c192726bb9dbfd42b27d77",
+            "commits": [
+                {
+                    "sha": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.0.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/83bf4a55a377cf07368ce119f8cf210b7265a5c3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:14:42Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23800677249",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 442245860,
+            "name": "gestaltjs/gestalt",
+            "url": "https://api.github.com/repos/gestaltjs/gestalt"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-03T08:23:29Z",
+        "org": {
+            "id": 96745338,
+            "login": "gestaltjs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/gestaltjs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96745338?"
+        }
+    },
+    {
+        "id": "23655301013",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1352043997,
+                "node_id": "I_kwDOCeXrDM5Qlo3d",
+                "number": 6,
+                "title": "Hypens allowed in modifier",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-08-26T10:00:12Z",
+                "updated_at": "2022-08-26T10:36:22Z",
+                "closed_at": "2022-08-26T10:36:04Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Just spotted this wasn't caught by the linter on one of our projects. Unless I'm mistaken we don't allow hypens in modifiers?\r\n\r\n```css\r\n.acc-Drawer_LoginFormField-double-margin {}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1228336389",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6#issuecomment-1228336389",
+                "issue_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1228336389,
+                "node_id": "IC_kwDOCeXrDM5JNu0F",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-26T10:36:22Z",
+                "updated_at": "2022-08-26T10:36:22Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Thanks @davidwarrington, you're correct. This is fixed in 1.4.1 if you want to upgrade!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1228336389/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:22Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23655295905",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1352043997,
+                "node_id": "I_kwDOCeXrDM5Qlo3d",
+                "number": 6,
+                "title": "Hypens allowed in modifier",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-26T10:00:12Z",
+                "updated_at": "2022-08-26T10:36:04Z",
+                "closed_at": "2022-08-26T10:36:04Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Just spotted this wasn't caught by the linter on one of our projects. Unless I'm mistaken we don't allow hypens in modifiers?\r\n\r\n```css\r\n.acc-Drawer_LoginFormField-double-margin {}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:04Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23655295673",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "push_id": 10840582245,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+            "before": "50c1e6d7ce0e66c459afd783968699056cf7c89b",
+            "commits": [
+                {
+                    "sha": "ad947d8b0c0dbac2013d29509f30f72fb4813689",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "Disallow hyphens in modifier name\n\nFixes #6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/ad947d8b0c0dbac2013d29509f30f72fb4813689"
+                },
+                {
+                    "sha": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "1.4.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/61cd5e78a5a65552f317e75757b4e9cb3d2b16a1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:04Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23614860820",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 493028759,
+            "name": "Crunchyman-ralph/shopify-app-node-monorepo-express-vite",
+            "url": "https://api.github.com/repos/Crunchyman-ralph/shopify-app-node-monorepo-express-vite"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-24T15:05:21Z"
+    },
+    {
+        "id": "24768976521",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 442535665,
+            "name": "blaze-slider/blaze-slider",
+            "url": "https://api.github.com/repos/blaze-slider/blaze-slider"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-22T22:36:46Z",
+        "org": {
+            "id": 96789874,
+            "login": "blaze-slider",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/blaze-slider",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96789874?"
+        }
+    },
+    {
+        "id": "24499157667",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "push_id": 11278798112,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "ef205fd8a842da87dfe36ae85cb6b7c797570e24",
+            "before": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+            "commits": [
+                {
+                    "sha": "177d41b3c2c25f4f1d672288c076fe2fba1d2a07",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "Correctly disallow hyphens in modifier names",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/177d41b3c2c25f4f1d672288c076fe2fba1d2a07"
+                },
+                {
+                    "sha": "ef205fd8a842da87dfe36ae85cb6b7c797570e24",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "1.4.2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/ef205fd8a842da87dfe36ae85cb6b7c797570e24"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-10T11:19:14Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "24336523854",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 492996863,
+            "name": "basementstudio/react-dropify",
+            "url": "https://api.github.com/repos/basementstudio/react-dropify"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-01T06:06:41Z",
+        "org": {
+            "id": 32423656,
+            "login": "basementstudio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/basementstudio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32423656?"
+        }
+    },
+    {
+        "id": "24302028430",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/7",
+                "id": 1390928422,
+                "node_id": "I_kwDOCeXrDM5S5-Im",
+                "number": 7,
+                "title": "Issue with `*-comma-after-newline` rules",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-09-29T14:00:06Z",
+                "updated_at": "2022-09-29T14:31:09Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "```css\r\ntransition:\r\n  background-color 0.3s ease,\r\n  backdrop-filter 0.3s ease,\r\n  color 0.3s ease;\r\n```\r\n\r\nThe above works fine locally, but upon saving the pre-commit hook updates the rule to be single line and I get errors about the following rules: `declaration-colon-newline-after` and `value-list-comma-newline-after`.\r\n\r\nI'm unsure if this is a Prettier vs Stylelint conflict, an issue in Stylelint itself or something else but figured it was best I share here",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1262369690",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/7#issuecomment-1262369690",
+                "issue_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/7",
+                "id": 1262369690,
+                "node_id": "IC_kwDOCeXrDM5LPjua",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-29T14:31:09Z",
+                "updated_at": "2022-09-29T14:31:09Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "What you have there is my preferred way of it working. Do you know which one of the rules it's crying about?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1262369690/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-29T14:31:09Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "24158342366",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 499586135,
+            "name": "barrel/barrel-shopify",
+            "url": "https://api.github.com/repos/barrel/barrel-shopify"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-22T09:31:59Z",
+        "org": {
+            "id": 641406,
+            "login": "barrel",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/barrel",
+            "avatar_url": "https://avatars.githubusercontent.com/u/641406?"
+        }
+    },
+    {
+        "id": "24007942600",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 505864478,
+            "name": "Shopify/cli",
+            "url": "https://api.github.com/repos/Shopify/cli"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/Shopify/cli/issues/470",
+                "repository_url": "https://api.github.com/repos/Shopify/cli",
+                "labels_url": "https://api.github.com/repos/Shopify/cli/issues/470/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Shopify/cli/issues/470/comments",
+                "events_url": "https://api.github.com/repos/Shopify/cli/issues/470/events",
+                "html_url": "https://github.com/Shopify/cli/issues/470",
+                "id": 1373249722,
+                "node_id": "I_kwDOHibhHs5R2iC6",
+                "number": 470,
+                "title": "[Feature]: The ability to provide custom templates",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4254377056,
+                        "node_id": "LA_kwDOHibhHs79lKRg",
+                        "url": "https://api.github.com/repos/Shopify/cli/labels/Type:%20Enhancement",
+                        "name": "Type: Enhancement",
+                        "color": "5103DD",
+                        "default": false,
+                        "description": "New feature or request"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-09-14T16:11:00Z",
+                "updated_at": "2022-09-14T16:11:00Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### What area(s) will this request affect?\n\nApp\n\n### What type of change do you want to see?\n\nSubstantial change to existing feature\n\n### Overview\n\nCurrently, the `shopify app create` command is limited to 3 templates defined [here](https://github.com/Shopify/cli/blob/main/packages/create-app/src/prompts/init.ts#L16). All of these provide excellent starting points but can leave a decent bit of room for feature evolution.\r\n\r\nTaking the Node repo as an example. Converting it to Typescript, adding a job queue to handle webhooks, adding a more production-ready relational database, etc. could add a good few initial days to any app build.\r\n\r\nThe ability to provide a custom template (assuming it's 3.0 compatible) would mean the community can evolve and curate the existing templates to try and fill common gaps that are intentionally left by making the Shopify ones unopinionated.\n\n### Motivation\n\nWe're an agency that creates many custom apps so quite often start and then need to patch on our typical \"stack\" which can be tedious unless automated.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Shopify/cli/issues/470/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Shopify/cli/issues/470/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-14T16:11:01Z",
+        "org": {
+            "id": 8085,
+            "login": "Shopify",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Shopify",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8085?"
+        }
+    },
+    {
+        "id": "23973004256",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 42489829,
+            "name": "rust-lang/rustlings",
+            "url": "https://api.github.com/repos/rust-lang/rustlings"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-13T09:16:59Z",
+        "org": {
+            "id": 5430905,
+            "login": "rust-lang",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/rust-lang",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5430905?"
+        }
+    },
+    {
+        "id": "23932022419",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984101973,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f16b38454fa8df53313b0801b6ed9064b1083e1e",
+            "before": "00b54e8ecdec521d588a977b073ec870723e3d96",
+            "commits": [
+                {
+                    "sha": "f16b38454fa8df53313b0801b6ed9064b1083e1e",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.3.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/f16b38454fa8df53313b0801b6ed9064b1083e1e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:41:41Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931931493",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984039830,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "00b54e8ecdec521d588a977b073ec870723e3d96",
+            "before": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+            "commits": [
+                {
+                    "sha": "00b54e8ecdec521d588a977b073ec870723e3d96",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/00b54e8ecdec521d588a977b073ec870723e3d96"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:25:27Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931929030",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984038110,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+            "before": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+            "commits": [
+                {
+                    "sha": "e7365d27548ea0b99b898e4cb8ecea80e40ccd3a",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/e7365d27548ea0b99b898e4cb8ecea80e40ccd3a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:25:03Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931918182",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984030837,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+            "before": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+            "commits": [
+                {
+                    "sha": "f5629de7b03bbc73be619a6060cb6eeb84e8595f",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.1.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/f5629de7b03bbc73be619a6060cb6eeb84e8595f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:23:06Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931906224",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10984022738,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+            "before": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+            "commits": [
+                {
+                    "sha": "a0b8370282ebcd44a32885e2e11d52257ec29055",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.1.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/a0b8370282ebcd44a32885e2e11d52257ec29055"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:21:01Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23931869380",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166075695,
+            "name": "baoagency/postcss-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/postcss-config-unisian"
+        },
+        "payload": {
+            "push_id": 10983997759,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+            "before": "977f66b419ab385b25c192726bb9dbfd42b27d77",
+            "commits": [
+                {
+                    "sha": "83bf4a55a377cf07368ce119f8cf210b7265a5c3",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "2.0.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/postcss-config-unisian/commits/83bf4a55a377cf07368ce119f8cf210b7265a5c3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T17:14:42Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23800677249",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 442245860,
+            "name": "gestaltjs/gestalt",
+            "url": "https://api.github.com/repos/gestaltjs/gestalt"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-03T08:23:29Z",
+        "org": {
+            "id": 96745338,
+            "login": "gestaltjs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/gestaltjs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/96745338?"
+        }
+    },
+    {
+        "id": "23655301013",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1352043997,
+                "node_id": "I_kwDOCeXrDM5Qlo3d",
+                "number": 6,
+                "title": "Hypens allowed in modifier",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-08-26T10:00:12Z",
+                "updated_at": "2022-08-26T10:36:22Z",
+                "closed_at": "2022-08-26T10:36:04Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Just spotted this wasn't caught by the linter on one of our projects. Unless I'm mistaken we don't allow hypens in modifiers?\r\n\r\n```css\r\n.acc-Drawer_LoginFormField-double-margin {}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1228336389",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6#issuecomment-1228336389",
+                "issue_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1228336389,
+                "node_id": "IC_kwDOCeXrDM5JNu0F",
+                "user": {
+                    "login": "dan-gamble",
+                    "id": 7152041,
+                    "node_id": "MDQ6VXNlcjcxNTIwNDE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7152041?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dan-gamble",
+                    "html_url": "https://github.com/dan-gamble",
+                    "followers_url": "https://api.github.com/users/dan-gamble/followers",
+                    "following_url": "https://api.github.com/users/dan-gamble/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dan-gamble/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dan-gamble/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dan-gamble/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dan-gamble/orgs",
+                    "repos_url": "https://api.github.com/users/dan-gamble/repos",
+                    "events_url": "https://api.github.com/users/dan-gamble/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dan-gamble/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-26T10:36:22Z",
+                "updated_at": "2022-08-26T10:36:22Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Thanks @davidwarrington, you're correct. This is fixed in 1.4.1 if you want to upgrade!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/comments/1228336389/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:22Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23655295905",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6",
+                "repository_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian",
+                "labels_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/labels{/name}",
+                "comments_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/comments",
+                "events_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/events",
+                "html_url": "https://github.com/baoagency/stylelint-config-unisian/issues/6",
+                "id": 1352043997,
+                "node_id": "I_kwDOCeXrDM5Qlo3d",
+                "number": 6,
+                "title": "Hypens allowed in modifier",
+                "user": {
+                    "login": "davidwarrington",
+                    "id": 9138568,
+                    "node_id": "MDQ6VXNlcjkxMzg1Njg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9138568?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/davidwarrington",
+                    "html_url": "https://github.com/davidwarrington",
+                    "followers_url": "https://api.github.com/users/davidwarrington/followers",
+                    "following_url": "https://api.github.com/users/davidwarrington/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/davidwarrington/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/davidwarrington/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/davidwarrington/subscriptions",
+                    "organizations_url": "https://api.github.com/users/davidwarrington/orgs",
+                    "repos_url": "https://api.github.com/users/davidwarrington/repos",
+                    "events_url": "https://api.github.com/users/davidwarrington/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/davidwarrington/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-26T10:00:12Z",
+                "updated_at": "2022-08-26T10:36:04Z",
+                "closed_at": "2022-08-26T10:36:04Z",
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "body": "Just spotted this wasn't caught by the linter on one of our projects. Unless I'm mistaken we don't allow hypens in modifiers?\r\n\r\n```css\r\n.acc-Drawer_LoginFormField-double-margin {}\r\n```",
+                "reactions": {
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/issues/6/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:04Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23655295673",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 166062860,
+            "name": "baoagency/stylelint-config-unisian",
+            "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian"
+        },
+        "payload": {
+            "push_id": 10840582245,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+            "before": "50c1e6d7ce0e66c459afd783968699056cf7c89b",
+            "commits": [
+                {
+                    "sha": "ad947d8b0c0dbac2013d29509f30f72fb4813689",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "Disallow hyphens in modifier name\n\nFixes #6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/ad947d8b0c0dbac2013d29509f30f72fb4813689"
+                },
+                {
+                    "sha": "61cd5e78a5a65552f317e75757b4e9cb3d2b16a1",
+                    "author": {
+                        "email": "dan@dangamble.co.uk",
+                        "name": "Dan Gamble"
+                    },
+                    "message": "1.4.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/baoagency/stylelint-config-unisian/commits/61cd5e78a5a65552f317e75757b4e9cb3d2b16a1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-26T10:36:04Z",
+        "org": {
+            "id": 1958082,
+            "login": "baoagency",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/baoagency",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1958082?"
+        }
+    },
+    {
+        "id": "23614860820",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7152041,
+            "login": "dan-gamble",
+            "display_login": "dan-gamble",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dan-gamble",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7152041?"
+        },
+        "repo": {
+            "id": 493028759,
+            "name": "Crunchyman-ralph/shopify-app-node-monorepo-express-vite",
+            "url": "https://api.github.com/repos/Crunchyman-ralph/shopify-app-node-monorepo-express-vite"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-24T15:05:21Z"
+    }
+]

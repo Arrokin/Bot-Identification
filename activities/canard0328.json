@@ -1,0 +1,2273 @@
+[
+    {
+        "id": "25001922904",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11539305973,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "d7f8681929fc471eca39c80406d5761136ce4af6",
+            "before": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+            "commits": [
+                {
+                    "sha": "d7f8681929fc471eca39c80406d5761136ce4af6",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "Section4 donw.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/d7f8681929fc471eca39c80406d5761136ce4af6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-03T08:44:22Z"
+    },
+    {
+        "id": "25001433193",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397820800,
+            "name": "ohmsha/PyOptBook",
+            "url": "https://api.github.com/repos/ohmsha/PyOptBook"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14",
+                "repository_url": "https://api.github.com/repos/ohmsha/PyOptBook",
+                "labels_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/comments",
+                "events_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/events",
+                "html_url": "https://github.com/ohmsha/PyOptBook/issues/14",
+                "id": 1434270653,
+                "node_id": "I_kwDOF7ZDgM5VfTu9",
+                "number": 14,
+                "title": "4.5 \u30e2\u30c7\u30ea\u30f3\u30b03\u306e\u30b3\u30fc\u30c9\u306b\u3064\u3044\u3066",
+                "user": {
+                    "login": "canard0328",
+                    "id": 4339054,
+                    "node_id": "MDQ6VXNlcjQzMzkwNTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4339054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/canard0328",
+                    "html_url": "https://github.com/canard0328",
+                    "followers_url": "https://api.github.com/users/canard0328/followers",
+                    "following_url": "https://api.github.com/users/canard0328/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/canard0328/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/canard0328/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/canard0328/subscriptions",
+                    "organizations_url": "https://api.github.com/users/canard0328/orgs",
+                    "repos_url": "https://api.github.com/users/canard0328/repos",
+                    "events_url": "https://api.github.com/users/canard0328/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/canard0328/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-03T08:18:02Z",
+                "updated_at": "2022-11-03T08:18:02Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In [51] 4\u884c\u76ee\u306e`x = {}`\u306f`xsm = {}`\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\uff1f\r\n`xsm`\u304c\u5ba3\u8a00\u6e08\u307f\u306e\u305f\u3081\u52d5\u4f5c\u306b\u5f71\u97ff\u306f\u306a\u3044\u3067\u3059\u304c\u3002",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-03T08:18:03Z",
+        "org": {
+            "id": 1243888,
+            "login": "ohmsha",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ohmsha",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1243888?"
+        }
+    },
+    {
+        "id": "24958325545",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11517229341,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+            "before": "046543c45e48972e637d1c90b07c1880613529a6",
+            "commits": [
+                {
+                    "sha": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "4.4 done.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/a1b0c99b0ca0abbcf57cb223e783428da889a311"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T13:41:19Z"
+    },
+    {
+        "id": "24932346621",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11504197560,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "046543c45e48972e637d1c90b07c1880613529a6",
+            "before": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+            "commits": [
+                {
+                    "sha": "046543c45e48972e637d1c90b07c1880613529a6",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "Section 3 done.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/046543c45e48972e637d1c90b07c1880613529a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T12:42:09Z"
+    },
+    {
+        "id": "24927653542",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397820800,
+            "name": "ohmsha/PyOptBook",
+            "url": "https://api.github.com/repos/ohmsha/PyOptBook"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13",
+                "repository_url": "https://api.github.com/repos/ohmsha/PyOptBook",
+                "labels_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/comments",
+                "events_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/events",
+                "html_url": "https://github.com/ohmsha/PyOptBook/issues/13",
+                "id": 1429490456,
+                "node_id": "I_kwDOF7ZDgM5VNEsY",
+                "number": 13,
+                "title": "3.4 \u6570\u7406\u30e2\u30c7\u30eb\u306e\u691c\u8a3c\u5192\u982d\u306e\u30b3\u30fc\u30c9\u306b\u3064\u3044\u3066",
+                "user": {
+                    "login": "canard0328",
+                    "id": 4339054,
+                    "node_id": "MDQ6VXNlcjQzMzkwNTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4339054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/canard0328",
+                    "html_url": "https://github.com/canard0328",
+                    "followers_url": "https://api.github.com/users/canard0328/followers",
+                    "following_url": "https://api.github.com/users/canard0328/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/canard0328/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/canard0328/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/canard0328/subscriptions",
+                    "organizations_url": "https://api.github.com/users/canard0328/orgs",
+                    "repos_url": "https://api.github.com/users/canard0328/repos",
+                    "events_url": "https://api.github.com/users/canard0328/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/canard0328/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-31T08:57:04Z",
+                "updated_at": "2022-10-31T08:57:04Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "```\r\nfor s in S:\r\n    # \u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\r\n    assigned_class = [x[s,c].value() for c in C if x[s,c].value()==1]\r\n```\r\n\u3067\u3059\u3068assigned_class\u306b\u306f1\u3057\u304b\u5165\u3089\u306a\u3044\u306e\u3067\u3001\u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\u3057\u305f\u3044\u306e\u3067\u3057\u305f\u3089\u3001\r\n```\r\nfor s in S:\r\n    # \u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\r\n    assigned_class = [c for c in C if x[s,c].value()==1]\r\n```\r\n\u3068\u3059\u308b\u5fc5\u8981\u304c\u3042\u308b\u306e\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\uff1f",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-31T08:57:05Z",
+        "org": {
+            "id": 1243888,
+            "login": "ohmsha",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ohmsha",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1243888?"
+        }
+    },
+    {
+        "id": "24922036917",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11498984811,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+            "before": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+            "commits": [
+                {
+                    "sha": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "2.3 done",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/15cc32a908b977cb175b75bdd038b0f7b659940e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:48:11Z"
+    },
+    {
+        "id": "24916343228",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11495399751,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+            "before": "bc02844587c511f73691422c70998586b7287ca4",
+            "commits": [
+                {
+                    "sha": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "done 2.2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/ffaa6c6f8edc6b34a434d9bd60be84b35187e340"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T12:53:23Z"
+    },
+    {
+        "id": "24914082318",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11493995676,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "edb1a775ed13ff8a15775eaec173661439d88985",
+            "before": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+            "commits": [
+                {
+                    "sha": "edb1a775ed13ff8a15775eaec173661439d88985",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u52a0\u7b46",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/edb1a775ed13ff8a15775eaec173661439d88985"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:17:43Z"
+    },
+    {
+        "id": "24914064993",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:14:44Z"
+    },
+    {
+        "id": "24914064656",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:14:41Z"
+    },
+    {
+        "id": "24913944346",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11493907408,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+            "before": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+            "commits": [
+                {
+                    "sha": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u52a0\u7b46",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/2993b6080662788f7af3e70779fe0953a3fbd18a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T06:53:34Z"
+    },
+    {
+        "id": "24346909799",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11200097842,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+            "before": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+            "commits": [
+                {
+                    "sha": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u8ffd\u8a18",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/b4022caf26d819ef29c8ab0dfd2332c7b790496a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-02T12:44:28Z"
+    },
+    {
+        "id": "24243609674",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11147233812,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+            "before": "bf4aef9057411ef96adf154b3d3479861557d72c",
+            "commits": [
+                {
+                    "sha": "69555070f07a835f32be34e141ce72dfc7870d9a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u5fae\u4fee\u6b63",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/69555070f07a835f32be34e141ce72dfc7870d9a"
+                },
+                {
+                    "sha": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u516c\u958b\u8a2d\u5b9a",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/1abc31fdbc3ece9030d37a54ac57f4123923585a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T08:47:55Z"
+    },
+    {
+        "id": "24239667480",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145309464,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "bf4aef9057411ef96adf154b3d3479861557d72c",
+            "before": "22445038521f4f2db2c3517043c8821bba56d010",
+            "commits": [
+                {
+                    "sha": "bf4aef9057411ef96adf154b3d3479861557d72c",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u6539\u884c\u3092\u4fee\u6b63",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/bf4aef9057411ef96adf154b3d3479861557d72c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T05:01:54Z"
+    },
+    {
+        "id": "24239468697",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145205066,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "22445038521f4f2db2c3517043c8821bba56d010",
+            "before": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+            "commits": [
+                {
+                    "sha": "382e2e0bdf8021bdebeda61dee94102577225f76",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u30ea\u30cd\u30fc\u30e0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/382e2e0bdf8021bdebeda61dee94102577225f76"
+                },
+                {
+                    "sha": "22445038521f4f2db2c3517043c8821bba56d010",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "deleted:    articles/memo-of-phd.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/22445038521f4f2db2c3517043c8821bba56d010"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T04:43:25Z"
+    },
+    {
+        "id": "24239433052",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145188289,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+            "before": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+            "commits": [
+                {
+                    "sha": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u535a\u58eb\u53f7\u53d6\u5f97\u899a\u3048\u66f8\u304d\u521d\u7a3f",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/14142e7e412ae3e934bf2a903c5334aee600f8e7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T04:40:29Z"
+    },
+    {
+        "id": "23540180720",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 10781573511,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+            "before": "586f81d9ee6c6adc24f793e3ab1d88051d7b89cf",
+            "commits": [
+                {
+                    "sha": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u6700\u65b0\u306e\u60c5\u5831\u306b\u66f4\u65b0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/aa42f97ec773cf59ea8c59888fee623ac6ba1072"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-20T09:03:12Z"
+    },
+    {
+        "id": "25001922904",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11539305973,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "d7f8681929fc471eca39c80406d5761136ce4af6",
+            "before": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+            "commits": [
+                {
+                    "sha": "d7f8681929fc471eca39c80406d5761136ce4af6",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "Section4 donw.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/d7f8681929fc471eca39c80406d5761136ce4af6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-03T08:44:22Z"
+    },
+    {
+        "id": "25001433193",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397820800,
+            "name": "ohmsha/PyOptBook",
+            "url": "https://api.github.com/repos/ohmsha/PyOptBook"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14",
+                "repository_url": "https://api.github.com/repos/ohmsha/PyOptBook",
+                "labels_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/comments",
+                "events_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/events",
+                "html_url": "https://github.com/ohmsha/PyOptBook/issues/14",
+                "id": 1434270653,
+                "node_id": "I_kwDOF7ZDgM5VfTu9",
+                "number": 14,
+                "title": "4.5 \u30e2\u30c7\u30ea\u30f3\u30b03\u306e\u30b3\u30fc\u30c9\u306b\u3064\u3044\u3066",
+                "user": {
+                    "login": "canard0328",
+                    "id": 4339054,
+                    "node_id": "MDQ6VXNlcjQzMzkwNTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4339054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/canard0328",
+                    "html_url": "https://github.com/canard0328",
+                    "followers_url": "https://api.github.com/users/canard0328/followers",
+                    "following_url": "https://api.github.com/users/canard0328/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/canard0328/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/canard0328/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/canard0328/subscriptions",
+                    "organizations_url": "https://api.github.com/users/canard0328/orgs",
+                    "repos_url": "https://api.github.com/users/canard0328/repos",
+                    "events_url": "https://api.github.com/users/canard0328/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/canard0328/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-03T08:18:02Z",
+                "updated_at": "2022-11-03T08:18:02Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In [51] 4\u884c\u76ee\u306e`x = {}`\u306f`xsm = {}`\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\uff1f\r\n`xsm`\u304c\u5ba3\u8a00\u6e08\u307f\u306e\u305f\u3081\u52d5\u4f5c\u306b\u5f71\u97ff\u306f\u306a\u3044\u3067\u3059\u304c\u3002",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-03T08:18:03Z",
+        "org": {
+            "id": 1243888,
+            "login": "ohmsha",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ohmsha",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1243888?"
+        }
+    },
+    {
+        "id": "24958325545",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11517229341,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+            "before": "046543c45e48972e637d1c90b07c1880613529a6",
+            "commits": [
+                {
+                    "sha": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "4.4 done.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/a1b0c99b0ca0abbcf57cb223e783428da889a311"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T13:41:19Z"
+    },
+    {
+        "id": "24932346621",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11504197560,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "046543c45e48972e637d1c90b07c1880613529a6",
+            "before": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+            "commits": [
+                {
+                    "sha": "046543c45e48972e637d1c90b07c1880613529a6",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "Section 3 done.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/046543c45e48972e637d1c90b07c1880613529a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T12:42:09Z"
+    },
+    {
+        "id": "24927653542",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397820800,
+            "name": "ohmsha/PyOptBook",
+            "url": "https://api.github.com/repos/ohmsha/PyOptBook"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13",
+                "repository_url": "https://api.github.com/repos/ohmsha/PyOptBook",
+                "labels_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/comments",
+                "events_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/events",
+                "html_url": "https://github.com/ohmsha/PyOptBook/issues/13",
+                "id": 1429490456,
+                "node_id": "I_kwDOF7ZDgM5VNEsY",
+                "number": 13,
+                "title": "3.4 \u6570\u7406\u30e2\u30c7\u30eb\u306e\u691c\u8a3c\u5192\u982d\u306e\u30b3\u30fc\u30c9\u306b\u3064\u3044\u3066",
+                "user": {
+                    "login": "canard0328",
+                    "id": 4339054,
+                    "node_id": "MDQ6VXNlcjQzMzkwNTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4339054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/canard0328",
+                    "html_url": "https://github.com/canard0328",
+                    "followers_url": "https://api.github.com/users/canard0328/followers",
+                    "following_url": "https://api.github.com/users/canard0328/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/canard0328/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/canard0328/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/canard0328/subscriptions",
+                    "organizations_url": "https://api.github.com/users/canard0328/orgs",
+                    "repos_url": "https://api.github.com/users/canard0328/repos",
+                    "events_url": "https://api.github.com/users/canard0328/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/canard0328/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-31T08:57:04Z",
+                "updated_at": "2022-10-31T08:57:04Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "```\r\nfor s in S:\r\n    # \u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\r\n    assigned_class = [x[s,c].value() for c in C if x[s,c].value()==1]\r\n```\r\n\u3067\u3059\u3068assigned_class\u306b\u306f1\u3057\u304b\u5165\u3089\u306a\u3044\u306e\u3067\u3001\u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\u3057\u305f\u3044\u306e\u3067\u3057\u305f\u3089\u3001\r\n```\r\nfor s in S:\r\n    # \u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\r\n    assigned_class = [c for c in C if x[s,c].value()==1]\r\n```\r\n\u3068\u3059\u308b\u5fc5\u8981\u304c\u3042\u308b\u306e\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\uff1f",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-31T08:57:05Z",
+        "org": {
+            "id": 1243888,
+            "login": "ohmsha",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ohmsha",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1243888?"
+        }
+    },
+    {
+        "id": "24922036917",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11498984811,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+            "before": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+            "commits": [
+                {
+                    "sha": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "2.3 done",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/15cc32a908b977cb175b75bdd038b0f7b659940e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:48:11Z"
+    },
+    {
+        "id": "24916343228",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11495399751,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+            "before": "bc02844587c511f73691422c70998586b7287ca4",
+            "commits": [
+                {
+                    "sha": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "done 2.2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/ffaa6c6f8edc6b34a434d9bd60be84b35187e340"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T12:53:23Z"
+    },
+    {
+        "id": "24914082318",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11493995676,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "edb1a775ed13ff8a15775eaec173661439d88985",
+            "before": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+            "commits": [
+                {
+                    "sha": "edb1a775ed13ff8a15775eaec173661439d88985",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u52a0\u7b46",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/edb1a775ed13ff8a15775eaec173661439d88985"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:17:43Z"
+    },
+    {
+        "id": "24914064993",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:14:44Z"
+    },
+    {
+        "id": "24914064656",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:14:41Z"
+    },
+    {
+        "id": "24913944346",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11493907408,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+            "before": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+            "commits": [
+                {
+                    "sha": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u52a0\u7b46",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/2993b6080662788f7af3e70779fe0953a3fbd18a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T06:53:34Z"
+    },
+    {
+        "id": "24346909799",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11200097842,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+            "before": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+            "commits": [
+                {
+                    "sha": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u8ffd\u8a18",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/b4022caf26d819ef29c8ab0dfd2332c7b790496a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-02T12:44:28Z"
+    },
+    {
+        "id": "24243609674",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11147233812,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+            "before": "bf4aef9057411ef96adf154b3d3479861557d72c",
+            "commits": [
+                {
+                    "sha": "69555070f07a835f32be34e141ce72dfc7870d9a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u5fae\u4fee\u6b63",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/69555070f07a835f32be34e141ce72dfc7870d9a"
+                },
+                {
+                    "sha": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u516c\u958b\u8a2d\u5b9a",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/1abc31fdbc3ece9030d37a54ac57f4123923585a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T08:47:55Z"
+    },
+    {
+        "id": "24239667480",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145309464,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "bf4aef9057411ef96adf154b3d3479861557d72c",
+            "before": "22445038521f4f2db2c3517043c8821bba56d010",
+            "commits": [
+                {
+                    "sha": "bf4aef9057411ef96adf154b3d3479861557d72c",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u6539\u884c\u3092\u4fee\u6b63",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/bf4aef9057411ef96adf154b3d3479861557d72c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T05:01:54Z"
+    },
+    {
+        "id": "24239468697",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145205066,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "22445038521f4f2db2c3517043c8821bba56d010",
+            "before": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+            "commits": [
+                {
+                    "sha": "382e2e0bdf8021bdebeda61dee94102577225f76",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u30ea\u30cd\u30fc\u30e0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/382e2e0bdf8021bdebeda61dee94102577225f76"
+                },
+                {
+                    "sha": "22445038521f4f2db2c3517043c8821bba56d010",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "deleted:    articles/memo-of-phd.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/22445038521f4f2db2c3517043c8821bba56d010"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T04:43:25Z"
+    },
+    {
+        "id": "24239433052",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145188289,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+            "before": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+            "commits": [
+                {
+                    "sha": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u535a\u58eb\u53f7\u53d6\u5f97\u899a\u3048\u66f8\u304d\u521d\u7a3f",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/14142e7e412ae3e934bf2a903c5334aee600f8e7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T04:40:29Z"
+    },
+    {
+        "id": "23540180720",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 10781573511,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+            "before": "586f81d9ee6c6adc24f793e3ab1d88051d7b89cf",
+            "commits": [
+                {
+                    "sha": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u6700\u65b0\u306e\u60c5\u5831\u306b\u66f4\u65b0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/aa42f97ec773cf59ea8c59888fee623ac6ba1072"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-20T09:03:12Z"
+    },
+    {
+        "id": "25001922904",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11539305973,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "d7f8681929fc471eca39c80406d5761136ce4af6",
+            "before": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+            "commits": [
+                {
+                    "sha": "d7f8681929fc471eca39c80406d5761136ce4af6",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "Section4 donw.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/d7f8681929fc471eca39c80406d5761136ce4af6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-03T08:44:22Z"
+    },
+    {
+        "id": "25001433193",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397820800,
+            "name": "ohmsha/PyOptBook",
+            "url": "https://api.github.com/repos/ohmsha/PyOptBook"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14",
+                "repository_url": "https://api.github.com/repos/ohmsha/PyOptBook",
+                "labels_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/comments",
+                "events_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/events",
+                "html_url": "https://github.com/ohmsha/PyOptBook/issues/14",
+                "id": 1434270653,
+                "node_id": "I_kwDOF7ZDgM5VfTu9",
+                "number": 14,
+                "title": "4.5 \u30e2\u30c7\u30ea\u30f3\u30b03\u306e\u30b3\u30fc\u30c9\u306b\u3064\u3044\u3066",
+                "user": {
+                    "login": "canard0328",
+                    "id": 4339054,
+                    "node_id": "MDQ6VXNlcjQzMzkwNTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4339054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/canard0328",
+                    "html_url": "https://github.com/canard0328",
+                    "followers_url": "https://api.github.com/users/canard0328/followers",
+                    "following_url": "https://api.github.com/users/canard0328/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/canard0328/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/canard0328/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/canard0328/subscriptions",
+                    "organizations_url": "https://api.github.com/users/canard0328/orgs",
+                    "repos_url": "https://api.github.com/users/canard0328/repos",
+                    "events_url": "https://api.github.com/users/canard0328/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/canard0328/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-03T08:18:02Z",
+                "updated_at": "2022-11-03T08:18:02Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "In [51] 4\u884c\u76ee\u306e`x = {}`\u306f`xsm = {}`\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\uff1f\r\n`xsm`\u304c\u5ba3\u8a00\u6e08\u307f\u306e\u305f\u3081\u52d5\u4f5c\u306b\u5f71\u97ff\u306f\u306a\u3044\u3067\u3059\u304c\u3002",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/14/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-03T08:18:03Z",
+        "org": {
+            "id": 1243888,
+            "login": "ohmsha",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ohmsha",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1243888?"
+        }
+    },
+    {
+        "id": "24958325545",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11517229341,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+            "before": "046543c45e48972e637d1c90b07c1880613529a6",
+            "commits": [
+                {
+                    "sha": "a1b0c99b0ca0abbcf57cb223e783428da889a311",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "4.4 done.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/a1b0c99b0ca0abbcf57cb223e783428da889a311"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T13:41:19Z"
+    },
+    {
+        "id": "24932346621",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11504197560,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "046543c45e48972e637d1c90b07c1880613529a6",
+            "before": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+            "commits": [
+                {
+                    "sha": "046543c45e48972e637d1c90b07c1880613529a6",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "Section 3 done.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/046543c45e48972e637d1c90b07c1880613529a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T12:42:09Z"
+    },
+    {
+        "id": "24927653542",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397820800,
+            "name": "ohmsha/PyOptBook",
+            "url": "https://api.github.com/repos/ohmsha/PyOptBook"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13",
+                "repository_url": "https://api.github.com/repos/ohmsha/PyOptBook",
+                "labels_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/labels{/name}",
+                "comments_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/comments",
+                "events_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/events",
+                "html_url": "https://github.com/ohmsha/PyOptBook/issues/13",
+                "id": 1429490456,
+                "node_id": "I_kwDOF7ZDgM5VNEsY",
+                "number": 13,
+                "title": "3.4 \u6570\u7406\u30e2\u30c7\u30eb\u306e\u691c\u8a3c\u5192\u982d\u306e\u30b3\u30fc\u30c9\u306b\u3064\u3044\u3066",
+                "user": {
+                    "login": "canard0328",
+                    "id": 4339054,
+                    "node_id": "MDQ6VXNlcjQzMzkwNTQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4339054?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/canard0328",
+                    "html_url": "https://github.com/canard0328",
+                    "followers_url": "https://api.github.com/users/canard0328/followers",
+                    "following_url": "https://api.github.com/users/canard0328/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/canard0328/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/canard0328/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/canard0328/subscriptions",
+                    "organizations_url": "https://api.github.com/users/canard0328/orgs",
+                    "repos_url": "https://api.github.com/users/canard0328/repos",
+                    "events_url": "https://api.github.com/users/canard0328/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/canard0328/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-31T08:57:04Z",
+                "updated_at": "2022-10-31T08:57:04Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "```\r\nfor s in S:\r\n    # \u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\r\n    assigned_class = [x[s,c].value() for c in C if x[s,c].value()==1]\r\n```\r\n\u3067\u3059\u3068assigned_class\u306b\u306f1\u3057\u304b\u5165\u3089\u306a\u3044\u306e\u3067\u3001\u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\u3057\u305f\u3044\u306e\u3067\u3057\u305f\u3089\u3001\r\n```\r\nfor s in S:\r\n    # \u5272\u308a\u5f53\u3066\u3089\u308c\u305f\u30af\u30e9\u30b9\u3092\u53d6\u5f97\r\n    assigned_class = [c for c in C if x[s,c].value()==1]\r\n```\r\n\u3068\u3059\u308b\u5fc5\u8981\u304c\u3042\u308b\u306e\u3067\u306f\u306a\u3044\u3067\u3057\u3087\u3046\u304b\uff1f",
+                "reactions": {
+                    "url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/ohmsha/PyOptBook/issues/13/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-31T08:57:05Z",
+        "org": {
+            "id": 1243888,
+            "login": "ohmsha",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ohmsha",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1243888?"
+        }
+    },
+    {
+        "id": "24922036917",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11498984811,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+            "before": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+            "commits": [
+                {
+                    "sha": "15cc32a908b977cb175b75bdd038b0f7b659940e",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "2.3 done",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/15cc32a908b977cb175b75bdd038b0f7b659940e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:48:11Z"
+    },
+    {
+        "id": "24916343228",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "push_id": 11495399751,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+            "before": "bc02844587c511f73691422c70998586b7287ca4",
+            "commits": [
+                {
+                    "sha": "ffaa6c6f8edc6b34a434d9bd60be84b35187e340",
+                    "author": {
+                        "email": "canard0328@example.com",
+                        "name": "canard0328"
+                    },
+                    "message": "done 2.2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/pyoptbook/commits/ffaa6c6f8edc6b34a434d9bd60be84b35187e340"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T12:53:23Z"
+    },
+    {
+        "id": "24914082318",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11493995676,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "edb1a775ed13ff8a15775eaec173661439d88985",
+            "before": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+            "commits": [
+                {
+                    "sha": "edb1a775ed13ff8a15775eaec173661439d88985",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u52a0\u7b46",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/edb1a775ed13ff8a15775eaec173661439d88985"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:17:43Z"
+    },
+    {
+        "id": "24914064993",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:14:44Z"
+    },
+    {
+        "id": "24914064656",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 559460091,
+            "name": "canard0328/pyoptbook",
+            "url": "https://api.github.com/repos/canard0328/pyoptbook"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-30T07:14:41Z"
+    },
+    {
+        "id": "24913944346",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11493907408,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+            "before": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+            "commits": [
+                {
+                    "sha": "2993b6080662788f7af3e70779fe0953a3fbd18a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u52a0\u7b46",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/2993b6080662788f7af3e70779fe0953a3fbd18a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-30T06:53:34Z"
+    },
+    {
+        "id": "24346909799",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11200097842,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+            "before": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+            "commits": [
+                {
+                    "sha": "b4022caf26d819ef29c8ab0dfd2332c7b790496a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u8ffd\u8a18",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/b4022caf26d819ef29c8ab0dfd2332c7b790496a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-02T12:44:28Z"
+    },
+    {
+        "id": "24243609674",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11147233812,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+            "before": "bf4aef9057411ef96adf154b3d3479861557d72c",
+            "commits": [
+                {
+                    "sha": "69555070f07a835f32be34e141ce72dfc7870d9a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u5fae\u4fee\u6b63",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/69555070f07a835f32be34e141ce72dfc7870d9a"
+                },
+                {
+                    "sha": "1abc31fdbc3ece9030d37a54ac57f4123923585a",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u516c\u958b\u8a2d\u5b9a",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/1abc31fdbc3ece9030d37a54ac57f4123923585a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T08:47:55Z"
+    },
+    {
+        "id": "24239667480",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145309464,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "bf4aef9057411ef96adf154b3d3479861557d72c",
+            "before": "22445038521f4f2db2c3517043c8821bba56d010",
+            "commits": [
+                {
+                    "sha": "bf4aef9057411ef96adf154b3d3479861557d72c",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u6539\u884c\u3092\u4fee\u6b63",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/bf4aef9057411ef96adf154b3d3479861557d72c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T05:01:54Z"
+    },
+    {
+        "id": "24239468697",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145205066,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "22445038521f4f2db2c3517043c8821bba56d010",
+            "before": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+            "commits": [
+                {
+                    "sha": "382e2e0bdf8021bdebeda61dee94102577225f76",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u30ea\u30cd\u30fc\u30e0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/382e2e0bdf8021bdebeda61dee94102577225f76"
+                },
+                {
+                    "sha": "22445038521f4f2db2c3517043c8821bba56d010",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "deleted:    articles/memo-of-phd.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/22445038521f4f2db2c3517043c8821bba56d010"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T04:43:25Z"
+    },
+    {
+        "id": "24239433052",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 11145188289,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+            "before": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+            "commits": [
+                {
+                    "sha": "14142e7e412ae3e934bf2a903c5334aee600f8e7",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u535a\u58eb\u53f7\u53d6\u5f97\u899a\u3048\u66f8\u304d\u521d\u7a3f",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/14142e7e412ae3e934bf2a903c5334aee600f8e7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T04:40:29Z"
+    },
+    {
+        "id": "23540180720",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4339054,
+            "login": "canard0328",
+            "display_login": "canard0328",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/canard0328",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4339054?"
+        },
+        "repo": {
+            "id": 397936934,
+            "name": "canard0328/zenn-docs",
+            "url": "https://api.github.com/repos/canard0328/zenn-docs"
+        },
+        "payload": {
+            "push_id": 10781573511,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+            "before": "586f81d9ee6c6adc24f793e3ab1d88051d7b89cf",
+            "commits": [
+                {
+                    "sha": "aa42f97ec773cf59ea8c59888fee623ac6ba1072",
+                    "author": {
+                        "email": "ryota.kamoshida@gmail.com",
+                        "name": "Ryota Kamoshida"
+                    },
+                    "message": "\u6700\u65b0\u306e\u60c5\u5831\u306b\u66f4\u65b0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/canard0328/zenn-docs/commits/aa42f97ec773cf59ea8c59888fee623ac6ba1072"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-20T09:03:12Z"
+    }
+]

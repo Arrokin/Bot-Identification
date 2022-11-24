@@ -1,0 +1,647 @@
+[
+    {
+        "id": "24872377855",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 420420172,
+            "name": "rojarsmith/TrayToolbar",
+            "url": "https://api.github.com/repos/rojarsmith/TrayToolbar"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13",
+                "repository_url": "https://api.github.com/repos/rojarsmith/TrayToolbar",
+                "labels_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/labels{/name}",
+                "comments_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/comments",
+                "events_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/events",
+                "html_url": "https://github.com/rojarsmith/TrayToolbar/issues/13",
+                "id": 1425893746,
+                "node_id": "I_kwDOGQ8aTM5U_Wly",
+                "number": 13,
+                "title": "Refresh at Startup",
+                "user": {
+                    "login": "filippobottega",
+                    "id": 2587684,
+                    "node_id": "MDQ6VXNlcjI1ODc2ODQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2587684?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/filippobottega",
+                    "html_url": "https://github.com/filippobottega",
+                    "followers_url": "https://api.github.com/users/filippobottega/followers",
+                    "following_url": "https://api.github.com/users/filippobottega/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/filippobottega/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/filippobottega/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/filippobottega/subscriptions",
+                    "organizations_url": "https://api.github.com/users/filippobottega/orgs",
+                    "repos_url": "https://api.github.com/users/filippobottega/repos",
+                    "events_url": "https://api.github.com/users/filippobottega/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/filippobottega/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-27T16:08:41Z",
+                "updated_at": "2022-10-27T16:08:41Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello,\r\n  is it possible to refresh data at startup to avoid the wait time when the user click for thee first time?\r\n\r\n  Thank you!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-27T16:08:41Z"
+    },
+    {
+        "id": "24871763483",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 98035869,
+            "name": "afit/wlan10",
+            "url": "https://api.github.com/repos/afit/wlan10"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/afit/wlan10/issues/54",
+                "repository_url": "https://api.github.com/repos/afit/wlan10",
+                "labels_url": "https://api.github.com/repos/afit/wlan10/issues/54/labels{/name}",
+                "comments_url": "https://api.github.com/repos/afit/wlan10/issues/54/comments",
+                "events_url": "https://api.github.com/repos/afit/wlan10/issues/54/events",
+                "html_url": "https://github.com/afit/wlan10/issues/54",
+                "id": 1425859126,
+                "node_id": "I_kwDOBdfonc5U_OI2",
+                "number": 54,
+                "title": "Input string was not in a correct format",
+                "user": {
+                    "login": "filippobottega",
+                    "id": 2587684,
+                    "node_id": "MDQ6VXNlcjI1ODc2ODQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2587684?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/filippobottega",
+                    "html_url": "https://github.com/filippobottega",
+                    "followers_url": "https://api.github.com/users/filippobottega/followers",
+                    "following_url": "https://api.github.com/users/filippobottega/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/filippobottega/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/filippobottega/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/filippobottega/subscriptions",
+                    "organizations_url": "https://api.github.com/users/filippobottega/orgs",
+                    "repos_url": "https://api.github.com/users/filippobottega/repos",
+                    "events_url": "https://api.github.com/users/filippobottega/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/filippobottega/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-27T15:42:46Z",
+                "updated_at": "2022-10-27T15:42:46Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "---------------------------\r\nUnexpected error\r\n---------------------------\r\nThe application encountered an unexpected error while parsing a network. You can continue using the app, but some profiles may be missing. Please report this error to the developer (\"https://github.com/afit/wlan10/Issues\")\r\n\r\nError details:\r\n\r\nInput string was not in a correct format.\r\n\r\n   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n\r\n   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)\r\n\r\n   at System.Int32.Parse(String s)\r\n\r\n   at Net.Bertware.Wlan10.Model.WlanNetwork..ctor(String name)\r\n\r\n\r\n\r\nTabella codici attiva: 65001\r\n\r\n\r\n\r\nProfilo realme GT Master Edition sull'interfaccia Wi-Fi: \r\n\r\n======================================================================= \r\n\r\n\r\n\r\nApplicato/a: Tutti i profili utente    \r\n\r\n\r\n\r\nInformazioni profilo \r\n\r\n------------------- \r\n\r\n    Versione               : 1\r\n\r\n    Tipo                   : LAN wireless\r\n\r\n    Nome                   : realme GT Master Edition\r\n\r\n    Opzioni di controllo   : \r\n\r\n        Modalit\u00e0 connessione     : Connetti automaticamente\r\n\r\n        Broadcast rete          : Connetti solo in presenza di\r\n\r\n                                  broadcast della rete\r\n\r\n        Passaggio automatico     : Non passare ad altre reti\r\n\r\n        Assegnazione casuale indirizzi MAC  : disabilitata\r\n\r\n\r\n\r\nImpostazioni connettivit\u00e0 \r\n\r\n--------------------- \r\n\r\n    Numero di SSID         : 1\r\n\r\n    Nome SSID                    : \"realme GT Master Edition\"\r\n\r\n    Tipo rete              : Infrastruttura\r\n\r\n    Tipo frequenza radio              : [ Qualsiasi tipo frequenza radio ]\r\n\r\n    Estensione fornitore   : non presente\r\n\r\n\r\n\r\nImpostazioni sicurezza \r\n\r\n----------------- \r\n\r\n    Autenticazione         : WPA2-Personal\r\n\r\n    Crittografia               : CCMP\r\n\r\n    Autenticazione         : WPA2-Personal\r\n\r\n    Crittografia               : GCMP\r\n\r\n    Chiave di sicurezza      : Presente\r\n\r\n\r\n\r\nImpostazioni costo \r\n\r\n------------- \r\n\r\n    Costo                   : Senza restrizioni\r\n\r\n    Traffico eccessivo              : No\r\n\r\n    Limite dati quasi raggiunto : No\r\n\r\n    Limite dati superato        : No\r\n\r\n    Roaming                : No\r\n\r\n    Origine costo            : Predefinito\r\n\r\n\r\n\r\n\r\n---------------------------\r\nOK   \r\n---------------------------\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/afit/wlan10/issues/54/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/afit/wlan10/issues/54/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-27T15:42:46Z"
+    },
+    {
+        "id": "24743174073",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 283211234,
+            "name": "metalsimyaci/SapCo2",
+            "url": "https://api.github.com/repos/metalsimyaci/SapCo2"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-21T07:31:42Z"
+    },
+    {
+        "id": "24671705173",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 70060215,
+            "name": "dotnet-script/dotnet-script",
+            "url": "https://api.github.com/repos/dotnet-script/dotnet-script"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-18T14:11:27Z",
+        "org": {
+            "id": 113979420,
+            "login": "dotnet-script",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/dotnet-script",
+            "avatar_url": "https://avatars.githubusercontent.com/u/113979420?"
+        }
+    },
+    {
+        "id": "24872377855",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 420420172,
+            "name": "rojarsmith/TrayToolbar",
+            "url": "https://api.github.com/repos/rojarsmith/TrayToolbar"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13",
+                "repository_url": "https://api.github.com/repos/rojarsmith/TrayToolbar",
+                "labels_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/labels{/name}",
+                "comments_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/comments",
+                "events_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/events",
+                "html_url": "https://github.com/rojarsmith/TrayToolbar/issues/13",
+                "id": 1425893746,
+                "node_id": "I_kwDOGQ8aTM5U_Wly",
+                "number": 13,
+                "title": "Refresh at Startup",
+                "user": {
+                    "login": "filippobottega",
+                    "id": 2587684,
+                    "node_id": "MDQ6VXNlcjI1ODc2ODQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2587684?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/filippobottega",
+                    "html_url": "https://github.com/filippobottega",
+                    "followers_url": "https://api.github.com/users/filippobottega/followers",
+                    "following_url": "https://api.github.com/users/filippobottega/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/filippobottega/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/filippobottega/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/filippobottega/subscriptions",
+                    "organizations_url": "https://api.github.com/users/filippobottega/orgs",
+                    "repos_url": "https://api.github.com/users/filippobottega/repos",
+                    "events_url": "https://api.github.com/users/filippobottega/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/filippobottega/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-27T16:08:41Z",
+                "updated_at": "2022-10-27T16:08:41Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello,\r\n  is it possible to refresh data at startup to avoid the wait time when the user click for thee first time?\r\n\r\n  Thank you!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-27T16:08:41Z"
+    },
+    {
+        "id": "24871763483",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 98035869,
+            "name": "afit/wlan10",
+            "url": "https://api.github.com/repos/afit/wlan10"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/afit/wlan10/issues/54",
+                "repository_url": "https://api.github.com/repos/afit/wlan10",
+                "labels_url": "https://api.github.com/repos/afit/wlan10/issues/54/labels{/name}",
+                "comments_url": "https://api.github.com/repos/afit/wlan10/issues/54/comments",
+                "events_url": "https://api.github.com/repos/afit/wlan10/issues/54/events",
+                "html_url": "https://github.com/afit/wlan10/issues/54",
+                "id": 1425859126,
+                "node_id": "I_kwDOBdfonc5U_OI2",
+                "number": 54,
+                "title": "Input string was not in a correct format",
+                "user": {
+                    "login": "filippobottega",
+                    "id": 2587684,
+                    "node_id": "MDQ6VXNlcjI1ODc2ODQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2587684?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/filippobottega",
+                    "html_url": "https://github.com/filippobottega",
+                    "followers_url": "https://api.github.com/users/filippobottega/followers",
+                    "following_url": "https://api.github.com/users/filippobottega/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/filippobottega/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/filippobottega/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/filippobottega/subscriptions",
+                    "organizations_url": "https://api.github.com/users/filippobottega/orgs",
+                    "repos_url": "https://api.github.com/users/filippobottega/repos",
+                    "events_url": "https://api.github.com/users/filippobottega/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/filippobottega/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-27T15:42:46Z",
+                "updated_at": "2022-10-27T15:42:46Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "---------------------------\r\nUnexpected error\r\n---------------------------\r\nThe application encountered an unexpected error while parsing a network. You can continue using the app, but some profiles may be missing. Please report this error to the developer (\"https://github.com/afit/wlan10/Issues\")\r\n\r\nError details:\r\n\r\nInput string was not in a correct format.\r\n\r\n   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n\r\n   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)\r\n\r\n   at System.Int32.Parse(String s)\r\n\r\n   at Net.Bertware.Wlan10.Model.WlanNetwork..ctor(String name)\r\n\r\n\r\n\r\nTabella codici attiva: 65001\r\n\r\n\r\n\r\nProfilo realme GT Master Edition sull'interfaccia Wi-Fi: \r\n\r\n======================================================================= \r\n\r\n\r\n\r\nApplicato/a: Tutti i profili utente    \r\n\r\n\r\n\r\nInformazioni profilo \r\n\r\n------------------- \r\n\r\n    Versione               : 1\r\n\r\n    Tipo                   : LAN wireless\r\n\r\n    Nome                   : realme GT Master Edition\r\n\r\n    Opzioni di controllo   : \r\n\r\n        Modalit\u00e0 connessione     : Connetti automaticamente\r\n\r\n        Broadcast rete          : Connetti solo in presenza di\r\n\r\n                                  broadcast della rete\r\n\r\n        Passaggio automatico     : Non passare ad altre reti\r\n\r\n        Assegnazione casuale indirizzi MAC  : disabilitata\r\n\r\n\r\n\r\nImpostazioni connettivit\u00e0 \r\n\r\n--------------------- \r\n\r\n    Numero di SSID         : 1\r\n\r\n    Nome SSID                    : \"realme GT Master Edition\"\r\n\r\n    Tipo rete              : Infrastruttura\r\n\r\n    Tipo frequenza radio              : [ Qualsiasi tipo frequenza radio ]\r\n\r\n    Estensione fornitore   : non presente\r\n\r\n\r\n\r\nImpostazioni sicurezza \r\n\r\n----------------- \r\n\r\n    Autenticazione         : WPA2-Personal\r\n\r\n    Crittografia               : CCMP\r\n\r\n    Autenticazione         : WPA2-Personal\r\n\r\n    Crittografia               : GCMP\r\n\r\n    Chiave di sicurezza      : Presente\r\n\r\n\r\n\r\nImpostazioni costo \r\n\r\n------------- \r\n\r\n    Costo                   : Senza restrizioni\r\n\r\n    Traffico eccessivo              : No\r\n\r\n    Limite dati quasi raggiunto : No\r\n\r\n    Limite dati superato        : No\r\n\r\n    Roaming                : No\r\n\r\n    Origine costo            : Predefinito\r\n\r\n\r\n\r\n\r\n---------------------------\r\nOK   \r\n---------------------------\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/afit/wlan10/issues/54/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/afit/wlan10/issues/54/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-27T15:42:46Z"
+    },
+    {
+        "id": "24743174073",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 283211234,
+            "name": "metalsimyaci/SapCo2",
+            "url": "https://api.github.com/repos/metalsimyaci/SapCo2"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-21T07:31:42Z"
+    },
+    {
+        "id": "24671705173",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 70060215,
+            "name": "dotnet-script/dotnet-script",
+            "url": "https://api.github.com/repos/dotnet-script/dotnet-script"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-18T14:11:27Z",
+        "org": {
+            "id": 113979420,
+            "login": "dotnet-script",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/dotnet-script",
+            "avatar_url": "https://avatars.githubusercontent.com/u/113979420?"
+        }
+    },
+    {
+        "id": "24872377855",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 420420172,
+            "name": "rojarsmith/TrayToolbar",
+            "url": "https://api.github.com/repos/rojarsmith/TrayToolbar"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13",
+                "repository_url": "https://api.github.com/repos/rojarsmith/TrayToolbar",
+                "labels_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/labels{/name}",
+                "comments_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/comments",
+                "events_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/events",
+                "html_url": "https://github.com/rojarsmith/TrayToolbar/issues/13",
+                "id": 1425893746,
+                "node_id": "I_kwDOGQ8aTM5U_Wly",
+                "number": 13,
+                "title": "Refresh at Startup",
+                "user": {
+                    "login": "filippobottega",
+                    "id": 2587684,
+                    "node_id": "MDQ6VXNlcjI1ODc2ODQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2587684?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/filippobottega",
+                    "html_url": "https://github.com/filippobottega",
+                    "followers_url": "https://api.github.com/users/filippobottega/followers",
+                    "following_url": "https://api.github.com/users/filippobottega/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/filippobottega/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/filippobottega/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/filippobottega/subscriptions",
+                    "organizations_url": "https://api.github.com/users/filippobottega/orgs",
+                    "repos_url": "https://api.github.com/users/filippobottega/repos",
+                    "events_url": "https://api.github.com/users/filippobottega/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/filippobottega/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-27T16:08:41Z",
+                "updated_at": "2022-10-27T16:08:41Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hello,\r\n  is it possible to refresh data at startup to avoid the wait time when the user click for thee first time?\r\n\r\n  Thank you!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/rojarsmith/TrayToolbar/issues/13/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-27T16:08:41Z"
+    },
+    {
+        "id": "24871763483",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 98035869,
+            "name": "afit/wlan10",
+            "url": "https://api.github.com/repos/afit/wlan10"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/afit/wlan10/issues/54",
+                "repository_url": "https://api.github.com/repos/afit/wlan10",
+                "labels_url": "https://api.github.com/repos/afit/wlan10/issues/54/labels{/name}",
+                "comments_url": "https://api.github.com/repos/afit/wlan10/issues/54/comments",
+                "events_url": "https://api.github.com/repos/afit/wlan10/issues/54/events",
+                "html_url": "https://github.com/afit/wlan10/issues/54",
+                "id": 1425859126,
+                "node_id": "I_kwDOBdfonc5U_OI2",
+                "number": 54,
+                "title": "Input string was not in a correct format",
+                "user": {
+                    "login": "filippobottega",
+                    "id": 2587684,
+                    "node_id": "MDQ6VXNlcjI1ODc2ODQ=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2587684?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/filippobottega",
+                    "html_url": "https://github.com/filippobottega",
+                    "followers_url": "https://api.github.com/users/filippobottega/followers",
+                    "following_url": "https://api.github.com/users/filippobottega/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/filippobottega/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/filippobottega/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/filippobottega/subscriptions",
+                    "organizations_url": "https://api.github.com/users/filippobottega/orgs",
+                    "repos_url": "https://api.github.com/users/filippobottega/repos",
+                    "events_url": "https://api.github.com/users/filippobottega/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/filippobottega/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-27T15:42:46Z",
+                "updated_at": "2022-10-27T15:42:46Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "---------------------------\r\nUnexpected error\r\n---------------------------\r\nThe application encountered an unexpected error while parsing a network. You can continue using the app, but some profiles may be missing. Please report this error to the developer (\"https://github.com/afit/wlan10/Issues\")\r\n\r\nError details:\r\n\r\nInput string was not in a correct format.\r\n\r\n   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n\r\n   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)\r\n\r\n   at System.Int32.Parse(String s)\r\n\r\n   at Net.Bertware.Wlan10.Model.WlanNetwork..ctor(String name)\r\n\r\n\r\n\r\nTabella codici attiva: 65001\r\n\r\n\r\n\r\nProfilo realme GT Master Edition sull'interfaccia Wi-Fi: \r\n\r\n======================================================================= \r\n\r\n\r\n\r\nApplicato/a: Tutti i profili utente    \r\n\r\n\r\n\r\nInformazioni profilo \r\n\r\n------------------- \r\n\r\n    Versione               : 1\r\n\r\n    Tipo                   : LAN wireless\r\n\r\n    Nome                   : realme GT Master Edition\r\n\r\n    Opzioni di controllo   : \r\n\r\n        Modalit\u00e0 connessione     : Connetti automaticamente\r\n\r\n        Broadcast rete          : Connetti solo in presenza di\r\n\r\n                                  broadcast della rete\r\n\r\n        Passaggio automatico     : Non passare ad altre reti\r\n\r\n        Assegnazione casuale indirizzi MAC  : disabilitata\r\n\r\n\r\n\r\nImpostazioni connettivit\u00e0 \r\n\r\n--------------------- \r\n\r\n    Numero di SSID         : 1\r\n\r\n    Nome SSID                    : \"realme GT Master Edition\"\r\n\r\n    Tipo rete              : Infrastruttura\r\n\r\n    Tipo frequenza radio              : [ Qualsiasi tipo frequenza radio ]\r\n\r\n    Estensione fornitore   : non presente\r\n\r\n\r\n\r\nImpostazioni sicurezza \r\n\r\n----------------- \r\n\r\n    Autenticazione         : WPA2-Personal\r\n\r\n    Crittografia               : CCMP\r\n\r\n    Autenticazione         : WPA2-Personal\r\n\r\n    Crittografia               : GCMP\r\n\r\n    Chiave di sicurezza      : Presente\r\n\r\n\r\n\r\nImpostazioni costo \r\n\r\n------------- \r\n\r\n    Costo                   : Senza restrizioni\r\n\r\n    Traffico eccessivo              : No\r\n\r\n    Limite dati quasi raggiunto : No\r\n\r\n    Limite dati superato        : No\r\n\r\n    Roaming                : No\r\n\r\n    Origine costo            : Predefinito\r\n\r\n\r\n\r\n\r\n---------------------------\r\nOK   \r\n---------------------------\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/afit/wlan10/issues/54/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/afit/wlan10/issues/54/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-27T15:42:46Z"
+    },
+    {
+        "id": "24743174073",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 283211234,
+            "name": "metalsimyaci/SapCo2",
+            "url": "https://api.github.com/repos/metalsimyaci/SapCo2"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-21T07:31:42Z"
+    },
+    {
+        "id": "24671705173",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2587684,
+            "login": "filippobottega",
+            "display_login": "filippobottega",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/filippobottega",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2587684?"
+        },
+        "repo": {
+            "id": 70060215,
+            "name": "dotnet-script/dotnet-script",
+            "url": "https://api.github.com/repos/dotnet-script/dotnet-script"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-18T14:11:27Z",
+        "org": {
+            "id": 113979420,
+            "login": "dotnet-script",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/dotnet-script",
+            "avatar_url": "https://avatars.githubusercontent.com/u/113979420?"
+        }
+    }
+]

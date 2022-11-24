@@ -1,0 +1,2066 @@
+[
+    {
+        "id": "24763706688",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 202420309,
+            "name": "the3dadvantage/WrappingTools",
+            "url": "https://api.github.com/repos/the3dadvantage/WrappingTools"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-22T08:17:45Z"
+    },
+    {
+        "id": "24755955654",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 91570348,
+            "name": "clsid2/mpc-hc",
+            "url": "https://api.github.com/repos/clsid2/mpc-hc"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-21T17:45:09Z"
+    },
+    {
+        "id": "24622884103",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "repository_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake",
+                "labels_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/labels{/name}",
+                "comments_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/comments",
+                "events_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/events",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1393571365,
+                "node_id": "I_kwDOC_zrW85TEDYl",
+                "number": 111,
+                "title": "Fix scoop installation on Quake Documentation",
+                "user": {
+                    "login": "vvirtues",
+                    "id": 81705406,
+                    "node_id": "MDQ6VXNlcjgxNzA1NDA2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/81705406?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vvirtues",
+                    "html_url": "https://github.com/vvirtues",
+                    "followers_url": "https://api.github.com/users/vvirtues/followers",
+                    "following_url": "https://api.github.com/users/vvirtues/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vvirtues/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vvirtues/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vvirtues/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vvirtues/orgs",
+                    "repos_url": "https://api.github.com/users/vvirtues/repos",
+                    "events_url": "https://api.github.com/users/vvirtues/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vvirtues/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-01T22:15:06Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "closed_at": "2022-10-16T05:59:01Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Currently, the link there is https://github.com/flyingpie/windows-terminal-quake/blob/master/scoop/windows-terminal-quake.json, but this won't work because it isn't raw. Change to https://raw.githubusercontent.com/flyingpie/windows-terminal-quake/master/scoop/windows-terminal-quake.json for it to work",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/comments/1279898878",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111#issuecomment-1279898878",
+                "issue_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1279898878,
+                "node_id": "IC_kwDOC_zrW85MSbT-",
+                "user": {
+                    "login": "flyingpie",
+                    "id": 1295673,
+                    "node_id": "MDQ6VXNlcjEyOTU2NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1295673?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/flyingpie",
+                    "html_url": "https://github.com/flyingpie",
+                    "followers_url": "https://api.github.com/users/flyingpie/followers",
+                    "following_url": "https://api.github.com/users/flyingpie/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/flyingpie/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/flyingpie/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/flyingpie/subscriptions",
+                    "organizations_url": "https://api.github.com/users/flyingpie/orgs",
+                    "repos_url": "https://api.github.com/users/flyingpie/repos",
+                    "events_url": "https://api.github.com/users/flyingpie/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/flyingpie/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-16T05:59:01Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "author_association": "OWNER",
+                "body": "@vvirtues Fixed, thank you for reporting!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/comments/1279898878/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:59:01Z"
+    },
+    {
+        "id": "24622884138",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "repository_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake",
+                "labels_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/labels{/name}",
+                "comments_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/comments",
+                "events_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/events",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1393571365,
+                "node_id": "I_kwDOC_zrW85TEDYl",
+                "number": 111,
+                "title": "Fix scoop installation on Quake Documentation",
+                "user": {
+                    "login": "vvirtues",
+                    "id": 81705406,
+                    "node_id": "MDQ6VXNlcjgxNzA1NDA2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/81705406?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vvirtues",
+                    "html_url": "https://github.com/vvirtues",
+                    "followers_url": "https://api.github.com/users/vvirtues/followers",
+                    "following_url": "https://api.github.com/users/vvirtues/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vvirtues/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vvirtues/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vvirtues/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vvirtues/orgs",
+                    "repos_url": "https://api.github.com/users/vvirtues/repos",
+                    "events_url": "https://api.github.com/users/vvirtues/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vvirtues/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-01T22:15:06Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "closed_at": "2022-10-16T05:59:01Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Currently, the link there is https://github.com/flyingpie/windows-terminal-quake/blob/master/scoop/windows-terminal-quake.json, but this won't work because it isn't raw. Change to https://raw.githubusercontent.com/flyingpie/windows-terminal-quake/master/scoop/windows-terminal-quake.json for it to work",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:59:02Z"
+    },
+    {
+        "id": "24622877867",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "push_id": 11342657225,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/docs",
+            "head": "b7dfb2dcd16ba9336cf912453c308361d450fa53",
+            "before": "5dfabc3ec72af879f2ccbc8e6432c931b441793e",
+            "commits": [
+                {
+                    "sha": "b7dfb2dcd16ba9336cf912453c308361d450fa53",
+                    "author": {
+                        "email": "marco.vandenoever@datarotonde.com",
+                        "name": "Marco van den Oever"
+                    },
+                    "message": "#111 Getting Started - Scoop - Link updated",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/commits/b7dfb2dcd16ba9336cf912453c308361d450fa53"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:57:45Z"
+    },
+    {
+        "id": "24513299311",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 152327866,
+            "name": "Igglybuff/awesome-piracy",
+            "url": "https://api.github.com/repos/Igglybuff/awesome-piracy"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-11T00:57:43Z"
+    },
+    {
+        "id": "24489768619",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 74303496,
+            "name": "machin3io/MACHIN3tools",
+            "url": "https://api.github.com/repos/machin3io/MACHIN3tools"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T22:40:14Z"
+    },
+    {
+        "id": "24284649176",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 41317079,
+            "name": "prometheus-community/postgres_exporter",
+            "url": "https://api.github.com/repos/prometheus-community/postgres_exporter"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-28T20:44:58Z",
+        "org": {
+            "id": 42581734,
+            "login": "prometheus-community",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/prometheus-community",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42581734?"
+        }
+    },
+    {
+        "id": "24284646957",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 196044,
+            "name": "bucardo/check_postgres",
+            "url": "https://api.github.com/repos/bucardo/check_postgres"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-28T20:44:50Z",
+        "org": {
+            "id": 82502,
+            "login": "bucardo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bucardo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/82502?"
+        }
+    },
+    {
+        "id": "24252602613",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 86563927,
+            "name": "Tecnativa/docker-socket-proxy",
+            "url": "https://api.github.com/repos/Tecnativa/docker-socket-proxy"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-27T15:12:40Z",
+        "org": {
+            "id": 18120193,
+            "login": "Tecnativa",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Tecnativa",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18120193?"
+        }
+    },
+    {
+        "id": "24210424217",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 528152092,
+            "name": "cmdr2/stable-diffusion-ui",
+            "url": "https://api.github.com/repos/cmdr2/stable-diffusion-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-25T20:13:20Z"
+    },
+    {
+        "id": "23933039059",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 329743512,
+            "name": "tryphotino/photino.NET",
+            "url": "https://api.github.com/repos/tryphotino/photino.NET"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73",
+                "repository_url": "https://api.github.com/repos/tryphotino/photino.NET",
+                "labels_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/comments",
+                "events_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/events",
+                "html_url": "https://github.com/tryphotino/photino.NET/issues/73",
+                "id": 1043240205,
+                "node_id": "I_kwDOE6d8mM4-LpUN",
+                "number": 73,
+                "title": "How to make window transparent?",
+                "user": {
+                    "login": "albertwoo",
+                    "id": 8017681,
+                    "node_id": "MDQ6VXNlcjgwMTc2ODE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8017681?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/albertwoo",
+                    "html_url": "https://github.com/albertwoo",
+                    "followers_url": "https://api.github.com/users/albertwoo/followers",
+                    "following_url": "https://api.github.com/users/albertwoo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/albertwoo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/albertwoo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/albertwoo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/albertwoo/orgs",
+                    "repos_url": "https://api.github.com/users/albertwoo/repos",
+                    "events_url": "https://api.github.com/users/albertwoo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/albertwoo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 2658735405,
+                        "node_id": "MDU6TGFiZWwyNjU4NzM1NDA1",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    },
+                    {
+                        "id": 2658735409,
+                        "node_id": "MDU6TGFiZWwyNjU4NzM1NDA5",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/help%20wanted",
+                        "name": "help wanted",
+                        "color": "008672",
+                        "default": true,
+                        "description": "Extra attention is needed"
+                    },
+                    {
+                        "id": 2813090366,
+                        "node_id": "MDU6TGFiZWwyODEzMDkwMzY2",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/All%20OS",
+                        "name": "All OS",
+                        "color": "1d76db",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2021-11-03T09:01:27Z",
+                "updated_at": "2022-09-10T20:53:35Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/comments/1242803206",
+                "html_url": "https://github.com/tryphotino/photino.NET/issues/73#issuecomment-1242803206",
+                "issue_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73",
+                "id": 1242803206,
+                "node_id": "IC_kwDOE6d8mM5KE6wG",
+                "user": {
+                    "login": "flyingpie",
+                    "id": 1295673,
+                    "node_id": "MDQ6VXNlcjEyOTU2NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1295673?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/flyingpie",
+                    "html_url": "https://github.com/flyingpie",
+                    "followers_url": "https://api.github.com/users/flyingpie/followers",
+                    "following_url": "https://api.github.com/users/flyingpie/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/flyingpie/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/flyingpie/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/flyingpie/subscriptions",
+                    "organizations_url": "https://api.github.com/users/flyingpie/orgs",
+                    "repos_url": "https://api.github.com/users/flyingpie/repos",
+                    "events_url": "https://api.github.com/users/flyingpie/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/flyingpie/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-10T20:53:35Z",
+                "updated_at": "2022-09-10T20:53:35Z",
+                "author_association": "NONE",
+                "body": "@albertwoo Perhaps an workaround for getting this effect (note that you can't have only the background transparent, just the window as a whole):\r\n\r\n![image](https://user-images.githubusercontent.com/1295673/189501291-f4a2b51a-ce63-42c3-8157-a258e98d7439.png)\r\n\r\nUser32.cs:\r\n```cs\r\nusing System;\r\nusing System.Runtime.InteropServices;\r\n\r\nnamespace HelloPhotino.Vue.Native;\r\n\r\npublic static class User32\r\n{\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern bool SetLayeredWindowAttributes(IntPtr hwnd, uint crKey, byte bAlpha, uint dwFlags);\r\n\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern int GetWindowLong(IntPtr hWnd, int nIndex);\r\n\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);\r\n\r\n\tpublic const int GWL_EX_STYLE = -20;\r\n\r\n\tpublic const int LWA_ALPHA = 0x2;\r\n\r\n\tpublic const int WS_EX_LAYERED = 0x80000;\r\n\r\n\t/// <summary>\r\n\t/// Makes the entire window of the specified process transparent.\r\n\t/// </summary>\r\n\t/// <param name=\"transparency\">Desired transparency, value between 0 (invisible) to 100 (opaque).</param>\r\n\tpublic static void SetTransparency(IntPtr windowHandle, int transparency)\r\n\t{\r\n\t\tif (windowHandle == IntPtr.Zero) throw new Exception(\"Process handle zero\");\r\n\r\n\t\t// Get original window properties\r\n\t\tvar props = GetWindowLong(windowHandle, GWL_EX_STYLE);\r\n\r\n\t\t// Add \"WS_EX_LAYERED\"-flag (required for transparency).\r\n\t\tSetWindowLong(windowHandle, GWL_EX_STYLE, props | WS_EX_LAYERED);\r\n\r\n\t\t// Set transparency\r\n\t\tvar isSet = SetLayeredWindowAttributes(windowHandle, 0, (byte)Math.Ceiling(255f / 100f * transparency), LWA_ALPHA);\r\n\t\tif (!isSet) throw new Exception(\"Could not set window opacity\");\r\n\t}\r\n}\r\n```\r\n\r\nThen somewhere before ```window.WaitForClose()```:\r\n\r\n```cs\r\nwindow.WindowCreated += (s, a) =>\r\n{\r\n\tUser32.SetTransparency(window.WindowHandle, 50);\r\n};\r\n```\r\n\r\nI've been using this technique for [windows-terminal-quake](https://github.com/flyingpie/windows-terminal-quake), works quite well.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/comments/1242803206/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-10T20:53:35Z",
+        "org": {
+            "id": 77465383,
+            "login": "tryphotino",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tryphotino",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77465383?"
+        }
+    },
+    {
+        "id": "23926720782",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "push_id": 10980493874,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6",
+            "before": "a3ae9d446cd1ee97cc6e46651f63113e63c3d4f1",
+            "commits": [
+                {
+                    "sha": "c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6",
+                    "author": {
+                        "email": "marco.vandenoever@datarotonde.com",
+                        "name": "Marco van den Oever"
+                    },
+                    "message": "Package updates",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/commits/c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T00:33:05Z"
+    },
+    {
+        "id": "23483160421",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 190945122,
+            "name": "SavMartin/TexTools-Blender",
+            "url": "https://api.github.com/repos/SavMartin/TexTools-Blender"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-17T12:25:40Z"
+    },
+    {
+        "id": "23483151098",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 126492058,
+            "name": "aras-p/ToyPathTracer",
+            "url": "https://api.github.com/repos/aras-p/ToyPathTracer"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-17T12:25:13Z"
+    },
+    {
+        "id": "24763706688",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 202420309,
+            "name": "the3dadvantage/WrappingTools",
+            "url": "https://api.github.com/repos/the3dadvantage/WrappingTools"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-22T08:17:45Z"
+    },
+    {
+        "id": "24755955654",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 91570348,
+            "name": "clsid2/mpc-hc",
+            "url": "https://api.github.com/repos/clsid2/mpc-hc"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-21T17:45:09Z"
+    },
+    {
+        "id": "24622884103",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "repository_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake",
+                "labels_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/labels{/name}",
+                "comments_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/comments",
+                "events_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/events",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1393571365,
+                "node_id": "I_kwDOC_zrW85TEDYl",
+                "number": 111,
+                "title": "Fix scoop installation on Quake Documentation",
+                "user": {
+                    "login": "vvirtues",
+                    "id": 81705406,
+                    "node_id": "MDQ6VXNlcjgxNzA1NDA2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/81705406?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vvirtues",
+                    "html_url": "https://github.com/vvirtues",
+                    "followers_url": "https://api.github.com/users/vvirtues/followers",
+                    "following_url": "https://api.github.com/users/vvirtues/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vvirtues/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vvirtues/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vvirtues/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vvirtues/orgs",
+                    "repos_url": "https://api.github.com/users/vvirtues/repos",
+                    "events_url": "https://api.github.com/users/vvirtues/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vvirtues/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-01T22:15:06Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "closed_at": "2022-10-16T05:59:01Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Currently, the link there is https://github.com/flyingpie/windows-terminal-quake/blob/master/scoop/windows-terminal-quake.json, but this won't work because it isn't raw. Change to https://raw.githubusercontent.com/flyingpie/windows-terminal-quake/master/scoop/windows-terminal-quake.json for it to work",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/comments/1279898878",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111#issuecomment-1279898878",
+                "issue_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1279898878,
+                "node_id": "IC_kwDOC_zrW85MSbT-",
+                "user": {
+                    "login": "flyingpie",
+                    "id": 1295673,
+                    "node_id": "MDQ6VXNlcjEyOTU2NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1295673?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/flyingpie",
+                    "html_url": "https://github.com/flyingpie",
+                    "followers_url": "https://api.github.com/users/flyingpie/followers",
+                    "following_url": "https://api.github.com/users/flyingpie/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/flyingpie/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/flyingpie/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/flyingpie/subscriptions",
+                    "organizations_url": "https://api.github.com/users/flyingpie/orgs",
+                    "repos_url": "https://api.github.com/users/flyingpie/repos",
+                    "events_url": "https://api.github.com/users/flyingpie/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/flyingpie/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-16T05:59:01Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "author_association": "OWNER",
+                "body": "@vvirtues Fixed, thank you for reporting!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/comments/1279898878/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:59:01Z"
+    },
+    {
+        "id": "24622884138",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "repository_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake",
+                "labels_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/labels{/name}",
+                "comments_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/comments",
+                "events_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/events",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1393571365,
+                "node_id": "I_kwDOC_zrW85TEDYl",
+                "number": 111,
+                "title": "Fix scoop installation on Quake Documentation",
+                "user": {
+                    "login": "vvirtues",
+                    "id": 81705406,
+                    "node_id": "MDQ6VXNlcjgxNzA1NDA2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/81705406?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vvirtues",
+                    "html_url": "https://github.com/vvirtues",
+                    "followers_url": "https://api.github.com/users/vvirtues/followers",
+                    "following_url": "https://api.github.com/users/vvirtues/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vvirtues/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vvirtues/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vvirtues/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vvirtues/orgs",
+                    "repos_url": "https://api.github.com/users/vvirtues/repos",
+                    "events_url": "https://api.github.com/users/vvirtues/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vvirtues/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-01T22:15:06Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "closed_at": "2022-10-16T05:59:01Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Currently, the link there is https://github.com/flyingpie/windows-terminal-quake/blob/master/scoop/windows-terminal-quake.json, but this won't work because it isn't raw. Change to https://raw.githubusercontent.com/flyingpie/windows-terminal-quake/master/scoop/windows-terminal-quake.json for it to work",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:59:02Z"
+    },
+    {
+        "id": "24622877867",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "push_id": 11342657225,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/docs",
+            "head": "b7dfb2dcd16ba9336cf912453c308361d450fa53",
+            "before": "5dfabc3ec72af879f2ccbc8e6432c931b441793e",
+            "commits": [
+                {
+                    "sha": "b7dfb2dcd16ba9336cf912453c308361d450fa53",
+                    "author": {
+                        "email": "marco.vandenoever@datarotonde.com",
+                        "name": "Marco van den Oever"
+                    },
+                    "message": "#111 Getting Started - Scoop - Link updated",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/commits/b7dfb2dcd16ba9336cf912453c308361d450fa53"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:57:45Z"
+    },
+    {
+        "id": "24513299311",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 152327866,
+            "name": "Igglybuff/awesome-piracy",
+            "url": "https://api.github.com/repos/Igglybuff/awesome-piracy"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-11T00:57:43Z"
+    },
+    {
+        "id": "24489768619",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 74303496,
+            "name": "machin3io/MACHIN3tools",
+            "url": "https://api.github.com/repos/machin3io/MACHIN3tools"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T22:40:14Z"
+    },
+    {
+        "id": "24284649176",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 41317079,
+            "name": "prometheus-community/postgres_exporter",
+            "url": "https://api.github.com/repos/prometheus-community/postgres_exporter"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-28T20:44:58Z",
+        "org": {
+            "id": 42581734,
+            "login": "prometheus-community",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/prometheus-community",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42581734?"
+        }
+    },
+    {
+        "id": "24284646957",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 196044,
+            "name": "bucardo/check_postgres",
+            "url": "https://api.github.com/repos/bucardo/check_postgres"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-28T20:44:50Z",
+        "org": {
+            "id": 82502,
+            "login": "bucardo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bucardo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/82502?"
+        }
+    },
+    {
+        "id": "24252602613",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 86563927,
+            "name": "Tecnativa/docker-socket-proxy",
+            "url": "https://api.github.com/repos/Tecnativa/docker-socket-proxy"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-27T15:12:40Z",
+        "org": {
+            "id": 18120193,
+            "login": "Tecnativa",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Tecnativa",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18120193?"
+        }
+    },
+    {
+        "id": "24210424217",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 528152092,
+            "name": "cmdr2/stable-diffusion-ui",
+            "url": "https://api.github.com/repos/cmdr2/stable-diffusion-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-25T20:13:20Z"
+    },
+    {
+        "id": "23933039059",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 329743512,
+            "name": "tryphotino/photino.NET",
+            "url": "https://api.github.com/repos/tryphotino/photino.NET"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73",
+                "repository_url": "https://api.github.com/repos/tryphotino/photino.NET",
+                "labels_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/comments",
+                "events_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/events",
+                "html_url": "https://github.com/tryphotino/photino.NET/issues/73",
+                "id": 1043240205,
+                "node_id": "I_kwDOE6d8mM4-LpUN",
+                "number": 73,
+                "title": "How to make window transparent?",
+                "user": {
+                    "login": "albertwoo",
+                    "id": 8017681,
+                    "node_id": "MDQ6VXNlcjgwMTc2ODE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8017681?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/albertwoo",
+                    "html_url": "https://github.com/albertwoo",
+                    "followers_url": "https://api.github.com/users/albertwoo/followers",
+                    "following_url": "https://api.github.com/users/albertwoo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/albertwoo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/albertwoo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/albertwoo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/albertwoo/orgs",
+                    "repos_url": "https://api.github.com/users/albertwoo/repos",
+                    "events_url": "https://api.github.com/users/albertwoo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/albertwoo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 2658735405,
+                        "node_id": "MDU6TGFiZWwyNjU4NzM1NDA1",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    },
+                    {
+                        "id": 2658735409,
+                        "node_id": "MDU6TGFiZWwyNjU4NzM1NDA5",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/help%20wanted",
+                        "name": "help wanted",
+                        "color": "008672",
+                        "default": true,
+                        "description": "Extra attention is needed"
+                    },
+                    {
+                        "id": 2813090366,
+                        "node_id": "MDU6TGFiZWwyODEzMDkwMzY2",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/All%20OS",
+                        "name": "All OS",
+                        "color": "1d76db",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2021-11-03T09:01:27Z",
+                "updated_at": "2022-09-10T20:53:35Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/comments/1242803206",
+                "html_url": "https://github.com/tryphotino/photino.NET/issues/73#issuecomment-1242803206",
+                "issue_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73",
+                "id": 1242803206,
+                "node_id": "IC_kwDOE6d8mM5KE6wG",
+                "user": {
+                    "login": "flyingpie",
+                    "id": 1295673,
+                    "node_id": "MDQ6VXNlcjEyOTU2NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1295673?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/flyingpie",
+                    "html_url": "https://github.com/flyingpie",
+                    "followers_url": "https://api.github.com/users/flyingpie/followers",
+                    "following_url": "https://api.github.com/users/flyingpie/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/flyingpie/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/flyingpie/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/flyingpie/subscriptions",
+                    "organizations_url": "https://api.github.com/users/flyingpie/orgs",
+                    "repos_url": "https://api.github.com/users/flyingpie/repos",
+                    "events_url": "https://api.github.com/users/flyingpie/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/flyingpie/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-10T20:53:35Z",
+                "updated_at": "2022-09-10T20:53:35Z",
+                "author_association": "NONE",
+                "body": "@albertwoo Perhaps an workaround for getting this effect (note that you can't have only the background transparent, just the window as a whole):\r\n\r\n![image](https://user-images.githubusercontent.com/1295673/189501291-f4a2b51a-ce63-42c3-8157-a258e98d7439.png)\r\n\r\nUser32.cs:\r\n```cs\r\nusing System;\r\nusing System.Runtime.InteropServices;\r\n\r\nnamespace HelloPhotino.Vue.Native;\r\n\r\npublic static class User32\r\n{\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern bool SetLayeredWindowAttributes(IntPtr hwnd, uint crKey, byte bAlpha, uint dwFlags);\r\n\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern int GetWindowLong(IntPtr hWnd, int nIndex);\r\n\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);\r\n\r\n\tpublic const int GWL_EX_STYLE = -20;\r\n\r\n\tpublic const int LWA_ALPHA = 0x2;\r\n\r\n\tpublic const int WS_EX_LAYERED = 0x80000;\r\n\r\n\t/// <summary>\r\n\t/// Makes the entire window of the specified process transparent.\r\n\t/// </summary>\r\n\t/// <param name=\"transparency\">Desired transparency, value between 0 (invisible) to 100 (opaque).</param>\r\n\tpublic static void SetTransparency(IntPtr windowHandle, int transparency)\r\n\t{\r\n\t\tif (windowHandle == IntPtr.Zero) throw new Exception(\"Process handle zero\");\r\n\r\n\t\t// Get original window properties\r\n\t\tvar props = GetWindowLong(windowHandle, GWL_EX_STYLE);\r\n\r\n\t\t// Add \"WS_EX_LAYERED\"-flag (required for transparency).\r\n\t\tSetWindowLong(windowHandle, GWL_EX_STYLE, props | WS_EX_LAYERED);\r\n\r\n\t\t// Set transparency\r\n\t\tvar isSet = SetLayeredWindowAttributes(windowHandle, 0, (byte)Math.Ceiling(255f / 100f * transparency), LWA_ALPHA);\r\n\t\tif (!isSet) throw new Exception(\"Could not set window opacity\");\r\n\t}\r\n}\r\n```\r\n\r\nThen somewhere before ```window.WaitForClose()```:\r\n\r\n```cs\r\nwindow.WindowCreated += (s, a) =>\r\n{\r\n\tUser32.SetTransparency(window.WindowHandle, 50);\r\n};\r\n```\r\n\r\nI've been using this technique for [windows-terminal-quake](https://github.com/flyingpie/windows-terminal-quake), works quite well.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/comments/1242803206/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-10T20:53:35Z",
+        "org": {
+            "id": 77465383,
+            "login": "tryphotino",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tryphotino",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77465383?"
+        }
+    },
+    {
+        "id": "23926720782",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "push_id": 10980493874,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6",
+            "before": "a3ae9d446cd1ee97cc6e46651f63113e63c3d4f1",
+            "commits": [
+                {
+                    "sha": "c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6",
+                    "author": {
+                        "email": "marco.vandenoever@datarotonde.com",
+                        "name": "Marco van den Oever"
+                    },
+                    "message": "Package updates",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/commits/c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T00:33:05Z"
+    },
+    {
+        "id": "23483160421",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 190945122,
+            "name": "SavMartin/TexTools-Blender",
+            "url": "https://api.github.com/repos/SavMartin/TexTools-Blender"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-17T12:25:40Z"
+    },
+    {
+        "id": "23483151098",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 126492058,
+            "name": "aras-p/ToyPathTracer",
+            "url": "https://api.github.com/repos/aras-p/ToyPathTracer"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-17T12:25:13Z"
+    },
+    {
+        "id": "24763706688",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 202420309,
+            "name": "the3dadvantage/WrappingTools",
+            "url": "https://api.github.com/repos/the3dadvantage/WrappingTools"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-22T08:17:45Z"
+    },
+    {
+        "id": "24755955654",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 91570348,
+            "name": "clsid2/mpc-hc",
+            "url": "https://api.github.com/repos/clsid2/mpc-hc"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-21T17:45:09Z"
+    },
+    {
+        "id": "24622884103",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "repository_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake",
+                "labels_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/labels{/name}",
+                "comments_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/comments",
+                "events_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/events",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1393571365,
+                "node_id": "I_kwDOC_zrW85TEDYl",
+                "number": 111,
+                "title": "Fix scoop installation on Quake Documentation",
+                "user": {
+                    "login": "vvirtues",
+                    "id": 81705406,
+                    "node_id": "MDQ6VXNlcjgxNzA1NDA2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/81705406?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vvirtues",
+                    "html_url": "https://github.com/vvirtues",
+                    "followers_url": "https://api.github.com/users/vvirtues/followers",
+                    "following_url": "https://api.github.com/users/vvirtues/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vvirtues/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vvirtues/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vvirtues/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vvirtues/orgs",
+                    "repos_url": "https://api.github.com/users/vvirtues/repos",
+                    "events_url": "https://api.github.com/users/vvirtues/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vvirtues/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-01T22:15:06Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "closed_at": "2022-10-16T05:59:01Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Currently, the link there is https://github.com/flyingpie/windows-terminal-quake/blob/master/scoop/windows-terminal-quake.json, but this won't work because it isn't raw. Change to https://raw.githubusercontent.com/flyingpie/windows-terminal-quake/master/scoop/windows-terminal-quake.json for it to work",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/comments/1279898878",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111#issuecomment-1279898878",
+                "issue_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1279898878,
+                "node_id": "IC_kwDOC_zrW85MSbT-",
+                "user": {
+                    "login": "flyingpie",
+                    "id": 1295673,
+                    "node_id": "MDQ6VXNlcjEyOTU2NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1295673?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/flyingpie",
+                    "html_url": "https://github.com/flyingpie",
+                    "followers_url": "https://api.github.com/users/flyingpie/followers",
+                    "following_url": "https://api.github.com/users/flyingpie/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/flyingpie/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/flyingpie/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/flyingpie/subscriptions",
+                    "organizations_url": "https://api.github.com/users/flyingpie/orgs",
+                    "repos_url": "https://api.github.com/users/flyingpie/repos",
+                    "events_url": "https://api.github.com/users/flyingpie/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/flyingpie/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-16T05:59:01Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "author_association": "OWNER",
+                "body": "@vvirtues Fixed, thank you for reporting!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/comments/1279898878/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:59:01Z"
+    },
+    {
+        "id": "24622884138",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111",
+                "repository_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake",
+                "labels_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/labels{/name}",
+                "comments_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/comments",
+                "events_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/events",
+                "html_url": "https://github.com/flyingpie/windows-terminal-quake/issues/111",
+                "id": 1393571365,
+                "node_id": "I_kwDOC_zrW85TEDYl",
+                "number": 111,
+                "title": "Fix scoop installation on Quake Documentation",
+                "user": {
+                    "login": "vvirtues",
+                    "id": 81705406,
+                    "node_id": "MDQ6VXNlcjgxNzA1NDA2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/81705406?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/vvirtues",
+                    "html_url": "https://github.com/vvirtues",
+                    "followers_url": "https://api.github.com/users/vvirtues/followers",
+                    "following_url": "https://api.github.com/users/vvirtues/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/vvirtues/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/vvirtues/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/vvirtues/subscriptions",
+                    "organizations_url": "https://api.github.com/users/vvirtues/orgs",
+                    "repos_url": "https://api.github.com/users/vvirtues/repos",
+                    "events_url": "https://api.github.com/users/vvirtues/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/vvirtues/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-10-01T22:15:06Z",
+                "updated_at": "2022-10-16T05:59:01Z",
+                "closed_at": "2022-10-16T05:59:01Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Currently, the link there is https://github.com/flyingpie/windows-terminal-quake/blob/master/scoop/windows-terminal-quake.json, but this won't work because it isn't raw. Change to https://raw.githubusercontent.com/flyingpie/windows-terminal-quake/master/scoop/windows-terminal-quake.json for it to work",
+                "reactions": {
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/issues/111/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:59:02Z"
+    },
+    {
+        "id": "24622877867",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "push_id": 11342657225,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/docs",
+            "head": "b7dfb2dcd16ba9336cf912453c308361d450fa53",
+            "before": "5dfabc3ec72af879f2ccbc8e6432c931b441793e",
+            "commits": [
+                {
+                    "sha": "b7dfb2dcd16ba9336cf912453c308361d450fa53",
+                    "author": {
+                        "email": "marco.vandenoever@datarotonde.com",
+                        "name": "Marco van den Oever"
+                    },
+                    "message": "#111 Getting Started - Scoop - Link updated",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/commits/b7dfb2dcd16ba9336cf912453c308361d450fa53"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-16T05:57:45Z"
+    },
+    {
+        "id": "24513299311",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 152327866,
+            "name": "Igglybuff/awesome-piracy",
+            "url": "https://api.github.com/repos/Igglybuff/awesome-piracy"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-11T00:57:43Z"
+    },
+    {
+        "id": "24489768619",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 74303496,
+            "name": "machin3io/MACHIN3tools",
+            "url": "https://api.github.com/repos/machin3io/MACHIN3tools"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T22:40:14Z"
+    },
+    {
+        "id": "24284649176",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 41317079,
+            "name": "prometheus-community/postgres_exporter",
+            "url": "https://api.github.com/repos/prometheus-community/postgres_exporter"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-28T20:44:58Z",
+        "org": {
+            "id": 42581734,
+            "login": "prometheus-community",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/prometheus-community",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42581734?"
+        }
+    },
+    {
+        "id": "24284646957",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 196044,
+            "name": "bucardo/check_postgres",
+            "url": "https://api.github.com/repos/bucardo/check_postgres"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-28T20:44:50Z",
+        "org": {
+            "id": 82502,
+            "login": "bucardo",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/bucardo",
+            "avatar_url": "https://avatars.githubusercontent.com/u/82502?"
+        }
+    },
+    {
+        "id": "24252602613",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 86563927,
+            "name": "Tecnativa/docker-socket-proxy",
+            "url": "https://api.github.com/repos/Tecnativa/docker-socket-proxy"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-27T15:12:40Z",
+        "org": {
+            "id": 18120193,
+            "login": "Tecnativa",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Tecnativa",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18120193?"
+        }
+    },
+    {
+        "id": "24210424217",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 528152092,
+            "name": "cmdr2/stable-diffusion-ui",
+            "url": "https://api.github.com/repos/cmdr2/stable-diffusion-ui"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-25T20:13:20Z"
+    },
+    {
+        "id": "23933039059",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 329743512,
+            "name": "tryphotino/photino.NET",
+            "url": "https://api.github.com/repos/tryphotino/photino.NET"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73",
+                "repository_url": "https://api.github.com/repos/tryphotino/photino.NET",
+                "labels_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/labels{/name}",
+                "comments_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/comments",
+                "events_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/events",
+                "html_url": "https://github.com/tryphotino/photino.NET/issues/73",
+                "id": 1043240205,
+                "node_id": "I_kwDOE6d8mM4-LpUN",
+                "number": 73,
+                "title": "How to make window transparent?",
+                "user": {
+                    "login": "albertwoo",
+                    "id": 8017681,
+                    "node_id": "MDQ6VXNlcjgwMTc2ODE=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8017681?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/albertwoo",
+                    "html_url": "https://github.com/albertwoo",
+                    "followers_url": "https://api.github.com/users/albertwoo/followers",
+                    "following_url": "https://api.github.com/users/albertwoo/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/albertwoo/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/albertwoo/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/albertwoo/subscriptions",
+                    "organizations_url": "https://api.github.com/users/albertwoo/orgs",
+                    "repos_url": "https://api.github.com/users/albertwoo/repos",
+                    "events_url": "https://api.github.com/users/albertwoo/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/albertwoo/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 2658735405,
+                        "node_id": "MDU6TGFiZWwyNjU4NzM1NDA1",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    },
+                    {
+                        "id": 2658735409,
+                        "node_id": "MDU6TGFiZWwyNjU4NzM1NDA5",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/help%20wanted",
+                        "name": "help wanted",
+                        "color": "008672",
+                        "default": true,
+                        "description": "Extra attention is needed"
+                    },
+                    {
+                        "id": 2813090366,
+                        "node_id": "MDU6TGFiZWwyODEzMDkwMzY2",
+                        "url": "https://api.github.com/repos/tryphotino/photino.NET/labels/All%20OS",
+                        "name": "All OS",
+                        "color": "1d76db",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2021-11-03T09:01:27Z",
+                "updated_at": "2022-09-10T20:53:35Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/reactions",
+                    "total_count": 2,
+                    "+1": 2,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/comments/1242803206",
+                "html_url": "https://github.com/tryphotino/photino.NET/issues/73#issuecomment-1242803206",
+                "issue_url": "https://api.github.com/repos/tryphotino/photino.NET/issues/73",
+                "id": 1242803206,
+                "node_id": "IC_kwDOE6d8mM5KE6wG",
+                "user": {
+                    "login": "flyingpie",
+                    "id": 1295673,
+                    "node_id": "MDQ6VXNlcjEyOTU2NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1295673?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/flyingpie",
+                    "html_url": "https://github.com/flyingpie",
+                    "followers_url": "https://api.github.com/users/flyingpie/followers",
+                    "following_url": "https://api.github.com/users/flyingpie/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/flyingpie/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/flyingpie/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/flyingpie/subscriptions",
+                    "organizations_url": "https://api.github.com/users/flyingpie/orgs",
+                    "repos_url": "https://api.github.com/users/flyingpie/repos",
+                    "events_url": "https://api.github.com/users/flyingpie/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/flyingpie/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-10T20:53:35Z",
+                "updated_at": "2022-09-10T20:53:35Z",
+                "author_association": "NONE",
+                "body": "@albertwoo Perhaps an workaround for getting this effect (note that you can't have only the background transparent, just the window as a whole):\r\n\r\n![image](https://user-images.githubusercontent.com/1295673/189501291-f4a2b51a-ce63-42c3-8157-a258e98d7439.png)\r\n\r\nUser32.cs:\r\n```cs\r\nusing System;\r\nusing System.Runtime.InteropServices;\r\n\r\nnamespace HelloPhotino.Vue.Native;\r\n\r\npublic static class User32\r\n{\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern bool SetLayeredWindowAttributes(IntPtr hwnd, uint crKey, byte bAlpha, uint dwFlags);\r\n\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern int GetWindowLong(IntPtr hWnd, int nIndex);\r\n\r\n\t[DllImport(\"user32.dll\", SetLastError = true)]\r\n\tpublic static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);\r\n\r\n\tpublic const int GWL_EX_STYLE = -20;\r\n\r\n\tpublic const int LWA_ALPHA = 0x2;\r\n\r\n\tpublic const int WS_EX_LAYERED = 0x80000;\r\n\r\n\t/// <summary>\r\n\t/// Makes the entire window of the specified process transparent.\r\n\t/// </summary>\r\n\t/// <param name=\"transparency\">Desired transparency, value between 0 (invisible) to 100 (opaque).</param>\r\n\tpublic static void SetTransparency(IntPtr windowHandle, int transparency)\r\n\t{\r\n\t\tif (windowHandle == IntPtr.Zero) throw new Exception(\"Process handle zero\");\r\n\r\n\t\t// Get original window properties\r\n\t\tvar props = GetWindowLong(windowHandle, GWL_EX_STYLE);\r\n\r\n\t\t// Add \"WS_EX_LAYERED\"-flag (required for transparency).\r\n\t\tSetWindowLong(windowHandle, GWL_EX_STYLE, props | WS_EX_LAYERED);\r\n\r\n\t\t// Set transparency\r\n\t\tvar isSet = SetLayeredWindowAttributes(windowHandle, 0, (byte)Math.Ceiling(255f / 100f * transparency), LWA_ALPHA);\r\n\t\tif (!isSet) throw new Exception(\"Could not set window opacity\");\r\n\t}\r\n}\r\n```\r\n\r\nThen somewhere before ```window.WaitForClose()```:\r\n\r\n```cs\r\nwindow.WindowCreated += (s, a) =>\r\n{\r\n\tUser32.SetTransparency(window.WindowHandle, 50);\r\n};\r\n```\r\n\r\nI've been using this technique for [windows-terminal-quake](https://github.com/flyingpie/windows-terminal-quake), works quite well.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/tryphotino/photino.NET/issues/comments/1242803206/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-10T20:53:35Z",
+        "org": {
+            "id": 77465383,
+            "login": "tryphotino",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/tryphotino",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77465383?"
+        }
+    },
+    {
+        "id": "23926720782",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 201124699,
+            "name": "flyingpie/windows-terminal-quake",
+            "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake"
+        },
+        "payload": {
+            "push_id": 10980493874,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6",
+            "before": "a3ae9d446cd1ee97cc6e46651f63113e63c3d4f1",
+            "commits": [
+                {
+                    "sha": "c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6",
+                    "author": {
+                        "email": "marco.vandenoever@datarotonde.com",
+                        "name": "Marco van den Oever"
+                    },
+                    "message": "Package updates",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/commits/c81bb50d5d694ba3ee3364f7759b5e6b9cd8fea6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-10T00:33:05Z"
+    },
+    {
+        "id": "23483160421",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 190945122,
+            "name": "SavMartin/TexTools-Blender",
+            "url": "https://api.github.com/repos/SavMartin/TexTools-Blender"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-17T12:25:40Z"
+    },
+    {
+        "id": "23483151098",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1295673,
+            "login": "flyingpie",
+            "display_login": "flyingpie",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/flyingpie",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1295673?"
+        },
+        "repo": {
+            "id": 126492058,
+            "name": "aras-p/ToyPathTracer",
+            "url": "https://api.github.com/repos/aras-p/ToyPathTracer"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-17T12:25:13Z"
+    }
+]

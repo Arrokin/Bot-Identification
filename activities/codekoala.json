@@ -1,0 +1,1841 @@
+[
+    {
+        "id": "25040412098",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 180954037,
+            "name": "itchyny/gojq",
+            "url": "https://api.github.com/repos/itchyny/gojq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T20:05:51Z"
+    },
+    {
+        "id": "25040200644",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 410231992,
+            "name": "MiSawa/xq",
+            "url": "https://api.github.com/repos/MiSawa/xq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T19:52:45Z"
+    },
+    {
+        "id": "25039920865",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 361079646,
+            "name": "PaulJuliusMartinez/jless",
+            "url": "https://api.github.com/repos/PaulJuliusMartinez/jless"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T19:36:05Z"
+    },
+    {
+        "id": "24967864987",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 99248804,
+            "name": "codekoala/go-aws-lanes",
+            "url": "https://api.github.com/repos/codekoala/go-aws-lanes"
+        },
+        "payload": {
+            "push_id": 11521877584,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "8404db6a7443f19ec6aae1af9cd45570b2e3e713",
+            "before": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+            "commits": [
+                {
+                    "sha": "8404db6a7443f19ec6aae1af9cd45570b2e3e713",
+                    "author": {
+                        "email": "codekoala@gmail.com",
+                        "name": "Josh VanderLinden"
+                    },
+                    "message": "Update travis config",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codekoala/go-aws-lanes/commits/8404db6a7443f19ec6aae1af9cd45570b2e3e713"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:06:42Z"
+    },
+    {
+        "id": "24967825977",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 99248804,
+            "name": "codekoala/go-aws-lanes",
+            "url": "https://api.github.com/repos/codekoala/go-aws-lanes"
+        },
+        "payload": {
+            "push_id": 11521859086,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+            "before": "61af638693501a70e3bd85d5b0df5b1392c1f013",
+            "commits": [
+                {
+                    "sha": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+                    "author": {
+                        "email": "codekoala@gmail.com",
+                        "name": "Josh VanderLinden"
+                    },
+                    "message": "Introduce goreleaser",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codekoala/go-aws-lanes/commits/4b149b2abb7b7c8973549be43d4e7ed2551003c7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:04:42Z"
+    },
+    {
+        "id": "24510058843",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 40443970,
+            "name": "awslabs/flowgger",
+            "url": "https://api.github.com/repos/awslabs/flowgger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-10T20:24:19Z",
+        "org": {
+            "id": 3299148,
+            "login": "awslabs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/awslabs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3299148?"
+        }
+    },
+    {
+        "id": "24342218740",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 476825711,
+            "name": "CrowdStrike/csproto",
+            "url": "https://api.github.com/repos/CrowdStrike/csproto"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-01T21:15:26Z",
+        "org": {
+            "id": 2446477,
+            "login": "CrowdStrike",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CrowdStrike",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2446477?"
+        }
+    },
+    {
+        "id": "24119190278",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 172846033,
+            "name": "Binject/awesome-go-security",
+            "url": "https://api.github.com/repos/Binject/awesome-go-security"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-20T17:06:54Z",
+        "org": {
+            "id": 46504796,
+            "login": "Binject",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Binject",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46504796?"
+        }
+    },
+    {
+        "id": "24030343051",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 142916732,
+            "name": "mink0/exec-cmd",
+            "url": "https://api.github.com/repos/mink0/exec-cmd"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T14:36:10Z"
+    },
+    {
+        "id": "24028048946",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 369828607,
+            "name": "nullpo-head/wsl-distrod",
+            "url": "https://api.github.com/repos/nullpo-head/wsl-distrod"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T13:07:07Z"
+    },
+    {
+        "id": "23803054692",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 41925963,
+            "name": "Nukesor/pueue",
+            "url": "https://api.github.com/repos/Nukesor/pueue"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Nukesor/pueue/issues/350",
+                "repository_url": "https://api.github.com/repos/Nukesor/pueue",
+                "labels_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/comments",
+                "events_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/events",
+                "html_url": "https://github.com/Nukesor/pueue/issues/350",
+                "id": 1359083118,
+                "node_id": "I_kwDOAn-9S85RAfZu",
+                "number": 350,
+                "title": "Status query syntax",
+                "user": {
+                    "login": "Nukesor",
+                    "id": 3322822,
+                    "node_id": "MDQ6VXNlcjMzMjI4MjI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/3322822?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Nukesor",
+                    "html_url": "https://github.com/Nukesor",
+                    "followers_url": "https://api.github.com/users/Nukesor/followers",
+                    "following_url": "https://api.github.com/users/Nukesor/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Nukesor/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Nukesor/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Nukesor/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Nukesor/orgs",
+                    "repos_url": "https://api.github.com/users/Nukesor/repos",
+                    "events_url": "https://api.github.com/users/Nukesor/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Nukesor/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 297404996,
+                        "node_id": "MDU6TGFiZWwyOTc0MDQ5OTY=",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Discussion",
+                        "name": "t: Discussion",
+                        "color": "fce028",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1822609375,
+                        "node_id": "MDU6TGFiZWwxODIyNjA5Mzc1",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Feature",
+                        "name": "t: Feature",
+                        "color": "7fea77",
+                        "default": false,
+                        "description": "A new feature that needs implementation"
+                    },
+                    {
+                        "id": 1827065642,
+                        "node_id": "MDU6TGFiZWwxODI3MDY1NjQy",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Enhancement",
+                        "name": "t: Enhancement",
+                        "color": "a9f6fc",
+                        "default": false,
+                        "description": "Something that exists, but could be made better"
+                    },
+                    {
+                        "id": 3685915355,
+                        "node_id": "LA_kwDOAn-9S87bsprb",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/s:%20Client",
+                        "name": "s: Client",
+                        "color": "E8F01A",
+                        "default": false,
+                        "description": "This issue touches the pueue client"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-09-01T16:04:17Z",
+                "updated_at": "2022-09-03T15:55:51Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "I started implementing the `pueue status` query on this branch: https://github.com/Nukesor/pueue/tree/filter-status\r\nIt's still very much work-in-progress, but it's starting to shape into something usable.\r\nThe main reason why I'm writing this ticket is that I want some feedback on the current syntax.\r\n\r\n**A small upfront disclaimer:**\r\nThe first draft of the syntax will be experimantal. If it get's released, there'll be a big note on top of it that the syntax might become subject to change and that it shouldn't be considered stable!\r\n\r\nFurthermore, I don't plan to make the syntax feature-complete from the get-go. The idea is to implement the basic features and continue working on it with real-world feedback and usecases.\r\n\r\nOkay, now that that's out of the way here's the current syntax.\r\n\r\nThere're currently three sections:\r\n\r\n## Column selection:\r\nThis is a basic filter on which columns should be visible\r\n- [x] `columns=id,status,start,end`\r\n\r\n## Filters\r\nThis is where it get's a bit more complex.\r\nFor now a few filters are planned:\r\n\r\n- [x] `label [=|!=] string`: Filter for a specific label\r\n- [x] `[start|end|enqueue_at] [=|!=|<|>] [date|datetime|time]` Filter any of the three date related fields.\r\n- [x] `status [=|!=] [queued|stashed|running|paused|done|failed]` Filter tasks based on their status\r\n\r\n## Ordering\r\n\r\n- [x] `order_by [any_column] = [asc|desc]` A simple ordering depending on a column and a direction.\r\n\r\n# Complete query\r\nA complete query has this structure\r\n`[column_selection] [filter]* [order]`\r\n\r\nExamples:\r\n- `columns=id,status,command,end label=special start>2022-09-01 group_by status=desc`\r\n- `label=special`\r\n- `start>10:30 end<18:00 status=success`\r\n\r\n# Questions:\r\n- What do you think of this syntax?\r\n- Is there any fundamental missing feature?\r\n- Would this cover your 80% usecase?\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Nukesor/pueue/issues/350/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Nukesor/pueue/issues/comments/1236149053",
+                "html_url": "https://github.com/Nukesor/pueue/issues/350#issuecomment-1236149053",
+                "issue_url": "https://api.github.com/repos/Nukesor/pueue/issues/350",
+                "id": 1236149053,
+                "node_id": "IC_kwDOAn-9S85JriM9",
+                "user": {
+                    "login": "codekoala",
+                    "id": 48698,
+                    "node_id": "MDQ6VXNlcjQ4Njk4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48698?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codekoala",
+                    "html_url": "https://github.com/codekoala",
+                    "followers_url": "https://api.github.com/users/codekoala/followers",
+                    "following_url": "https://api.github.com/users/codekoala/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codekoala/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codekoala/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codekoala/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codekoala/orgs",
+                    "repos_url": "https://api.github.com/users/codekoala/repos",
+                    "events_url": "https://api.github.com/users/codekoala/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codekoala/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-03T15:55:51Z",
+                "updated_at": "2022-09-03T15:55:51Z",
+                "author_association": "NONE",
+                "body": "@Nukesor this looks fantastic! Thank you for implementing this feature. I will give it a spin this coming week and report back with any feedback.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Nukesor/pueue/issues/comments/1236149053/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-03T15:55:51Z"
+    },
+    {
+        "id": "23802875110",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 40718289,
+            "name": "Porchetta-Industries/CrackMapExec",
+            "url": "https://api.github.com/repos/Porchetta-Industries/CrackMapExec"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-03T15:23:41Z",
+        "org": {
+            "id": 67356187,
+            "login": "Porchetta-Industries",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Porchetta-Industries",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67356187?"
+        }
+    },
+    {
+        "id": "23797792764",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 226696536,
+            "name": "burrowers/garble",
+            "url": "https://api.github.com/repos/burrowers/garble"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-02T22:30:55Z",
+        "org": {
+            "id": 70822822,
+            "login": "burrowers",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/burrowers",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70822822?"
+        }
+    },
+    {
+        "id": "23797785810",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 178089499,
+            "name": "TheWover/donut",
+            "url": "https://api.github.com/repos/TheWover/donut"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-02T22:30:06Z"
+    },
+    {
+        "id": "23393646191",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 169139591,
+            "name": "fcsonline/tmux-thumbs",
+            "url": "https://api.github.com/repos/fcsonline/tmux-thumbs"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-11T20:29:58Z"
+    },
+    {
+        "id": "23337229084",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 90356372,
+            "name": "ArchiveBox/ArchiveBox",
+            "url": "https://api.github.com/repos/ArchiveBox/ArchiveBox"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-09T11:03:45Z",
+        "org": {
+            "id": 74894248,
+            "login": "ArchiveBox",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ArchiveBox",
+            "avatar_url": "https://avatars.githubusercontent.com/u/74894248?"
+        }
+    },
+    {
+        "id": "23315368874",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 5790740,
+            "name": "mattn/goreman",
+            "url": "https://api.github.com/repos/mattn/goreman"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-08T12:03:31Z"
+    },
+    {
+        "id": "23279890881",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 97338890,
+            "name": "gsass1/NTop",
+            "url": "https://api.github.com/repos/gsass1/NTop"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-05T10:57:36Z"
+    },
+    {
+        "id": "25040412098",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 180954037,
+            "name": "itchyny/gojq",
+            "url": "https://api.github.com/repos/itchyny/gojq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T20:05:51Z"
+    },
+    {
+        "id": "25040200644",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 410231992,
+            "name": "MiSawa/xq",
+            "url": "https://api.github.com/repos/MiSawa/xq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T19:52:45Z"
+    },
+    {
+        "id": "25039920865",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 361079646,
+            "name": "PaulJuliusMartinez/jless",
+            "url": "https://api.github.com/repos/PaulJuliusMartinez/jless"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T19:36:05Z"
+    },
+    {
+        "id": "24967864987",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 99248804,
+            "name": "codekoala/go-aws-lanes",
+            "url": "https://api.github.com/repos/codekoala/go-aws-lanes"
+        },
+        "payload": {
+            "push_id": 11521877584,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "8404db6a7443f19ec6aae1af9cd45570b2e3e713",
+            "before": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+            "commits": [
+                {
+                    "sha": "8404db6a7443f19ec6aae1af9cd45570b2e3e713",
+                    "author": {
+                        "email": "codekoala@gmail.com",
+                        "name": "Josh VanderLinden"
+                    },
+                    "message": "Update travis config",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codekoala/go-aws-lanes/commits/8404db6a7443f19ec6aae1af9cd45570b2e3e713"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:06:42Z"
+    },
+    {
+        "id": "24967825977",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 99248804,
+            "name": "codekoala/go-aws-lanes",
+            "url": "https://api.github.com/repos/codekoala/go-aws-lanes"
+        },
+        "payload": {
+            "push_id": 11521859086,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+            "before": "61af638693501a70e3bd85d5b0df5b1392c1f013",
+            "commits": [
+                {
+                    "sha": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+                    "author": {
+                        "email": "codekoala@gmail.com",
+                        "name": "Josh VanderLinden"
+                    },
+                    "message": "Introduce goreleaser",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codekoala/go-aws-lanes/commits/4b149b2abb7b7c8973549be43d4e7ed2551003c7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:04:42Z"
+    },
+    {
+        "id": "24510058843",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 40443970,
+            "name": "awslabs/flowgger",
+            "url": "https://api.github.com/repos/awslabs/flowgger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-10T20:24:19Z",
+        "org": {
+            "id": 3299148,
+            "login": "awslabs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/awslabs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3299148?"
+        }
+    },
+    {
+        "id": "24342218740",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 476825711,
+            "name": "CrowdStrike/csproto",
+            "url": "https://api.github.com/repos/CrowdStrike/csproto"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-01T21:15:26Z",
+        "org": {
+            "id": 2446477,
+            "login": "CrowdStrike",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CrowdStrike",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2446477?"
+        }
+    },
+    {
+        "id": "24119190278",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 172846033,
+            "name": "Binject/awesome-go-security",
+            "url": "https://api.github.com/repos/Binject/awesome-go-security"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-20T17:06:54Z",
+        "org": {
+            "id": 46504796,
+            "login": "Binject",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Binject",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46504796?"
+        }
+    },
+    {
+        "id": "24030343051",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 142916732,
+            "name": "mink0/exec-cmd",
+            "url": "https://api.github.com/repos/mink0/exec-cmd"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T14:36:10Z"
+    },
+    {
+        "id": "24028048946",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 369828607,
+            "name": "nullpo-head/wsl-distrod",
+            "url": "https://api.github.com/repos/nullpo-head/wsl-distrod"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T13:07:07Z"
+    },
+    {
+        "id": "23803054692",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 41925963,
+            "name": "Nukesor/pueue",
+            "url": "https://api.github.com/repos/Nukesor/pueue"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Nukesor/pueue/issues/350",
+                "repository_url": "https://api.github.com/repos/Nukesor/pueue",
+                "labels_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/comments",
+                "events_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/events",
+                "html_url": "https://github.com/Nukesor/pueue/issues/350",
+                "id": 1359083118,
+                "node_id": "I_kwDOAn-9S85RAfZu",
+                "number": 350,
+                "title": "Status query syntax",
+                "user": {
+                    "login": "Nukesor",
+                    "id": 3322822,
+                    "node_id": "MDQ6VXNlcjMzMjI4MjI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/3322822?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Nukesor",
+                    "html_url": "https://github.com/Nukesor",
+                    "followers_url": "https://api.github.com/users/Nukesor/followers",
+                    "following_url": "https://api.github.com/users/Nukesor/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Nukesor/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Nukesor/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Nukesor/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Nukesor/orgs",
+                    "repos_url": "https://api.github.com/users/Nukesor/repos",
+                    "events_url": "https://api.github.com/users/Nukesor/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Nukesor/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 297404996,
+                        "node_id": "MDU6TGFiZWwyOTc0MDQ5OTY=",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Discussion",
+                        "name": "t: Discussion",
+                        "color": "fce028",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1822609375,
+                        "node_id": "MDU6TGFiZWwxODIyNjA5Mzc1",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Feature",
+                        "name": "t: Feature",
+                        "color": "7fea77",
+                        "default": false,
+                        "description": "A new feature that needs implementation"
+                    },
+                    {
+                        "id": 1827065642,
+                        "node_id": "MDU6TGFiZWwxODI3MDY1NjQy",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Enhancement",
+                        "name": "t: Enhancement",
+                        "color": "a9f6fc",
+                        "default": false,
+                        "description": "Something that exists, but could be made better"
+                    },
+                    {
+                        "id": 3685915355,
+                        "node_id": "LA_kwDOAn-9S87bsprb",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/s:%20Client",
+                        "name": "s: Client",
+                        "color": "E8F01A",
+                        "default": false,
+                        "description": "This issue touches the pueue client"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-09-01T16:04:17Z",
+                "updated_at": "2022-09-03T15:55:51Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "I started implementing the `pueue status` query on this branch: https://github.com/Nukesor/pueue/tree/filter-status\r\nIt's still very much work-in-progress, but it's starting to shape into something usable.\r\nThe main reason why I'm writing this ticket is that I want some feedback on the current syntax.\r\n\r\n**A small upfront disclaimer:**\r\nThe first draft of the syntax will be experimantal. If it get's released, there'll be a big note on top of it that the syntax might become subject to change and that it shouldn't be considered stable!\r\n\r\nFurthermore, I don't plan to make the syntax feature-complete from the get-go. The idea is to implement the basic features and continue working on it with real-world feedback and usecases.\r\n\r\nOkay, now that that's out of the way here's the current syntax.\r\n\r\nThere're currently three sections:\r\n\r\n## Column selection:\r\nThis is a basic filter on which columns should be visible\r\n- [x] `columns=id,status,start,end`\r\n\r\n## Filters\r\nThis is where it get's a bit more complex.\r\nFor now a few filters are planned:\r\n\r\n- [x] `label [=|!=] string`: Filter for a specific label\r\n- [x] `[start|end|enqueue_at] [=|!=|<|>] [date|datetime|time]` Filter any of the three date related fields.\r\n- [x] `status [=|!=] [queued|stashed|running|paused|done|failed]` Filter tasks based on their status\r\n\r\n## Ordering\r\n\r\n- [x] `order_by [any_column] = [asc|desc]` A simple ordering depending on a column and a direction.\r\n\r\n# Complete query\r\nA complete query has this structure\r\n`[column_selection] [filter]* [order]`\r\n\r\nExamples:\r\n- `columns=id,status,command,end label=special start>2022-09-01 group_by status=desc`\r\n- `label=special`\r\n- `start>10:30 end<18:00 status=success`\r\n\r\n# Questions:\r\n- What do you think of this syntax?\r\n- Is there any fundamental missing feature?\r\n- Would this cover your 80% usecase?\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Nukesor/pueue/issues/350/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Nukesor/pueue/issues/comments/1236149053",
+                "html_url": "https://github.com/Nukesor/pueue/issues/350#issuecomment-1236149053",
+                "issue_url": "https://api.github.com/repos/Nukesor/pueue/issues/350",
+                "id": 1236149053,
+                "node_id": "IC_kwDOAn-9S85JriM9",
+                "user": {
+                    "login": "codekoala",
+                    "id": 48698,
+                    "node_id": "MDQ6VXNlcjQ4Njk4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48698?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codekoala",
+                    "html_url": "https://github.com/codekoala",
+                    "followers_url": "https://api.github.com/users/codekoala/followers",
+                    "following_url": "https://api.github.com/users/codekoala/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codekoala/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codekoala/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codekoala/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codekoala/orgs",
+                    "repos_url": "https://api.github.com/users/codekoala/repos",
+                    "events_url": "https://api.github.com/users/codekoala/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codekoala/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-03T15:55:51Z",
+                "updated_at": "2022-09-03T15:55:51Z",
+                "author_association": "NONE",
+                "body": "@Nukesor this looks fantastic! Thank you for implementing this feature. I will give it a spin this coming week and report back with any feedback.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Nukesor/pueue/issues/comments/1236149053/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-03T15:55:51Z"
+    },
+    {
+        "id": "23802875110",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 40718289,
+            "name": "Porchetta-Industries/CrackMapExec",
+            "url": "https://api.github.com/repos/Porchetta-Industries/CrackMapExec"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-03T15:23:41Z",
+        "org": {
+            "id": 67356187,
+            "login": "Porchetta-Industries",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Porchetta-Industries",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67356187?"
+        }
+    },
+    {
+        "id": "23797792764",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 226696536,
+            "name": "burrowers/garble",
+            "url": "https://api.github.com/repos/burrowers/garble"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-02T22:30:55Z",
+        "org": {
+            "id": 70822822,
+            "login": "burrowers",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/burrowers",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70822822?"
+        }
+    },
+    {
+        "id": "23797785810",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 178089499,
+            "name": "TheWover/donut",
+            "url": "https://api.github.com/repos/TheWover/donut"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-02T22:30:06Z"
+    },
+    {
+        "id": "23393646191",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 169139591,
+            "name": "fcsonline/tmux-thumbs",
+            "url": "https://api.github.com/repos/fcsonline/tmux-thumbs"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-11T20:29:58Z"
+    },
+    {
+        "id": "23337229084",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 90356372,
+            "name": "ArchiveBox/ArchiveBox",
+            "url": "https://api.github.com/repos/ArchiveBox/ArchiveBox"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-09T11:03:45Z",
+        "org": {
+            "id": 74894248,
+            "login": "ArchiveBox",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ArchiveBox",
+            "avatar_url": "https://avatars.githubusercontent.com/u/74894248?"
+        }
+    },
+    {
+        "id": "23315368874",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 5790740,
+            "name": "mattn/goreman",
+            "url": "https://api.github.com/repos/mattn/goreman"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-08T12:03:31Z"
+    },
+    {
+        "id": "23279890881",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 97338890,
+            "name": "gsass1/NTop",
+            "url": "https://api.github.com/repos/gsass1/NTop"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-05T10:57:36Z"
+    },
+    {
+        "id": "25040412098",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 180954037,
+            "name": "itchyny/gojq",
+            "url": "https://api.github.com/repos/itchyny/gojq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T20:05:51Z"
+    },
+    {
+        "id": "25040200644",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 410231992,
+            "name": "MiSawa/xq",
+            "url": "https://api.github.com/repos/MiSawa/xq"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T19:52:45Z"
+    },
+    {
+        "id": "25039920865",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 361079646,
+            "name": "PaulJuliusMartinez/jless",
+            "url": "https://api.github.com/repos/PaulJuliusMartinez/jless"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T19:36:05Z"
+    },
+    {
+        "id": "24967864987",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 99248804,
+            "name": "codekoala/go-aws-lanes",
+            "url": "https://api.github.com/repos/codekoala/go-aws-lanes"
+        },
+        "payload": {
+            "push_id": 11521877584,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "8404db6a7443f19ec6aae1af9cd45570b2e3e713",
+            "before": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+            "commits": [
+                {
+                    "sha": "8404db6a7443f19ec6aae1af9cd45570b2e3e713",
+                    "author": {
+                        "email": "codekoala@gmail.com",
+                        "name": "Josh VanderLinden"
+                    },
+                    "message": "Update travis config",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codekoala/go-aws-lanes/commits/8404db6a7443f19ec6aae1af9cd45570b2e3e713"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:06:42Z"
+    },
+    {
+        "id": "24967825977",
+        "type": "PushEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 99248804,
+            "name": "codekoala/go-aws-lanes",
+            "url": "https://api.github.com/repos/codekoala/go-aws-lanes"
+        },
+        "payload": {
+            "push_id": 11521859086,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+            "before": "61af638693501a70e3bd85d5b0df5b1392c1f013",
+            "commits": [
+                {
+                    "sha": "4b149b2abb7b7c8973549be43d4e7ed2551003c7",
+                    "author": {
+                        "email": "codekoala@gmail.com",
+                        "name": "Josh VanderLinden"
+                    },
+                    "message": "Introduce goreleaser",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/codekoala/go-aws-lanes/commits/4b149b2abb7b7c8973549be43d4e7ed2551003c7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:04:42Z"
+    },
+    {
+        "id": "24510058843",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 40443970,
+            "name": "awslabs/flowgger",
+            "url": "https://api.github.com/repos/awslabs/flowgger"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-10T20:24:19Z",
+        "org": {
+            "id": 3299148,
+            "login": "awslabs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/awslabs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3299148?"
+        }
+    },
+    {
+        "id": "24342218740",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 476825711,
+            "name": "CrowdStrike/csproto",
+            "url": "https://api.github.com/repos/CrowdStrike/csproto"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-01T21:15:26Z",
+        "org": {
+            "id": 2446477,
+            "login": "CrowdStrike",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CrowdStrike",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2446477?"
+        }
+    },
+    {
+        "id": "24119190278",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 172846033,
+            "name": "Binject/awesome-go-security",
+            "url": "https://api.github.com/repos/Binject/awesome-go-security"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-20T17:06:54Z",
+        "org": {
+            "id": 46504796,
+            "login": "Binject",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Binject",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46504796?"
+        }
+    },
+    {
+        "id": "24030343051",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 142916732,
+            "name": "mink0/exec-cmd",
+            "url": "https://api.github.com/repos/mink0/exec-cmd"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T14:36:10Z"
+    },
+    {
+        "id": "24028048946",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 369828607,
+            "name": "nullpo-head/wsl-distrod",
+            "url": "https://api.github.com/repos/nullpo-head/wsl-distrod"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T13:07:07Z"
+    },
+    {
+        "id": "23803054692",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 41925963,
+            "name": "Nukesor/pueue",
+            "url": "https://api.github.com/repos/Nukesor/pueue"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Nukesor/pueue/issues/350",
+                "repository_url": "https://api.github.com/repos/Nukesor/pueue",
+                "labels_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/comments",
+                "events_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/events",
+                "html_url": "https://github.com/Nukesor/pueue/issues/350",
+                "id": 1359083118,
+                "node_id": "I_kwDOAn-9S85RAfZu",
+                "number": 350,
+                "title": "Status query syntax",
+                "user": {
+                    "login": "Nukesor",
+                    "id": 3322822,
+                    "node_id": "MDQ6VXNlcjMzMjI4MjI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/3322822?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/Nukesor",
+                    "html_url": "https://github.com/Nukesor",
+                    "followers_url": "https://api.github.com/users/Nukesor/followers",
+                    "following_url": "https://api.github.com/users/Nukesor/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/Nukesor/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/Nukesor/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/Nukesor/subscriptions",
+                    "organizations_url": "https://api.github.com/users/Nukesor/orgs",
+                    "repos_url": "https://api.github.com/users/Nukesor/repos",
+                    "events_url": "https://api.github.com/users/Nukesor/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/Nukesor/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 297404996,
+                        "node_id": "MDU6TGFiZWwyOTc0MDQ5OTY=",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Discussion",
+                        "name": "t: Discussion",
+                        "color": "fce028",
+                        "default": false,
+                        "description": ""
+                    },
+                    {
+                        "id": 1822609375,
+                        "node_id": "MDU6TGFiZWwxODIyNjA5Mzc1",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Feature",
+                        "name": "t: Feature",
+                        "color": "7fea77",
+                        "default": false,
+                        "description": "A new feature that needs implementation"
+                    },
+                    {
+                        "id": 1827065642,
+                        "node_id": "MDU6TGFiZWwxODI3MDY1NjQy",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/t:%20Enhancement",
+                        "name": "t: Enhancement",
+                        "color": "a9f6fc",
+                        "default": false,
+                        "description": "Something that exists, but could be made better"
+                    },
+                    {
+                        "id": 3685915355,
+                        "node_id": "LA_kwDOAn-9S87bsprb",
+                        "url": "https://api.github.com/repos/Nukesor/pueue/labels/s:%20Client",
+                        "name": "s: Client",
+                        "color": "E8F01A",
+                        "default": false,
+                        "description": "This issue touches the pueue client"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-09-01T16:04:17Z",
+                "updated_at": "2022-09-03T15:55:51Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "I started implementing the `pueue status` query on this branch: https://github.com/Nukesor/pueue/tree/filter-status\r\nIt's still very much work-in-progress, but it's starting to shape into something usable.\r\nThe main reason why I'm writing this ticket is that I want some feedback on the current syntax.\r\n\r\n**A small upfront disclaimer:**\r\nThe first draft of the syntax will be experimantal. If it get's released, there'll be a big note on top of it that the syntax might become subject to change and that it shouldn't be considered stable!\r\n\r\nFurthermore, I don't plan to make the syntax feature-complete from the get-go. The idea is to implement the basic features and continue working on it with real-world feedback and usecases.\r\n\r\nOkay, now that that's out of the way here's the current syntax.\r\n\r\nThere're currently three sections:\r\n\r\n## Column selection:\r\nThis is a basic filter on which columns should be visible\r\n- [x] `columns=id,status,start,end`\r\n\r\n## Filters\r\nThis is where it get's a bit more complex.\r\nFor now a few filters are planned:\r\n\r\n- [x] `label [=|!=] string`: Filter for a specific label\r\n- [x] `[start|end|enqueue_at] [=|!=|<|>] [date|datetime|time]` Filter any of the three date related fields.\r\n- [x] `status [=|!=] [queued|stashed|running|paused|done|failed]` Filter tasks based on their status\r\n\r\n## Ordering\r\n\r\n- [x] `order_by [any_column] = [asc|desc]` A simple ordering depending on a column and a direction.\r\n\r\n# Complete query\r\nA complete query has this structure\r\n`[column_selection] [filter]* [order]`\r\n\r\nExamples:\r\n- `columns=id,status,command,end label=special start>2022-09-01 group_by status=desc`\r\n- `label=special`\r\n- `start>10:30 end<18:00 status=success`\r\n\r\n# Questions:\r\n- What do you think of this syntax?\r\n- Is there any fundamental missing feature?\r\n- Would this cover your 80% usecase?\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Nukesor/pueue/issues/350/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Nukesor/pueue/issues/350/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Nukesor/pueue/issues/comments/1236149053",
+                "html_url": "https://github.com/Nukesor/pueue/issues/350#issuecomment-1236149053",
+                "issue_url": "https://api.github.com/repos/Nukesor/pueue/issues/350",
+                "id": 1236149053,
+                "node_id": "IC_kwDOAn-9S85JriM9",
+                "user": {
+                    "login": "codekoala",
+                    "id": 48698,
+                    "node_id": "MDQ6VXNlcjQ4Njk4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48698?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codekoala",
+                    "html_url": "https://github.com/codekoala",
+                    "followers_url": "https://api.github.com/users/codekoala/followers",
+                    "following_url": "https://api.github.com/users/codekoala/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codekoala/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codekoala/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codekoala/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codekoala/orgs",
+                    "repos_url": "https://api.github.com/users/codekoala/repos",
+                    "events_url": "https://api.github.com/users/codekoala/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codekoala/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-03T15:55:51Z",
+                "updated_at": "2022-09-03T15:55:51Z",
+                "author_association": "NONE",
+                "body": "@Nukesor this looks fantastic! Thank you for implementing this feature. I will give it a spin this coming week and report back with any feedback.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Nukesor/pueue/issues/comments/1236149053/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-03T15:55:51Z"
+    },
+    {
+        "id": "23802875110",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 40718289,
+            "name": "Porchetta-Industries/CrackMapExec",
+            "url": "https://api.github.com/repos/Porchetta-Industries/CrackMapExec"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-03T15:23:41Z",
+        "org": {
+            "id": 67356187,
+            "login": "Porchetta-Industries",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Porchetta-Industries",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67356187?"
+        }
+    },
+    {
+        "id": "23797792764",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 226696536,
+            "name": "burrowers/garble",
+            "url": "https://api.github.com/repos/burrowers/garble"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-02T22:30:55Z",
+        "org": {
+            "id": 70822822,
+            "login": "burrowers",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/burrowers",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70822822?"
+        }
+    },
+    {
+        "id": "23797785810",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 178089499,
+            "name": "TheWover/donut",
+            "url": "https://api.github.com/repos/TheWover/donut"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-02T22:30:06Z"
+    },
+    {
+        "id": "23393646191",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 169139591,
+            "name": "fcsonline/tmux-thumbs",
+            "url": "https://api.github.com/repos/fcsonline/tmux-thumbs"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-11T20:29:58Z"
+    },
+    {
+        "id": "23337229084",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 90356372,
+            "name": "ArchiveBox/ArchiveBox",
+            "url": "https://api.github.com/repos/ArchiveBox/ArchiveBox"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-09T11:03:45Z",
+        "org": {
+            "id": 74894248,
+            "login": "ArchiveBox",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ArchiveBox",
+            "avatar_url": "https://avatars.githubusercontent.com/u/74894248?"
+        }
+    },
+    {
+        "id": "23315368874",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 5790740,
+            "name": "mattn/goreman",
+            "url": "https://api.github.com/repos/mattn/goreman"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-08T12:03:31Z"
+    },
+    {
+        "id": "23279890881",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 48698,
+            "login": "codekoala",
+            "display_login": "codekoala",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codekoala",
+            "avatar_url": "https://avatars.githubusercontent.com/u/48698?"
+        },
+        "repo": {
+            "id": 97338890,
+            "name": "gsass1/NTop",
+            "url": "https://api.github.com/repos/gsass1/NTop"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-05T10:57:36Z"
+    }
+]

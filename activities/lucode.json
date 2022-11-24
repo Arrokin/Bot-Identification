@@ -1,0 +1,1412 @@
+[
+    {
+        "id": "25034274834",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 126682032,
+            "name": "zwave-js/node-zwave-js",
+            "url": "https://api.github.com/repos/zwave-js/node-zwave-js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593",
+                "repository_url": "https://api.github.com/repos/zwave-js/node-zwave-js",
+                "labels_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/labels{/name}",
+                "comments_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/comments",
+                "events_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/events",
+                "html_url": "https://github.com/zwave-js/node-zwave-js/issues/3593",
+                "id": 1035203441,
+                "node_id": "I_kwDOB40DsM49s_Nx",
+                "number": 3593,
+                "title": "Air temperature doesn't refresh on Eurotronics Spirit radiator valves",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2021-10-25T14:22:39Z",
+                "updated_at": "2022-11-04T14:48:39Z",
+                "closed_at": "2021-11-03T17:33:22Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Is your problem within Home Assistant (Core or Z-Wave JS Integration)?\n\nNO, my problem is NOT within Home Assistant or the ZWave JS integration\n\n### Is your problem within ZWaveJS2MQTT?\n\nNO, my problem is NOT within ZWaveJS2MQTT\n\n### Checklist\n\n- [X] I have checked the [troubleshooting section](https://zwave-js.github.io/node-zwave-js/#/troubleshooting/index) and my problem is **not** described there.\n\n- [X] I have read the [changelog](https://github.com/zwave-js/node-zwave-js/blob/master/CHANGELOG.md) and my problem was **not** mentioned there.\n\n\n### Describe the bug\n\nWhat causes the bug?\r\nI use those devices since about 2 years and hadn\u2019t much troubles yet. About 6 month ago I did migrate from Open Z-Wave to Z-Wave JS (V0.1.45 currently) in combination with Z-Wave JS to MQTT.\r\nI\u2019m not quite sure if the problem exists since the migration, or if it is caused by an update.\r\n\r\nWhat do you observe?\r\nWhen I started to use my heating again I noticed that the air temperature wasn\u2019t accurate anymore. In fact my HA Z-Wave setup does not refresh those values anymore. When I go to to the Z-Wave JS to MQTT Dashboard I can manually refresh the values and they get accurate then.\r\nWhat did you expect to happen?\r\nThe sensor data should get updated regularly.\r\nSteps to reproduce the behavior:\r\n  1. Go to 'MQTT Z-Wave Dashboard'\r\n  2. Click on 'a Eurotronic Valve'\r\n  3. Scroll down to 'Multilevel Sensor' and refresh the Air Temperture\r\n  4. See that the value gets updated now.\r\n\n\n### Device information\n\nManufacturer: Eurotronics (Manufacturer ID: 0x0148)\r\nModel name: Spirit\r\nNode ID in your network:  7 (example dump)\n\n### How are you using `node-zwave-js`?\n\n- [X] `zwavejs2mqtt` Docker image (latest)\n- [ ] `zwavejs2mqtt` Docker image (dev)\n- [ ] `zwavejs2mqtt` Docker manually built _(please specify branches)_\n- [ ] `ioBroker.zwave2` adapter _(please specify version)_\n- [X] `HomeAssistant zwave_js` integration  _(please specify version)_\n- [ ] `pkg`\n- [ ] `node-red-contrib-zwave-js` _(please specify version, double click node to find out)_\n- [ ] Manually built from GitHub _(please specify branch)_\n- [ ] Other _(please describe)_\n\n### Which branches or versions?\n\nversion:\r\n`node-zwave-js` branch:  HA version: 0.1.45,  version 8.4.1\r\n`zwavejs2mqtt` branch: : HA 0.27.0  version 8.4.1\r\n\n\n### Did you change anything?\n\nno\n\n### If yes, what did you change?\n\n_No response_\n\n### Did this work before?\n\nYes (please describe)\n\n### If yes, where did it work?\n\nIt did work with Open Z-Wave beta, but I'm not sure if it did with Z-Wave JS in a previous version.\n\n### Attach Driver Logfile\n\n```\r\n{\r\n  \"id\": 7,\r\n  \"name\": \"Tstat Salon Entree\",\r\n  \"loc\": \"Salon\",\r\n  \"values\": [\r\n    {\r\n      \"id\": \"7-49-0-Air temperature\",\r\n      \"nodeId\": 7,\r\n      \"commandClass\": 49,\r\n      \"commandClassName\": \"Multilevel Sensor\",\r\n      \"endpoint\": 0,\r\n      \"property\": \"Air temperature\",\r\n      \"propertyName\": \"Air temperature\",\r\n      \"type\": \"number\",\r\n      \"readable\": true,\r\n      \"writeable\": false,\r\n      \"label\": \"Air temperature\",\r\n      \"ccSpecific\": {\r\n        \"sensorType\": 1,\r\n        \"scale\": 0\r\n      },\r\n      \"stateless\": false,\r\n      \"unit\": \"\u00b0C\",\r\n      \"list\": false,\r\n      \"value\": 21.58,\r\n      \"lastUpdate\": 1634825645858,\r\n      \"newValue\": 21.58\r\n    },\r\n  \r\n  \"productLabel\": \"Spirit\",\r\n  \"productDescription\": \"Thermostatic Valve\",\r\n  \"manufacturer\": \"Eurotronics\",\r\n  \"firmwareVersion\": \"0.15\",\r\n  \"protocolVersion\": 3,\r\n  \"zwavePlusVersion\": 1,\r\n  \"zwavePlusNodeType\": 0,\r\n  \"zwavePlusRoleType\": 7,\r\n  \"nodeType\": 1,\r\n  \"endpointsCount\": 0,\r\n  \"endpointIndizes\": [],\r\n  \"isSecure\": \"unknown\",\r\n  \"supportsSecurity\": false,\r\n  \"supportsBeaming\": true,\r\n  \"isControllerNode\": false,\r\n  \"isListening\": false,\r\n  \"isFrequentListening\": \"1000ms\",\r\n  \"isRouting\": true,\r\n  \"keepAwake\": false,\r\n  \"maxDataRate\": 100000,\r\n  \"deviceClass\": {\r\n    \"basic\": 4,\r\n    \"generic\": 8,\r\n    \"specific\": 6\r\n  },\r\n  \"deviceId\": \"328-1-3\",\r\n  \"status\": \"Alive\",\r\n  \"interviewStage\": \"NodeInfo\",\r\n  \"statistics\": {\r\n    \"commandsTX\": 95,\r\n    \"commandsRX\": 75,\r\n    \"commandsDroppedRX\": 0,\r\n    \"commandsDroppedTX\": 0,\r\n    \"timeoutResponse\": 0\r\n  },\r\n  \"lastActive\": 1634900408260,\r\n  \"batteryLevel\": 95,\r\n  \"_name\": \"Tstat Salon Entree (Salon)\"\r\n}\r\n```\r\nHere the log file plus some debug logs about node 7. It shows that the regular polling includes Air temp but does not update the value. But after a manual refresh it does it.\r\n[log_MQTT_21-07.txt](https://github.com/zwave-js/node-zwave-js/files/7411041/log_MQTT_21-07.txt)\r\n[zwavejs_2021-10-25.log](https://github.com/zwave-js/node-zwave-js/files/7411112/zwavejs_2021-10-25.log)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/comments/1303674931",
+                "html_url": "https://github.com/zwave-js/node-zwave-js/issues/3593#issuecomment-1303674931",
+                "issue_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593",
+                "id": 1303674931,
+                "node_id": "IC_kwDOB40DsM5NtIAz",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-04T14:48:39Z",
+                "updated_at": "2022-11-04T14:48:39Z",
+                "author_association": "NONE",
+                "body": "No issues here with.\r\nzwave-js-ui: 8.2.2\r\nzwave-js: 10.3.0\r\nhome id:\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/comments/1303674931/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-04T14:48:39Z",
+        "org": {
+            "id": 54627315,
+            "login": "zwave-js",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zwave-js",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54627315?"
+        }
+    },
+    {
+        "id": "23845781414",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10940063525,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "049dd4d122f8d1bc493d9c8212683030aa93278e",
+            "before": "8a999a36d9647631b230d171a4a997d913d3711b",
+            "commits": [
+                {
+                    "sha": "049dd4d122f8d1bc493d9c8212683030aa93278e",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Add files via upload",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/049dd4d122f8d1bc493d9c8212683030aa93278e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-06T13:56:04Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23845721606",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10940034982,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8a999a36d9647631b230d171a4a997d913d3711b",
+            "before": "1d7b205d639d5886add836f3921f1483afd2ea21",
+            "commits": [
+                {
+                    "sha": "8a999a36d9647631b230d171a4a997d913d3711b",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/8a999a36d9647631b230d171a4a997d913d3711b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-06T13:53:45Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23485815882",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 77685950,
+            "name": "OCA/connector-jira",
+            "url": "https://api.github.com/repos/OCA/connector-jira"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/OCA/connector-jira/issues/85",
+                "repository_url": "https://api.github.com/repos/OCA/connector-jira",
+                "labels_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/labels{/name}",
+                "comments_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/comments",
+                "events_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/events",
+                "html_url": "https://github.com/OCA/connector-jira/issues/85",
+                "id": 1310485790,
+                "node_id": "I_kwDOBKFkvs5OHG0e",
+                "number": 85,
+                "title": "README installation instructions out of date for Jira 9.0+",
+                "user": {
+                    "login": "jchantrell",
+                    "id": 95152330,
+                    "node_id": "U_kgDOBavoyg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/95152330?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jchantrell",
+                    "html_url": "https://github.com/jchantrell",
+                    "followers_url": "https://api.github.com/users/jchantrell/followers",
+                    "following_url": "https://api.github.com/users/jchantrell/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jchantrell/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jchantrell/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jchantrell/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jchantrell/orgs",
+                    "repos_url": "https://api.github.com/users/jchantrell/repos",
+                    "events_url": "https://api.github.com/users/jchantrell/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jchantrell/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-07-20T06:02:16Z",
+                "updated_at": "2022-08-17T14:20:28Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Systems > Applications > Application Links is no longer available within 9.0.x interface.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/OCA/connector-jira/issues/85/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/OCA/connector-jira/issues/comments/1218076775",
+                "html_url": "https://github.com/OCA/connector-jira/issues/85#issuecomment-1218076775",
+                "issue_url": "https://api.github.com/repos/OCA/connector-jira/issues/85",
+                "id": 1218076775,
+                "node_id": "IC_kwDOBKFkvs5ImmBn",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-17T14:20:28Z",
+                "updated_at": "2022-08-17T14:20:28Z",
+                "author_association": "NONE",
+                "body": "Where it is now? ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/OCA/connector-jira/issues/comments/1218076775/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-17T14:20:28Z",
+        "org": {
+            "id": 7600578,
+            "login": "OCA",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/OCA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7600578?"
+        }
+    },
+    {
+        "id": "23440135291",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10731385536,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1d7b205d639d5886add836f3921f1483afd2ea21",
+            "before": "b95c7301b2eaabfb9cd0e76861ca6416e0d4c304",
+            "commits": [
+                {
+                    "sha": "1d7b205d639d5886add836f3921f1483afd2ea21",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/1d7b205d639d5886add836f3921f1483afd2ea21"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:09:15Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23440124513",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Odoo PrestaShop Connector",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:08:43Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23440124389",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "Odoo PrestaShop Connector",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:08:42Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "25034274834",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 126682032,
+            "name": "zwave-js/node-zwave-js",
+            "url": "https://api.github.com/repos/zwave-js/node-zwave-js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593",
+                "repository_url": "https://api.github.com/repos/zwave-js/node-zwave-js",
+                "labels_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/labels{/name}",
+                "comments_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/comments",
+                "events_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/events",
+                "html_url": "https://github.com/zwave-js/node-zwave-js/issues/3593",
+                "id": 1035203441,
+                "node_id": "I_kwDOB40DsM49s_Nx",
+                "number": 3593,
+                "title": "Air temperature doesn't refresh on Eurotronics Spirit radiator valves",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2021-10-25T14:22:39Z",
+                "updated_at": "2022-11-04T14:48:39Z",
+                "closed_at": "2021-11-03T17:33:22Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Is your problem within Home Assistant (Core or Z-Wave JS Integration)?\n\nNO, my problem is NOT within Home Assistant or the ZWave JS integration\n\n### Is your problem within ZWaveJS2MQTT?\n\nNO, my problem is NOT within ZWaveJS2MQTT\n\n### Checklist\n\n- [X] I have checked the [troubleshooting section](https://zwave-js.github.io/node-zwave-js/#/troubleshooting/index) and my problem is **not** described there.\n\n- [X] I have read the [changelog](https://github.com/zwave-js/node-zwave-js/blob/master/CHANGELOG.md) and my problem was **not** mentioned there.\n\n\n### Describe the bug\n\nWhat causes the bug?\r\nI use those devices since about 2 years and hadn\u2019t much troubles yet. About 6 month ago I did migrate from Open Z-Wave to Z-Wave JS (V0.1.45 currently) in combination with Z-Wave JS to MQTT.\r\nI\u2019m not quite sure if the problem exists since the migration, or if it is caused by an update.\r\n\r\nWhat do you observe?\r\nWhen I started to use my heating again I noticed that the air temperature wasn\u2019t accurate anymore. In fact my HA Z-Wave setup does not refresh those values anymore. When I go to to the Z-Wave JS to MQTT Dashboard I can manually refresh the values and they get accurate then.\r\nWhat did you expect to happen?\r\nThe sensor data should get updated regularly.\r\nSteps to reproduce the behavior:\r\n  1. Go to 'MQTT Z-Wave Dashboard'\r\n  2. Click on 'a Eurotronic Valve'\r\n  3. Scroll down to 'Multilevel Sensor' and refresh the Air Temperture\r\n  4. See that the value gets updated now.\r\n\n\n### Device information\n\nManufacturer: Eurotronics (Manufacturer ID: 0x0148)\r\nModel name: Spirit\r\nNode ID in your network:  7 (example dump)\n\n### How are you using `node-zwave-js`?\n\n- [X] `zwavejs2mqtt` Docker image (latest)\n- [ ] `zwavejs2mqtt` Docker image (dev)\n- [ ] `zwavejs2mqtt` Docker manually built _(please specify branches)_\n- [ ] `ioBroker.zwave2` adapter _(please specify version)_\n- [X] `HomeAssistant zwave_js` integration  _(please specify version)_\n- [ ] `pkg`\n- [ ] `node-red-contrib-zwave-js` _(please specify version, double click node to find out)_\n- [ ] Manually built from GitHub _(please specify branch)_\n- [ ] Other _(please describe)_\n\n### Which branches or versions?\n\nversion:\r\n`node-zwave-js` branch:  HA version: 0.1.45,  version 8.4.1\r\n`zwavejs2mqtt` branch: : HA 0.27.0  version 8.4.1\r\n\n\n### Did you change anything?\n\nno\n\n### If yes, what did you change?\n\n_No response_\n\n### Did this work before?\n\nYes (please describe)\n\n### If yes, where did it work?\n\nIt did work with Open Z-Wave beta, but I'm not sure if it did with Z-Wave JS in a previous version.\n\n### Attach Driver Logfile\n\n```\r\n{\r\n  \"id\": 7,\r\n  \"name\": \"Tstat Salon Entree\",\r\n  \"loc\": \"Salon\",\r\n  \"values\": [\r\n    {\r\n      \"id\": \"7-49-0-Air temperature\",\r\n      \"nodeId\": 7,\r\n      \"commandClass\": 49,\r\n      \"commandClassName\": \"Multilevel Sensor\",\r\n      \"endpoint\": 0,\r\n      \"property\": \"Air temperature\",\r\n      \"propertyName\": \"Air temperature\",\r\n      \"type\": \"number\",\r\n      \"readable\": true,\r\n      \"writeable\": false,\r\n      \"label\": \"Air temperature\",\r\n      \"ccSpecific\": {\r\n        \"sensorType\": 1,\r\n        \"scale\": 0\r\n      },\r\n      \"stateless\": false,\r\n      \"unit\": \"\u00b0C\",\r\n      \"list\": false,\r\n      \"value\": 21.58,\r\n      \"lastUpdate\": 1634825645858,\r\n      \"newValue\": 21.58\r\n    },\r\n  \r\n  \"productLabel\": \"Spirit\",\r\n  \"productDescription\": \"Thermostatic Valve\",\r\n  \"manufacturer\": \"Eurotronics\",\r\n  \"firmwareVersion\": \"0.15\",\r\n  \"protocolVersion\": 3,\r\n  \"zwavePlusVersion\": 1,\r\n  \"zwavePlusNodeType\": 0,\r\n  \"zwavePlusRoleType\": 7,\r\n  \"nodeType\": 1,\r\n  \"endpointsCount\": 0,\r\n  \"endpointIndizes\": [],\r\n  \"isSecure\": \"unknown\",\r\n  \"supportsSecurity\": false,\r\n  \"supportsBeaming\": true,\r\n  \"isControllerNode\": false,\r\n  \"isListening\": false,\r\n  \"isFrequentListening\": \"1000ms\",\r\n  \"isRouting\": true,\r\n  \"keepAwake\": false,\r\n  \"maxDataRate\": 100000,\r\n  \"deviceClass\": {\r\n    \"basic\": 4,\r\n    \"generic\": 8,\r\n    \"specific\": 6\r\n  },\r\n  \"deviceId\": \"328-1-3\",\r\n  \"status\": \"Alive\",\r\n  \"interviewStage\": \"NodeInfo\",\r\n  \"statistics\": {\r\n    \"commandsTX\": 95,\r\n    \"commandsRX\": 75,\r\n    \"commandsDroppedRX\": 0,\r\n    \"commandsDroppedTX\": 0,\r\n    \"timeoutResponse\": 0\r\n  },\r\n  \"lastActive\": 1634900408260,\r\n  \"batteryLevel\": 95,\r\n  \"_name\": \"Tstat Salon Entree (Salon)\"\r\n}\r\n```\r\nHere the log file plus some debug logs about node 7. It shows that the regular polling includes Air temp but does not update the value. But after a manual refresh it does it.\r\n[log_MQTT_21-07.txt](https://github.com/zwave-js/node-zwave-js/files/7411041/log_MQTT_21-07.txt)\r\n[zwavejs_2021-10-25.log](https://github.com/zwave-js/node-zwave-js/files/7411112/zwavejs_2021-10-25.log)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/comments/1303674931",
+                "html_url": "https://github.com/zwave-js/node-zwave-js/issues/3593#issuecomment-1303674931",
+                "issue_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593",
+                "id": 1303674931,
+                "node_id": "IC_kwDOB40DsM5NtIAz",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-04T14:48:39Z",
+                "updated_at": "2022-11-04T14:48:39Z",
+                "author_association": "NONE",
+                "body": "No issues here with.\r\nzwave-js-ui: 8.2.2\r\nzwave-js: 10.3.0\r\nhome id:\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/comments/1303674931/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-04T14:48:39Z",
+        "org": {
+            "id": 54627315,
+            "login": "zwave-js",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zwave-js",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54627315?"
+        }
+    },
+    {
+        "id": "23845781414",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10940063525,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "049dd4d122f8d1bc493d9c8212683030aa93278e",
+            "before": "8a999a36d9647631b230d171a4a997d913d3711b",
+            "commits": [
+                {
+                    "sha": "049dd4d122f8d1bc493d9c8212683030aa93278e",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Add files via upload",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/049dd4d122f8d1bc493d9c8212683030aa93278e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-06T13:56:04Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23845721606",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10940034982,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8a999a36d9647631b230d171a4a997d913d3711b",
+            "before": "1d7b205d639d5886add836f3921f1483afd2ea21",
+            "commits": [
+                {
+                    "sha": "8a999a36d9647631b230d171a4a997d913d3711b",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/8a999a36d9647631b230d171a4a997d913d3711b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-06T13:53:45Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23485815882",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 77685950,
+            "name": "OCA/connector-jira",
+            "url": "https://api.github.com/repos/OCA/connector-jira"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/OCA/connector-jira/issues/85",
+                "repository_url": "https://api.github.com/repos/OCA/connector-jira",
+                "labels_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/labels{/name}",
+                "comments_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/comments",
+                "events_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/events",
+                "html_url": "https://github.com/OCA/connector-jira/issues/85",
+                "id": 1310485790,
+                "node_id": "I_kwDOBKFkvs5OHG0e",
+                "number": 85,
+                "title": "README installation instructions out of date for Jira 9.0+",
+                "user": {
+                    "login": "jchantrell",
+                    "id": 95152330,
+                    "node_id": "U_kgDOBavoyg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/95152330?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jchantrell",
+                    "html_url": "https://github.com/jchantrell",
+                    "followers_url": "https://api.github.com/users/jchantrell/followers",
+                    "following_url": "https://api.github.com/users/jchantrell/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jchantrell/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jchantrell/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jchantrell/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jchantrell/orgs",
+                    "repos_url": "https://api.github.com/users/jchantrell/repos",
+                    "events_url": "https://api.github.com/users/jchantrell/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jchantrell/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-07-20T06:02:16Z",
+                "updated_at": "2022-08-17T14:20:28Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Systems > Applications > Application Links is no longer available within 9.0.x interface.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/OCA/connector-jira/issues/85/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/OCA/connector-jira/issues/comments/1218076775",
+                "html_url": "https://github.com/OCA/connector-jira/issues/85#issuecomment-1218076775",
+                "issue_url": "https://api.github.com/repos/OCA/connector-jira/issues/85",
+                "id": 1218076775,
+                "node_id": "IC_kwDOBKFkvs5ImmBn",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-17T14:20:28Z",
+                "updated_at": "2022-08-17T14:20:28Z",
+                "author_association": "NONE",
+                "body": "Where it is now? ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/OCA/connector-jira/issues/comments/1218076775/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-17T14:20:28Z",
+        "org": {
+            "id": 7600578,
+            "login": "OCA",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/OCA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7600578?"
+        }
+    },
+    {
+        "id": "23440135291",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10731385536,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1d7b205d639d5886add836f3921f1483afd2ea21",
+            "before": "b95c7301b2eaabfb9cd0e76861ca6416e0d4c304",
+            "commits": [
+                {
+                    "sha": "1d7b205d639d5886add836f3921f1483afd2ea21",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/1d7b205d639d5886add836f3921f1483afd2ea21"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:09:15Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23440124513",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Odoo PrestaShop Connector",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:08:43Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23440124389",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "Odoo PrestaShop Connector",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:08:42Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "25034274834",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 126682032,
+            "name": "zwave-js/node-zwave-js",
+            "url": "https://api.github.com/repos/zwave-js/node-zwave-js"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593",
+                "repository_url": "https://api.github.com/repos/zwave-js/node-zwave-js",
+                "labels_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/labels{/name}",
+                "comments_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/comments",
+                "events_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/events",
+                "html_url": "https://github.com/zwave-js/node-zwave-js/issues/3593",
+                "id": 1035203441,
+                "node_id": "I_kwDOB40DsM49s_Nx",
+                "number": 3593,
+                "title": "Air temperature doesn't refresh on Eurotronics Spirit radiator valves",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2021-10-25T14:22:39Z",
+                "updated_at": "2022-11-04T14:48:39Z",
+                "closed_at": "2021-11-03T17:33:22Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Is your problem within Home Assistant (Core or Z-Wave JS Integration)?\n\nNO, my problem is NOT within Home Assistant or the ZWave JS integration\n\n### Is your problem within ZWaveJS2MQTT?\n\nNO, my problem is NOT within ZWaveJS2MQTT\n\n### Checklist\n\n- [X] I have checked the [troubleshooting section](https://zwave-js.github.io/node-zwave-js/#/troubleshooting/index) and my problem is **not** described there.\n\n- [X] I have read the [changelog](https://github.com/zwave-js/node-zwave-js/blob/master/CHANGELOG.md) and my problem was **not** mentioned there.\n\n\n### Describe the bug\n\nWhat causes the bug?\r\nI use those devices since about 2 years and hadn\u2019t much troubles yet. About 6 month ago I did migrate from Open Z-Wave to Z-Wave JS (V0.1.45 currently) in combination with Z-Wave JS to MQTT.\r\nI\u2019m not quite sure if the problem exists since the migration, or if it is caused by an update.\r\n\r\nWhat do you observe?\r\nWhen I started to use my heating again I noticed that the air temperature wasn\u2019t accurate anymore. In fact my HA Z-Wave setup does not refresh those values anymore. When I go to to the Z-Wave JS to MQTT Dashboard I can manually refresh the values and they get accurate then.\r\nWhat did you expect to happen?\r\nThe sensor data should get updated regularly.\r\nSteps to reproduce the behavior:\r\n  1. Go to 'MQTT Z-Wave Dashboard'\r\n  2. Click on 'a Eurotronic Valve'\r\n  3. Scroll down to 'Multilevel Sensor' and refresh the Air Temperture\r\n  4. See that the value gets updated now.\r\n\n\n### Device information\n\nManufacturer: Eurotronics (Manufacturer ID: 0x0148)\r\nModel name: Spirit\r\nNode ID in your network:  7 (example dump)\n\n### How are you using `node-zwave-js`?\n\n- [X] `zwavejs2mqtt` Docker image (latest)\n- [ ] `zwavejs2mqtt` Docker image (dev)\n- [ ] `zwavejs2mqtt` Docker manually built _(please specify branches)_\n- [ ] `ioBroker.zwave2` adapter _(please specify version)_\n- [X] `HomeAssistant zwave_js` integration  _(please specify version)_\n- [ ] `pkg`\n- [ ] `node-red-contrib-zwave-js` _(please specify version, double click node to find out)_\n- [ ] Manually built from GitHub _(please specify branch)_\n- [ ] Other _(please describe)_\n\n### Which branches or versions?\n\nversion:\r\n`node-zwave-js` branch:  HA version: 0.1.45,  version 8.4.1\r\n`zwavejs2mqtt` branch: : HA 0.27.0  version 8.4.1\r\n\n\n### Did you change anything?\n\nno\n\n### If yes, what did you change?\n\n_No response_\n\n### Did this work before?\n\nYes (please describe)\n\n### If yes, where did it work?\n\nIt did work with Open Z-Wave beta, but I'm not sure if it did with Z-Wave JS in a previous version.\n\n### Attach Driver Logfile\n\n```\r\n{\r\n  \"id\": 7,\r\n  \"name\": \"Tstat Salon Entree\",\r\n  \"loc\": \"Salon\",\r\n  \"values\": [\r\n    {\r\n      \"id\": \"7-49-0-Air temperature\",\r\n      \"nodeId\": 7,\r\n      \"commandClass\": 49,\r\n      \"commandClassName\": \"Multilevel Sensor\",\r\n      \"endpoint\": 0,\r\n      \"property\": \"Air temperature\",\r\n      \"propertyName\": \"Air temperature\",\r\n      \"type\": \"number\",\r\n      \"readable\": true,\r\n      \"writeable\": false,\r\n      \"label\": \"Air temperature\",\r\n      \"ccSpecific\": {\r\n        \"sensorType\": 1,\r\n        \"scale\": 0\r\n      },\r\n      \"stateless\": false,\r\n      \"unit\": \"\u00b0C\",\r\n      \"list\": false,\r\n      \"value\": 21.58,\r\n      \"lastUpdate\": 1634825645858,\r\n      \"newValue\": 21.58\r\n    },\r\n  \r\n  \"productLabel\": \"Spirit\",\r\n  \"productDescription\": \"Thermostatic Valve\",\r\n  \"manufacturer\": \"Eurotronics\",\r\n  \"firmwareVersion\": \"0.15\",\r\n  \"protocolVersion\": 3,\r\n  \"zwavePlusVersion\": 1,\r\n  \"zwavePlusNodeType\": 0,\r\n  \"zwavePlusRoleType\": 7,\r\n  \"nodeType\": 1,\r\n  \"endpointsCount\": 0,\r\n  \"endpointIndizes\": [],\r\n  \"isSecure\": \"unknown\",\r\n  \"supportsSecurity\": false,\r\n  \"supportsBeaming\": true,\r\n  \"isControllerNode\": false,\r\n  \"isListening\": false,\r\n  \"isFrequentListening\": \"1000ms\",\r\n  \"isRouting\": true,\r\n  \"keepAwake\": false,\r\n  \"maxDataRate\": 100000,\r\n  \"deviceClass\": {\r\n    \"basic\": 4,\r\n    \"generic\": 8,\r\n    \"specific\": 6\r\n  },\r\n  \"deviceId\": \"328-1-3\",\r\n  \"status\": \"Alive\",\r\n  \"interviewStage\": \"NodeInfo\",\r\n  \"statistics\": {\r\n    \"commandsTX\": 95,\r\n    \"commandsRX\": 75,\r\n    \"commandsDroppedRX\": 0,\r\n    \"commandsDroppedTX\": 0,\r\n    \"timeoutResponse\": 0\r\n  },\r\n  \"lastActive\": 1634900408260,\r\n  \"batteryLevel\": 95,\r\n  \"_name\": \"Tstat Salon Entree (Salon)\"\r\n}\r\n```\r\nHere the log file plus some debug logs about node 7. It shows that the regular polling includes Air temp but does not update the value. But after a manual refresh it does it.\r\n[log_MQTT_21-07.txt](https://github.com/zwave-js/node-zwave-js/files/7411041/log_MQTT_21-07.txt)\r\n[zwavejs_2021-10-25.log](https://github.com/zwave-js/node-zwave-js/files/7411112/zwavejs_2021-10-25.log)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/comments/1303674931",
+                "html_url": "https://github.com/zwave-js/node-zwave-js/issues/3593#issuecomment-1303674931",
+                "issue_url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/3593",
+                "id": 1303674931,
+                "node_id": "IC_kwDOB40DsM5NtIAz",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-04T14:48:39Z",
+                "updated_at": "2022-11-04T14:48:39Z",
+                "author_association": "NONE",
+                "body": "No issues here with.\r\nzwave-js-ui: 8.2.2\r\nzwave-js: 10.3.0\r\nhome id:\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/zwave-js/node-zwave-js/issues/comments/1303674931/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-04T14:48:39Z",
+        "org": {
+            "id": 54627315,
+            "login": "zwave-js",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zwave-js",
+            "avatar_url": "https://avatars.githubusercontent.com/u/54627315?"
+        }
+    },
+    {
+        "id": "23845781414",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10940063525,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "049dd4d122f8d1bc493d9c8212683030aa93278e",
+            "before": "8a999a36d9647631b230d171a4a997d913d3711b",
+            "commits": [
+                {
+                    "sha": "049dd4d122f8d1bc493d9c8212683030aa93278e",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Add files via upload",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/049dd4d122f8d1bc493d9c8212683030aa93278e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-06T13:56:04Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23845721606",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10940034982,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8a999a36d9647631b230d171a4a997d913d3711b",
+            "before": "1d7b205d639d5886add836f3921f1483afd2ea21",
+            "commits": [
+                {
+                    "sha": "8a999a36d9647631b230d171a4a997d913d3711b",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/8a999a36d9647631b230d171a4a997d913d3711b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-06T13:53:45Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23485815882",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 77685950,
+            "name": "OCA/connector-jira",
+            "url": "https://api.github.com/repos/OCA/connector-jira"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/OCA/connector-jira/issues/85",
+                "repository_url": "https://api.github.com/repos/OCA/connector-jira",
+                "labels_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/labels{/name}",
+                "comments_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/comments",
+                "events_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/events",
+                "html_url": "https://github.com/OCA/connector-jira/issues/85",
+                "id": 1310485790,
+                "node_id": "I_kwDOBKFkvs5OHG0e",
+                "number": 85,
+                "title": "README installation instructions out of date for Jira 9.0+",
+                "user": {
+                    "login": "jchantrell",
+                    "id": 95152330,
+                    "node_id": "U_kgDOBavoyg",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/95152330?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/jchantrell",
+                    "html_url": "https://github.com/jchantrell",
+                    "followers_url": "https://api.github.com/users/jchantrell/followers",
+                    "following_url": "https://api.github.com/users/jchantrell/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/jchantrell/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/jchantrell/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/jchantrell/subscriptions",
+                    "organizations_url": "https://api.github.com/users/jchantrell/orgs",
+                    "repos_url": "https://api.github.com/users/jchantrell/repos",
+                    "events_url": "https://api.github.com/users/jchantrell/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/jchantrell/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-07-20T06:02:16Z",
+                "updated_at": "2022-08-17T14:20:28Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Systems > Applications > Application Links is no longer available within 9.0.x interface.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/OCA/connector-jira/issues/85/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/OCA/connector-jira/issues/85/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/OCA/connector-jira/issues/comments/1218076775",
+                "html_url": "https://github.com/OCA/connector-jira/issues/85#issuecomment-1218076775",
+                "issue_url": "https://api.github.com/repos/OCA/connector-jira/issues/85",
+                "id": 1218076775,
+                "node_id": "IC_kwDOBKFkvs5ImmBn",
+                "user": {
+                    "login": "lucode",
+                    "id": 2928740,
+                    "node_id": "MDQ6VXNlcjI5Mjg3NDA=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2928740?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/lucode",
+                    "html_url": "https://github.com/lucode",
+                    "followers_url": "https://api.github.com/users/lucode/followers",
+                    "following_url": "https://api.github.com/users/lucode/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/lucode/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/lucode/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/lucode/subscriptions",
+                    "organizations_url": "https://api.github.com/users/lucode/orgs",
+                    "repos_url": "https://api.github.com/users/lucode/repos",
+                    "events_url": "https://api.github.com/users/lucode/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/lucode/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-17T14:20:28Z",
+                "updated_at": "2022-08-17T14:20:28Z",
+                "author_association": "NONE",
+                "body": "Where it is now? ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/OCA/connector-jira/issues/comments/1218076775/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-17T14:20:28Z",
+        "org": {
+            "id": 7600578,
+            "login": "OCA",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/OCA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7600578?"
+        }
+    },
+    {
+        "id": "23440135291",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "push_id": 10731385536,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1d7b205d639d5886add836f3921f1483afd2ea21",
+            "before": "b95c7301b2eaabfb9cd0e76861ca6416e0d4c304",
+            "commits": [
+                {
+                    "sha": "1d7b205d639d5886add836f3921f1483afd2ea21",
+                    "author": {
+                        "email": "lucas.huber@org-it.ch",
+                        "name": "Lucas Huber"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/Houdinideck/connector-hrea/commits/1d7b205d639d5886add836f3921f1483afd2ea21"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:09:15Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23440124513",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Odoo PrestaShop Connector",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:08:43Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    },
+    {
+        "id": "23440124389",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2928740,
+            "login": "lucode",
+            "display_login": "lucode",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucode",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2928740?"
+        },
+        "repo": {
+            "id": 525011670,
+            "name": "Houdinideck/connector-hrea",
+            "url": "https://api.github.com/repos/Houdinideck/connector-hrea"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "Odoo PrestaShop Connector",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-08-15T14:08:42Z",
+        "org": {
+            "id": 88888633,
+            "login": "Houdinideck",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/Houdinideck",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88888633?"
+        }
+    }
+]

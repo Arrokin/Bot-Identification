@@ -1,0 +1,1253 @@
+[
+    {
+        "id": "23660672164",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 72477752,
+            "name": "pulumi/pulumi",
+            "url": "https://api.github.com/repos/pulumi/pulumi"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/pulumi/pulumi/issues/9958",
+                "repository_url": "https://api.github.com/repos/pulumi/pulumi",
+                "labels_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/labels{/name}",
+                "comments_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/comments",
+                "events_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/events",
+                "html_url": "https://github.com/pulumi/pulumi/issues/9958",
+                "id": 1283866726,
+                "node_id": "I_kwDOBFHsOM5MhkBm",
+                "number": 9958,
+                "title": "Support 'invoke' for dynamic providers",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 472686249,
+                        "node_id": "MDU6TGFiZWw0NzI2ODYyNDk=",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/kind/enhancement",
+                        "name": "kind/enhancement",
+                        "color": "bfd4f2",
+                        "default": false,
+                        "description": "Improvements or new features"
+                    },
+                    {
+                        "id": 2031700814,
+                        "node_id": "MDU6TGFiZWwyMDMxNzAwODE0",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/awaiting-feedback",
+                        "name": "awaiting-feedback",
+                        "color": "F9D0C4",
+                        "default": false,
+                        "description": "Blocked on input from the author"
+                    },
+                    {
+                        "id": 2704325964,
+                        "node_id": "MDU6TGFiZWwyNzA0MzI1OTY0",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/resolution/no-repro",
+                        "name": "resolution/no-repro",
+                        "color": "6096f2",
+                        "default": false,
+                        "description": "This issue wasn't able to be reproduced"
+                    },
+                    {
+                        "id": 3159933619,
+                        "node_id": "MDU6TGFiZWwzMTU5OTMzNjE5",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/awaiting-feedback-stale",
+                        "name": "awaiting-feedback-stale",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "Blocked on input from the author and hasn't been updated in 14 days"
+                    },
+                    {
+                        "id": 3409691308,
+                        "node_id": "LA_kwDOBFHsOM7LO8Ks",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/area/dynamic-providers",
+                        "name": "area/dynamic-providers",
+                        "color": "fbca04",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-06-24T15:10:48Z",
+                "updated_at": "2022-08-26T15:16:27Z",
+                "closed_at": "2022-07-11T13:27:26Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Hello!\r\n<!-- Please leave this section as-is, it's designed to help others in the community know how to interact with our GitHub issues. -->\r\n\r\n- Vote on this issue by adding a \ud83d\udc4d reaction\r\n- If you want to implement this feature, comment to let us know (we'll work with you on design, scheduling, etc.)\r\n\r\n## Issue details\r\n\r\n<!-- Enhancement requests are most helpful when they describe the problem you're having as well as articulating the potential solution you'd like to see built. -->\r\n\r\nI am looking to cross-reference already existing API resources from a pulumi dynamic provider resource instances. It would be nice to get the [invoke](https://github.com/pulumi/pulumi/pull/369) functionality available for dynamic providers.\r\n\r\n### Affected area/feature\r\n\r\n<!-- If you know the specific area where this feature request would go (e.g. Automation API, the Pulumi Service, the Terraform bridge, etc.), feel free to put that area here.  -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/pulumi/pulumi/issues/comments/1228623596",
+                "html_url": "https://github.com/pulumi/pulumi/issues/9958#issuecomment-1228623596",
+                "issue_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958",
+                "id": 1228623596,
+                "node_id": "IC_kwDOBFHsOM5JO07s",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-26T15:16:27Z",
+                "updated_at": "2022-08-26T15:16:27Z",
+                "author_association": "NONE",
+                "body": "@mikhailshilkov As a Pulumi rookie I was confused about the asymmetry of the dynamic providers and regular ones. As you say I could probably use a plain function. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/pulumi/pulumi/issues/comments/1228623596/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T15:16:27Z",
+        "org": {
+            "id": 21992475,
+            "login": "pulumi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pulumi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21992475?"
+        }
+    },
+    {
+        "id": "23612158276",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10819162982,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/npmjs/v0.5.0",
+            "head": "347fe12afb12158d774b6e503225e1921ce7b8bb",
+            "before": "e5f517f63c88d6eac71dfe8b4e2c789916fa8cf7",
+            "commits": [
+                {
+                    "sha": "347fe12afb12158d774b6e503225e1921ce7b8bb",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@4.8.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/347fe12afb12158d774b6e503225e1921ce7b8bb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T13:16:02Z"
+    },
+    {
+        "id": "23612117921",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10819143636,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "36089427328d5def7623f1aa09b2ccebecdbab7e",
+            "before": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+            "commits": [
+                {
+                    "sha": "36089427328d5def7623f1aa09b2ccebecdbab7e",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@4.8.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/36089427328d5def7623f1aa09b2ccebecdbab7e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T13:14:20Z"
+    },
+    {
+        "id": "23609417200",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10817801225,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+            "before": "3c0bce83a9f2bb2cd39c464d068189a02b055a59",
+            "commits": [
+                {
+                    "sha": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@3.17.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/aad3fc9d3b00284eb1222de1e9757faeb549d0bb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T11:05:07Z"
+    },
+    {
+        "id": "23603993081",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-24T06:30:07Z"
+    },
+    {
+        "id": "23313793340",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 220524743,
+            "name": "open-telemetry/opentelemetry-python-contrib",
+            "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218",
+                "repository_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib",
+                "labels_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/labels{/name}",
+                "comments_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/comments",
+                "events_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/events",
+                "html_url": "https://github.com/open-telemetry/opentelemetry-python-contrib/issues/1218",
+                "id": 1331672602,
+                "node_id": "I_kwDODSTwx85PX7Ya",
+                "number": 1218,
+                "title": "Some instrumentation are tagged as a `pre-release` which poses as barrier of entry",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1665884081,
+                        "node_id": "MDU6TGFiZWwxNjY1ODg0MDgx",
+                        "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-08T10:37:44Z",
+                "updated_at": "2022-08-08T10:37:44Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe your environment**\r\n\r\npython 3.9\r\npipenv\r\n\r\n**Steps to reproduce**\r\n\r\nWhen trying to use some of the instrumentation packages (e.g. opentelemetry-instrumentation-psycopg2) only a [pre-release](https://peps.python.org/pep-0440/#pre-releases) tagged versions are published. This imposes an entry barrier to any pipenv using project because pipenv doesn't allow for per-package pre-release versions which in turn complicates project setup and dependency management configurations.\r\n\r\n**What is the expected behavior?**\r\n\r\nA NON-pre-release tagged x.y.z versioned packages to be released to avoid hitting package manager related issues and therefore improving usability of the instrumentation packages (e.g. opentelemetry-instrumentation-psycopg2@0.33).\r\n\r\n**What is the actual behavior?**\r\n\r\nOnly a `x.y.zb0` pre-release packages are available (e.g. [opentelemetry-instrumentation-psycopg2@0.32b0](https://pypi.org/project/opentelemetry-instrumentation-psycopg2/0.32b0/)).\r\n\r\n**Additional context**\r\n\r\nI am aware this is a tooling issue and a [pipenv specific defficiency](https://github.com/pypa/pipenv/issues/1760) but in general I believe it may lower the barrier of entry as pipenv is used quite frequently.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-08T10:37:44Z",
+        "org": {
+            "id": 49998002,
+            "login": "open-telemetry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-telemetry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49998002?"
+        }
+    },
+    {
+        "id": "23660672164",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 72477752,
+            "name": "pulumi/pulumi",
+            "url": "https://api.github.com/repos/pulumi/pulumi"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/pulumi/pulumi/issues/9958",
+                "repository_url": "https://api.github.com/repos/pulumi/pulumi",
+                "labels_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/labels{/name}",
+                "comments_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/comments",
+                "events_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/events",
+                "html_url": "https://github.com/pulumi/pulumi/issues/9958",
+                "id": 1283866726,
+                "node_id": "I_kwDOBFHsOM5MhkBm",
+                "number": 9958,
+                "title": "Support 'invoke' for dynamic providers",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 472686249,
+                        "node_id": "MDU6TGFiZWw0NzI2ODYyNDk=",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/kind/enhancement",
+                        "name": "kind/enhancement",
+                        "color": "bfd4f2",
+                        "default": false,
+                        "description": "Improvements or new features"
+                    },
+                    {
+                        "id": 2031700814,
+                        "node_id": "MDU6TGFiZWwyMDMxNzAwODE0",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/awaiting-feedback",
+                        "name": "awaiting-feedback",
+                        "color": "F9D0C4",
+                        "default": false,
+                        "description": "Blocked on input from the author"
+                    },
+                    {
+                        "id": 2704325964,
+                        "node_id": "MDU6TGFiZWwyNzA0MzI1OTY0",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/resolution/no-repro",
+                        "name": "resolution/no-repro",
+                        "color": "6096f2",
+                        "default": false,
+                        "description": "This issue wasn't able to be reproduced"
+                    },
+                    {
+                        "id": 3159933619,
+                        "node_id": "MDU6TGFiZWwzMTU5OTMzNjE5",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/awaiting-feedback-stale",
+                        "name": "awaiting-feedback-stale",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "Blocked on input from the author and hasn't been updated in 14 days"
+                    },
+                    {
+                        "id": 3409691308,
+                        "node_id": "LA_kwDOBFHsOM7LO8Ks",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/area/dynamic-providers",
+                        "name": "area/dynamic-providers",
+                        "color": "fbca04",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-06-24T15:10:48Z",
+                "updated_at": "2022-08-26T15:16:27Z",
+                "closed_at": "2022-07-11T13:27:26Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Hello!\r\n<!-- Please leave this section as-is, it's designed to help others in the community know how to interact with our GitHub issues. -->\r\n\r\n- Vote on this issue by adding a \ud83d\udc4d reaction\r\n- If you want to implement this feature, comment to let us know (we'll work with you on design, scheduling, etc.)\r\n\r\n## Issue details\r\n\r\n<!-- Enhancement requests are most helpful when they describe the problem you're having as well as articulating the potential solution you'd like to see built. -->\r\n\r\nI am looking to cross-reference already existing API resources from a pulumi dynamic provider resource instances. It would be nice to get the [invoke](https://github.com/pulumi/pulumi/pull/369) functionality available for dynamic providers.\r\n\r\n### Affected area/feature\r\n\r\n<!-- If you know the specific area where this feature request would go (e.g. Automation API, the Pulumi Service, the Terraform bridge, etc.), feel free to put that area here.  -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/pulumi/pulumi/issues/comments/1228623596",
+                "html_url": "https://github.com/pulumi/pulumi/issues/9958#issuecomment-1228623596",
+                "issue_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958",
+                "id": 1228623596,
+                "node_id": "IC_kwDOBFHsOM5JO07s",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-26T15:16:27Z",
+                "updated_at": "2022-08-26T15:16:27Z",
+                "author_association": "NONE",
+                "body": "@mikhailshilkov As a Pulumi rookie I was confused about the asymmetry of the dynamic providers and regular ones. As you say I could probably use a plain function. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/pulumi/pulumi/issues/comments/1228623596/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T15:16:27Z",
+        "org": {
+            "id": 21992475,
+            "login": "pulumi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pulumi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21992475?"
+        }
+    },
+    {
+        "id": "23612158276",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10819162982,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/npmjs/v0.5.0",
+            "head": "347fe12afb12158d774b6e503225e1921ce7b8bb",
+            "before": "e5f517f63c88d6eac71dfe8b4e2c789916fa8cf7",
+            "commits": [
+                {
+                    "sha": "347fe12afb12158d774b6e503225e1921ce7b8bb",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@4.8.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/347fe12afb12158d774b6e503225e1921ce7b8bb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T13:16:02Z"
+    },
+    {
+        "id": "23612117921",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10819143636,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "36089427328d5def7623f1aa09b2ccebecdbab7e",
+            "before": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+            "commits": [
+                {
+                    "sha": "36089427328d5def7623f1aa09b2ccebecdbab7e",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@4.8.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/36089427328d5def7623f1aa09b2ccebecdbab7e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T13:14:20Z"
+    },
+    {
+        "id": "23609417200",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10817801225,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+            "before": "3c0bce83a9f2bb2cd39c464d068189a02b055a59",
+            "commits": [
+                {
+                    "sha": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@3.17.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/aad3fc9d3b00284eb1222de1e9757faeb549d0bb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T11:05:07Z"
+    },
+    {
+        "id": "23603993081",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-24T06:30:07Z"
+    },
+    {
+        "id": "23313793340",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 220524743,
+            "name": "open-telemetry/opentelemetry-python-contrib",
+            "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218",
+                "repository_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib",
+                "labels_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/labels{/name}",
+                "comments_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/comments",
+                "events_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/events",
+                "html_url": "https://github.com/open-telemetry/opentelemetry-python-contrib/issues/1218",
+                "id": 1331672602,
+                "node_id": "I_kwDODSTwx85PX7Ya",
+                "number": 1218,
+                "title": "Some instrumentation are tagged as a `pre-release` which poses as barrier of entry",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1665884081,
+                        "node_id": "MDU6TGFiZWwxNjY1ODg0MDgx",
+                        "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-08T10:37:44Z",
+                "updated_at": "2022-08-08T10:37:44Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe your environment**\r\n\r\npython 3.9\r\npipenv\r\n\r\n**Steps to reproduce**\r\n\r\nWhen trying to use some of the instrumentation packages (e.g. opentelemetry-instrumentation-psycopg2) only a [pre-release](https://peps.python.org/pep-0440/#pre-releases) tagged versions are published. This imposes an entry barrier to any pipenv using project because pipenv doesn't allow for per-package pre-release versions which in turn complicates project setup and dependency management configurations.\r\n\r\n**What is the expected behavior?**\r\n\r\nA NON-pre-release tagged x.y.z versioned packages to be released to avoid hitting package manager related issues and therefore improving usability of the instrumentation packages (e.g. opentelemetry-instrumentation-psycopg2@0.33).\r\n\r\n**What is the actual behavior?**\r\n\r\nOnly a `x.y.zb0` pre-release packages are available (e.g. [opentelemetry-instrumentation-psycopg2@0.32b0](https://pypi.org/project/opentelemetry-instrumentation-psycopg2/0.32b0/)).\r\n\r\n**Additional context**\r\n\r\nI am aware this is a tooling issue and a [pipenv specific defficiency](https://github.com/pypa/pipenv/issues/1760) but in general I believe it may lower the barrier of entry as pipenv is used quite frequently.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-08T10:37:44Z",
+        "org": {
+            "id": 49998002,
+            "login": "open-telemetry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-telemetry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49998002?"
+        }
+    },
+    {
+        "id": "23660672164",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 72477752,
+            "name": "pulumi/pulumi",
+            "url": "https://api.github.com/repos/pulumi/pulumi"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/pulumi/pulumi/issues/9958",
+                "repository_url": "https://api.github.com/repos/pulumi/pulumi",
+                "labels_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/labels{/name}",
+                "comments_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/comments",
+                "events_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/events",
+                "html_url": "https://github.com/pulumi/pulumi/issues/9958",
+                "id": 1283866726,
+                "node_id": "I_kwDOBFHsOM5MhkBm",
+                "number": 9958,
+                "title": "Support 'invoke' for dynamic providers",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 472686249,
+                        "node_id": "MDU6TGFiZWw0NzI2ODYyNDk=",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/kind/enhancement",
+                        "name": "kind/enhancement",
+                        "color": "bfd4f2",
+                        "default": false,
+                        "description": "Improvements or new features"
+                    },
+                    {
+                        "id": 2031700814,
+                        "node_id": "MDU6TGFiZWwyMDMxNzAwODE0",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/awaiting-feedback",
+                        "name": "awaiting-feedback",
+                        "color": "F9D0C4",
+                        "default": false,
+                        "description": "Blocked on input from the author"
+                    },
+                    {
+                        "id": 2704325964,
+                        "node_id": "MDU6TGFiZWwyNzA0MzI1OTY0",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/resolution/no-repro",
+                        "name": "resolution/no-repro",
+                        "color": "6096f2",
+                        "default": false,
+                        "description": "This issue wasn't able to be reproduced"
+                    },
+                    {
+                        "id": 3159933619,
+                        "node_id": "MDU6TGFiZWwzMTU5OTMzNjE5",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/awaiting-feedback-stale",
+                        "name": "awaiting-feedback-stale",
+                        "color": "f9d0c4",
+                        "default": false,
+                        "description": "Blocked on input from the author and hasn't been updated in 14 days"
+                    },
+                    {
+                        "id": 3409691308,
+                        "node_id": "LA_kwDOBFHsOM7LO8Ks",
+                        "url": "https://api.github.com/repos/pulumi/pulumi/labels/area/dynamic-providers",
+                        "name": "area/dynamic-providers",
+                        "color": "fbca04",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2022-06-24T15:10:48Z",
+                "updated_at": "2022-08-26T15:16:27Z",
+                "closed_at": "2022-07-11T13:27:26Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "## Hello!\r\n<!-- Please leave this section as-is, it's designed to help others in the community know how to interact with our GitHub issues. -->\r\n\r\n- Vote on this issue by adding a \ud83d\udc4d reaction\r\n- If you want to implement this feature, comment to let us know (we'll work with you on design, scheduling, etc.)\r\n\r\n## Issue details\r\n\r\n<!-- Enhancement requests are most helpful when they describe the problem you're having as well as articulating the potential solution you'd like to see built. -->\r\n\r\nI am looking to cross-reference already existing API resources from a pulumi dynamic provider resource instances. It would be nice to get the [invoke](https://github.com/pulumi/pulumi/pull/369) functionality available for dynamic providers.\r\n\r\n### Affected area/feature\r\n\r\n<!-- If you know the specific area where this feature request would go (e.g. Automation API, the Pulumi Service, the Terraform bridge, etc.), feel free to put that area here.  -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/pulumi/pulumi/issues/comments/1228623596",
+                "html_url": "https://github.com/pulumi/pulumi/issues/9958#issuecomment-1228623596",
+                "issue_url": "https://api.github.com/repos/pulumi/pulumi/issues/9958",
+                "id": 1228623596,
+                "node_id": "IC_kwDOBFHsOM5JO07s",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-08-26T15:16:27Z",
+                "updated_at": "2022-08-26T15:16:27Z",
+                "author_association": "NONE",
+                "body": "@mikhailshilkov As a Pulumi rookie I was confused about the asymmetry of the dynamic providers and regular ones. As you say I could probably use a plain function. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/pulumi/pulumi/issues/comments/1228623596/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-26T15:16:27Z",
+        "org": {
+            "id": 21992475,
+            "login": "pulumi",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pulumi",
+            "avatar_url": "https://avatars.githubusercontent.com/u/21992475?"
+        }
+    },
+    {
+        "id": "23612158276",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10819162982,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/npmjs/v0.5.0",
+            "head": "347fe12afb12158d774b6e503225e1921ce7b8bb",
+            "before": "e5f517f63c88d6eac71dfe8b4e2c789916fa8cf7",
+            "commits": [
+                {
+                    "sha": "347fe12afb12158d774b6e503225e1921ce7b8bb",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@4.8.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/347fe12afb12158d774b6e503225e1921ce7b8bb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T13:16:02Z"
+    },
+    {
+        "id": "23612117921",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10819143636,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "36089427328d5def7623f1aa09b2ccebecdbab7e",
+            "before": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+            "commits": [
+                {
+                    "sha": "36089427328d5def7623f1aa09b2ccebecdbab7e",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@4.8.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/36089427328d5def7623f1aa09b2ccebecdbab7e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T13:14:20Z"
+    },
+    {
+        "id": "23609417200",
+        "type": "PushEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "push_id": 10817801225,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+            "before": "3c0bce83a9f2bb2cd39c464d068189a02b055a59",
+            "commits": [
+                {
+                    "sha": "aad3fc9d3b00284eb1222de1e9757faeb549d0bb",
+                    "author": {
+                        "email": "opichals@gmail.com",
+                        "name": "Standa Opichal"
+                    },
+                    "message": "chore(package): upgrade to terser@3.17.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules/commits/aad3fc9d3b00284eb1222de1e9757faeb549d0bb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-24T11:05:07Z"
+    },
+    {
+        "id": "23603993081",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 148928264,
+            "name": "opichals/rollup-plugin-espruino-modules",
+            "url": "https://api.github.com/repos/opichals/rollup-plugin-espruino-modules"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-24T06:30:07Z"
+    },
+    {
+        "id": "23313793340",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 140211,
+            "login": "opichals",
+            "display_login": "opichals",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/opichals",
+            "avatar_url": "https://avatars.githubusercontent.com/u/140211?"
+        },
+        "repo": {
+            "id": 220524743,
+            "name": "open-telemetry/opentelemetry-python-contrib",
+            "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218",
+                "repository_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib",
+                "labels_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/labels{/name}",
+                "comments_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/comments",
+                "events_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/events",
+                "html_url": "https://github.com/open-telemetry/opentelemetry-python-contrib/issues/1218",
+                "id": 1331672602,
+                "node_id": "I_kwDODSTwx85PX7Ya",
+                "number": 1218,
+                "title": "Some instrumentation are tagged as a `pre-release` which poses as barrier of entry",
+                "user": {
+                    "login": "opichals",
+                    "id": 140211,
+                    "node_id": "MDQ6VXNlcjE0MDIxMQ==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/140211?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/opichals",
+                    "html_url": "https://github.com/opichals",
+                    "followers_url": "https://api.github.com/users/opichals/followers",
+                    "following_url": "https://api.github.com/users/opichals/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/opichals/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/opichals/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/opichals/subscriptions",
+                    "organizations_url": "https://api.github.com/users/opichals/orgs",
+                    "repos_url": "https://api.github.com/users/opichals/repos",
+                    "events_url": "https://api.github.com/users/opichals/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/opichals/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1665884081,
+                        "node_id": "MDU6TGFiZWwxNjY1ODg0MDgx",
+                        "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/labels/bug",
+                        "name": "bug",
+                        "color": "d73a4a",
+                        "default": true,
+                        "description": "Something isn't working"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-08-08T10:37:44Z",
+                "updated_at": "2022-08-08T10:37:44Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "**Describe your environment**\r\n\r\npython 3.9\r\npipenv\r\n\r\n**Steps to reproduce**\r\n\r\nWhen trying to use some of the instrumentation packages (e.g. opentelemetry-instrumentation-psycopg2) only a [pre-release](https://peps.python.org/pep-0440/#pre-releases) tagged versions are published. This imposes an entry barrier to any pipenv using project because pipenv doesn't allow for per-package pre-release versions which in turn complicates project setup and dependency management configurations.\r\n\r\n**What is the expected behavior?**\r\n\r\nA NON-pre-release tagged x.y.z versioned packages to be released to avoid hitting package manager related issues and therefore improving usability of the instrumentation packages (e.g. opentelemetry-instrumentation-psycopg2@0.33).\r\n\r\n**What is the actual behavior?**\r\n\r\nOnly a `x.y.zb0` pre-release packages are available (e.g. [opentelemetry-instrumentation-psycopg2@0.32b0](https://pypi.org/project/opentelemetry-instrumentation-psycopg2/0.32b0/)).\r\n\r\n**Additional context**\r\n\r\nI am aware this is a tooling issue and a [pipenv specific defficiency](https://github.com/pypa/pipenv/issues/1760) but in general I believe it may lower the barrier of entry as pipenv is used quite frequently.\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/open-telemetry/opentelemetry-python-contrib/issues/1218/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-08-08T10:37:44Z",
+        "org": {
+            "id": 49998002,
+            "login": "open-telemetry",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/open-telemetry",
+            "avatar_url": "https://avatars.githubusercontent.com/u/49998002?"
+        }
+    }
+]

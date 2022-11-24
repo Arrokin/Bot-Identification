@@ -1,0 +1,2156 @@
+[
+    {
+        "id": "24920791488",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 209155185,
+            "name": "aws-samples/aws-codepipeline-bitbucket-integration",
+            "url": "https://api.github.com/repos/aws-samples/aws-codepipeline-bitbucket-integration"
+        },
+        "payload": {
+            "forkee": {
+                "id": 559708377,
+                "node_id": "R_kgDOIVx42Q",
+                "name": "aws-codepipeline-bitbucket-integration",
+                "full_name": "mosen/aws-codepipeline-bitbucket-integration",
+                "private": false,
+                "owner": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration",
+                "description": "Integrates AWS CodePipeline with the Bitbucket Server",
+                "fork": true,
+                "url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration",
+                "forks_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/forks",
+                "keys_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/teams",
+                "hooks_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/hooks",
+                "issue_events_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/events",
+                "assignees_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/tags",
+                "blobs_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/languages",
+                "stargazers_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/stargazers",
+                "contributors_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/contributors",
+                "subscribers_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/subscribers",
+                "subscription_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/subscription",
+                "commits_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/merges",
+                "archive_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/downloads",
+                "issues_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/labels{/name}",
+                "releases_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/deployments",
+                "created_at": "2022-10-30T23:10:17Z",
+                "updated_at": "2022-07-14T20:31:34Z",
+                "pushed_at": "2022-01-14T17:51:16Z",
+                "git_url": "git://github.com/mosen/aws-codepipeline-bitbucket-integration.git",
+                "ssh_url": "git@github.com:mosen/aws-codepipeline-bitbucket-integration.git",
+                "clone_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration.git",
+                "svn_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration",
+                "homepage": null,
+                "size": 107,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "mit",
+                    "name": "MIT License",
+                    "spdx_id": "MIT",
+                    "url": "https://api.github.com/licenses/mit",
+                    "node_id": "MDc6TGljZW5zZTEz"
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "master",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-30T23:10:18Z",
+        "org": {
+            "id": 8931462,
+            "login": "aws-samples",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/aws-samples",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8931462?"
+        }
+    },
+    {
+        "id": "24657050216",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 395783889,
+            "name": "Wooty-B/LX2K_Guide",
+            "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4",
+                "repository_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide",
+                "labels_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/comments",
+                "events_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/events",
+                "html_url": "https://github.com/Wooty-B/LX2K_Guide/issues/4",
+                "id": 1065306344,
+                "node_id": "I_kwDOF5cu0c4_f0jo",
+                "number": 4,
+                "title": "Fedora 35 armhf chroot guide",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2021-11-28T11:28:34Z",
+                "updated_at": "2022-10-18T01:14:08Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi @Wooty-B,\r\nI'm running Fedora 35 per your guide on the LX2K, and I noticed that you are running box86 in an armhf chrooted environment.\r\nI wondered if you had that on your radar?\r\n\r\nIf not, I will document my steps and PR the guide.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/comments/1281684505",
+                "html_url": "https://github.com/Wooty-B/LX2K_Guide/issues/4#issuecomment-1281684505",
+                "issue_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4",
+                "id": 1281684505,
+                "node_id": "IC_kwDOF5cu0c5MZPQZ",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-18T01:14:08Z",
+                "updated_at": "2022-10-18T01:14:08Z",
+                "author_association": "NONE",
+                "body": "I'm still running fedora on LX2K but I haven't revisited this at all lately. Although thanks for reminding me",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/comments/1281684505/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-18T01:14:10Z"
+    },
+    {
+        "id": "24552267223",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 220517730,
+            "name": "quay/quay",
+            "url": "https://api.github.com/repos/quay/quay"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/quay/quay/issues/473",
+                "repository_url": "https://api.github.com/repos/quay/quay",
+                "labels_url": "https://api.github.com/repos/quay/quay/issues/473/labels{/name}",
+                "comments_url": "https://api.github.com/repos/quay/quay/issues/473/comments",
+                "events_url": "https://api.github.com/repos/quay/quay/issues/473/events",
+                "html_url": "https://github.com/quay/quay/pull/473",
+                "id": 655144559,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0NDQ3NzI2Mjgz",
+                "number": 473,
+                "title": "openshift oauth (PROJQUAY-673)",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 3643498031,
+                        "node_id": "LA_kwDODSTVYs7ZK14v",
+                        "url": "https://api.github.com/repos/quay/quay/labels/needs-rebase",
+                        "name": "needs-rebase",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2020-07-11T06:09:59Z",
+                "updated_at": "2022-10-12T13:28:25Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/quay/quay/pulls/473",
+                    "html_url": "https://github.com/quay/quay/pull/473",
+                    "diff_url": "https://github.com/quay/quay/pull/473.diff",
+                    "patch_url": "https://github.com/quay/quay/pull/473.patch",
+                    "merged_at": null
+                },
+                "body": "### Description of Changes\r\n\r\nThis change adds features and configuration for integrating with the OpenShift 3.x/4.x integrated OAuth service.\r\n\r\nWhen using the config app, the administrator is presented with the option to configure Integrated OAuth, such that logging into the OpenShift console confers access to Project Quay.\r\n\r\nThe functionality will not impact Project Quay permissions at this time. The user is authenticated to Quay but there will be no further provisioning. This is regarded as beyond the scope of this change.\r\n\r\nAs OpenShift does not store e-mail addresses. This functionality will not work if the `MAILING` feature is enabled.\r\n\r\nThe end user motivation for the change: To provide a seamless experience when deploying Project Quay into an OpenShift v3/v4 cluster so that no further configuration of Authentication is required, unless there is a requirement to separate Project Quay from the operation of the cluster.\r\n\r\nThe current behaviour: When deploying Project Quay into an OpenShift cluster, none of the available authentication methods support integration with the OpenShift RBAC/console identity. It is up to the user to establish an LDAP or OIDC connection via an external IdP which matches their OpenShift identity.\r\n\r\n#### Changes:\r\n\r\n* Adds Configuration Feature flag and Configuration Variable, similar to Google, Gitlab etc OIDC configuration parameters.\r\n* Validates configuration (except optional items, like running out-of-cluster).\r\n* Adds a section to the config app underneath the GitHub OIDC provider settings which has placeholder variables suggesting the recommended values.\r\n* Added a markdown document describing the operation of the OAuth provider if you would like to split that out to another repo.\r\n* Retrieves user information from the OpenShift users API (no e-mail available here).    \r\n\r\n#### Issue: [PROJQUAY-673](https://issues.redhat.com/browse/PROJQUAY-673)\r\n\r\n**TESTING** ->\r\n\r\nManually validated against OpenShift 4.4.10\r\nWe could possibly look at a pytest-docker which brings up the openshift-oauth proxy as a standalone container in the CI if that was required.\r\n\r\n**BREAKING CHANGE** ->\r\n\r\nNew functionality, only modifications made are to the config schema.\r\n\r\n---\r\n\r\n## Reviewer Checklist\r\n\r\n- [ ] It works!\r\n- [ ] Comments provide sufficient explanations for the next contributor\r\n- [ ] Tests cover changes and corner cases\r\n- [ ] Follows Quay syntax patterns and format\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/quay/quay/issues/473/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/quay/quay/issues/473/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/quay/quay/issues/comments/1276175574",
+                "html_url": "https://github.com/quay/quay/pull/473#issuecomment-1276175574",
+                "issue_url": "https://api.github.com/repos/quay/quay/issues/473",
+                "id": 1276175574,
+                "node_id": "IC_kwDODSTVYs5MEOTW",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-12T13:28:25Z",
+                "updated_at": "2022-10-12T13:28:25Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "I'd probably be happy to rebase again. I'm kinda worried about dumping code on the core team and then they have to support it but there's nothing super magical included. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/quay/quay/issues/comments/1276175574/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-12T13:28:25Z",
+        "org": {
+            "id": 38353654,
+            "login": "quay",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/quay",
+            "avatar_url": "https://avatars.githubusercontent.com/u/38353654?"
+        }
+    },
+    {
+        "id": "24247527168",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 81503368,
+            "name": "mosen/munkireport-php",
+            "url": "https://api.github.com/repos/mosen/munkireport-php"
+        },
+        "payload": {
+            "ref": "v6.0.0-release-test01",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "A reporting tool for munki",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-27T11:50:36Z"
+    },
+    {
+        "id": "24247526576",
+        "type": "PushEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 81503368,
+            "name": "mosen/munkireport-php",
+            "url": "https://api.github.com/repos/mosen/munkireport-php"
+        },
+        "payload": {
+            "push_id": 11149139944,
+            "size": 20,
+            "distinct_size": 20,
+            "ref": "refs/heads/wip",
+            "head": "496874efc667aee64e9e150c197ca9d166d73be9",
+            "before": "bba2fed0e2e7c234502e3303ad7ec9716d05483d",
+            "commits": [
+                {
+                    "sha": "7cab50a99631c35ef31ee1091a8d9a57592e5095",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "mosen"
+                    },
+                    "message": "Merge pull request #1462 from mosen/wip\n\nMake github action release name the same as the manual process.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/7cab50a99631c35ef31ee1091a8d9a57592e5095"
+                },
+                {
+                    "sha": "198cd2fbe6b617e044218e35dcd0db93e06e770d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Remove python3 detection from install script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/198cd2fbe6b617e044218e35dcd0db93e06e770d"
+                },
+                {
+                    "sha": "22d936cdb23ee1dd95dc53089eb52c2be1b57e7d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update python3 hashbang",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/22d936cdb23ee1dd95dc53089eb52c2be1b57e7d"
+                },
+                {
+                    "sha": "adf70b853aa5b94595a6e9816a3f16b6e234c3f5",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Build wip image on push",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/adf70b853aa5b94595a6e9816a3f16b6e234c3f5"
+                },
+                {
+                    "sha": "b6e13dc345cb76f8fb5e7cb5d923daef294a57ed",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Fix yaml",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/b6e13dc345cb76f8fb5e7cb5d923daef294a57ed"
+                },
+                {
+                    "sha": "d9266095273b3c522939342193fab9a01a906442",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Use py3 for ard and bluetooth",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/d9266095273b3c522939342193fab9a01a906442"
+                },
+                {
+                    "sha": "5d9915a7399fb3b4e27ced39e48cc630c7f38c66",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update disk_report to py3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5d9915a7399fb3b4e27ced39e48cc630c7f38c66"
+                },
+                {
+                    "sha": "776a448c01cd160672eca582520c4bb9508e5a14",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update modules to py3\nmanagedinstalls, munkiinfo, network, security",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/776a448c01cd160672eca582520c4bb9508e5a14"
+                },
+                {
+                    "sha": "7fe7efbf7f4c3f03d7a84f9b688079201acd7817",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update model_lookup_helper path",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/7fe7efbf7f4c3f03d7a84f9b688079201acd7817"
+                },
+                {
+                    "sha": "51d4afa6defe13e47a548b69cdd8b058f62883c3",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update munkireport module to py3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/51d4afa6defe13e47a548b69cdd8b058f62883c3"
+                },
+                {
+                    "sha": "0186623c3ec83f118806164ea0a20f8accfe8613",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Skip wip builder",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/0186623c3ec83f118806164ea0a20f8accfe8613"
+                },
+                {
+                    "sha": "1af09d4aab25bd487866b1232a63c32ca31238b1",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update composer",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/1af09d4aab25bd487866b1232a63c32ca31238b1"
+                },
+                {
+                    "sha": "5d3fedbd1893e2b5beaf51759b6ae67d5f55aa10",
+                    "author": {
+                        "email": "arjen.vanbochoven@wetransfer.com",
+                        "name": "Arjen van Bochoven"
+                    },
+                    "message": "Update logging.php",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5d3fedbd1893e2b5beaf51759b6ae67d5f55aa10"
+                },
+                {
+                    "sha": "a9d32ef50b2faba16db360a3da6275b5bcb8c4b4",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Remove the firewall package",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/a9d32ef50b2faba16db360a3da6275b5bcb8c4b4"
+                },
+                {
+                    "sha": "f086e7559e828a946e510b548ef0144fd85c44f3",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Add note about firewall removal",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/f086e7559e828a946e510b548ef0144fd85c44f3"
+                },
+                {
+                    "sha": "5b9b95fb09532b993300e7f94f24e8cb97ce578d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Removing network module\nTo get rid if the migration error that\n2022_04_10_000001_network_fix_vlans causes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5b9b95fb09532b993300e7f94f24e8cb97ce578d"
+                },
+                {
+                    "sha": "e6b924e6ed7195e3290c9750aed67ab34c7672d3",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Make zip file naming and release notes more similar to the manual process",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/e6b924e6ed7195e3290c9750aed67ab34c7672d3"
+                },
+                {
+                    "sha": "89d7320a3bcf67b61a643ff41a6a89d12612cd51",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Merge branch 'wip' of https://github.com/munkireport/munkireport-php into wip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/89d7320a3bcf67b61a643ff41a6a89d12612cd51"
+                },
+                {
+                    "sha": "f1d0a1d0eeb3be86e7b4242e6b3cca00242fba79",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Laravel 9 - base package updates",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/f1d0a1d0eeb3be86e7b4242e6b3cca00242fba79"
+                },
+                {
+                    "sha": "496874efc667aee64e9e150c197ca9d166d73be9",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Reconcile some differences from Laravel 9 app skeleton to current munkireport-php\nUpdate dependencies incrementally",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/496874efc667aee64e9e150c197ca9d166d73be9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T11:50:34Z"
+    },
+    {
+        "id": "24137396979",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 539477028,
+            "name": "mosen/pulumi-illumio-native",
+            "url": "https://api.github.com/repos/mosen/pulumi-illumio-native"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Pulumi provider for Illumio",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-21T12:28:08Z"
+    },
+    {
+        "id": "24137396154",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 539477028,
+            "name": "mosen/pulumi-illumio-native",
+            "url": "https://api.github.com/repos/mosen/pulumi-illumio-native"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "Pulumi provider for Illumio",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-21T12:28:06Z"
+    },
+    {
+        "id": "24920791488",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 209155185,
+            "name": "aws-samples/aws-codepipeline-bitbucket-integration",
+            "url": "https://api.github.com/repos/aws-samples/aws-codepipeline-bitbucket-integration"
+        },
+        "payload": {
+            "forkee": {
+                "id": 559708377,
+                "node_id": "R_kgDOIVx42Q",
+                "name": "aws-codepipeline-bitbucket-integration",
+                "full_name": "mosen/aws-codepipeline-bitbucket-integration",
+                "private": false,
+                "owner": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration",
+                "description": "Integrates AWS CodePipeline with the Bitbucket Server",
+                "fork": true,
+                "url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration",
+                "forks_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/forks",
+                "keys_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/teams",
+                "hooks_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/hooks",
+                "issue_events_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/events",
+                "assignees_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/tags",
+                "blobs_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/languages",
+                "stargazers_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/stargazers",
+                "contributors_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/contributors",
+                "subscribers_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/subscribers",
+                "subscription_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/subscription",
+                "commits_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/merges",
+                "archive_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/downloads",
+                "issues_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/labels{/name}",
+                "releases_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/deployments",
+                "created_at": "2022-10-30T23:10:17Z",
+                "updated_at": "2022-07-14T20:31:34Z",
+                "pushed_at": "2022-01-14T17:51:16Z",
+                "git_url": "git://github.com/mosen/aws-codepipeline-bitbucket-integration.git",
+                "ssh_url": "git@github.com:mosen/aws-codepipeline-bitbucket-integration.git",
+                "clone_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration.git",
+                "svn_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration",
+                "homepage": null,
+                "size": 107,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "mit",
+                    "name": "MIT License",
+                    "spdx_id": "MIT",
+                    "url": "https://api.github.com/licenses/mit",
+                    "node_id": "MDc6TGljZW5zZTEz"
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "master",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-30T23:10:18Z",
+        "org": {
+            "id": 8931462,
+            "login": "aws-samples",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/aws-samples",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8931462?"
+        }
+    },
+    {
+        "id": "24657050216",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 395783889,
+            "name": "Wooty-B/LX2K_Guide",
+            "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4",
+                "repository_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide",
+                "labels_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/comments",
+                "events_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/events",
+                "html_url": "https://github.com/Wooty-B/LX2K_Guide/issues/4",
+                "id": 1065306344,
+                "node_id": "I_kwDOF5cu0c4_f0jo",
+                "number": 4,
+                "title": "Fedora 35 armhf chroot guide",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2021-11-28T11:28:34Z",
+                "updated_at": "2022-10-18T01:14:08Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi @Wooty-B,\r\nI'm running Fedora 35 per your guide on the LX2K, and I noticed that you are running box86 in an armhf chrooted environment.\r\nI wondered if you had that on your radar?\r\n\r\nIf not, I will document my steps and PR the guide.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/comments/1281684505",
+                "html_url": "https://github.com/Wooty-B/LX2K_Guide/issues/4#issuecomment-1281684505",
+                "issue_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4",
+                "id": 1281684505,
+                "node_id": "IC_kwDOF5cu0c5MZPQZ",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-18T01:14:08Z",
+                "updated_at": "2022-10-18T01:14:08Z",
+                "author_association": "NONE",
+                "body": "I'm still running fedora on LX2K but I haven't revisited this at all lately. Although thanks for reminding me",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/comments/1281684505/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-18T01:14:10Z"
+    },
+    {
+        "id": "24552267223",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 220517730,
+            "name": "quay/quay",
+            "url": "https://api.github.com/repos/quay/quay"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/quay/quay/issues/473",
+                "repository_url": "https://api.github.com/repos/quay/quay",
+                "labels_url": "https://api.github.com/repos/quay/quay/issues/473/labels{/name}",
+                "comments_url": "https://api.github.com/repos/quay/quay/issues/473/comments",
+                "events_url": "https://api.github.com/repos/quay/quay/issues/473/events",
+                "html_url": "https://github.com/quay/quay/pull/473",
+                "id": 655144559,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0NDQ3NzI2Mjgz",
+                "number": 473,
+                "title": "openshift oauth (PROJQUAY-673)",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 3643498031,
+                        "node_id": "LA_kwDODSTVYs7ZK14v",
+                        "url": "https://api.github.com/repos/quay/quay/labels/needs-rebase",
+                        "name": "needs-rebase",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2020-07-11T06:09:59Z",
+                "updated_at": "2022-10-12T13:28:25Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/quay/quay/pulls/473",
+                    "html_url": "https://github.com/quay/quay/pull/473",
+                    "diff_url": "https://github.com/quay/quay/pull/473.diff",
+                    "patch_url": "https://github.com/quay/quay/pull/473.patch",
+                    "merged_at": null
+                },
+                "body": "### Description of Changes\r\n\r\nThis change adds features and configuration for integrating with the OpenShift 3.x/4.x integrated OAuth service.\r\n\r\nWhen using the config app, the administrator is presented with the option to configure Integrated OAuth, such that logging into the OpenShift console confers access to Project Quay.\r\n\r\nThe functionality will not impact Project Quay permissions at this time. The user is authenticated to Quay but there will be no further provisioning. This is regarded as beyond the scope of this change.\r\n\r\nAs OpenShift does not store e-mail addresses. This functionality will not work if the `MAILING` feature is enabled.\r\n\r\nThe end user motivation for the change: To provide a seamless experience when deploying Project Quay into an OpenShift v3/v4 cluster so that no further configuration of Authentication is required, unless there is a requirement to separate Project Quay from the operation of the cluster.\r\n\r\nThe current behaviour: When deploying Project Quay into an OpenShift cluster, none of the available authentication methods support integration with the OpenShift RBAC/console identity. It is up to the user to establish an LDAP or OIDC connection via an external IdP which matches their OpenShift identity.\r\n\r\n#### Changes:\r\n\r\n* Adds Configuration Feature flag and Configuration Variable, similar to Google, Gitlab etc OIDC configuration parameters.\r\n* Validates configuration (except optional items, like running out-of-cluster).\r\n* Adds a section to the config app underneath the GitHub OIDC provider settings which has placeholder variables suggesting the recommended values.\r\n* Added a markdown document describing the operation of the OAuth provider if you would like to split that out to another repo.\r\n* Retrieves user information from the OpenShift users API (no e-mail available here).    \r\n\r\n#### Issue: [PROJQUAY-673](https://issues.redhat.com/browse/PROJQUAY-673)\r\n\r\n**TESTING** ->\r\n\r\nManually validated against OpenShift 4.4.10\r\nWe could possibly look at a pytest-docker which brings up the openshift-oauth proxy as a standalone container in the CI if that was required.\r\n\r\n**BREAKING CHANGE** ->\r\n\r\nNew functionality, only modifications made are to the config schema.\r\n\r\n---\r\n\r\n## Reviewer Checklist\r\n\r\n- [ ] It works!\r\n- [ ] Comments provide sufficient explanations for the next contributor\r\n- [ ] Tests cover changes and corner cases\r\n- [ ] Follows Quay syntax patterns and format\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/quay/quay/issues/473/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/quay/quay/issues/473/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/quay/quay/issues/comments/1276175574",
+                "html_url": "https://github.com/quay/quay/pull/473#issuecomment-1276175574",
+                "issue_url": "https://api.github.com/repos/quay/quay/issues/473",
+                "id": 1276175574,
+                "node_id": "IC_kwDODSTVYs5MEOTW",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-12T13:28:25Z",
+                "updated_at": "2022-10-12T13:28:25Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "I'd probably be happy to rebase again. I'm kinda worried about dumping code on the core team and then they have to support it but there's nothing super magical included. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/quay/quay/issues/comments/1276175574/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-12T13:28:25Z",
+        "org": {
+            "id": 38353654,
+            "login": "quay",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/quay",
+            "avatar_url": "https://avatars.githubusercontent.com/u/38353654?"
+        }
+    },
+    {
+        "id": "24247527168",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 81503368,
+            "name": "mosen/munkireport-php",
+            "url": "https://api.github.com/repos/mosen/munkireport-php"
+        },
+        "payload": {
+            "ref": "v6.0.0-release-test01",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "A reporting tool for munki",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-27T11:50:36Z"
+    },
+    {
+        "id": "24247526576",
+        "type": "PushEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 81503368,
+            "name": "mosen/munkireport-php",
+            "url": "https://api.github.com/repos/mosen/munkireport-php"
+        },
+        "payload": {
+            "push_id": 11149139944,
+            "size": 20,
+            "distinct_size": 20,
+            "ref": "refs/heads/wip",
+            "head": "496874efc667aee64e9e150c197ca9d166d73be9",
+            "before": "bba2fed0e2e7c234502e3303ad7ec9716d05483d",
+            "commits": [
+                {
+                    "sha": "7cab50a99631c35ef31ee1091a8d9a57592e5095",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "mosen"
+                    },
+                    "message": "Merge pull request #1462 from mosen/wip\n\nMake github action release name the same as the manual process.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/7cab50a99631c35ef31ee1091a8d9a57592e5095"
+                },
+                {
+                    "sha": "198cd2fbe6b617e044218e35dcd0db93e06e770d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Remove python3 detection from install script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/198cd2fbe6b617e044218e35dcd0db93e06e770d"
+                },
+                {
+                    "sha": "22d936cdb23ee1dd95dc53089eb52c2be1b57e7d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update python3 hashbang",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/22d936cdb23ee1dd95dc53089eb52c2be1b57e7d"
+                },
+                {
+                    "sha": "adf70b853aa5b94595a6e9816a3f16b6e234c3f5",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Build wip image on push",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/adf70b853aa5b94595a6e9816a3f16b6e234c3f5"
+                },
+                {
+                    "sha": "b6e13dc345cb76f8fb5e7cb5d923daef294a57ed",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Fix yaml",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/b6e13dc345cb76f8fb5e7cb5d923daef294a57ed"
+                },
+                {
+                    "sha": "d9266095273b3c522939342193fab9a01a906442",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Use py3 for ard and bluetooth",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/d9266095273b3c522939342193fab9a01a906442"
+                },
+                {
+                    "sha": "5d9915a7399fb3b4e27ced39e48cc630c7f38c66",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update disk_report to py3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5d9915a7399fb3b4e27ced39e48cc630c7f38c66"
+                },
+                {
+                    "sha": "776a448c01cd160672eca582520c4bb9508e5a14",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update modules to py3\nmanagedinstalls, munkiinfo, network, security",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/776a448c01cd160672eca582520c4bb9508e5a14"
+                },
+                {
+                    "sha": "7fe7efbf7f4c3f03d7a84f9b688079201acd7817",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update model_lookup_helper path",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/7fe7efbf7f4c3f03d7a84f9b688079201acd7817"
+                },
+                {
+                    "sha": "51d4afa6defe13e47a548b69cdd8b058f62883c3",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update munkireport module to py3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/51d4afa6defe13e47a548b69cdd8b058f62883c3"
+                },
+                {
+                    "sha": "0186623c3ec83f118806164ea0a20f8accfe8613",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Skip wip builder",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/0186623c3ec83f118806164ea0a20f8accfe8613"
+                },
+                {
+                    "sha": "1af09d4aab25bd487866b1232a63c32ca31238b1",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update composer",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/1af09d4aab25bd487866b1232a63c32ca31238b1"
+                },
+                {
+                    "sha": "5d3fedbd1893e2b5beaf51759b6ae67d5f55aa10",
+                    "author": {
+                        "email": "arjen.vanbochoven@wetransfer.com",
+                        "name": "Arjen van Bochoven"
+                    },
+                    "message": "Update logging.php",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5d3fedbd1893e2b5beaf51759b6ae67d5f55aa10"
+                },
+                {
+                    "sha": "a9d32ef50b2faba16db360a3da6275b5bcb8c4b4",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Remove the firewall package",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/a9d32ef50b2faba16db360a3da6275b5bcb8c4b4"
+                },
+                {
+                    "sha": "f086e7559e828a946e510b548ef0144fd85c44f3",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Add note about firewall removal",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/f086e7559e828a946e510b548ef0144fd85c44f3"
+                },
+                {
+                    "sha": "5b9b95fb09532b993300e7f94f24e8cb97ce578d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Removing network module\nTo get rid if the migration error that\n2022_04_10_000001_network_fix_vlans causes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5b9b95fb09532b993300e7f94f24e8cb97ce578d"
+                },
+                {
+                    "sha": "e6b924e6ed7195e3290c9750aed67ab34c7672d3",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Make zip file naming and release notes more similar to the manual process",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/e6b924e6ed7195e3290c9750aed67ab34c7672d3"
+                },
+                {
+                    "sha": "89d7320a3bcf67b61a643ff41a6a89d12612cd51",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Merge branch 'wip' of https://github.com/munkireport/munkireport-php into wip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/89d7320a3bcf67b61a643ff41a6a89d12612cd51"
+                },
+                {
+                    "sha": "f1d0a1d0eeb3be86e7b4242e6b3cca00242fba79",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Laravel 9 - base package updates",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/f1d0a1d0eeb3be86e7b4242e6b3cca00242fba79"
+                },
+                {
+                    "sha": "496874efc667aee64e9e150c197ca9d166d73be9",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Reconcile some differences from Laravel 9 app skeleton to current munkireport-php\nUpdate dependencies incrementally",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/496874efc667aee64e9e150c197ca9d166d73be9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T11:50:34Z"
+    },
+    {
+        "id": "24137396979",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 539477028,
+            "name": "mosen/pulumi-illumio-native",
+            "url": "https://api.github.com/repos/mosen/pulumi-illumio-native"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Pulumi provider for Illumio",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-21T12:28:08Z"
+    },
+    {
+        "id": "24137396154",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 539477028,
+            "name": "mosen/pulumi-illumio-native",
+            "url": "https://api.github.com/repos/mosen/pulumi-illumio-native"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "Pulumi provider for Illumio",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-21T12:28:06Z"
+    },
+    {
+        "id": "24920791488",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 209155185,
+            "name": "aws-samples/aws-codepipeline-bitbucket-integration",
+            "url": "https://api.github.com/repos/aws-samples/aws-codepipeline-bitbucket-integration"
+        },
+        "payload": {
+            "forkee": {
+                "id": 559708377,
+                "node_id": "R_kgDOIVx42Q",
+                "name": "aws-codepipeline-bitbucket-integration",
+                "full_name": "mosen/aws-codepipeline-bitbucket-integration",
+                "private": false,
+                "owner": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration",
+                "description": "Integrates AWS CodePipeline with the Bitbucket Server",
+                "fork": true,
+                "url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration",
+                "forks_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/forks",
+                "keys_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/teams",
+                "hooks_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/hooks",
+                "issue_events_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/events",
+                "assignees_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/tags",
+                "blobs_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/languages",
+                "stargazers_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/stargazers",
+                "contributors_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/contributors",
+                "subscribers_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/subscribers",
+                "subscription_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/subscription",
+                "commits_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/merges",
+                "archive_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/downloads",
+                "issues_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/labels{/name}",
+                "releases_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/mosen/aws-codepipeline-bitbucket-integration/deployments",
+                "created_at": "2022-10-30T23:10:17Z",
+                "updated_at": "2022-07-14T20:31:34Z",
+                "pushed_at": "2022-01-14T17:51:16Z",
+                "git_url": "git://github.com/mosen/aws-codepipeline-bitbucket-integration.git",
+                "ssh_url": "git@github.com:mosen/aws-codepipeline-bitbucket-integration.git",
+                "clone_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration.git",
+                "svn_url": "https://github.com/mosen/aws-codepipeline-bitbucket-integration",
+                "homepage": null,
+                "size": 107,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": false,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "mit",
+                    "name": "MIT License",
+                    "spdx_id": "MIT",
+                    "url": "https://api.github.com/licenses/mit",
+                    "node_id": "MDc6TGljZW5zZTEz"
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "master",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-30T23:10:18Z",
+        "org": {
+            "id": 8931462,
+            "login": "aws-samples",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/aws-samples",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8931462?"
+        }
+    },
+    {
+        "id": "24657050216",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 395783889,
+            "name": "Wooty-B/LX2K_Guide",
+            "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4",
+                "repository_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide",
+                "labels_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/comments",
+                "events_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/events",
+                "html_url": "https://github.com/Wooty-B/LX2K_Guide/issues/4",
+                "id": 1065306344,
+                "node_id": "I_kwDOF5cu0c4_f0jo",
+                "number": 4,
+                "title": "Fedora 35 armhf chroot guide",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 3,
+                "created_at": "2021-11-28T11:28:34Z",
+                "updated_at": "2022-10-18T01:14:08Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi @Wooty-B,\r\nI'm running Fedora 35 per your guide on the LX2K, and I noticed that you are running box86 in an armhf chrooted environment.\r\nI wondered if you had that on your radar?\r\n\r\nIf not, I will document my steps and PR the guide.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/comments/1281684505",
+                "html_url": "https://github.com/Wooty-B/LX2K_Guide/issues/4#issuecomment-1281684505",
+                "issue_url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/4",
+                "id": 1281684505,
+                "node_id": "IC_kwDOF5cu0c5MZPQZ",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-18T01:14:08Z",
+                "updated_at": "2022-10-18T01:14:08Z",
+                "author_association": "NONE",
+                "body": "I'm still running fedora on LX2K but I haven't revisited this at all lately. Although thanks for reminding me",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Wooty-B/LX2K_Guide/issues/comments/1281684505/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-18T01:14:10Z"
+    },
+    {
+        "id": "24552267223",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 220517730,
+            "name": "quay/quay",
+            "url": "https://api.github.com/repos/quay/quay"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/quay/quay/issues/473",
+                "repository_url": "https://api.github.com/repos/quay/quay",
+                "labels_url": "https://api.github.com/repos/quay/quay/issues/473/labels{/name}",
+                "comments_url": "https://api.github.com/repos/quay/quay/issues/473/comments",
+                "events_url": "https://api.github.com/repos/quay/quay/issues/473/events",
+                "html_url": "https://github.com/quay/quay/pull/473",
+                "id": 655144559,
+                "node_id": "MDExOlB1bGxSZXF1ZXN0NDQ3NzI2Mjgz",
+                "number": 473,
+                "title": "openshift oauth (PROJQUAY-673)",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 3643498031,
+                        "node_id": "LA_kwDODSTVYs7ZK14v",
+                        "url": "https://api.github.com/repos/quay/quay/labels/needs-rebase",
+                        "name": "needs-rebase",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 18,
+                "created_at": "2020-07-11T06:09:59Z",
+                "updated_at": "2022-10-12T13:28:25Z",
+                "closed_at": null,
+                "author_association": "CONTRIBUTOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/quay/quay/pulls/473",
+                    "html_url": "https://github.com/quay/quay/pull/473",
+                    "diff_url": "https://github.com/quay/quay/pull/473.diff",
+                    "patch_url": "https://github.com/quay/quay/pull/473.patch",
+                    "merged_at": null
+                },
+                "body": "### Description of Changes\r\n\r\nThis change adds features and configuration for integrating with the OpenShift 3.x/4.x integrated OAuth service.\r\n\r\nWhen using the config app, the administrator is presented with the option to configure Integrated OAuth, such that logging into the OpenShift console confers access to Project Quay.\r\n\r\nThe functionality will not impact Project Quay permissions at this time. The user is authenticated to Quay but there will be no further provisioning. This is regarded as beyond the scope of this change.\r\n\r\nAs OpenShift does not store e-mail addresses. This functionality will not work if the `MAILING` feature is enabled.\r\n\r\nThe end user motivation for the change: To provide a seamless experience when deploying Project Quay into an OpenShift v3/v4 cluster so that no further configuration of Authentication is required, unless there is a requirement to separate Project Quay from the operation of the cluster.\r\n\r\nThe current behaviour: When deploying Project Quay into an OpenShift cluster, none of the available authentication methods support integration with the OpenShift RBAC/console identity. It is up to the user to establish an LDAP or OIDC connection via an external IdP which matches their OpenShift identity.\r\n\r\n#### Changes:\r\n\r\n* Adds Configuration Feature flag and Configuration Variable, similar to Google, Gitlab etc OIDC configuration parameters.\r\n* Validates configuration (except optional items, like running out-of-cluster).\r\n* Adds a section to the config app underneath the GitHub OIDC provider settings which has placeholder variables suggesting the recommended values.\r\n* Added a markdown document describing the operation of the OAuth provider if you would like to split that out to another repo.\r\n* Retrieves user information from the OpenShift users API (no e-mail available here).    \r\n\r\n#### Issue: [PROJQUAY-673](https://issues.redhat.com/browse/PROJQUAY-673)\r\n\r\n**TESTING** ->\r\n\r\nManually validated against OpenShift 4.4.10\r\nWe could possibly look at a pytest-docker which brings up the openshift-oauth proxy as a standalone container in the CI if that was required.\r\n\r\n**BREAKING CHANGE** ->\r\n\r\nNew functionality, only modifications made are to the config schema.\r\n\r\n---\r\n\r\n## Reviewer Checklist\r\n\r\n- [ ] It works!\r\n- [ ] Comments provide sufficient explanations for the next contributor\r\n- [ ] Tests cover changes and corner cases\r\n- [ ] Follows Quay syntax patterns and format\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/quay/quay/issues/473/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/quay/quay/issues/473/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/quay/quay/issues/comments/1276175574",
+                "html_url": "https://github.com/quay/quay/pull/473#issuecomment-1276175574",
+                "issue_url": "https://api.github.com/repos/quay/quay/issues/473",
+                "id": 1276175574,
+                "node_id": "IC_kwDODSTVYs5MEOTW",
+                "user": {
+                    "login": "mosen",
+                    "id": 316108,
+                    "node_id": "MDQ6VXNlcjMxNjEwOA==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/316108?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/mosen",
+                    "html_url": "https://github.com/mosen",
+                    "followers_url": "https://api.github.com/users/mosen/followers",
+                    "following_url": "https://api.github.com/users/mosen/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/mosen/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/mosen/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/mosen/subscriptions",
+                    "organizations_url": "https://api.github.com/users/mosen/orgs",
+                    "repos_url": "https://api.github.com/users/mosen/repos",
+                    "events_url": "https://api.github.com/users/mosen/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/mosen/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-10-12T13:28:25Z",
+                "updated_at": "2022-10-12T13:28:25Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "I'd probably be happy to rebase again. I'm kinda worried about dumping code on the core team and then they have to support it but there's nothing super magical included. ",
+                "reactions": {
+                    "url": "https://api.github.com/repos/quay/quay/issues/comments/1276175574/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-12T13:28:25Z",
+        "org": {
+            "id": 38353654,
+            "login": "quay",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/quay",
+            "avatar_url": "https://avatars.githubusercontent.com/u/38353654?"
+        }
+    },
+    {
+        "id": "24247527168",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 81503368,
+            "name": "mosen/munkireport-php",
+            "url": "https://api.github.com/repos/mosen/munkireport-php"
+        },
+        "payload": {
+            "ref": "v6.0.0-release-test01",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "A reporting tool for munki",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-27T11:50:36Z"
+    },
+    {
+        "id": "24247526576",
+        "type": "PushEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 81503368,
+            "name": "mosen/munkireport-php",
+            "url": "https://api.github.com/repos/mosen/munkireport-php"
+        },
+        "payload": {
+            "push_id": 11149139944,
+            "size": 20,
+            "distinct_size": 20,
+            "ref": "refs/heads/wip",
+            "head": "496874efc667aee64e9e150c197ca9d166d73be9",
+            "before": "bba2fed0e2e7c234502e3303ad7ec9716d05483d",
+            "commits": [
+                {
+                    "sha": "7cab50a99631c35ef31ee1091a8d9a57592e5095",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "mosen"
+                    },
+                    "message": "Merge pull request #1462 from mosen/wip\n\nMake github action release name the same as the manual process.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/7cab50a99631c35ef31ee1091a8d9a57592e5095"
+                },
+                {
+                    "sha": "198cd2fbe6b617e044218e35dcd0db93e06e770d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Remove python3 detection from install script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/198cd2fbe6b617e044218e35dcd0db93e06e770d"
+                },
+                {
+                    "sha": "22d936cdb23ee1dd95dc53089eb52c2be1b57e7d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update python3 hashbang",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/22d936cdb23ee1dd95dc53089eb52c2be1b57e7d"
+                },
+                {
+                    "sha": "adf70b853aa5b94595a6e9816a3f16b6e234c3f5",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Build wip image on push",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/adf70b853aa5b94595a6e9816a3f16b6e234c3f5"
+                },
+                {
+                    "sha": "b6e13dc345cb76f8fb5e7cb5d923daef294a57ed",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Fix yaml",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/b6e13dc345cb76f8fb5e7cb5d923daef294a57ed"
+                },
+                {
+                    "sha": "d9266095273b3c522939342193fab9a01a906442",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Use py3 for ard and bluetooth",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/d9266095273b3c522939342193fab9a01a906442"
+                },
+                {
+                    "sha": "5d9915a7399fb3b4e27ced39e48cc630c7f38c66",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update disk_report to py3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5d9915a7399fb3b4e27ced39e48cc630c7f38c66"
+                },
+                {
+                    "sha": "776a448c01cd160672eca582520c4bb9508e5a14",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update modules to py3\nmanagedinstalls, munkiinfo, network, security",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/776a448c01cd160672eca582520c4bb9508e5a14"
+                },
+                {
+                    "sha": "7fe7efbf7f4c3f03d7a84f9b688079201acd7817",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update model_lookup_helper path",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/7fe7efbf7f4c3f03d7a84f9b688079201acd7817"
+                },
+                {
+                    "sha": "51d4afa6defe13e47a548b69cdd8b058f62883c3",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update munkireport module to py3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/51d4afa6defe13e47a548b69cdd8b058f62883c3"
+                },
+                {
+                    "sha": "0186623c3ec83f118806164ea0a20f8accfe8613",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Skip wip builder",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/0186623c3ec83f118806164ea0a20f8accfe8613"
+                },
+                {
+                    "sha": "1af09d4aab25bd487866b1232a63c32ca31238b1",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Update composer",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/1af09d4aab25bd487866b1232a63c32ca31238b1"
+                },
+                {
+                    "sha": "5d3fedbd1893e2b5beaf51759b6ae67d5f55aa10",
+                    "author": {
+                        "email": "arjen.vanbochoven@wetransfer.com",
+                        "name": "Arjen van Bochoven"
+                    },
+                    "message": "Update logging.php",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5d3fedbd1893e2b5beaf51759b6ae67d5f55aa10"
+                },
+                {
+                    "sha": "a9d32ef50b2faba16db360a3da6275b5bcb8c4b4",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Remove the firewall package",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/a9d32ef50b2faba16db360a3da6275b5bcb8c4b4"
+                },
+                {
+                    "sha": "f086e7559e828a946e510b548ef0144fd85c44f3",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Add note about firewall removal",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/f086e7559e828a946e510b548ef0144fd85c44f3"
+                },
+                {
+                    "sha": "5b9b95fb09532b993300e7f94f24e8cb97ce578d",
+                    "author": {
+                        "email": "arjen@bochoven.net",
+                        "name": "Arjen"
+                    },
+                    "message": "Removing network module\nTo get rid if the migration error that\n2022_04_10_000001_network_fix_vlans causes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/5b9b95fb09532b993300e7f94f24e8cb97ce578d"
+                },
+                {
+                    "sha": "e6b924e6ed7195e3290c9750aed67ab34c7672d3",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Make zip file naming and release notes more similar to the manual process",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/e6b924e6ed7195e3290c9750aed67ab34c7672d3"
+                },
+                {
+                    "sha": "89d7320a3bcf67b61a643ff41a6a89d12612cd51",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Merge branch 'wip' of https://github.com/munkireport/munkireport-php into wip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/89d7320a3bcf67b61a643ff41a6a89d12612cd51"
+                },
+                {
+                    "sha": "f1d0a1d0eeb3be86e7b4242e6b3cca00242fba79",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Laravel 9 - base package updates",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/f1d0a1d0eeb3be86e7b4242e6b3cca00242fba79"
+                },
+                {
+                    "sha": "496874efc667aee64e9e150c197ca9d166d73be9",
+                    "author": {
+                        "email": "mosen@users.noreply.github.com",
+                        "name": "Mosen"
+                    },
+                    "message": "Reconcile some differences from Laravel 9 app skeleton to current munkireport-php\nUpdate dependencies incrementally",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/mosen/munkireport-php/commits/496874efc667aee64e9e150c197ca9d166d73be9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-27T11:50:34Z"
+    },
+    {
+        "id": "24137396979",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 539477028,
+            "name": "mosen/pulumi-illumio-native",
+            "url": "https://api.github.com/repos/mosen/pulumi-illumio-native"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "Pulumi provider for Illumio",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-21T12:28:08Z"
+    },
+    {
+        "id": "24137396154",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 316108,
+            "login": "mosen",
+            "display_login": "mosen",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mosen",
+            "avatar_url": "https://avatars.githubusercontent.com/u/316108?"
+        },
+        "repo": {
+            "id": 539477028,
+            "name": "mosen/pulumi-illumio-native",
+            "url": "https://api.github.com/repos/mosen/pulumi-illumio-native"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "Pulumi provider for Illumio",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-21T12:28:06Z"
+    }
+]

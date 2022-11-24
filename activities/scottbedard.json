@@ -1,0 +1,2528 @@
+[
+    {
+        "id": "25022235924",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 115436884,
+            "name": "roadrunner-server/roadrunner",
+            "url": "https://api.github.com/repos/roadrunner-server/roadrunner"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T02:41:35Z",
+        "org": {
+            "id": 91313805,
+            "login": "roadrunner-server",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/roadrunner-server",
+            "avatar_url": "https://avatars.githubusercontent.com/u/91313805?"
+        }
+    },
+    {
+        "id": "24922015967",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "ref": "0.28.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "A collection of utility types and functions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:58Z"
+    },
+    {
+        "id": "24922015913",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/scottbedard/utils/releases/81505654",
+                "assets_url": "https://api.github.com/repos/scottbedard/utils/releases/81505654/assets",
+                "upload_url": "https://uploads.github.com/repos/scottbedard/utils/releases/81505654/assets{?name,label}",
+                "html_url": "https://github.com/scottbedard/utils/releases/tag/0.28.0",
+                "id": 81505654,
+                "author": {
+                    "login": "scottbedard",
+                    "id": 7980426,
+                    "node_id": "MDQ6VXNlcjc5ODA0MjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7980426?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/scottbedard",
+                    "html_url": "https://github.com/scottbedard",
+                    "followers_url": "https://api.github.com/users/scottbedard/followers",
+                    "following_url": "https://api.github.com/users/scottbedard/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/scottbedard/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/scottbedard/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/scottbedard/subscriptions",
+                    "organizations_url": "https://api.github.com/users/scottbedard/orgs",
+                    "repos_url": "https://api.github.com/users/scottbedard/repos",
+                    "events_url": "https://api.github.com/users/scottbedard/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/scottbedard/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOF-HWN84E2612",
+                "tag_name": "0.28.0",
+                "target_commitish": "main",
+                "name": "0.28.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-10-31T01:44:53Z",
+                "published_at": "2022-10-31T01:45:58Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/scottbedard/utils/tarball/0.28.0",
+                "zipball_url": "https://api.github.com/repos/scottbedard/utils/zipball/0.28.0",
+                "body": "",
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:58Z"
+    },
+    {
+        "id": "24922006651",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 11498967878,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1927a063cd694688d89ee95b3d1ca1bb06d868cb",
+            "before": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+            "commits": [
+                {
+                    "sha": "1927a063cd694688d89ee95b3d1ca1bb06d868cb",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.28.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/1927a063cd694688d89ee95b3d1ca1bb06d868cb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:00Z"
+    },
+    {
+        "id": "24921847731",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 11498883320,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+            "before": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+            "commits": [
+                {
+                    "sha": "de0a7fd0b280e2fae53007cc64d9ccaef9ad6707",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "add tuple syntax for chained xor calls",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/de0a7fd0b280e2fae53007cc64d9ccaef9ad6707"
+                },
+                {
+                    "sha": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/52c65c85a451a3da2aae0ec157467d1a8f5421cc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:27:20Z"
+    },
+    {
+        "id": "24714237997",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 141900517,
+            "name": "mnabialek/laravel-quick-migrations",
+            "url": "https://api.github.com/repos/mnabialek/laravel-quick-migrations"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-20T05:11:22Z"
+    },
+    {
+        "id": "24481959765",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 13099301,
+            "name": "lipis/flag-icons",
+            "url": "https://api.github.com/repos/lipis/flag-icons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T00:13:12Z"
+    },
+    {
+        "id": "24370483723",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 265122478,
+            "name": "ManimCommunity/manim",
+            "url": "https://api.github.com/repos/ManimCommunity/manim"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-03T18:49:30Z",
+        "org": {
+            "id": 65579849,
+            "login": "ManimCommunity",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ManimCommunity",
+            "avatar_url": "https://avatars.githubusercontent.com/u/65579849?"
+        }
+    },
+    {
+        "id": "24344194658",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 531788813,
+            "name": "lkwq007/stablediffusion-infinity",
+            "url": "https://api.github.com/repos/lkwq007/stablediffusion-infinity"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-02T04:32:11Z"
+    },
+    {
+        "id": "24328460780",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 531886681,
+            "name": "surrealdb/surrealdb.php",
+            "url": "https://api.github.com/repos/surrealdb/surrealdb.php"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-30T16:56:40Z",
+        "org": {
+            "id": 10982346,
+            "login": "surrealdb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/surrealdb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10982346?"
+        }
+    },
+    {
+        "id": "24041796608",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 120425779,
+            "name": "lapce/lapce",
+            "url": "https://api.github.com/repos/lapce/lapce"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-16T03:03:34Z",
+        "org": {
+            "id": 43668847,
+            "login": "lapce",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/lapce",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43668847?"
+        }
+    },
+    {
+        "id": "24006130862",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 436658287,
+            "name": "surrealdb/surrealdb",
+            "url": "https://api.github.com/repos/surrealdb/surrealdb"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-14T14:56:03Z",
+        "org": {
+            "id": 10982346,
+            "login": "surrealdb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/surrealdb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10982346?"
+        }
+    },
+    {
+        "id": "23942817861",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "ref": "0.27.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "A collection of utility types and functions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:41:13Z"
+    },
+    {
+        "id": "23942817830",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/scottbedard/utils/releases/76850706",
+                "assets_url": "https://api.github.com/repos/scottbedard/utils/releases/76850706/assets",
+                "upload_url": "https://uploads.github.com/repos/scottbedard/utils/releases/76850706/assets{?name,label}",
+                "html_url": "https://github.com/scottbedard/utils/releases/tag/0.27.0",
+                "id": 76850706,
+                "author": {
+                    "login": "scottbedard",
+                    "id": 7980426,
+                    "node_id": "MDQ6VXNlcjc5ODA0MjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7980426?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/scottbedard",
+                    "html_url": "https://github.com/scottbedard",
+                    "followers_url": "https://api.github.com/users/scottbedard/followers",
+                    "following_url": "https://api.github.com/users/scottbedard/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/scottbedard/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/scottbedard/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/scottbedard/subscriptions",
+                    "organizations_url": "https://api.github.com/users/scottbedard/orgs",
+                    "repos_url": "https://api.github.com/users/scottbedard/repos",
+                    "events_url": "https://api.github.com/users/scottbedard/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/scottbedard/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOF-HWN84ElKYS",
+                "tag_name": "0.27.0",
+                "target_commitish": "main",
+                "name": "0.27.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-09-12T02:39:44Z",
+                "published_at": "2022-09-12T02:41:12Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/scottbedard/utils/tarball/0.27.0",
+                "zipball_url": "https://api.github.com/repos/scottbedard/utils/zipball/0.27.0",
+                "body": "",
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:41:13Z"
+    },
+    {
+        "id": "23942805868",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10991254610,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+            "before": "afc897fab0307f64bcff952c7c18fcda17828b70",
+            "commits": [
+                {
+                    "sha": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/040daba4fcaeafb0f76b2f956e3558be9ce5725f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:39:51Z"
+    },
+    {
+        "id": "23942799294",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10991250984,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/main",
+            "head": "afc897fab0307f64bcff952c7c18fcda17828b70",
+            "before": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+            "commits": [
+                {
+                    "sha": "298f5388c238f0ad5b1f36d4525733165cb8b9e3",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "add support for non-numeric vectors",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/298f5388c238f0ad5b1f36d4525733165cb8b9e3"
+                },
+                {
+                    "sha": "13610df2f820d69d1f3d14576d21495949027676",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/13610df2f820d69d1f3d14576d21495949027676"
+                },
+                {
+                    "sha": "afc897fab0307f64bcff952c7c18fcda17828b70",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "Merge branch 'main' of github.com:scottbedard/utils",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/afc897fab0307f64bcff952c7c18fcda17828b70"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:39:04Z"
+    },
+    {
+        "id": "23904976737",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 534397970,
+            "name": "karpathy/nn-zero-to-hero",
+            "url": "https://api.github.com/repos/karpathy/nn-zero-to-hero"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-08T23:08:04Z"
+    },
+    {
+        "id": "23570516174",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798659861,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a3526d2b93852df90b7b6a01083db54c9d635134",
+            "before": "01077fb3a5bf4da97267933c095f31597e73ea67",
+            "commits": [
+                {
+                    "sha": "a3526d2b93852df90b7b6a01083db54c9d635134",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "html5 options",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/a3526d2b93852df90b7b6a01083db54c9d635134"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T18:24:49Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23570248882",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798529803,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "01077fb3a5bf4da97267933c095f31597e73ea67",
+            "before": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+            "commits": [
+                {
+                    "sha": "01077fb3a5bf4da97267933c095f31597e73ea67",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "sound debugger",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/01077fb3a5bf4da97267933c095f31597e73ea67"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T18:10:02Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23569253417",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798045740,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+            "before": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+            "commits": [
+                {
+                    "sha": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/15c952839037d006bf2806c5ed8eb9b5528952b2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T17:13:55Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23569177815",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798009161,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+            "before": "fe85d99c22b214878daf228aa1ec401be8536282",
+            "commits": [
+                {
+                    "sha": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "whoops",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/b8f42a21eb1aea868596c151a514d6d1f286995b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T17:09:49Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23449292873",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10735898684,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+            "before": "397c1b61c94d5eefafe002fb8f7b756a6875be78",
+            "commits": [
+                {
+                    "sha": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+                    "author": {
+                        "email": "scottbedard@users.noreply.github.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/eff0246281d2ecc9ffecdc29547d7bffba079faf"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-15T23:44:40Z"
+    },
+    {
+        "id": "23442978773",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 314995099,
+            "name": "ankitpokhrel/jira-cli",
+            "url": "https://api.github.com/repos/ankitpokhrel/jira-cli"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-15T16:38:56Z"
+    },
+    {
+        "id": "25022235924",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 115436884,
+            "name": "roadrunner-server/roadrunner",
+            "url": "https://api.github.com/repos/roadrunner-server/roadrunner"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T02:41:35Z",
+        "org": {
+            "id": 91313805,
+            "login": "roadrunner-server",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/roadrunner-server",
+            "avatar_url": "https://avatars.githubusercontent.com/u/91313805?"
+        }
+    },
+    {
+        "id": "24922015967",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "ref": "0.28.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "A collection of utility types and functions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:58Z"
+    },
+    {
+        "id": "24922015913",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/scottbedard/utils/releases/81505654",
+                "assets_url": "https://api.github.com/repos/scottbedard/utils/releases/81505654/assets",
+                "upload_url": "https://uploads.github.com/repos/scottbedard/utils/releases/81505654/assets{?name,label}",
+                "html_url": "https://github.com/scottbedard/utils/releases/tag/0.28.0",
+                "id": 81505654,
+                "author": {
+                    "login": "scottbedard",
+                    "id": 7980426,
+                    "node_id": "MDQ6VXNlcjc5ODA0MjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7980426?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/scottbedard",
+                    "html_url": "https://github.com/scottbedard",
+                    "followers_url": "https://api.github.com/users/scottbedard/followers",
+                    "following_url": "https://api.github.com/users/scottbedard/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/scottbedard/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/scottbedard/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/scottbedard/subscriptions",
+                    "organizations_url": "https://api.github.com/users/scottbedard/orgs",
+                    "repos_url": "https://api.github.com/users/scottbedard/repos",
+                    "events_url": "https://api.github.com/users/scottbedard/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/scottbedard/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOF-HWN84E2612",
+                "tag_name": "0.28.0",
+                "target_commitish": "main",
+                "name": "0.28.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-10-31T01:44:53Z",
+                "published_at": "2022-10-31T01:45:58Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/scottbedard/utils/tarball/0.28.0",
+                "zipball_url": "https://api.github.com/repos/scottbedard/utils/zipball/0.28.0",
+                "body": "",
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:58Z"
+    },
+    {
+        "id": "24922006651",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 11498967878,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1927a063cd694688d89ee95b3d1ca1bb06d868cb",
+            "before": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+            "commits": [
+                {
+                    "sha": "1927a063cd694688d89ee95b3d1ca1bb06d868cb",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.28.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/1927a063cd694688d89ee95b3d1ca1bb06d868cb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:00Z"
+    },
+    {
+        "id": "24921847731",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 11498883320,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+            "before": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+            "commits": [
+                {
+                    "sha": "de0a7fd0b280e2fae53007cc64d9ccaef9ad6707",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "add tuple syntax for chained xor calls",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/de0a7fd0b280e2fae53007cc64d9ccaef9ad6707"
+                },
+                {
+                    "sha": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/52c65c85a451a3da2aae0ec157467d1a8f5421cc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:27:20Z"
+    },
+    {
+        "id": "24714237997",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 141900517,
+            "name": "mnabialek/laravel-quick-migrations",
+            "url": "https://api.github.com/repos/mnabialek/laravel-quick-migrations"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-20T05:11:22Z"
+    },
+    {
+        "id": "24481959765",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 13099301,
+            "name": "lipis/flag-icons",
+            "url": "https://api.github.com/repos/lipis/flag-icons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T00:13:12Z"
+    },
+    {
+        "id": "24370483723",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 265122478,
+            "name": "ManimCommunity/manim",
+            "url": "https://api.github.com/repos/ManimCommunity/manim"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-03T18:49:30Z",
+        "org": {
+            "id": 65579849,
+            "login": "ManimCommunity",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ManimCommunity",
+            "avatar_url": "https://avatars.githubusercontent.com/u/65579849?"
+        }
+    },
+    {
+        "id": "24344194658",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 531788813,
+            "name": "lkwq007/stablediffusion-infinity",
+            "url": "https://api.github.com/repos/lkwq007/stablediffusion-infinity"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-02T04:32:11Z"
+    },
+    {
+        "id": "24328460780",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 531886681,
+            "name": "surrealdb/surrealdb.php",
+            "url": "https://api.github.com/repos/surrealdb/surrealdb.php"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-30T16:56:40Z",
+        "org": {
+            "id": 10982346,
+            "login": "surrealdb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/surrealdb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10982346?"
+        }
+    },
+    {
+        "id": "24041796608",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 120425779,
+            "name": "lapce/lapce",
+            "url": "https://api.github.com/repos/lapce/lapce"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-16T03:03:34Z",
+        "org": {
+            "id": 43668847,
+            "login": "lapce",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/lapce",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43668847?"
+        }
+    },
+    {
+        "id": "24006130862",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 436658287,
+            "name": "surrealdb/surrealdb",
+            "url": "https://api.github.com/repos/surrealdb/surrealdb"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-14T14:56:03Z",
+        "org": {
+            "id": 10982346,
+            "login": "surrealdb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/surrealdb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10982346?"
+        }
+    },
+    {
+        "id": "23942817861",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "ref": "0.27.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "A collection of utility types and functions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:41:13Z"
+    },
+    {
+        "id": "23942817830",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/scottbedard/utils/releases/76850706",
+                "assets_url": "https://api.github.com/repos/scottbedard/utils/releases/76850706/assets",
+                "upload_url": "https://uploads.github.com/repos/scottbedard/utils/releases/76850706/assets{?name,label}",
+                "html_url": "https://github.com/scottbedard/utils/releases/tag/0.27.0",
+                "id": 76850706,
+                "author": {
+                    "login": "scottbedard",
+                    "id": 7980426,
+                    "node_id": "MDQ6VXNlcjc5ODA0MjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7980426?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/scottbedard",
+                    "html_url": "https://github.com/scottbedard",
+                    "followers_url": "https://api.github.com/users/scottbedard/followers",
+                    "following_url": "https://api.github.com/users/scottbedard/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/scottbedard/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/scottbedard/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/scottbedard/subscriptions",
+                    "organizations_url": "https://api.github.com/users/scottbedard/orgs",
+                    "repos_url": "https://api.github.com/users/scottbedard/repos",
+                    "events_url": "https://api.github.com/users/scottbedard/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/scottbedard/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOF-HWN84ElKYS",
+                "tag_name": "0.27.0",
+                "target_commitish": "main",
+                "name": "0.27.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-09-12T02:39:44Z",
+                "published_at": "2022-09-12T02:41:12Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/scottbedard/utils/tarball/0.27.0",
+                "zipball_url": "https://api.github.com/repos/scottbedard/utils/zipball/0.27.0",
+                "body": "",
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:41:13Z"
+    },
+    {
+        "id": "23942805868",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10991254610,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+            "before": "afc897fab0307f64bcff952c7c18fcda17828b70",
+            "commits": [
+                {
+                    "sha": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/040daba4fcaeafb0f76b2f956e3558be9ce5725f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:39:51Z"
+    },
+    {
+        "id": "23942799294",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10991250984,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/main",
+            "head": "afc897fab0307f64bcff952c7c18fcda17828b70",
+            "before": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+            "commits": [
+                {
+                    "sha": "298f5388c238f0ad5b1f36d4525733165cb8b9e3",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "add support for non-numeric vectors",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/298f5388c238f0ad5b1f36d4525733165cb8b9e3"
+                },
+                {
+                    "sha": "13610df2f820d69d1f3d14576d21495949027676",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/13610df2f820d69d1f3d14576d21495949027676"
+                },
+                {
+                    "sha": "afc897fab0307f64bcff952c7c18fcda17828b70",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "Merge branch 'main' of github.com:scottbedard/utils",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/afc897fab0307f64bcff952c7c18fcda17828b70"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:39:04Z"
+    },
+    {
+        "id": "23904976737",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 534397970,
+            "name": "karpathy/nn-zero-to-hero",
+            "url": "https://api.github.com/repos/karpathy/nn-zero-to-hero"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-08T23:08:04Z"
+    },
+    {
+        "id": "23570516174",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798659861,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a3526d2b93852df90b7b6a01083db54c9d635134",
+            "before": "01077fb3a5bf4da97267933c095f31597e73ea67",
+            "commits": [
+                {
+                    "sha": "a3526d2b93852df90b7b6a01083db54c9d635134",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "html5 options",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/a3526d2b93852df90b7b6a01083db54c9d635134"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T18:24:49Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23570248882",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798529803,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "01077fb3a5bf4da97267933c095f31597e73ea67",
+            "before": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+            "commits": [
+                {
+                    "sha": "01077fb3a5bf4da97267933c095f31597e73ea67",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "sound debugger",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/01077fb3a5bf4da97267933c095f31597e73ea67"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T18:10:02Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23569253417",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798045740,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+            "before": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+            "commits": [
+                {
+                    "sha": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/15c952839037d006bf2806c5ed8eb9b5528952b2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T17:13:55Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23569177815",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798009161,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+            "before": "fe85d99c22b214878daf228aa1ec401be8536282",
+            "commits": [
+                {
+                    "sha": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "whoops",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/b8f42a21eb1aea868596c151a514d6d1f286995b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T17:09:49Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23449292873",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10735898684,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+            "before": "397c1b61c94d5eefafe002fb8f7b756a6875be78",
+            "commits": [
+                {
+                    "sha": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+                    "author": {
+                        "email": "scottbedard@users.noreply.github.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/eff0246281d2ecc9ffecdc29547d7bffba079faf"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-15T23:44:40Z"
+    },
+    {
+        "id": "23442978773",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 314995099,
+            "name": "ankitpokhrel/jira-cli",
+            "url": "https://api.github.com/repos/ankitpokhrel/jira-cli"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-15T16:38:56Z"
+    },
+    {
+        "id": "25022235924",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 115436884,
+            "name": "roadrunner-server/roadrunner",
+            "url": "https://api.github.com/repos/roadrunner-server/roadrunner"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-04T02:41:35Z",
+        "org": {
+            "id": 91313805,
+            "login": "roadrunner-server",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/roadrunner-server",
+            "avatar_url": "https://avatars.githubusercontent.com/u/91313805?"
+        }
+    },
+    {
+        "id": "24922015967",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "ref": "0.28.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "A collection of utility types and functions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:58Z"
+    },
+    {
+        "id": "24922015913",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/scottbedard/utils/releases/81505654",
+                "assets_url": "https://api.github.com/repos/scottbedard/utils/releases/81505654/assets",
+                "upload_url": "https://uploads.github.com/repos/scottbedard/utils/releases/81505654/assets{?name,label}",
+                "html_url": "https://github.com/scottbedard/utils/releases/tag/0.28.0",
+                "id": 81505654,
+                "author": {
+                    "login": "scottbedard",
+                    "id": 7980426,
+                    "node_id": "MDQ6VXNlcjc5ODA0MjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7980426?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/scottbedard",
+                    "html_url": "https://github.com/scottbedard",
+                    "followers_url": "https://api.github.com/users/scottbedard/followers",
+                    "following_url": "https://api.github.com/users/scottbedard/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/scottbedard/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/scottbedard/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/scottbedard/subscriptions",
+                    "organizations_url": "https://api.github.com/users/scottbedard/orgs",
+                    "repos_url": "https://api.github.com/users/scottbedard/repos",
+                    "events_url": "https://api.github.com/users/scottbedard/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/scottbedard/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOF-HWN84E2612",
+                "tag_name": "0.28.0",
+                "target_commitish": "main",
+                "name": "0.28.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-10-31T01:44:53Z",
+                "published_at": "2022-10-31T01:45:58Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/scottbedard/utils/tarball/0.28.0",
+                "zipball_url": "https://api.github.com/repos/scottbedard/utils/zipball/0.28.0",
+                "body": "",
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:58Z"
+    },
+    {
+        "id": "24922006651",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 11498967878,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1927a063cd694688d89ee95b3d1ca1bb06d868cb",
+            "before": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+            "commits": [
+                {
+                    "sha": "1927a063cd694688d89ee95b3d1ca1bb06d868cb",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.28.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/1927a063cd694688d89ee95b3d1ca1bb06d868cb"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:45:00Z"
+    },
+    {
+        "id": "24921847731",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 11498883320,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+            "before": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+            "commits": [
+                {
+                    "sha": "de0a7fd0b280e2fae53007cc64d9ccaef9ad6707",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "add tuple syntax for chained xor calls",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/de0a7fd0b280e2fae53007cc64d9ccaef9ad6707"
+                },
+                {
+                    "sha": "52c65c85a451a3da2aae0ec157467d1a8f5421cc",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/52c65c85a451a3da2aae0ec157467d1a8f5421cc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-31T01:27:20Z"
+    },
+    {
+        "id": "24714237997",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 141900517,
+            "name": "mnabialek/laravel-quick-migrations",
+            "url": "https://api.github.com/repos/mnabialek/laravel-quick-migrations"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-20T05:11:22Z"
+    },
+    {
+        "id": "24481959765",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 13099301,
+            "name": "lipis/flag-icons",
+            "url": "https://api.github.com/repos/lipis/flag-icons"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T00:13:12Z"
+    },
+    {
+        "id": "24370483723",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 265122478,
+            "name": "ManimCommunity/manim",
+            "url": "https://api.github.com/repos/ManimCommunity/manim"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-03T18:49:30Z",
+        "org": {
+            "id": 65579849,
+            "login": "ManimCommunity",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ManimCommunity",
+            "avatar_url": "https://avatars.githubusercontent.com/u/65579849?"
+        }
+    },
+    {
+        "id": "24344194658",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 531788813,
+            "name": "lkwq007/stablediffusion-infinity",
+            "url": "https://api.github.com/repos/lkwq007/stablediffusion-infinity"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-02T04:32:11Z"
+    },
+    {
+        "id": "24328460780",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 531886681,
+            "name": "surrealdb/surrealdb.php",
+            "url": "https://api.github.com/repos/surrealdb/surrealdb.php"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-30T16:56:40Z",
+        "org": {
+            "id": 10982346,
+            "login": "surrealdb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/surrealdb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10982346?"
+        }
+    },
+    {
+        "id": "24041796608",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 120425779,
+            "name": "lapce/lapce",
+            "url": "https://api.github.com/repos/lapce/lapce"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-16T03:03:34Z",
+        "org": {
+            "id": 43668847,
+            "login": "lapce",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/lapce",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43668847?"
+        }
+    },
+    {
+        "id": "24006130862",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 436658287,
+            "name": "surrealdb/surrealdb",
+            "url": "https://api.github.com/repos/surrealdb/surrealdb"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-14T14:56:03Z",
+        "org": {
+            "id": 10982346,
+            "login": "surrealdb",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/surrealdb",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10982346?"
+        }
+    },
+    {
+        "id": "23942817861",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "ref": "0.27.0",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "A collection of utility types and functions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:41:13Z"
+    },
+    {
+        "id": "23942817830",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/scottbedard/utils/releases/76850706",
+                "assets_url": "https://api.github.com/repos/scottbedard/utils/releases/76850706/assets",
+                "upload_url": "https://uploads.github.com/repos/scottbedard/utils/releases/76850706/assets{?name,label}",
+                "html_url": "https://github.com/scottbedard/utils/releases/tag/0.27.0",
+                "id": 76850706,
+                "author": {
+                    "login": "scottbedard",
+                    "id": 7980426,
+                    "node_id": "MDQ6VXNlcjc5ODA0MjY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7980426?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/scottbedard",
+                    "html_url": "https://github.com/scottbedard",
+                    "followers_url": "https://api.github.com/users/scottbedard/followers",
+                    "following_url": "https://api.github.com/users/scottbedard/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/scottbedard/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/scottbedard/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/scottbedard/subscriptions",
+                    "organizations_url": "https://api.github.com/users/scottbedard/orgs",
+                    "repos_url": "https://api.github.com/users/scottbedard/repos",
+                    "events_url": "https://api.github.com/users/scottbedard/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/scottbedard/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOF-HWN84ElKYS",
+                "tag_name": "0.27.0",
+                "target_commitish": "main",
+                "name": "0.27.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-09-12T02:39:44Z",
+                "published_at": "2022-09-12T02:41:12Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/scottbedard/utils/tarball/0.27.0",
+                "zipball_url": "https://api.github.com/repos/scottbedard/utils/zipball/0.27.0",
+                "body": "",
+                "short_description_html": "",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:41:13Z"
+    },
+    {
+        "id": "23942805868",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10991254610,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+            "before": "afc897fab0307f64bcff952c7c18fcda17828b70",
+            "commits": [
+                {
+                    "sha": "040daba4fcaeafb0f76b2f956e3558be9ce5725f",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/040daba4fcaeafb0f76b2f956e3558be9ce5725f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:39:51Z"
+    },
+    {
+        "id": "23942799294",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10991250984,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/main",
+            "head": "afc897fab0307f64bcff952c7c18fcda17828b70",
+            "before": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+            "commits": [
+                {
+                    "sha": "298f5388c238f0ad5b1f36d4525733165cb8b9e3",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "add support for non-numeric vectors",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/298f5388c238f0ad5b1f36d4525733165cb8b9e3"
+                },
+                {
+                    "sha": "13610df2f820d69d1f3d14576d21495949027676",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "0.27.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/13610df2f820d69d1f3d14576d21495949027676"
+                },
+                {
+                    "sha": "afc897fab0307f64bcff952c7c18fcda17828b70",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "Merge branch 'main' of github.com:scottbedard/utils",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/afc897fab0307f64bcff952c7c18fcda17828b70"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-12T02:39:04Z"
+    },
+    {
+        "id": "23904976737",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 534397970,
+            "name": "karpathy/nn-zero-to-hero",
+            "url": "https://api.github.com/repos/karpathy/nn-zero-to-hero"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-08T23:08:04Z"
+    },
+    {
+        "id": "23570516174",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798659861,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a3526d2b93852df90b7b6a01083db54c9d635134",
+            "before": "01077fb3a5bf4da97267933c095f31597e73ea67",
+            "commits": [
+                {
+                    "sha": "a3526d2b93852df90b7b6a01083db54c9d635134",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "html5 options",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/a3526d2b93852df90b7b6a01083db54c9d635134"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T18:24:49Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23570248882",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798529803,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "01077fb3a5bf4da97267933c095f31597e73ea67",
+            "before": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+            "commits": [
+                {
+                    "sha": "01077fb3a5bf4da97267933c095f31597e73ea67",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "sound debugger",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/01077fb3a5bf4da97267933c095f31597e73ea67"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T18:10:02Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23569253417",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798045740,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+            "before": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+            "commits": [
+                {
+                    "sha": "15c952839037d006bf2806c5ed8eb9b5528952b2",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "cleanup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/15c952839037d006bf2806c5ed8eb9b5528952b2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T17:13:55Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23569177815",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 527656871,
+            "name": "ChessCom/howler-safari",
+            "url": "https://api.github.com/repos/ChessCom/howler-safari"
+        },
+        "payload": {
+            "push_id": 10798009161,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+            "before": "fe85d99c22b214878daf228aa1ec401be8536282",
+            "commits": [
+                {
+                    "sha": "b8f42a21eb1aea868596c151a514d6d1f286995b",
+                    "author": {
+                        "email": "scottbedard90@gmail.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "whoops",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ChessCom/howler-safari/commits/b8f42a21eb1aea868596c151a514d6d1f286995b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-22T17:09:49Z",
+        "org": {
+            "id": 577023,
+            "login": "ChessCom",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ChessCom",
+            "avatar_url": "https://avatars.githubusercontent.com/u/577023?"
+        }
+    },
+    {
+        "id": "23449292873",
+        "type": "PushEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 400676407,
+            "name": "scottbedard/utils",
+            "url": "https://api.github.com/repos/scottbedard/utils"
+        },
+        "payload": {
+            "push_id": 10735898684,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+            "before": "397c1b61c94d5eefafe002fb8f7b756a6875be78",
+            "commits": [
+                {
+                    "sha": "eff0246281d2ecc9ffecdc29547d7bffba079faf",
+                    "author": {
+                        "email": "scottbedard@users.noreply.github.com",
+                        "name": "Scott Bedard"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/scottbedard/utils/commits/eff0246281d2ecc9ffecdc29547d7bffba079faf"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-08-15T23:44:40Z"
+    },
+    {
+        "id": "23442978773",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 7980426,
+            "login": "scottbedard",
+            "display_login": "scottbedard",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scottbedard",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7980426?"
+        },
+        "repo": {
+            "id": 314995099,
+            "name": "ankitpokhrel/jira-cli",
+            "url": "https://api.github.com/repos/ankitpokhrel/jira-cli"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-08-15T16:38:56Z"
+    }
+]
