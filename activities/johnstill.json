@@ -1,6 +1,35 @@
 [
     {
-        "id": "24678838908",
+        "id": "25224115829",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 55232127,
+            "name": "automl/ConfigSpace",
+            "url": "https://api.github.com/repos/automl/ConfigSpace"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-14T14:51:10Z",
+        "org": {
+            "id": 6469053,
+            "login": "automl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/automl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6469053?"
+        }
+    },
+    {
+        "id": "25204932711",
         "type": "PushEvent",
         "actor": {
             "id": 31938607,
@@ -16,202 +45,27 @@
             "url": "https://api.github.com/repos/johnstill/dots"
         },
         "payload": {
-            "push_id": 11371559061,
+            "push_id": 11646306388,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "32a745413801b1964c4a0b9115dc9764f3426eb6",
-            "before": "94985ad4971bbcf5e2614f9b845feca5fca7a180",
+            "head": "32e9895b8c2ed1164a92ffbb8ae6352873df3643",
+            "before": "32a745413801b1964c4a0b9115dc9764f3426eb6",
             "commits": [
                 {
-                    "sha": "32a745413801b1964c4a0b9115dc9764f3426eb6",
+                    "sha": "32e9895b8c2ed1164a92ffbb8ae6352873df3643",
                     "author": {
                         "email": "john.m.still@vumc.org",
                         "name": "John Still"
                     },
-                    "message": "Add tree alias to zshrc",
+                    "message": "Change prompt to use actual hostname instead of HOST variable bc conflict with conda",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/johnstill/dots/commits/32a745413801b1964c4a0b9115dc9764f3426eb6"
+                    "url": "https://api.github.com/repos/johnstill/dots/commits/32e9895b8c2ed1164a92ffbb8ae6352873df3643"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-10-18T19:23:18Z"
-    },
-    {
-        "id": "24088396998",
-        "type": "PushEvent",
-        "actor": {
-            "id": 31938607,
-            "login": "johnstill",
-            "display_login": "johnstill",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/johnstill",
-            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
-        },
-        "repo": {
-            "id": 236823867,
-            "name": "ComputationalMedicineLab/cml_data_tools",
-            "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools"
-        },
-        "payload": {
-            "push_id": 11066939408,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
-            "before": "ae468a2c383d0524cb0883cc5922086389849d78",
-            "commits": [
-                {
-                    "sha": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
-                    "author": {
-                        "email": "john.m.still@vumc.org",
-                        "name": "John Still"
-                    },
-                    "message": "Add clone method to Config and easy masking methods to CurveStats",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools/commits/29dea472256282d081f5e5c238f3f9b71fb43e0b"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-19T12:58:23Z",
-        "org": {
-            "id": 4642055,
-            "login": "ComputationalMedicineLab",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/ComputationalMedicineLab",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4642055?"
-        }
-    },
-    {
-        "id": "23792689155",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 31938607,
-            "login": "johnstill",
-            "display_login": "johnstill",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/johnstill",
-            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
-        },
-        "repo": {
-            "id": 74505259,
-            "name": "slundberg/shap",
-            "url": "https://api.github.com/repos/slundberg/shap"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-02T15:58:54Z"
-    },
-    {
-        "id": "24678838908",
-        "type": "PushEvent",
-        "actor": {
-            "id": 31938607,
-            "login": "johnstill",
-            "display_login": "johnstill",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/johnstill",
-            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
-        },
-        "repo": {
-            "id": 126352568,
-            "name": "johnstill/dots",
-            "url": "https://api.github.com/repos/johnstill/dots"
-        },
-        "payload": {
-            "push_id": 11371559061,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "32a745413801b1964c4a0b9115dc9764f3426eb6",
-            "before": "94985ad4971bbcf5e2614f9b845feca5fca7a180",
-            "commits": [
-                {
-                    "sha": "32a745413801b1964c4a0b9115dc9764f3426eb6",
-                    "author": {
-                        "email": "john.m.still@vumc.org",
-                        "name": "John Still"
-                    },
-                    "message": "Add tree alias to zshrc",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/johnstill/dots/commits/32a745413801b1964c4a0b9115dc9764f3426eb6"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-18T19:23:18Z"
-    },
-    {
-        "id": "24088396998",
-        "type": "PushEvent",
-        "actor": {
-            "id": 31938607,
-            "login": "johnstill",
-            "display_login": "johnstill",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/johnstill",
-            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
-        },
-        "repo": {
-            "id": 236823867,
-            "name": "ComputationalMedicineLab/cml_data_tools",
-            "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools"
-        },
-        "payload": {
-            "push_id": 11066939408,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
-            "before": "ae468a2c383d0524cb0883cc5922086389849d78",
-            "commits": [
-                {
-                    "sha": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
-                    "author": {
-                        "email": "john.m.still@vumc.org",
-                        "name": "John Still"
-                    },
-                    "message": "Add clone method to Config and easy masking methods to CurveStats",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools/commits/29dea472256282d081f5e5c238f3f9b71fb43e0b"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-19T12:58:23Z",
-        "org": {
-            "id": 4642055,
-            "login": "ComputationalMedicineLab",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/ComputationalMedicineLab",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4642055?"
-        }
-    },
-    {
-        "id": "23792689155",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 31938607,
-            "login": "johnstill",
-            "display_login": "johnstill",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/johnstill",
-            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
-        },
-        "repo": {
-            "id": 74505259,
-            "name": "slundberg/shap",
-            "url": "https://api.github.com/repos/slundberg/shap"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-02T15:58:54Z"
+        "created_at": "2022-11-13T15:12:13Z"
     },
     {
         "id": "24678838908",
@@ -299,7 +153,7 @@
         }
     },
     {
-        "id": "23792689155",
+        "id": "25224115829",
         "type": "WatchEvent",
         "actor": {
             "id": 31938607,
@@ -310,14 +164,298 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
         },
         "repo": {
-            "id": 74505259,
-            "name": "slundberg/shap",
-            "url": "https://api.github.com/repos/slundberg/shap"
+            "id": 55232127,
+            "name": "automl/ConfigSpace",
+            "url": "https://api.github.com/repos/automl/ConfigSpace"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-09-02T15:58:54Z"
+        "created_at": "2022-11-14T14:51:10Z",
+        "org": {
+            "id": 6469053,
+            "login": "automl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/automl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6469053?"
+        }
+    },
+    {
+        "id": "25204932711",
+        "type": "PushEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 126352568,
+            "name": "johnstill/dots",
+            "url": "https://api.github.com/repos/johnstill/dots"
+        },
+        "payload": {
+            "push_id": 11646306388,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "32e9895b8c2ed1164a92ffbb8ae6352873df3643",
+            "before": "32a745413801b1964c4a0b9115dc9764f3426eb6",
+            "commits": [
+                {
+                    "sha": "32e9895b8c2ed1164a92ffbb8ae6352873df3643",
+                    "author": {
+                        "email": "john.m.still@vumc.org",
+                        "name": "John Still"
+                    },
+                    "message": "Change prompt to use actual hostname instead of HOST variable bc conflict with conda",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/johnstill/dots/commits/32e9895b8c2ed1164a92ffbb8ae6352873df3643"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-13T15:12:13Z"
+    },
+    {
+        "id": "24678838908",
+        "type": "PushEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 126352568,
+            "name": "johnstill/dots",
+            "url": "https://api.github.com/repos/johnstill/dots"
+        },
+        "payload": {
+            "push_id": 11371559061,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "32a745413801b1964c4a0b9115dc9764f3426eb6",
+            "before": "94985ad4971bbcf5e2614f9b845feca5fca7a180",
+            "commits": [
+                {
+                    "sha": "32a745413801b1964c4a0b9115dc9764f3426eb6",
+                    "author": {
+                        "email": "john.m.still@vumc.org",
+                        "name": "John Still"
+                    },
+                    "message": "Add tree alias to zshrc",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/johnstill/dots/commits/32a745413801b1964c4a0b9115dc9764f3426eb6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-18T19:23:18Z"
+    },
+    {
+        "id": "24088396998",
+        "type": "PushEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 236823867,
+            "name": "ComputationalMedicineLab/cml_data_tools",
+            "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools"
+        },
+        "payload": {
+            "push_id": 11066939408,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
+            "before": "ae468a2c383d0524cb0883cc5922086389849d78",
+            "commits": [
+                {
+                    "sha": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
+                    "author": {
+                        "email": "john.m.still@vumc.org",
+                        "name": "John Still"
+                    },
+                    "message": "Add clone method to Config and easy masking methods to CurveStats",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools/commits/29dea472256282d081f5e5c238f3f9b71fb43e0b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-19T12:58:23Z",
+        "org": {
+            "id": 4642055,
+            "login": "ComputationalMedicineLab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ComputationalMedicineLab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4642055?"
+        }
+    },
+    {
+        "id": "25224115829",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 55232127,
+            "name": "automl/ConfigSpace",
+            "url": "https://api.github.com/repos/automl/ConfigSpace"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-14T14:51:10Z",
+        "org": {
+            "id": 6469053,
+            "login": "automl",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/automl",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6469053?"
+        }
+    },
+    {
+        "id": "25204932711",
+        "type": "PushEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 126352568,
+            "name": "johnstill/dots",
+            "url": "https://api.github.com/repos/johnstill/dots"
+        },
+        "payload": {
+            "push_id": 11646306388,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "32e9895b8c2ed1164a92ffbb8ae6352873df3643",
+            "before": "32a745413801b1964c4a0b9115dc9764f3426eb6",
+            "commits": [
+                {
+                    "sha": "32e9895b8c2ed1164a92ffbb8ae6352873df3643",
+                    "author": {
+                        "email": "john.m.still@vumc.org",
+                        "name": "John Still"
+                    },
+                    "message": "Change prompt to use actual hostname instead of HOST variable bc conflict with conda",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/johnstill/dots/commits/32e9895b8c2ed1164a92ffbb8ae6352873df3643"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-13T15:12:13Z"
+    },
+    {
+        "id": "24678838908",
+        "type": "PushEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 126352568,
+            "name": "johnstill/dots",
+            "url": "https://api.github.com/repos/johnstill/dots"
+        },
+        "payload": {
+            "push_id": 11371559061,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "32a745413801b1964c4a0b9115dc9764f3426eb6",
+            "before": "94985ad4971bbcf5e2614f9b845feca5fca7a180",
+            "commits": [
+                {
+                    "sha": "32a745413801b1964c4a0b9115dc9764f3426eb6",
+                    "author": {
+                        "email": "john.m.still@vumc.org",
+                        "name": "John Still"
+                    },
+                    "message": "Add tree alias to zshrc",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/johnstill/dots/commits/32a745413801b1964c4a0b9115dc9764f3426eb6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-18T19:23:18Z"
+    },
+    {
+        "id": "24088396998",
+        "type": "PushEvent",
+        "actor": {
+            "id": 31938607,
+            "login": "johnstill",
+            "display_login": "johnstill",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnstill",
+            "avatar_url": "https://avatars.githubusercontent.com/u/31938607?"
+        },
+        "repo": {
+            "id": 236823867,
+            "name": "ComputationalMedicineLab/cml_data_tools",
+            "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools"
+        },
+        "payload": {
+            "push_id": 11066939408,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
+            "before": "ae468a2c383d0524cb0883cc5922086389849d78",
+            "commits": [
+                {
+                    "sha": "29dea472256282d081f5e5c238f3f9b71fb43e0b",
+                    "author": {
+                        "email": "john.m.still@vumc.org",
+                        "name": "John Still"
+                    },
+                    "message": "Add clone method to Config and easy masking methods to CurveStats",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/ComputationalMedicineLab/cml_data_tools/commits/29dea472256282d081f5e5c238f3f9b71fb43e0b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-19T12:58:23Z",
+        "org": {
+            "id": 4642055,
+            "login": "ComputationalMedicineLab",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ComputationalMedicineLab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4642055?"
+        }
     }
 ]

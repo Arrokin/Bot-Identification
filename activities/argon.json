@@ -1,7 +1,7 @@
 [
     {
-        "id": "23536202918",
-        "type": "WatchEvent",
+        "id": "25493838648",
+        "type": "PushEvent",
         "actor": {
             "id": 107645,
             "login": "argon",
@@ -11,19 +11,206 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/107645?"
         },
         "repo": {
-            "id": 111212542,
-            "name": "VGraupera/1on1-questions",
-            "url": "https://api.github.com/repos/VGraupera/1on1-questions"
+            "id": 452796500,
+            "name": "argon/cgtcalc",
+            "url": "https://api.github.com/repos/argon/cgtcalc"
         },
         "payload": {
-            "action": "started"
+            "push_id": 11798461688,
+            "size": 18,
+            "distinct_size": 18,
+            "ref": "refs/heads/main",
+            "head": "ed2dc941c7d2f4904c384194dca573eea3ebc021",
+            "before": "ab4bd5cc060f7482d755a49d30beeeab0b942a9e",
+            "commits": [
+                {
+                    "sha": "8fc8782469596f601da1771c68f19edab6eea9af",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Switch to macOS 12 hosts for CI workflow",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/8fc8782469596f601da1771c68f19edab6eea9af"
+                },
+                {
+                    "sha": "3f486c8a5dfcfcbb0b559a8443aefb05246da526",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Bump swift-argument-parser version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3f486c8a5dfcfcbb0b559a8443aefb05246da526"
+                },
+                {
+                    "sha": "f6979b5386efccd05c1628ed90d8c22812083191",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Create a `Presenter` protocol\n\nPut `TextPresenter` behind a new protocol called `Presenter`. Then we can have other presenters, like maybe a PDF one.\n\nAlso this change allows presenters to return either a string or data. This will be useful for other non-text based presenters to allow them to return pure data. If it returns data then it can't be output to the console.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/f6979b5386efccd05c1628ed90d8c22812083191"
+                },
+                {
+                    "sha": "4791d8eebb37d37a43616b97cd433a15306e6b33",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Make tax year initialiser more explicit\n\nI always forget what the year is that the parameter refers to. So make it more explicit.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/4791d8eebb37d37a43616b97cd433a15306e6b33"
+                },
+                {
+                    "sha": "01487e7906a798c425509797de0a90f00ebf6475",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add 2022/23 tax year",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/01487e7906a798c425509797de0a90f00ebf6475"
+                },
+                {
+                    "sha": "c1916e0311d6a23950d535cb78156d018ed20338",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add more to error message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/c1916e0311d6a23950d535cb78156d018ed20338"
+                },
+                {
+                    "sha": "1681d966f2970a60f3b90c4fd6de1e031fc014dc",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add more to error message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/1681d966f2970a60f3b90c4fd6de1e031fc014dc"
+                },
+                {
+                    "sha": "3512cc341ef98238ca4dde3bdb58a8d91277dbf1",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Group same-day asset events",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3512cc341ef98238ca4dde3bdb58a8d91277dbf1"
+                },
+                {
+                    "sha": "e2a3bc20994b15fba5a19d5cd4fcc656b852184c",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Fix test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/e2a3bc20994b15fba5a19d5cd4fcc656b852184c"
+                },
+                {
+                    "sha": "3248df659104a5e02a83905eaf6173597e8311b0",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add a couple more tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3248df659104a5e02a83905eaf6173597e8311b0"
+                },
+                {
+                    "sha": "a2c51ec24d6145aa614ab0cc5b9dc07167cd2c2a",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Remove duplicated type",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/a2c51ec24d6145aa614ab0cc5b9dc07167cd2c2a"
+                },
+                {
+                    "sha": "0188f27e76ff45dfc7a347e0bae1f19448c186fb",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Show actual error in test failure",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/0188f27e76ff45dfc7a347e0bae1f19448c186fb"
+                },
+                {
+                    "sha": "83d69bf1a162ff188e04308046fa1186fefd8207",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Fix some tests that were testing the wrong thing",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/83d69bf1a162ff188e04308046fa1186fefd8207"
+                },
+                {
+                    "sha": "44002693a30d3cc4e1ed7dfe69601d678c69db39",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add test for selling more than owned with capital return & dividend events",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/44002693a30d3cc4e1ed7dfe69601d678c69db39"
+                },
+                {
+                    "sha": "1a547089412f527472c58b12af1b143fefd07b52",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Update XCTestManifests.swift",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/1a547089412f527472c58b12af1b143fefd07b52"
+                },
+                {
+                    "sha": "84090e72b39470b8bc59a80ecc5247b164e05fe3",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "No need for XCTestManifests any more",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/84090e72b39470b8bc59a80ecc5247b164e05fe3"
+                },
+                {
+                    "sha": "414adee5dd661ac1b5b17b7beacc0ccb2865122c",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Remove LinuxMain too",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/414adee5dd661ac1b5b17b7beacc0ccb2865122c"
+                },
+                {
+                    "sha": "ed2dc941c7d2f4904c384194dca573eea3ebc021",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Update to new Process() API",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/ed2dc941c7d2f4904c384194dca573eea3ebc021"
+                }
+            ]
         },
         "public": true,
-        "created_at": "2022-08-19T21:07:39Z"
+        "created_at": "2022-11-27T12:30:50Z"
     },
     {
-        "id": "23536202918",
-        "type": "WatchEvent",
+        "id": "25493838648",
+        "type": "PushEvent",
         "actor": {
             "id": 107645,
             "login": "argon",
@@ -33,19 +220,206 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/107645?"
         },
         "repo": {
-            "id": 111212542,
-            "name": "VGraupera/1on1-questions",
-            "url": "https://api.github.com/repos/VGraupera/1on1-questions"
+            "id": 452796500,
+            "name": "argon/cgtcalc",
+            "url": "https://api.github.com/repos/argon/cgtcalc"
         },
         "payload": {
-            "action": "started"
+            "push_id": 11798461688,
+            "size": 18,
+            "distinct_size": 18,
+            "ref": "refs/heads/main",
+            "head": "ed2dc941c7d2f4904c384194dca573eea3ebc021",
+            "before": "ab4bd5cc060f7482d755a49d30beeeab0b942a9e",
+            "commits": [
+                {
+                    "sha": "8fc8782469596f601da1771c68f19edab6eea9af",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Switch to macOS 12 hosts for CI workflow",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/8fc8782469596f601da1771c68f19edab6eea9af"
+                },
+                {
+                    "sha": "3f486c8a5dfcfcbb0b559a8443aefb05246da526",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Bump swift-argument-parser version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3f486c8a5dfcfcbb0b559a8443aefb05246da526"
+                },
+                {
+                    "sha": "f6979b5386efccd05c1628ed90d8c22812083191",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Create a `Presenter` protocol\n\nPut `TextPresenter` behind a new protocol called `Presenter`. Then we can have other presenters, like maybe a PDF one.\n\nAlso this change allows presenters to return either a string or data. This will be useful for other non-text based presenters to allow them to return pure data. If it returns data then it can't be output to the console.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/f6979b5386efccd05c1628ed90d8c22812083191"
+                },
+                {
+                    "sha": "4791d8eebb37d37a43616b97cd433a15306e6b33",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Make tax year initialiser more explicit\n\nI always forget what the year is that the parameter refers to. So make it more explicit.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/4791d8eebb37d37a43616b97cd433a15306e6b33"
+                },
+                {
+                    "sha": "01487e7906a798c425509797de0a90f00ebf6475",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add 2022/23 tax year",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/01487e7906a798c425509797de0a90f00ebf6475"
+                },
+                {
+                    "sha": "c1916e0311d6a23950d535cb78156d018ed20338",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add more to error message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/c1916e0311d6a23950d535cb78156d018ed20338"
+                },
+                {
+                    "sha": "1681d966f2970a60f3b90c4fd6de1e031fc014dc",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add more to error message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/1681d966f2970a60f3b90c4fd6de1e031fc014dc"
+                },
+                {
+                    "sha": "3512cc341ef98238ca4dde3bdb58a8d91277dbf1",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Group same-day asset events",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3512cc341ef98238ca4dde3bdb58a8d91277dbf1"
+                },
+                {
+                    "sha": "e2a3bc20994b15fba5a19d5cd4fcc656b852184c",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Fix test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/e2a3bc20994b15fba5a19d5cd4fcc656b852184c"
+                },
+                {
+                    "sha": "3248df659104a5e02a83905eaf6173597e8311b0",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add a couple more tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3248df659104a5e02a83905eaf6173597e8311b0"
+                },
+                {
+                    "sha": "a2c51ec24d6145aa614ab0cc5b9dc07167cd2c2a",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Remove duplicated type",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/a2c51ec24d6145aa614ab0cc5b9dc07167cd2c2a"
+                },
+                {
+                    "sha": "0188f27e76ff45dfc7a347e0bae1f19448c186fb",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Show actual error in test failure",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/0188f27e76ff45dfc7a347e0bae1f19448c186fb"
+                },
+                {
+                    "sha": "83d69bf1a162ff188e04308046fa1186fefd8207",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Fix some tests that were testing the wrong thing",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/83d69bf1a162ff188e04308046fa1186fefd8207"
+                },
+                {
+                    "sha": "44002693a30d3cc4e1ed7dfe69601d678c69db39",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add test for selling more than owned with capital return & dividend events",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/44002693a30d3cc4e1ed7dfe69601d678c69db39"
+                },
+                {
+                    "sha": "1a547089412f527472c58b12af1b143fefd07b52",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Update XCTestManifests.swift",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/1a547089412f527472c58b12af1b143fefd07b52"
+                },
+                {
+                    "sha": "84090e72b39470b8bc59a80ecc5247b164e05fe3",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "No need for XCTestManifests any more",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/84090e72b39470b8bc59a80ecc5247b164e05fe3"
+                },
+                {
+                    "sha": "414adee5dd661ac1b5b17b7beacc0ccb2865122c",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Remove LinuxMain too",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/414adee5dd661ac1b5b17b7beacc0ccb2865122c"
+                },
+                {
+                    "sha": "ed2dc941c7d2f4904c384194dca573eea3ebc021",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Update to new Process() API",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/ed2dc941c7d2f4904c384194dca573eea3ebc021"
+                }
+            ]
         },
         "public": true,
-        "created_at": "2022-08-19T21:07:39Z"
+        "created_at": "2022-11-27T12:30:50Z"
     },
     {
-        "id": "23536202918",
-        "type": "WatchEvent",
+        "id": "25493838648",
+        "type": "PushEvent",
         "actor": {
             "id": 107645,
             "login": "argon",
@@ -55,14 +429,201 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/107645?"
         },
         "repo": {
-            "id": 111212542,
-            "name": "VGraupera/1on1-questions",
-            "url": "https://api.github.com/repos/VGraupera/1on1-questions"
+            "id": 452796500,
+            "name": "argon/cgtcalc",
+            "url": "https://api.github.com/repos/argon/cgtcalc"
         },
         "payload": {
-            "action": "started"
+            "push_id": 11798461688,
+            "size": 18,
+            "distinct_size": 18,
+            "ref": "refs/heads/main",
+            "head": "ed2dc941c7d2f4904c384194dca573eea3ebc021",
+            "before": "ab4bd5cc060f7482d755a49d30beeeab0b942a9e",
+            "commits": [
+                {
+                    "sha": "8fc8782469596f601da1771c68f19edab6eea9af",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Switch to macOS 12 hosts for CI workflow",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/8fc8782469596f601da1771c68f19edab6eea9af"
+                },
+                {
+                    "sha": "3f486c8a5dfcfcbb0b559a8443aefb05246da526",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Bump swift-argument-parser version",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3f486c8a5dfcfcbb0b559a8443aefb05246da526"
+                },
+                {
+                    "sha": "f6979b5386efccd05c1628ed90d8c22812083191",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Create a `Presenter` protocol\n\nPut `TextPresenter` behind a new protocol called `Presenter`. Then we can have other presenters, like maybe a PDF one.\n\nAlso this change allows presenters to return either a string or data. This will be useful for other non-text based presenters to allow them to return pure data. If it returns data then it can't be output to the console.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/f6979b5386efccd05c1628ed90d8c22812083191"
+                },
+                {
+                    "sha": "4791d8eebb37d37a43616b97cd433a15306e6b33",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Make tax year initialiser more explicit\n\nI always forget what the year is that the parameter refers to. So make it more explicit.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/4791d8eebb37d37a43616b97cd433a15306e6b33"
+                },
+                {
+                    "sha": "01487e7906a798c425509797de0a90f00ebf6475",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add 2022/23 tax year",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/01487e7906a798c425509797de0a90f00ebf6475"
+                },
+                {
+                    "sha": "c1916e0311d6a23950d535cb78156d018ed20338",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add more to error message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/c1916e0311d6a23950d535cb78156d018ed20338"
+                },
+                {
+                    "sha": "1681d966f2970a60f3b90c4fd6de1e031fc014dc",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add more to error message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/1681d966f2970a60f3b90c4fd6de1e031fc014dc"
+                },
+                {
+                    "sha": "3512cc341ef98238ca4dde3bdb58a8d91277dbf1",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Group same-day asset events",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3512cc341ef98238ca4dde3bdb58a8d91277dbf1"
+                },
+                {
+                    "sha": "e2a3bc20994b15fba5a19d5cd4fcc656b852184c",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Fix test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/e2a3bc20994b15fba5a19d5cd4fcc656b852184c"
+                },
+                {
+                    "sha": "3248df659104a5e02a83905eaf6173597e8311b0",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add a couple more tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/3248df659104a5e02a83905eaf6173597e8311b0"
+                },
+                {
+                    "sha": "a2c51ec24d6145aa614ab0cc5b9dc07167cd2c2a",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Remove duplicated type",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/a2c51ec24d6145aa614ab0cc5b9dc07167cd2c2a"
+                },
+                {
+                    "sha": "0188f27e76ff45dfc7a347e0bae1f19448c186fb",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Show actual error in test failure",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/0188f27e76ff45dfc7a347e0bae1f19448c186fb"
+                },
+                {
+                    "sha": "83d69bf1a162ff188e04308046fa1186fefd8207",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Fix some tests that were testing the wrong thing",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/83d69bf1a162ff188e04308046fa1186fefd8207"
+                },
+                {
+                    "sha": "44002693a30d3cc4e1ed7dfe69601d678c69db39",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Add test for selling more than owned with capital return & dividend events",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/44002693a30d3cc4e1ed7dfe69601d678c69db39"
+                },
+                {
+                    "sha": "1a547089412f527472c58b12af1b143fefd07b52",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Update XCTestManifests.swift",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/1a547089412f527472c58b12af1b143fefd07b52"
+                },
+                {
+                    "sha": "84090e72b39470b8bc59a80ecc5247b164e05fe3",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "No need for XCTestManifests any more",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/84090e72b39470b8bc59a80ecc5247b164e05fe3"
+                },
+                {
+                    "sha": "414adee5dd661ac1b5b17b7beacc0ccb2865122c",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Remove LinuxMain too",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/414adee5dd661ac1b5b17b7beacc0ccb2865122c"
+                },
+                {
+                    "sha": "ed2dc941c7d2f4904c384194dca573eea3ebc021",
+                    "author": {
+                        "email": "matt@galloway.me.uk",
+                        "name": "Matt Galloway"
+                    },
+                    "message": "Update to new Process() API",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/argon/cgtcalc/commits/ed2dc941c7d2f4904c384194dca573eea3ebc021"
+                }
+            ]
         },
         "public": true,
-        "created_at": "2022-08-19T21:07:39Z"
+        "created_at": "2022-11-27T12:30:50Z"
     }
 ]

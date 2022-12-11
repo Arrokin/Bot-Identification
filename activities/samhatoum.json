@@ -1,6 +1,6 @@
 [
     {
-        "id": "24360634323",
+        "id": "25567469574",
         "type": "WatchEvent",
         "actor": {
             "id": 2021955,
@@ -11,19 +11,145 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
         },
         "repo": {
-            "id": 537303562,
-            "name": "leeoniya/uFuzzy",
-            "url": "https://api.github.com/repos/leeoniya/uFuzzy"
+            "id": 76679496,
+            "name": "kuchin/awesome-cto",
+            "url": "https://api.github.com/repos/kuchin/awesome-cto"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-10-03T11:22:47Z"
+        "created_at": "2022-11-30T15:15:51Z"
     },
     {
-        "id": "24054117452",
-        "type": "PushEvent",
+        "id": "25556443621",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 121687756,
+            "name": "bencompton/jest-cucumber",
+            "url": "https://api.github.com/repos/bencompton/jest-cucumber"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168",
+                "repository_url": "https://api.github.com/repos/bencompton/jest-cucumber",
+                "labels_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/comments",
+                "events_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/events",
+                "html_url": "https://github.com/bencompton/jest-cucumber/issues/168",
+                "id": 1469153516,
+                "node_id": "I_kwDOB0DOzM5XkYDs",
+                "number": 168,
+                "title": "Is there an after all features hook?",
+                "user": {
+                    "login": "samhatoum",
+                    "id": 2021955,
+                    "node_id": "MDQ6VXNlcjIwMjE5NTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2021955?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samhatoum",
+                    "html_url": "https://github.com/samhatoum",
+                    "followers_url": "https://api.github.com/users/samhatoum/followers",
+                    "following_url": "https://api.github.com/users/samhatoum/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samhatoum/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samhatoum/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samhatoum/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samhatoum/orgs",
+                    "repos_url": "https://api.github.com/users/samhatoum/repos",
+                    "events_url": "https://api.github.com/users/samhatoum/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samhatoum/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-30T07:10:54Z",
+                "updated_at": "2022-11-30T07:10:54Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I would like to close down some streams as to let the testing process finish. Is there a way to do this where I don't have to create/close connections between every test?\r\n\r\nThanks!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T07:10:55Z"
+    },
+    {
+        "id": "25543896026",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 223624908,
+            "name": "kmathy/cerializr",
+            "url": "https://api.github.com/repos/kmathy/cerializr"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-29T17:11:08Z"
+    },
+    {
+        "id": "25487950701",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 455352641,
+            "name": "ValeriaVG/xksuid",
+            "url": "https://api.github.com/repos/ValeriaVG/xksuid"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T17:13:20Z"
+    },
+    {
+        "id": "25309138040",
+        "type": "WatchEvent",
         "actor": {
             "id": 2021955,
             "login": "samhatoum",
@@ -38,27 +164,10 @@
             "url": "https://api.github.com/repos/xolvio/typescript-event-sourcing"
         },
         "payload": {
-            "push_id": 11046669854,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "38c7c478c6b2212e806e99a21fa8c268fd31185d",
-            "before": "fa512b934b7ffa631b4ef47b76153e8b5e0ee5a6",
-            "commits": [
-                {
-                    "sha": "38c7c478c6b2212e806e99a21fa8c268fd31185d",
-                    "author": {
-                        "email": "samhatoum@users.noreply.github.com",
-                        "name": "Sam Hatoum"
-                    },
-                    "message": "Update README.md",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/xolvio/typescript-event-sourcing/commits/38c7c478c6b2212e806e99a21fa8c268fd31185d"
-                }
-            ]
+            "action": "started"
         },
         "public": true,
-        "created_at": "2022-09-16T15:13:28Z",
+        "created_at": "2022-11-17T16:09:05Z",
         "org": {
             "id": 2638034,
             "login": "xolvio",
@@ -127,6 +236,428 @@
         },
         "public": true,
         "created_at": "2022-09-16T15:13:28Z",
+        "org": {
+            "id": 2638034,
+            "login": "xolvio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xolvio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2638034?"
+        }
+    },
+    {
+        "id": "25567469574",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 76679496,
+            "name": "kuchin/awesome-cto",
+            "url": "https://api.github.com/repos/kuchin/awesome-cto"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-30T15:15:51Z"
+    },
+    {
+        "id": "25556443621",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 121687756,
+            "name": "bencompton/jest-cucumber",
+            "url": "https://api.github.com/repos/bencompton/jest-cucumber"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168",
+                "repository_url": "https://api.github.com/repos/bencompton/jest-cucumber",
+                "labels_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/comments",
+                "events_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/events",
+                "html_url": "https://github.com/bencompton/jest-cucumber/issues/168",
+                "id": 1469153516,
+                "node_id": "I_kwDOB0DOzM5XkYDs",
+                "number": 168,
+                "title": "Is there an after all features hook?",
+                "user": {
+                    "login": "samhatoum",
+                    "id": 2021955,
+                    "node_id": "MDQ6VXNlcjIwMjE5NTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2021955?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samhatoum",
+                    "html_url": "https://github.com/samhatoum",
+                    "followers_url": "https://api.github.com/users/samhatoum/followers",
+                    "following_url": "https://api.github.com/users/samhatoum/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samhatoum/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samhatoum/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samhatoum/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samhatoum/orgs",
+                    "repos_url": "https://api.github.com/users/samhatoum/repos",
+                    "events_url": "https://api.github.com/users/samhatoum/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samhatoum/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-30T07:10:54Z",
+                "updated_at": "2022-11-30T07:10:54Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I would like to close down some streams as to let the testing process finish. Is there a way to do this where I don't have to create/close connections between every test?\r\n\r\nThanks!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T07:10:55Z"
+    },
+    {
+        "id": "25543896026",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 223624908,
+            "name": "kmathy/cerializr",
+            "url": "https://api.github.com/repos/kmathy/cerializr"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-29T17:11:08Z"
+    },
+    {
+        "id": "25487950701",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 455352641,
+            "name": "ValeriaVG/xksuid",
+            "url": "https://api.github.com/repos/ValeriaVG/xksuid"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T17:13:20Z"
+    },
+    {
+        "id": "25309138040",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 262815165,
+            "name": "xolvio/typescript-event-sourcing",
+            "url": "https://api.github.com/repos/xolvio/typescript-event-sourcing"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-17T16:09:05Z",
+        "org": {
+            "id": 2638034,
+            "login": "xolvio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xolvio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2638034?"
+        }
+    },
+    {
+        "id": "24360634323",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 537303562,
+            "name": "leeoniya/uFuzzy",
+            "url": "https://api.github.com/repos/leeoniya/uFuzzy"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-03T11:22:47Z"
+    },
+    {
+        "id": "24054117452",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 262815165,
+            "name": "xolvio/typescript-event-sourcing",
+            "url": "https://api.github.com/repos/xolvio/typescript-event-sourcing"
+        },
+        "payload": {
+            "push_id": 11046669854,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "38c7c478c6b2212e806e99a21fa8c268fd31185d",
+            "before": "fa512b934b7ffa631b4ef47b76153e8b5e0ee5a6",
+            "commits": [
+                {
+                    "sha": "38c7c478c6b2212e806e99a21fa8c268fd31185d",
+                    "author": {
+                        "email": "samhatoum@users.noreply.github.com",
+                        "name": "Sam Hatoum"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/xolvio/typescript-event-sourcing/commits/38c7c478c6b2212e806e99a21fa8c268fd31185d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-16T15:13:28Z",
+        "org": {
+            "id": 2638034,
+            "login": "xolvio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/xolvio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2638034?"
+        }
+    },
+    {
+        "id": "25567469574",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 76679496,
+            "name": "kuchin/awesome-cto",
+            "url": "https://api.github.com/repos/kuchin/awesome-cto"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-30T15:15:51Z"
+    },
+    {
+        "id": "25556443621",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 121687756,
+            "name": "bencompton/jest-cucumber",
+            "url": "https://api.github.com/repos/bencompton/jest-cucumber"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168",
+                "repository_url": "https://api.github.com/repos/bencompton/jest-cucumber",
+                "labels_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/labels{/name}",
+                "comments_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/comments",
+                "events_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/events",
+                "html_url": "https://github.com/bencompton/jest-cucumber/issues/168",
+                "id": 1469153516,
+                "node_id": "I_kwDOB0DOzM5XkYDs",
+                "number": 168,
+                "title": "Is there an after all features hook?",
+                "user": {
+                    "login": "samhatoum",
+                    "id": 2021955,
+                    "node_id": "MDQ6VXNlcjIwMjE5NTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2021955?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/samhatoum",
+                    "html_url": "https://github.com/samhatoum",
+                    "followers_url": "https://api.github.com/users/samhatoum/followers",
+                    "following_url": "https://api.github.com/users/samhatoum/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/samhatoum/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/samhatoum/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/samhatoum/subscriptions",
+                    "organizations_url": "https://api.github.com/users/samhatoum/orgs",
+                    "repos_url": "https://api.github.com/users/samhatoum/repos",
+                    "events_url": "https://api.github.com/users/samhatoum/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/samhatoum/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-30T07:10:54Z",
+                "updated_at": "2022-11-30T07:10:54Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I would like to close down some streams as to let the testing process finish. Is there a way to do this where I don't have to create/close connections between every test?\r\n\r\nThanks!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/bencompton/jest-cucumber/issues/168/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T07:10:55Z"
+    },
+    {
+        "id": "25543896026",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 223624908,
+            "name": "kmathy/cerializr",
+            "url": "https://api.github.com/repos/kmathy/cerializr"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-29T17:11:08Z"
+    },
+    {
+        "id": "25487950701",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 455352641,
+            "name": "ValeriaVG/xksuid",
+            "url": "https://api.github.com/repos/ValeriaVG/xksuid"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T17:13:20Z"
+    },
+    {
+        "id": "25309138040",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 2021955,
+            "login": "samhatoum",
+            "display_login": "samhatoum",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/samhatoum",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2021955?"
+        },
+        "repo": {
+            "id": 262815165,
+            "name": "xolvio/typescript-event-sourcing",
+            "url": "https://api.github.com/repos/xolvio/typescript-event-sourcing"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-17T16:09:05Z",
         "org": {
             "id": 2638034,
             "login": "xolvio",

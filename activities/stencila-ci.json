@@ -1,1 +1,824 @@
-[]
+[
+    {
+        "id": "25367591814",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731748622,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/gh-pages",
+            "head": "8cabf8266e742eecebe26d53a3fca79bfab64fea",
+            "before": "5c6b674396e96b751c7265a513854db580cce61c",
+            "commits": [
+                {
+                    "sha": "8cabf8266e742eecebe26d53a3fca79bfab64fea",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "docs updated v0.119.6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/8cabf8266e742eecebe26d53a3fca79bfab64fea"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:04:47Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367590121",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/stencila/encoda/releases/83715818",
+                "assets_url": "https://api.github.com/repos/stencila/encoda/releases/83715818/assets",
+                "upload_url": "https://uploads.github.com/repos/stencila/encoda/releases/83715818/assets{?name,label}",
+                "html_url": "https://github.com/stencila/encoda/releases/tag/v0.119.6",
+                "id": 83715818,
+                "author": {
+                    "login": "stencila-ci",
+                    "id": 2062227,
+                    "node_id": "MDQ6VXNlcjIwNjIyMjc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2062227?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/stencila-ci",
+                    "html_url": "https://github.com/stencila-ci",
+                    "followers_url": "https://api.github.com/users/stencila-ci/followers",
+                    "following_url": "https://api.github.com/users/stencila-ci/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/stencila-ci/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/stencila-ci/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/stencila-ci/subscriptions",
+                    "organizations_url": "https://api.github.com/users/stencila-ci/orgs",
+                    "repos_url": "https://api.github.com/users/stencila-ci/repos",
+                    "events_url": "https://api.github.com/users/stencila-ci/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/stencila-ci/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOBpYHWs4E_Wbq",
+                "tag_name": "v0.119.6",
+                "target_commitish": "master",
+                "name": "v0.119.6",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T08:03:13Z",
+                "published_at": "2022-11-21T08:04:42Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/stencila/encoda/tarball/v0.119.6",
+                "zipball_url": "https://api.github.com/repos/stencila/encoda/zipball/v0.119.6",
+                "body": "## [0.119.6](https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6) (2022-11-21)\n\n\n### Bug Fixes\n\n* **Release:** Fix release build ([67648c6](https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39))\n\n\n\n",
+                "short_description_html": "<h2>\n<a href=\"https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6\">0.119.6</a> (2022-11-21)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>\n<strong>Release:</strong> Fix release build (<a href=\"https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39\">67648c6</a>)</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:04:42Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367562090",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "ref": "v0.119.6",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "\u2194\ufe0f Stencila plugin for format conversions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:03:16Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367561688",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731734115,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "cc4b20f911e171c62e2825f1407fdaf6b314d45f",
+            "before": "67648c64e35359e5a0fa49dc2d4af64924bf7a39",
+            "commits": [
+                {
+                    "sha": "cc4b20f911e171c62e2825f1407fdaf6b314d45f",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "chore(release): 0.119.6 [skip ci]\n\n## [0.119.6](https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6) (2022-11-21)\n\n### Bug Fixes\n\n* **Release:** Fix release build ([67648c6](https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39))",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/cc4b20f911e171c62e2825f1407fdaf6b314d45f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:03:15Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367049060",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "ref": "v0.119.5",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "\u2194\ufe0f Stencila plugin for format conversions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T07:33:56Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367048749",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731474309,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "13786bbb82280223504acb02e9ddf5302567b816",
+            "before": "d6ac4b965aff56ff505e52f07155a25ad3eb6909",
+            "commits": [
+                {
+                    "sha": "13786bbb82280223504acb02e9ddf5302567b816",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "chore(release): 0.119.5 [skip ci]\n\n## [0.119.5](https://github.com/stencila/encoda/compare/v0.119.4...v0.119.5) (2022-11-21)\n\n### Bug Fixes\n\n* **Build:** Reinstate install script ([b7fe89c](https://github.com/stencila/encoda/commit/b7fe89c5a68af444618fa71c92ee0987fa68bce2))\n* **Convert function:** Do not default to outputting to stdout when `outputPaths` is undefined ([0349fbf](https://github.com/stencila/encoda/commit/0349fbf354a4c895b9f39ccea18dda093663a731))\n* **Convert function:** Return content when no output path defined ([0ea7388](https://github.com/stencila/encoda/commit/0ea73882f907802559b6713b187140bb0371452c))\n* **Dependencies:** Minor version upgrades of dependencies ([db7d7dd](https://github.com/stencila/encoda/commit/db7d7dd55fba8f6a414b82bdf9e55efc44291ec9))\n* **Dependencies:** Updates with `npm audit fix` ([d717531](https://github.com/stencila/encoda/commit/d717531c534f157f02674da8cfd03cb351a9fee8))\n* Fix typings (mostly to do with `Error`) and update some dev dependencies ([fa1fad9](https://github.com/stencila/encoda/commit/fa1fad9fb50e52c28caeee9de06113e0344b5a59))\n* **JATS:** Also decode `<string-name>` elements as authors ([83086a3](https://github.com/stencila/encoda/commit/83086a3fce36926417cc0504860f1b0c777cd544))\n* **JATS:** Decode `<table-wap>` with `<graphic>` to a `Figure` ([dc48537](https://github.com/stencila/encoda/commit/dc48537e2ad16a58da9a987882eb5413957f22f2))\n* **JATS:** Decode backmatter sections; convert all caps headings to sentence case ([79ed21f](https://github.com/stencila/encoda/commit/79ed21f477329e599f2161851940cb3b5849a483))\n* **JATS:** Extract acknowledgements from `<back>` ([e5c9db2](https://github.com/stencila/encoda/commit/e5c9db22d0b70956c1ea7e698dda3d8f2a2e88f4))\n* **JATS:** Extract author ORCIDs ([3e161c5](https://github.com/stencila/encoda/commit/3e161c5e7fbcb5c1918d4750317725dcec9a1d83))\n* **JATS:** Follow `xref`s to `corresp` element to capture corresponding author emails ([d3e0057](https://github.com/stencila/encoda/commit/d3e0057232eb1c26c75d053a6d11669d9feb053a))\n* **JATS:** Insert `ThematicBreak` before back sections ([5971de5](https://github.com/stencila/encoda/commit/5971de5b9d8f7f03be2fcec8093dbf548282c713))\n* **JATS:** Match corresponding email to author name/s ([3effdaf](https://github.com/stencila/encoda/commit/3effdaf392c76e05a7b288224a3c483c4327444d))\n* **Release:** Install missing release dependencies ([d6ac4b9](https://github.com/stencila/encoda/commit/d6ac4b965aff56ff505e52f07155a25ad3eb6909))",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/13786bbb82280223504acb02e9ddf5302567b816"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T07:33:54Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367591814",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731748622,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/gh-pages",
+            "head": "8cabf8266e742eecebe26d53a3fca79bfab64fea",
+            "before": "5c6b674396e96b751c7265a513854db580cce61c",
+            "commits": [
+                {
+                    "sha": "8cabf8266e742eecebe26d53a3fca79bfab64fea",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "docs updated v0.119.6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/8cabf8266e742eecebe26d53a3fca79bfab64fea"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:04:47Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367590121",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/stencila/encoda/releases/83715818",
+                "assets_url": "https://api.github.com/repos/stencila/encoda/releases/83715818/assets",
+                "upload_url": "https://uploads.github.com/repos/stencila/encoda/releases/83715818/assets{?name,label}",
+                "html_url": "https://github.com/stencila/encoda/releases/tag/v0.119.6",
+                "id": 83715818,
+                "author": {
+                    "login": "stencila-ci",
+                    "id": 2062227,
+                    "node_id": "MDQ6VXNlcjIwNjIyMjc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2062227?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/stencila-ci",
+                    "html_url": "https://github.com/stencila-ci",
+                    "followers_url": "https://api.github.com/users/stencila-ci/followers",
+                    "following_url": "https://api.github.com/users/stencila-ci/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/stencila-ci/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/stencila-ci/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/stencila-ci/subscriptions",
+                    "organizations_url": "https://api.github.com/users/stencila-ci/orgs",
+                    "repos_url": "https://api.github.com/users/stencila-ci/repos",
+                    "events_url": "https://api.github.com/users/stencila-ci/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/stencila-ci/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOBpYHWs4E_Wbq",
+                "tag_name": "v0.119.6",
+                "target_commitish": "master",
+                "name": "v0.119.6",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T08:03:13Z",
+                "published_at": "2022-11-21T08:04:42Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/stencila/encoda/tarball/v0.119.6",
+                "zipball_url": "https://api.github.com/repos/stencila/encoda/zipball/v0.119.6",
+                "body": "## [0.119.6](https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6) (2022-11-21)\n\n\n### Bug Fixes\n\n* **Release:** Fix release build ([67648c6](https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39))\n\n\n\n",
+                "short_description_html": "<h2>\n<a href=\"https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6\">0.119.6</a> (2022-11-21)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>\n<strong>Release:</strong> Fix release build (<a href=\"https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39\">67648c6</a>)</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:04:42Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367562090",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "ref": "v0.119.6",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "\u2194\ufe0f Stencila plugin for format conversions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:03:16Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367561688",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731734115,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "cc4b20f911e171c62e2825f1407fdaf6b314d45f",
+            "before": "67648c64e35359e5a0fa49dc2d4af64924bf7a39",
+            "commits": [
+                {
+                    "sha": "cc4b20f911e171c62e2825f1407fdaf6b314d45f",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "chore(release): 0.119.6 [skip ci]\n\n## [0.119.6](https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6) (2022-11-21)\n\n### Bug Fixes\n\n* **Release:** Fix release build ([67648c6](https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39))",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/cc4b20f911e171c62e2825f1407fdaf6b314d45f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:03:15Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367049060",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "ref": "v0.119.5",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "\u2194\ufe0f Stencila plugin for format conversions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T07:33:56Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367048749",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731474309,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "13786bbb82280223504acb02e9ddf5302567b816",
+            "before": "d6ac4b965aff56ff505e52f07155a25ad3eb6909",
+            "commits": [
+                {
+                    "sha": "13786bbb82280223504acb02e9ddf5302567b816",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "chore(release): 0.119.5 [skip ci]\n\n## [0.119.5](https://github.com/stencila/encoda/compare/v0.119.4...v0.119.5) (2022-11-21)\n\n### Bug Fixes\n\n* **Build:** Reinstate install script ([b7fe89c](https://github.com/stencila/encoda/commit/b7fe89c5a68af444618fa71c92ee0987fa68bce2))\n* **Convert function:** Do not default to outputting to stdout when `outputPaths` is undefined ([0349fbf](https://github.com/stencila/encoda/commit/0349fbf354a4c895b9f39ccea18dda093663a731))\n* **Convert function:** Return content when no output path defined ([0ea7388](https://github.com/stencila/encoda/commit/0ea73882f907802559b6713b187140bb0371452c))\n* **Dependencies:** Minor version upgrades of dependencies ([db7d7dd](https://github.com/stencila/encoda/commit/db7d7dd55fba8f6a414b82bdf9e55efc44291ec9))\n* **Dependencies:** Updates with `npm audit fix` ([d717531](https://github.com/stencila/encoda/commit/d717531c534f157f02674da8cfd03cb351a9fee8))\n* Fix typings (mostly to do with `Error`) and update some dev dependencies ([fa1fad9](https://github.com/stencila/encoda/commit/fa1fad9fb50e52c28caeee9de06113e0344b5a59))\n* **JATS:** Also decode `<string-name>` elements as authors ([83086a3](https://github.com/stencila/encoda/commit/83086a3fce36926417cc0504860f1b0c777cd544))\n* **JATS:** Decode `<table-wap>` with `<graphic>` to a `Figure` ([dc48537](https://github.com/stencila/encoda/commit/dc48537e2ad16a58da9a987882eb5413957f22f2))\n* **JATS:** Decode backmatter sections; convert all caps headings to sentence case ([79ed21f](https://github.com/stencila/encoda/commit/79ed21f477329e599f2161851940cb3b5849a483))\n* **JATS:** Extract acknowledgements from `<back>` ([e5c9db2](https://github.com/stencila/encoda/commit/e5c9db22d0b70956c1ea7e698dda3d8f2a2e88f4))\n* **JATS:** Extract author ORCIDs ([3e161c5](https://github.com/stencila/encoda/commit/3e161c5e7fbcb5c1918d4750317725dcec9a1d83))\n* **JATS:** Follow `xref`s to `corresp` element to capture corresponding author emails ([d3e0057](https://github.com/stencila/encoda/commit/d3e0057232eb1c26c75d053a6d11669d9feb053a))\n* **JATS:** Insert `ThematicBreak` before back sections ([5971de5](https://github.com/stencila/encoda/commit/5971de5b9d8f7f03be2fcec8093dbf548282c713))\n* **JATS:** Match corresponding email to author name/s ([3effdaf](https://github.com/stencila/encoda/commit/3effdaf392c76e05a7b288224a3c483c4327444d))\n* **Release:** Install missing release dependencies ([d6ac4b9](https://github.com/stencila/encoda/commit/d6ac4b965aff56ff505e52f07155a25ad3eb6909))",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/13786bbb82280223504acb02e9ddf5302567b816"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T07:33:54Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367591814",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731748622,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/gh-pages",
+            "head": "8cabf8266e742eecebe26d53a3fca79bfab64fea",
+            "before": "5c6b674396e96b751c7265a513854db580cce61c",
+            "commits": [
+                {
+                    "sha": "8cabf8266e742eecebe26d53a3fca79bfab64fea",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "docs updated v0.119.6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/8cabf8266e742eecebe26d53a3fca79bfab64fea"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:04:47Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367590121",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/stencila/encoda/releases/83715818",
+                "assets_url": "https://api.github.com/repos/stencila/encoda/releases/83715818/assets",
+                "upload_url": "https://uploads.github.com/repos/stencila/encoda/releases/83715818/assets{?name,label}",
+                "html_url": "https://github.com/stencila/encoda/releases/tag/v0.119.6",
+                "id": 83715818,
+                "author": {
+                    "login": "stencila-ci",
+                    "id": 2062227,
+                    "node_id": "MDQ6VXNlcjIwNjIyMjc=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2062227?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/stencila-ci",
+                    "html_url": "https://github.com/stencila-ci",
+                    "followers_url": "https://api.github.com/users/stencila-ci/followers",
+                    "following_url": "https://api.github.com/users/stencila-ci/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/stencila-ci/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/stencila-ci/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/stencila-ci/subscriptions",
+                    "organizations_url": "https://api.github.com/users/stencila-ci/orgs",
+                    "repos_url": "https://api.github.com/users/stencila-ci/repos",
+                    "events_url": "https://api.github.com/users/stencila-ci/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/stencila-ci/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOBpYHWs4E_Wbq",
+                "tag_name": "v0.119.6",
+                "target_commitish": "master",
+                "name": "v0.119.6",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T08:03:13Z",
+                "published_at": "2022-11-21T08:04:42Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/stencila/encoda/tarball/v0.119.6",
+                "zipball_url": "https://api.github.com/repos/stencila/encoda/zipball/v0.119.6",
+                "body": "## [0.119.6](https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6) (2022-11-21)\n\n\n### Bug Fixes\n\n* **Release:** Fix release build ([67648c6](https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39))\n\n\n\n",
+                "short_description_html": "<h2>\n<a href=\"https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6\">0.119.6</a> (2022-11-21)</h2>\n<h3>Bug Fixes</h3>\n<ul>\n<li>\n<strong>Release:</strong> Fix release build (<a href=\"https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39\">67648c6</a>)</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:04:42Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367562090",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "ref": "v0.119.6",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "\u2194\ufe0f Stencila plugin for format conversions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:03:16Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367561688",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731734115,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "cc4b20f911e171c62e2825f1407fdaf6b314d45f",
+            "before": "67648c64e35359e5a0fa49dc2d4af64924bf7a39",
+            "commits": [
+                {
+                    "sha": "cc4b20f911e171c62e2825f1407fdaf6b314d45f",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "chore(release): 0.119.6 [skip ci]\n\n## [0.119.6](https://github.com/stencila/encoda/compare/v0.119.5...v0.119.6) (2022-11-21)\n\n### Bug Fixes\n\n* **Release:** Fix release build ([67648c6](https://github.com/stencila/encoda/commit/67648c64e35359e5a0fa49dc2d4af64924bf7a39))",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/cc4b20f911e171c62e2825f1407fdaf6b314d45f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T08:03:15Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367049060",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "ref": "v0.119.5",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "\u2194\ufe0f Stencila plugin for format conversions",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T07:33:56Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    },
+    {
+        "id": "25367048749",
+        "type": "PushEvent",
+        "actor": {
+            "id": 2062227,
+            "login": "stencila-ci",
+            "display_login": "stencila-ci",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stencila-ci",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2062227?"
+        },
+        "repo": {
+            "id": 110495578,
+            "name": "stencila/encoda",
+            "url": "https://api.github.com/repos/stencila/encoda"
+        },
+        "payload": {
+            "push_id": 11731474309,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "13786bbb82280223504acb02e9ddf5302567b816",
+            "before": "d6ac4b965aff56ff505e52f07155a25ad3eb6909",
+            "commits": [
+                {
+                    "sha": "13786bbb82280223504acb02e9ddf5302567b816",
+                    "author": {
+                        "email": "ci@stenci.la",
+                        "name": "Stencila CI Bot"
+                    },
+                    "message": "chore(release): 0.119.5 [skip ci]\n\n## [0.119.5](https://github.com/stencila/encoda/compare/v0.119.4...v0.119.5) (2022-11-21)\n\n### Bug Fixes\n\n* **Build:** Reinstate install script ([b7fe89c](https://github.com/stencila/encoda/commit/b7fe89c5a68af444618fa71c92ee0987fa68bce2))\n* **Convert function:** Do not default to outputting to stdout when `outputPaths` is undefined ([0349fbf](https://github.com/stencila/encoda/commit/0349fbf354a4c895b9f39ccea18dda093663a731))\n* **Convert function:** Return content when no output path defined ([0ea7388](https://github.com/stencila/encoda/commit/0ea73882f907802559b6713b187140bb0371452c))\n* **Dependencies:** Minor version upgrades of dependencies ([db7d7dd](https://github.com/stencila/encoda/commit/db7d7dd55fba8f6a414b82bdf9e55efc44291ec9))\n* **Dependencies:** Updates with `npm audit fix` ([d717531](https://github.com/stencila/encoda/commit/d717531c534f157f02674da8cfd03cb351a9fee8))\n* Fix typings (mostly to do with `Error`) and update some dev dependencies ([fa1fad9](https://github.com/stencila/encoda/commit/fa1fad9fb50e52c28caeee9de06113e0344b5a59))\n* **JATS:** Also decode `<string-name>` elements as authors ([83086a3](https://github.com/stencila/encoda/commit/83086a3fce36926417cc0504860f1b0c777cd544))\n* **JATS:** Decode `<table-wap>` with `<graphic>` to a `Figure` ([dc48537](https://github.com/stencila/encoda/commit/dc48537e2ad16a58da9a987882eb5413957f22f2))\n* **JATS:** Decode backmatter sections; convert all caps headings to sentence case ([79ed21f](https://github.com/stencila/encoda/commit/79ed21f477329e599f2161851940cb3b5849a483))\n* **JATS:** Extract acknowledgements from `<back>` ([e5c9db2](https://github.com/stencila/encoda/commit/e5c9db22d0b70956c1ea7e698dda3d8f2a2e88f4))\n* **JATS:** Extract author ORCIDs ([3e161c5](https://github.com/stencila/encoda/commit/3e161c5e7fbcb5c1918d4750317725dcec9a1d83))\n* **JATS:** Follow `xref`s to `corresp` element to capture corresponding author emails ([d3e0057](https://github.com/stencila/encoda/commit/d3e0057232eb1c26c75d053a6d11669d9feb053a))\n* **JATS:** Insert `ThematicBreak` before back sections ([5971de5](https://github.com/stencila/encoda/commit/5971de5b9d8f7f03be2fcec8093dbf548282c713))\n* **JATS:** Match corresponding email to author name/s ([3effdaf](https://github.com/stencila/encoda/commit/3effdaf392c76e05a7b288224a3c483c4327444d))\n* **Release:** Install missing release dependencies ([d6ac4b9](https://github.com/stencila/encoda/commit/d6ac4b965aff56ff505e52f07155a25ad3eb6909))",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stencila/encoda/commits/13786bbb82280223504acb02e9ddf5302567b816"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T07:33:54Z",
+        "org": {
+            "id": 732692,
+            "login": "stencila",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/stencila",
+            "avatar_url": "https://avatars.githubusercontent.com/u/732692?"
+        }
+    }
+]

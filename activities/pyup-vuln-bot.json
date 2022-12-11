@@ -1,6 +1,6 @@
 [
     {
-        "id": "24949977715",
+        "id": "25582254096",
         "type": "PushEvent",
         "actor": {
             "id": 22832786,
@@ -16,27 +16,27 @@
             "url": "https://api.github.com/repos/pyupio/safety-db"
         },
         "payload": {
-            "push_id": 11512991128,
+            "push_id": 11843707317,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "d440ab59ed8e4be3beacd4165ba3eb12ef3dc527",
-            "before": "02621502f0d44b0623a7cc5d738db2cc440ac2ed",
+            "head": "72031f3ca6f60141024d6ad1f64e652b717bd996",
+            "before": "ea7d3d82209f3ab36a370f0419de240df74be45a",
             "commits": [
                 {
-                    "sha": "d440ab59ed8e4be3beacd4165ba3eb12ef3dc527",
+                    "sha": "72031f3ca6f60141024d6ad1f64e652b717bd996",
                     "author": {
                         "email": "vuln-bot@pyup.io",
                         "name": "pyup.io vuln bot"
                     },
-                    "message": "november update",
+                    "message": "december update",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/d440ab59ed8e4be3beacd4165ba3eb12ef3dc527"
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/72031f3ca6f60141024d6ad1f64e652b717bd996"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-11-01T06:00:27Z",
+        "created_at": "2022-12-01T06:00:29Z",
         "org": {
             "id": 16113910,
             "login": "pyupio",
@@ -46,7 +46,7 @@
         }
     },
     {
-        "id": "24949977617",
+        "id": "25582253868",
         "type": "PushEvent",
         "actor": {
             "id": 22832786,
@@ -62,303 +62,27 @@
             "url": "https://api.github.com/repos/pyupio/safety-db"
         },
         "payload": {
-            "push_id": 11512991050,
+            "push_id": 11843707204,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "02621502f0d44b0623a7cc5d738db2cc440ac2ed",
-            "before": "34bbb01d71a6850216a3407faa4c2b99c833e46a",
+            "head": "ea7d3d82209f3ab36a370f0419de240df74be45a",
+            "before": "d440ab59ed8e4be3beacd4165ba3eb12ef3dc527",
             "commits": [
                 {
-                    "sha": "02621502f0d44b0623a7cc5d738db2cc440ac2ed",
+                    "sha": "ea7d3d82209f3ab36a370f0419de240df74be45a",
                     "author": {
                         "email": "vuln-bot@pyup.io",
                         "name": "pyup.io vuln bot"
                     },
-                    "message": "november update",
+                    "message": "december update",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/02621502f0d44b0623a7cc5d738db2cc440ac2ed"
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/ea7d3d82209f3ab36a370f0419de240df74be45a"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-11-01T06:00:26Z",
-        "org": {
-            "id": 16113910,
-            "login": "pyupio",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/pyupio",
-            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
-        }
-    },
-    {
-        "id": "24370596787",
-        "type": "PushEvent",
-        "actor": {
-            "id": 22832786,
-            "login": "pyup-vuln-bot",
-            "display_login": "pyup-vuln-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/pyup-vuln-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
-        },
-        "repo": {
-            "id": 70887007,
-            "name": "pyupio/safety-db",
-            "url": "https://api.github.com/repos/pyupio/safety-db"
-        },
-        "payload": {
-            "push_id": 11212333110,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "34bbb01d71a6850216a3407faa4c2b99c833e46a",
-            "before": "7919d30c2e31169aace9697c5ddc49adc1981f00",
-            "commits": [
-                {
-                    "sha": "34bbb01d71a6850216a3407faa4c2b99c833e46a",
-                    "author": {
-                        "email": "vuln-bot@pyup.io",
-                        "name": "pyup.io vuln bot"
-                    },
-                    "message": "october update",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/34bbb01d71a6850216a3407faa4c2b99c833e46a"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-03T18:55:37Z",
-        "org": {
-            "id": 16113910,
-            "login": "pyupio",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/pyupio",
-            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
-        }
-    },
-    {
-        "id": "24370596390",
-        "type": "PushEvent",
-        "actor": {
-            "id": 22832786,
-            "login": "pyup-vuln-bot",
-            "display_login": "pyup-vuln-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/pyup-vuln-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
-        },
-        "repo": {
-            "id": 70887007,
-            "name": "pyupio/safety-db",
-            "url": "https://api.github.com/repos/pyupio/safety-db"
-        },
-        "payload": {
-            "push_id": 11212332940,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "7919d30c2e31169aace9697c5ddc49adc1981f00",
-            "before": "33c105e4dd299c9773f6853f32dc6597c75aeb61",
-            "commits": [
-                {
-                    "sha": "7919d30c2e31169aace9697c5ddc49adc1981f00",
-                    "author": {
-                        "email": "vuln-bot@pyup.io",
-                        "name": "pyup.io vuln bot"
-                    },
-                    "message": "october update",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/7919d30c2e31169aace9697c5ddc49adc1981f00"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-03T18:55:35Z",
-        "org": {
-            "id": 16113910,
-            "login": "pyupio",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/pyupio",
-            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
-        }
-    },
-    {
-        "id": "24336474997",
-        "type": "PushEvent",
-        "actor": {
-            "id": 22832786,
-            "login": "pyup-vuln-bot",
-            "display_login": "pyup-vuln-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/pyup-vuln-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
-        },
-        "repo": {
-            "id": 70887007,
-            "name": "pyupio/safety-db",
-            "url": "https://api.github.com/repos/pyupio/safety-db"
-        },
-        "payload": {
-            "push_id": 11193385384,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "33c105e4dd299c9773f6853f32dc6597c75aeb61",
-            "before": "e582a03665fde14b58dd247b5d33aa4c0f0832e5",
-            "commits": [
-                {
-                    "sha": "33c105e4dd299c9773f6853f32dc6597c75aeb61",
-                    "author": {
-                        "email": "vuln-bot@pyup.io",
-                        "name": "pyup.io vuln bot"
-                    },
-                    "message": "october update",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/33c105e4dd299c9773f6853f32dc6597c75aeb61"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-01T06:00:28Z",
-        "org": {
-            "id": 16113910,
-            "login": "pyupio",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/pyupio",
-            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
-        }
-    },
-    {
-        "id": "24336474924",
-        "type": "PushEvent",
-        "actor": {
-            "id": 22832786,
-            "login": "pyup-vuln-bot",
-            "display_login": "pyup-vuln-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/pyup-vuln-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
-        },
-        "repo": {
-            "id": 70887007,
-            "name": "pyupio/safety-db",
-            "url": "https://api.github.com/repos/pyupio/safety-db"
-        },
-        "payload": {
-            "push_id": 11193385333,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "e582a03665fde14b58dd247b5d33aa4c0f0832e5",
-            "before": "bc28866e8129481f6b7b687591ae59e96f567dd1",
-            "commits": [
-                {
-                    "sha": "e582a03665fde14b58dd247b5d33aa4c0f0832e5",
-                    "author": {
-                        "email": "vuln-bot@pyup.io",
-                        "name": "pyup.io vuln bot"
-                    },
-                    "message": "october update",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/e582a03665fde14b58dd247b5d33aa4c0f0832e5"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-01T06:00:28Z",
-        "org": {
-            "id": 16113910,
-            "login": "pyupio",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/pyupio",
-            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
-        }
-    },
-    {
-        "id": "23757833379",
-        "type": "PushEvent",
-        "actor": {
-            "id": 22832786,
-            "login": "pyup-vuln-bot",
-            "display_login": "pyup-vuln-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/pyup-vuln-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
-        },
-        "repo": {
-            "id": 70887007,
-            "name": "pyupio/safety-db",
-            "url": "https://api.github.com/repos/pyupio/safety-db"
-        },
-        "payload": {
-            "push_id": 10893498559,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "bc28866e8129481f6b7b687591ae59e96f567dd1",
-            "before": "6baf23f7458d2a267867a32ece5cb471e0a94284",
-            "commits": [
-                {
-                    "sha": "bc28866e8129481f6b7b687591ae59e96f567dd1",
-                    "author": {
-                        "email": "vuln-bot@pyup.io",
-                        "name": "pyup.io vuln bot"
-                    },
-                    "message": "september update",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/bc28866e8129481f6b7b687591ae59e96f567dd1"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-01T06:00:24Z",
-        "org": {
-            "id": 16113910,
-            "login": "pyupio",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/pyupio",
-            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
-        }
-    },
-    {
-        "id": "23757833206",
-        "type": "PushEvent",
-        "actor": {
-            "id": 22832786,
-            "login": "pyup-vuln-bot",
-            "display_login": "pyup-vuln-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/pyup-vuln-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
-        },
-        "repo": {
-            "id": 70887007,
-            "name": "pyupio/safety-db",
-            "url": "https://api.github.com/repos/pyupio/safety-db"
-        },
-        "payload": {
-            "push_id": 10893498461,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "6baf23f7458d2a267867a32ece5cb471e0a94284",
-            "before": "13618e10aa25f72ff84d160157d1a9fbc4f715ed",
-            "commits": [
-                {
-                    "sha": "6baf23f7458d2a267867a32ece5cb471e0a94284",
-                    "author": {
-                        "email": "vuln-bot@pyup.io",
-                        "name": "pyup.io vuln bot"
-                    },
-                    "message": "september update",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/6baf23f7458d2a267867a32ece5cb471e0a94284"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-01T06:00:23Z",
+        "created_at": "2022-12-01T06:00:28Z",
         "org": {
             "id": 16113910,
             "login": "pyupio",
@@ -644,7 +368,7 @@
         }
     },
     {
-        "id": "23757833379",
+        "id": "25582254096",
         "type": "PushEvent",
         "actor": {
             "id": 22832786,
@@ -660,27 +384,27 @@
             "url": "https://api.github.com/repos/pyupio/safety-db"
         },
         "payload": {
-            "push_id": 10893498559,
+            "push_id": 11843707317,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "bc28866e8129481f6b7b687591ae59e96f567dd1",
-            "before": "6baf23f7458d2a267867a32ece5cb471e0a94284",
+            "head": "72031f3ca6f60141024d6ad1f64e652b717bd996",
+            "before": "ea7d3d82209f3ab36a370f0419de240df74be45a",
             "commits": [
                 {
-                    "sha": "bc28866e8129481f6b7b687591ae59e96f567dd1",
+                    "sha": "72031f3ca6f60141024d6ad1f64e652b717bd996",
                     "author": {
                         "email": "vuln-bot@pyup.io",
                         "name": "pyup.io vuln bot"
                     },
-                    "message": "september update",
+                    "message": "december update",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/bc28866e8129481f6b7b687591ae59e96f567dd1"
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/72031f3ca6f60141024d6ad1f64e652b717bd996"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-01T06:00:24Z",
+        "created_at": "2022-12-01T06:00:29Z",
         "org": {
             "id": 16113910,
             "login": "pyupio",
@@ -690,7 +414,7 @@
         }
     },
     {
-        "id": "23757833206",
+        "id": "25582253868",
         "type": "PushEvent",
         "actor": {
             "id": 22832786,
@@ -706,27 +430,27 @@
             "url": "https://api.github.com/repos/pyupio/safety-db"
         },
         "payload": {
-            "push_id": 10893498461,
+            "push_id": 11843707204,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "6baf23f7458d2a267867a32ece5cb471e0a94284",
-            "before": "13618e10aa25f72ff84d160157d1a9fbc4f715ed",
+            "head": "ea7d3d82209f3ab36a370f0419de240df74be45a",
+            "before": "d440ab59ed8e4be3beacd4165ba3eb12ef3dc527",
             "commits": [
                 {
-                    "sha": "6baf23f7458d2a267867a32ece5cb471e0a94284",
+                    "sha": "ea7d3d82209f3ab36a370f0419de240df74be45a",
                     "author": {
                         "email": "vuln-bot@pyup.io",
                         "name": "pyup.io vuln bot"
                     },
-                    "message": "september update",
+                    "message": "december update",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/6baf23f7458d2a267867a32ece5cb471e0a94284"
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/ea7d3d82209f3ab36a370f0419de240df74be45a"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-01T06:00:23Z",
+        "created_at": "2022-12-01T06:00:28Z",
         "org": {
             "id": 16113910,
             "login": "pyupio",
@@ -1012,7 +736,7 @@
         }
     },
     {
-        "id": "23757833379",
+        "id": "25582254096",
         "type": "PushEvent",
         "actor": {
             "id": 22832786,
@@ -1028,27 +752,27 @@
             "url": "https://api.github.com/repos/pyupio/safety-db"
         },
         "payload": {
-            "push_id": 10893498559,
+            "push_id": 11843707317,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "bc28866e8129481f6b7b687591ae59e96f567dd1",
-            "before": "6baf23f7458d2a267867a32ece5cb471e0a94284",
+            "head": "72031f3ca6f60141024d6ad1f64e652b717bd996",
+            "before": "ea7d3d82209f3ab36a370f0419de240df74be45a",
             "commits": [
                 {
-                    "sha": "bc28866e8129481f6b7b687591ae59e96f567dd1",
+                    "sha": "72031f3ca6f60141024d6ad1f64e652b717bd996",
                     "author": {
                         "email": "vuln-bot@pyup.io",
                         "name": "pyup.io vuln bot"
                     },
-                    "message": "september update",
+                    "message": "december update",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/bc28866e8129481f6b7b687591ae59e96f567dd1"
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/72031f3ca6f60141024d6ad1f64e652b717bd996"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-01T06:00:24Z",
+        "created_at": "2022-12-01T06:00:29Z",
         "org": {
             "id": 16113910,
             "login": "pyupio",
@@ -1058,7 +782,7 @@
         }
     },
     {
-        "id": "23757833206",
+        "id": "25582253868",
         "type": "PushEvent",
         "actor": {
             "id": 22832786,
@@ -1074,27 +798,303 @@
             "url": "https://api.github.com/repos/pyupio/safety-db"
         },
         "payload": {
-            "push_id": 10893498461,
+            "push_id": 11843707204,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "6baf23f7458d2a267867a32ece5cb471e0a94284",
-            "before": "13618e10aa25f72ff84d160157d1a9fbc4f715ed",
+            "head": "ea7d3d82209f3ab36a370f0419de240df74be45a",
+            "before": "d440ab59ed8e4be3beacd4165ba3eb12ef3dc527",
             "commits": [
                 {
-                    "sha": "6baf23f7458d2a267867a32ece5cb471e0a94284",
+                    "sha": "ea7d3d82209f3ab36a370f0419de240df74be45a",
                     "author": {
                         "email": "vuln-bot@pyup.io",
                         "name": "pyup.io vuln bot"
                     },
-                    "message": "september update",
+                    "message": "december update",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/6baf23f7458d2a267867a32ece5cb471e0a94284"
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/ea7d3d82209f3ab36a370f0419de240df74be45a"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-01T06:00:23Z",
+        "created_at": "2022-12-01T06:00:28Z",
+        "org": {
+            "id": 16113910,
+            "login": "pyupio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pyupio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
+        }
+    },
+    {
+        "id": "24949977715",
+        "type": "PushEvent",
+        "actor": {
+            "id": 22832786,
+            "login": "pyup-vuln-bot",
+            "display_login": "pyup-vuln-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pyup-vuln-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
+        },
+        "repo": {
+            "id": 70887007,
+            "name": "pyupio/safety-db",
+            "url": "https://api.github.com/repos/pyupio/safety-db"
+        },
+        "payload": {
+            "push_id": 11512991128,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "d440ab59ed8e4be3beacd4165ba3eb12ef3dc527",
+            "before": "02621502f0d44b0623a7cc5d738db2cc440ac2ed",
+            "commits": [
+                {
+                    "sha": "d440ab59ed8e4be3beacd4165ba3eb12ef3dc527",
+                    "author": {
+                        "email": "vuln-bot@pyup.io",
+                        "name": "pyup.io vuln bot"
+                    },
+                    "message": "november update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/d440ab59ed8e4be3beacd4165ba3eb12ef3dc527"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T06:00:27Z",
+        "org": {
+            "id": 16113910,
+            "login": "pyupio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pyupio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
+        }
+    },
+    {
+        "id": "24949977617",
+        "type": "PushEvent",
+        "actor": {
+            "id": 22832786,
+            "login": "pyup-vuln-bot",
+            "display_login": "pyup-vuln-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pyup-vuln-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
+        },
+        "repo": {
+            "id": 70887007,
+            "name": "pyupio/safety-db",
+            "url": "https://api.github.com/repos/pyupio/safety-db"
+        },
+        "payload": {
+            "push_id": 11512991050,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "02621502f0d44b0623a7cc5d738db2cc440ac2ed",
+            "before": "34bbb01d71a6850216a3407faa4c2b99c833e46a",
+            "commits": [
+                {
+                    "sha": "02621502f0d44b0623a7cc5d738db2cc440ac2ed",
+                    "author": {
+                        "email": "vuln-bot@pyup.io",
+                        "name": "pyup.io vuln bot"
+                    },
+                    "message": "november update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/02621502f0d44b0623a7cc5d738db2cc440ac2ed"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T06:00:26Z",
+        "org": {
+            "id": 16113910,
+            "login": "pyupio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pyupio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
+        }
+    },
+    {
+        "id": "24370596787",
+        "type": "PushEvent",
+        "actor": {
+            "id": 22832786,
+            "login": "pyup-vuln-bot",
+            "display_login": "pyup-vuln-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pyup-vuln-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
+        },
+        "repo": {
+            "id": 70887007,
+            "name": "pyupio/safety-db",
+            "url": "https://api.github.com/repos/pyupio/safety-db"
+        },
+        "payload": {
+            "push_id": 11212333110,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "34bbb01d71a6850216a3407faa4c2b99c833e46a",
+            "before": "7919d30c2e31169aace9697c5ddc49adc1981f00",
+            "commits": [
+                {
+                    "sha": "34bbb01d71a6850216a3407faa4c2b99c833e46a",
+                    "author": {
+                        "email": "vuln-bot@pyup.io",
+                        "name": "pyup.io vuln bot"
+                    },
+                    "message": "october update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/34bbb01d71a6850216a3407faa4c2b99c833e46a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-03T18:55:37Z",
+        "org": {
+            "id": 16113910,
+            "login": "pyupio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pyupio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
+        }
+    },
+    {
+        "id": "24370596390",
+        "type": "PushEvent",
+        "actor": {
+            "id": 22832786,
+            "login": "pyup-vuln-bot",
+            "display_login": "pyup-vuln-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pyup-vuln-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
+        },
+        "repo": {
+            "id": 70887007,
+            "name": "pyupio/safety-db",
+            "url": "https://api.github.com/repos/pyupio/safety-db"
+        },
+        "payload": {
+            "push_id": 11212332940,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7919d30c2e31169aace9697c5ddc49adc1981f00",
+            "before": "33c105e4dd299c9773f6853f32dc6597c75aeb61",
+            "commits": [
+                {
+                    "sha": "7919d30c2e31169aace9697c5ddc49adc1981f00",
+                    "author": {
+                        "email": "vuln-bot@pyup.io",
+                        "name": "pyup.io vuln bot"
+                    },
+                    "message": "october update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/7919d30c2e31169aace9697c5ddc49adc1981f00"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-03T18:55:35Z",
+        "org": {
+            "id": 16113910,
+            "login": "pyupio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pyupio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
+        }
+    },
+    {
+        "id": "24336474997",
+        "type": "PushEvent",
+        "actor": {
+            "id": 22832786,
+            "login": "pyup-vuln-bot",
+            "display_login": "pyup-vuln-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pyup-vuln-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
+        },
+        "repo": {
+            "id": 70887007,
+            "name": "pyupio/safety-db",
+            "url": "https://api.github.com/repos/pyupio/safety-db"
+        },
+        "payload": {
+            "push_id": 11193385384,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "33c105e4dd299c9773f6853f32dc6597c75aeb61",
+            "before": "e582a03665fde14b58dd247b5d33aa4c0f0832e5",
+            "commits": [
+                {
+                    "sha": "33c105e4dd299c9773f6853f32dc6597c75aeb61",
+                    "author": {
+                        "email": "vuln-bot@pyup.io",
+                        "name": "pyup.io vuln bot"
+                    },
+                    "message": "october update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/33c105e4dd299c9773f6853f32dc6597c75aeb61"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-01T06:00:28Z",
+        "org": {
+            "id": 16113910,
+            "login": "pyupio",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/pyupio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16113910?"
+        }
+    },
+    {
+        "id": "24336474924",
+        "type": "PushEvent",
+        "actor": {
+            "id": 22832786,
+            "login": "pyup-vuln-bot",
+            "display_login": "pyup-vuln-bot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/pyup-vuln-bot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22832786?"
+        },
+        "repo": {
+            "id": 70887007,
+            "name": "pyupio/safety-db",
+            "url": "https://api.github.com/repos/pyupio/safety-db"
+        },
+        "payload": {
+            "push_id": 11193385333,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e582a03665fde14b58dd247b5d33aa4c0f0832e5",
+            "before": "bc28866e8129481f6b7b687591ae59e96f567dd1",
+            "commits": [
+                {
+                    "sha": "e582a03665fde14b58dd247b5d33aa4c0f0832e5",
+                    "author": {
+                        "email": "vuln-bot@pyup.io",
+                        "name": "pyup.io vuln bot"
+                    },
+                    "message": "october update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/pyupio/safety-db/commits/e582a03665fde14b58dd247b5d33aa4c0f0832e5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-01T06:00:28Z",
         "org": {
             "id": 16113910,
             "login": "pyupio",

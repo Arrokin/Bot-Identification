@@ -1,7 +1,7 @@
 [
     {
-        "id": "23780158034",
-        "type": "PushEvent",
+        "id": "25351745231",
+        "type": "IssueCommentEvent",
         "actor": {
             "id": 48804891,
             "login": "eclipse-milo-bot",
@@ -16,27 +16,122 @@
             "url": "https://api.github.com/repos/eclipse/milo"
         },
         "payload": {
-            "push_id": 10904457703,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/release/0.6.8",
-            "head": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
-            "before": "0795141a1c855365993354e8d5f6577bd68cb12d",
-            "commits": [
-                {
-                    "sha": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
-                    "author": {
-                        "email": "milo-bot@eclipse.org",
-                        "name": "eclipse-milo-bot"
-                    },
-                    "message": "[maven-release-plugin] prepare for next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/eclipse/milo/commits/7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08"
-                }
-            ]
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse/milo/issues/1084",
+                "repository_url": "https://api.github.com/repos/eclipse/milo",
+                "labels_url": "https://api.github.com/repos/eclipse/milo/issues/1084/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse/milo/issues/1084/comments",
+                "events_url": "https://api.github.com/repos/eclipse/milo/issues/1084/events",
+                "html_url": "https://github.com/eclipse/milo/pull/1084",
+                "id": 1456666774,
+                "node_id": "PR_kwDOA3gxtc5DSnJG",
+                "number": 1084,
+                "title": "[SECURITY] Fix Temporary File Information Disclosure Vulnerability\n",
+                "user": {
+                    "login": "JLLeitschuh",
+                    "id": 1323708,
+                    "node_id": "MDQ6VXNlcjEzMjM3MDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1323708?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JLLeitschuh",
+                    "html_url": "https://github.com/JLLeitschuh",
+                    "followers_url": "https://api.github.com/users/JLLeitschuh/followers",
+                    "following_url": "https://api.github.com/users/JLLeitschuh/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JLLeitschuh/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JLLeitschuh/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JLLeitschuh/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JLLeitschuh/orgs",
+                    "repos_url": "https://api.github.com/users/JLLeitschuh/repos",
+                    "events_url": "https://api.github.com/users/JLLeitschuh/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JLLeitschuh/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-11-19T21:26:00Z",
+                "updated_at": "2022-11-19T21:26:03Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse/milo/pulls/1084",
+                    "html_url": "https://github.com/eclipse/milo/pull/1084",
+                    "diff_url": "https://github.com/eclipse/milo/pull/1084.diff",
+                    "patch_url": "https://github.com/eclipse/milo/pull/1084.patch",
+                    "merged_at": null
+                },
+                "body": "\n# Security Vulnerability Fix\n\nThis pull request fixes a Temporary File Information Disclosure Vulnerability, which existed in this project.\n\n## Preamble\n\nThe system temporary directory is shared between all users on most unix-like systems (not MacOS, or Windows). Thus, code interacting with the system temporary directory must be careful about file interactions in this directory, and must ensure that the correct file posix permissions are set.\n\nThis PR was generated because a call to `File.createTempFile(..)` was detected in this repository in a way that makes this project vulnerable to local information disclosure.\nWith the default uname configuration, `File.createTempFile(..)` creates a file with the permissions `-rw-r--r--`. This means that any other user on the system can read the contents of this file.\n\n### Impact\n\nInformation in this file is visible to other local users, allowing a malicious actor co-resident on the same machine to view potentially sensitive files.\n\n#### Other Examples\n\n - [CVE-2020-15250](https://github.com/advisories/GHSA-269g-pwp5-87pp) - junit-team/junit\n - [CVE-2021-21364](https://github.com/advisories/GHSA-hpv8-9rq5-hq7w) - swagger-api/swagger-codegen\n - [CVE-2022-24823](https://github.com/advisories/GHSA-5mcr-gq6c-3hq2) - netty/netty\n - [CVE-2022-24823](https://github.com/advisories/GHSA-269q-hmxg-m83q) - netty/netty\n\n# The Fix\n\nThe fix has been to convert the logic above to use the following API that was introduced in Java 1.7.\n\n```java\nFile tmpDir = Files.createTempFile(\"temp dir\").toFile();\n```\n\nThe API both creates the file securely, ie. with a random, non-conflicting name, with file permissions that only allow the currently executing user to read or write the contents of this file.\nBy default, `Files.createTempFile(\"temp dir\")` will create a file with the permissions `-rw-------`, which only allows the user that created the file to view/write the file contents.\n\n# :arrow_right: Vulnerability Disclosure :arrow_left:\n\n:wave: Vulnerability disclosure is a super important part of the vulnerability handling process and should not be skipped! This may be completely new to you, and that's okay, I'm here to assist!\n\nFirst question, do we need to perform vulnerability disclosure? It depends!\n\n 1. Is the vulnerable code only in tests or example code? No disclosure required!\n 2. Is the vulnerable code in code shipped to your end users? Vulnerability disclosure is probably required!\n\n## Vulnerability Disclosure How-To\n\nYou have a few options options to perform vulnerability disclosure. However, I'd like to suggest the following 2 options:\n\n 1. Request a CVE number from GitHub by creating a repository-level [GitHub Security Advisory](https://docs.github.com/en/code-security/repository-security-advisories/creating-a-repository-security-advisory). This has the advantage that, if you provide sufficient information, GitHub will automatically generate Dependabot alerts for your downstream consumers, resolving this vulnerability more quickly.\n 2. Reach out to the team at Snyk to assist with CVE issuance. They can be reached at the [Snyk's Disclosure Email](mailto:report@snyk.io).\n\n## Detecting this and Future Vulnerabilities\n\nThis vulnerability was automatically detected by GitHub's CodeQL using this [CodeQL Query](https://codeql.github.com/codeql-query-help/java/java-local-temp-file-or-directory-information-disclosure/).\n\nYou can automatically detect future vulnerabilities like this by enabling the free (for open-source) [GitHub Action](https://github.com/github/codeql-action).\n\nI'm not an employee of GitHub, I'm simply an open-source security researcher.\n\n## Source\n\nThis contribution was automatically generated with an [OpenRewrite](https://github.com/openrewrite/rewrite) [refactoring recipe](https://docs.openrewrite.org/), which was lovingly hand crafted to bring this security fix to your repository.\n\nThe source code that generated this PR can be found here:\n[SecureTempFileCreation](https://github.com/openrewrite/rewrite-java-security/blob/main/src/main/java/org/openrewrite/java/security/SecureTempFileCreation.java)\n\n## Opting-Out\n\nIf you'd like to opt-out of future automated security vulnerability fixes like this, please consider adding a file called\n`.github/GH-ROBOTS.txt` to your repository with the line:\n\n```\nUser-agent: JLLeitschuh/security-research\nDisallow: *\n```\n\nThis bot will respect the [ROBOTS.txt](https://moz.com/learn/seo/robotstxt) format for future contributions.\n\nAlternatively, if this project is no longer actively maintained, consider [archiving](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories) the repository.\n\n## CLA Requirements\n\n_This section is only relevant if your project requires contributors to sign a Contributor License Agreement (CLA) for external contributions._\n\nIt is unlikely that I'll be able to directly sign CLAs. However, all contributed commits are already automatically signed-off.\n\n> The meaning of a signoff depends on the project, but it typically certifies that committer has the rights to submit this work under the same license and agrees to a Developer Certificate of Origin\n> (see [https://developercertificate.org/](https://developercertificate.org/) for more information).\n>\n> \\- [Git Commit Signoff documentation](https://developercertificate.org/)\n\nIf signing your organization's CLA is a strict-requirement for merging this contribution, please feel free to close this PR.\n\n## Sponsorship & Support\n\nThis contribution is sponsored by HUMAN Security Inc. and the new Dan Kaminsky Fellowship, a fellowship created to celebrate Dan's memory and legacy by funding open-source work that makes the world a better (and more secure) place.\n\nThis PR was generated by [Moderne](https://www.moderne.io/), a free-for-open source SaaS offering that uses format-preserving AST transformations to fix bugs, standardize code style, apply best practices, migrate library versions, and fix common security vulnerabilities at scale.\n\n## Tracking\n\nAll PR's generated as part of this fix are tracked here: https://github.com/JLLeitschuh/security-research/issues/18\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse/milo/issues/1084/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse/milo/issues/1084/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse/milo/issues/comments/1320973019",
+                "html_url": "https://github.com/eclipse/milo/pull/1084#issuecomment-1320973019",
+                "issue_url": "https://api.github.com/repos/eclipse/milo/issues/1084",
+                "id": 1320973019,
+                "node_id": "IC_kwDOA3gxtc5OvHLb",
+                "user": {
+                    "login": "eclipse-milo-bot",
+                    "id": 48804891,
+                    "node_id": "MDQ6VXNlcjQ4ODA0ODkx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48804891?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/eclipse-milo-bot",
+                    "html_url": "https://github.com/eclipse-milo-bot",
+                    "followers_url": "https://api.github.com/users/eclipse-milo-bot/followers",
+                    "following_url": "https://api.github.com/users/eclipse-milo-bot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/eclipse-milo-bot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/eclipse-milo-bot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/eclipse-milo-bot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/eclipse-milo-bot/orgs",
+                    "repos_url": "https://api.github.com/users/eclipse-milo-bot/repos",
+                    "events_url": "https://api.github.com/users/eclipse-milo-bot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/eclipse-milo-bot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-19T21:26:03Z",
+                "updated_at": "2022-11-19T21:26:03Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Can one of the admins verify this patch?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse/milo/issues/comments/1320973019/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
         },
         "public": true,
-        "created_at": "2022-09-02T03:14:13Z",
+        "created_at": "2022-11-19T21:26:03Z",
         "org": {
             "id": 56974,
             "login": "eclipse",
@@ -46,8 +141,8 @@
         }
     },
     {
-        "id": "23780157884",
-        "type": "CreateEvent",
+        "id": "25351745231",
+        "type": "IssueCommentEvent",
         "actor": {
             "id": 48804891,
             "login": "eclipse-milo-bot",
@@ -62,14 +157,122 @@
             "url": "https://api.github.com/repos/eclipse/milo"
         },
         "payload": {
-            "ref": "v0.6.8",
-            "ref_type": "tag",
-            "master_branch": "master",
-            "description": " Eclipse Milo\u2122 - an open source implementation of OPC UA (IEC 62541).",
-            "pusher_type": "user"
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse/milo/issues/1084",
+                "repository_url": "https://api.github.com/repos/eclipse/milo",
+                "labels_url": "https://api.github.com/repos/eclipse/milo/issues/1084/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse/milo/issues/1084/comments",
+                "events_url": "https://api.github.com/repos/eclipse/milo/issues/1084/events",
+                "html_url": "https://github.com/eclipse/milo/pull/1084",
+                "id": 1456666774,
+                "node_id": "PR_kwDOA3gxtc5DSnJG",
+                "number": 1084,
+                "title": "[SECURITY] Fix Temporary File Information Disclosure Vulnerability\n",
+                "user": {
+                    "login": "JLLeitschuh",
+                    "id": 1323708,
+                    "node_id": "MDQ6VXNlcjEzMjM3MDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1323708?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JLLeitschuh",
+                    "html_url": "https://github.com/JLLeitschuh",
+                    "followers_url": "https://api.github.com/users/JLLeitschuh/followers",
+                    "following_url": "https://api.github.com/users/JLLeitschuh/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JLLeitschuh/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JLLeitschuh/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JLLeitschuh/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JLLeitschuh/orgs",
+                    "repos_url": "https://api.github.com/users/JLLeitschuh/repos",
+                    "events_url": "https://api.github.com/users/JLLeitschuh/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JLLeitschuh/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-11-19T21:26:00Z",
+                "updated_at": "2022-11-19T21:26:03Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse/milo/pulls/1084",
+                    "html_url": "https://github.com/eclipse/milo/pull/1084",
+                    "diff_url": "https://github.com/eclipse/milo/pull/1084.diff",
+                    "patch_url": "https://github.com/eclipse/milo/pull/1084.patch",
+                    "merged_at": null
+                },
+                "body": "\n# Security Vulnerability Fix\n\nThis pull request fixes a Temporary File Information Disclosure Vulnerability, which existed in this project.\n\n## Preamble\n\nThe system temporary directory is shared between all users on most unix-like systems (not MacOS, or Windows). Thus, code interacting with the system temporary directory must be careful about file interactions in this directory, and must ensure that the correct file posix permissions are set.\n\nThis PR was generated because a call to `File.createTempFile(..)` was detected in this repository in a way that makes this project vulnerable to local information disclosure.\nWith the default uname configuration, `File.createTempFile(..)` creates a file with the permissions `-rw-r--r--`. This means that any other user on the system can read the contents of this file.\n\n### Impact\n\nInformation in this file is visible to other local users, allowing a malicious actor co-resident on the same machine to view potentially sensitive files.\n\n#### Other Examples\n\n - [CVE-2020-15250](https://github.com/advisories/GHSA-269g-pwp5-87pp) - junit-team/junit\n - [CVE-2021-21364](https://github.com/advisories/GHSA-hpv8-9rq5-hq7w) - swagger-api/swagger-codegen\n - [CVE-2022-24823](https://github.com/advisories/GHSA-5mcr-gq6c-3hq2) - netty/netty\n - [CVE-2022-24823](https://github.com/advisories/GHSA-269q-hmxg-m83q) - netty/netty\n\n# The Fix\n\nThe fix has been to convert the logic above to use the following API that was introduced in Java 1.7.\n\n```java\nFile tmpDir = Files.createTempFile(\"temp dir\").toFile();\n```\n\nThe API both creates the file securely, ie. with a random, non-conflicting name, with file permissions that only allow the currently executing user to read or write the contents of this file.\nBy default, `Files.createTempFile(\"temp dir\")` will create a file with the permissions `-rw-------`, which only allows the user that created the file to view/write the file contents.\n\n# :arrow_right: Vulnerability Disclosure :arrow_left:\n\n:wave: Vulnerability disclosure is a super important part of the vulnerability handling process and should not be skipped! This may be completely new to you, and that's okay, I'm here to assist!\n\nFirst question, do we need to perform vulnerability disclosure? It depends!\n\n 1. Is the vulnerable code only in tests or example code? No disclosure required!\n 2. Is the vulnerable code in code shipped to your end users? Vulnerability disclosure is probably required!\n\n## Vulnerability Disclosure How-To\n\nYou have a few options options to perform vulnerability disclosure. However, I'd like to suggest the following 2 options:\n\n 1. Request a CVE number from GitHub by creating a repository-level [GitHub Security Advisory](https://docs.github.com/en/code-security/repository-security-advisories/creating-a-repository-security-advisory). This has the advantage that, if you provide sufficient information, GitHub will automatically generate Dependabot alerts for your downstream consumers, resolving this vulnerability more quickly.\n 2. Reach out to the team at Snyk to assist with CVE issuance. They can be reached at the [Snyk's Disclosure Email](mailto:report@snyk.io).\n\n## Detecting this and Future Vulnerabilities\n\nThis vulnerability was automatically detected by GitHub's CodeQL using this [CodeQL Query](https://codeql.github.com/codeql-query-help/java/java-local-temp-file-or-directory-information-disclosure/).\n\nYou can automatically detect future vulnerabilities like this by enabling the free (for open-source) [GitHub Action](https://github.com/github/codeql-action).\n\nI'm not an employee of GitHub, I'm simply an open-source security researcher.\n\n## Source\n\nThis contribution was automatically generated with an [OpenRewrite](https://github.com/openrewrite/rewrite) [refactoring recipe](https://docs.openrewrite.org/), which was lovingly hand crafted to bring this security fix to your repository.\n\nThe source code that generated this PR can be found here:\n[SecureTempFileCreation](https://github.com/openrewrite/rewrite-java-security/blob/main/src/main/java/org/openrewrite/java/security/SecureTempFileCreation.java)\n\n## Opting-Out\n\nIf you'd like to opt-out of future automated security vulnerability fixes like this, please consider adding a file called\n`.github/GH-ROBOTS.txt` to your repository with the line:\n\n```\nUser-agent: JLLeitschuh/security-research\nDisallow: *\n```\n\nThis bot will respect the [ROBOTS.txt](https://moz.com/learn/seo/robotstxt) format for future contributions.\n\nAlternatively, if this project is no longer actively maintained, consider [archiving](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories) the repository.\n\n## CLA Requirements\n\n_This section is only relevant if your project requires contributors to sign a Contributor License Agreement (CLA) for external contributions._\n\nIt is unlikely that I'll be able to directly sign CLAs. However, all contributed commits are already automatically signed-off.\n\n> The meaning of a signoff depends on the project, but it typically certifies that committer has the rights to submit this work under the same license and agrees to a Developer Certificate of Origin\n> (see [https://developercertificate.org/](https://developercertificate.org/) for more information).\n>\n> \\- [Git Commit Signoff documentation](https://developercertificate.org/)\n\nIf signing your organization's CLA is a strict-requirement for merging this contribution, please feel free to close this PR.\n\n## Sponsorship & Support\n\nThis contribution is sponsored by HUMAN Security Inc. and the new Dan Kaminsky Fellowship, a fellowship created to celebrate Dan's memory and legacy by funding open-source work that makes the world a better (and more secure) place.\n\nThis PR was generated by [Moderne](https://www.moderne.io/), a free-for-open source SaaS offering that uses format-preserving AST transformations to fix bugs, standardize code style, apply best practices, migrate library versions, and fix common security vulnerabilities at scale.\n\n## Tracking\n\nAll PR's generated as part of this fix are tracked here: https://github.com/JLLeitschuh/security-research/issues/18\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse/milo/issues/1084/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse/milo/issues/1084/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse/milo/issues/comments/1320973019",
+                "html_url": "https://github.com/eclipse/milo/pull/1084#issuecomment-1320973019",
+                "issue_url": "https://api.github.com/repos/eclipse/milo/issues/1084",
+                "id": 1320973019,
+                "node_id": "IC_kwDOA3gxtc5OvHLb",
+                "user": {
+                    "login": "eclipse-milo-bot",
+                    "id": 48804891,
+                    "node_id": "MDQ6VXNlcjQ4ODA0ODkx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48804891?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/eclipse-milo-bot",
+                    "html_url": "https://github.com/eclipse-milo-bot",
+                    "followers_url": "https://api.github.com/users/eclipse-milo-bot/followers",
+                    "following_url": "https://api.github.com/users/eclipse-milo-bot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/eclipse-milo-bot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/eclipse-milo-bot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/eclipse-milo-bot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/eclipse-milo-bot/orgs",
+                    "repos_url": "https://api.github.com/users/eclipse-milo-bot/repos",
+                    "events_url": "https://api.github.com/users/eclipse-milo-bot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/eclipse-milo-bot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-19T21:26:03Z",
+                "updated_at": "2022-11-19T21:26:03Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Can one of the admins verify this patch?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse/milo/issues/comments/1320973019/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
         },
         "public": true,
-        "created_at": "2022-09-02T03:14:12Z",
+        "created_at": "2022-11-19T21:26:03Z",
         "org": {
             "id": 56974,
             "login": "eclipse",
@@ -79,8 +282,8 @@
         }
     },
     {
-        "id": "23780157707",
-        "type": "PushEvent",
+        "id": "25351745231",
+        "type": "IssueCommentEvent",
         "actor": {
             "id": 48804891,
             "login": "eclipse-milo-bot",
@@ -95,277 +298,122 @@
             "url": "https://api.github.com/repos/eclipse/milo"
         },
         "payload": {
-            "push_id": 10904457521,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/release/0.6.8",
-            "head": "0795141a1c855365993354e8d5f6577bd68cb12d",
-            "before": "938ed51db759872a87d98543561027b4766f2c9e",
-            "commits": [
-                {
-                    "sha": "0795141a1c855365993354e8d5f6577bd68cb12d",
-                    "author": {
-                        "email": "milo-bot@eclipse.org",
-                        "name": "eclipse-milo-bot"
-                    },
-                    "message": "[maven-release-plugin] prepare release v0.6.8",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/eclipse/milo/commits/0795141a1c855365993354e8d5f6577bd68cb12d"
-                }
-            ]
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/eclipse/milo/issues/1084",
+                "repository_url": "https://api.github.com/repos/eclipse/milo",
+                "labels_url": "https://api.github.com/repos/eclipse/milo/issues/1084/labels{/name}",
+                "comments_url": "https://api.github.com/repos/eclipse/milo/issues/1084/comments",
+                "events_url": "https://api.github.com/repos/eclipse/milo/issues/1084/events",
+                "html_url": "https://github.com/eclipse/milo/pull/1084",
+                "id": 1456666774,
+                "node_id": "PR_kwDOA3gxtc5DSnJG",
+                "number": 1084,
+                "title": "[SECURITY] Fix Temporary File Information Disclosure Vulnerability\n",
+                "user": {
+                    "login": "JLLeitschuh",
+                    "id": 1323708,
+                    "node_id": "MDQ6VXNlcjEzMjM3MDg=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1323708?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/JLLeitschuh",
+                    "html_url": "https://github.com/JLLeitschuh",
+                    "followers_url": "https://api.github.com/users/JLLeitschuh/followers",
+                    "following_url": "https://api.github.com/users/JLLeitschuh/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/JLLeitschuh/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/JLLeitschuh/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/JLLeitschuh/subscriptions",
+                    "organizations_url": "https://api.github.com/users/JLLeitschuh/orgs",
+                    "repos_url": "https://api.github.com/users/JLLeitschuh/repos",
+                    "events_url": "https://api.github.com/users/JLLeitschuh/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/JLLeitschuh/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-11-19T21:26:00Z",
+                "updated_at": "2022-11-19T21:26:03Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/eclipse/milo/pulls/1084",
+                    "html_url": "https://github.com/eclipse/milo/pull/1084",
+                    "diff_url": "https://github.com/eclipse/milo/pull/1084.diff",
+                    "patch_url": "https://github.com/eclipse/milo/pull/1084.patch",
+                    "merged_at": null
+                },
+                "body": "\n# Security Vulnerability Fix\n\nThis pull request fixes a Temporary File Information Disclosure Vulnerability, which existed in this project.\n\n## Preamble\n\nThe system temporary directory is shared between all users on most unix-like systems (not MacOS, or Windows). Thus, code interacting with the system temporary directory must be careful about file interactions in this directory, and must ensure that the correct file posix permissions are set.\n\nThis PR was generated because a call to `File.createTempFile(..)` was detected in this repository in a way that makes this project vulnerable to local information disclosure.\nWith the default uname configuration, `File.createTempFile(..)` creates a file with the permissions `-rw-r--r--`. This means that any other user on the system can read the contents of this file.\n\n### Impact\n\nInformation in this file is visible to other local users, allowing a malicious actor co-resident on the same machine to view potentially sensitive files.\n\n#### Other Examples\n\n - [CVE-2020-15250](https://github.com/advisories/GHSA-269g-pwp5-87pp) - junit-team/junit\n - [CVE-2021-21364](https://github.com/advisories/GHSA-hpv8-9rq5-hq7w) - swagger-api/swagger-codegen\n - [CVE-2022-24823](https://github.com/advisories/GHSA-5mcr-gq6c-3hq2) - netty/netty\n - [CVE-2022-24823](https://github.com/advisories/GHSA-269q-hmxg-m83q) - netty/netty\n\n# The Fix\n\nThe fix has been to convert the logic above to use the following API that was introduced in Java 1.7.\n\n```java\nFile tmpDir = Files.createTempFile(\"temp dir\").toFile();\n```\n\nThe API both creates the file securely, ie. with a random, non-conflicting name, with file permissions that only allow the currently executing user to read or write the contents of this file.\nBy default, `Files.createTempFile(\"temp dir\")` will create a file with the permissions `-rw-------`, which only allows the user that created the file to view/write the file contents.\n\n# :arrow_right: Vulnerability Disclosure :arrow_left:\n\n:wave: Vulnerability disclosure is a super important part of the vulnerability handling process and should not be skipped! This may be completely new to you, and that's okay, I'm here to assist!\n\nFirst question, do we need to perform vulnerability disclosure? It depends!\n\n 1. Is the vulnerable code only in tests or example code? No disclosure required!\n 2. Is the vulnerable code in code shipped to your end users? Vulnerability disclosure is probably required!\n\n## Vulnerability Disclosure How-To\n\nYou have a few options options to perform vulnerability disclosure. However, I'd like to suggest the following 2 options:\n\n 1. Request a CVE number from GitHub by creating a repository-level [GitHub Security Advisory](https://docs.github.com/en/code-security/repository-security-advisories/creating-a-repository-security-advisory). This has the advantage that, if you provide sufficient information, GitHub will automatically generate Dependabot alerts for your downstream consumers, resolving this vulnerability more quickly.\n 2. Reach out to the team at Snyk to assist with CVE issuance. They can be reached at the [Snyk's Disclosure Email](mailto:report@snyk.io).\n\n## Detecting this and Future Vulnerabilities\n\nThis vulnerability was automatically detected by GitHub's CodeQL using this [CodeQL Query](https://codeql.github.com/codeql-query-help/java/java-local-temp-file-or-directory-information-disclosure/).\n\nYou can automatically detect future vulnerabilities like this by enabling the free (for open-source) [GitHub Action](https://github.com/github/codeql-action).\n\nI'm not an employee of GitHub, I'm simply an open-source security researcher.\n\n## Source\n\nThis contribution was automatically generated with an [OpenRewrite](https://github.com/openrewrite/rewrite) [refactoring recipe](https://docs.openrewrite.org/), which was lovingly hand crafted to bring this security fix to your repository.\n\nThe source code that generated this PR can be found here:\n[SecureTempFileCreation](https://github.com/openrewrite/rewrite-java-security/blob/main/src/main/java/org/openrewrite/java/security/SecureTempFileCreation.java)\n\n## Opting-Out\n\nIf you'd like to opt-out of future automated security vulnerability fixes like this, please consider adding a file called\n`.github/GH-ROBOTS.txt` to your repository with the line:\n\n```\nUser-agent: JLLeitschuh/security-research\nDisallow: *\n```\n\nThis bot will respect the [ROBOTS.txt](https://moz.com/learn/seo/robotstxt) format for future contributions.\n\nAlternatively, if this project is no longer actively maintained, consider [archiving](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories) the repository.\n\n## CLA Requirements\n\n_This section is only relevant if your project requires contributors to sign a Contributor License Agreement (CLA) for external contributions._\n\nIt is unlikely that I'll be able to directly sign CLAs. However, all contributed commits are already automatically signed-off.\n\n> The meaning of a signoff depends on the project, but it typically certifies that committer has the rights to submit this work under the same license and agrees to a Developer Certificate of Origin\n> (see [https://developercertificate.org/](https://developercertificate.org/) for more information).\n>\n> \\- [Git Commit Signoff documentation](https://developercertificate.org/)\n\nIf signing your organization's CLA is a strict-requirement for merging this contribution, please feel free to close this PR.\n\n## Sponsorship & Support\n\nThis contribution is sponsored by HUMAN Security Inc. and the new Dan Kaminsky Fellowship, a fellowship created to celebrate Dan's memory and legacy by funding open-source work that makes the world a better (and more secure) place.\n\nThis PR was generated by [Moderne](https://www.moderne.io/), a free-for-open source SaaS offering that uses format-preserving AST transformations to fix bugs, standardize code style, apply best practices, migrate library versions, and fix common security vulnerabilities at scale.\n\n## Tracking\n\nAll PR's generated as part of this fix are tracked here: https://github.com/JLLeitschuh/security-research/issues/18\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse/milo/issues/1084/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/eclipse/milo/issues/1084/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/eclipse/milo/issues/comments/1320973019",
+                "html_url": "https://github.com/eclipse/milo/pull/1084#issuecomment-1320973019",
+                "issue_url": "https://api.github.com/repos/eclipse/milo/issues/1084",
+                "id": 1320973019,
+                "node_id": "IC_kwDOA3gxtc5OvHLb",
+                "user": {
+                    "login": "eclipse-milo-bot",
+                    "id": 48804891,
+                    "node_id": "MDQ6VXNlcjQ4ODA0ODkx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48804891?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/eclipse-milo-bot",
+                    "html_url": "https://github.com/eclipse-milo-bot",
+                    "followers_url": "https://api.github.com/users/eclipse-milo-bot/followers",
+                    "following_url": "https://api.github.com/users/eclipse-milo-bot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/eclipse-milo-bot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/eclipse-milo-bot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/eclipse-milo-bot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/eclipse-milo-bot/orgs",
+                    "repos_url": "https://api.github.com/users/eclipse-milo-bot/repos",
+                    "events_url": "https://api.github.com/users/eclipse-milo-bot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/eclipse-milo-bot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-19T21:26:03Z",
+                "updated_at": "2022-11-19T21:26:03Z",
+                "author_association": "CONTRIBUTOR",
+                "body": "Can one of the admins verify this patch?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/eclipse/milo/issues/comments/1320973019/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
         },
         "public": true,
-        "created_at": "2022-09-02T03:14:11Z",
-        "org": {
-            "id": 56974,
-            "login": "eclipse",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/eclipse",
-            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
-        }
-    },
-    {
-        "id": "23780158034",
-        "type": "PushEvent",
-        "actor": {
-            "id": 48804891,
-            "login": "eclipse-milo-bot",
-            "display_login": "eclipse-milo-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/eclipse-milo-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
-        },
-        "repo": {
-            "id": 58208693,
-            "name": "eclipse/milo",
-            "url": "https://api.github.com/repos/eclipse/milo"
-        },
-        "payload": {
-            "push_id": 10904457703,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/release/0.6.8",
-            "head": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
-            "before": "0795141a1c855365993354e8d5f6577bd68cb12d",
-            "commits": [
-                {
-                    "sha": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
-                    "author": {
-                        "email": "milo-bot@eclipse.org",
-                        "name": "eclipse-milo-bot"
-                    },
-                    "message": "[maven-release-plugin] prepare for next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/eclipse/milo/commits/7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-02T03:14:13Z",
-        "org": {
-            "id": 56974,
-            "login": "eclipse",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/eclipse",
-            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
-        }
-    },
-    {
-        "id": "23780157884",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 48804891,
-            "login": "eclipse-milo-bot",
-            "display_login": "eclipse-milo-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/eclipse-milo-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
-        },
-        "repo": {
-            "id": 58208693,
-            "name": "eclipse/milo",
-            "url": "https://api.github.com/repos/eclipse/milo"
-        },
-        "payload": {
-            "ref": "v0.6.8",
-            "ref_type": "tag",
-            "master_branch": "master",
-            "description": " Eclipse Milo\u2122 - an open source implementation of OPC UA (IEC 62541).",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-02T03:14:12Z",
-        "org": {
-            "id": 56974,
-            "login": "eclipse",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/eclipse",
-            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
-        }
-    },
-    {
-        "id": "23780157707",
-        "type": "PushEvent",
-        "actor": {
-            "id": 48804891,
-            "login": "eclipse-milo-bot",
-            "display_login": "eclipse-milo-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/eclipse-milo-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
-        },
-        "repo": {
-            "id": 58208693,
-            "name": "eclipse/milo",
-            "url": "https://api.github.com/repos/eclipse/milo"
-        },
-        "payload": {
-            "push_id": 10904457521,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/release/0.6.8",
-            "head": "0795141a1c855365993354e8d5f6577bd68cb12d",
-            "before": "938ed51db759872a87d98543561027b4766f2c9e",
-            "commits": [
-                {
-                    "sha": "0795141a1c855365993354e8d5f6577bd68cb12d",
-                    "author": {
-                        "email": "milo-bot@eclipse.org",
-                        "name": "eclipse-milo-bot"
-                    },
-                    "message": "[maven-release-plugin] prepare release v0.6.8",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/eclipse/milo/commits/0795141a1c855365993354e8d5f6577bd68cb12d"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-02T03:14:11Z",
-        "org": {
-            "id": 56974,
-            "login": "eclipse",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/eclipse",
-            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
-        }
-    },
-    {
-        "id": "23780158034",
-        "type": "PushEvent",
-        "actor": {
-            "id": 48804891,
-            "login": "eclipse-milo-bot",
-            "display_login": "eclipse-milo-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/eclipse-milo-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
-        },
-        "repo": {
-            "id": 58208693,
-            "name": "eclipse/milo",
-            "url": "https://api.github.com/repos/eclipse/milo"
-        },
-        "payload": {
-            "push_id": 10904457703,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/release/0.6.8",
-            "head": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
-            "before": "0795141a1c855365993354e8d5f6577bd68cb12d",
-            "commits": [
-                {
-                    "sha": "7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08",
-                    "author": {
-                        "email": "milo-bot@eclipse.org",
-                        "name": "eclipse-milo-bot"
-                    },
-                    "message": "[maven-release-plugin] prepare for next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/eclipse/milo/commits/7b1efb63ce9a8a139ac3e22aca8b72e1a1230d08"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-02T03:14:13Z",
-        "org": {
-            "id": 56974,
-            "login": "eclipse",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/eclipse",
-            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
-        }
-    },
-    {
-        "id": "23780157884",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 48804891,
-            "login": "eclipse-milo-bot",
-            "display_login": "eclipse-milo-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/eclipse-milo-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
-        },
-        "repo": {
-            "id": 58208693,
-            "name": "eclipse/milo",
-            "url": "https://api.github.com/repos/eclipse/milo"
-        },
-        "payload": {
-            "ref": "v0.6.8",
-            "ref_type": "tag",
-            "master_branch": "master",
-            "description": " Eclipse Milo\u2122 - an open source implementation of OPC UA (IEC 62541).",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-02T03:14:12Z",
-        "org": {
-            "id": 56974,
-            "login": "eclipse",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/eclipse",
-            "avatar_url": "https://avatars.githubusercontent.com/u/56974?"
-        }
-    },
-    {
-        "id": "23780157707",
-        "type": "PushEvent",
-        "actor": {
-            "id": 48804891,
-            "login": "eclipse-milo-bot",
-            "display_login": "eclipse-milo-bot",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/eclipse-milo-bot",
-            "avatar_url": "https://avatars.githubusercontent.com/u/48804891?"
-        },
-        "repo": {
-            "id": 58208693,
-            "name": "eclipse/milo",
-            "url": "https://api.github.com/repos/eclipse/milo"
-        },
-        "payload": {
-            "push_id": 10904457521,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/release/0.6.8",
-            "head": "0795141a1c855365993354e8d5f6577bd68cb12d",
-            "before": "938ed51db759872a87d98543561027b4766f2c9e",
-            "commits": [
-                {
-                    "sha": "0795141a1c855365993354e8d5f6577bd68cb12d",
-                    "author": {
-                        "email": "milo-bot@eclipse.org",
-                        "name": "eclipse-milo-bot"
-                    },
-                    "message": "[maven-release-plugin] prepare release v0.6.8",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/eclipse/milo/commits/0795141a1c855365993354e8d5f6577bd68cb12d"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-02T03:14:11Z",
+        "created_at": "2022-11-19T21:26:03Z",
         "org": {
             "id": 56974,
             "login": "eclipse",

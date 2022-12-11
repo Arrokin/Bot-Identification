@@ -1,5 +1,876 @@
 [
     {
+        "id": "25500035116",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 2,
+            "pull_request": {
+                "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2",
+                "id": 1136911179,
+                "node_id": "PR_kwDOIgyWfs5Dw-NL",
+                "html_url": "https://github.com/badico-cloud-hub/brickengine/pull/2",
+                "diff_url": "https://github.com/badico-cloud-hub/brickengine/pull/2.diff",
+                "patch_url": "https://github.com/badico-cloud-hub/brickengine/pull/2.patch",
+                "issue_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2",
+                "number": 2,
+                "state": "open",
+                "locked": false,
+                "title": "Feat/render canvas",
+                "user": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "<!--- Provide a general summary of your changes in the Title above -->\r\n\r\n## Description\r\nWe add our first render to the project. The canvas one.\r\n\r\n## Related Issue\r\n#1 screen module - render canvas\r\n\r\n\r\n## Motivation and Context\r\nFor the screen module to work we needed a render to output our pixels. We decided to use canvas because the performance reasons. \r\n\r\nThe first version of this game engine used the html divs and it was a desaster. So we decided to stick with the canvas alternative. \r\n\r\n## How Has This Been Tested?\r\nThe example file `feat-render-canvas` has the implamentation of this render.\r\n<!--- Include details of your testing environment, and the tests you ran to -->\r\n<!--- see how your change affects other areas of the code, etc. -->\r\n\r\n## Screenshots (if appropriate):\r\n<img width=\"1409\" alt=\"Screen Shot 2022-11-27 at 23 36 32\" src=\"https://user-images.githubusercontent.com/16516889/204179552-1fcf9513-7271-4e5c-b078-4874a34a563f.png\">\r\n\r\n\r\n## Types of changes\r\n<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->\r\n- [ ] Bug fix (non-breaking change which fixes an issue)\r\n- [x] New feature (non-breaking change which adds functionality)\r\n- [ ] Breaking change (fix or feature that would cause existing functionality to change)\r\n\r\n## Checklist:\r\n<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->\r\n<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->\r\n- [x] My code follows the code style of this project.\r\n- [x] My change requires a change to the documentation.\r\n- [x] I have updated the documentation accordingly.\r\n- [ ] I have read the **CONTRIBUTING** document.\r\n- [ ] I have added tests to cover my changes.\r\n- [ ] All new and existing tests passed.\r\n",
+                "created_at": "2022-11-28T02:37:32Z",
+                "updated_at": "2022-11-28T02:37:33Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "LucasBadico",
+                        "id": 16516889,
+                        "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/LucasBadico",
+                        "html_url": "https://github.com/LucasBadico",
+                        "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                        "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                        "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                        "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                        "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 4846630370,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOG14g",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/documentation",
+                        "name": "documentation",
+                        "color": "0075ca",
+                        "default": true,
+                        "description": "Improvements or additions to documentation"
+                    },
+                    {
+                        "id": 4846630375,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOG15w",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/commits",
+                "review_comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/comments",
+                "review_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2/comments",
+                "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/ad5b8a4a338260fcebb75d353e29c7ccdca992dd",
+                "head": {
+                    "label": "badico-cloud-hub:feat/render-canvas",
+                    "ref": "feat/render-canvas",
+                    "sha": "ad5b8a4a338260fcebb75d353e29c7ccdca992dd",
+                    "user": {
+                        "login": "badico-cloud-hub",
+                        "id": 16516898,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/badico-cloud-hub",
+                        "html_url": "https://github.com/badico-cloud-hub",
+                        "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                        "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                        "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                        "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                        "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 571250302,
+                        "node_id": "R_kgDOIgyWfg",
+                        "name": "brickengine",
+                        "full_name": "badico-cloud-hub/brickengine",
+                        "private": false,
+                        "owner": {
+                            "login": "badico-cloud-hub",
+                            "id": 16516898,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/badico-cloud-hub",
+                            "html_url": "https://github.com/badico-cloud-hub",
+                            "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                            "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                            "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                            "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                            "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                        "forks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/forks",
+                        "keys_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/teams",
+                        "hooks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/hooks",
+                        "issue_events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/events",
+                        "assignees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/tags",
+                        "blobs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/languages",
+                        "stargazers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/stargazers",
+                        "contributors_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contributors",
+                        "subscribers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscribers",
+                        "subscription_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscription",
+                        "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/merges",
+                        "archive_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/downloads",
+                        "issues_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/deployments",
+                        "created_at": "2022-11-27T16:35:44Z",
+                        "updated_at": "2022-11-27T16:35:44Z",
+                        "pushed_at": "2022-11-28T02:37:33Z",
+                        "git_url": "git://github.com/badico-cloud-hub/brickengine.git",
+                        "ssh_url": "git@github.com:badico-cloud-hub/brickengine.git",
+                        "clone_url": "https://github.com/badico-cloud-hub/brickengine.git",
+                        "svn_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "homepage": null,
+                        "size": 7,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 2,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 2,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "badico-cloud-hub:main",
+                    "ref": "main",
+                    "sha": "796d58d9d38b742c89c3dd121379aa3936d67537",
+                    "user": {
+                        "login": "badico-cloud-hub",
+                        "id": 16516898,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/badico-cloud-hub",
+                        "html_url": "https://github.com/badico-cloud-hub",
+                        "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                        "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                        "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                        "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                        "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 571250302,
+                        "node_id": "R_kgDOIgyWfg",
+                        "name": "brickengine",
+                        "full_name": "badico-cloud-hub/brickengine",
+                        "private": false,
+                        "owner": {
+                            "login": "badico-cloud-hub",
+                            "id": 16516898,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/badico-cloud-hub",
+                            "html_url": "https://github.com/badico-cloud-hub",
+                            "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                            "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                            "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                            "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                            "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                        "forks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/forks",
+                        "keys_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/teams",
+                        "hooks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/hooks",
+                        "issue_events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/events",
+                        "assignees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/tags",
+                        "blobs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/languages",
+                        "stargazers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/stargazers",
+                        "contributors_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contributors",
+                        "subscribers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscribers",
+                        "subscription_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscription",
+                        "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/merges",
+                        "archive_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/downloads",
+                        "issues_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/deployments",
+                        "created_at": "2022-11-27T16:35:44Z",
+                        "updated_at": "2022-11-27T16:35:44Z",
+                        "pushed_at": "2022-11-28T02:37:33Z",
+                        "git_url": "git://github.com/badico-cloud-hub/brickengine.git",
+                        "ssh_url": "git@github.com:badico-cloud-hub/brickengine.git",
+                        "clone_url": "https://github.com/badico-cloud-hub/brickengine.git",
+                        "svn_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "homepage": null,
+                        "size": 7,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 2,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 2,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2"
+                    },
+                    "html": {
+                        "href": "https://github.com/badico-cloud-hub/brickengine/pull/2"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/ad5b8a4a338260fcebb75d353e29c7ccdca992dd"
+                    }
+                },
+                "author_association": "MEMBER",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 2,
+                "additions": 95,
+                "deletions": 0,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-28T02:37:33Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25499973157",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": "feat/render-canvas",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-28T02:31:08Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495990227",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1",
+                "repository_url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/labels{/name}",
+                "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/comments",
+                "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/events",
+                "html_url": "https://github.com/badico-cloud-hub/brickengine/issues/1",
+                "id": 1465520168,
+                "node_id": "I_kwDOIgyWfs5XWhAo",
+                "number": 1,
+                "title": "Screen modules",
+                "user": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4846768470,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOPRVg",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/work-in-progress",
+                        "name": "work-in-progress",
+                        "color": "E3FD89",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-27T17:29:11Z",
+                "updated_at": "2022-11-27T17:29:11Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "We need to figureout a way to isolate the process of screen to its proper output.\r\n\r\nRender\r\n- HTML(old version)\r\n- console\r\n- CANVAS\r\n\r\nDecoder\r\n- INPUT/Render\r\n\r\n## Expected Behavior\r\n<!--- If you're describing a bug, tell us what should happen -->\r\n<!--- If you're suggesting a change/improvement, tell us how it should work -->\r\n\r\n## Current Behavior\r\n<!--- If describing a bug, tell us what happens instead of the expected behavior -->\r\n<!--- If suggesting a change/improvement, explain the difference from current behavior -->\r\n\r\n## Possible Solution\r\n<!--- Not obligatory, but suggest a fix/reason for the bug, -->\r\n<!--- or ideas how to implement the addition or change -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-27T17:29:11Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495944234",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799881669,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "796d58d9d38b742c89c3dd121379aa3936d67537",
+            "before": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+            "commits": [
+                {
+                    "sha": "796d58d9d38b742c89c3dd121379aa3936d67537",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "doc: add arquiteture first draft",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/796d58d9d38b742c89c3dd121379aa3936d67537"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T17:22:30Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495740529",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799742276,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+            "before": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+            "commits": [
+                {
+                    "sha": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add pr is rebased action",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/8ef4feb60ae2586f637fb57e3fbcbad56132a199"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:54:02Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495707225",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799719610,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+            "before": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+            "commits": [
+                {
+                    "sha": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add pull request template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/2932efdeda265d6c68b4dc81d62c276771cf0468"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:49:03Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495687174",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799706033,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+            "before": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+            "commits": [
+                {
+                    "sha": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: move issue template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/57c2cc0f45deb8143325474043d83f8973c7cb81"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:46:09Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495680134",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799701328,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+            "before": "3bf7a61301812114d4b1d9a209cd4e01031cf234",
+            "commits": [
+                {
+                    "sha": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add issue template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:45:09Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495609324",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:35:46Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495609305",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:35:45Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
         "id": "24699421293",
         "type": "WatchEvent",
         "actor": {
@@ -483,6 +1354,877 @@
         "created_at": "2022-09-12T23:43:05Z"
     },
     {
+        "id": "25500035116",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 2,
+            "pull_request": {
+                "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2",
+                "id": 1136911179,
+                "node_id": "PR_kwDOIgyWfs5Dw-NL",
+                "html_url": "https://github.com/badico-cloud-hub/brickengine/pull/2",
+                "diff_url": "https://github.com/badico-cloud-hub/brickengine/pull/2.diff",
+                "patch_url": "https://github.com/badico-cloud-hub/brickengine/pull/2.patch",
+                "issue_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2",
+                "number": 2,
+                "state": "open",
+                "locked": false,
+                "title": "Feat/render canvas",
+                "user": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "<!--- Provide a general summary of your changes in the Title above -->\r\n\r\n## Description\r\nWe add our first render to the project. The canvas one.\r\n\r\n## Related Issue\r\n#1 screen module - render canvas\r\n\r\n\r\n## Motivation and Context\r\nFor the screen module to work we needed a render to output our pixels. We decided to use canvas because the performance reasons. \r\n\r\nThe first version of this game engine used the html divs and it was a desaster. So we decided to stick with the canvas alternative. \r\n\r\n## How Has This Been Tested?\r\nThe example file `feat-render-canvas` has the implamentation of this render.\r\n<!--- Include details of your testing environment, and the tests you ran to -->\r\n<!--- see how your change affects other areas of the code, etc. -->\r\n\r\n## Screenshots (if appropriate):\r\n<img width=\"1409\" alt=\"Screen Shot 2022-11-27 at 23 36 32\" src=\"https://user-images.githubusercontent.com/16516889/204179552-1fcf9513-7271-4e5c-b078-4874a34a563f.png\">\r\n\r\n\r\n## Types of changes\r\n<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->\r\n- [ ] Bug fix (non-breaking change which fixes an issue)\r\n- [x] New feature (non-breaking change which adds functionality)\r\n- [ ] Breaking change (fix or feature that would cause existing functionality to change)\r\n\r\n## Checklist:\r\n<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->\r\n<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->\r\n- [x] My code follows the code style of this project.\r\n- [x] My change requires a change to the documentation.\r\n- [x] I have updated the documentation accordingly.\r\n- [ ] I have read the **CONTRIBUTING** document.\r\n- [ ] I have added tests to cover my changes.\r\n- [ ] All new and existing tests passed.\r\n",
+                "created_at": "2022-11-28T02:37:32Z",
+                "updated_at": "2022-11-28T02:37:33Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "LucasBadico",
+                        "id": 16516889,
+                        "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/LucasBadico",
+                        "html_url": "https://github.com/LucasBadico",
+                        "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                        "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                        "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                        "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                        "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 4846630370,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOG14g",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/documentation",
+                        "name": "documentation",
+                        "color": "0075ca",
+                        "default": true,
+                        "description": "Improvements or additions to documentation"
+                    },
+                    {
+                        "id": 4846630375,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOG15w",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/commits",
+                "review_comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/comments",
+                "review_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2/comments",
+                "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/ad5b8a4a338260fcebb75d353e29c7ccdca992dd",
+                "head": {
+                    "label": "badico-cloud-hub:feat/render-canvas",
+                    "ref": "feat/render-canvas",
+                    "sha": "ad5b8a4a338260fcebb75d353e29c7ccdca992dd",
+                    "user": {
+                        "login": "badico-cloud-hub",
+                        "id": 16516898,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/badico-cloud-hub",
+                        "html_url": "https://github.com/badico-cloud-hub",
+                        "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                        "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                        "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                        "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                        "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 571250302,
+                        "node_id": "R_kgDOIgyWfg",
+                        "name": "brickengine",
+                        "full_name": "badico-cloud-hub/brickengine",
+                        "private": false,
+                        "owner": {
+                            "login": "badico-cloud-hub",
+                            "id": 16516898,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/badico-cloud-hub",
+                            "html_url": "https://github.com/badico-cloud-hub",
+                            "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                            "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                            "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                            "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                            "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                        "forks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/forks",
+                        "keys_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/teams",
+                        "hooks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/hooks",
+                        "issue_events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/events",
+                        "assignees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/tags",
+                        "blobs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/languages",
+                        "stargazers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/stargazers",
+                        "contributors_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contributors",
+                        "subscribers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscribers",
+                        "subscription_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscription",
+                        "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/merges",
+                        "archive_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/downloads",
+                        "issues_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/deployments",
+                        "created_at": "2022-11-27T16:35:44Z",
+                        "updated_at": "2022-11-27T16:35:44Z",
+                        "pushed_at": "2022-11-28T02:37:33Z",
+                        "git_url": "git://github.com/badico-cloud-hub/brickengine.git",
+                        "ssh_url": "git@github.com:badico-cloud-hub/brickengine.git",
+                        "clone_url": "https://github.com/badico-cloud-hub/brickengine.git",
+                        "svn_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "homepage": null,
+                        "size": 7,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 2,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 2,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "badico-cloud-hub:main",
+                    "ref": "main",
+                    "sha": "796d58d9d38b742c89c3dd121379aa3936d67537",
+                    "user": {
+                        "login": "badico-cloud-hub",
+                        "id": 16516898,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/badico-cloud-hub",
+                        "html_url": "https://github.com/badico-cloud-hub",
+                        "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                        "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                        "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                        "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                        "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 571250302,
+                        "node_id": "R_kgDOIgyWfg",
+                        "name": "brickengine",
+                        "full_name": "badico-cloud-hub/brickengine",
+                        "private": false,
+                        "owner": {
+                            "login": "badico-cloud-hub",
+                            "id": 16516898,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/badico-cloud-hub",
+                            "html_url": "https://github.com/badico-cloud-hub",
+                            "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                            "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                            "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                            "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                            "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                        "forks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/forks",
+                        "keys_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/teams",
+                        "hooks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/hooks",
+                        "issue_events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/events",
+                        "assignees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/tags",
+                        "blobs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/languages",
+                        "stargazers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/stargazers",
+                        "contributors_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contributors",
+                        "subscribers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscribers",
+                        "subscription_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscription",
+                        "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/merges",
+                        "archive_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/downloads",
+                        "issues_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/deployments",
+                        "created_at": "2022-11-27T16:35:44Z",
+                        "updated_at": "2022-11-27T16:35:44Z",
+                        "pushed_at": "2022-11-28T02:37:33Z",
+                        "git_url": "git://github.com/badico-cloud-hub/brickengine.git",
+                        "ssh_url": "git@github.com:badico-cloud-hub/brickengine.git",
+                        "clone_url": "https://github.com/badico-cloud-hub/brickengine.git",
+                        "svn_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "homepage": null,
+                        "size": 7,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 2,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 2,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2"
+                    },
+                    "html": {
+                        "href": "https://github.com/badico-cloud-hub/brickengine/pull/2"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/ad5b8a4a338260fcebb75d353e29c7ccdca992dd"
+                    }
+                },
+                "author_association": "MEMBER",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 2,
+                "additions": 95,
+                "deletions": 0,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-28T02:37:33Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25499973157",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": "feat/render-canvas",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-28T02:31:08Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495990227",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1",
+                "repository_url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/labels{/name}",
+                "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/comments",
+                "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/events",
+                "html_url": "https://github.com/badico-cloud-hub/brickengine/issues/1",
+                "id": 1465520168,
+                "node_id": "I_kwDOIgyWfs5XWhAo",
+                "number": 1,
+                "title": "Screen modules",
+                "user": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4846768470,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOPRVg",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/work-in-progress",
+                        "name": "work-in-progress",
+                        "color": "E3FD89",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-27T17:29:11Z",
+                "updated_at": "2022-11-27T17:29:11Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "We need to figureout a way to isolate the process of screen to its proper output.\r\n\r\nRender\r\n- HTML(old version)\r\n- console\r\n- CANVAS\r\n\r\nDecoder\r\n- INPUT/Render\r\n\r\n## Expected Behavior\r\n<!--- If you're describing a bug, tell us what should happen -->\r\n<!--- If you're suggesting a change/improvement, tell us how it should work -->\r\n\r\n## Current Behavior\r\n<!--- If describing a bug, tell us what happens instead of the expected behavior -->\r\n<!--- If suggesting a change/improvement, explain the difference from current behavior -->\r\n\r\n## Possible Solution\r\n<!--- Not obligatory, but suggest a fix/reason for the bug, -->\r\n<!--- or ideas how to implement the addition or change -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-27T17:29:11Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495944234",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799881669,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "796d58d9d38b742c89c3dd121379aa3936d67537",
+            "before": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+            "commits": [
+                {
+                    "sha": "796d58d9d38b742c89c3dd121379aa3936d67537",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "doc: add arquiteture first draft",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/796d58d9d38b742c89c3dd121379aa3936d67537"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T17:22:30Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495740529",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799742276,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+            "before": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+            "commits": [
+                {
+                    "sha": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add pr is rebased action",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/8ef4feb60ae2586f637fb57e3fbcbad56132a199"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:54:02Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495707225",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799719610,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+            "before": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+            "commits": [
+                {
+                    "sha": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add pull request template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/2932efdeda265d6c68b4dc81d62c276771cf0468"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:49:03Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495687174",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799706033,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+            "before": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+            "commits": [
+                {
+                    "sha": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: move issue template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/57c2cc0f45deb8143325474043d83f8973c7cb81"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:46:09Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495680134",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799701328,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+            "before": "3bf7a61301812114d4b1d9a209cd4e01031cf234",
+            "commits": [
+                {
+                    "sha": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add issue template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:45:09Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495609324",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:35:46Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495609305",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:35:45Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
         "id": "24699421293",
         "type": "WatchEvent",
         "actor": {
@@ -964,6 +2706,877 @@
         },
         "public": true,
         "created_at": "2022-09-12T23:43:05Z"
+    },
+    {
+        "id": "25500035116",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 2,
+            "pull_request": {
+                "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2",
+                "id": 1136911179,
+                "node_id": "PR_kwDOIgyWfs5Dw-NL",
+                "html_url": "https://github.com/badico-cloud-hub/brickengine/pull/2",
+                "diff_url": "https://github.com/badico-cloud-hub/brickengine/pull/2.diff",
+                "patch_url": "https://github.com/badico-cloud-hub/brickengine/pull/2.patch",
+                "issue_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2",
+                "number": 2,
+                "state": "open",
+                "locked": false,
+                "title": "Feat/render canvas",
+                "user": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "<!--- Provide a general summary of your changes in the Title above -->\r\n\r\n## Description\r\nWe add our first render to the project. The canvas one.\r\n\r\n## Related Issue\r\n#1 screen module - render canvas\r\n\r\n\r\n## Motivation and Context\r\nFor the screen module to work we needed a render to output our pixels. We decided to use canvas because the performance reasons. \r\n\r\nThe first version of this game engine used the html divs and it was a desaster. So we decided to stick with the canvas alternative. \r\n\r\n## How Has This Been Tested?\r\nThe example file `feat-render-canvas` has the implamentation of this render.\r\n<!--- Include details of your testing environment, and the tests you ran to -->\r\n<!--- see how your change affects other areas of the code, etc. -->\r\n\r\n## Screenshots (if appropriate):\r\n<img width=\"1409\" alt=\"Screen Shot 2022-11-27 at 23 36 32\" src=\"https://user-images.githubusercontent.com/16516889/204179552-1fcf9513-7271-4e5c-b078-4874a34a563f.png\">\r\n\r\n\r\n## Types of changes\r\n<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->\r\n- [ ] Bug fix (non-breaking change which fixes an issue)\r\n- [x] New feature (non-breaking change which adds functionality)\r\n- [ ] Breaking change (fix or feature that would cause existing functionality to change)\r\n\r\n## Checklist:\r\n<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->\r\n<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->\r\n- [x] My code follows the code style of this project.\r\n- [x] My change requires a change to the documentation.\r\n- [x] I have updated the documentation accordingly.\r\n- [ ] I have read the **CONTRIBUTING** document.\r\n- [ ] I have added tests to cover my changes.\r\n- [ ] All new and existing tests passed.\r\n",
+                "created_at": "2022-11-28T02:37:32Z",
+                "updated_at": "2022-11-28T02:37:33Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "assignees": [
+                    {
+                        "login": "LucasBadico",
+                        "id": 16516889,
+                        "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/LucasBadico",
+                        "html_url": "https://github.com/LucasBadico",
+                        "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                        "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                        "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                        "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                        "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 4846630370,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOG14g",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/documentation",
+                        "name": "documentation",
+                        "color": "0075ca",
+                        "default": true,
+                        "description": "Improvements or additions to documentation"
+                    },
+                    {
+                        "id": 4846630375,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOG15w",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "a2eeef",
+                        "default": true,
+                        "description": "New feature or request"
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/commits",
+                "review_comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/comments",
+                "review_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2/comments",
+                "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/ad5b8a4a338260fcebb75d353e29c7ccdca992dd",
+                "head": {
+                    "label": "badico-cloud-hub:feat/render-canvas",
+                    "ref": "feat/render-canvas",
+                    "sha": "ad5b8a4a338260fcebb75d353e29c7ccdca992dd",
+                    "user": {
+                        "login": "badico-cloud-hub",
+                        "id": 16516898,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/badico-cloud-hub",
+                        "html_url": "https://github.com/badico-cloud-hub",
+                        "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                        "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                        "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                        "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                        "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 571250302,
+                        "node_id": "R_kgDOIgyWfg",
+                        "name": "brickengine",
+                        "full_name": "badico-cloud-hub/brickengine",
+                        "private": false,
+                        "owner": {
+                            "login": "badico-cloud-hub",
+                            "id": 16516898,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/badico-cloud-hub",
+                            "html_url": "https://github.com/badico-cloud-hub",
+                            "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                            "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                            "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                            "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                            "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                        "forks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/forks",
+                        "keys_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/teams",
+                        "hooks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/hooks",
+                        "issue_events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/events",
+                        "assignees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/tags",
+                        "blobs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/languages",
+                        "stargazers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/stargazers",
+                        "contributors_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contributors",
+                        "subscribers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscribers",
+                        "subscription_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscription",
+                        "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/merges",
+                        "archive_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/downloads",
+                        "issues_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/deployments",
+                        "created_at": "2022-11-27T16:35:44Z",
+                        "updated_at": "2022-11-27T16:35:44Z",
+                        "pushed_at": "2022-11-28T02:37:33Z",
+                        "git_url": "git://github.com/badico-cloud-hub/brickengine.git",
+                        "ssh_url": "git@github.com:badico-cloud-hub/brickengine.git",
+                        "clone_url": "https://github.com/badico-cloud-hub/brickengine.git",
+                        "svn_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "homepage": null,
+                        "size": 7,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 2,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 2,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "base": {
+                    "label": "badico-cloud-hub:main",
+                    "ref": "main",
+                    "sha": "796d58d9d38b742c89c3dd121379aa3936d67537",
+                    "user": {
+                        "login": "badico-cloud-hub",
+                        "id": 16516898,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/badico-cloud-hub",
+                        "html_url": "https://github.com/badico-cloud-hub",
+                        "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                        "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                        "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                        "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                        "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 571250302,
+                        "node_id": "R_kgDOIgyWfg",
+                        "name": "brickengine",
+                        "full_name": "badico-cloud-hub/brickengine",
+                        "private": false,
+                        "owner": {
+                            "login": "badico-cloud-hub",
+                            "id": 16516898,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE2NTE2ODk4",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/badico-cloud-hub",
+                            "html_url": "https://github.com/badico-cloud-hub",
+                            "followers_url": "https://api.github.com/users/badico-cloud-hub/followers",
+                            "following_url": "https://api.github.com/users/badico-cloud-hub/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/badico-cloud-hub/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/badico-cloud-hub/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/badico-cloud-hub/subscriptions",
+                            "organizations_url": "https://api.github.com/users/badico-cloud-hub/orgs",
+                            "repos_url": "https://api.github.com/users/badico-cloud-hub/repos",
+                            "events_url": "https://api.github.com/users/badico-cloud-hub/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/badico-cloud-hub/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                        "forks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/forks",
+                        "keys_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/teams",
+                        "hooks_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/hooks",
+                        "issue_events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/events",
+                        "assignees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/tags",
+                        "blobs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/languages",
+                        "stargazers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/stargazers",
+                        "contributors_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contributors",
+                        "subscribers_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscribers",
+                        "subscription_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/subscription",
+                        "commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/merges",
+                        "archive_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/downloads",
+                        "issues_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/deployments",
+                        "created_at": "2022-11-27T16:35:44Z",
+                        "updated_at": "2022-11-27T16:35:44Z",
+                        "pushed_at": "2022-11-28T02:37:33Z",
+                        "git_url": "git://github.com/badico-cloud-hub/brickengine.git",
+                        "ssh_url": "git@github.com:badico-cloud-hub/brickengine.git",
+                        "clone_url": "https://github.com/badico-cloud-hub/brickengine.git",
+                        "svn_url": "https://github.com/badico-cloud-hub/brickengine",
+                        "homepage": null,
+                        "size": 7,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": null,
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 2,
+                        "license": {
+                            "key": "mit",
+                            "name": "MIT License",
+                            "spdx_id": "MIT",
+                            "url": "https://api.github.com/licenses/mit",
+                            "node_id": "MDc6TGljZW5zZTEz"
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 2,
+                        "watchers": 0,
+                        "default_branch": "main"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2"
+                    },
+                    "html": {
+                        "href": "https://github.com/badico-cloud-hub/brickengine/pull/2"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/2/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/pulls/2/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/badico-cloud-hub/brickengine/statuses/ad5b8a4a338260fcebb75d353e29c7ccdca992dd"
+                    }
+                },
+                "author_association": "MEMBER",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 2,
+                "additions": 95,
+                "deletions": 0,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-28T02:37:33Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25499973157",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": "feat/render-canvas",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-28T02:31:08Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495990227",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1",
+                "repository_url": "https://api.github.com/repos/badico-cloud-hub/brickengine",
+                "labels_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/labels{/name}",
+                "comments_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/comments",
+                "events_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/events",
+                "html_url": "https://github.com/badico-cloud-hub/brickengine/issues/1",
+                "id": 1465520168,
+                "node_id": "I_kwDOIgyWfs5XWhAo",
+                "number": 1,
+                "title": "Screen modules",
+                "user": {
+                    "login": "LucasBadico",
+                    "id": 16516889,
+                    "node_id": "MDQ6VXNlcjE2NTE2ODg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16516889?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/LucasBadico",
+                    "html_url": "https://github.com/LucasBadico",
+                    "followers_url": "https://api.github.com/users/LucasBadico/followers",
+                    "following_url": "https://api.github.com/users/LucasBadico/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/LucasBadico/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/LucasBadico/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/LucasBadico/subscriptions",
+                    "organizations_url": "https://api.github.com/users/LucasBadico/orgs",
+                    "repos_url": "https://api.github.com/users/LucasBadico/repos",
+                    "events_url": "https://api.github.com/users/LucasBadico/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/LucasBadico/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 4846768470,
+                        "node_id": "LA_kwDOIgyWfs8AAAABIOPRVg",
+                        "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/labels/work-in-progress",
+                        "name": "work-in-progress",
+                        "color": "E3FD89",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-27T17:29:11Z",
+                "updated_at": "2022-11-27T17:29:11Z",
+                "closed_at": null,
+                "author_association": "MEMBER",
+                "active_lock_reason": null,
+                "body": "We need to figureout a way to isolate the process of screen to its proper output.\r\n\r\nRender\r\n- HTML(old version)\r\n- console\r\n- CANVAS\r\n\r\nDecoder\r\n- INPUT/Render\r\n\r\n## Expected Behavior\r\n<!--- If you're describing a bug, tell us what should happen -->\r\n<!--- If you're suggesting a change/improvement, tell us how it should work -->\r\n\r\n## Current Behavior\r\n<!--- If describing a bug, tell us what happens instead of the expected behavior -->\r\n<!--- If suggesting a change/improvement, explain the difference from current behavior -->\r\n\r\n## Possible Solution\r\n<!--- Not obligatory, but suggest a fix/reason for the bug, -->\r\n<!--- or ideas how to implement the addition or change -->\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/badico-cloud-hub/brickengine/issues/1/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-27T17:29:11Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495944234",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799881669,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "796d58d9d38b742c89c3dd121379aa3936d67537",
+            "before": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+            "commits": [
+                {
+                    "sha": "796d58d9d38b742c89c3dd121379aa3936d67537",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "doc: add arquiteture first draft",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/796d58d9d38b742c89c3dd121379aa3936d67537"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T17:22:30Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495740529",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799742276,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+            "before": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+            "commits": [
+                {
+                    "sha": "8ef4feb60ae2586f637fb57e3fbcbad56132a199",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add pr is rebased action",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/8ef4feb60ae2586f637fb57e3fbcbad56132a199"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:54:02Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495707225",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799719610,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+            "before": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+            "commits": [
+                {
+                    "sha": "2932efdeda265d6c68b4dc81d62c276771cf0468",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add pull request template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/2932efdeda265d6c68b4dc81d62c276771cf0468"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:49:03Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495687174",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799706033,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+            "before": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+            "commits": [
+                {
+                    "sha": "57c2cc0f45deb8143325474043d83f8973c7cb81",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: move issue template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/57c2cc0f45deb8143325474043d83f8973c7cb81"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:46:09Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495680134",
+        "type": "PushEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "push_id": 11799701328,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+            "before": "3bf7a61301812114d4b1d9a209cd4e01031cf234",
+            "commits": [
+                {
+                    "sha": "383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc",
+                    "author": {
+                        "email": "lucasgomesdesantana@gmail.com",
+                        "name": "Lucas Badico"
+                    },
+                    "message": "chore: add issue template",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/badico-cloud-hub/brickengine/commits/383afa66f1f12c20ac87f7a0dcf90342f2e9b0bc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:45:09Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495609324",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:35:46Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
+    },
+    {
+        "id": "25495609305",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 16516889,
+            "login": "LucasBadico",
+            "display_login": "LucasBadico",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/LucasBadico",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516889?"
+        },
+        "repo": {
+            "id": 571250302,
+            "name": "badico-cloud-hub/brickengine",
+            "url": "https://api.github.com/repos/badico-cloud-hub/brickengine"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "This is a Simple Game engine to create 2d brick games. As in tetris and others orginal gameboys games",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-27T16:35:45Z",
+        "org": {
+            "id": 16516898,
+            "login": "badico-cloud-hub",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/badico-cloud-hub",
+            "avatar_url": "https://avatars.githubusercontent.com/u/16516898?"
+        }
     },
     {
         "id": "24699421293",

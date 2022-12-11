@@ -1,6 +1,6 @@
 [
     {
-        "id": "25050167384",
+        "id": "25807133419",
         "type": "PushEvent",
         "actor": {
             "id": 9873,
@@ -16,792 +16,30 @@
             "url": "https://api.github.com/repos/szimek/sharedrop"
         },
         "payload": {
-            "push_id": 11564922015,
+            "push_id": 11957965182,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "827329ea073d97e9c1c52865efe9fc98331a60aa",
-            "before": "69f2d2975c051ab337694050220f63abad5effd7",
+            "head": "3af80f9776d8426b246b3cb8f4f5e73d4042d8cc",
+            "before": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
             "commits": [
                 {
-                    "sha": "827329ea073d97e9c1c52865efe9fc98331a60aa",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Update logo in README.md",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/827329ea073d97e9c1c52865efe9fc98331a60aa"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-05T19:39:54Z"
-    },
-    {
-        "id": "25049382997",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/142",
-                "id": 1436497646,
-                "node_id": "I_kwDOARG-ic5Vnzbu",
-                "number": 142,
-                "title": "Allow custom names for users (machines)",
-                "user": {
-                    "login": "brunetton",
-                    "id": 86322,
-                    "node_id": "MDQ6VXNlcjg2MzIy",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/86322?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/brunetton",
-                    "html_url": "https://github.com/brunetton",
-                    "followers_url": "https://api.github.com/users/brunetton/followers",
-                    "following_url": "https://api.github.com/users/brunetton/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/brunetton/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/brunetton/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/brunetton/subscriptions",
-                    "organizations_url": "https://api.github.com/users/brunetton/orgs",
-                    "repos_url": "https://api.github.com/users/brunetton/repos",
-                    "events_url": "https://api.github.com/users/brunetton/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/brunetton/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [
-                    {
-                        "id": 87223169,
-                        "node_id": "MDU6TGFiZWw4NzIyMzE2OQ==",
-                        "url": "https://api.github.com/repos/szimek/sharedrop/labels/enhancement",
-                        "name": "enhancement",
-                        "color": "84b6eb",
-                        "default": true,
-                        "description": null
-                    }
-                ],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-11-04T18:46:17Z",
-                "updated_at": "2022-11-05T17:36:38Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Hi, \r\nI plan to use Sharedrop for realtime team collaboration; but when more than 3 or 4 computers on the same room, it starts to be hard to remember \"who is who\", ie who is \"Romantic Piglet\" again ? Is this Paul ? Or Linus ? \r\n\r\nIt would be great to be able to define custom names",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/142/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475",
-                "html_url": "https://github.com/szimek/sharedrop/issues/142#issuecomment-1304597475",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
-                "id": 1304597475,
-                "node_id": "IC_kwDOARG-ic5NwpPj",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-11-05T17:36:38Z",
-                "updated_at": "2022-11-05T17:36:38Z",
-                "author_association": "OWNER",
-                "body": "Hey! It's been requested a few times already. I have some concerns that in specific use cases people could impersonate others. However, I understand that in other use cases, like yours, it would be useful.\r\n\r\nThe logic to implement it is relatively simple, the biggest issue is actually UI. When I have some free time, I'll see if it's possible to reuse the existing dialog box component for it - this way the UI could be the same for desktop and mobile.\r\n\r\nAlso, PRs are welcome :)",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-11-05T17:36:39Z"
-    },
-    {
-        "id": "24976097444",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11526202996,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "69f2d2975c051ab337694050220f63abad5effd7",
-            "before": "7652dd06011ed8c7038668e10b86bd7325d01239",
-            "commits": [
-                {
-                    "sha": "69f2d2975c051ab337694050220f63abad5effd7",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Add light version of sharedrop svg",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/69f2d2975c051ab337694050220f63abad5effd7"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-02T07:57:05Z"
-    },
-    {
-        "id": "24968259325",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11522073881,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "7652dd06011ed8c7038668e10b86bd7325d01239",
-            "before": "e0095d86e837df8f4e02e8042b7c4b5139303987",
-            "commits": [
-                {
-                    "sha": "7652dd06011ed8c7038668e10b86bd7325d01239",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Add 'donate' button",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/7652dd06011ed8c7038668e10b86bd7325d01239"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-01T21:30:07Z"
-    },
-    {
-        "id": "24967762539",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11521828201,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/master",
-            "head": "e0095d86e837df8f4e02e8042b7c4b5139303987",
-            "before": "53894f8ff05e124286bf60987525aa0b0d602020",
-            "commits": [
-                {
-                    "sha": "3569e0a3efd8f0fc9beee9d282c674ac3ac22041",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Update 'about app' content",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/3569e0a3efd8f0fc9beee9d282c674ac3ac22041"
-                },
-                {
-                    "sha": "e0095d86e837df8f4e02e8042b7c4b5139303987",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "We stand with Ukraine!",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/e0095d86e837df8f4e02e8042b7c4b5139303987"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-01T21:01:18Z"
-    },
-    {
-        "id": "24967701050",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11521797508,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "53894f8ff05e124286bf60987525aa0b0d602020",
-            "before": "a2cf5d5802cb426dabf54ca1051fe39ec9675b83",
-            "commits": [
-                {
-                    "sha": "53894f8ff05e124286bf60987525aa0b0d602020",
+                    "sha": "3af80f9776d8426b246b3cb8f4f5e73d4042d8cc",
                     "author": {
                         "email": "szimek@gmail.com",
                         "name": "Szymon Nowak"
                     },
                     "message": "Update README.md",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/53894f8ff05e124286bf60987525aa0b0d602020"
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/3af80f9776d8426b246b3cb8f4f5e73d4042d8cc"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-11-01T20:57:55Z"
+        "created_at": "2022-12-11T14:10:32Z"
     },
     {
-        "id": "24186614273",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "closed",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/135",
-                "id": 1360725859,
-                "node_id": "I_kwDOARG-ic5RGwdj",
-                "number": 135,
-                "title": "[tell me] how does this compare to snapdrop.io?",
-                "user": {
-                    "login": "SiddharthSharma16923",
-                    "id": 75392515,
-                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/SiddharthSharma16923",
-                    "html_url": "https://github.com/SiddharthSharma16923",
-                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
-                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
-                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
-                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
-                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "closed",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-09-03T02:08:41Z",
-                "updated_at": "2022-09-23T13:49:16Z",
-                "closed_at": "2022-09-23T13:49:15Z",
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "are they twins?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
-                "performed_via_github_app": null,
-                "state_reason": "completed"
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-23T13:49:16Z"
-    },
-    {
-        "id": "24186614144",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/135",
-                "id": 1360725859,
-                "node_id": "I_kwDOARG-ic5RGwdj",
-                "number": 135,
-                "title": "[tell me] how does this compare to snapdrop.io?",
-                "user": {
-                    "login": "SiddharthSharma16923",
-                    "id": 75392515,
-                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/SiddharthSharma16923",
-                    "html_url": "https://github.com/SiddharthSharma16923",
-                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
-                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
-                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
-                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
-                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "closed",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-09-03T02:08:41Z",
-                "updated_at": "2022-09-23T13:49:15Z",
-                "closed_at": "2022-09-23T13:49:15Z",
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "are they twins?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
-                "performed_via_github_app": null,
-                "state_reason": "completed"
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822",
-                "html_url": "https://github.com/szimek/sharedrop/issues/135#issuecomment-1256241822",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
-                "id": 1256241822,
-                "node_id": "IC_kwDOARG-ic5K4Lqe",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-09-23T13:49:15Z",
-                "updated_at": "2022-09-23T13:49:15Z",
-                "author_association": "OWNER",
-                "body": "> are they twins?\r\n\r\nAlmost ;) sharedrop.io was released in early 2014, a bit before snapdrop.io (late 2015?).\r\n\r\nBesides smaller differences (UI, PWA, etc.) the main differences are:\r\n- snapdrop.io uses web sockets as a fallback when direct p2p connection can't be established; this can be perceived as an advantage (and most likely is by most people), as it works in more cases than sharedrop.io, but also as a disadvantage, as transferred files are moved through a third-party server; I don't know if/how they are encrypted in such case\r\n- sharedrop.io allows one to share files between networks via custom room names",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-23T13:49:16Z"
-    },
-    {
-        "id": "24135396581",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/136",
-                "id": 1380273781,
-                "node_id": "I_kwDOARG-ic5SRU51",
-                "number": 136,
-                "title": "How to diagnose the error occurs?",
-                "user": {
-                    "login": "pqnhan",
-                    "id": 24197589,
-                    "node_id": "MDQ6VXNlcjI0MTk3NTg5",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/24197589?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/pqnhan",
-                    "html_url": "https://github.com/pqnhan",
-                    "followers_url": "https://api.github.com/users/pqnhan/followers",
-                    "following_url": "https://api.github.com/users/pqnhan/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/pqnhan/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/pqnhan/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/pqnhan/subscriptions",
-                    "organizations_url": "https://api.github.com/users/pqnhan/orgs",
-                    "repos_url": "https://api.github.com/users/pqnhan/repos",
-                    "events_url": "https://api.github.com/users/pqnhan/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/pqnhan/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-09-21T03:57:26Z",
-                "updated_at": "2022-09-21T10:50:53Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "I got an error message: \"It was not possible to establish direct connection with the other peer\" \r\nwhen trying to transfer files between two devices on two different networks, although the two devices \"see each other\".\r\n\r\nIs there any way to diagnose the error, find the cause?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/136/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466",
-                "html_url": "https://github.com/szimek/sharedrop/issues/136#issuecomment-1253531466",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
-                "id": 1253531466,
-                "node_id": "IC_kwDOARG-ic5Kt19K",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-09-21T10:50:53Z",
-                "updated_at": "2022-09-21T10:50:53Z",
-                "author_association": "OWNER",
-                "body": "Hi! It's best to check for an error in browser's devtools (here are instructions for [Chrome](https://developer.chrome.com/docs/devtools/console/reference/#panel)).\r\n\r\nHowever, if it doesn't work then it most likely won't be possible to establish a direct connection :/ The \"devices seeing each other\" feature is provided by Firebase, so it's unrelated to p2p connection that's used to transfer files.\r\n\r\nAre both devices in the same local network or are you trying to transfer files between devices in different networks?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-21T10:50:53Z"
-    },
-    {
-        "id": "24023744130",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/97",
-                "id": 770432195,
-                "node_id": "MDU6SXNzdWU3NzA0MzIxOTU=",
-                "number": 97,
-                "title": "Is there a file size limit?",
-                "user": {
-                    "login": "honi",
-                    "id": 130202,
-                    "node_id": "MDQ6VXNlcjEzMDIwMg==",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/130202?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/honi",
-                    "html_url": "https://github.com/honi",
-                    "followers_url": "https://api.github.com/users/honi/followers",
-                    "following_url": "https://api.github.com/users/honi/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/honi/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/honi/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/honi/subscriptions",
-                    "organizations_url": "https://api.github.com/users/honi/orgs",
-                    "repos_url": "https://api.github.com/users/honi/repos",
-                    "events_url": "https://api.github.com/users/honi/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/honi/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "closed",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 5,
-                "created_at": "2020-12-17T22:51:46Z",
-                "updated_at": "2022-09-15T09:44:37Z",
-                "closed_at": "2020-12-18T12:38:37Z",
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "I'm trying to send an 8GB file. After selecting the file nothing happens, no error, no progress. The other side doesn't see anything either.\r\n\r\nThanks!",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/97/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/timeline",
-                "performed_via_github_app": null,
-                "state_reason": "completed"
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637",
-                "html_url": "https://github.com/szimek/sharedrop/issues/97#issuecomment-1247855637",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
-                "id": 1247855637,
-                "node_id": "IC_kwDOARG-ic5KYMQV",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-09-15T09:44:37Z",
-                "updated_at": "2022-09-15T09:44:37Z",
-                "author_association": "OWNER",
-                "body": "Hi @vincentpricex!\r\n\r\nIn theory there's a limit imposed by browsers when it comes to storing temporary data locally in the filsystem. Sharedrop uses an old and deprecated Chrome-only [FileSystem API](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestFileSystem) with fallback to IndexedDB for other browser.  Unfortunately, I did not implement a check for available space before you start sending a file. Actually, I'm quite surprised that you were able to transfer 3GB file! :) \r\n\r\nOne solution would be to add this check, so that you would get a message about insufficient space before it starts transferring the file. Another solution could be to switch to a more modern filesystem API (https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API), but I didn't have time to look into it, so I don't know what constraints and limits it has.\r\n\r\nBTW. Did you have to change anything to be able to run it locally in a Docker container? Did you have any problems with setting up Firebase account? I remember a few people saying that it doesn't work out of the box, so providing specific instructions on how to set it up would be useful to many.",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-15T09:44:37Z"
-    },
-    {
-        "id": "23801437879",
+        "id": "25670918218",
         "type": "WatchEvent",
         "actor": {
             "id": 9873,
@@ -812,47 +50,25 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
         },
         "repo": {
-            "id": 190928426,
-            "name": "millsp/ts-toolbelt",
-            "url": "https://api.github.com/repos/millsp/ts-toolbelt"
+            "id": 231208785,
+            "name": "ruby/setup-ruby",
+            "url": "https://api.github.com/repos/ruby/setup-ruby"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-09-03T11:03:13Z"
-    },
-    {
-        "id": "23674006782",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 528339561,
-            "name": "total-typescript/beginners-typescript-tutorial",
-            "url": "https://api.github.com/repos/total-typescript/beginners-typescript-tutorial"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-27T20:13:54Z",
+        "created_at": "2022-12-05T19:37:19Z",
         "org": {
-            "id": 107223871,
-            "login": "total-typescript",
+            "id": 210414,
+            "login": "ruby",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/total-typescript",
-            "avatar_url": "https://avatars.githubusercontent.com/u/107223871?"
+            "url": "https://api.github.com/orgs/ruby",
+            "avatar_url": "https://avatars.githubusercontent.com/u/210414?"
         }
     },
     {
-        "id": "23535744813",
+        "id": "25639669039",
         "type": "WatchEvent",
         "actor": {
             "id": 9873,
@@ -863,25 +79,25 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
         },
         "repo": {
-            "id": 1451352,
-            "name": "mochajs/mocha",
-            "url": "https://api.github.com/repos/mochajs/mocha"
+            "id": 566576114,
+            "name": "apple/ml-stable-diffusion",
+            "url": "https://api.github.com/repos/apple/ml-stable-diffusion"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-08-19T20:30:38Z",
+        "created_at": "2022-12-04T07:46:10Z",
         "org": {
-            "id": 8770005,
-            "login": "mochajs",
+            "id": 10639145,
+            "login": "apple",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/mochajs",
-            "avatar_url": "https://avatars.githubusercontent.com/u/8770005?"
+            "url": "https://api.github.com/orgs/apple",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10639145?"
         }
     },
     {
-        "id": "25050167384",
+        "id": "25347533275",
         "type": "PushEvent",
         "actor": {
             "id": 9873,
@@ -897,869 +113,37 @@
             "url": "https://api.github.com/repos/szimek/sharedrop"
         },
         "payload": {
-            "push_id": 11564922015,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "827329ea073d97e9c1c52865efe9fc98331a60aa",
-            "before": "69f2d2975c051ab337694050220f63abad5effd7",
-            "commits": [
-                {
-                    "sha": "827329ea073d97e9c1c52865efe9fc98331a60aa",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Update logo in README.md",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/827329ea073d97e9c1c52865efe9fc98331a60aa"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-05T19:39:54Z"
-    },
-    {
-        "id": "25049382997",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/142",
-                "id": 1436497646,
-                "node_id": "I_kwDOARG-ic5Vnzbu",
-                "number": 142,
-                "title": "Allow custom names for users (machines)",
-                "user": {
-                    "login": "brunetton",
-                    "id": 86322,
-                    "node_id": "MDQ6VXNlcjg2MzIy",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/86322?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/brunetton",
-                    "html_url": "https://github.com/brunetton",
-                    "followers_url": "https://api.github.com/users/brunetton/followers",
-                    "following_url": "https://api.github.com/users/brunetton/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/brunetton/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/brunetton/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/brunetton/subscriptions",
-                    "organizations_url": "https://api.github.com/users/brunetton/orgs",
-                    "repos_url": "https://api.github.com/users/brunetton/repos",
-                    "events_url": "https://api.github.com/users/brunetton/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/brunetton/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [
-                    {
-                        "id": 87223169,
-                        "node_id": "MDU6TGFiZWw4NzIyMzE2OQ==",
-                        "url": "https://api.github.com/repos/szimek/sharedrop/labels/enhancement",
-                        "name": "enhancement",
-                        "color": "84b6eb",
-                        "default": true,
-                        "description": null
-                    }
-                ],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-11-04T18:46:17Z",
-                "updated_at": "2022-11-05T17:36:38Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Hi, \r\nI plan to use Sharedrop for realtime team collaboration; but when more than 3 or 4 computers on the same room, it starts to be hard to remember \"who is who\", ie who is \"Romantic Piglet\" again ? Is this Paul ? Or Linus ? \r\n\r\nIt would be great to be able to define custom names",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/142/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475",
-                "html_url": "https://github.com/szimek/sharedrop/issues/142#issuecomment-1304597475",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
-                "id": 1304597475,
-                "node_id": "IC_kwDOARG-ic5NwpPj",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-11-05T17:36:38Z",
-                "updated_at": "2022-11-05T17:36:38Z",
-                "author_association": "OWNER",
-                "body": "Hey! It's been requested a few times already. I have some concerns that in specific use cases people could impersonate others. However, I understand that in other use cases, like yours, it would be useful.\r\n\r\nThe logic to implement it is relatively simple, the biggest issue is actually UI. When I have some free time, I'll see if it's possible to reuse the existing dialog box component for it - this way the UI could be the same for desktop and mobile.\r\n\r\nAlso, PRs are welcome :)",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-11-05T17:36:39Z"
-    },
-    {
-        "id": "24976097444",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11526202996,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "69f2d2975c051ab337694050220f63abad5effd7",
-            "before": "7652dd06011ed8c7038668e10b86bd7325d01239",
-            "commits": [
-                {
-                    "sha": "69f2d2975c051ab337694050220f63abad5effd7",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Add light version of sharedrop svg",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/69f2d2975c051ab337694050220f63abad5effd7"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-02T07:57:05Z"
-    },
-    {
-        "id": "24968259325",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11522073881,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "7652dd06011ed8c7038668e10b86bd7325d01239",
-            "before": "e0095d86e837df8f4e02e8042b7c4b5139303987",
-            "commits": [
-                {
-                    "sha": "7652dd06011ed8c7038668e10b86bd7325d01239",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Add 'donate' button",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/7652dd06011ed8c7038668e10b86bd7325d01239"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-01T21:30:07Z"
-    },
-    {
-        "id": "24967762539",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11521828201,
+            "push_id": 11718982238,
             "size": 2,
             "distinct_size": 2,
             "ref": "refs/heads/master",
-            "head": "e0095d86e837df8f4e02e8042b7c4b5139303987",
-            "before": "53894f8ff05e124286bf60987525aa0b0d602020",
+            "head": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
+            "before": "827329ea073d97e9c1c52865efe9fc98331a60aa",
             "commits": [
                 {
-                    "sha": "3569e0a3efd8f0fc9beee9d282c674ac3ac22041",
+                    "sha": "2991bad6dc5e4cb26cad820eedaf1334c90ef31c",
                     "author": {
                         "email": "szimek@gmail.com",
                         "name": "Szymon Nowak"
                     },
-                    "message": "Update 'about app' content",
+                    "message": "Bump Node.js to 14.x",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/3569e0a3efd8f0fc9beee9d282c674ac3ac22041"
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/2991bad6dc5e4cb26cad820eedaf1334c90ef31c"
                 },
                 {
-                    "sha": "e0095d86e837df8f4e02e8042b7c4b5139303987",
+                    "sha": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
                     "author": {
                         "email": "szimek@gmail.com",
                         "name": "Szymon Nowak"
                     },
-                    "message": "We stand with Ukraine!",
+                    "message": "Fix linter error caused by inline styles",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/e0095d86e837df8f4e02e8042b7c4b5139303987"
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-11-01T21:01:18Z"
-    },
-    {
-        "id": "24967701050",
-        "type": "PushEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "push_id": 11521797508,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "53894f8ff05e124286bf60987525aa0b0d602020",
-            "before": "a2cf5d5802cb426dabf54ca1051fe39ec9675b83",
-            "commits": [
-                {
-                    "sha": "53894f8ff05e124286bf60987525aa0b0d602020",
-                    "author": {
-                        "email": "szimek@gmail.com",
-                        "name": "Szymon Nowak"
-                    },
-                    "message": "Update README.md",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/53894f8ff05e124286bf60987525aa0b0d602020"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-01T20:57:55Z"
-    },
-    {
-        "id": "24186614273",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "closed",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/135",
-                "id": 1360725859,
-                "node_id": "I_kwDOARG-ic5RGwdj",
-                "number": 135,
-                "title": "[tell me] how does this compare to snapdrop.io?",
-                "user": {
-                    "login": "SiddharthSharma16923",
-                    "id": 75392515,
-                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/SiddharthSharma16923",
-                    "html_url": "https://github.com/SiddharthSharma16923",
-                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
-                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
-                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
-                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
-                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "closed",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-09-03T02:08:41Z",
-                "updated_at": "2022-09-23T13:49:16Z",
-                "closed_at": "2022-09-23T13:49:15Z",
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "are they twins?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
-                "performed_via_github_app": null,
-                "state_reason": "completed"
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-23T13:49:16Z"
-    },
-    {
-        "id": "24186614144",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/135",
-                "id": 1360725859,
-                "node_id": "I_kwDOARG-ic5RGwdj",
-                "number": 135,
-                "title": "[tell me] how does this compare to snapdrop.io?",
-                "user": {
-                    "login": "SiddharthSharma16923",
-                    "id": 75392515,
-                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/SiddharthSharma16923",
-                    "html_url": "https://github.com/SiddharthSharma16923",
-                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
-                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
-                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
-                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
-                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "closed",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-09-03T02:08:41Z",
-                "updated_at": "2022-09-23T13:49:15Z",
-                "closed_at": "2022-09-23T13:49:15Z",
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "are they twins?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
-                "performed_via_github_app": null,
-                "state_reason": "completed"
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822",
-                "html_url": "https://github.com/szimek/sharedrop/issues/135#issuecomment-1256241822",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
-                "id": 1256241822,
-                "node_id": "IC_kwDOARG-ic5K4Lqe",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-09-23T13:49:15Z",
-                "updated_at": "2022-09-23T13:49:15Z",
-                "author_association": "OWNER",
-                "body": "> are they twins?\r\n\r\nAlmost ;) sharedrop.io was released in early 2014, a bit before snapdrop.io (late 2015?).\r\n\r\nBesides smaller differences (UI, PWA, etc.) the main differences are:\r\n- snapdrop.io uses web sockets as a fallback when direct p2p connection can't be established; this can be perceived as an advantage (and most likely is by most people), as it works in more cases than sharedrop.io, but also as a disadvantage, as transferred files are moved through a third-party server; I don't know if/how they are encrypted in such case\r\n- sharedrop.io allows one to share files between networks via custom room names",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-23T13:49:16Z"
-    },
-    {
-        "id": "24135396581",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/136",
-                "id": 1380273781,
-                "node_id": "I_kwDOARG-ic5SRU51",
-                "number": 136,
-                "title": "How to diagnose the error occurs?",
-                "user": {
-                    "login": "pqnhan",
-                    "id": 24197589,
-                    "node_id": "MDQ6VXNlcjI0MTk3NTg5",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/24197589?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/pqnhan",
-                    "html_url": "https://github.com/pqnhan",
-                    "followers_url": "https://api.github.com/users/pqnhan/followers",
-                    "following_url": "https://api.github.com/users/pqnhan/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/pqnhan/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/pqnhan/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/pqnhan/subscriptions",
-                    "organizations_url": "https://api.github.com/users/pqnhan/orgs",
-                    "repos_url": "https://api.github.com/users/pqnhan/repos",
-                    "events_url": "https://api.github.com/users/pqnhan/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/pqnhan/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-09-21T03:57:26Z",
-                "updated_at": "2022-09-21T10:50:53Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "I got an error message: \"It was not possible to establish direct connection with the other peer\" \r\nwhen trying to transfer files between two devices on two different networks, although the two devices \"see each other\".\r\n\r\nIs there any way to diagnose the error, find the cause?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/136/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466",
-                "html_url": "https://github.com/szimek/sharedrop/issues/136#issuecomment-1253531466",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
-                "id": 1253531466,
-                "node_id": "IC_kwDOARG-ic5Kt19K",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-09-21T10:50:53Z",
-                "updated_at": "2022-09-21T10:50:53Z",
-                "author_association": "OWNER",
-                "body": "Hi! It's best to check for an error in browser's devtools (here are instructions for [Chrome](https://developer.chrome.com/docs/devtools/console/reference/#panel)).\r\n\r\nHowever, if it doesn't work then it most likely won't be possible to establish a direct connection :/ The \"devices seeing each other\" feature is provided by Firebase, so it's unrelated to p2p connection that's used to transfer files.\r\n\r\nAre both devices in the same local network or are you trying to transfer files between devices in different networks?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-21T10:50:53Z"
-    },
-    {
-        "id": "24023744130",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 17940105,
-            "name": "szimek/sharedrop",
-            "url": "https://api.github.com/repos/szimek/sharedrop"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
-                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
-                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/labels{/name}",
-                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/comments",
-                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/events",
-                "html_url": "https://github.com/szimek/sharedrop/issues/97",
-                "id": 770432195,
-                "node_id": "MDU6SXNzdWU3NzA0MzIxOTU=",
-                "number": 97,
-                "title": "Is there a file size limit?",
-                "user": {
-                    "login": "honi",
-                    "id": 130202,
-                    "node_id": "MDQ6VXNlcjEzMDIwMg==",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/130202?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/honi",
-                    "html_url": "https://github.com/honi",
-                    "followers_url": "https://api.github.com/users/honi/followers",
-                    "following_url": "https://api.github.com/users/honi/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/honi/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/honi/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/honi/subscriptions",
-                    "organizations_url": "https://api.github.com/users/honi/orgs",
-                    "repos_url": "https://api.github.com/users/honi/repos",
-                    "events_url": "https://api.github.com/users/honi/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/honi/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "closed",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 5,
-                "created_at": "2020-12-17T22:51:46Z",
-                "updated_at": "2022-09-15T09:44:37Z",
-                "closed_at": "2020-12-18T12:38:37Z",
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "I'm trying to send an 8GB file. After selecting the file nothing happens, no error, no progress. The other side doesn't see anything either.\r\n\r\nThanks!",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/97/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/timeline",
-                "performed_via_github_app": null,
-                "state_reason": "completed"
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637",
-                "html_url": "https://github.com/szimek/sharedrop/issues/97#issuecomment-1247855637",
-                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
-                "id": 1247855637,
-                "node_id": "IC_kwDOARG-ic5KYMQV",
-                "user": {
-                    "login": "szimek",
-                    "id": 9873,
-                    "node_id": "MDQ6VXNlcjk4NzM=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/szimek",
-                    "html_url": "https://github.com/szimek",
-                    "followers_url": "https://api.github.com/users/szimek/followers",
-                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
-                    "organizations_url": "https://api.github.com/users/szimek/orgs",
-                    "repos_url": "https://api.github.com/users/szimek/repos",
-                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/szimek/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-09-15T09:44:37Z",
-                "updated_at": "2022-09-15T09:44:37Z",
-                "author_association": "OWNER",
-                "body": "Hi @vincentpricex!\r\n\r\nIn theory there's a limit imposed by browsers when it comes to storing temporary data locally in the filsystem. Sharedrop uses an old and deprecated Chrome-only [FileSystem API](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestFileSystem) with fallback to IndexedDB for other browser.  Unfortunately, I did not implement a check for available space before you start sending a file. Actually, I'm quite surprised that you were able to transfer 3GB file! :) \r\n\r\nOne solution would be to add this check, so that you would get a message about insufficient space before it starts transferring the file. Another solution could be to switch to a more modern filesystem API (https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API), but I didn't have time to look into it, so I don't know what constraints and limits it has.\r\n\r\nBTW. Did you have to change anything to be able to run it locally in a Docker container? Did you have any problems with setting up Firebase account? I remember a few people saying that it doesn't work out of the box, so providing specific instructions on how to set it up would be useful to many.",
-                "reactions": {
-                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-15T09:44:37Z"
-    },
-    {
-        "id": "23801437879",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 190928426,
-            "name": "millsp/ts-toolbelt",
-            "url": "https://api.github.com/repos/millsp/ts-toolbelt"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-03T11:03:13Z"
-    },
-    {
-        "id": "23674006782",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 528339561,
-            "name": "total-typescript/beginners-typescript-tutorial",
-            "url": "https://api.github.com/repos/total-typescript/beginners-typescript-tutorial"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-27T20:13:54Z",
-        "org": {
-            "id": 107223871,
-            "login": "total-typescript",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/total-typescript",
-            "avatar_url": "https://avatars.githubusercontent.com/u/107223871?"
-        }
-    },
-    {
-        "id": "23535744813",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 9873,
-            "login": "szimek",
-            "display_login": "szimek",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/szimek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
-        },
-        "repo": {
-            "id": 1451352,
-            "name": "mochajs/mocha",
-            "url": "https://api.github.com/repos/mochajs/mocha"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-19T20:30:38Z",
-        "org": {
-            "id": 8770005,
-            "login": "mochajs",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/mochajs",
-            "avatar_url": "https://avatars.githubusercontent.com/u/8770005?"
-        }
+        "created_at": "2022-11-19T11:29:24Z"
     },
     {
         "id": "25050167384",
@@ -2563,8 +947,8 @@
         "created_at": "2022-09-15T09:44:37Z"
     },
     {
-        "id": "23801437879",
-        "type": "WatchEvent",
+        "id": "25807133419",
+        "type": "PushEvent",
         "actor": {
             "id": 9873,
             "login": "szimek",
@@ -2574,18 +958,35 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
         },
         "repo": {
-            "id": 190928426,
-            "name": "millsp/ts-toolbelt",
-            "url": "https://api.github.com/repos/millsp/ts-toolbelt"
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
         },
         "payload": {
-            "action": "started"
+            "push_id": 11957965182,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3af80f9776d8426b246b3cb8f4f5e73d4042d8cc",
+            "before": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
+            "commits": [
+                {
+                    "sha": "3af80f9776d8426b246b3cb8f4f5e73d4042d8cc",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/3af80f9776d8426b246b3cb8f4f5e73d4042d8cc"
+                }
+            ]
         },
         "public": true,
-        "created_at": "2022-09-03T11:03:13Z"
+        "created_at": "2022-12-11T14:10:32Z"
     },
     {
-        "id": "23674006782",
+        "id": "25670918218",
         "type": "WatchEvent",
         "actor": {
             "id": 9873,
@@ -2596,25 +997,25 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
         },
         "repo": {
-            "id": 528339561,
-            "name": "total-typescript/beginners-typescript-tutorial",
-            "url": "https://api.github.com/repos/total-typescript/beginners-typescript-tutorial"
+            "id": 231208785,
+            "name": "ruby/setup-ruby",
+            "url": "https://api.github.com/repos/ruby/setup-ruby"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-08-27T20:13:54Z",
+        "created_at": "2022-12-05T19:37:19Z",
         "org": {
-            "id": 107223871,
-            "login": "total-typescript",
+            "id": 210414,
+            "login": "ruby",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/total-typescript",
-            "avatar_url": "https://avatars.githubusercontent.com/u/107223871?"
+            "url": "https://api.github.com/orgs/ruby",
+            "avatar_url": "https://avatars.githubusercontent.com/u/210414?"
         }
     },
     {
-        "id": "23535744813",
+        "id": "25639669039",
         "type": "WatchEvent",
         "actor": {
             "id": 9873,
@@ -2625,21 +1026,1818 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
         },
         "repo": {
-            "id": 1451352,
-            "name": "mochajs/mocha",
-            "url": "https://api.github.com/repos/mochajs/mocha"
+            "id": 566576114,
+            "name": "apple/ml-stable-diffusion",
+            "url": "https://api.github.com/repos/apple/ml-stable-diffusion"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-08-19T20:30:38Z",
+        "created_at": "2022-12-04T07:46:10Z",
         "org": {
-            "id": 8770005,
-            "login": "mochajs",
+            "id": 10639145,
+            "login": "apple",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/mochajs",
-            "avatar_url": "https://avatars.githubusercontent.com/u/8770005?"
+            "url": "https://api.github.com/orgs/apple",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10639145?"
         }
+    },
+    {
+        "id": "25347533275",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11718982238,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
+            "before": "827329ea073d97e9c1c52865efe9fc98331a60aa",
+            "commits": [
+                {
+                    "sha": "2991bad6dc5e4cb26cad820eedaf1334c90ef31c",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Bump Node.js to 14.x",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/2991bad6dc5e4cb26cad820eedaf1334c90ef31c"
+                },
+                {
+                    "sha": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Fix linter error caused by inline styles",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-19T11:29:24Z"
+    },
+    {
+        "id": "25050167384",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11564922015,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "827329ea073d97e9c1c52865efe9fc98331a60aa",
+            "before": "69f2d2975c051ab337694050220f63abad5effd7",
+            "commits": [
+                {
+                    "sha": "827329ea073d97e9c1c52865efe9fc98331a60aa",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update logo in README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/827329ea073d97e9c1c52865efe9fc98331a60aa"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-05T19:39:54Z"
+    },
+    {
+        "id": "25049382997",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/142",
+                "id": 1436497646,
+                "node_id": "I_kwDOARG-ic5Vnzbu",
+                "number": 142,
+                "title": "Allow custom names for users (machines)",
+                "user": {
+                    "login": "brunetton",
+                    "id": 86322,
+                    "node_id": "MDQ6VXNlcjg2MzIy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/86322?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/brunetton",
+                    "html_url": "https://github.com/brunetton",
+                    "followers_url": "https://api.github.com/users/brunetton/followers",
+                    "following_url": "https://api.github.com/users/brunetton/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/brunetton/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/brunetton/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/brunetton/subscriptions",
+                    "organizations_url": "https://api.github.com/users/brunetton/orgs",
+                    "repos_url": "https://api.github.com/users/brunetton/repos",
+                    "events_url": "https://api.github.com/users/brunetton/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/brunetton/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 87223169,
+                        "node_id": "MDU6TGFiZWw4NzIyMzE2OQ==",
+                        "url": "https://api.github.com/repos/szimek/sharedrop/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "84b6eb",
+                        "default": true,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-11-04T18:46:17Z",
+                "updated_at": "2022-11-05T17:36:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi, \r\nI plan to use Sharedrop for realtime team collaboration; but when more than 3 or 4 computers on the same room, it starts to be hard to remember \"who is who\", ie who is \"Romantic Piglet\" again ? Is this Paul ? Or Linus ? \r\n\r\nIt would be great to be able to define custom names",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/142/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475",
+                "html_url": "https://github.com/szimek/sharedrop/issues/142#issuecomment-1304597475",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
+                "id": 1304597475,
+                "node_id": "IC_kwDOARG-ic5NwpPj",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-05T17:36:38Z",
+                "updated_at": "2022-11-05T17:36:38Z",
+                "author_association": "OWNER",
+                "body": "Hey! It's been requested a few times already. I have some concerns that in specific use cases people could impersonate others. However, I understand that in other use cases, like yours, it would be useful.\r\n\r\nThe logic to implement it is relatively simple, the biggest issue is actually UI. When I have some free time, I'll see if it's possible to reuse the existing dialog box component for it - this way the UI could be the same for desktop and mobile.\r\n\r\nAlso, PRs are welcome :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-05T17:36:39Z"
+    },
+    {
+        "id": "24976097444",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11526202996,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "69f2d2975c051ab337694050220f63abad5effd7",
+            "before": "7652dd06011ed8c7038668e10b86bd7325d01239",
+            "commits": [
+                {
+                    "sha": "69f2d2975c051ab337694050220f63abad5effd7",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Add light version of sharedrop svg",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/69f2d2975c051ab337694050220f63abad5effd7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-02T07:57:05Z"
+    },
+    {
+        "id": "24968259325",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11522073881,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7652dd06011ed8c7038668e10b86bd7325d01239",
+            "before": "e0095d86e837df8f4e02e8042b7c4b5139303987",
+            "commits": [
+                {
+                    "sha": "7652dd06011ed8c7038668e10b86bd7325d01239",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Add 'donate' button",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/7652dd06011ed8c7038668e10b86bd7325d01239"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:30:07Z"
+    },
+    {
+        "id": "24967762539",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11521828201,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "e0095d86e837df8f4e02e8042b7c4b5139303987",
+            "before": "53894f8ff05e124286bf60987525aa0b0d602020",
+            "commits": [
+                {
+                    "sha": "3569e0a3efd8f0fc9beee9d282c674ac3ac22041",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update 'about app' content",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/3569e0a3efd8f0fc9beee9d282c674ac3ac22041"
+                },
+                {
+                    "sha": "e0095d86e837df8f4e02e8042b7c4b5139303987",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "We stand with Ukraine!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/e0095d86e837df8f4e02e8042b7c4b5139303987"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:01:18Z"
+    },
+    {
+        "id": "24967701050",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11521797508,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "53894f8ff05e124286bf60987525aa0b0d602020",
+            "before": "a2cf5d5802cb426dabf54ca1051fe39ec9675b83",
+            "commits": [
+                {
+                    "sha": "53894f8ff05e124286bf60987525aa0b0d602020",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/53894f8ff05e124286bf60987525aa0b0d602020"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T20:57:55Z"
+    },
+    {
+        "id": "24186614273",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/135",
+                "id": 1360725859,
+                "node_id": "I_kwDOARG-ic5RGwdj",
+                "number": 135,
+                "title": "[tell me] how does this compare to snapdrop.io?",
+                "user": {
+                    "login": "SiddharthSharma16923",
+                    "id": 75392515,
+                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/SiddharthSharma16923",
+                    "html_url": "https://github.com/SiddharthSharma16923",
+                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
+                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
+                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
+                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
+                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-09-03T02:08:41Z",
+                "updated_at": "2022-09-23T13:49:16Z",
+                "closed_at": "2022-09-23T13:49:15Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "are they twins?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-23T13:49:16Z"
+    },
+    {
+        "id": "24186614144",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/135",
+                "id": 1360725859,
+                "node_id": "I_kwDOARG-ic5RGwdj",
+                "number": 135,
+                "title": "[tell me] how does this compare to snapdrop.io?",
+                "user": {
+                    "login": "SiddharthSharma16923",
+                    "id": 75392515,
+                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/SiddharthSharma16923",
+                    "html_url": "https://github.com/SiddharthSharma16923",
+                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
+                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
+                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
+                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
+                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-09-03T02:08:41Z",
+                "updated_at": "2022-09-23T13:49:15Z",
+                "closed_at": "2022-09-23T13:49:15Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "are they twins?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822",
+                "html_url": "https://github.com/szimek/sharedrop/issues/135#issuecomment-1256241822",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
+                "id": 1256241822,
+                "node_id": "IC_kwDOARG-ic5K4Lqe",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-23T13:49:15Z",
+                "updated_at": "2022-09-23T13:49:15Z",
+                "author_association": "OWNER",
+                "body": "> are they twins?\r\n\r\nAlmost ;) sharedrop.io was released in early 2014, a bit before snapdrop.io (late 2015?).\r\n\r\nBesides smaller differences (UI, PWA, etc.) the main differences are:\r\n- snapdrop.io uses web sockets as a fallback when direct p2p connection can't be established; this can be perceived as an advantage (and most likely is by most people), as it works in more cases than sharedrop.io, but also as a disadvantage, as transferred files are moved through a third-party server; I don't know if/how they are encrypted in such case\r\n- sharedrop.io allows one to share files between networks via custom room names",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-23T13:49:16Z"
+    },
+    {
+        "id": "24135396581",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/136",
+                "id": 1380273781,
+                "node_id": "I_kwDOARG-ic5SRU51",
+                "number": 136,
+                "title": "How to diagnose the error occurs?",
+                "user": {
+                    "login": "pqnhan",
+                    "id": 24197589,
+                    "node_id": "MDQ6VXNlcjI0MTk3NTg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24197589?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/pqnhan",
+                    "html_url": "https://github.com/pqnhan",
+                    "followers_url": "https://api.github.com/users/pqnhan/followers",
+                    "following_url": "https://api.github.com/users/pqnhan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/pqnhan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/pqnhan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/pqnhan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/pqnhan/orgs",
+                    "repos_url": "https://api.github.com/users/pqnhan/repos",
+                    "events_url": "https://api.github.com/users/pqnhan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/pqnhan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-09-21T03:57:26Z",
+                "updated_at": "2022-09-21T10:50:53Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I got an error message: \"It was not possible to establish direct connection with the other peer\" \r\nwhen trying to transfer files between two devices on two different networks, although the two devices \"see each other\".\r\n\r\nIs there any way to diagnose the error, find the cause?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/136/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466",
+                "html_url": "https://github.com/szimek/sharedrop/issues/136#issuecomment-1253531466",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
+                "id": 1253531466,
+                "node_id": "IC_kwDOARG-ic5Kt19K",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-21T10:50:53Z",
+                "updated_at": "2022-09-21T10:50:53Z",
+                "author_association": "OWNER",
+                "body": "Hi! It's best to check for an error in browser's devtools (here are instructions for [Chrome](https://developer.chrome.com/docs/devtools/console/reference/#panel)).\r\n\r\nHowever, if it doesn't work then it most likely won't be possible to establish a direct connection :/ The \"devices seeing each other\" feature is provided by Firebase, so it's unrelated to p2p connection that's used to transfer files.\r\n\r\nAre both devices in the same local network or are you trying to transfer files between devices in different networks?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-21T10:50:53Z"
+    },
+    {
+        "id": "24023744130",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/97",
+                "id": 770432195,
+                "node_id": "MDU6SXNzdWU3NzA0MzIxOTU=",
+                "number": 97,
+                "title": "Is there a file size limit?",
+                "user": {
+                    "login": "honi",
+                    "id": 130202,
+                    "node_id": "MDQ6VXNlcjEzMDIwMg==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/130202?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/honi",
+                    "html_url": "https://github.com/honi",
+                    "followers_url": "https://api.github.com/users/honi/followers",
+                    "following_url": "https://api.github.com/users/honi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/honi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/honi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/honi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/honi/orgs",
+                    "repos_url": "https://api.github.com/users/honi/repos",
+                    "events_url": "https://api.github.com/users/honi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/honi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2020-12-17T22:51:46Z",
+                "updated_at": "2022-09-15T09:44:37Z",
+                "closed_at": "2020-12-18T12:38:37Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm trying to send an 8GB file. After selecting the file nothing happens, no error, no progress. The other side doesn't see anything either.\r\n\r\nThanks!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/97/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637",
+                "html_url": "https://github.com/szimek/sharedrop/issues/97#issuecomment-1247855637",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
+                "id": 1247855637,
+                "node_id": "IC_kwDOARG-ic5KYMQV",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-15T09:44:37Z",
+                "updated_at": "2022-09-15T09:44:37Z",
+                "author_association": "OWNER",
+                "body": "Hi @vincentpricex!\r\n\r\nIn theory there's a limit imposed by browsers when it comes to storing temporary data locally in the filsystem. Sharedrop uses an old and deprecated Chrome-only [FileSystem API](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestFileSystem) with fallback to IndexedDB for other browser.  Unfortunately, I did not implement a check for available space before you start sending a file. Actually, I'm quite surprised that you were able to transfer 3GB file! :) \r\n\r\nOne solution would be to add this check, so that you would get a message about insufficient space before it starts transferring the file. Another solution could be to switch to a more modern filesystem API (https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API), but I didn't have time to look into it, so I don't know what constraints and limits it has.\r\n\r\nBTW. Did you have to change anything to be able to run it locally in a Docker container? Did you have any problems with setting up Firebase account? I remember a few people saying that it doesn't work out of the box, so providing specific instructions on how to set it up would be useful to many.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-15T09:44:37Z"
+    },
+    {
+        "id": "25807133419",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11957965182,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3af80f9776d8426b246b3cb8f4f5e73d4042d8cc",
+            "before": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
+            "commits": [
+                {
+                    "sha": "3af80f9776d8426b246b3cb8f4f5e73d4042d8cc",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/3af80f9776d8426b246b3cb8f4f5e73d4042d8cc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T14:10:32Z"
+    },
+    {
+        "id": "25670918218",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 231208785,
+            "name": "ruby/setup-ruby",
+            "url": "https://api.github.com/repos/ruby/setup-ruby"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-12-05T19:37:19Z",
+        "org": {
+            "id": 210414,
+            "login": "ruby",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ruby",
+            "avatar_url": "https://avatars.githubusercontent.com/u/210414?"
+        }
+    },
+    {
+        "id": "25639669039",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 566576114,
+            "name": "apple/ml-stable-diffusion",
+            "url": "https://api.github.com/repos/apple/ml-stable-diffusion"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-12-04T07:46:10Z",
+        "org": {
+            "id": 10639145,
+            "login": "apple",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/apple",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10639145?"
+        }
+    },
+    {
+        "id": "25347533275",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11718982238,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
+            "before": "827329ea073d97e9c1c52865efe9fc98331a60aa",
+            "commits": [
+                {
+                    "sha": "2991bad6dc5e4cb26cad820eedaf1334c90ef31c",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Bump Node.js to 14.x",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/2991bad6dc5e4cb26cad820eedaf1334c90ef31c"
+                },
+                {
+                    "sha": "78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Fix linter error caused by inline styles",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/78dfb40ef2c7e28e1c1a1a2b011fd3ef89f0163e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-19T11:29:24Z"
+    },
+    {
+        "id": "25050167384",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11564922015,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "827329ea073d97e9c1c52865efe9fc98331a60aa",
+            "before": "69f2d2975c051ab337694050220f63abad5effd7",
+            "commits": [
+                {
+                    "sha": "827329ea073d97e9c1c52865efe9fc98331a60aa",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update logo in README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/827329ea073d97e9c1c52865efe9fc98331a60aa"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-05T19:39:54Z"
+    },
+    {
+        "id": "25049382997",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/142",
+                "id": 1436497646,
+                "node_id": "I_kwDOARG-ic5Vnzbu",
+                "number": 142,
+                "title": "Allow custom names for users (machines)",
+                "user": {
+                    "login": "brunetton",
+                    "id": 86322,
+                    "node_id": "MDQ6VXNlcjg2MzIy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/86322?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/brunetton",
+                    "html_url": "https://github.com/brunetton",
+                    "followers_url": "https://api.github.com/users/brunetton/followers",
+                    "following_url": "https://api.github.com/users/brunetton/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/brunetton/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/brunetton/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/brunetton/subscriptions",
+                    "organizations_url": "https://api.github.com/users/brunetton/orgs",
+                    "repos_url": "https://api.github.com/users/brunetton/repos",
+                    "events_url": "https://api.github.com/users/brunetton/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/brunetton/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 87223169,
+                        "node_id": "MDU6TGFiZWw4NzIyMzE2OQ==",
+                        "url": "https://api.github.com/repos/szimek/sharedrop/labels/enhancement",
+                        "name": "enhancement",
+                        "color": "84b6eb",
+                        "default": true,
+                        "description": null
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-11-04T18:46:17Z",
+                "updated_at": "2022-11-05T17:36:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi, \r\nI plan to use Sharedrop for realtime team collaboration; but when more than 3 or 4 computers on the same room, it starts to be hard to remember \"who is who\", ie who is \"Romantic Piglet\" again ? Is this Paul ? Or Linus ? \r\n\r\nIt would be great to be able to define custom names",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/142/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/142/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475",
+                "html_url": "https://github.com/szimek/sharedrop/issues/142#issuecomment-1304597475",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/142",
+                "id": 1304597475,
+                "node_id": "IC_kwDOARG-ic5NwpPj",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-05T17:36:38Z",
+                "updated_at": "2022-11-05T17:36:38Z",
+                "author_association": "OWNER",
+                "body": "Hey! It's been requested a few times already. I have some concerns that in specific use cases people could impersonate others. However, I understand that in other use cases, like yours, it would be useful.\r\n\r\nThe logic to implement it is relatively simple, the biggest issue is actually UI. When I have some free time, I'll see if it's possible to reuse the existing dialog box component for it - this way the UI could be the same for desktop and mobile.\r\n\r\nAlso, PRs are welcome :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1304597475/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-05T17:36:39Z"
+    },
+    {
+        "id": "24976097444",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11526202996,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "69f2d2975c051ab337694050220f63abad5effd7",
+            "before": "7652dd06011ed8c7038668e10b86bd7325d01239",
+            "commits": [
+                {
+                    "sha": "69f2d2975c051ab337694050220f63abad5effd7",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Add light version of sharedrop svg",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/69f2d2975c051ab337694050220f63abad5effd7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-02T07:57:05Z"
+    },
+    {
+        "id": "24968259325",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11522073881,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7652dd06011ed8c7038668e10b86bd7325d01239",
+            "before": "e0095d86e837df8f4e02e8042b7c4b5139303987",
+            "commits": [
+                {
+                    "sha": "7652dd06011ed8c7038668e10b86bd7325d01239",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Add 'donate' button",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/7652dd06011ed8c7038668e10b86bd7325d01239"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:30:07Z"
+    },
+    {
+        "id": "24967762539",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11521828201,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "e0095d86e837df8f4e02e8042b7c4b5139303987",
+            "before": "53894f8ff05e124286bf60987525aa0b0d602020",
+            "commits": [
+                {
+                    "sha": "3569e0a3efd8f0fc9beee9d282c674ac3ac22041",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update 'about app' content",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/3569e0a3efd8f0fc9beee9d282c674ac3ac22041"
+                },
+                {
+                    "sha": "e0095d86e837df8f4e02e8042b7c4b5139303987",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "We stand with Ukraine!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/e0095d86e837df8f4e02e8042b7c4b5139303987"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T21:01:18Z"
+    },
+    {
+        "id": "24967701050",
+        "type": "PushEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "push_id": 11521797508,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "53894f8ff05e124286bf60987525aa0b0d602020",
+            "before": "a2cf5d5802cb426dabf54ca1051fe39ec9675b83",
+            "commits": [
+                {
+                    "sha": "53894f8ff05e124286bf60987525aa0b0d602020",
+                    "author": {
+                        "email": "szimek@gmail.com",
+                        "name": "Szymon Nowak"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/szimek/sharedrop/commits/53894f8ff05e124286bf60987525aa0b0d602020"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-01T20:57:55Z"
+    },
+    {
+        "id": "24186614273",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/135",
+                "id": 1360725859,
+                "node_id": "I_kwDOARG-ic5RGwdj",
+                "number": 135,
+                "title": "[tell me] how does this compare to snapdrop.io?",
+                "user": {
+                    "login": "SiddharthSharma16923",
+                    "id": 75392515,
+                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/SiddharthSharma16923",
+                    "html_url": "https://github.com/SiddharthSharma16923",
+                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
+                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
+                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
+                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
+                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-09-03T02:08:41Z",
+                "updated_at": "2022-09-23T13:49:16Z",
+                "closed_at": "2022-09-23T13:49:15Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "are they twins?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-23T13:49:16Z"
+    },
+    {
+        "id": "24186614144",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/135",
+                "id": 1360725859,
+                "node_id": "I_kwDOARG-ic5RGwdj",
+                "number": 135,
+                "title": "[tell me] how does this compare to snapdrop.io?",
+                "user": {
+                    "login": "SiddharthSharma16923",
+                    "id": 75392515,
+                    "node_id": "MDQ6VXNlcjc1MzkyNTE1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/75392515?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/SiddharthSharma16923",
+                    "html_url": "https://github.com/SiddharthSharma16923",
+                    "followers_url": "https://api.github.com/users/SiddharthSharma16923/followers",
+                    "following_url": "https://api.github.com/users/SiddharthSharma16923/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/SiddharthSharma16923/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/SiddharthSharma16923/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/SiddharthSharma16923/subscriptions",
+                    "organizations_url": "https://api.github.com/users/SiddharthSharma16923/orgs",
+                    "repos_url": "https://api.github.com/users/SiddharthSharma16923/repos",
+                    "events_url": "https://api.github.com/users/SiddharthSharma16923/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/SiddharthSharma16923/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-09-03T02:08:41Z",
+                "updated_at": "2022-09-23T13:49:15Z",
+                "closed_at": "2022-09-23T13:49:15Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "are they twins?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/135/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/135/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822",
+                "html_url": "https://github.com/szimek/sharedrop/issues/135#issuecomment-1256241822",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/135",
+                "id": 1256241822,
+                "node_id": "IC_kwDOARG-ic5K4Lqe",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-23T13:49:15Z",
+                "updated_at": "2022-09-23T13:49:15Z",
+                "author_association": "OWNER",
+                "body": "> are they twins?\r\n\r\nAlmost ;) sharedrop.io was released in early 2014, a bit before snapdrop.io (late 2015?).\r\n\r\nBesides smaller differences (UI, PWA, etc.) the main differences are:\r\n- snapdrop.io uses web sockets as a fallback when direct p2p connection can't be established; this can be perceived as an advantage (and most likely is by most people), as it works in more cases than sharedrop.io, but also as a disadvantage, as transferred files are moved through a third-party server; I don't know if/how they are encrypted in such case\r\n- sharedrop.io allows one to share files between networks via custom room names",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1256241822/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-23T13:49:16Z"
+    },
+    {
+        "id": "24135396581",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/136",
+                "id": 1380273781,
+                "node_id": "I_kwDOARG-ic5SRU51",
+                "number": 136,
+                "title": "How to diagnose the error occurs?",
+                "user": {
+                    "login": "pqnhan",
+                    "id": 24197589,
+                    "node_id": "MDQ6VXNlcjI0MTk3NTg5",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24197589?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/pqnhan",
+                    "html_url": "https://github.com/pqnhan",
+                    "followers_url": "https://api.github.com/users/pqnhan/followers",
+                    "following_url": "https://api.github.com/users/pqnhan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/pqnhan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/pqnhan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/pqnhan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/pqnhan/orgs",
+                    "repos_url": "https://api.github.com/users/pqnhan/repos",
+                    "events_url": "https://api.github.com/users/pqnhan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/pqnhan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2022-09-21T03:57:26Z",
+                "updated_at": "2022-09-21T10:50:53Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I got an error message: \"It was not possible to establish direct connection with the other peer\" \r\nwhen trying to transfer files between two devices on two different networks, although the two devices \"see each other\".\r\n\r\nIs there any way to diagnose the error, find the cause?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/136/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/136/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466",
+                "html_url": "https://github.com/szimek/sharedrop/issues/136#issuecomment-1253531466",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/136",
+                "id": 1253531466,
+                "node_id": "IC_kwDOARG-ic5Kt19K",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-21T10:50:53Z",
+                "updated_at": "2022-09-21T10:50:53Z",
+                "author_association": "OWNER",
+                "body": "Hi! It's best to check for an error in browser's devtools (here are instructions for [Chrome](https://developer.chrome.com/docs/devtools/console/reference/#panel)).\r\n\r\nHowever, if it doesn't work then it most likely won't be possible to establish a direct connection :/ The \"devices seeing each other\" feature is provided by Firebase, so it's unrelated to p2p connection that's used to transfer files.\r\n\r\nAre both devices in the same local network or are you trying to transfer files between devices in different networks?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1253531466/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-21T10:50:53Z"
+    },
+    {
+        "id": "24023744130",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 9873,
+            "login": "szimek",
+            "display_login": "szimek",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/szimek",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9873?"
+        },
+        "repo": {
+            "id": 17940105,
+            "name": "szimek/sharedrop",
+            "url": "https://api.github.com/repos/szimek/sharedrop"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
+                "repository_url": "https://api.github.com/repos/szimek/sharedrop",
+                "labels_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/labels{/name}",
+                "comments_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/comments",
+                "events_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/events",
+                "html_url": "https://github.com/szimek/sharedrop/issues/97",
+                "id": 770432195,
+                "node_id": "MDU6SXNzdWU3NzA0MzIxOTU=",
+                "number": 97,
+                "title": "Is there a file size limit?",
+                "user": {
+                    "login": "honi",
+                    "id": 130202,
+                    "node_id": "MDQ6VXNlcjEzMDIwMg==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/130202?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/honi",
+                    "html_url": "https://github.com/honi",
+                    "followers_url": "https://api.github.com/users/honi/followers",
+                    "following_url": "https://api.github.com/users/honi/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/honi/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/honi/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/honi/subscriptions",
+                    "organizations_url": "https://api.github.com/users/honi/orgs",
+                    "repos_url": "https://api.github.com/users/honi/repos",
+                    "events_url": "https://api.github.com/users/honi/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/honi/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2020-12-17T22:51:46Z",
+                "updated_at": "2022-09-15T09:44:37Z",
+                "closed_at": "2020-12-18T12:38:37Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "I'm trying to send an 8GB file. After selecting the file nothing happens, no error, no progress. The other side doesn't see anything either.\r\n\r\nThanks!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/97/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/szimek/sharedrop/issues/97/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637",
+                "html_url": "https://github.com/szimek/sharedrop/issues/97#issuecomment-1247855637",
+                "issue_url": "https://api.github.com/repos/szimek/sharedrop/issues/97",
+                "id": 1247855637,
+                "node_id": "IC_kwDOARG-ic5KYMQV",
+                "user": {
+                    "login": "szimek",
+                    "id": 9873,
+                    "node_id": "MDQ6VXNlcjk4NzM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9873?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/szimek",
+                    "html_url": "https://github.com/szimek",
+                    "followers_url": "https://api.github.com/users/szimek/followers",
+                    "following_url": "https://api.github.com/users/szimek/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/szimek/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/szimek/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/szimek/subscriptions",
+                    "organizations_url": "https://api.github.com/users/szimek/orgs",
+                    "repos_url": "https://api.github.com/users/szimek/repos",
+                    "events_url": "https://api.github.com/users/szimek/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/szimek/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-09-15T09:44:37Z",
+                "updated_at": "2022-09-15T09:44:37Z",
+                "author_association": "OWNER",
+                "body": "Hi @vincentpricex!\r\n\r\nIn theory there's a limit imposed by browsers when it comes to storing temporary data locally in the filsystem. Sharedrop uses an old and deprecated Chrome-only [FileSystem API](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestFileSystem) with fallback to IndexedDB for other browser.  Unfortunately, I did not implement a check for available space before you start sending a file. Actually, I'm quite surprised that you were able to transfer 3GB file! :) \r\n\r\nOne solution would be to add this check, so that you would get a message about insufficient space before it starts transferring the file. Another solution could be to switch to a more modern filesystem API (https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API), but I didn't have time to look into it, so I don't know what constraints and limits it has.\r\n\r\nBTW. Did you have to change anything to be able to run it locally in a Docker container? Did you have any problems with setting up Firebase account? I remember a few people saying that it doesn't work out of the box, so providing specific instructions on how to set it up would be useful to many.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/szimek/sharedrop/issues/comments/1247855637/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-15T09:44:37Z"
     }
 ]

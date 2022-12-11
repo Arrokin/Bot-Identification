@@ -1,6 +1,6 @@
 [
     {
-        "id": "23437638991",
+        "id": "25680095716",
         "type": "PushEvent",
         "actor": {
             "id": 8655649,
@@ -11,35 +11,35 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
         },
         "repo": {
-            "id": 362481332,
-            "name": "fyrkant/fyrkant",
-            "url": "https://api.github.com/repos/fyrkant/fyrkant"
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
         },
         "payload": {
-            "push_id": 10730136209,
+            "push_id": 11894836084,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/main",
-            "head": "7019da9620470da32931a4398626c89833027a14",
-            "before": "47d61769cc90cb1f6f93d6902a8ce618f8954f58",
+            "head": "3c08f0c58209a03012b4c5aea54d0f0e16d599b7",
+            "before": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
             "commits": [
                 {
-                    "sha": "7019da9620470da32931a4398626c89833027a14",
+                    "sha": "3c08f0c58209a03012b4c5aea54d0f0e16d599b7",
                     "author": {
                         "email": "fyrkant@gmail.com",
                         "name": "Mattias Wikstr\u00f6m"
                     },
-                    "message": "Update README.md",
+                    "message": "2022 06",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/fyrkant/fyrkant/commits/7019da9620470da32931a4398626c89833027a14"
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/3c08f0c58209a03012b4c5aea54d0f0e16d599b7"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-15T11:45:40Z"
+        "created_at": "2022-12-06T05:15:42Z"
     },
     {
-        "id": "23437638991",
+        "id": "25670271251",
         "type": "PushEvent",
         "actor": {
             "id": 8655649,
@@ -50,35 +50,35 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
         },
         "repo": {
-            "id": 362481332,
-            "name": "fyrkant/fyrkant",
-            "url": "https://api.github.com/repos/fyrkant/fyrkant"
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
         },
         "payload": {
-            "push_id": 10730136209,
+            "push_id": 11890035137,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/main",
-            "head": "7019da9620470da32931a4398626c89833027a14",
-            "before": "47d61769cc90cb1f6f93d6902a8ce618f8954f58",
+            "head": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
+            "before": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
             "commits": [
                 {
-                    "sha": "7019da9620470da32931a4398626c89833027a14",
+                    "sha": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
                     "author": {
                         "email": "fyrkant@gmail.com",
                         "name": "Mattias Wikstr\u00f6m"
                     },
-                    "message": "Update README.md",
+                    "message": "regexp yo",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/fyrkant/fyrkant/commits/7019da9620470da32931a4398626c89833027a14"
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/45035a320d079fc01b862eb0e1bde7e5b082cd33"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-15T11:45:40Z"
+        "created_at": "2022-12-05T19:04:48Z"
     },
     {
-        "id": "23437638991",
+        "id": "25659428571",
         "type": "PushEvent",
         "actor": {
             "id": 8655649,
@@ -89,31 +89,1321 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
         },
         "repo": {
-            "id": 362481332,
-            "name": "fyrkant/fyrkant",
-            "url": "https://api.github.com/repos/fyrkant/fyrkant"
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
         },
         "payload": {
-            "push_id": 10730136209,
-            "size": 1,
-            "distinct_size": 1,
+            "push_id": 11884860323,
+            "size": 4,
+            "distinct_size": 4,
             "ref": "refs/heads/main",
-            "head": "7019da9620470da32931a4398626c89833027a14",
-            "before": "47d61769cc90cb1f6f93d6902a8ce618f8954f58",
+            "head": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+            "before": "ddabdba9ab944c77805ed0baff05f173f107c30b",
             "commits": [
                 {
-                    "sha": "7019da9620470da32931a4398626c89833027a14",
+                    "sha": "29752ed8fae35498e30f8d68cb90cd28cbff9e52",
                     "author": {
                         "email": "fyrkant@gmail.com",
                         "name": "Mattias Wikstr\u00f6m"
                     },
-                    "message": "Update README.md",
+                    "message": "2021 14",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/fyrkant/fyrkant/commits/7019da9620470da32931a4398626c89833027a14"
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/29752ed8fae35498e30f8d68cb90cd28cbff9e52"
+                },
+                {
+                    "sha": "473f3472bc48721c2802ec51205eeaafb3e0869a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2021 15",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/473f3472bc48721c2802ec51205eeaafb3e0869a"
+                },
+                {
+                    "sha": "3720d61f020b46a7c3ac0525007f106b513c99a5",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "wip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/3720d61f020b46a7c3ac0525007f106b513c99a5"
+                },
+                {
+                    "sha": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "Merge branch 'main' of github.com:fyrkant/adventofcode",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/6151e959f6d9661ac3e1a791271c6b011f3aebb8"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-15T11:45:40Z"
+        "created_at": "2022-12-05T11:45:40Z"
+    },
+    {
+        "id": "25652378821",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11881512477,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+            "before": "97f7289242522e3462a5b32013a718813b1a19e3",
+            "commits": [
+                {
+                    "sha": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 05",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/ddabdba9ab944c77805ed0baff05f173f107c30b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T06:21:31Z"
+    },
+    {
+        "id": "25638785462",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11873755223,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "97f7289242522e3462a5b32013a718813b1a19e3",
+            "before": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+            "commits": [
+                {
+                    "sha": "97f7289242522e3462a5b32013a718813b1a19e3",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 04",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/97f7289242522e3462a5b32013a718813b1a19e3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T05:27:02Z"
+    },
+    {
+        "id": "25636257831",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11872134760,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+            "before": "48c737669bf333725009474e1734c040e419130a",
+            "commits": [
+                {
+                    "sha": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "remake starter files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/31de6ae41e721e6904d7ec141a0d11cc7b356f5a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T22:08:04Z"
+    },
+    {
+        "id": "25629813234",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11867952175,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "48c737669bf333725009474e1734c040e419130a",
+            "before": "009142059796fd7b1d590b5eefb490fcfae02348",
+            "commits": [
+                {
+                    "sha": "206e843ed8be3005b6cbdb767099d04507f23bce",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 02",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/206e843ed8be3005b6cbdb767099d04507f23bce"
+                },
+                {
+                    "sha": "48c737669bf333725009474e1734c040e419130a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 03",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/48c737669bf333725009474e1734c040e419130a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T05:36:16Z"
+    },
+    {
+        "id": "25601164432",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11853031831,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "009142059796fd7b1d590b5eefb490fcfae02348",
+            "before": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+            "commits": [
+                {
+                    "sha": "009142059796fd7b1d590b5eefb490fcfae02348",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "refactoring, settings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/009142059796fd7b1d590b5eefb490fcfae02348"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T20:19:36Z"
+    },
+    {
+        "id": "25581852046",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11843487665,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+            "before": "8514991e77521dc844bdbde91c765b94c81702ad",
+            "commits": [
+                {
+                    "sha": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "deno setup, formatting, test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/f80433de8bd73bef3314af5c9046fc9959c032b4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T05:27:30Z"
+    },
+    {
+        "id": "25581630692",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11843367317,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8514991e77521dc844bdbde91c765b94c81702ad",
+            "before": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+            "commits": [
+                {
+                    "sha": "8514991e77521dc844bdbde91c765b94c81702ad",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 01",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/8514991e77521dc844bdbde91c765b94c81702ad"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T05:10:08Z"
+    },
+    {
+        "id": "25546619623",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11825666416,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+            "before": "0ecbdb98a30902f0c84607489e8a8812a5b97c33",
+            "commits": [
+                {
+                    "sha": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "preparations...",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/c9466ed9c32fdca2f631d9054e7d5683875da913"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-29T19:23:15Z"
+    },
+    {
+        "id": "25680095716",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11894836084,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3c08f0c58209a03012b4c5aea54d0f0e16d599b7",
+            "before": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
+            "commits": [
+                {
+                    "sha": "3c08f0c58209a03012b4c5aea54d0f0e16d599b7",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 06",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/3c08f0c58209a03012b4c5aea54d0f0e16d599b7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T05:15:42Z"
+    },
+    {
+        "id": "25670271251",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11890035137,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
+            "before": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+            "commits": [
+                {
+                    "sha": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "regexp yo",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/45035a320d079fc01b862eb0e1bde7e5b082cd33"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T19:04:48Z"
+    },
+    {
+        "id": "25659428571",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11884860323,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/main",
+            "head": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+            "before": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+            "commits": [
+                {
+                    "sha": "29752ed8fae35498e30f8d68cb90cd28cbff9e52",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2021 14",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/29752ed8fae35498e30f8d68cb90cd28cbff9e52"
+                },
+                {
+                    "sha": "473f3472bc48721c2802ec51205eeaafb3e0869a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2021 15",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/473f3472bc48721c2802ec51205eeaafb3e0869a"
+                },
+                {
+                    "sha": "3720d61f020b46a7c3ac0525007f106b513c99a5",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "wip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/3720d61f020b46a7c3ac0525007f106b513c99a5"
+                },
+                {
+                    "sha": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "Merge branch 'main' of github.com:fyrkant/adventofcode",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/6151e959f6d9661ac3e1a791271c6b011f3aebb8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T11:45:40Z"
+    },
+    {
+        "id": "25652378821",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11881512477,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+            "before": "97f7289242522e3462a5b32013a718813b1a19e3",
+            "commits": [
+                {
+                    "sha": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 05",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/ddabdba9ab944c77805ed0baff05f173f107c30b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T06:21:31Z"
+    },
+    {
+        "id": "25638785462",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11873755223,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "97f7289242522e3462a5b32013a718813b1a19e3",
+            "before": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+            "commits": [
+                {
+                    "sha": "97f7289242522e3462a5b32013a718813b1a19e3",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 04",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/97f7289242522e3462a5b32013a718813b1a19e3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T05:27:02Z"
+    },
+    {
+        "id": "25636257831",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11872134760,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+            "before": "48c737669bf333725009474e1734c040e419130a",
+            "commits": [
+                {
+                    "sha": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "remake starter files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/31de6ae41e721e6904d7ec141a0d11cc7b356f5a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T22:08:04Z"
+    },
+    {
+        "id": "25629813234",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11867952175,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "48c737669bf333725009474e1734c040e419130a",
+            "before": "009142059796fd7b1d590b5eefb490fcfae02348",
+            "commits": [
+                {
+                    "sha": "206e843ed8be3005b6cbdb767099d04507f23bce",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 02",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/206e843ed8be3005b6cbdb767099d04507f23bce"
+                },
+                {
+                    "sha": "48c737669bf333725009474e1734c040e419130a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 03",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/48c737669bf333725009474e1734c040e419130a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T05:36:16Z"
+    },
+    {
+        "id": "25601164432",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11853031831,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "009142059796fd7b1d590b5eefb490fcfae02348",
+            "before": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+            "commits": [
+                {
+                    "sha": "009142059796fd7b1d590b5eefb490fcfae02348",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "refactoring, settings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/009142059796fd7b1d590b5eefb490fcfae02348"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T20:19:36Z"
+    },
+    {
+        "id": "25581852046",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11843487665,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+            "before": "8514991e77521dc844bdbde91c765b94c81702ad",
+            "commits": [
+                {
+                    "sha": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "deno setup, formatting, test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/f80433de8bd73bef3314af5c9046fc9959c032b4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T05:27:30Z"
+    },
+    {
+        "id": "25581630692",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11843367317,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8514991e77521dc844bdbde91c765b94c81702ad",
+            "before": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+            "commits": [
+                {
+                    "sha": "8514991e77521dc844bdbde91c765b94c81702ad",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 01",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/8514991e77521dc844bdbde91c765b94c81702ad"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T05:10:08Z"
+    },
+    {
+        "id": "25546619623",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11825666416,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+            "before": "0ecbdb98a30902f0c84607489e8a8812a5b97c33",
+            "commits": [
+                {
+                    "sha": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "preparations...",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/c9466ed9c32fdca2f631d9054e7d5683875da913"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-29T19:23:15Z"
+    },
+    {
+        "id": "25680095716",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11894836084,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3c08f0c58209a03012b4c5aea54d0f0e16d599b7",
+            "before": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
+            "commits": [
+                {
+                    "sha": "3c08f0c58209a03012b4c5aea54d0f0e16d599b7",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 06",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/3c08f0c58209a03012b4c5aea54d0f0e16d599b7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T05:15:42Z"
+    },
+    {
+        "id": "25670271251",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11890035137,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
+            "before": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+            "commits": [
+                {
+                    "sha": "45035a320d079fc01b862eb0e1bde7e5b082cd33",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "regexp yo",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/45035a320d079fc01b862eb0e1bde7e5b082cd33"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T19:04:48Z"
+    },
+    {
+        "id": "25659428571",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11884860323,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/main",
+            "head": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+            "before": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+            "commits": [
+                {
+                    "sha": "29752ed8fae35498e30f8d68cb90cd28cbff9e52",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2021 14",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/29752ed8fae35498e30f8d68cb90cd28cbff9e52"
+                },
+                {
+                    "sha": "473f3472bc48721c2802ec51205eeaafb3e0869a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2021 15",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/473f3472bc48721c2802ec51205eeaafb3e0869a"
+                },
+                {
+                    "sha": "3720d61f020b46a7c3ac0525007f106b513c99a5",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "wip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/3720d61f020b46a7c3ac0525007f106b513c99a5"
+                },
+                {
+                    "sha": "6151e959f6d9661ac3e1a791271c6b011f3aebb8",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "Merge branch 'main' of github.com:fyrkant/adventofcode",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/6151e959f6d9661ac3e1a791271c6b011f3aebb8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T11:45:40Z"
+    },
+    {
+        "id": "25652378821",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11881512477,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+            "before": "97f7289242522e3462a5b32013a718813b1a19e3",
+            "commits": [
+                {
+                    "sha": "ddabdba9ab944c77805ed0baff05f173f107c30b",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 05",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/ddabdba9ab944c77805ed0baff05f173f107c30b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T06:21:31Z"
+    },
+    {
+        "id": "25638785462",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11873755223,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "97f7289242522e3462a5b32013a718813b1a19e3",
+            "before": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+            "commits": [
+                {
+                    "sha": "97f7289242522e3462a5b32013a718813b1a19e3",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 04",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/97f7289242522e3462a5b32013a718813b1a19e3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T05:27:02Z"
+    },
+    {
+        "id": "25636257831",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11872134760,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+            "before": "48c737669bf333725009474e1734c040e419130a",
+            "commits": [
+                {
+                    "sha": "31de6ae41e721e6904d7ec141a0d11cc7b356f5a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "remake starter files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/31de6ae41e721e6904d7ec141a0d11cc7b356f5a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T22:08:04Z"
+    },
+    {
+        "id": "25629813234",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11867952175,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "48c737669bf333725009474e1734c040e419130a",
+            "before": "009142059796fd7b1d590b5eefb490fcfae02348",
+            "commits": [
+                {
+                    "sha": "206e843ed8be3005b6cbdb767099d04507f23bce",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 02",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/206e843ed8be3005b6cbdb767099d04507f23bce"
+                },
+                {
+                    "sha": "48c737669bf333725009474e1734c040e419130a",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 03",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/48c737669bf333725009474e1734c040e419130a"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T05:36:16Z"
+    },
+    {
+        "id": "25601164432",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11853031831,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "009142059796fd7b1d590b5eefb490fcfae02348",
+            "before": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+            "commits": [
+                {
+                    "sha": "009142059796fd7b1d590b5eefb490fcfae02348",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "refactoring, settings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/009142059796fd7b1d590b5eefb490fcfae02348"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T20:19:36Z"
+    },
+    {
+        "id": "25581852046",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11843487665,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+            "before": "8514991e77521dc844bdbde91c765b94c81702ad",
+            "commits": [
+                {
+                    "sha": "f80433de8bd73bef3314af5c9046fc9959c032b4",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "deno setup, formatting, test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/f80433de8bd73bef3314af5c9046fc9959c032b4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T05:27:30Z"
+    },
+    {
+        "id": "25581630692",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11843367317,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8514991e77521dc844bdbde91c765b94c81702ad",
+            "before": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+            "commits": [
+                {
+                    "sha": "8514991e77521dc844bdbde91c765b94c81702ad",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "2022 01",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/8514991e77521dc844bdbde91c765b94c81702ad"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-01T05:10:08Z"
+    },
+    {
+        "id": "25546619623",
+        "type": "PushEvent",
+        "actor": {
+            "id": 8655649,
+            "login": "fyrkant",
+            "display_login": "fyrkant",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/fyrkant",
+            "avatar_url": "https://avatars.githubusercontent.com/u/8655649?"
+        },
+        "repo": {
+            "id": 318546006,
+            "name": "fyrkant/adventofcode",
+            "url": "https://api.github.com/repos/fyrkant/adventofcode"
+        },
+        "payload": {
+            "push_id": 11825666416,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+            "before": "0ecbdb98a30902f0c84607489e8a8812a5b97c33",
+            "commits": [
+                {
+                    "sha": "c9466ed9c32fdca2f631d9054e7d5683875da913",
+                    "author": {
+                        "email": "fyrkant@gmail.com",
+                        "name": "Mattias Wikstr\u00f6m"
+                    },
+                    "message": "preparations...",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/fyrkant/adventofcode/commits/c9466ed9c32fdca2f631d9054e7d5683875da913"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-29T19:23:15Z"
     }
 ]

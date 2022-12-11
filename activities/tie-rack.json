@@ -1,6 +1,975 @@
 [
     {
-        "id": "25007910151",
+        "id": "25736025412",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11921752487,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b7fe8f5069d10df35594d876e7fd02937872a25b",
+            "before": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+            "commits": [
+                {
+                    "sha": "b7fe8f5069d10df35594d876e7fd02937872a25b",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Shades of day7 before moving on with my life",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/b7fe8f5069d10df35594d876e7fd02937872a25b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T00:49:54Z"
+    },
+    {
+        "id": "25705567873",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11907010376,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+            "before": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+            "commits": [
+                {
+                    "sha": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "cargo fmt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/cfaaa79e93ff243e827b0232d1c5ba7d8919995d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-07T00:15:19Z"
+    },
+    {
+        "id": "25704705196",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906588184,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+            "before": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+            "commits": [
+                {
+                    "sha": "b3fe3ef8635b8be701a9f031c48c18a3270c003b",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "s/ring/buf/g",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/b3fe3ef8635b8be701a9f031c48c18a3270c003b"
+                },
+                {
+                    "sha": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Document how we find the position",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/f2f2baa7fd9157b29f11e410dee9be8137c66b8f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T23:16:02Z"
+    },
+    {
+        "id": "25703948109",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906228432,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+            "before": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+            "commits": [
+                {
+                    "sha": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "No need to check the number of elements *again*",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/7f1607ab9fc6d26b46bdcb15acd10fec15032950"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T22:32:32Z"
+    },
+    {
+        "id": "25703612762",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906066922,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+            "before": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+            "commits": [
+                {
+                    "sha": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Mindless optimization",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/76887de1ac46b050d4f80fb431201b2abb0d1eb6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T22:14:36Z"
+    },
+    {
+        "id": "25702540952",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905562373,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+            "before": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+            "commits": [
+                {
+                    "sha": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "At some point the \"refreshing\" path disappeared!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/7e31c2ba4a0fe655f8588a302e37858fed3650e3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:21:46Z"
+    },
+    {
+        "id": "25702407923",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905497289,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+            "before": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+            "commits": [
+                {
+                    "sha": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "A *little* tighter",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/390b3855c1afbedd238c4767f494b93c5fe8f0ac"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:14:37Z"
+    },
+    {
+        "id": "25702208732",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905398846,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+            "before": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+            "commits": [
+                {
+                    "sha": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Tighten up ring manipulation",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/d411dcbc1a272385c0ee1f22534c06c2aaaad5f5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:04:00Z"
+    },
+    {
+        "id": "25702112070",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905352455,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+            "before": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+            "commits": [
+                {
+                    "sha": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "FASTER",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/92edd5dd6ea12a7be577dce6da7f44754f4b40ef"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T20:59:20Z"
+    },
+    {
+        "id": "25692466030",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900872198,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+            "before": "add7d284d9e033260b50712fc19b4d56390a2cae",
+            "commits": [
+                {
+                    "sha": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Bail from is_all_different as soon as we see a duplicate",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/92ac3af558eb7697223283e7db8c39df8ac807b4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T14:39:52Z"
+    },
+    {
+        "id": "25691255271",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900289131,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "add7d284d9e033260b50712fc19b4d56390a2cae",
+            "before": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+            "commits": [
+                {
+                    "sha": "add7d284d9e033260b50712fc19b4d56390a2cae",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Generalize finding markers",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/add7d284d9e033260b50712fc19b4d56390a2cae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:56:16Z"
+    },
+    {
+        "id": "25690755034",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900045947,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+            "before": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+            "commits": [
+                {
+                    "sha": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Fix panic message in find_start_of_message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/ee85ee1492be003a3bf0468adb5b0792d0bd04f2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:36:36Z"
+    },
+    {
+        "id": "25690735869",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900036661,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+            "before": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+            "commits": [
+                {
+                    "sha": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Day 6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/0da2f2c11eb5c729288e8d7a06f8bda7a14f9843"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:35:50Z"
+    },
+    {
+        "id": "25670408214",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11890099301,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+            "before": "900aac569c442f3c2ac70c417a818090728c3cf4",
+            "commits": [
+                {
+                    "sha": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 5",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/a1e6cb1c0cc35f5eeca6c192150450a13892e3ae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T19:11:22Z"
+    },
+    {
+        "id": "25642562347",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11876040373,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "900aac569c442f3c2ac70c417a818090728c3cf4",
+            "before": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+            "commits": [
+                {
+                    "sha": "900aac569c442f3c2ac70c417a818090728c3cf4",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 4",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/900aac569c442f3c2ac70c417a818090728c3cf4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:52:10Z"
+    },
+    {
+        "id": "25634242992",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870757794,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+            "before": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+            "commits": [
+                {
+                    "sha": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Remove one bare unwrap",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/bda778ca2babbf288edb92a0d431d37d1c4c2e94"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T16:35:09Z"
+    },
+    {
+        "id": "25634208250",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870734021,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+            "before": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+            "commits": [
+                {
+                    "sha": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Functional intersect_sets",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/2a53ed4e31887aae926f874bd32c3424edd50d3d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T16:29:38Z"
+    },
+    {
+        "id": "25633597206",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870340048,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+            "before": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+            "commits": [
+                {
+                    "sha": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/df47e14c213900e2a6c932e96d7cc90520081e1c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T15:04:27Z"
+    },
+    {
+        "id": "25626518831",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11865995826,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+            "before": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+            "commits": [
+                {
+                    "sha": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Listen to pedantic clippy!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/176dedcc88b4d715d9f97ffd11f16ce9b092d193"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T22:18:07Z"
+    },
+    {
+        "id": "25626352292",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11865909966,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+            "before": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+            "commits": [
+                {
+                    "sha": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Listen to clippy",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T22:06:00Z"
+    },
+    {
+        "id": "25621280959",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11863316352,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+            "before": "3375c21737a24351364ac1cafca2ef2632131722",
+            "commits": [
+                {
+                    "sha": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Move RPS into a module",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/fe7945de7578f749ce760456e4dff760a59fe6fc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T16:49:05Z"
+    },
+    {
+        "id": "25617374413",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11861384159,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3375c21737a24351364ac1cafca2ef2632131722",
+            "before": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+            "commits": [
+                {
+                    "sha": "3375c21737a24351364ac1cafca2ef2632131722",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "parse_rps_strategy_FINAL is too important of a joke",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/3375c21737a24351364ac1cafca2ef2632131722"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T13:49:09Z"
+    },
+    {
+        "id": "25617186431",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11861289211,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+            "before": "b4ed3e211a5fc35f66e0b192302e88a2d7da2266",
+            "commits": [
+                {
+                    "sha": "42b147dcf50270873452c12d0b380f0a451179f9",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "fmt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/42b147dcf50270873452c12d0b380f0a451179f9"
+                },
+                {
+                    "sha": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T13:40:07Z"
+    },
+    {
+        "id": "25597060831",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "2022 Advent of Code in Rust",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-01T16:59:03Z"
+    },
+    {
+        "id": "25597049016",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "2022 Advent of Code in Rust",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-01T16:58:31Z"
+    },
+    {
+        "id": "25293549639",
         "type": "PushEvent",
         "actor": {
             "id": 3526,
@@ -16,27 +985,66 @@
             "url": "https://api.github.com/repos/tie-rack/internet-start-page"
         },
         "payload": {
-            "push_id": 11542286811,
+            "push_id": 11691147770,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75",
-            "before": "3e9fe3f81c362e621acaf2cdcbb0e583351ad13a",
+            "head": "e67661fec2000ec5309b0b9b364abbaf9a898120",
+            "before": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
             "commits": [
                 {
-                    "sha": "f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75",
+                    "sha": "e67661fec2000ec5309b0b9b364abbaf9a898120",
                     "author": {
                         "email": "cmshea@gmail.com",
                         "name": "Christopher Shea"
                     },
-                    "message": "Update Mastodon links",
+                    "message": "Down with pxlmo, up with tabletop.vip",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75"
+                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/e67661fec2000ec5309b0b9b364abbaf9a898120"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-11-03T13:18:37Z"
+        "created_at": "2022-11-17T03:38:28Z"
+    },
+    {
+        "id": "25235334430",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 7161710,
+            "name": "tie-rack/internet-start-page",
+            "url": "https://api.github.com/repos/tie-rack/internet-start-page"
+        },
+        "payload": {
+            "push_id": 11661960218,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+            "before": "f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75",
+            "commits": [
+                {
+                    "sha": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Adjust social menu",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/91dbd6c7bc56dd0e2b7c089198a3c153d6443202"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-15T00:05:37Z"
     },
     {
         "id": "25007910151",
@@ -76,6 +1084,2139 @@
         },
         "public": true,
         "created_at": "2022-11-03T13:18:37Z"
+    },
+    {
+        "id": "25736025412",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11921752487,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b7fe8f5069d10df35594d876e7fd02937872a25b",
+            "before": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+            "commits": [
+                {
+                    "sha": "b7fe8f5069d10df35594d876e7fd02937872a25b",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Shades of day7 before moving on with my life",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/b7fe8f5069d10df35594d876e7fd02937872a25b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T00:49:54Z"
+    },
+    {
+        "id": "25705567873",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11907010376,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+            "before": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+            "commits": [
+                {
+                    "sha": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "cargo fmt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/cfaaa79e93ff243e827b0232d1c5ba7d8919995d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-07T00:15:19Z"
+    },
+    {
+        "id": "25704705196",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906588184,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+            "before": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+            "commits": [
+                {
+                    "sha": "b3fe3ef8635b8be701a9f031c48c18a3270c003b",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "s/ring/buf/g",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/b3fe3ef8635b8be701a9f031c48c18a3270c003b"
+                },
+                {
+                    "sha": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Document how we find the position",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/f2f2baa7fd9157b29f11e410dee9be8137c66b8f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T23:16:02Z"
+    },
+    {
+        "id": "25703948109",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906228432,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+            "before": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+            "commits": [
+                {
+                    "sha": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "No need to check the number of elements *again*",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/7f1607ab9fc6d26b46bdcb15acd10fec15032950"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T22:32:32Z"
+    },
+    {
+        "id": "25703612762",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906066922,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+            "before": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+            "commits": [
+                {
+                    "sha": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Mindless optimization",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/76887de1ac46b050d4f80fb431201b2abb0d1eb6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T22:14:36Z"
+    },
+    {
+        "id": "25702540952",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905562373,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+            "before": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+            "commits": [
+                {
+                    "sha": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "At some point the \"refreshing\" path disappeared!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/7e31c2ba4a0fe655f8588a302e37858fed3650e3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:21:46Z"
+    },
+    {
+        "id": "25702407923",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905497289,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+            "before": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+            "commits": [
+                {
+                    "sha": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "A *little* tighter",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/390b3855c1afbedd238c4767f494b93c5fe8f0ac"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:14:37Z"
+    },
+    {
+        "id": "25702208732",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905398846,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+            "before": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+            "commits": [
+                {
+                    "sha": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Tighten up ring manipulation",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/d411dcbc1a272385c0ee1f22534c06c2aaaad5f5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:04:00Z"
+    },
+    {
+        "id": "25702112070",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905352455,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+            "before": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+            "commits": [
+                {
+                    "sha": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "FASTER",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/92edd5dd6ea12a7be577dce6da7f44754f4b40ef"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T20:59:20Z"
+    },
+    {
+        "id": "25692466030",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900872198,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+            "before": "add7d284d9e033260b50712fc19b4d56390a2cae",
+            "commits": [
+                {
+                    "sha": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Bail from is_all_different as soon as we see a duplicate",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/92ac3af558eb7697223283e7db8c39df8ac807b4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T14:39:52Z"
+    },
+    {
+        "id": "25691255271",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900289131,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "add7d284d9e033260b50712fc19b4d56390a2cae",
+            "before": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+            "commits": [
+                {
+                    "sha": "add7d284d9e033260b50712fc19b4d56390a2cae",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Generalize finding markers",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/add7d284d9e033260b50712fc19b4d56390a2cae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:56:16Z"
+    },
+    {
+        "id": "25690755034",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900045947,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+            "before": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+            "commits": [
+                {
+                    "sha": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Fix panic message in find_start_of_message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/ee85ee1492be003a3bf0468adb5b0792d0bd04f2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:36:36Z"
+    },
+    {
+        "id": "25690735869",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900036661,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+            "before": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+            "commits": [
+                {
+                    "sha": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Day 6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/0da2f2c11eb5c729288e8d7a06f8bda7a14f9843"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:35:50Z"
+    },
+    {
+        "id": "25670408214",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11890099301,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+            "before": "900aac569c442f3c2ac70c417a818090728c3cf4",
+            "commits": [
+                {
+                    "sha": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 5",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/a1e6cb1c0cc35f5eeca6c192150450a13892e3ae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T19:11:22Z"
+    },
+    {
+        "id": "25642562347",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11876040373,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "900aac569c442f3c2ac70c417a818090728c3cf4",
+            "before": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+            "commits": [
+                {
+                    "sha": "900aac569c442f3c2ac70c417a818090728c3cf4",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 4",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/900aac569c442f3c2ac70c417a818090728c3cf4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:52:10Z"
+    },
+    {
+        "id": "25634242992",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870757794,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+            "before": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+            "commits": [
+                {
+                    "sha": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Remove one bare unwrap",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/bda778ca2babbf288edb92a0d431d37d1c4c2e94"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T16:35:09Z"
+    },
+    {
+        "id": "25634208250",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870734021,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+            "before": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+            "commits": [
+                {
+                    "sha": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Functional intersect_sets",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/2a53ed4e31887aae926f874bd32c3424edd50d3d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T16:29:38Z"
+    },
+    {
+        "id": "25633597206",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870340048,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+            "before": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+            "commits": [
+                {
+                    "sha": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/df47e14c213900e2a6c932e96d7cc90520081e1c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T15:04:27Z"
+    },
+    {
+        "id": "25626518831",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11865995826,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+            "before": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+            "commits": [
+                {
+                    "sha": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Listen to pedantic clippy!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/176dedcc88b4d715d9f97ffd11f16ce9b092d193"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T22:18:07Z"
+    },
+    {
+        "id": "25626352292",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11865909966,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+            "before": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+            "commits": [
+                {
+                    "sha": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Listen to clippy",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T22:06:00Z"
+    },
+    {
+        "id": "25621280959",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11863316352,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+            "before": "3375c21737a24351364ac1cafca2ef2632131722",
+            "commits": [
+                {
+                    "sha": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Move RPS into a module",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/fe7945de7578f749ce760456e4dff760a59fe6fc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T16:49:05Z"
+    },
+    {
+        "id": "25617374413",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11861384159,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3375c21737a24351364ac1cafca2ef2632131722",
+            "before": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+            "commits": [
+                {
+                    "sha": "3375c21737a24351364ac1cafca2ef2632131722",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "parse_rps_strategy_FINAL is too important of a joke",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/3375c21737a24351364ac1cafca2ef2632131722"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T13:49:09Z"
+    },
+    {
+        "id": "25617186431",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11861289211,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+            "before": "b4ed3e211a5fc35f66e0b192302e88a2d7da2266",
+            "commits": [
+                {
+                    "sha": "42b147dcf50270873452c12d0b380f0a451179f9",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "fmt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/42b147dcf50270873452c12d0b380f0a451179f9"
+                },
+                {
+                    "sha": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T13:40:07Z"
+    },
+    {
+        "id": "25597060831",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "2022 Advent of Code in Rust",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-01T16:59:03Z"
+    },
+    {
+        "id": "25597049016",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "2022 Advent of Code in Rust",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-01T16:58:31Z"
+    },
+    {
+        "id": "25293549639",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 7161710,
+            "name": "tie-rack/internet-start-page",
+            "url": "https://api.github.com/repos/tie-rack/internet-start-page"
+        },
+        "payload": {
+            "push_id": 11691147770,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e67661fec2000ec5309b0b9b364abbaf9a898120",
+            "before": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+            "commits": [
+                {
+                    "sha": "e67661fec2000ec5309b0b9b364abbaf9a898120",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Down with pxlmo, up with tabletop.vip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/e67661fec2000ec5309b0b9b364abbaf9a898120"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-17T03:38:28Z"
+    },
+    {
+        "id": "25235334430",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 7161710,
+            "name": "tie-rack/internet-start-page",
+            "url": "https://api.github.com/repos/tie-rack/internet-start-page"
+        },
+        "payload": {
+            "push_id": 11661960218,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+            "before": "f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75",
+            "commits": [
+                {
+                    "sha": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Adjust social menu",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/91dbd6c7bc56dd0e2b7c089198a3c153d6443202"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-15T00:05:37Z"
+    },
+    {
+        "id": "25007910151",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 7161710,
+            "name": "tie-rack/internet-start-page",
+            "url": "https://api.github.com/repos/tie-rack/internet-start-page"
+        },
+        "payload": {
+            "push_id": 11542286811,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75",
+            "before": "3e9fe3f81c362e621acaf2cdcbb0e583351ad13a",
+            "commits": [
+                {
+                    "sha": "f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Update Mastodon links",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-03T13:18:37Z"
+    },
+    {
+        "id": "25736025412",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11921752487,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b7fe8f5069d10df35594d876e7fd02937872a25b",
+            "before": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+            "commits": [
+                {
+                    "sha": "b7fe8f5069d10df35594d876e7fd02937872a25b",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Shades of day7 before moving on with my life",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/b7fe8f5069d10df35594d876e7fd02937872a25b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T00:49:54Z"
+    },
+    {
+        "id": "25705567873",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11907010376,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+            "before": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+            "commits": [
+                {
+                    "sha": "cfaaa79e93ff243e827b0232d1c5ba7d8919995d",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "cargo fmt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/cfaaa79e93ff243e827b0232d1c5ba7d8919995d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-07T00:15:19Z"
+    },
+    {
+        "id": "25704705196",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906588184,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+            "before": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+            "commits": [
+                {
+                    "sha": "b3fe3ef8635b8be701a9f031c48c18a3270c003b",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "s/ring/buf/g",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/b3fe3ef8635b8be701a9f031c48c18a3270c003b"
+                },
+                {
+                    "sha": "f2f2baa7fd9157b29f11e410dee9be8137c66b8f",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Document how we find the position",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/f2f2baa7fd9157b29f11e410dee9be8137c66b8f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T23:16:02Z"
+    },
+    {
+        "id": "25703948109",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906228432,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+            "before": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+            "commits": [
+                {
+                    "sha": "7f1607ab9fc6d26b46bdcb15acd10fec15032950",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "No need to check the number of elements *again*",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/7f1607ab9fc6d26b46bdcb15acd10fec15032950"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T22:32:32Z"
+    },
+    {
+        "id": "25703612762",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11906066922,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+            "before": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+            "commits": [
+                {
+                    "sha": "76887de1ac46b050d4f80fb431201b2abb0d1eb6",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Mindless optimization",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/76887de1ac46b050d4f80fb431201b2abb0d1eb6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T22:14:36Z"
+    },
+    {
+        "id": "25702540952",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905562373,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+            "before": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+            "commits": [
+                {
+                    "sha": "7e31c2ba4a0fe655f8588a302e37858fed3650e3",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "At some point the \"refreshing\" path disappeared!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/7e31c2ba4a0fe655f8588a302e37858fed3650e3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:21:46Z"
+    },
+    {
+        "id": "25702407923",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905497289,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+            "before": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+            "commits": [
+                {
+                    "sha": "390b3855c1afbedd238c4767f494b93c5fe8f0ac",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "A *little* tighter",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/390b3855c1afbedd238c4767f494b93c5fe8f0ac"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:14:37Z"
+    },
+    {
+        "id": "25702208732",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905398846,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+            "before": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+            "commits": [
+                {
+                    "sha": "d411dcbc1a272385c0ee1f22534c06c2aaaad5f5",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Tighten up ring manipulation",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/d411dcbc1a272385c0ee1f22534c06c2aaaad5f5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T21:04:00Z"
+    },
+    {
+        "id": "25702112070",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11905352455,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+            "before": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+            "commits": [
+                {
+                    "sha": "92edd5dd6ea12a7be577dce6da7f44754f4b40ef",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "FASTER",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/92edd5dd6ea12a7be577dce6da7f44754f4b40ef"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T20:59:20Z"
+    },
+    {
+        "id": "25692466030",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900872198,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+            "before": "add7d284d9e033260b50712fc19b4d56390a2cae",
+            "commits": [
+                {
+                    "sha": "92ac3af558eb7697223283e7db8c39df8ac807b4",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Bail from is_all_different as soon as we see a duplicate",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/92ac3af558eb7697223283e7db8c39df8ac807b4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T14:39:52Z"
+    },
+    {
+        "id": "25691255271",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900289131,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "add7d284d9e033260b50712fc19b4d56390a2cae",
+            "before": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+            "commits": [
+                {
+                    "sha": "add7d284d9e033260b50712fc19b4d56390a2cae",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Generalize finding markers",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/add7d284d9e033260b50712fc19b4d56390a2cae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:56:16Z"
+    },
+    {
+        "id": "25690755034",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900045947,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+            "before": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+            "commits": [
+                {
+                    "sha": "ee85ee1492be003a3bf0468adb5b0792d0bd04f2",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Fix panic message in find_start_of_message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/ee85ee1492be003a3bf0468adb5b0792d0bd04f2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:36:36Z"
+    },
+    {
+        "id": "25690735869",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11900036661,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+            "before": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+            "commits": [
+                {
+                    "sha": "0da2f2c11eb5c729288e8d7a06f8bda7a14f9843",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Day 6",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/0da2f2c11eb5c729288e8d7a06f8bda7a14f9843"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T13:35:50Z"
+    },
+    {
+        "id": "25670408214",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11890099301,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+            "before": "900aac569c442f3c2ac70c417a818090728c3cf4",
+            "commits": [
+                {
+                    "sha": "a1e6cb1c0cc35f5eeca6c192150450a13892e3ae",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 5",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/a1e6cb1c0cc35f5eeca6c192150450a13892e3ae"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T19:11:22Z"
+    },
+    {
+        "id": "25642562347",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11876040373,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "900aac569c442f3c2ac70c417a818090728c3cf4",
+            "before": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+            "commits": [
+                {
+                    "sha": "900aac569c442f3c2ac70c417a818090728c3cf4",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 4",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/900aac569c442f3c2ac70c417a818090728c3cf4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:52:10Z"
+    },
+    {
+        "id": "25634242992",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870757794,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+            "before": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+            "commits": [
+                {
+                    "sha": "bda778ca2babbf288edb92a0d431d37d1c4c2e94",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Remove one bare unwrap",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/bda778ca2babbf288edb92a0d431d37d1c4c2e94"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T16:35:09Z"
+    },
+    {
+        "id": "25634208250",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870734021,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+            "before": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+            "commits": [
+                {
+                    "sha": "2a53ed4e31887aae926f874bd32c3424edd50d3d",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Functional intersect_sets",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/2a53ed4e31887aae926f874bd32c3424edd50d3d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T16:29:38Z"
+    },
+    {
+        "id": "25633597206",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11870340048,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+            "before": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+            "commits": [
+                {
+                    "sha": "df47e14c213900e2a6c932e96d7cc90520081e1c",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/df47e14c213900e2a6c932e96d7cc90520081e1c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-03T15:04:27Z"
+    },
+    {
+        "id": "25626518831",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11865995826,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+            "before": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+            "commits": [
+                {
+                    "sha": "176dedcc88b4d715d9f97ffd11f16ce9b092d193",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Listen to pedantic clippy!",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/176dedcc88b4d715d9f97ffd11f16ce9b092d193"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T22:18:07Z"
+    },
+    {
+        "id": "25626352292",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11865909966,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+            "before": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+            "commits": [
+                {
+                    "sha": "8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Listen to clippy",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/8770b4ff451b5841f7e2cecd36d6b4d0bc1c47a6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T22:06:00Z"
+    },
+    {
+        "id": "25621280959",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11863316352,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+            "before": "3375c21737a24351364ac1cafca2ef2632131722",
+            "commits": [
+                {
+                    "sha": "fe7945de7578f749ce760456e4dff760a59fe6fc",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Move RPS into a module",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/fe7945de7578f749ce760456e4dff760a59fe6fc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T16:49:05Z"
+    },
+    {
+        "id": "25617374413",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11861384159,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3375c21737a24351364ac1cafca2ef2632131722",
+            "before": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+            "commits": [
+                {
+                    "sha": "3375c21737a24351364ac1cafca2ef2632131722",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "parse_rps_strategy_FINAL is too important of a joke",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/3375c21737a24351364ac1cafca2ef2632131722"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T13:49:09Z"
+    },
+    {
+        "id": "25617186431",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "push_id": 11861289211,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+            "before": "b4ed3e211a5fc35f66e0b192302e88a2d7da2266",
+            "commits": [
+                {
+                    "sha": "42b147dcf50270873452c12d0b380f0a451179f9",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "fmt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/42b147dcf50270873452c12d0b380f0a451179f9"
+                },
+                {
+                    "sha": "d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743",
+                    "author": {
+                        "email": "chris.shea@synd.io",
+                        "name": "Chris Shea"
+                    },
+                    "message": "Day 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs/commits/d9e5c5214bdc8cb0179fc8e6bf33cfba0a69a743"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-02T13:40:07Z"
+    },
+    {
+        "id": "25597060831",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "2022 Advent of Code in Rust",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-01T16:59:03Z"
+    },
+    {
+        "id": "25597049016",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 573083370,
+            "name": "tie-rack/aoc-2022-rs",
+            "url": "https://api.github.com/repos/tie-rack/aoc-2022-rs"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": "2022 Advent of Code in Rust",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-01T16:58:31Z"
+    },
+    {
+        "id": "25293549639",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 7161710,
+            "name": "tie-rack/internet-start-page",
+            "url": "https://api.github.com/repos/tie-rack/internet-start-page"
+        },
+        "payload": {
+            "push_id": 11691147770,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e67661fec2000ec5309b0b9b364abbaf9a898120",
+            "before": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+            "commits": [
+                {
+                    "sha": "e67661fec2000ec5309b0b9b364abbaf9a898120",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Down with pxlmo, up with tabletop.vip",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/e67661fec2000ec5309b0b9b364abbaf9a898120"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-17T03:38:28Z"
+    },
+    {
+        "id": "25235334430",
+        "type": "PushEvent",
+        "actor": {
+            "id": 3526,
+            "login": "tie-rack",
+            "display_login": "tie-rack",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tie-rack",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3526?"
+        },
+        "repo": {
+            "id": 7161710,
+            "name": "tie-rack/internet-start-page",
+            "url": "https://api.github.com/repos/tie-rack/internet-start-page"
+        },
+        "payload": {
+            "push_id": 11661960218,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+            "before": "f62b74a8a571d1a5c506bbc89d3da8a68e4b0b75",
+            "commits": [
+                {
+                    "sha": "91dbd6c7bc56dd0e2b7c089198a3c153d6443202",
+                    "author": {
+                        "email": "cmshea@gmail.com",
+                        "name": "Christopher Shea"
+                    },
+                    "message": "Adjust social menu",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/tie-rack/internet-start-page/commits/91dbd6c7bc56dd0e2b7c089198a3c153d6443202"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-15T00:05:37Z"
     },
     {
         "id": "25007910151",

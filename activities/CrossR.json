@@ -1,7 +1,7 @@
 [
     {
-        "id": "25014347591",
-        "type": "CreateEvent",
+        "id": "25453681869",
+        "type": "PushEvent",
         "actor": {
             "id": 10038688,
             "login": "CrossR",
@@ -16,216 +16,30 @@
             "url": "https://api.github.com/repos/CrossR/zmk_config"
         },
         "payload": {
-            "ref": "CrossR/SplitBatteryTest",
-            "ref_type": "branch",
-            "master_branch": "main",
-            "description": null,
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-11-03T17:30:41Z"
-    },
-    {
-        "id": "25014307543",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 561435828,
-            "name": "CrossR/zmk",
-            "url": "https://api.github.com/repos/CrossR/zmk"
-        },
-        "payload": {
-            "ref": "CrossR/SplitBatteryTest",
-            "ref_type": "branch",
-            "master_branch": "main",
-            "description": "ZMK Firmware Repository",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-11-03T17:28:53Z"
-    },
-    {
-        "id": "25014228106",
-        "type": "ForkEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 270692521,
-            "name": "zmkfirmware/zmk",
-            "url": "https://api.github.com/repos/zmkfirmware/zmk"
-        },
-        "payload": {
-            "forkee": {
-                "id": 561435828,
-                "node_id": "R_kgDOIXbUtA",
-                "name": "zmk",
-                "full_name": "CrossR/zmk",
-                "private": false,
-                "owner": {
-                    "login": "CrossR",
-                    "id": 10038688,
-                    "node_id": "MDQ6VXNlcjEwMDM4Njg4",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/10038688?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/CrossR",
-                    "html_url": "https://github.com/CrossR",
-                    "followers_url": "https://api.github.com/users/CrossR/followers",
-                    "following_url": "https://api.github.com/users/CrossR/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/CrossR/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/CrossR/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/CrossR/subscriptions",
-                    "organizations_url": "https://api.github.com/users/CrossR/orgs",
-                    "repos_url": "https://api.github.com/users/CrossR/repos",
-                    "events_url": "https://api.github.com/users/CrossR/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/CrossR/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "html_url": "https://github.com/CrossR/zmk",
-                "description": "ZMK Firmware Repository",
-                "fork": true,
-                "url": "https://api.github.com/repos/CrossR/zmk",
-                "forks_url": "https://api.github.com/repos/CrossR/zmk/forks",
-                "keys_url": "https://api.github.com/repos/CrossR/zmk/keys{/key_id}",
-                "collaborators_url": "https://api.github.com/repos/CrossR/zmk/collaborators{/collaborator}",
-                "teams_url": "https://api.github.com/repos/CrossR/zmk/teams",
-                "hooks_url": "https://api.github.com/repos/CrossR/zmk/hooks",
-                "issue_events_url": "https://api.github.com/repos/CrossR/zmk/issues/events{/number}",
-                "events_url": "https://api.github.com/repos/CrossR/zmk/events",
-                "assignees_url": "https://api.github.com/repos/CrossR/zmk/assignees{/user}",
-                "branches_url": "https://api.github.com/repos/CrossR/zmk/branches{/branch}",
-                "tags_url": "https://api.github.com/repos/CrossR/zmk/tags",
-                "blobs_url": "https://api.github.com/repos/CrossR/zmk/git/blobs{/sha}",
-                "git_tags_url": "https://api.github.com/repos/CrossR/zmk/git/tags{/sha}",
-                "git_refs_url": "https://api.github.com/repos/CrossR/zmk/git/refs{/sha}",
-                "trees_url": "https://api.github.com/repos/CrossR/zmk/git/trees{/sha}",
-                "statuses_url": "https://api.github.com/repos/CrossR/zmk/statuses/{sha}",
-                "languages_url": "https://api.github.com/repos/CrossR/zmk/languages",
-                "stargazers_url": "https://api.github.com/repos/CrossR/zmk/stargazers",
-                "contributors_url": "https://api.github.com/repos/CrossR/zmk/contributors",
-                "subscribers_url": "https://api.github.com/repos/CrossR/zmk/subscribers",
-                "subscription_url": "https://api.github.com/repos/CrossR/zmk/subscription",
-                "commits_url": "https://api.github.com/repos/CrossR/zmk/commits{/sha}",
-                "git_commits_url": "https://api.github.com/repos/CrossR/zmk/git/commits{/sha}",
-                "comments_url": "https://api.github.com/repos/CrossR/zmk/comments{/number}",
-                "issue_comment_url": "https://api.github.com/repos/CrossR/zmk/issues/comments{/number}",
-                "contents_url": "https://api.github.com/repos/CrossR/zmk/contents/{+path}",
-                "compare_url": "https://api.github.com/repos/CrossR/zmk/compare/{base}...{head}",
-                "merges_url": "https://api.github.com/repos/CrossR/zmk/merges",
-                "archive_url": "https://api.github.com/repos/CrossR/zmk/{archive_format}{/ref}",
-                "downloads_url": "https://api.github.com/repos/CrossR/zmk/downloads",
-                "issues_url": "https://api.github.com/repos/CrossR/zmk/issues{/number}",
-                "pulls_url": "https://api.github.com/repos/CrossR/zmk/pulls{/number}",
-                "milestones_url": "https://api.github.com/repos/CrossR/zmk/milestones{/number}",
-                "notifications_url": "https://api.github.com/repos/CrossR/zmk/notifications{?since,all,participating}",
-                "labels_url": "https://api.github.com/repos/CrossR/zmk/labels{/name}",
-                "releases_url": "https://api.github.com/repos/CrossR/zmk/releases{/id}",
-                "deployments_url": "https://api.github.com/repos/CrossR/zmk/deployments",
-                "created_at": "2022-11-03T17:25:14Z",
-                "updated_at": "2022-11-03T17:02:17Z",
-                "pushed_at": "2022-11-03T03:33:20Z",
-                "git_url": "git://github.com/CrossR/zmk.git",
-                "ssh_url": "git@github.com:CrossR/zmk.git",
-                "clone_url": "https://github.com/CrossR/zmk.git",
-                "svn_url": "https://github.com/CrossR/zmk",
-                "homepage": "https://zmk.dev/",
-                "size": 14686,
-                "stargazers_count": 0,
-                "watchers_count": 0,
-                "language": null,
-                "has_issues": false,
-                "has_projects": true,
-                "has_downloads": true,
-                "has_wiki": true,
-                "has_pages": false,
-                "forks_count": 0,
-                "mirror_url": null,
-                "archived": false,
-                "disabled": false,
-                "open_issues_count": 0,
-                "license": {
-                    "key": "mit",
-                    "name": "MIT License",
-                    "spdx_id": "MIT",
-                    "url": "https://api.github.com/licenses/mit",
-                    "node_id": "MDc6TGljZW5zZTEz"
-                },
-                "allow_forking": true,
-                "is_template": false,
-                "web_commit_signoff_required": false,
-                "topics": [],
-                "visibility": "public",
-                "forks": 0,
-                "open_issues": 0,
-                "watchers": 0,
-                "default_branch": "main",
-                "public": true
-            }
-        },
-        "public": true,
-        "created_at": "2022-11-03T17:25:15Z",
-        "org": {
-            "id": 66629601,
-            "login": "zmkfirmware",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/zmkfirmware",
-            "avatar_url": "https://avatars.githubusercontent.com/u/66629601?"
-        }
-    },
-    {
-        "id": "24720912500",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 36185313,
-            "name": "CrossR/dotfiles",
-            "url": "https://api.github.com/repos/CrossR/dotfiles"
-        },
-        "payload": {
-            "push_id": 11392561259,
+            "push_id": 11775006715,
             "size": 1,
             "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "f850a96d8e05ce584d57512dca99e0ab5e29f25d",
-            "before": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
+            "ref": "refs/heads/main",
+            "head": "42e176d205c9d1f7ae5f10418ad54686b47bfa43",
+            "before": "77e7aeccb12d590e7c8465b2b8cdca8113569a63",
             "commits": [
                 {
-                    "sha": "f850a96d8e05ce584d57512dca99e0ab5e29f25d",
+                    "sha": "42e176d205c9d1f7ae5f10418ad54686b47bfa43",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Move snippets around.",
+                    "message": "Bump power.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/f850a96d8e05ce584d57512dca99e0ab5e29f25d"
+                    "url": "https://api.github.com/repos/CrossR/zmk_config/commits/42e176d205c9d1f7ae5f10418ad54686b47bfa43"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-10-20T10:35:22Z"
+        "created_at": "2022-11-24T12:31:20Z"
     },
     {
-        "id": "24503674434",
+        "id": "25453676501",
         "type": "PushEvent",
         "actor": {
             "id": 10038688,
@@ -236,413 +50,32 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
         },
         "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
+            "id": 292378079,
+            "name": "CrossR/zmk_config",
+            "url": "https://api.github.com/repos/CrossR/zmk_config"
         },
         "payload": {
-            "push_id": 11281037786,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "25a700235c82e172320de9d6e3bfd0d8f2cacb58",
-            "before": "7a9f07ce224f425f106f9dfa2c465ab5aa98da33",
-            "commits": [
-                {
-                    "sha": "4176f5547fc9c17410c8c382fbde1de49521bea6",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Fix tagging MC as beam or not.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/4176f5547fc9c17410c8c382fbde1de49521bea6"
-                },
-                {
-                    "sha": "25a700235c82e172320de9d6e3bfd0d8f2cacb58",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Correct PCA.\n\nPCA was always using the 3D vertex, now project that vertex and use that\ninstead.\nAlso log out the vertex and store both a 2D and 3D vertex.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/25a700235c82e172320de9d6e3bfd0d8f2cacb58"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-10T14:39:38Z"
-    },
-    {
-        "id": "24414798541",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 11234163195,
+            "push_id": 11775003843,
             "size": 1,
             "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "7a9f07ce224f425f106f9dfa2c465ab5aa98da33",
-            "before": "b229d740b3f1175d3ddc0d21cf8a2542a0be01fd",
+            "ref": "refs/heads/CrossR/SplitBatteryTest",
+            "head": "2593d3f5975ef041020d2cccd34227775941e58c",
+            "before": "b8d355e09701c7dce876c60f895d98b233c95c1a",
             "commits": [
                 {
-                    "sha": "7a9f07ce224f425f106f9dfa2c465ab5aa98da33",
+                    "sha": "2593d3f5975ef041020d2cccd34227775941e58c",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Add test beam flag to rest of the trees.",
+                    "message": "Bump power.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/7a9f07ce224f425f106f9dfa2c465ab5aa98da33"
+                    "url": "https://api.github.com/repos/CrossR/zmk_config/commits/2593d3f5975ef041020d2cccd34227775941e58c"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-10-05T15:03:00Z"
-    },
-    {
-        "id": "24362146104",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 11208285284,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "b229d740b3f1175d3ddc0d21cf8a2542a0be01fd",
-            "before": "cac2a06a5f77edacc39d2175026ad7fc5823a88f",
-            "commits": [
-                {
-                    "sha": "b229d740b3f1175d3ddc0d21cf8a2542a0be01fd",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Add PFO cluster tag to pfo, fix largest shower check.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/b229d740b3f1175d3ddc0d21cf8a2542a0be01fd"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-03T12:36:44Z"
-    },
-    {
-        "id": "24185083084",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 11115529541,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "cac2a06a5f77edacc39d2175026ad7fc5823a88f",
-            "before": "7669b99b395bbf0d84375878765c42681083de50",
-            "commits": [
-                {
-                    "sha": "cac2a06a5f77edacc39d2175026ad7fc5823a88f",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Fix writing of data to tree.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/cac2a06a5f77edacc39d2175026ad7fc5823a88f"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-23T12:38:08Z"
-    },
-    {
-        "id": "24184887391",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 11115428538,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "7669b99b395bbf0d84375878765c42681083de50",
-            "before": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
-            "commits": [
-                {
-                    "sha": "7669b99b395bbf0d84375878765c42681083de50",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Update reco tree with more info.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/7669b99b395bbf0d84375878765c42681083de50"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-23T12:28:08Z"
-    },
-    {
-        "id": "23622995412",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 36185313,
-            "name": "CrossR/dotfiles",
-            "url": "https://api.github.com/repos/CrossR/dotfiles"
-        },
-        "payload": {
-            "push_id": 10824452173,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
-            "before": "1bc5fec10748c61f219055900f2437dce20fb734",
-            "commits": [
-                {
-                    "sha": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Swap date command in shell skeleton.\n\n%X is locale dependent, which gives 12 hour time on some machines.\n%T should gives the expected output on every machine.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/9a5f2b7e42482e60cba4bd6610be49a3b19fedea"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-24T22:59:30Z"
-    },
-    {
-        "id": "23528622851",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 10775381960,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
-            "before": "cc63e830c833b9f0253a65941773ac5d0d31b025",
-            "commits": [
-                {
-                    "sha": "8c91e654490d2e82904c196ce4670f184d275674",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Dump out the processed scores to a csv file.\n\nUseful for debugging, but not required all the time.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/8c91e654490d2e82904c196ce4670f184d275674"
-                },
-                {
-                    "sha": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Drop cluster score CSV output.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/d9851111bbede65a3f719f12e18ac5ed7f9586c8"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-19T13:21:13Z"
-    },
-    {
-        "id": "23418248438",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 36185313,
-            "name": "CrossR/dotfiles",
-            "url": "https://api.github.com/repos/CrossR/dotfiles"
-        },
-        "payload": {
-            "push_id": 10718279872,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/master",
-            "head": "1bc5fec10748c61f219055900f2437dce20fb734",
-            "before": "d7362363cb73a31b1deeeca79eaa3291200cb2c9",
-            "commits": [
-                {
-                    "sha": "5a92e126228e6a65e12a968cb954d4a0542d8af6",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Move nvim config around.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/5a92e126228e6a65e12a968cb954d4a0542d8af6"
-                },
-                {
-                    "sha": "1bc5fec10748c61f219055900f2437dce20fb734",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Ignore LaTeX warning.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/1bc5fec10748c61f219055900f2437dce20fb734"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-13T09:27:36Z"
-    },
-    {
-        "id": "23387232199",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 10702209195,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "cc63e830c833b9f0253a65941773ac5d0d31b025",
-            "before": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
-            "commits": [
-                {
-                    "sha": "cc63e830c833b9f0253a65941773ac5d0d31b025",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Tidy up cheated hit ID.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/cc63e830c833b9f0253a65941773ac5d0d31b025"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-11T14:41:12Z"
-    },
-    {
-        "id": "23386048629",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 10701648216,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
-            "before": "354e0523d1084e59d4d015e35c92251f3c9384c4",
-            "commits": [
-                {
-                    "sha": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Add a cheated hit-based track/shower ID algorithm.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/ec70ac3fcfca6bc373c1c27038e223b1e1e06a76"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-11T13:50:44Z"
+        "created_at": "2022-11-24T12:31:05Z"
     },
     {
         "id": "25014347591",
@@ -1075,7 +508,7 @@
         "created_at": "2022-09-23T12:28:08Z"
     },
     {
-        "id": "23622995412",
+        "id": "25453681869",
         "type": "PushEvent",
         "actor": {
             "id": 10038688,
@@ -1086,35 +519,35 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
         },
         "repo": {
-            "id": 36185313,
-            "name": "CrossR/dotfiles",
-            "url": "https://api.github.com/repos/CrossR/dotfiles"
+            "id": 292378079,
+            "name": "CrossR/zmk_config",
+            "url": "https://api.github.com/repos/CrossR/zmk_config"
         },
         "payload": {
-            "push_id": 10824452173,
+            "push_id": 11775006715,
             "size": 1,
             "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
-            "before": "1bc5fec10748c61f219055900f2437dce20fb734",
+            "ref": "refs/heads/main",
+            "head": "42e176d205c9d1f7ae5f10418ad54686b47bfa43",
+            "before": "77e7aeccb12d590e7c8465b2b8cdca8113569a63",
             "commits": [
                 {
-                    "sha": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
+                    "sha": "42e176d205c9d1f7ae5f10418ad54686b47bfa43",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Swap date command in shell skeleton.\n\n%X is locale dependent, which gives 12 hour time on some machines.\n%T should gives the expected output on every machine.",
+                    "message": "Bump power.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/9a5f2b7e42482e60cba4bd6610be49a3b19fedea"
+                    "url": "https://api.github.com/repos/CrossR/zmk_config/commits/42e176d205c9d1f7ae5f10418ad54686b47bfa43"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-24T22:59:30Z"
+        "created_at": "2022-11-24T12:31:20Z"
     },
     {
-        "id": "23528622851",
+        "id": "25453676501",
         "type": "PushEvent",
         "actor": {
             "id": 10038688,
@@ -1125,169 +558,32 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
         },
         "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
+            "id": 292378079,
+            "name": "CrossR/zmk_config",
+            "url": "https://api.github.com/repos/CrossR/zmk_config"
         },
         "payload": {
-            "push_id": 10775381960,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
-            "before": "cc63e830c833b9f0253a65941773ac5d0d31b025",
-            "commits": [
-                {
-                    "sha": "8c91e654490d2e82904c196ce4670f184d275674",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Dump out the processed scores to a csv file.\n\nUseful for debugging, but not required all the time.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/8c91e654490d2e82904c196ce4670f184d275674"
-                },
-                {
-                    "sha": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Drop cluster score CSV output.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/d9851111bbede65a3f719f12e18ac5ed7f9586c8"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-19T13:21:13Z"
-    },
-    {
-        "id": "23418248438",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 36185313,
-            "name": "CrossR/dotfiles",
-            "url": "https://api.github.com/repos/CrossR/dotfiles"
-        },
-        "payload": {
-            "push_id": 10718279872,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/master",
-            "head": "1bc5fec10748c61f219055900f2437dce20fb734",
-            "before": "d7362363cb73a31b1deeeca79eaa3291200cb2c9",
-            "commits": [
-                {
-                    "sha": "5a92e126228e6a65e12a968cb954d4a0542d8af6",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Move nvim config around.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/5a92e126228e6a65e12a968cb954d4a0542d8af6"
-                },
-                {
-                    "sha": "1bc5fec10748c61f219055900f2437dce20fb734",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Ignore LaTeX warning.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/1bc5fec10748c61f219055900f2437dce20fb734"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-13T09:27:36Z"
-    },
-    {
-        "id": "23387232199",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 10702209195,
+            "push_id": 11775003843,
             "size": 1,
             "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "cc63e830c833b9f0253a65941773ac5d0d31b025",
-            "before": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
+            "ref": "refs/heads/CrossR/SplitBatteryTest",
+            "head": "2593d3f5975ef041020d2cccd34227775941e58c",
+            "before": "b8d355e09701c7dce876c60f895d98b233c95c1a",
             "commits": [
                 {
-                    "sha": "cc63e830c833b9f0253a65941773ac5d0d31b025",
+                    "sha": "2593d3f5975ef041020d2cccd34227775941e58c",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Tidy up cheated hit ID.",
+                    "message": "Bump power.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/cc63e830c833b9f0253a65941773ac5d0d31b025"
+                    "url": "https://api.github.com/repos/CrossR/zmk_config/commits/2593d3f5975ef041020d2cccd34227775941e58c"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-11T14:41:12Z"
-    },
-    {
-        "id": "23386048629",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 167174823,
-            "name": "CrossR/LArContent",
-            "url": "https://api.github.com/repos/CrossR/LArContent"
-        },
-        "payload": {
-            "push_id": 10701648216,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
-            "before": "354e0523d1084e59d4d015e35c92251f3c9384c4",
-            "commits": [
-                {
-                    "sha": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Add a cheated hit-based track/shower ID algorithm.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/ec70ac3fcfca6bc373c1c27038e223b1e1e06a76"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-11T13:50:44Z"
+        "created_at": "2022-11-24T12:31:05Z"
     },
     {
         "id": "25014347591",
@@ -1720,7 +1016,271 @@
         "created_at": "2022-09-23T12:28:08Z"
     },
     {
-        "id": "23622995412",
+        "id": "25453681869",
+        "type": "PushEvent",
+        "actor": {
+            "id": 10038688,
+            "login": "CrossR",
+            "display_login": "CrossR",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CrossR",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
+        },
+        "repo": {
+            "id": 292378079,
+            "name": "CrossR/zmk_config",
+            "url": "https://api.github.com/repos/CrossR/zmk_config"
+        },
+        "payload": {
+            "push_id": 11775006715,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "42e176d205c9d1f7ae5f10418ad54686b47bfa43",
+            "before": "77e7aeccb12d590e7c8465b2b8cdca8113569a63",
+            "commits": [
+                {
+                    "sha": "42e176d205c9d1f7ae5f10418ad54686b47bfa43",
+                    "author": {
+                        "email": "r.cross@lancaster.ac.uk",
+                        "name": "CrossR"
+                    },
+                    "message": "Bump power.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CrossR/zmk_config/commits/42e176d205c9d1f7ae5f10418ad54686b47bfa43"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-24T12:31:20Z"
+    },
+    {
+        "id": "25453676501",
+        "type": "PushEvent",
+        "actor": {
+            "id": 10038688,
+            "login": "CrossR",
+            "display_login": "CrossR",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CrossR",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
+        },
+        "repo": {
+            "id": 292378079,
+            "name": "CrossR/zmk_config",
+            "url": "https://api.github.com/repos/CrossR/zmk_config"
+        },
+        "payload": {
+            "push_id": 11775003843,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/CrossR/SplitBatteryTest",
+            "head": "2593d3f5975ef041020d2cccd34227775941e58c",
+            "before": "b8d355e09701c7dce876c60f895d98b233c95c1a",
+            "commits": [
+                {
+                    "sha": "2593d3f5975ef041020d2cccd34227775941e58c",
+                    "author": {
+                        "email": "r.cross@lancaster.ac.uk",
+                        "name": "CrossR"
+                    },
+                    "message": "Bump power.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CrossR/zmk_config/commits/2593d3f5975ef041020d2cccd34227775941e58c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-24T12:31:05Z"
+    },
+    {
+        "id": "25014347591",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 10038688,
+            "login": "CrossR",
+            "display_login": "CrossR",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CrossR",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
+        },
+        "repo": {
+            "id": 292378079,
+            "name": "CrossR/zmk_config",
+            "url": "https://api.github.com/repos/CrossR/zmk_config"
+        },
+        "payload": {
+            "ref": "CrossR/SplitBatteryTest",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-03T17:30:41Z"
+    },
+    {
+        "id": "25014307543",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 10038688,
+            "login": "CrossR",
+            "display_login": "CrossR",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CrossR",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
+        },
+        "repo": {
+            "id": 561435828,
+            "name": "CrossR/zmk",
+            "url": "https://api.github.com/repos/CrossR/zmk"
+        },
+        "payload": {
+            "ref": "CrossR/SplitBatteryTest",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "ZMK Firmware Repository",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-03T17:28:53Z"
+    },
+    {
+        "id": "25014228106",
+        "type": "ForkEvent",
+        "actor": {
+            "id": 10038688,
+            "login": "CrossR",
+            "display_login": "CrossR",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CrossR",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
+        },
+        "repo": {
+            "id": 270692521,
+            "name": "zmkfirmware/zmk",
+            "url": "https://api.github.com/repos/zmkfirmware/zmk"
+        },
+        "payload": {
+            "forkee": {
+                "id": 561435828,
+                "node_id": "R_kgDOIXbUtA",
+                "name": "zmk",
+                "full_name": "CrossR/zmk",
+                "private": false,
+                "owner": {
+                    "login": "CrossR",
+                    "id": 10038688,
+                    "node_id": "MDQ6VXNlcjEwMDM4Njg4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10038688?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/CrossR",
+                    "html_url": "https://github.com/CrossR",
+                    "followers_url": "https://api.github.com/users/CrossR/followers",
+                    "following_url": "https://api.github.com/users/CrossR/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/CrossR/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/CrossR/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/CrossR/subscriptions",
+                    "organizations_url": "https://api.github.com/users/CrossR/orgs",
+                    "repos_url": "https://api.github.com/users/CrossR/repos",
+                    "events_url": "https://api.github.com/users/CrossR/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/CrossR/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "html_url": "https://github.com/CrossR/zmk",
+                "description": "ZMK Firmware Repository",
+                "fork": true,
+                "url": "https://api.github.com/repos/CrossR/zmk",
+                "forks_url": "https://api.github.com/repos/CrossR/zmk/forks",
+                "keys_url": "https://api.github.com/repos/CrossR/zmk/keys{/key_id}",
+                "collaborators_url": "https://api.github.com/repos/CrossR/zmk/collaborators{/collaborator}",
+                "teams_url": "https://api.github.com/repos/CrossR/zmk/teams",
+                "hooks_url": "https://api.github.com/repos/CrossR/zmk/hooks",
+                "issue_events_url": "https://api.github.com/repos/CrossR/zmk/issues/events{/number}",
+                "events_url": "https://api.github.com/repos/CrossR/zmk/events",
+                "assignees_url": "https://api.github.com/repos/CrossR/zmk/assignees{/user}",
+                "branches_url": "https://api.github.com/repos/CrossR/zmk/branches{/branch}",
+                "tags_url": "https://api.github.com/repos/CrossR/zmk/tags",
+                "blobs_url": "https://api.github.com/repos/CrossR/zmk/git/blobs{/sha}",
+                "git_tags_url": "https://api.github.com/repos/CrossR/zmk/git/tags{/sha}",
+                "git_refs_url": "https://api.github.com/repos/CrossR/zmk/git/refs{/sha}",
+                "trees_url": "https://api.github.com/repos/CrossR/zmk/git/trees{/sha}",
+                "statuses_url": "https://api.github.com/repos/CrossR/zmk/statuses/{sha}",
+                "languages_url": "https://api.github.com/repos/CrossR/zmk/languages",
+                "stargazers_url": "https://api.github.com/repos/CrossR/zmk/stargazers",
+                "contributors_url": "https://api.github.com/repos/CrossR/zmk/contributors",
+                "subscribers_url": "https://api.github.com/repos/CrossR/zmk/subscribers",
+                "subscription_url": "https://api.github.com/repos/CrossR/zmk/subscription",
+                "commits_url": "https://api.github.com/repos/CrossR/zmk/commits{/sha}",
+                "git_commits_url": "https://api.github.com/repos/CrossR/zmk/git/commits{/sha}",
+                "comments_url": "https://api.github.com/repos/CrossR/zmk/comments{/number}",
+                "issue_comment_url": "https://api.github.com/repos/CrossR/zmk/issues/comments{/number}",
+                "contents_url": "https://api.github.com/repos/CrossR/zmk/contents/{+path}",
+                "compare_url": "https://api.github.com/repos/CrossR/zmk/compare/{base}...{head}",
+                "merges_url": "https://api.github.com/repos/CrossR/zmk/merges",
+                "archive_url": "https://api.github.com/repos/CrossR/zmk/{archive_format}{/ref}",
+                "downloads_url": "https://api.github.com/repos/CrossR/zmk/downloads",
+                "issues_url": "https://api.github.com/repos/CrossR/zmk/issues{/number}",
+                "pulls_url": "https://api.github.com/repos/CrossR/zmk/pulls{/number}",
+                "milestones_url": "https://api.github.com/repos/CrossR/zmk/milestones{/number}",
+                "notifications_url": "https://api.github.com/repos/CrossR/zmk/notifications{?since,all,participating}",
+                "labels_url": "https://api.github.com/repos/CrossR/zmk/labels{/name}",
+                "releases_url": "https://api.github.com/repos/CrossR/zmk/releases{/id}",
+                "deployments_url": "https://api.github.com/repos/CrossR/zmk/deployments",
+                "created_at": "2022-11-03T17:25:14Z",
+                "updated_at": "2022-11-03T17:02:17Z",
+                "pushed_at": "2022-11-03T03:33:20Z",
+                "git_url": "git://github.com/CrossR/zmk.git",
+                "ssh_url": "git@github.com:CrossR/zmk.git",
+                "clone_url": "https://github.com/CrossR/zmk.git",
+                "svn_url": "https://github.com/CrossR/zmk",
+                "homepage": "https://zmk.dev/",
+                "size": 14686,
+                "stargazers_count": 0,
+                "watchers_count": 0,
+                "language": null,
+                "has_issues": false,
+                "has_projects": true,
+                "has_downloads": true,
+                "has_wiki": true,
+                "has_pages": false,
+                "forks_count": 0,
+                "mirror_url": null,
+                "archived": false,
+                "disabled": false,
+                "open_issues_count": 0,
+                "license": {
+                    "key": "mit",
+                    "name": "MIT License",
+                    "spdx_id": "MIT",
+                    "url": "https://api.github.com/licenses/mit",
+                    "node_id": "MDc6TGljZW5zZTEz"
+                },
+                "allow_forking": true,
+                "is_template": false,
+                "web_commit_signoff_required": false,
+                "topics": [],
+                "visibility": "public",
+                "forks": 0,
+                "open_issues": 0,
+                "watchers": 0,
+                "default_branch": "main",
+                "public": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-03T17:25:15Z",
+        "org": {
+            "id": 66629601,
+            "login": "zmkfirmware",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/zmkfirmware",
+            "avatar_url": "https://avatars.githubusercontent.com/u/66629601?"
+        }
+    },
+    {
+        "id": "24720912500",
         "type": "PushEvent",
         "actor": {
             "id": 10038688,
@@ -1736,30 +1296,30 @@
             "url": "https://api.github.com/repos/CrossR/dotfiles"
         },
         "payload": {
-            "push_id": 10824452173,
+            "push_id": 11392561259,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
-            "before": "1bc5fec10748c61f219055900f2437dce20fb734",
+            "head": "f850a96d8e05ce584d57512dca99e0ab5e29f25d",
+            "before": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
             "commits": [
                 {
-                    "sha": "9a5f2b7e42482e60cba4bd6610be49a3b19fedea",
+                    "sha": "f850a96d8e05ce584d57512dca99e0ab5e29f25d",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Swap date command in shell skeleton.\n\n%X is locale dependent, which gives 12 hour time on some machines.\n%T should gives the expected output on every machine.",
+                    "message": "Move snippets around.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/9a5f2b7e42482e60cba4bd6610be49a3b19fedea"
+                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/f850a96d8e05ce584d57512dca99e0ab5e29f25d"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-24T22:59:30Z"
+        "created_at": "2022-10-20T10:35:22Z"
     },
     {
-        "id": "23528622851",
+        "id": "24503674434",
         "type": "PushEvent",
         "actor": {
             "id": 10038688,
@@ -1775,89 +1335,40 @@
             "url": "https://api.github.com/repos/CrossR/LArContent"
         },
         "payload": {
-            "push_id": 10775381960,
+            "push_id": 11281037786,
             "size": 2,
             "distinct_size": 2,
             "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
-            "before": "cc63e830c833b9f0253a65941773ac5d0d31b025",
+            "head": "25a700235c82e172320de9d6e3bfd0d8f2cacb58",
+            "before": "7a9f07ce224f425f106f9dfa2c465ab5aa98da33",
             "commits": [
                 {
-                    "sha": "8c91e654490d2e82904c196ce4670f184d275674",
+                    "sha": "4176f5547fc9c17410c8c382fbde1de49521bea6",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Dump out the processed scores to a csv file.\n\nUseful for debugging, but not required all the time.",
+                    "message": "Fix tagging MC as beam or not.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/8c91e654490d2e82904c196ce4670f184d275674"
+                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/4176f5547fc9c17410c8c382fbde1de49521bea6"
                 },
                 {
-                    "sha": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
+                    "sha": "25a700235c82e172320de9d6e3bfd0d8f2cacb58",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Drop cluster score CSV output.",
+                    "message": "Correct PCA.\n\nPCA was always using the 3D vertex, now project that vertex and use that\ninstead.\nAlso log out the vertex and store both a 2D and 3D vertex.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/d9851111bbede65a3f719f12e18ac5ed7f9586c8"
+                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/25a700235c82e172320de9d6e3bfd0d8f2cacb58"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-19T13:21:13Z"
+        "created_at": "2022-10-10T14:39:38Z"
     },
     {
-        "id": "23418248438",
-        "type": "PushEvent",
-        "actor": {
-            "id": 10038688,
-            "login": "CrossR",
-            "display_login": "CrossR",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/CrossR",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
-        },
-        "repo": {
-            "id": 36185313,
-            "name": "CrossR/dotfiles",
-            "url": "https://api.github.com/repos/CrossR/dotfiles"
-        },
-        "payload": {
-            "push_id": 10718279872,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/master",
-            "head": "1bc5fec10748c61f219055900f2437dce20fb734",
-            "before": "d7362363cb73a31b1deeeca79eaa3291200cb2c9",
-            "commits": [
-                {
-                    "sha": "5a92e126228e6a65e12a968cb954d4a0542d8af6",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Move nvim config around.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/5a92e126228e6a65e12a968cb954d4a0542d8af6"
-                },
-                {
-                    "sha": "1bc5fec10748c61f219055900f2437dce20fb734",
-                    "author": {
-                        "email": "r.cross@lancaster.ac.uk",
-                        "name": "CrossR"
-                    },
-                    "message": "Ignore LaTeX warning.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/dotfiles/commits/1bc5fec10748c61f219055900f2437dce20fb734"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-13T09:27:36Z"
-    },
-    {
-        "id": "23387232199",
+        "id": "24414798541",
         "type": "PushEvent",
         "actor": {
             "id": 10038688,
@@ -1873,30 +1384,30 @@
             "url": "https://api.github.com/repos/CrossR/LArContent"
         },
         "payload": {
-            "push_id": 10702209195,
+            "push_id": 11234163195,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "cc63e830c833b9f0253a65941773ac5d0d31b025",
-            "before": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
+            "head": "7a9f07ce224f425f106f9dfa2c465ab5aa98da33",
+            "before": "b229d740b3f1175d3ddc0d21cf8a2542a0be01fd",
             "commits": [
                 {
-                    "sha": "cc63e830c833b9f0253a65941773ac5d0d31b025",
+                    "sha": "7a9f07ce224f425f106f9dfa2c465ab5aa98da33",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Tidy up cheated hit ID.",
+                    "message": "Add test beam flag to rest of the trees.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/cc63e830c833b9f0253a65941773ac5d0d31b025"
+                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/7a9f07ce224f425f106f9dfa2c465ab5aa98da33"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-11T14:41:12Z"
+        "created_at": "2022-10-05T15:03:00Z"
     },
     {
-        "id": "23386048629",
+        "id": "24362146104",
         "type": "PushEvent",
         "actor": {
             "id": 10038688,
@@ -1912,26 +1423,104 @@
             "url": "https://api.github.com/repos/CrossR/LArContent"
         },
         "payload": {
-            "push_id": 10701648216,
+            "push_id": 11208285284,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
-            "head": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
-            "before": "354e0523d1084e59d4d015e35c92251f3c9384c4",
+            "head": "b229d740b3f1175d3ddc0d21cf8a2542a0be01fd",
+            "before": "cac2a06a5f77edacc39d2175026ad7fc5823a88f",
             "commits": [
                 {
-                    "sha": "ec70ac3fcfca6bc373c1c27038e223b1e1e06a76",
+                    "sha": "b229d740b3f1175d3ddc0d21cf8a2542a0be01fd",
                     "author": {
                         "email": "r.cross@lancaster.ac.uk",
                         "name": "CrossR"
                     },
-                    "message": "Add a cheated hit-based track/shower ID algorithm.",
+                    "message": "Add PFO cluster tag to pfo, fix largest shower check.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/ec70ac3fcfca6bc373c1c27038e223b1e1e06a76"
+                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/b229d740b3f1175d3ddc0d21cf8a2542a0be01fd"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-11T13:50:44Z"
+        "created_at": "2022-10-03T12:36:44Z"
+    },
+    {
+        "id": "24185083084",
+        "type": "PushEvent",
+        "actor": {
+            "id": 10038688,
+            "login": "CrossR",
+            "display_login": "CrossR",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CrossR",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
+        },
+        "repo": {
+            "id": 167174823,
+            "name": "CrossR/LArContent",
+            "url": "https://api.github.com/repos/CrossR/LArContent"
+        },
+        "payload": {
+            "push_id": 11115529541,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
+            "head": "cac2a06a5f77edacc39d2175026ad7fc5823a88f",
+            "before": "7669b99b395bbf0d84375878765c42681083de50",
+            "commits": [
+                {
+                    "sha": "cac2a06a5f77edacc39d2175026ad7fc5823a88f",
+                    "author": {
+                        "email": "r.cross@lancaster.ac.uk",
+                        "name": "CrossR"
+                    },
+                    "message": "Fix writing of data to tree.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/cac2a06a5f77edacc39d2175026ad7fc5823a88f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-23T12:38:08Z"
+    },
+    {
+        "id": "24184887391",
+        "type": "PushEvent",
+        "actor": {
+            "id": 10038688,
+            "login": "CrossR",
+            "display_login": "CrossR",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CrossR",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10038688?"
+        },
+        "repo": {
+            "id": 167174823,
+            "name": "CrossR/LArContent",
+            "url": "https://api.github.com/repos/CrossR/LArContent"
+        },
+        "payload": {
+            "push_id": 11115428538,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/CrossR/DLGrowingWithStreaming",
+            "head": "7669b99b395bbf0d84375878765c42681083de50",
+            "before": "d9851111bbede65a3f719f12e18ac5ed7f9586c8",
+            "commits": [
+                {
+                    "sha": "7669b99b395bbf0d84375878765c42681083de50",
+                    "author": {
+                        "email": "r.cross@lancaster.ac.uk",
+                        "name": "CrossR"
+                    },
+                    "message": "Update reco tree with more info.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/CrossR/LArContent/commits/7669b99b395bbf0d84375878765c42681083de50"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-23T12:28:08Z"
     }
 ]

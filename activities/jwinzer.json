@@ -1,45 +1,6 @@
 [
     {
-        "id": "25037662331",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 11557336398,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e",
-            "before": "59ec701819e942f7e7de938891b49165f1d8136e",
-            "commits": [
-                {
-                    "sha": "3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Set user to present when providing a signature.\nFix top spacing for assignment poll slide.\ntwisted 20.3.0 required to work with typing_extension 3.7.4.3.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-04T17:26:29Z"
-    },
-    {
-        "id": "25036028664",
+        "id": "25424586516",
         "type": "CreateEvent",
         "actor": {
             "id": 20415092,
@@ -55,17 +16,17 @@
             "url": "https://api.github.com/repos/jwinzer/OpenSlides"
         },
         "payload": {
-            "ref": "3.4.15",
+            "ref": "3.4.16",
             "ref_type": "tag",
             "master_branch": "master",
             "description": "Presentation and assembly system",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-11-04T16:05:38Z"
+        "created_at": "2022-11-23T09:54:22Z"
     },
     {
-        "id": "25036007827",
+        "id": "25424574028",
         "type": "PushEvent",
         "actor": {
             "id": 20415092,
@@ -81,235 +42,27 @@
             "url": "https://api.github.com/repos/jwinzer/OpenSlides"
         },
         "payload": {
-            "push_id": 11556515155,
+            "push_id": 11760164696,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/votecollector",
-            "head": "59ec701819e942f7e7de938891b49165f1d8136e",
-            "before": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
+            "head": "edbecd60972163e824086216e4e1b833e3f38457",
+            "before": "3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e",
             "commits": [
                 {
-                    "sha": "59ec701819e942f7e7de938891b49165f1d8136e",
+                    "sha": "edbecd60972163e824086216e4e1b833e3f38457",
                     "author": {
                         "email": "jw@winzer-sw.de",
                         "name": "Jochen Winzer"
                     },
-                    "message": "Set user to present when providing a signature.\nFix top spacing for assignment poll slide.",
+                    "message": "New setting: Keep votes secret on delegate board",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/59ec701819e942f7e7de938891b49165f1d8136e"
+                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/edbecd60972163e824086216e4e1b833e3f38457"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-11-04T16:04:42Z"
-    },
-    {
-        "id": "23581740286",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "ref": "3.4.13",
-            "ref_type": "tag",
-            "master_branch": "master",
-            "description": "Presentation and assembly system",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-23T08:15:48Z"
-    },
-    {
-        "id": "23581740228",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "ref": "3.4.14",
-            "ref_type": "tag",
-            "master_branch": "master",
-            "description": "Presentation and assembly system",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-23T08:15:48Z"
-    },
-    {
-        "id": "23581740126",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10804209563,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
-            "before": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
-            "commits": [
-                {
-                    "sha": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Prevent a user to join a Jitsi conference more than once.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/b8ca8d8d893e2157279a634428a9f3cd811a80b7"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-23T08:15:47Z"
-    },
-    {
-        "id": "23510642907",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10766321197,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
-            "before": "fd64921109ba210b570f0368a379271a7c8d6684",
-            "commits": [
-                {
-                    "sha": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:11:49Z"
-    },
-    {
-        "id": "23509726222",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10765880767,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "fd64921109ba210b570f0368a379271a7c8d6684",
-            "before": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-            "commits": [
-                {
-                    "sha": "fd64921109ba210b570f0368a379271a7c8d6684",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/fd64921109ba210b570f0368a379271a7c8d6684"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T15:26:42Z"
-    },
-    {
-        "id": "23507659557",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10764891700,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-            "before": "1763b9931637279f720aa7e114988bff97e6cdf5",
-            "commits": [
-                {
-                    "sha": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/663126abc256eae0e9dc6c6ac7e2927a9631b5d9"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T13:55:37Z"
+        "created_at": "2022-11-23T09:53:51Z"
     },
     {
         "id": "25037662331",
@@ -416,7 +169,7 @@
         "created_at": "2022-11-04T16:04:42Z"
     },
     {
-        "id": "23581740286",
+        "id": "25424586516",
         "type": "CreateEvent",
         "actor": {
             "id": 20415092,
@@ -432,43 +185,17 @@
             "url": "https://api.github.com/repos/jwinzer/OpenSlides"
         },
         "payload": {
-            "ref": "3.4.13",
+            "ref": "3.4.16",
             "ref_type": "tag",
             "master_branch": "master",
             "description": "Presentation and assembly system",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-08-23T08:15:48Z"
+        "created_at": "2022-11-23T09:54:22Z"
     },
     {
-        "id": "23581740228",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "ref": "3.4.14",
-            "ref_type": "tag",
-            "master_branch": "master",
-            "description": "Presentation and assembly system",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-23T08:15:48Z"
-    },
-    {
-        "id": "23581740126",
+        "id": "25424574028",
         "type": "PushEvent",
         "actor": {
             "id": 20415092,
@@ -484,144 +211,27 @@
             "url": "https://api.github.com/repos/jwinzer/OpenSlides"
         },
         "payload": {
-            "push_id": 10804209563,
+            "push_id": 11760164696,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/votecollector",
-            "head": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
-            "before": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
+            "head": "edbecd60972163e824086216e4e1b833e3f38457",
+            "before": "3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e",
             "commits": [
                 {
-                    "sha": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
+                    "sha": "edbecd60972163e824086216e4e1b833e3f38457",
                     "author": {
                         "email": "jw@winzer-sw.de",
                         "name": "Jochen Winzer"
                     },
-                    "message": "Prevent a user to join a Jitsi conference more than once.",
+                    "message": "New setting: Keep votes secret on delegate board",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/b8ca8d8d893e2157279a634428a9f3cd811a80b7"
+                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/edbecd60972163e824086216e4e1b833e3f38457"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-23T08:15:47Z"
-    },
-    {
-        "id": "23510642907",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10766321197,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
-            "before": "fd64921109ba210b570f0368a379271a7c8d6684",
-            "commits": [
-                {
-                    "sha": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:11:49Z"
-    },
-    {
-        "id": "23509726222",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10765880767,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "fd64921109ba210b570f0368a379271a7c8d6684",
-            "before": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-            "commits": [
-                {
-                    "sha": "fd64921109ba210b570f0368a379271a7c8d6684",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/fd64921109ba210b570f0368a379271a7c8d6684"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T15:26:42Z"
-    },
-    {
-        "id": "23507659557",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10764891700,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-            "before": "1763b9931637279f720aa7e114988bff97e6cdf5",
-            "commits": [
-                {
-                    "sha": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/663126abc256eae0e9dc6c6ac7e2927a9631b5d9"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T13:55:37Z"
+        "created_at": "2022-11-23T09:53:51Z"
     },
     {
         "id": "25037662331",
@@ -728,7 +338,7 @@
         "created_at": "2022-11-04T16:04:42Z"
     },
     {
-        "id": "23581740286",
+        "id": "25424586516",
         "type": "CreateEvent",
         "actor": {
             "id": 20415092,
@@ -744,17 +354,95 @@
             "url": "https://api.github.com/repos/jwinzer/OpenSlides"
         },
         "payload": {
-            "ref": "3.4.13",
+            "ref": "3.4.16",
             "ref_type": "tag",
             "master_branch": "master",
             "description": "Presentation and assembly system",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-08-23T08:15:48Z"
+        "created_at": "2022-11-23T09:54:22Z"
     },
     {
-        "id": "23581740228",
+        "id": "25424574028",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20415092,
+            "login": "jwinzer",
+            "display_login": "jwinzer",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwinzer",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
+        },
+        "repo": {
+            "id": 64221886,
+            "name": "jwinzer/OpenSlides",
+            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
+        },
+        "payload": {
+            "push_id": 11760164696,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/votecollector",
+            "head": "edbecd60972163e824086216e4e1b833e3f38457",
+            "before": "3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e",
+            "commits": [
+                {
+                    "sha": "edbecd60972163e824086216e4e1b833e3f38457",
+                    "author": {
+                        "email": "jw@winzer-sw.de",
+                        "name": "Jochen Winzer"
+                    },
+                    "message": "New setting: Keep votes secret on delegate board",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/edbecd60972163e824086216e4e1b833e3f38457"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-23T09:53:51Z"
+    },
+    {
+        "id": "25037662331",
+        "type": "PushEvent",
+        "actor": {
+            "id": 20415092,
+            "login": "jwinzer",
+            "display_login": "jwinzer",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jwinzer",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
+        },
+        "repo": {
+            "id": 64221886,
+            "name": "jwinzer/OpenSlides",
+            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
+        },
+        "payload": {
+            "push_id": 11557336398,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/votecollector",
+            "head": "3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e",
+            "before": "59ec701819e942f7e7de938891b49165f1d8136e",
+            "commits": [
+                {
+                    "sha": "3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e",
+                    "author": {
+                        "email": "jw@winzer-sw.de",
+                        "name": "Jochen Winzer"
+                    },
+                    "message": "Set user to present when providing a signature.\nFix top spacing for assignment poll slide.\ntwisted 20.3.0 required to work with typing_extension 3.7.4.3.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/3fbd3a1ca09b43f0c357a76b1d28d1b27f7ce25e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-04T17:26:29Z"
+    },
+    {
+        "id": "25036028664",
         "type": "CreateEvent",
         "actor": {
             "id": 20415092,
@@ -770,17 +458,17 @@
             "url": "https://api.github.com/repos/jwinzer/OpenSlides"
         },
         "payload": {
-            "ref": "3.4.14",
+            "ref": "3.4.15",
             "ref_type": "tag",
             "master_branch": "master",
             "description": "Presentation and assembly system",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-08-23T08:15:48Z"
+        "created_at": "2022-11-04T16:05:38Z"
     },
     {
-        "id": "23581740126",
+        "id": "25036007827",
         "type": "PushEvent",
         "actor": {
             "id": 20415092,
@@ -796,143 +484,26 @@
             "url": "https://api.github.com/repos/jwinzer/OpenSlides"
         },
         "payload": {
-            "push_id": 10804209563,
+            "push_id": 11556515155,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/votecollector",
-            "head": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
-            "before": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
+            "head": "59ec701819e942f7e7de938891b49165f1d8136e",
+            "before": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
             "commits": [
                 {
-                    "sha": "b8ca8d8d893e2157279a634428a9f3cd811a80b7",
+                    "sha": "59ec701819e942f7e7de938891b49165f1d8136e",
                     "author": {
                         "email": "jw@winzer-sw.de",
                         "name": "Jochen Winzer"
                     },
-                    "message": "Prevent a user to join a Jitsi conference more than once.",
+                    "message": "Set user to present when providing a signature.\nFix top spacing for assignment poll slide.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/b8ca8d8d893e2157279a634428a9f3cd811a80b7"
+                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/59ec701819e942f7e7de938891b49165f1d8136e"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-23T08:15:47Z"
-    },
-    {
-        "id": "23510642907",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10766321197,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
-            "before": "fd64921109ba210b570f0368a379271a7c8d6684",
-            "commits": [
-                {
-                    "sha": "6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/6de7b3ef36f39e6ee2cab4cfb50c0e3b73023f08"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:11:49Z"
-    },
-    {
-        "id": "23509726222",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10765880767,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "fd64921109ba210b570f0368a379271a7c8d6684",
-            "before": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-            "commits": [
-                {
-                    "sha": "fd64921109ba210b570f0368a379271a7c8d6684",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/fd64921109ba210b570f0368a379271a7c8d6684"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T15:26:42Z"
-    },
-    {
-        "id": "23507659557",
-        "type": "PushEvent",
-        "actor": {
-            "id": 20415092,
-            "login": "jwinzer",
-            "display_login": "jwinzer",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jwinzer",
-            "avatar_url": "https://avatars.githubusercontent.com/u/20415092?"
-        },
-        "repo": {
-            "id": 64221886,
-            "name": "jwinzer/OpenSlides",
-            "url": "https://api.github.com/repos/jwinzer/OpenSlides"
-        },
-        "payload": {
-            "push_id": 10764891700,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/votecollector",
-            "head": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-            "before": "1763b9931637279f720aa7e114988bff97e6cdf5",
-            "commits": [
-                {
-                    "sha": "663126abc256eae0e9dc6c6ac7e2927a9631b5d9",
-                    "author": {
-                        "email": "jw@winzer-sw.de",
-                        "name": "Jochen Winzer"
-                    },
-                    "message": "Added signatories and signing of motions PDF.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/jwinzer/OpenSlides/commits/663126abc256eae0e9dc6c6ac7e2927a9631b5d9"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-18T13:55:37Z"
+        "created_at": "2022-11-04T16:04:42Z"
     }
 ]

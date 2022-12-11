@@ -1,1 +1,1316 @@
-[]
+[
+    {
+        "id": "25552810456",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 108502821,
+            "name": "getgauge/taiko",
+            "url": "https://api.github.com/repos/getgauge/taiko"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/taiko/releases/84522549",
+                "assets_url": "https://api.github.com/repos/getgauge/taiko/releases/84522549/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/taiko/releases/84522549/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/taiko/releases/tag/v1.3.5",
+                "id": 84522549,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOBnefJc4FCbY1",
+                "tag_name": "v1.3.5",
+                "target_commitish": "master",
+                "name": "taiko v1.3.5",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-30T02:11:57Z",
+                "published_at": "2022-11-30T02:12:39Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/taiko/tarball/v1.3.5",
+                "zipball_url": "https://api.github.com/repos/getgauge/taiko/zipball/v1.3.5",
+                "body": "- #2663 - Fix some vulnerabilities and other enhancements\n- #2653 - Bump version of release\n- #2652 - Arunkumar P: Fix openTab navigation to non http url\n- #2648 - Add count paramater type to intercept\n- #2647 - TEMP_DELETE Add optional parameter count to intercept type\n- #2637 - move devtools-protocol to dependencies block in package.json\n- #2625 - Update chromium to revision 1026271\n- #2620 - consider wsDebugUrl on open browser session\n- #2619 - Update chromium to revision 1022529\n- #2611 - Update chromium to revision 1018618\n- #2605 - Update chromium to revision 1011865\n- #2597 - Update chromium to revision 1006470\n- #2374 - Add delay in drag and drop",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1468017135\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2663\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2663/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2663\">#2663</a> - Fix some vulnerabilities and other enhancements</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1423801805\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2653\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2653/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2653\">#2653</a> - Bump version of release</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1423655231\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2652\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2652/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2652\">#2652</a> - Arunkumar P: Fix openTab navigation to non http url</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1402953293\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2648\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2648/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2648\">#2648</a> - Add count paramater type to intercept</li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1402940286\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2647\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2647/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2647\">#2647</a></li>\n</ul>",
+                "is_short_description_html_truncated": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T02:12:40Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25552810515",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 108502821,
+            "name": "getgauge/taiko",
+            "url": "https://api.github.com/repos/getgauge/taiko"
+        },
+        "payload": {
+            "ref": "v1.3.5",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "A node.js library for testing modern web applications",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-30T02:12:40Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391413275",
+        "type": "PushEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "push_id": 11743561454,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7b9582e1532a5efb4cca95e254b385c42045b973",
+            "before": "717d84ef1aaa9039b66e2d60a0049786dee35f66",
+            "commits": [
+                {
+                    "sha": "7b9582e1532a5efb4cca95e254b385c42045b973",
+                    "author": {
+                        "email": "srikanth.ddit@gmail.com",
+                        "name": "Srikanth"
+                    },
+                    "message": "Bumping up -> 4.2.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getgauge/html-report/commits/7b9582e1532a5efb4cca95e254b385c42045b973"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:44Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391412992",
+        "type": "PushEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 22135535,
+            "name": "getgauge/gauge-repository",
+            "url": "https://api.github.com/repos/getgauge/gauge-repository"
+        },
+        "payload": {
+            "push_id": 11743561302,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0",
+            "before": "2bbe9ca268b16b7e010975b04b4b2cf60b111089",
+            "commits": [
+                {
+                    "sha": "5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0",
+                    "author": {
+                        "email": "srikanth.ddit@gmail.com",
+                        "name": "Srikanth"
+                    },
+                    "message": "Update html-report to v4.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getgauge/gauge-repository/commits/5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:43Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391408392",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83825836",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83825836/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83825836/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83825836,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_xSs",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-22T04:22:22Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:22Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25372937640",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83739212",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83739212/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83739212/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83739212,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_cJM",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-21T11:59:06Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:59:06Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25365537758",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "ref": "v4.2.0",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "HTML report generation plugin for Gauge",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T05:54:21Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25365537714",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83707696",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83707696/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83707696/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83707696,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_Ucw",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-21T05:54:21Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T05:54:21Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25552810456",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 108502821,
+            "name": "getgauge/taiko",
+            "url": "https://api.github.com/repos/getgauge/taiko"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/taiko/releases/84522549",
+                "assets_url": "https://api.github.com/repos/getgauge/taiko/releases/84522549/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/taiko/releases/84522549/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/taiko/releases/tag/v1.3.5",
+                "id": 84522549,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOBnefJc4FCbY1",
+                "tag_name": "v1.3.5",
+                "target_commitish": "master",
+                "name": "taiko v1.3.5",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-30T02:11:57Z",
+                "published_at": "2022-11-30T02:12:39Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/taiko/tarball/v1.3.5",
+                "zipball_url": "https://api.github.com/repos/getgauge/taiko/zipball/v1.3.5",
+                "body": "- #2663 - Fix some vulnerabilities and other enhancements\n- #2653 - Bump version of release\n- #2652 - Arunkumar P: Fix openTab navigation to non http url\n- #2648 - Add count paramater type to intercept\n- #2647 - TEMP_DELETE Add optional parameter count to intercept type\n- #2637 - move devtools-protocol to dependencies block in package.json\n- #2625 - Update chromium to revision 1026271\n- #2620 - consider wsDebugUrl on open browser session\n- #2619 - Update chromium to revision 1022529\n- #2611 - Update chromium to revision 1018618\n- #2605 - Update chromium to revision 1011865\n- #2597 - Update chromium to revision 1006470\n- #2374 - Add delay in drag and drop",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1468017135\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2663\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2663/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2663\">#2663</a> - Fix some vulnerabilities and other enhancements</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1423801805\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2653\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2653/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2653\">#2653</a> - Bump version of release</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1423655231\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2652\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2652/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2652\">#2652</a> - Arunkumar P: Fix openTab navigation to non http url</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1402953293\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2648\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2648/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2648\">#2648</a> - Add count paramater type to intercept</li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1402940286\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2647\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2647/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2647\">#2647</a></li>\n</ul>",
+                "is_short_description_html_truncated": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T02:12:40Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25552810515",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 108502821,
+            "name": "getgauge/taiko",
+            "url": "https://api.github.com/repos/getgauge/taiko"
+        },
+        "payload": {
+            "ref": "v1.3.5",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "A node.js library for testing modern web applications",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-30T02:12:40Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391413275",
+        "type": "PushEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "push_id": 11743561454,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7b9582e1532a5efb4cca95e254b385c42045b973",
+            "before": "717d84ef1aaa9039b66e2d60a0049786dee35f66",
+            "commits": [
+                {
+                    "sha": "7b9582e1532a5efb4cca95e254b385c42045b973",
+                    "author": {
+                        "email": "srikanth.ddit@gmail.com",
+                        "name": "Srikanth"
+                    },
+                    "message": "Bumping up -> 4.2.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getgauge/html-report/commits/7b9582e1532a5efb4cca95e254b385c42045b973"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:44Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391412992",
+        "type": "PushEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 22135535,
+            "name": "getgauge/gauge-repository",
+            "url": "https://api.github.com/repos/getgauge/gauge-repository"
+        },
+        "payload": {
+            "push_id": 11743561302,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0",
+            "before": "2bbe9ca268b16b7e010975b04b4b2cf60b111089",
+            "commits": [
+                {
+                    "sha": "5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0",
+                    "author": {
+                        "email": "srikanth.ddit@gmail.com",
+                        "name": "Srikanth"
+                    },
+                    "message": "Update html-report to v4.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getgauge/gauge-repository/commits/5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:43Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391408392",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83825836",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83825836/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83825836/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83825836,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_xSs",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-22T04:22:22Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:22Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25372937640",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83739212",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83739212/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83739212/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83739212,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_cJM",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-21T11:59:06Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:59:06Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25365537758",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "ref": "v4.2.0",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "HTML report generation plugin for Gauge",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T05:54:21Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25365537714",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83707696",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83707696/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83707696/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83707696,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_Ucw",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-21T05:54:21Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T05:54:21Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25552810456",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 108502821,
+            "name": "getgauge/taiko",
+            "url": "https://api.github.com/repos/getgauge/taiko"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/taiko/releases/84522549",
+                "assets_url": "https://api.github.com/repos/getgauge/taiko/releases/84522549/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/taiko/releases/84522549/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/taiko/releases/tag/v1.3.5",
+                "id": 84522549,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOBnefJc4FCbY1",
+                "tag_name": "v1.3.5",
+                "target_commitish": "master",
+                "name": "taiko v1.3.5",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-30T02:11:57Z",
+                "published_at": "2022-11-30T02:12:39Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/taiko/tarball/v1.3.5",
+                "zipball_url": "https://api.github.com/repos/getgauge/taiko/zipball/v1.3.5",
+                "body": "- #2663 - Fix some vulnerabilities and other enhancements\n- #2653 - Bump version of release\n- #2652 - Arunkumar P: Fix openTab navigation to non http url\n- #2648 - Add count paramater type to intercept\n- #2647 - TEMP_DELETE Add optional parameter count to intercept type\n- #2637 - move devtools-protocol to dependencies block in package.json\n- #2625 - Update chromium to revision 1026271\n- #2620 - consider wsDebugUrl on open browser session\n- #2619 - Update chromium to revision 1022529\n- #2611 - Update chromium to revision 1018618\n- #2605 - Update chromium to revision 1011865\n- #2597 - Update chromium to revision 1006470\n- #2374 - Add delay in drag and drop",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1468017135\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2663\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2663/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2663\">#2663</a> - Fix some vulnerabilities and other enhancements</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1423801805\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2653\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2653/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2653\">#2653</a> - Bump version of release</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1423655231\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2652\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2652/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2652\">#2652</a> - Arunkumar P: Fix openTab navigation to non http url</li>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1402953293\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2648\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2648/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2648\">#2648</a> - Add count paramater type to intercept</li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1402940286\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/taiko/issues/2647\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/taiko/pull/2647/hovercard\" href=\"https://github.com/getgauge/taiko/pull/2647\">#2647</a></li>\n</ul>",
+                "is_short_description_html_truncated": true
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T02:12:40Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25552810515",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 108502821,
+            "name": "getgauge/taiko",
+            "url": "https://api.github.com/repos/getgauge/taiko"
+        },
+        "payload": {
+            "ref": "v1.3.5",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "A node.js library for testing modern web applications",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-30T02:12:40Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391413275",
+        "type": "PushEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "push_id": 11743561454,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7b9582e1532a5efb4cca95e254b385c42045b973",
+            "before": "717d84ef1aaa9039b66e2d60a0049786dee35f66",
+            "commits": [
+                {
+                    "sha": "7b9582e1532a5efb4cca95e254b385c42045b973",
+                    "author": {
+                        "email": "srikanth.ddit@gmail.com",
+                        "name": "Srikanth"
+                    },
+                    "message": "Bumping up -> 4.2.1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getgauge/html-report/commits/7b9582e1532a5efb4cca95e254b385c42045b973"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:44Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391412992",
+        "type": "PushEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 22135535,
+            "name": "getgauge/gauge-repository",
+            "url": "https://api.github.com/repos/getgauge/gauge-repository"
+        },
+        "payload": {
+            "push_id": 11743561302,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0",
+            "before": "2bbe9ca268b16b7e010975b04b4b2cf60b111089",
+            "commits": [
+                {
+                    "sha": "5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0",
+                    "author": {
+                        "email": "srikanth.ddit@gmail.com",
+                        "name": "Srikanth"
+                    },
+                    "message": "Update html-report to v4.2.0",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/getgauge/gauge-repository/commits/5c5e01aa0caea79c0a0b6d870975ba5769d7e9d0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:43Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25391408392",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83825836",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83825836/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83825836/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83825836,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_xSs",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-22T04:22:22Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-22T04:22:22Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25372937640",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83739212",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83739212/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83739212/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83739212,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_cJM",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-21T11:59:06Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:59:06Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25365537758",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "ref": "v4.2.0",
+            "ref_type": "tag",
+            "master_branch": "master",
+            "description": "HTML report generation plugin for Gauge",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-21T05:54:21Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    },
+    {
+        "id": "25365537714",
+        "type": "ReleaseEvent",
+        "actor": {
+            "id": 42098046,
+            "login": "gaugebot",
+            "display_login": "gaugebot",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/gaugebot",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42098046?"
+        },
+        "repo": {
+            "id": 25462659,
+            "name": "getgauge/html-report",
+            "url": "https://api.github.com/repos/getgauge/html-report"
+        },
+        "payload": {
+            "action": "published",
+            "release": {
+                "url": "https://api.github.com/repos/getgauge/html-report/releases/83707696",
+                "assets_url": "https://api.github.com/repos/getgauge/html-report/releases/83707696/assets",
+                "upload_url": "https://uploads.github.com/repos/getgauge/html-report/releases/83707696/assets{?name,label}",
+                "html_url": "https://github.com/getgauge/html-report/releases/tag/v4.2.0",
+                "id": 83707696,
+                "author": {
+                    "login": "gaugebot",
+                    "id": 42098046,
+                    "node_id": "MDQ6VXNlcjQyMDk4MDQ2",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42098046?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gaugebot",
+                    "html_url": "https://github.com/gaugebot",
+                    "followers_url": "https://api.github.com/users/gaugebot/followers",
+                    "following_url": "https://api.github.com/users/gaugebot/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gaugebot/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gaugebot/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gaugebot/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gaugebot/orgs",
+                    "repos_url": "https://api.github.com/users/gaugebot/repos",
+                    "events_url": "https://api.github.com/users/gaugebot/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gaugebot/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "node_id": "RE_kwDOAYSHg84E_Ucw",
+                "tag_name": "v4.2.0",
+                "target_commitish": "master",
+                "name": "HTML Report v4.2.0",
+                "draft": false,
+                "prerelease": false,
+                "created_at": "2022-11-21T05:51:25Z",
+                "published_at": "2022-11-21T05:54:21Z",
+                "assets": [],
+                "tarball_url": "https://api.github.com/repos/getgauge/html-report/tarball/v4.2.0",
+                "zipball_url": "https://api.github.com/repos/getgauge/html-report/zipball/v4.2.0",
+                "body": "- #291 - allow grpc's MaxMsgRecvSize to be set via a config",
+                "short_description_html": "<ul>\n<li>\n<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1456242152\" data-permission-text=\"Title is private\" data-url=\"https://github.com/getgauge/html-report/issues/291\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/getgauge/html-report/pull/291/hovercard\" href=\"https://github.com/getgauge/html-report/pull/291\">#291</a> - allow grpc's MaxMsgRecvSize to be set via a config</li>\n</ul>",
+                "is_short_description_html_truncated": false
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-21T05:54:21Z",
+        "org": {
+            "id": 7044589,
+            "login": "getgauge",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/getgauge",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7044589?"
+        }
+    }
+]

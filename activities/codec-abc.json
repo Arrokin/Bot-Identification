@@ -1,6 +1,57 @@
 [
     {
-        "id": "24937044079",
+        "id": "25588571016",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 201615840,
+            "name": "Sergio0694/ComputeSharp",
+            "url": "https://api.github.com/repos/Sergio0694/ComputeSharp"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-12-01T11:11:49Z"
+    },
+    {
+        "id": "25423394480",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 533087958,
+            "name": "terrastruct/d2",
+            "url": "https://api.github.com/repos/terrastruct/d2"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-23T09:04:37Z",
+        "org": {
+            "id": 80369600,
+            "login": "terrastruct",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/terrastruct",
+            "avatar_url": "https://avatars.githubusercontent.com/u/80369600?"
+        }
+    },
+    {
+        "id": "25095362434",
         "type": "IssuesEvent",
         "actor": {
             "id": 1208646,
@@ -11,23 +62,483 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
         },
         "repo": {
-            "id": 170942990,
-            "name": "dotnet/format",
-            "url": "https://api.github.com/repos/dotnet/format"
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:47:11Z",
+                "closed_at": "2022-11-08T09:47:11Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:47:12Z"
+    },
+    {
+        "id": "25095266317",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:43:11Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306918685",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306918685",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306918685,
+                "node_id": "IC_kwDOAo9EfM5N5f8d",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:43:11Z",
+                "updated_at": "2022-11-08T09:43:11Z",
+                "author_association": "NONE",
+                "body": "Seems fixed on the newer version. Thanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306918685/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:43:12Z"
+    },
+    {
+        "id": "25094702386",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:20:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306888785",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306888785",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306888785,
+                "node_id": "IC_kwDOAo9EfM5N5YpR",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:20:38Z",
+                "updated_at": "2022-11-08T09:20:38Z",
+                "author_association": "NONE",
+                "body": "![image](https://user-images.githubusercontent.com/1208646/200525533-db47600b-6540-48c0-922e-336feeb3de14.png)\r\n\r\n`My config: \r\n````json\r\n{\r\n  \"minimap_show\" : true,\r\n  \"ui_max_size_open\": 600,\r\n  \"find_hi_max_lines\": 10000,\r\n  \"tab_spaces\" : true,\r\n  \"font_name\" : \"Fira Code Retina\",\r\n  \"font_size\" : 11,\r\n  \"ui_theme\" : \"ebony\",\r\n  \"ui_theme_syntax\" : \"ebony\",\r\n  \"detect\" : {\r\n    \"*.asset\" : \"YAML\",\r\n    \"*.prefab\" : \"YAML\",\r\n    \"*.meta\" : \"YAML\"\r\n  }\r\n}\r\n````",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306888785/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:20:39Z"
+    },
+    {
+        "id": "25094531883",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:14:18Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306877976",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306877976",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306877976,
+                "node_id": "IC_kwDOAo9EfM5N5WAY",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:14:18Z",
+                "updated_at": "2022-11-08T09:14:18Z",
+                "author_association": "NONE",
+                "body": "[test_file.zip](https://github.com/Alexey-T/CudaText/files/9959531/test_file.zip)\r\nHere it is.\r\n\r\nNot sure to understand the EOL marker thing.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306877976/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:14:18Z"
+    },
+    {
+        "id": "25093236493",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
         },
         "payload": {
             "action": "opened",
             "issue": {
-                "url": "https://api.github.com/repos/dotnet/format/issues/1754",
-                "repository_url": "https://api.github.com/repos/dotnet/format",
-                "labels_url": "https://api.github.com/repos/dotnet/format/issues/1754/labels{/name}",
-                "comments_url": "https://api.github.com/repos/dotnet/format/issues/1754/comments",
-                "events_url": "https://api.github.com/repos/dotnet/format/issues/1754/events",
-                "html_url": "https://github.com/dotnet/format/issues/1754",
-                "id": 1430078268,
-                "node_id": "I_kwDOCjBiDs5VPUM8",
-                "number": 1754,
-                "title": "Best pratices?",
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
                 "user": {
                     "login": "codec-abc",
                     "id": 1208646,
@@ -55,14 +566,14 @@
                 "assignees": [],
                 "milestone": null,
                 "comments": 0,
-                "created_at": "2022-10-31T15:52:52Z",
-                "updated_at": "2022-10-31T15:52:52Z",
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T08:18:40Z",
                 "closed_at": null,
                 "author_association": "NONE",
                 "active_lock_reason": null,
-                "body": "Hi,\r\n\r\nI work in a team doing Unity 3D development and I want to enforce good practices for developers. By altering the auto generated .csproj from Unity I can \"inject\" my .editorconfig  and ruleset file and use it seamlessly which I am pretty happy about it.\r\nI found out that dotnet format is a good tool for this as this cover the appearance of the code but also more structural code issues (notably with analyzers especially since we can write our own). As such we have a way to enforce code consistency and raise code quality without much efforts.\r\n\r\nThe part where I am not sure to go is how to integrate it for the team. Specifically I wonder about the following:\r\nShould everybody run before submitting a PR? If yes, how can I make sure that every formatter would give the same output on everybody computers?\r\nShould a robot do it automatically for everyone, or at least check that you have done it? If so, do you have some example on how dotnet format is integrated in some build pipeline? What would be the best way to make sure that no change are needed? Using ``--verify-no-changes`` or dumping a report (using ``--report``) and parsing it?\r\n\r\nAnd of course, if you have general advice or can share how you use it for your projects I would gladly take those hints :)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
                 "reactions": {
-                    "url": "https://api.github.com/repos/dotnet/format/issues/1754/reactions",
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
                     "total_count": 0,
                     "+1": 0,
                     "-1": 0,
@@ -73,1023 +584,13 @@
                     "rocket": 0,
                     "eyes": 0
                 },
-                "timeline_url": "https://api.github.com/repos/dotnet/format/issues/1754/timeline",
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
                 "performed_via_github_app": null,
                 "state_reason": null
             }
         },
         "public": true,
-        "created_at": "2022-10-31T15:52:52Z",
-        "org": {
-            "id": 9141961,
-            "login": "dotnet",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/dotnet",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
-        }
-    },
-    {
-        "id": "24841664709",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 235469871,
-            "name": "dotnet/interactive",
-            "url": "https://api.github.com/repos/dotnet/interactive"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-26T13:10:52Z",
-        "org": {
-            "id": 9141961,
-            "login": "dotnet",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/dotnet",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
-        }
-    },
-    {
-        "id": "24641112489",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 351882164,
-            "name": "model-checking/kani",
-            "url": "https://api.github.com/repos/model-checking/kani"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-17T11:43:28Z",
-        "org": {
-            "id": 78765001,
-            "login": "model-checking",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/model-checking",
-            "avatar_url": "https://avatars.githubusercontent.com/u/78765001?"
-        }
-    },
-    {
-        "id": "24578223477",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 127288330,
-            "name": "stefankueng/grepWin",
-            "url": "https://api.github.com/repos/stefankueng/grepWin"
-        },
-        "payload": {
-            "action": "opened",
-            "issue": {
-                "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340",
-                "repository_url": "https://api.github.com/repos/stefankueng/grepWin",
-                "labels_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/labels{/name}",
-                "comments_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/comments",
-                "events_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/events",
-                "html_url": "https://github.com/stefankueng/grepWin/issues/340",
-                "id": 1407846704,
-                "node_id": "I_kwDOB5ZECs5T6gkw",
-                "number": 340,
-                "title": "Using ripgrep as underlying text searching lib",
-                "user": {
-                    "login": "codec-abc",
-                    "id": 1208646,
-                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/codec-abc",
-                    "html_url": "https://github.com/codec-abc",
-                    "followers_url": "https://api.github.com/users/codec-abc/followers",
-                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
-                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
-                    "repos_url": "https://api.github.com/users/codec-abc/repos",
-                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-10-13T13:51:56Z",
-                "updated_at": "2022-10-13T13:51:56Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Hi,\r\n\r\nI am a long time user of grepWin that I like very much. I use it daily to parse find GUID in a bunch of yaml files (because doing Unity 3D stuff). The things is that as my Unity projects grow the search take longer. Of course it is expected but I think performance can be better. Searching the same string with grepWin and ripGrep with the same file pattern give me roughly an order of magnitude faster results for ripGrep over GrepWin. So I guess using ripGrep as an underlying library could improve performance quite a lot.\r\n\r\n",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-10-13T13:51:56Z"
-    },
-    {
-        "id": "24577749203",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 140003994,
-            "name": "vivainio/RoughGrep",
-            "url": "https://api.github.com/repos/vivainio/RoughGrep"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-13T13:34:16Z"
-    },
-    {
-        "id": "24486302569",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 16687979,
-            "name": "xenolightning/AudioSwitcher_v1",
-            "url": "https://api.github.com/repos/xenolightning/AudioSwitcher_v1"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-09T13:34:35Z"
-    },
-    {
-        "id": "24020104604",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 529560594,
-            "name": "AbdBarho/stable-diffusion-webui-docker",
-            "url": "https://api.github.com/repos/AbdBarho/stable-diffusion-webui-docker"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-15T06:50:55Z"
-    },
-    {
-        "id": "23909951236",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 162276894,
-            "name": "Wilfred/difftastic",
-            "url": "https://api.github.com/repos/Wilfred/difftastic"
-        },
-        "payload": {
-            "action": "opened",
-            "issue": {
-                "url": "https://api.github.com/repos/Wilfred/difftastic/issues/367",
-                "repository_url": "https://api.github.com/repos/Wilfred/difftastic",
-                "labels_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/labels{/name}",
-                "comments_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/comments",
-                "events_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/events",
-                "html_url": "https://github.com/Wilfred/difftastic/issues/367",
-                "id": 1367391599,
-                "node_id": "I_kwDOCawmHs5RgL1v",
-                "number": 367,
-                "title": "GUI version?",
-                "user": {
-                    "login": "codec-abc",
-                    "id": 1208646,
-                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/codec-abc",
-                    "html_url": "https://github.com/codec-abc",
-                    "followers_url": "https://api.github.com/users/codec-abc/followers",
-                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
-                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
-                    "repos_url": "https://api.github.com/users/codec-abc/repos",
-                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-09-09T07:10:31Z",
-                "updated_at": "2022-09-09T07:10:31Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Hi,\r\n\r\nCool project you have here!\r\n\r\nI wonder if you thought about doing a GUI version of difftastic for those who prefer working with GUI over terminal.\r\nDo you have something in mind for this?\r\n",
-                "reactions": {
-                    "url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-09T07:10:32Z"
-    },
-    {
-        "id": "23909367538",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 162276894,
-            "name": "Wilfred/difftastic",
-            "url": "https://api.github.com/repos/Wilfred/difftastic"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-09T06:31:43Z"
-    },
-    {
-        "id": "23824171123",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 523379232,
-            "name": "CompVis/stable-diffusion",
-            "url": "https://api.github.com/repos/CompVis/stable-diffusion"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-05T13:39:19Z",
-        "org": {
-            "id": 30233788,
-            "login": "CompVis",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/CompVis",
-            "avatar_url": "https://avatars.githubusercontent.com/u/30233788?"
-        }
-    },
-    {
-        "id": "23816082970",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 442194005,
-            "name": "MaikKlein/unreal-rust",
-            "url": "https://api.github.com/repos/MaikKlein/unreal-rust"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-05T06:53:22Z"
-    },
-    {
-        "id": "23511145361",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 526292064,
-            "name": "codec-abc/UnityDiffFixer",
-            "url": "https://api.github.com/repos/codec-abc/UnityDiffFixer"
-        },
-        "payload": {
-            "ref": "master",
-            "ref_type": "branch",
-            "master_branch": "master",
-            "description": null,
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:39:34Z"
-    },
-    {
-        "id": "23511070194",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 526292064,
-            "name": "codec-abc/UnityDiffFixer",
-            "url": "https://api.github.com/repos/codec-abc/UnityDiffFixer"
-        },
-        "payload": {
-            "ref": null,
-            "ref_type": "repository",
-            "master_branch": "master",
-            "description": null,
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:35:13Z"
-    },
-    {
-        "id": "23482362686",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 244235790,
-            "name": "CommonLoon102/RegexFileSearcher",
-            "url": "https://api.github.com/repos/CommonLoon102/RegexFileSearcher"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-17T11:45:19Z"
-    },
-    {
-        "id": "23426523733",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 470547200,
-            "name": "Luzkan/smells",
-            "url": "https://api.github.com/repos/Luzkan/smells"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-14T13:20:05Z"
-    },
-    {
-        "id": "24937044079",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 170942990,
-            "name": "dotnet/format",
-            "url": "https://api.github.com/repos/dotnet/format"
-        },
-        "payload": {
-            "action": "opened",
-            "issue": {
-                "url": "https://api.github.com/repos/dotnet/format/issues/1754",
-                "repository_url": "https://api.github.com/repos/dotnet/format",
-                "labels_url": "https://api.github.com/repos/dotnet/format/issues/1754/labels{/name}",
-                "comments_url": "https://api.github.com/repos/dotnet/format/issues/1754/comments",
-                "events_url": "https://api.github.com/repos/dotnet/format/issues/1754/events",
-                "html_url": "https://github.com/dotnet/format/issues/1754",
-                "id": 1430078268,
-                "node_id": "I_kwDOCjBiDs5VPUM8",
-                "number": 1754,
-                "title": "Best pratices?",
-                "user": {
-                    "login": "codec-abc",
-                    "id": 1208646,
-                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/codec-abc",
-                    "html_url": "https://github.com/codec-abc",
-                    "followers_url": "https://api.github.com/users/codec-abc/followers",
-                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
-                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
-                    "repos_url": "https://api.github.com/users/codec-abc/repos",
-                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-10-31T15:52:52Z",
-                "updated_at": "2022-10-31T15:52:52Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Hi,\r\n\r\nI work in a team doing Unity 3D development and I want to enforce good practices for developers. By altering the auto generated .csproj from Unity I can \"inject\" my .editorconfig  and ruleset file and use it seamlessly which I am pretty happy about it.\r\nI found out that dotnet format is a good tool for this as this cover the appearance of the code but also more structural code issues (notably with analyzers especially since we can write our own). As such we have a way to enforce code consistency and raise code quality without much efforts.\r\n\r\nThe part where I am not sure to go is how to integrate it for the team. Specifically I wonder about the following:\r\nShould everybody run before submitting a PR? If yes, how can I make sure that every formatter would give the same output on everybody computers?\r\nShould a robot do it automatically for everyone, or at least check that you have done it? If so, do you have some example on how dotnet format is integrated in some build pipeline? What would be the best way to make sure that no change are needed? Using ``--verify-no-changes`` or dumping a report (using ``--report``) and parsing it?\r\n\r\nAnd of course, if you have general advice or can share how you use it for your projects I would gladly take those hints :)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-                "reactions": {
-                    "url": "https://api.github.com/repos/dotnet/format/issues/1754/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/dotnet/format/issues/1754/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-10-31T15:52:52Z",
-        "org": {
-            "id": 9141961,
-            "login": "dotnet",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/dotnet",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
-        }
-    },
-    {
-        "id": "24841664709",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 235469871,
-            "name": "dotnet/interactive",
-            "url": "https://api.github.com/repos/dotnet/interactive"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-26T13:10:52Z",
-        "org": {
-            "id": 9141961,
-            "login": "dotnet",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/dotnet",
-            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
-        }
-    },
-    {
-        "id": "24641112489",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 351882164,
-            "name": "model-checking/kani",
-            "url": "https://api.github.com/repos/model-checking/kani"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-17T11:43:28Z",
-        "org": {
-            "id": 78765001,
-            "login": "model-checking",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/model-checking",
-            "avatar_url": "https://avatars.githubusercontent.com/u/78765001?"
-        }
-    },
-    {
-        "id": "24578223477",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 127288330,
-            "name": "stefankueng/grepWin",
-            "url": "https://api.github.com/repos/stefankueng/grepWin"
-        },
-        "payload": {
-            "action": "opened",
-            "issue": {
-                "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340",
-                "repository_url": "https://api.github.com/repos/stefankueng/grepWin",
-                "labels_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/labels{/name}",
-                "comments_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/comments",
-                "events_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/events",
-                "html_url": "https://github.com/stefankueng/grepWin/issues/340",
-                "id": 1407846704,
-                "node_id": "I_kwDOB5ZECs5T6gkw",
-                "number": 340,
-                "title": "Using ripgrep as underlying text searching lib",
-                "user": {
-                    "login": "codec-abc",
-                    "id": 1208646,
-                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/codec-abc",
-                    "html_url": "https://github.com/codec-abc",
-                    "followers_url": "https://api.github.com/users/codec-abc/followers",
-                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
-                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
-                    "repos_url": "https://api.github.com/users/codec-abc/repos",
-                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-10-13T13:51:56Z",
-                "updated_at": "2022-10-13T13:51:56Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Hi,\r\n\r\nI am a long time user of grepWin that I like very much. I use it daily to parse find GUID in a bunch of yaml files (because doing Unity 3D stuff). The things is that as my Unity projects grow the search take longer. Of course it is expected but I think performance can be better. Searching the same string with grepWin and ripGrep with the same file pattern give me roughly an order of magnitude faster results for ripGrep over GrepWin. So I guess using ripGrep as an underlying library could improve performance quite a lot.\r\n\r\n",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-10-13T13:51:56Z"
-    },
-    {
-        "id": "24577749203",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 140003994,
-            "name": "vivainio/RoughGrep",
-            "url": "https://api.github.com/repos/vivainio/RoughGrep"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-13T13:34:16Z"
-    },
-    {
-        "id": "24486302569",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 16687979,
-            "name": "xenolightning/AudioSwitcher_v1",
-            "url": "https://api.github.com/repos/xenolightning/AudioSwitcher_v1"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-09T13:34:35Z"
-    },
-    {
-        "id": "24020104604",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 529560594,
-            "name": "AbdBarho/stable-diffusion-webui-docker",
-            "url": "https://api.github.com/repos/AbdBarho/stable-diffusion-webui-docker"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-15T06:50:55Z"
-    },
-    {
-        "id": "23909951236",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 162276894,
-            "name": "Wilfred/difftastic",
-            "url": "https://api.github.com/repos/Wilfred/difftastic"
-        },
-        "payload": {
-            "action": "opened",
-            "issue": {
-                "url": "https://api.github.com/repos/Wilfred/difftastic/issues/367",
-                "repository_url": "https://api.github.com/repos/Wilfred/difftastic",
-                "labels_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/labels{/name}",
-                "comments_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/comments",
-                "events_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/events",
-                "html_url": "https://github.com/Wilfred/difftastic/issues/367",
-                "id": 1367391599,
-                "node_id": "I_kwDOCawmHs5RgL1v",
-                "number": 367,
-                "title": "GUI version?",
-                "user": {
-                    "login": "codec-abc",
-                    "id": 1208646,
-                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/codec-abc",
-                    "html_url": "https://github.com/codec-abc",
-                    "followers_url": "https://api.github.com/users/codec-abc/followers",
-                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
-                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
-                    "repos_url": "https://api.github.com/users/codec-abc/repos",
-                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-09-09T07:10:31Z",
-                "updated_at": "2022-09-09T07:10:31Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Hi,\r\n\r\nCool project you have here!\r\n\r\nI wonder if you thought about doing a GUI version of difftastic for those who prefer working with GUI over terminal.\r\nDo you have something in mind for this?\r\n",
-                "reactions": {
-                    "url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-09T07:10:32Z"
-    },
-    {
-        "id": "23909367538",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 162276894,
-            "name": "Wilfred/difftastic",
-            "url": "https://api.github.com/repos/Wilfred/difftastic"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-09T06:31:43Z"
-    },
-    {
-        "id": "23824171123",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 523379232,
-            "name": "CompVis/stable-diffusion",
-            "url": "https://api.github.com/repos/CompVis/stable-diffusion"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-05T13:39:19Z",
-        "org": {
-            "id": 30233788,
-            "login": "CompVis",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/CompVis",
-            "avatar_url": "https://avatars.githubusercontent.com/u/30233788?"
-        }
-    },
-    {
-        "id": "23816082970",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 442194005,
-            "name": "MaikKlein/unreal-rust",
-            "url": "https://api.github.com/repos/MaikKlein/unreal-rust"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-05T06:53:22Z"
-    },
-    {
-        "id": "23511145361",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 526292064,
-            "name": "codec-abc/UnityDiffFixer",
-            "url": "https://api.github.com/repos/codec-abc/UnityDiffFixer"
-        },
-        "payload": {
-            "ref": "master",
-            "ref_type": "branch",
-            "master_branch": "master",
-            "description": null,
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:39:34Z"
-    },
-    {
-        "id": "23511070194",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 526292064,
-            "name": "codec-abc/UnityDiffFixer",
-            "url": "https://api.github.com/repos/codec-abc/UnityDiffFixer"
-        },
-        "payload": {
-            "ref": null,
-            "ref_type": "repository",
-            "master_branch": "master",
-            "description": null,
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:35:13Z"
-    },
-    {
-        "id": "23482362686",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 244235790,
-            "name": "CommonLoon102/RegexFileSearcher",
-            "url": "https://api.github.com/repos/CommonLoon102/RegexFileSearcher"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-17T11:45:19Z"
-    },
-    {
-        "id": "23426523733",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 470547200,
-            "name": "Luzkan/smells",
-            "url": "https://api.github.com/repos/Luzkan/smells"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-14T13:20:05Z"
+        "created_at": "2022-11-08T08:18:40Z"
     },
     {
         "id": "24937044079",
@@ -1387,7 +888,58 @@
         "created_at": "2022-09-15T06:50:55Z"
     },
     {
-        "id": "23909951236",
+        "id": "25588571016",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 201615840,
+            "name": "Sergio0694/ComputeSharp",
+            "url": "https://api.github.com/repos/Sergio0694/ComputeSharp"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-12-01T11:11:49Z"
+    },
+    {
+        "id": "25423394480",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 533087958,
+            "name": "terrastruct/d2",
+            "url": "https://api.github.com/repos/terrastruct/d2"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-23T09:04:37Z",
+        "org": {
+            "id": 80369600,
+            "login": "terrastruct",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/terrastruct",
+            "avatar_url": "https://avatars.githubusercontent.com/u/80369600?"
+        }
+    },
+    {
+        "id": "25095362434",
         "type": "IssuesEvent",
         "actor": {
             "id": 1208646,
@@ -1398,23 +950,483 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
         },
         "repo": {
-            "id": 162276894,
-            "name": "Wilfred/difftastic",
-            "url": "https://api.github.com/repos/Wilfred/difftastic"
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:47:11Z",
+                "closed_at": "2022-11-08T09:47:11Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:47:12Z"
+    },
+    {
+        "id": "25095266317",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:43:11Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306918685",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306918685",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306918685,
+                "node_id": "IC_kwDOAo9EfM5N5f8d",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:43:11Z",
+                "updated_at": "2022-11-08T09:43:11Z",
+                "author_association": "NONE",
+                "body": "Seems fixed on the newer version. Thanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306918685/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:43:12Z"
+    },
+    {
+        "id": "25094702386",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:20:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306888785",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306888785",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306888785,
+                "node_id": "IC_kwDOAo9EfM5N5YpR",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:20:38Z",
+                "updated_at": "2022-11-08T09:20:38Z",
+                "author_association": "NONE",
+                "body": "![image](https://user-images.githubusercontent.com/1208646/200525533-db47600b-6540-48c0-922e-336feeb3de14.png)\r\n\r\n`My config: \r\n````json\r\n{\r\n  \"minimap_show\" : true,\r\n  \"ui_max_size_open\": 600,\r\n  \"find_hi_max_lines\": 10000,\r\n  \"tab_spaces\" : true,\r\n  \"font_name\" : \"Fira Code Retina\",\r\n  \"font_size\" : 11,\r\n  \"ui_theme\" : \"ebony\",\r\n  \"ui_theme_syntax\" : \"ebony\",\r\n  \"detect\" : {\r\n    \"*.asset\" : \"YAML\",\r\n    \"*.prefab\" : \"YAML\",\r\n    \"*.meta\" : \"YAML\"\r\n  }\r\n}\r\n````",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306888785/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:20:39Z"
+    },
+    {
+        "id": "25094531883",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:14:18Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306877976",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306877976",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306877976,
+                "node_id": "IC_kwDOAo9EfM5N5WAY",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:14:18Z",
+                "updated_at": "2022-11-08T09:14:18Z",
+                "author_association": "NONE",
+                "body": "[test_file.zip](https://github.com/Alexey-T/CudaText/files/9959531/test_file.zip)\r\nHere it is.\r\n\r\nNot sure to understand the EOL marker thing.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306877976/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:14:18Z"
+    },
+    {
+        "id": "25093236493",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
         },
         "payload": {
             "action": "opened",
             "issue": {
-                "url": "https://api.github.com/repos/Wilfred/difftastic/issues/367",
-                "repository_url": "https://api.github.com/repos/Wilfred/difftastic",
-                "labels_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/labels{/name}",
-                "comments_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/comments",
-                "events_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/events",
-                "html_url": "https://github.com/Wilfred/difftastic/issues/367",
-                "id": 1367391599,
-                "node_id": "I_kwDOCawmHs5RgL1v",
-                "number": 367,
-                "title": "GUI version?",
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
                 "user": {
                     "login": "codec-abc",
                     "id": 1208646,
@@ -1442,14 +1454,14 @@
                 "assignees": [],
                 "milestone": null,
                 "comments": 0,
-                "created_at": "2022-09-09T07:10:31Z",
-                "updated_at": "2022-09-09T07:10:31Z",
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T08:18:40Z",
                 "closed_at": null,
                 "author_association": "NONE",
                 "active_lock_reason": null,
-                "body": "Hi,\r\n\r\nCool project you have here!\r\n\r\nI wonder if you thought about doing a GUI version of difftastic for those who prefer working with GUI over terminal.\r\nDo you have something in mind for this?\r\n",
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
                 "reactions": {
-                    "url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/reactions",
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
                     "total_count": 0,
                     "+1": 0,
                     "-1": 0,
@@ -1460,17 +1472,17 @@
                     "rocket": 0,
                     "eyes": 0
                 },
-                "timeline_url": "https://api.github.com/repos/Wilfred/difftastic/issues/367/timeline",
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
                 "performed_via_github_app": null,
                 "state_reason": null
             }
         },
         "public": true,
-        "created_at": "2022-09-09T07:10:32Z"
+        "created_at": "2022-11-08T08:18:40Z"
     },
     {
-        "id": "23909367538",
-        "type": "WatchEvent",
+        "id": "24937044079",
+        "type": "IssuesEvent",
         "actor": {
             "id": 1208646,
             "login": "codec-abc",
@@ -1480,47 +1492,85 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
         },
         "repo": {
-            "id": 162276894,
-            "name": "Wilfred/difftastic",
-            "url": "https://api.github.com/repos/Wilfred/difftastic"
+            "id": 170942990,
+            "name": "dotnet/format",
+            "url": "https://api.github.com/repos/dotnet/format"
         },
         "payload": {
-            "action": "started"
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/dotnet/format/issues/1754",
+                "repository_url": "https://api.github.com/repos/dotnet/format",
+                "labels_url": "https://api.github.com/repos/dotnet/format/issues/1754/labels{/name}",
+                "comments_url": "https://api.github.com/repos/dotnet/format/issues/1754/comments",
+                "events_url": "https://api.github.com/repos/dotnet/format/issues/1754/events",
+                "html_url": "https://github.com/dotnet/format/issues/1754",
+                "id": 1430078268,
+                "node_id": "I_kwDOCjBiDs5VPUM8",
+                "number": 1754,
+                "title": "Best pratices?",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-31T15:52:52Z",
+                "updated_at": "2022-10-31T15:52:52Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI work in a team doing Unity 3D development and I want to enforce good practices for developers. By altering the auto generated .csproj from Unity I can \"inject\" my .editorconfig  and ruleset file and use it seamlessly which I am pretty happy about it.\r\nI found out that dotnet format is a good tool for this as this cover the appearance of the code but also more structural code issues (notably with analyzers especially since we can write our own). As such we have a way to enforce code consistency and raise code quality without much efforts.\r\n\r\nThe part where I am not sure to go is how to integrate it for the team. Specifically I wonder about the following:\r\nShould everybody run before submitting a PR? If yes, how can I make sure that every formatter would give the same output on everybody computers?\r\nShould a robot do it automatically for everyone, or at least check that you have done it? If so, do you have some example on how dotnet format is integrated in some build pipeline? What would be the best way to make sure that no change are needed? Using ``--verify-no-changes`` or dumping a report (using ``--report``) and parsing it?\r\n\r\nAnd of course, if you have general advice or can share how you use it for your projects I would gladly take those hints :)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/dotnet/format/issues/1754/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/dotnet/format/issues/1754/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
         },
         "public": true,
-        "created_at": "2022-09-09T06:31:43Z"
-    },
-    {
-        "id": "23824171123",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 523379232,
-            "name": "CompVis/stable-diffusion",
-            "url": "https://api.github.com/repos/CompVis/stable-diffusion"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-05T13:39:19Z",
+        "created_at": "2022-10-31T15:52:52Z",
         "org": {
-            "id": 30233788,
-            "login": "CompVis",
+            "id": 9141961,
+            "login": "dotnet",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/CompVis",
-            "avatar_url": "https://avatars.githubusercontent.com/u/30233788?"
+            "url": "https://api.github.com/orgs/dotnet",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
         }
     },
     {
-        "id": "23816082970",
+        "id": "24841664709",
         "type": "WatchEvent",
         "actor": {
             "id": 1208646,
@@ -1531,70 +1581,25 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
         },
         "repo": {
-            "id": 442194005,
-            "name": "MaikKlein/unreal-rust",
-            "url": "https://api.github.com/repos/MaikKlein/unreal-rust"
+            "id": 235469871,
+            "name": "dotnet/interactive",
+            "url": "https://api.github.com/repos/dotnet/interactive"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-09-05T06:53:22Z"
-    },
-    {
-        "id": "23511145361",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
+        "created_at": "2022-10-26T13:10:52Z",
+        "org": {
+            "id": 9141961,
+            "login": "dotnet",
             "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 526292064,
-            "name": "codec-abc/UnityDiffFixer",
-            "url": "https://api.github.com/repos/codec-abc/UnityDiffFixer"
-        },
-        "payload": {
-            "ref": "master",
-            "ref_type": "branch",
-            "master_branch": "master",
-            "description": null,
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:39:34Z"
+            "url": "https://api.github.com/orgs/dotnet",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
+        }
     },
     {
-        "id": "23511070194",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 1208646,
-            "login": "codec-abc",
-            "display_login": "codec-abc",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/codec-abc",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
-        },
-        "repo": {
-            "id": 526292064,
-            "name": "codec-abc/UnityDiffFixer",
-            "url": "https://api.github.com/repos/codec-abc/UnityDiffFixer"
-        },
-        "payload": {
-            "ref": null,
-            "ref_type": "repository",
-            "master_branch": "master",
-            "description": null,
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-18T16:35:13Z"
-    },
-    {
-        "id": "23482362686",
+        "id": "24641112489",
         "type": "WatchEvent",
         "actor": {
             "id": 1208646,
@@ -1605,18 +1610,107 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
         },
         "repo": {
-            "id": 244235790,
-            "name": "CommonLoon102/RegexFileSearcher",
-            "url": "https://api.github.com/repos/CommonLoon102/RegexFileSearcher"
+            "id": 351882164,
+            "name": "model-checking/kani",
+            "url": "https://api.github.com/repos/model-checking/kani"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-08-17T11:45:19Z"
+        "created_at": "2022-10-17T11:43:28Z",
+        "org": {
+            "id": 78765001,
+            "login": "model-checking",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/model-checking",
+            "avatar_url": "https://avatars.githubusercontent.com/u/78765001?"
+        }
     },
     {
-        "id": "23426523733",
+        "id": "24578223477",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 127288330,
+            "name": "stefankueng/grepWin",
+            "url": "https://api.github.com/repos/stefankueng/grepWin"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340",
+                "repository_url": "https://api.github.com/repos/stefankueng/grepWin",
+                "labels_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/labels{/name}",
+                "comments_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/comments",
+                "events_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/events",
+                "html_url": "https://github.com/stefankueng/grepWin/issues/340",
+                "id": 1407846704,
+                "node_id": "I_kwDOB5ZECs5T6gkw",
+                "number": 340,
+                "title": "Using ripgrep as underlying text searching lib",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-13T13:51:56Z",
+                "updated_at": "2022-10-13T13:51:56Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI am a long time user of grepWin that I like very much. I use it daily to parse find GUID in a bunch of yaml files (because doing Unity 3D stuff). The things is that as my Unity projects grow the search take longer. Of course it is expected but I think performance can be better. Searching the same string with grepWin and ripGrep with the same file pattern give me roughly an order of magnitude faster results for ripGrep over GrepWin. So I guess using ripGrep as an underlying library could improve performance quite a lot.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-13T13:51:56Z"
+    },
+    {
+        "id": "24577749203",
         "type": "WatchEvent",
         "actor": {
             "id": 1208646,
@@ -1627,14 +1721,946 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
         },
         "repo": {
-            "id": 470547200,
-            "name": "Luzkan/smells",
-            "url": "https://api.github.com/repos/Luzkan/smells"
+            "id": 140003994,
+            "name": "vivainio/RoughGrep",
+            "url": "https://api.github.com/repos/vivainio/RoughGrep"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-08-14T13:20:05Z"
+        "created_at": "2022-10-13T13:34:16Z"
+    },
+    {
+        "id": "24486302569",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 16687979,
+            "name": "xenolightning/AudioSwitcher_v1",
+            "url": "https://api.github.com/repos/xenolightning/AudioSwitcher_v1"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T13:34:35Z"
+    },
+    {
+        "id": "24020104604",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 529560594,
+            "name": "AbdBarho/stable-diffusion-webui-docker",
+            "url": "https://api.github.com/repos/AbdBarho/stable-diffusion-webui-docker"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T06:50:55Z"
+    },
+    {
+        "id": "25588571016",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 201615840,
+            "name": "Sergio0694/ComputeSharp",
+            "url": "https://api.github.com/repos/Sergio0694/ComputeSharp"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-12-01T11:11:49Z"
+    },
+    {
+        "id": "25423394480",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 533087958,
+            "name": "terrastruct/d2",
+            "url": "https://api.github.com/repos/terrastruct/d2"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-23T09:04:37Z",
+        "org": {
+            "id": 80369600,
+            "login": "terrastruct",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/terrastruct",
+            "avatar_url": "https://avatars.githubusercontent.com/u/80369600?"
+        }
+    },
+    {
+        "id": "25095362434",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:47:11Z",
+                "closed_at": "2022-11-08T09:47:11Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:47:12Z"
+    },
+    {
+        "id": "25095266317",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 8,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:43:11Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306918685",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306918685",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306918685,
+                "node_id": "IC_kwDOAo9EfM5N5f8d",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:43:11Z",
+                "updated_at": "2022-11-08T09:43:11Z",
+                "author_association": "NONE",
+                "body": "Seems fixed on the newer version. Thanks.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306918685/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:43:12Z"
+    },
+    {
+        "id": "25094702386",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:20:38Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306888785",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306888785",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306888785,
+                "node_id": "IC_kwDOAo9EfM5N5YpR",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:20:38Z",
+                "updated_at": "2022-11-08T09:20:38Z",
+                "author_association": "NONE",
+                "body": "![image](https://user-images.githubusercontent.com/1208646/200525533-db47600b-6540-48c0-922e-336feeb3de14.png)\r\n\r\n`My config: \r\n````json\r\n{\r\n  \"minimap_show\" : true,\r\n  \"ui_max_size_open\": 600,\r\n  \"find_hi_max_lines\": 10000,\r\n  \"tab_spaces\" : true,\r\n  \"font_name\" : \"Fira Code Retina\",\r\n  \"font_size\" : 11,\r\n  \"ui_theme\" : \"ebony\",\r\n  \"ui_theme_syntax\" : \"ebony\",\r\n  \"detect\" : {\r\n    \"*.asset\" : \"YAML\",\r\n    \"*.prefab\" : \"YAML\",\r\n    \"*.meta\" : \"YAML\"\r\n  }\r\n}\r\n````",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306888785/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:20:39Z"
+    },
+    {
+        "id": "25094531883",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T09:14:18Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306877976",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539#issuecomment-1306877976",
+                "issue_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "id": 1306877976,
+                "node_id": "IC_kwDOAo9EfM5N5WAY",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-08T09:14:18Z",
+                "updated_at": "2022-11-08T09:14:18Z",
+                "author_association": "NONE",
+                "body": "[test_file.zip](https://github.com/Alexey-T/CudaText/files/9959531/test_file.zip)\r\nHere it is.\r\n\r\nNot sure to understand the EOL marker thing.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/comments/1306877976/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T09:14:18Z"
+    },
+    {
+        "id": "25093236493",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 42943612,
+            "name": "Alexey-T/CudaText",
+            "url": "https://api.github.com/repos/Alexey-T/CudaText"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539",
+                "repository_url": "https://api.github.com/repos/Alexey-T/CudaText",
+                "labels_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/comments",
+                "events_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/events",
+                "html_url": "https://github.com/Alexey-T/CudaText/issues/4539",
+                "id": 1439706034,
+                "node_id": "I_kwDOAo9EfM5V0Cuy",
+                "number": 4539,
+                "title": "Don't show non existing line",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-08T08:18:40Z",
+                "updated_at": "2022-11-08T08:18:40Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nSorry if there is an option for that I missed for this but I noticed that CudaText display an empty line at the end of a file while this line doesn't exist. Here is the same file opened in VSCode and CudaText It appear that in CudaText I have an empty line for the 2897's one while the file end at line 2896.\r\n\r\n![image](https://user-images.githubusercontent.com/1208646/200510819-fbe9cb3f-b9f8-48d7-a36f-09f1569224e2.png)\r\n\r\nIs there a way to show only existing lines?\r\n\r\nNote that, even if I put my cursor on other lines, the non-existing line still appear in the line counter which is a bit counter-intuitive to me:\r\n![image](https://user-images.githubusercontent.com/1208646/200511246-57d262f0-0540-4a55-b1e2-0f8204547254.png)\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Alexey-T/CudaText/issues/4539/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-08T08:18:40Z"
+    },
+    {
+        "id": "24937044079",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 170942990,
+            "name": "dotnet/format",
+            "url": "https://api.github.com/repos/dotnet/format"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/dotnet/format/issues/1754",
+                "repository_url": "https://api.github.com/repos/dotnet/format",
+                "labels_url": "https://api.github.com/repos/dotnet/format/issues/1754/labels{/name}",
+                "comments_url": "https://api.github.com/repos/dotnet/format/issues/1754/comments",
+                "events_url": "https://api.github.com/repos/dotnet/format/issues/1754/events",
+                "html_url": "https://github.com/dotnet/format/issues/1754",
+                "id": 1430078268,
+                "node_id": "I_kwDOCjBiDs5VPUM8",
+                "number": 1754,
+                "title": "Best pratices?",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-31T15:52:52Z",
+                "updated_at": "2022-10-31T15:52:52Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI work in a team doing Unity 3D development and I want to enforce good practices for developers. By altering the auto generated .csproj from Unity I can \"inject\" my .editorconfig  and ruleset file and use it seamlessly which I am pretty happy about it.\r\nI found out that dotnet format is a good tool for this as this cover the appearance of the code but also more structural code issues (notably with analyzers especially since we can write our own). As such we have a way to enforce code consistency and raise code quality without much efforts.\r\n\r\nThe part where I am not sure to go is how to integrate it for the team. Specifically I wonder about the following:\r\nShould everybody run before submitting a PR? If yes, how can I make sure that every formatter would give the same output on everybody computers?\r\nShould a robot do it automatically for everyone, or at least check that you have done it? If so, do you have some example on how dotnet format is integrated in some build pipeline? What would be the best way to make sure that no change are needed? Using ``--verify-no-changes`` or dumping a report (using ``--report``) and parsing it?\r\n\r\nAnd of course, if you have general advice or can share how you use it for your projects I would gladly take those hints :)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/dotnet/format/issues/1754/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/dotnet/format/issues/1754/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-31T15:52:52Z",
+        "org": {
+            "id": 9141961,
+            "login": "dotnet",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/dotnet",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
+        }
+    },
+    {
+        "id": "24841664709",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 235469871,
+            "name": "dotnet/interactive",
+            "url": "https://api.github.com/repos/dotnet/interactive"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-26T13:10:52Z",
+        "org": {
+            "id": 9141961,
+            "login": "dotnet",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/dotnet",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9141961?"
+        }
+    },
+    {
+        "id": "24641112489",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 351882164,
+            "name": "model-checking/kani",
+            "url": "https://api.github.com/repos/model-checking/kani"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-17T11:43:28Z",
+        "org": {
+            "id": 78765001,
+            "login": "model-checking",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/model-checking",
+            "avatar_url": "https://avatars.githubusercontent.com/u/78765001?"
+        }
+    },
+    {
+        "id": "24578223477",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 127288330,
+            "name": "stefankueng/grepWin",
+            "url": "https://api.github.com/repos/stefankueng/grepWin"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340",
+                "repository_url": "https://api.github.com/repos/stefankueng/grepWin",
+                "labels_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/labels{/name}",
+                "comments_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/comments",
+                "events_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/events",
+                "html_url": "https://github.com/stefankueng/grepWin/issues/340",
+                "id": 1407846704,
+                "node_id": "I_kwDOB5ZECs5T6gkw",
+                "number": 340,
+                "title": "Using ripgrep as underlying text searching lib",
+                "user": {
+                    "login": "codec-abc",
+                    "id": 1208646,
+                    "node_id": "MDQ6VXNlcjEyMDg2NDY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1208646?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/codec-abc",
+                    "html_url": "https://github.com/codec-abc",
+                    "followers_url": "https://api.github.com/users/codec-abc/followers",
+                    "following_url": "https://api.github.com/users/codec-abc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/codec-abc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/codec-abc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/codec-abc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/codec-abc/orgs",
+                    "repos_url": "https://api.github.com/users/codec-abc/repos",
+                    "events_url": "https://api.github.com/users/codec-abc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/codec-abc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-10-13T13:51:56Z",
+                "updated_at": "2022-10-13T13:51:56Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nI am a long time user of grepWin that I like very much. I use it daily to parse find GUID in a bunch of yaml files (because doing Unity 3D stuff). The things is that as my Unity projects grow the search take longer. Of course it is expected but I think performance can be better. Searching the same string with grepWin and ripGrep with the same file pattern give me roughly an order of magnitude faster results for ripGrep over GrepWin. So I guess using ripGrep as an underlying library could improve performance quite a lot.\r\n\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/stefankueng/grepWin/issues/340/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-10-13T13:51:56Z"
+    },
+    {
+        "id": "24577749203",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 140003994,
+            "name": "vivainio/RoughGrep",
+            "url": "https://api.github.com/repos/vivainio/RoughGrep"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-13T13:34:16Z"
+    },
+    {
+        "id": "24486302569",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 16687979,
+            "name": "xenolightning/AudioSwitcher_v1",
+            "url": "https://api.github.com/repos/xenolightning/AudioSwitcher_v1"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-09T13:34:35Z"
+    },
+    {
+        "id": "24020104604",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1208646,
+            "login": "codec-abc",
+            "display_login": "codec-abc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codec-abc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1208646?"
+        },
+        "repo": {
+            "id": 529560594,
+            "name": "AbdBarho/stable-diffusion-webui-docker",
+            "url": "https://api.github.com/repos/AbdBarho/stable-diffusion-webui-docker"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-15T06:50:55Z"
     }
 ]

@@ -1,5 +1,837 @@
 [
     {
+        "id": "25578676635",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "repository_url": "https://api.github.com/repos/material-components/material-web",
+                "labels_url": "https://api.github.com/repos/material-components/material-web/issues/3799/labels{/name}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "events_url": "https://api.github.com/repos/material-components/material-web/issues/3799/events",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "id": 1468908385,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "number": 3799,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1512622747,
+                        "node_id": "MDU6TGFiZWwxNTEyNjIyNzQ3",
+                        "url": "https://api.github.com/repos/material-components/material-web/labels/Ready%20for%20Google",
+                        "name": "Ready for Google",
+                        "color": "5bd626",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-12-01T01:17:30Z",
+                "closed_at": null,
+                "author_association": "COLLABORATOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                    "html_url": "https://github.com/material-components/material-web/pull/3799",
+                    "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                    "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                    "merged_at": null
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/3799/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/material-components/material-web/issues/3799/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1333007544",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#issuecomment-1333007544",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "id": 1333007544,
+                "node_id": "IC_kwDOB5KfTs5PdBS4",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-12-01T01:17:30Z",
+                "updated_at": "2022-12-01T01:17:30Z",
+                "author_association": "COLLABORATOR",
+                "body": "Ah that makes sense",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1333007544/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-12-01T01:17:31Z",
+        "org": {
+            "id": 19478152,
+            "login": "material-components",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
+        }
+    },
+    {
+        "id": "25577714952",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "repository_url": "https://api.github.com/repos/material-components/material-web",
+                "labels_url": "https://api.github.com/repos/material-components/material-web/issues/3799/labels{/name}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "events_url": "https://api.github.com/repos/material-components/material-web/issues/3799/events",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "id": 1468908385,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "number": 3799,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1512622747,
+                        "node_id": "MDU6TGFiZWwxNTEyNjIyNzQ3",
+                        "url": "https://api.github.com/repos/material-components/material-web/labels/Ready%20for%20Google",
+                        "name": "Ready for Google",
+                        "color": "5bd626",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-12-01T00:09:37Z",
+                "closed_at": null,
+                "author_association": "COLLABORATOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                    "html_url": "https://github.com/material-components/material-web/pull/3799",
+                    "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                    "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                    "merged_at": null
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/3799/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/material-components/material-web/issues/3799/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1332922520",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#issuecomment-1332922520",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "id": 1332922520,
+                "node_id": "IC_kwDOB5KfTs5PcsiY",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-12-01T00:09:37Z",
+                "updated_at": "2022-12-01T00:09:37Z",
+                "author_association": "COLLABORATOR",
+                "body": "Firefox doesn't define Touch unless it detects a touchscreen. I don't think we check for Touch anywhere in MWC, so it must be a web-test-runner thing...",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1332922520/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-12-01T00:09:38Z",
+        "org": {
+            "id": 19478152,
+            "login": "material-components",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
+        }
+    },
+    {
+        "id": "25575090650",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1200025919,
+                "node_id": "PRR_kwDOB5KfTs5HhvE_",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "LGTM.\r\n\r\nWhat sort of issues are happening on firefox?",
+                "commit_id": "066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                "submitted_at": "2022-11-30T21:18:44Z",
+                "state": "approved",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#pullrequestreview-1200025919",
+                "pull_request_url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                "author_association": "COLLABORATOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/material-components/material-web/pull/3799#pullrequestreview-1200025919"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                "id": 1139720399,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "number": 3799,
+                "state": "open",
+                "locked": false,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-11-30T21:18:44Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "bf9c45af7d7f19913f1feeacea160e11606e6275",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "asyncLiz",
+                        "id": 34382620,
+                        "node_id": "MDQ6VXNlcjM0MzgyNjIw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/34382620?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/asyncLiz",
+                        "html_url": "https://github.com/asyncLiz",
+                        "followers_url": "https://api.github.com/users/asyncLiz/followers",
+                        "following_url": "https://api.github.com/users/asyncLiz/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/asyncLiz/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/asyncLiz/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/asyncLiz/subscriptions",
+                        "organizations_url": "https://api.github.com/users/asyncLiz/orgs",
+                        "repos_url": "https://api.github.com/users/asyncLiz/repos",
+                        "events_url": "https://api.github.com/users/asyncLiz/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/asyncLiz/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/material-components/material-web/pulls/3799/commits",
+                "review_comments_url": "https://api.github.com/repos/material-components/material-web/pulls/3799/comments",
+                "review_comment_url": "https://api.github.com/repos/material-components/material-web/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                "head": {
+                    "label": "material-components:ci-tests",
+                    "ref": "ci-tests",
+                    "sha": "066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                    "user": {
+                        "login": "material-components",
+                        "id": 19478152,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/material-components",
+                        "html_url": "https://github.com/material-components",
+                        "followers_url": "https://api.github.com/users/material-components/followers",
+                        "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                        "organizations_url": "https://api.github.com/users/material-components/orgs",
+                        "repos_url": "https://api.github.com/users/material-components/repos",
+                        "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/material-components/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 127049550,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjcwNDk1NTA=",
+                        "name": "material-web",
+                        "full_name": "material-components/material-web",
+                        "private": false,
+                        "owner": {
+                            "login": "material-components",
+                            "id": 19478152,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/material-components",
+                            "html_url": "https://github.com/material-components",
+                            "followers_url": "https://api.github.com/users/material-components/followers",
+                            "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                            "organizations_url": "https://api.github.com/users/material-components/orgs",
+                            "repos_url": "https://api.github.com/users/material-components/repos",
+                            "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/material-components/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/material-components/material-web",
+                        "description": "Material Design Web Components",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/material-components/material-web",
+                        "forks_url": "https://api.github.com/repos/material-components/material-web/forks",
+                        "keys_url": "https://api.github.com/repos/material-components/material-web/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/material-components/material-web/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/material-components/material-web/teams",
+                        "hooks_url": "https://api.github.com/repos/material-components/material-web/hooks",
+                        "issue_events_url": "https://api.github.com/repos/material-components/material-web/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/material-components/material-web/events",
+                        "assignees_url": "https://api.github.com/repos/material-components/material-web/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/material-components/material-web/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/material-components/material-web/tags",
+                        "blobs_url": "https://api.github.com/repos/material-components/material-web/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/material-components/material-web/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/material-components/material-web/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/material-components/material-web/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/material-components/material-web/languages",
+                        "stargazers_url": "https://api.github.com/repos/material-components/material-web/stargazers",
+                        "contributors_url": "https://api.github.com/repos/material-components/material-web/contributors",
+                        "subscribers_url": "https://api.github.com/repos/material-components/material-web/subscribers",
+                        "subscription_url": "https://api.github.com/repos/material-components/material-web/subscription",
+                        "commits_url": "https://api.github.com/repos/material-components/material-web/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/material-components/material-web/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/material-components/material-web/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/material-components/material-web/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/material-components/material-web/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/material-components/material-web/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/material-components/material-web/merges",
+                        "archive_url": "https://api.github.com/repos/material-components/material-web/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/material-components/material-web/downloads",
+                        "issues_url": "https://api.github.com/repos/material-components/material-web/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/material-components/material-web/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/material-components/material-web/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/material-components/material-web/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/material-components/material-web/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/material-components/material-web/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/material-components/material-web/deployments",
+                        "created_at": "2018-03-27T21:46:51Z",
+                        "updated_at": "2022-11-30T20:39:39Z",
+                        "pushed_at": "2022-11-30T19:45:02Z",
+                        "git_url": "git://github.com/material-components/material-web.git",
+                        "ssh_url": "git@github.com:material-components/material-web.git",
+                        "clone_url": "https://github.com/material-components/material-web.git",
+                        "svn_url": "https://github.com/material-components/material-web",
+                        "homepage": "https://material-components.github.io/material-web/",
+                        "size": 70907,
+                        "stargazers_count": 4434,
+                        "watchers_count": 4434,
+                        "language": "SCSS",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 538,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 271,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 538,
+                        "open_issues": 271,
+                        "watchers": 4434,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "material-components:master",
+                    "ref": "master",
+                    "sha": "933cb14ac8ee02b0d3a8b36ef8045472adecfb32",
+                    "user": {
+                        "login": "material-components",
+                        "id": 19478152,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/material-components",
+                        "html_url": "https://github.com/material-components",
+                        "followers_url": "https://api.github.com/users/material-components/followers",
+                        "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                        "organizations_url": "https://api.github.com/users/material-components/orgs",
+                        "repos_url": "https://api.github.com/users/material-components/repos",
+                        "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/material-components/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 127049550,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjcwNDk1NTA=",
+                        "name": "material-web",
+                        "full_name": "material-components/material-web",
+                        "private": false,
+                        "owner": {
+                            "login": "material-components",
+                            "id": 19478152,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/material-components",
+                            "html_url": "https://github.com/material-components",
+                            "followers_url": "https://api.github.com/users/material-components/followers",
+                            "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                            "organizations_url": "https://api.github.com/users/material-components/orgs",
+                            "repos_url": "https://api.github.com/users/material-components/repos",
+                            "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/material-components/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/material-components/material-web",
+                        "description": "Material Design Web Components",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/material-components/material-web",
+                        "forks_url": "https://api.github.com/repos/material-components/material-web/forks",
+                        "keys_url": "https://api.github.com/repos/material-components/material-web/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/material-components/material-web/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/material-components/material-web/teams",
+                        "hooks_url": "https://api.github.com/repos/material-components/material-web/hooks",
+                        "issue_events_url": "https://api.github.com/repos/material-components/material-web/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/material-components/material-web/events",
+                        "assignees_url": "https://api.github.com/repos/material-components/material-web/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/material-components/material-web/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/material-components/material-web/tags",
+                        "blobs_url": "https://api.github.com/repos/material-components/material-web/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/material-components/material-web/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/material-components/material-web/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/material-components/material-web/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/material-components/material-web/languages",
+                        "stargazers_url": "https://api.github.com/repos/material-components/material-web/stargazers",
+                        "contributors_url": "https://api.github.com/repos/material-components/material-web/contributors",
+                        "subscribers_url": "https://api.github.com/repos/material-components/material-web/subscribers",
+                        "subscription_url": "https://api.github.com/repos/material-components/material-web/subscription",
+                        "commits_url": "https://api.github.com/repos/material-components/material-web/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/material-components/material-web/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/material-components/material-web/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/material-components/material-web/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/material-components/material-web/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/material-components/material-web/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/material-components/material-web/merges",
+                        "archive_url": "https://api.github.com/repos/material-components/material-web/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/material-components/material-web/downloads",
+                        "issues_url": "https://api.github.com/repos/material-components/material-web/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/material-components/material-web/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/material-components/material-web/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/material-components/material-web/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/material-components/material-web/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/material-components/material-web/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/material-components/material-web/deployments",
+                        "created_at": "2018-03-27T21:46:51Z",
+                        "updated_at": "2022-11-30T20:39:39Z",
+                        "pushed_at": "2022-11-30T19:45:02Z",
+                        "git_url": "git://github.com/material-components/material-web.git",
+                        "ssh_url": "git@github.com:material-components/material-web.git",
+                        "clone_url": "https://github.com/material-components/material-web.git",
+                        "svn_url": "https://github.com/material-components/material-web",
+                        "homepage": "https://material-components.github.io/material-web/",
+                        "size": 70907,
+                        "stargazers_count": 4434,
+                        "watchers_count": 4434,
+                        "language": "SCSS",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 538,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 271,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 538,
+                        "open_issues": 271,
+                        "watchers": 4434,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799"
+                    },
+                    "html": {
+                        "href": "https://github.com/material-components/material-web/pull/3799"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/material-components/material-web/issues/3799"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/material-components/material-web/issues/3799/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/material-components/material-web/statuses/066219f082dbb01037a79a1d9d6b3c8d08a0a22a"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T21:18:44Z",
+        "org": {
+            "id": 19478152,
+            "login": "material-components",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
+        }
+    },
+    {
+        "id": "25419900864",
+        "type": "PushEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 28572436,
+            "name": "dfreedm/prezto",
+            "url": "https://api.github.com/repos/dfreedm/prezto"
+        },
+        "payload": {
+            "push_id": 11757817881,
+            "size": 7,
+            "distinct_size": 7,
+            "ref": "refs/heads/master",
+            "head": "a44e6e7876da21dc2fde34530ed68c55e38a19ef",
+            "before": "ad874c556eca246e1c6833d958723040dbb224cb",
+            "commits": [
+                {
+                    "sha": "357ce2ebbf9e6449ea75e6d5f4c7806749e3cfd0",
+                    "author": {
+                        "email": "tblaschke@users.noreply.github.com",
+                        "name": "Thomas Blaschke"
+                    },
+                    "message": "Add exception for PyCharm terminal emulation\n\nDo not autostart tmux if we start a terminal inside PyCharm. Should also work for other JetBrains products.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/357ce2ebbf9e6449ea75e6d5f4c7806749e3cfd0"
+                },
+                {
+                    "sha": "97f36e9402f6f85820779cc43126b80fbad2c80a",
+                    "author": {
+                        "email": "enzime@users.noreply.github.com",
+                        "name": "Michael Hoang"
+                    },
+                    "message": "Add `-` alias for `cd -`\n\nTaken with love from `oh-my-zsh`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/97f36e9402f6f85820779cc43126b80fbad2c80a"
+                },
+                {
+                    "sha": "ca9012c7763e6372124465e14e8b0dc1d7db4e65",
+                    "author": {
+                        "email": "jeff@jeffwidman.com",
+                        "name": "Jeff Widman"
+                    },
+                    "message": "Set `EXTENDED_GLOB` in the python module\n\nThis is needed to find python. \r\n\r\nIt is often already set because a user has the directory or completion module loaded before this, but that's not always true.\r\n\r\nSee extensive debugging / further explanation here: https://github.com/sorin-ionescu/prezto/issues/1949\r\n\r\nThis does not fully resolve that issue, as there's another enhancement that I'll put up as a separate PR.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/ca9012c7763e6372124465e14e8b0dc1d7db4e65"
+                },
+                {
+                    "sha": "e3a9583f3370e11a0da1414d3f335eac40c1e922",
+                    "author": {
+                        "email": "jeff@jeffwidman.com",
+                        "name": "Jeff Widman"
+                    },
+                    "message": "Support `virtualenvwrapper` with / without `pyenv` `virtualenv-init` or `virtualenvwrapper` plugins\n\nThe desired logic is:\n\nFor the `pyenv` plugins `virtualenv-init` and `virtualenvwrapper`:\n1. If either plugin is present, activate it\n2. If `virtualenvwrapper` plugin is not present, then\n   [fallback to standard\n   `virtualenvwrapper`](https://github.com/sorin-ionescu/prezto/pull/1414#issuecomment-320306421).\n3. If `virtualenvwrapper` plugin is present, then [don't fallback to\n   standard `virtualenvwrapper`, regardless of whether `virtualenv-init`\n   is\n   present](https://github.com/sorin-ionescu/prezto/pull/1981#issue-1123766676).\n\nPreviously, if the `virtualenv` command was present but `pyenv` was\nmissing, then the fallback wouldn't be hit. This bug was introduced by\nhttps://github.com/sorin-ionescu/prezto/pull/1981/ which ensured that\nthe `pyenv` `virtualenvwrapper` plugin was activated if present,\nregardless of the presence of the `virtualenv-init` plugin.\n\nAs an optimization, the check for the `pyenv` plugins are skipped if\n`pyenv` itself isn't found.\n\nSince we only want to fallback if the `pyenv` `virtualenvwrapper` plugin\nis missing, but that's buried within the `pyenv` logic and we also need\nto handle when `pyenv` itself is missing, this switches to using a flag\nvariable.\n\nI also renamed the `virtualenv_sources` var to\n`virtualenvwrapper_sources` as `virtualenv` is distinct from\n`virtualenvwrapper`, so using one name for a var that is really about\nthe other is confusing.\n\nLooking at `git blame`, there's a _lot_ of prior art here around trying\nto support all the permutations of `pyenv` and various plugins:\n* https://github.com/sorin-ionescu/prezto/issues/1413\n* https://github.com/sorin-ionescu/prezto/pull/1414\n* https://github.com/sorin-ionescu/prezto/pull/1433\n* https://github.com/sorin-ionescu/prezto/pull/1434\n\nSo we need to be extremely careful to continue to support all these\npermutations.\n\nFix https://github.com/sorin-ionescu/prezto/issues/2022",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/e3a9583f3370e11a0da1414d3f335eac40c1e922"
+                },
+                {
+                    "sha": "6857e244dcc41f038edc5dc3d927f2d8525780bb",
+                    "author": {
+                        "email": "dfreedm2@gmail.com",
+                        "name": "Daniel Freedman"
+                    },
+                    "message": "Merge branch 'master' of ssh://github.com/sorin-ionescu/prezto",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/6857e244dcc41f038edc5dc3d927f2d8525780bb"
+                },
+                {
+                    "sha": "62409c7c0325732db6576053e3f373aec92d73a9",
+                    "author": {
+                        "email": "dfreedm2@gmail.com",
+                        "name": "Daniel Freedman"
+                    },
+                    "message": "update plug",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/62409c7c0325732db6576053e3f373aec92d73a9"
+                },
+                {
+                    "sha": "a44e6e7876da21dc2fde34530ed68c55e38a19ef",
+                    "author": {
+                        "email": "dfreedm2@gmail.com",
+                        "name": "Daniel Freedman"
+                    },
+                    "message": "add wayland env flags",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/a44e6e7876da21dc2fde34530ed68c55e38a19ef"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-23T05:39:08Z"
+    },
+    {
         "id": "24037495702",
         "type": "PullRequestReviewEvent",
         "actor": {
@@ -459,8 +1291,8 @@
         }
     },
     {
-        "id": "23797285349",
-        "type": "MemberEvent",
+        "id": "25578676635",
+        "type": "IssueCommentEvent",
         "actor": {
             "id": 46725,
             "login": "dfreedm",
@@ -470,45 +1302,729 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
         },
         "repo": {
-            "id": 62266995,
-            "name": "webcomponents/webcomponents.org",
-            "url": "https://api.github.com/repos/webcomponents/webcomponents.org"
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
         },
         "payload": {
-            "member": {
-                "login": "justinfagnani",
-                "id": 522948,
-                "node_id": "MDQ6VXNlcjUyMjk0OA==",
-                "avatar_url": "https://avatars.githubusercontent.com/u/522948?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/justinfagnani",
-                "html_url": "https://github.com/justinfagnani",
-                "followers_url": "https://api.github.com/users/justinfagnani/followers",
-                "following_url": "https://api.github.com/users/justinfagnani/following{/other_user}",
-                "gists_url": "https://api.github.com/users/justinfagnani/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/justinfagnani/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/justinfagnani/subscriptions",
-                "organizations_url": "https://api.github.com/users/justinfagnani/orgs",
-                "repos_url": "https://api.github.com/users/justinfagnani/repos",
-                "events_url": "https://api.github.com/users/justinfagnani/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/justinfagnani/received_events",
-                "type": "User",
-                "site_admin": false
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "repository_url": "https://api.github.com/repos/material-components/material-web",
+                "labels_url": "https://api.github.com/repos/material-components/material-web/issues/3799/labels{/name}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "events_url": "https://api.github.com/repos/material-components/material-web/issues/3799/events",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "id": 1468908385,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "number": 3799,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1512622747,
+                        "node_id": "MDU6TGFiZWwxNTEyNjIyNzQ3",
+                        "url": "https://api.github.com/repos/material-components/material-web/labels/Ready%20for%20Google",
+                        "name": "Ready for Google",
+                        "color": "5bd626",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-12-01T01:17:30Z",
+                "closed_at": null,
+                "author_association": "COLLABORATOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                    "html_url": "https://github.com/material-components/material-web/pull/3799",
+                    "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                    "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                    "merged_at": null
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/3799/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/material-components/material-web/issues/3799/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
             },
-            "action": "added"
+            "comment": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1333007544",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#issuecomment-1333007544",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "id": 1333007544,
+                "node_id": "IC_kwDOB5KfTs5PdBS4",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-12-01T01:17:30Z",
+                "updated_at": "2022-12-01T01:17:30Z",
+                "author_association": "COLLABORATOR",
+                "body": "Ah that makes sense",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1333007544/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
         },
         "public": true,
-        "created_at": "2022-09-02T21:33:56Z",
+        "created_at": "2022-12-01T01:17:31Z",
         "org": {
-            "id": 1905708,
-            "login": "webcomponents",
+            "id": 19478152,
+            "login": "material-components",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/webcomponents",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1905708?"
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
         }
     },
     {
-        "id": "23648986524",
+        "id": "25577714952",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "repository_url": "https://api.github.com/repos/material-components/material-web",
+                "labels_url": "https://api.github.com/repos/material-components/material-web/issues/3799/labels{/name}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "events_url": "https://api.github.com/repos/material-components/material-web/issues/3799/events",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "id": 1468908385,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "number": 3799,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1512622747,
+                        "node_id": "MDU6TGFiZWwxNTEyNjIyNzQ3",
+                        "url": "https://api.github.com/repos/material-components/material-web/labels/Ready%20for%20Google",
+                        "name": "Ready for Google",
+                        "color": "5bd626",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-12-01T00:09:37Z",
+                "closed_at": null,
+                "author_association": "COLLABORATOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                    "html_url": "https://github.com/material-components/material-web/pull/3799",
+                    "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                    "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                    "merged_at": null
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/3799/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/material-components/material-web/issues/3799/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1332922520",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#issuecomment-1332922520",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "id": 1332922520,
+                "node_id": "IC_kwDOB5KfTs5PcsiY",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-12-01T00:09:37Z",
+                "updated_at": "2022-12-01T00:09:37Z",
+                "author_association": "COLLABORATOR",
+                "body": "Firefox doesn't define Touch unless it detects a touchscreen. I don't think we check for Touch anywhere in MWC, so it must be a web-test-runner thing...",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1332922520/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-12-01T00:09:38Z",
+        "org": {
+            "id": 19478152,
+            "login": "material-components",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
+        }
+    },
+    {
+        "id": "25575090650",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1200025919,
+                "node_id": "PRR_kwDOB5KfTs5HhvE_",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "LGTM.\r\n\r\nWhat sort of issues are happening on firefox?",
+                "commit_id": "066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                "submitted_at": "2022-11-30T21:18:44Z",
+                "state": "approved",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#pullrequestreview-1200025919",
+                "pull_request_url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                "author_association": "COLLABORATOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/material-components/material-web/pull/3799#pullrequestreview-1200025919"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                "id": 1139720399,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "number": 3799,
+                "state": "open",
+                "locked": false,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-11-30T21:18:44Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "bf9c45af7d7f19913f1feeacea160e11606e6275",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "asyncLiz",
+                        "id": 34382620,
+                        "node_id": "MDQ6VXNlcjM0MzgyNjIw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/34382620?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/asyncLiz",
+                        "html_url": "https://github.com/asyncLiz",
+                        "followers_url": "https://api.github.com/users/asyncLiz/followers",
+                        "following_url": "https://api.github.com/users/asyncLiz/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/asyncLiz/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/asyncLiz/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/asyncLiz/subscriptions",
+                        "organizations_url": "https://api.github.com/users/asyncLiz/orgs",
+                        "repos_url": "https://api.github.com/users/asyncLiz/repos",
+                        "events_url": "https://api.github.com/users/asyncLiz/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/asyncLiz/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/material-components/material-web/pulls/3799/commits",
+                "review_comments_url": "https://api.github.com/repos/material-components/material-web/pulls/3799/comments",
+                "review_comment_url": "https://api.github.com/repos/material-components/material-web/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                "head": {
+                    "label": "material-components:ci-tests",
+                    "ref": "ci-tests",
+                    "sha": "066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                    "user": {
+                        "login": "material-components",
+                        "id": 19478152,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/material-components",
+                        "html_url": "https://github.com/material-components",
+                        "followers_url": "https://api.github.com/users/material-components/followers",
+                        "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                        "organizations_url": "https://api.github.com/users/material-components/orgs",
+                        "repos_url": "https://api.github.com/users/material-components/repos",
+                        "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/material-components/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 127049550,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjcwNDk1NTA=",
+                        "name": "material-web",
+                        "full_name": "material-components/material-web",
+                        "private": false,
+                        "owner": {
+                            "login": "material-components",
+                            "id": 19478152,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/material-components",
+                            "html_url": "https://github.com/material-components",
+                            "followers_url": "https://api.github.com/users/material-components/followers",
+                            "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                            "organizations_url": "https://api.github.com/users/material-components/orgs",
+                            "repos_url": "https://api.github.com/users/material-components/repos",
+                            "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/material-components/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/material-components/material-web",
+                        "description": "Material Design Web Components",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/material-components/material-web",
+                        "forks_url": "https://api.github.com/repos/material-components/material-web/forks",
+                        "keys_url": "https://api.github.com/repos/material-components/material-web/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/material-components/material-web/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/material-components/material-web/teams",
+                        "hooks_url": "https://api.github.com/repos/material-components/material-web/hooks",
+                        "issue_events_url": "https://api.github.com/repos/material-components/material-web/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/material-components/material-web/events",
+                        "assignees_url": "https://api.github.com/repos/material-components/material-web/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/material-components/material-web/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/material-components/material-web/tags",
+                        "blobs_url": "https://api.github.com/repos/material-components/material-web/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/material-components/material-web/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/material-components/material-web/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/material-components/material-web/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/material-components/material-web/languages",
+                        "stargazers_url": "https://api.github.com/repos/material-components/material-web/stargazers",
+                        "contributors_url": "https://api.github.com/repos/material-components/material-web/contributors",
+                        "subscribers_url": "https://api.github.com/repos/material-components/material-web/subscribers",
+                        "subscription_url": "https://api.github.com/repos/material-components/material-web/subscription",
+                        "commits_url": "https://api.github.com/repos/material-components/material-web/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/material-components/material-web/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/material-components/material-web/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/material-components/material-web/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/material-components/material-web/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/material-components/material-web/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/material-components/material-web/merges",
+                        "archive_url": "https://api.github.com/repos/material-components/material-web/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/material-components/material-web/downloads",
+                        "issues_url": "https://api.github.com/repos/material-components/material-web/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/material-components/material-web/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/material-components/material-web/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/material-components/material-web/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/material-components/material-web/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/material-components/material-web/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/material-components/material-web/deployments",
+                        "created_at": "2018-03-27T21:46:51Z",
+                        "updated_at": "2022-11-30T20:39:39Z",
+                        "pushed_at": "2022-11-30T19:45:02Z",
+                        "git_url": "git://github.com/material-components/material-web.git",
+                        "ssh_url": "git@github.com:material-components/material-web.git",
+                        "clone_url": "https://github.com/material-components/material-web.git",
+                        "svn_url": "https://github.com/material-components/material-web",
+                        "homepage": "https://material-components.github.io/material-web/",
+                        "size": 70907,
+                        "stargazers_count": 4434,
+                        "watchers_count": 4434,
+                        "language": "SCSS",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 538,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 271,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 538,
+                        "open_issues": 271,
+                        "watchers": 4434,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "material-components:master",
+                    "ref": "master",
+                    "sha": "933cb14ac8ee02b0d3a8b36ef8045472adecfb32",
+                    "user": {
+                        "login": "material-components",
+                        "id": 19478152,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/material-components",
+                        "html_url": "https://github.com/material-components",
+                        "followers_url": "https://api.github.com/users/material-components/followers",
+                        "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                        "organizations_url": "https://api.github.com/users/material-components/orgs",
+                        "repos_url": "https://api.github.com/users/material-components/repos",
+                        "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/material-components/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 127049550,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjcwNDk1NTA=",
+                        "name": "material-web",
+                        "full_name": "material-components/material-web",
+                        "private": false,
+                        "owner": {
+                            "login": "material-components",
+                            "id": 19478152,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/material-components",
+                            "html_url": "https://github.com/material-components",
+                            "followers_url": "https://api.github.com/users/material-components/followers",
+                            "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                            "organizations_url": "https://api.github.com/users/material-components/orgs",
+                            "repos_url": "https://api.github.com/users/material-components/repos",
+                            "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/material-components/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/material-components/material-web",
+                        "description": "Material Design Web Components",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/material-components/material-web",
+                        "forks_url": "https://api.github.com/repos/material-components/material-web/forks",
+                        "keys_url": "https://api.github.com/repos/material-components/material-web/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/material-components/material-web/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/material-components/material-web/teams",
+                        "hooks_url": "https://api.github.com/repos/material-components/material-web/hooks",
+                        "issue_events_url": "https://api.github.com/repos/material-components/material-web/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/material-components/material-web/events",
+                        "assignees_url": "https://api.github.com/repos/material-components/material-web/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/material-components/material-web/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/material-components/material-web/tags",
+                        "blobs_url": "https://api.github.com/repos/material-components/material-web/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/material-components/material-web/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/material-components/material-web/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/material-components/material-web/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/material-components/material-web/languages",
+                        "stargazers_url": "https://api.github.com/repos/material-components/material-web/stargazers",
+                        "contributors_url": "https://api.github.com/repos/material-components/material-web/contributors",
+                        "subscribers_url": "https://api.github.com/repos/material-components/material-web/subscribers",
+                        "subscription_url": "https://api.github.com/repos/material-components/material-web/subscription",
+                        "commits_url": "https://api.github.com/repos/material-components/material-web/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/material-components/material-web/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/material-components/material-web/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/material-components/material-web/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/material-components/material-web/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/material-components/material-web/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/material-components/material-web/merges",
+                        "archive_url": "https://api.github.com/repos/material-components/material-web/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/material-components/material-web/downloads",
+                        "issues_url": "https://api.github.com/repos/material-components/material-web/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/material-components/material-web/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/material-components/material-web/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/material-components/material-web/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/material-components/material-web/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/material-components/material-web/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/material-components/material-web/deployments",
+                        "created_at": "2018-03-27T21:46:51Z",
+                        "updated_at": "2022-11-30T20:39:39Z",
+                        "pushed_at": "2022-11-30T19:45:02Z",
+                        "git_url": "git://github.com/material-components/material-web.git",
+                        "ssh_url": "git@github.com:material-components/material-web.git",
+                        "clone_url": "https://github.com/material-components/material-web.git",
+                        "svn_url": "https://github.com/material-components/material-web",
+                        "homepage": "https://material-components.github.io/material-web/",
+                        "size": 70907,
+                        "stargazers_count": 4434,
+                        "watchers_count": 4434,
+                        "language": "SCSS",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 538,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 271,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 538,
+                        "open_issues": 271,
+                        "watchers": 4434,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799"
+                    },
+                    "html": {
+                        "href": "https://github.com/material-components/material-web/pull/3799"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/material-components/material-web/issues/3799"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/material-components/material-web/issues/3799/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/material-components/material-web/statuses/066219f082dbb01037a79a1d9d6b3c8d08a0a22a"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T21:18:44Z",
+        "org": {
+            "id": 19478152,
+            "login": "material-components",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
+        }
+    },
+    {
+        "id": "25419900864",
         "type": "PushEvent",
         "actor": {
             "id": 46725,
@@ -524,67 +2040,87 @@
             "url": "https://api.github.com/repos/dfreedm/prezto"
         },
         "payload": {
-            "push_id": 10837433200,
-            "size": 5,
-            "distinct_size": 5,
+            "push_id": 11757817881,
+            "size": 7,
+            "distinct_size": 7,
             "ref": "refs/heads/master",
-            "head": "ad874c556eca246e1c6833d958723040dbb224cb",
-            "before": "ffb2207a81eed942abefae5aeb8a3597c11fe40c",
+            "head": "a44e6e7876da21dc2fde34530ed68c55e38a19ef",
+            "before": "ad874c556eca246e1c6833d958723040dbb224cb",
             "commits": [
                 {
-                    "sha": "0aef8086b5deeda4681ce12b90df621d53d16b3c",
+                    "sha": "357ce2ebbf9e6449ea75e6d5f4c7806749e3cfd0",
                     "author": {
-                        "email": "irc@indrajit.com",
-                        "name": "Indrajit Raychaudhuri"
+                        "email": "tblaschke@users.noreply.github.com",
+                        "name": "Thomas Blaschke"
                     },
-                    "message": "completion: Update completion submodule to 0.34.0",
+                    "message": "Add exception for PyCharm terminal emulation\n\nDo not autostart tmux if we start a terminal inside PyCharm. Should also work for other JetBrains products.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/0aef8086b5deeda4681ce12b90df621d53d16b3c"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/357ce2ebbf9e6449ea75e6d5f4c7806749e3cfd0"
                 },
                 {
-                    "sha": "3ea20cfbe8d55259016e37a69e4fae7356e322e0",
+                    "sha": "97f36e9402f6f85820779cc43126b80fbad2c80a",
                     "author": {
-                        "email": "irc@indrajit.com",
-                        "name": "Indrajit Raychaudhuri"
+                        "email": "enzime@users.noreply.github.com",
+                        "name": "Michael Hoang"
                     },
-                    "message": "utility: Make 'http-serve' handler faster for well known cases\n\nIn most systems, python2 or python3 command/soft-link would almost\nalways exist. In such cases, we don't need to invoke `python` to\ndetect the version. This should speed things up a bit as well.",
+                    "message": "Add `-` alias for `cd -`\n\nTaken with love from `oh-my-zsh`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/3ea20cfbe8d55259016e37a69e4fae7356e322e0"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/97f36e9402f6f85820779cc43126b80fbad2c80a"
                 },
                 {
-                    "sha": "51c4ff6de4e2d1afd30e52ba19b21b1128fd1ed5",
+                    "sha": "ca9012c7763e6372124465e14e8b0dc1d7db4e65",
                     "author": {
-                        "email": "ginny690901@hotmail.de",
-                        "name": "Shea690901"
+                        "email": "jeff@jeffwidman.com",
+                        "name": "Jeff Widman"
                     },
-                    "message": "feat(module/ssh): add globbing for ssh-add param\n\nfixes #2000\n\nSigned-off-by: Shea690901 <ginny690901@hotmail.de>",
+                    "message": "Set `EXTENDED_GLOB` in the python module\n\nThis is needed to find python. \r\n\r\nIt is often already set because a user has the directory or completion module loaded before this, but that's not always true.\r\n\r\nSee extensive debugging / further explanation here: https://github.com/sorin-ionescu/prezto/issues/1949\r\n\r\nThis does not fully resolve that issue, as there's another enhancement that I'll put up as a separate PR.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/51c4ff6de4e2d1afd30e52ba19b21b1128fd1ed5"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/ca9012c7763e6372124465e14e8b0dc1d7db4e65"
                 },
                 {
-                    "sha": "4600accdc929e5f7d07afecec3f20c47f2e8e613",
+                    "sha": "e3a9583f3370e11a0da1414d3f335eac40c1e922",
+                    "author": {
+                        "email": "jeff@jeffwidman.com",
+                        "name": "Jeff Widman"
+                    },
+                    "message": "Support `virtualenvwrapper` with / without `pyenv` `virtualenv-init` or `virtualenvwrapper` plugins\n\nThe desired logic is:\n\nFor the `pyenv` plugins `virtualenv-init` and `virtualenvwrapper`:\n1. If either plugin is present, activate it\n2. If `virtualenvwrapper` plugin is not present, then\n   [fallback to standard\n   `virtualenvwrapper`](https://github.com/sorin-ionescu/prezto/pull/1414#issuecomment-320306421).\n3. If `virtualenvwrapper` plugin is present, then [don't fallback to\n   standard `virtualenvwrapper`, regardless of whether `virtualenv-init`\n   is\n   present](https://github.com/sorin-ionescu/prezto/pull/1981#issue-1123766676).\n\nPreviously, if the `virtualenv` command was present but `pyenv` was\nmissing, then the fallback wouldn't be hit. This bug was introduced by\nhttps://github.com/sorin-ionescu/prezto/pull/1981/ which ensured that\nthe `pyenv` `virtualenvwrapper` plugin was activated if present,\nregardless of the presence of the `virtualenv-init` plugin.\n\nAs an optimization, the check for the `pyenv` plugins are skipped if\n`pyenv` itself isn't found.\n\nSince we only want to fallback if the `pyenv` `virtualenvwrapper` plugin\nis missing, but that's buried within the `pyenv` logic and we also need\nto handle when `pyenv` itself is missing, this switches to using a flag\nvariable.\n\nI also renamed the `virtualenv_sources` var to\n`virtualenvwrapper_sources` as `virtualenv` is distinct from\n`virtualenvwrapper`, so using one name for a var that is really about\nthe other is confusing.\n\nLooking at `git blame`, there's a _lot_ of prior art here around trying\nto support all the permutations of `pyenv` and various plugins:\n* https://github.com/sorin-ionescu/prezto/issues/1413\n* https://github.com/sorin-ionescu/prezto/pull/1414\n* https://github.com/sorin-ionescu/prezto/pull/1433\n* https://github.com/sorin-ionescu/prezto/pull/1434\n\nSo we need to be extremely careful to continue to support all these\npermutations.\n\nFix https://github.com/sorin-ionescu/prezto/issues/2022",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/e3a9583f3370e11a0da1414d3f335eac40c1e922"
+                },
+                {
+                    "sha": "6857e244dcc41f038edc5dc3d927f2d8525780bb",
                     "author": {
                         "email": "dfreedm2@gmail.com",
                         "name": "Daniel Freedman"
                     },
                     "message": "Merge branch 'master' of ssh://github.com/sorin-ionescu/prezto",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/4600accdc929e5f7d07afecec3f20c47f2e8e613"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/6857e244dcc41f038edc5dc3d927f2d8525780bb"
                 },
                 {
-                    "sha": "ad874c556eca246e1c6833d958723040dbb224cb",
+                    "sha": "62409c7c0325732db6576053e3f373aec92d73a9",
                     "author": {
                         "email": "dfreedm2@gmail.com",
                         "name": "Daniel Freedman"
                     },
-                    "message": "Use doas instead of sudo if available",
+                    "message": "update plug",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/ad874c556eca246e1c6833d958723040dbb224cb"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/62409c7c0325732db6576053e3f373aec92d73a9"
+                },
+                {
+                    "sha": "a44e6e7876da21dc2fde34530ed68c55e38a19ef",
+                    "author": {
+                        "email": "dfreedm2@gmail.com",
+                        "name": "Daniel Freedman"
+                    },
+                    "message": "add wayland env flags",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/a44e6e7876da21dc2fde34530ed68c55e38a19ef"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-26T03:29:17Z"
+        "created_at": "2022-11-23T05:39:08Z"
     },
     {
         "id": "24037495702",
@@ -1046,8 +2582,8 @@
         }
     },
     {
-        "id": "23797285349",
-        "type": "MemberEvent",
+        "id": "25578676635",
+        "type": "IssueCommentEvent",
         "actor": {
             "id": 46725,
             "login": "dfreedm",
@@ -1057,45 +2593,729 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
         },
         "repo": {
-            "id": 62266995,
-            "name": "webcomponents/webcomponents.org",
-            "url": "https://api.github.com/repos/webcomponents/webcomponents.org"
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
         },
         "payload": {
-            "member": {
-                "login": "justinfagnani",
-                "id": 522948,
-                "node_id": "MDQ6VXNlcjUyMjk0OA==",
-                "avatar_url": "https://avatars.githubusercontent.com/u/522948?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/justinfagnani",
-                "html_url": "https://github.com/justinfagnani",
-                "followers_url": "https://api.github.com/users/justinfagnani/followers",
-                "following_url": "https://api.github.com/users/justinfagnani/following{/other_user}",
-                "gists_url": "https://api.github.com/users/justinfagnani/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/justinfagnani/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/justinfagnani/subscriptions",
-                "organizations_url": "https://api.github.com/users/justinfagnani/orgs",
-                "repos_url": "https://api.github.com/users/justinfagnani/repos",
-                "events_url": "https://api.github.com/users/justinfagnani/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/justinfagnani/received_events",
-                "type": "User",
-                "site_admin": false
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "repository_url": "https://api.github.com/repos/material-components/material-web",
+                "labels_url": "https://api.github.com/repos/material-components/material-web/issues/3799/labels{/name}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "events_url": "https://api.github.com/repos/material-components/material-web/issues/3799/events",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "id": 1468908385,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "number": 3799,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1512622747,
+                        "node_id": "MDU6TGFiZWwxNTEyNjIyNzQ3",
+                        "url": "https://api.github.com/repos/material-components/material-web/labels/Ready%20for%20Google",
+                        "name": "Ready for Google",
+                        "color": "5bd626",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 7,
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-12-01T01:17:30Z",
+                "closed_at": null,
+                "author_association": "COLLABORATOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                    "html_url": "https://github.com/material-components/material-web/pull/3799",
+                    "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                    "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                    "merged_at": null
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/3799/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/material-components/material-web/issues/3799/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
             },
-            "action": "added"
+            "comment": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1333007544",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#issuecomment-1333007544",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "id": 1333007544,
+                "node_id": "IC_kwDOB5KfTs5PdBS4",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-12-01T01:17:30Z",
+                "updated_at": "2022-12-01T01:17:30Z",
+                "author_association": "COLLABORATOR",
+                "body": "Ah that makes sense",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1333007544/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
         },
         "public": true,
-        "created_at": "2022-09-02T21:33:56Z",
+        "created_at": "2022-12-01T01:17:31Z",
         "org": {
-            "id": 1905708,
-            "login": "webcomponents",
+            "id": 19478152,
+            "login": "material-components",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/webcomponents",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1905708?"
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
         }
     },
     {
-        "id": "23648986524",
+        "id": "25577714952",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "repository_url": "https://api.github.com/repos/material-components/material-web",
+                "labels_url": "https://api.github.com/repos/material-components/material-web/issues/3799/labels{/name}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "events_url": "https://api.github.com/repos/material-components/material-web/issues/3799/events",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "id": 1468908385,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "number": 3799,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 1512622747,
+                        "node_id": "MDU6TGFiZWwxNTEyNjIyNzQ3",
+                        "url": "https://api.github.com/repos/material-components/material-web/labels/Ready%20for%20Google",
+                        "name": "Ready for Google",
+                        "color": "5bd626",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 5,
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-12-01T00:09:37Z",
+                "closed_at": null,
+                "author_association": "COLLABORATOR",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                    "html_url": "https://github.com/material-components/material-web/pull/3799",
+                    "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                    "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                    "merged_at": null
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/3799/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/material-components/material-web/issues/3799/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1332922520",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#issuecomment-1332922520",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "id": 1332922520,
+                "node_id": "IC_kwDOB5KfTs5PcsiY",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-12-01T00:09:37Z",
+                "updated_at": "2022-12-01T00:09:37Z",
+                "author_association": "COLLABORATOR",
+                "body": "Firefox doesn't define Touch unless it detects a touchscreen. I don't think we check for Touch anywhere in MWC, so it must be a web-test-runner thing...",
+                "reactions": {
+                    "url": "https://api.github.com/repos/material-components/material-web/issues/comments/1332922520/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-12-01T00:09:38Z",
+        "org": {
+            "id": 19478152,
+            "login": "material-components",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
+        }
+    },
+    {
+        "id": "25575090650",
+        "type": "PullRequestReviewEvent",
+        "actor": {
+            "id": 46725,
+            "login": "dfreedm",
+            "display_login": "dfreedm",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dfreedm",
+            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
+        },
+        "repo": {
+            "id": 127049550,
+            "name": "material-components/material-web",
+            "url": "https://api.github.com/repos/material-components/material-web"
+        },
+        "payload": {
+            "action": "created",
+            "review": {
+                "id": 1200025919,
+                "node_id": "PRR_kwDOB5KfTs5HhvE_",
+                "user": {
+                    "login": "dfreedm",
+                    "id": 46725,
+                    "node_id": "MDQ6VXNlcjQ2NzI1",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46725?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dfreedm",
+                    "html_url": "https://github.com/dfreedm",
+                    "followers_url": "https://api.github.com/users/dfreedm/followers",
+                    "following_url": "https://api.github.com/users/dfreedm/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dfreedm/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dfreedm/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dfreedm/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dfreedm/orgs",
+                    "repos_url": "https://api.github.com/users/dfreedm/repos",
+                    "events_url": "https://api.github.com/users/dfreedm/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dfreedm/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "LGTM.\r\n\r\nWhat sort of issues are happening on firefox?",
+                "commit_id": "066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                "submitted_at": "2022-11-30T21:18:44Z",
+                "state": "approved",
+                "html_url": "https://github.com/material-components/material-web/pull/3799#pullrequestreview-1200025919",
+                "pull_request_url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                "author_association": "COLLABORATOR",
+                "_links": {
+                    "html": {
+                        "href": "https://github.com/material-components/material-web/pull/3799#pullrequestreview-1200025919"
+                    },
+                    "pull_request": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799"
+                    }
+                }
+            },
+            "pull_request": {
+                "url": "https://api.github.com/repos/material-components/material-web/pulls/3799",
+                "id": 1139720399,
+                "node_id": "PR_kwDOB5KfTs5D7sDP",
+                "html_url": "https://github.com/material-components/material-web/pull/3799",
+                "diff_url": "https://github.com/material-components/material-web/pull/3799.diff",
+                "patch_url": "https://github.com/material-components/material-web/pull/3799.patch",
+                "issue_url": "https://api.github.com/repos/material-components/material-web/issues/3799",
+                "number": 3799,
+                "state": "open",
+                "locked": false,
+                "title": "Set up existing Jasmine tests on GitHub CI",
+                "user": {
+                    "login": "aomarks",
+                    "id": 48894,
+                    "node_id": "MDQ6VXNlcjQ4ODk0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/48894?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/aomarks",
+                    "html_url": "https://github.com/aomarks",
+                    "followers_url": "https://api.github.com/users/aomarks/followers",
+                    "following_url": "https://api.github.com/users/aomarks/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/aomarks/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/aomarks/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/aomarks/subscriptions",
+                    "organizations_url": "https://api.github.com/users/aomarks/orgs",
+                    "repos_url": "https://api.github.com/users/aomarks/repos",
+                    "events_url": "https://api.github.com/users/aomarks/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/aomarks/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "- The existing Jasmine tests can now be run with `npm test`. It uses https://modern-web.dev/docs/test-runner/overview/ with the https://github.com/blueprintui/web-test-runner-jasmine plugin. **They all pass on Chromium but not Firefox, and I didn't try Safari yet, so I'm only including Chromium for now.**\r\n\r\n- The only incompatibility with the test files are the use of `import 'jasmine'`, which is done in Google3 to make `taze` happy, but is invalid externally because the `jasmine` package is a Node-only commonjs module that can't be loaded in the browser (https://unpkg.com/browse/jasmine@4.5.0/lib/jasmine.js), so the test runner jasmine plugin is responsible for actually injecting the browser-compatible Jasmine. The copybara transform has been updated in https://github.com/material-components/material-web/commit/933cb14ac8ee02b0d3a8b36ef8045472adecfb32.\r\n\r\n- Added `build` and `test` GitHub actions, which should both pass. The reason I separated them is because it makes the CI status easier to read in the case that the build succeeds but the tests fail.\r\n\r\n- The `package-lock.json` file is now checked in. I think we should start doing this, because it makes CI builds more reliable and much easier to know when a change in a dependency is what broke the build/tests, since those upgrades are tracked by Git.\r\n\r\n- Converted the package to `\"type\": \"module\"`, which is important to help tools understand that this package distributes modules, not commonjs which is the default. I also updated `css-to-ts.js` to be a module since it is now executed as one by default (trivial change).\r\n\r\n- Upgraded dependencies.\r\n\r\nPart of https://github.com/material-components/material-web/issues/3773",
+                "created_at": "2022-11-30T01:13:21Z",
+                "updated_at": "2022-11-30T21:18:44Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": "bf9c45af7d7f19913f1feeacea160e11606e6275",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "asyncLiz",
+                        "id": 34382620,
+                        "node_id": "MDQ6VXNlcjM0MzgyNjIw",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/34382620?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/asyncLiz",
+                        "html_url": "https://github.com/asyncLiz",
+                        "followers_url": "https://api.github.com/users/asyncLiz/followers",
+                        "following_url": "https://api.github.com/users/asyncLiz/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/asyncLiz/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/asyncLiz/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/asyncLiz/subscriptions",
+                        "organizations_url": "https://api.github.com/users/asyncLiz/orgs",
+                        "repos_url": "https://api.github.com/users/asyncLiz/repos",
+                        "events_url": "https://api.github.com/users/asyncLiz/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/asyncLiz/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/material-components/material-web/pulls/3799/commits",
+                "review_comments_url": "https://api.github.com/repos/material-components/material-web/pulls/3799/comments",
+                "review_comment_url": "https://api.github.com/repos/material-components/material-web/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/material-components/material-web/issues/3799/comments",
+                "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                "head": {
+                    "label": "material-components:ci-tests",
+                    "ref": "ci-tests",
+                    "sha": "066219f082dbb01037a79a1d9d6b3c8d08a0a22a",
+                    "user": {
+                        "login": "material-components",
+                        "id": 19478152,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/material-components",
+                        "html_url": "https://github.com/material-components",
+                        "followers_url": "https://api.github.com/users/material-components/followers",
+                        "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                        "organizations_url": "https://api.github.com/users/material-components/orgs",
+                        "repos_url": "https://api.github.com/users/material-components/repos",
+                        "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/material-components/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 127049550,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjcwNDk1NTA=",
+                        "name": "material-web",
+                        "full_name": "material-components/material-web",
+                        "private": false,
+                        "owner": {
+                            "login": "material-components",
+                            "id": 19478152,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/material-components",
+                            "html_url": "https://github.com/material-components",
+                            "followers_url": "https://api.github.com/users/material-components/followers",
+                            "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                            "organizations_url": "https://api.github.com/users/material-components/orgs",
+                            "repos_url": "https://api.github.com/users/material-components/repos",
+                            "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/material-components/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/material-components/material-web",
+                        "description": "Material Design Web Components",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/material-components/material-web",
+                        "forks_url": "https://api.github.com/repos/material-components/material-web/forks",
+                        "keys_url": "https://api.github.com/repos/material-components/material-web/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/material-components/material-web/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/material-components/material-web/teams",
+                        "hooks_url": "https://api.github.com/repos/material-components/material-web/hooks",
+                        "issue_events_url": "https://api.github.com/repos/material-components/material-web/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/material-components/material-web/events",
+                        "assignees_url": "https://api.github.com/repos/material-components/material-web/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/material-components/material-web/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/material-components/material-web/tags",
+                        "blobs_url": "https://api.github.com/repos/material-components/material-web/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/material-components/material-web/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/material-components/material-web/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/material-components/material-web/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/material-components/material-web/languages",
+                        "stargazers_url": "https://api.github.com/repos/material-components/material-web/stargazers",
+                        "contributors_url": "https://api.github.com/repos/material-components/material-web/contributors",
+                        "subscribers_url": "https://api.github.com/repos/material-components/material-web/subscribers",
+                        "subscription_url": "https://api.github.com/repos/material-components/material-web/subscription",
+                        "commits_url": "https://api.github.com/repos/material-components/material-web/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/material-components/material-web/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/material-components/material-web/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/material-components/material-web/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/material-components/material-web/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/material-components/material-web/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/material-components/material-web/merges",
+                        "archive_url": "https://api.github.com/repos/material-components/material-web/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/material-components/material-web/downloads",
+                        "issues_url": "https://api.github.com/repos/material-components/material-web/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/material-components/material-web/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/material-components/material-web/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/material-components/material-web/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/material-components/material-web/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/material-components/material-web/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/material-components/material-web/deployments",
+                        "created_at": "2018-03-27T21:46:51Z",
+                        "updated_at": "2022-11-30T20:39:39Z",
+                        "pushed_at": "2022-11-30T19:45:02Z",
+                        "git_url": "git://github.com/material-components/material-web.git",
+                        "ssh_url": "git@github.com:material-components/material-web.git",
+                        "clone_url": "https://github.com/material-components/material-web.git",
+                        "svn_url": "https://github.com/material-components/material-web",
+                        "homepage": "https://material-components.github.io/material-web/",
+                        "size": 70907,
+                        "stargazers_count": 4434,
+                        "watchers_count": 4434,
+                        "language": "SCSS",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 538,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 271,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 538,
+                        "open_issues": 271,
+                        "watchers": 4434,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "material-components:master",
+                    "ref": "master",
+                    "sha": "933cb14ac8ee02b0d3a8b36ef8045472adecfb32",
+                    "user": {
+                        "login": "material-components",
+                        "id": 19478152,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/material-components",
+                        "html_url": "https://github.com/material-components",
+                        "followers_url": "https://api.github.com/users/material-components/followers",
+                        "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                        "organizations_url": "https://api.github.com/users/material-components/orgs",
+                        "repos_url": "https://api.github.com/users/material-components/repos",
+                        "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/material-components/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 127049550,
+                        "node_id": "MDEwOlJlcG9zaXRvcnkxMjcwNDk1NTA=",
+                        "name": "material-web",
+                        "full_name": "material-components/material-web",
+                        "private": false,
+                        "owner": {
+                            "login": "material-components",
+                            "id": 19478152,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE5NDc4MTUy",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/material-components",
+                            "html_url": "https://github.com/material-components",
+                            "followers_url": "https://api.github.com/users/material-components/followers",
+                            "following_url": "https://api.github.com/users/material-components/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/material-components/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/material-components/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/material-components/subscriptions",
+                            "organizations_url": "https://api.github.com/users/material-components/orgs",
+                            "repos_url": "https://api.github.com/users/material-components/repos",
+                            "events_url": "https://api.github.com/users/material-components/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/material-components/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/material-components/material-web",
+                        "description": "Material Design Web Components",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/material-components/material-web",
+                        "forks_url": "https://api.github.com/repos/material-components/material-web/forks",
+                        "keys_url": "https://api.github.com/repos/material-components/material-web/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/material-components/material-web/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/material-components/material-web/teams",
+                        "hooks_url": "https://api.github.com/repos/material-components/material-web/hooks",
+                        "issue_events_url": "https://api.github.com/repos/material-components/material-web/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/material-components/material-web/events",
+                        "assignees_url": "https://api.github.com/repos/material-components/material-web/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/material-components/material-web/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/material-components/material-web/tags",
+                        "blobs_url": "https://api.github.com/repos/material-components/material-web/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/material-components/material-web/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/material-components/material-web/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/material-components/material-web/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/material-components/material-web/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/material-components/material-web/languages",
+                        "stargazers_url": "https://api.github.com/repos/material-components/material-web/stargazers",
+                        "contributors_url": "https://api.github.com/repos/material-components/material-web/contributors",
+                        "subscribers_url": "https://api.github.com/repos/material-components/material-web/subscribers",
+                        "subscription_url": "https://api.github.com/repos/material-components/material-web/subscription",
+                        "commits_url": "https://api.github.com/repos/material-components/material-web/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/material-components/material-web/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/material-components/material-web/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/material-components/material-web/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/material-components/material-web/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/material-components/material-web/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/material-components/material-web/merges",
+                        "archive_url": "https://api.github.com/repos/material-components/material-web/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/material-components/material-web/downloads",
+                        "issues_url": "https://api.github.com/repos/material-components/material-web/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/material-components/material-web/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/material-components/material-web/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/material-components/material-web/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/material-components/material-web/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/material-components/material-web/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/material-components/material-web/deployments",
+                        "created_at": "2018-03-27T21:46:51Z",
+                        "updated_at": "2022-11-30T20:39:39Z",
+                        "pushed_at": "2022-11-30T19:45:02Z",
+                        "git_url": "git://github.com/material-components/material-web.git",
+                        "ssh_url": "git@github.com:material-components/material-web.git",
+                        "clone_url": "https://github.com/material-components/material-web.git",
+                        "svn_url": "https://github.com/material-components/material-web",
+                        "homepage": "https://material-components.github.io/material-web/",
+                        "size": 70907,
+                        "stargazers_count": 4434,
+                        "watchers_count": 4434,
+                        "language": "SCSS",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": false,
+                        "has_pages": true,
+                        "has_discussions": false,
+                        "forks_count": 538,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 271,
+                        "license": {
+                            "key": "apache-2.0",
+                            "name": "Apache License 2.0",
+                            "spdx_id": "Apache-2.0",
+                            "url": "https://api.github.com/licenses/apache-2.0",
+                            "node_id": "MDc6TGljZW5zZTI="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [],
+                        "visibility": "public",
+                        "forks": 538,
+                        "open_issues": 271,
+                        "watchers": 4434,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799"
+                    },
+                    "html": {
+                        "href": "https://github.com/material-components/material-web/pull/3799"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/material-components/material-web/issues/3799"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/material-components/material-web/issues/3799/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/material-components/material-web/pulls/3799/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/material-components/material-web/statuses/066219f082dbb01037a79a1d9d6b3c8d08a0a22a"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-30T21:18:44Z",
+        "org": {
+            "id": 19478152,
+            "login": "material-components",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/material-components",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19478152?"
+        }
+    },
+    {
+        "id": "25419900864",
         "type": "PushEvent",
         "actor": {
             "id": 46725,
@@ -1111,67 +3331,87 @@
             "url": "https://api.github.com/repos/dfreedm/prezto"
         },
         "payload": {
-            "push_id": 10837433200,
-            "size": 5,
-            "distinct_size": 5,
+            "push_id": 11757817881,
+            "size": 7,
+            "distinct_size": 7,
             "ref": "refs/heads/master",
-            "head": "ad874c556eca246e1c6833d958723040dbb224cb",
-            "before": "ffb2207a81eed942abefae5aeb8a3597c11fe40c",
+            "head": "a44e6e7876da21dc2fde34530ed68c55e38a19ef",
+            "before": "ad874c556eca246e1c6833d958723040dbb224cb",
             "commits": [
                 {
-                    "sha": "0aef8086b5deeda4681ce12b90df621d53d16b3c",
+                    "sha": "357ce2ebbf9e6449ea75e6d5f4c7806749e3cfd0",
                     "author": {
-                        "email": "irc@indrajit.com",
-                        "name": "Indrajit Raychaudhuri"
+                        "email": "tblaschke@users.noreply.github.com",
+                        "name": "Thomas Blaschke"
                     },
-                    "message": "completion: Update completion submodule to 0.34.0",
+                    "message": "Add exception for PyCharm terminal emulation\n\nDo not autostart tmux if we start a terminal inside PyCharm. Should also work for other JetBrains products.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/0aef8086b5deeda4681ce12b90df621d53d16b3c"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/357ce2ebbf9e6449ea75e6d5f4c7806749e3cfd0"
                 },
                 {
-                    "sha": "3ea20cfbe8d55259016e37a69e4fae7356e322e0",
+                    "sha": "97f36e9402f6f85820779cc43126b80fbad2c80a",
                     "author": {
-                        "email": "irc@indrajit.com",
-                        "name": "Indrajit Raychaudhuri"
+                        "email": "enzime@users.noreply.github.com",
+                        "name": "Michael Hoang"
                     },
-                    "message": "utility: Make 'http-serve' handler faster for well known cases\n\nIn most systems, python2 or python3 command/soft-link would almost\nalways exist. In such cases, we don't need to invoke `python` to\ndetect the version. This should speed things up a bit as well.",
+                    "message": "Add `-` alias for `cd -`\n\nTaken with love from `oh-my-zsh`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/3ea20cfbe8d55259016e37a69e4fae7356e322e0"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/97f36e9402f6f85820779cc43126b80fbad2c80a"
                 },
                 {
-                    "sha": "51c4ff6de4e2d1afd30e52ba19b21b1128fd1ed5",
+                    "sha": "ca9012c7763e6372124465e14e8b0dc1d7db4e65",
                     "author": {
-                        "email": "ginny690901@hotmail.de",
-                        "name": "Shea690901"
+                        "email": "jeff@jeffwidman.com",
+                        "name": "Jeff Widman"
                     },
-                    "message": "feat(module/ssh): add globbing for ssh-add param\n\nfixes #2000\n\nSigned-off-by: Shea690901 <ginny690901@hotmail.de>",
+                    "message": "Set `EXTENDED_GLOB` in the python module\n\nThis is needed to find python. \r\n\r\nIt is often already set because a user has the directory or completion module loaded before this, but that's not always true.\r\n\r\nSee extensive debugging / further explanation here: https://github.com/sorin-ionescu/prezto/issues/1949\r\n\r\nThis does not fully resolve that issue, as there's another enhancement that I'll put up as a separate PR.",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/51c4ff6de4e2d1afd30e52ba19b21b1128fd1ed5"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/ca9012c7763e6372124465e14e8b0dc1d7db4e65"
                 },
                 {
-                    "sha": "4600accdc929e5f7d07afecec3f20c47f2e8e613",
+                    "sha": "e3a9583f3370e11a0da1414d3f335eac40c1e922",
+                    "author": {
+                        "email": "jeff@jeffwidman.com",
+                        "name": "Jeff Widman"
+                    },
+                    "message": "Support `virtualenvwrapper` with / without `pyenv` `virtualenv-init` or `virtualenvwrapper` plugins\n\nThe desired logic is:\n\nFor the `pyenv` plugins `virtualenv-init` and `virtualenvwrapper`:\n1. If either plugin is present, activate it\n2. If `virtualenvwrapper` plugin is not present, then\n   [fallback to standard\n   `virtualenvwrapper`](https://github.com/sorin-ionescu/prezto/pull/1414#issuecomment-320306421).\n3. If `virtualenvwrapper` plugin is present, then [don't fallback to\n   standard `virtualenvwrapper`, regardless of whether `virtualenv-init`\n   is\n   present](https://github.com/sorin-ionescu/prezto/pull/1981#issue-1123766676).\n\nPreviously, if the `virtualenv` command was present but `pyenv` was\nmissing, then the fallback wouldn't be hit. This bug was introduced by\nhttps://github.com/sorin-ionescu/prezto/pull/1981/ which ensured that\nthe `pyenv` `virtualenvwrapper` plugin was activated if present,\nregardless of the presence of the `virtualenv-init` plugin.\n\nAs an optimization, the check for the `pyenv` plugins are skipped if\n`pyenv` itself isn't found.\n\nSince we only want to fallback if the `pyenv` `virtualenvwrapper` plugin\nis missing, but that's buried within the `pyenv` logic and we also need\nto handle when `pyenv` itself is missing, this switches to using a flag\nvariable.\n\nI also renamed the `virtualenv_sources` var to\n`virtualenvwrapper_sources` as `virtualenv` is distinct from\n`virtualenvwrapper`, so using one name for a var that is really about\nthe other is confusing.\n\nLooking at `git blame`, there's a _lot_ of prior art here around trying\nto support all the permutations of `pyenv` and various plugins:\n* https://github.com/sorin-ionescu/prezto/issues/1413\n* https://github.com/sorin-ionescu/prezto/pull/1414\n* https://github.com/sorin-ionescu/prezto/pull/1433\n* https://github.com/sorin-ionescu/prezto/pull/1434\n\nSo we need to be extremely careful to continue to support all these\npermutations.\n\nFix https://github.com/sorin-ionescu/prezto/issues/2022",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/e3a9583f3370e11a0da1414d3f335eac40c1e922"
+                },
+                {
+                    "sha": "6857e244dcc41f038edc5dc3d927f2d8525780bb",
                     "author": {
                         "email": "dfreedm2@gmail.com",
                         "name": "Daniel Freedman"
                     },
                     "message": "Merge branch 'master' of ssh://github.com/sorin-ionescu/prezto",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/4600accdc929e5f7d07afecec3f20c47f2e8e613"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/6857e244dcc41f038edc5dc3d927f2d8525780bb"
                 },
                 {
-                    "sha": "ad874c556eca246e1c6833d958723040dbb224cb",
+                    "sha": "62409c7c0325732db6576053e3f373aec92d73a9",
                     "author": {
                         "email": "dfreedm2@gmail.com",
                         "name": "Daniel Freedman"
                     },
-                    "message": "Use doas instead of sudo if available",
+                    "message": "update plug",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/ad874c556eca246e1c6833d958723040dbb224cb"
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/62409c7c0325732db6576053e3f373aec92d73a9"
+                },
+                {
+                    "sha": "a44e6e7876da21dc2fde34530ed68c55e38a19ef",
+                    "author": {
+                        "email": "dfreedm2@gmail.com",
+                        "name": "Daniel Freedman"
+                    },
+                    "message": "add wayland env flags",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/a44e6e7876da21dc2fde34530ed68c55e38a19ef"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-26T03:29:17Z"
+        "created_at": "2022-11-23T05:39:08Z"
     },
     {
         "id": "24037495702",
@@ -1631,133 +3871,5 @@
             "url": "https://api.github.com/orgs/webcomponents",
             "avatar_url": "https://avatars.githubusercontent.com/u/1905708?"
         }
-    },
-    {
-        "id": "23797285349",
-        "type": "MemberEvent",
-        "actor": {
-            "id": 46725,
-            "login": "dfreedm",
-            "display_login": "dfreedm",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/dfreedm",
-            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
-        },
-        "repo": {
-            "id": 62266995,
-            "name": "webcomponents/webcomponents.org",
-            "url": "https://api.github.com/repos/webcomponents/webcomponents.org"
-        },
-        "payload": {
-            "member": {
-                "login": "justinfagnani",
-                "id": 522948,
-                "node_id": "MDQ6VXNlcjUyMjk0OA==",
-                "avatar_url": "https://avatars.githubusercontent.com/u/522948?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/justinfagnani",
-                "html_url": "https://github.com/justinfagnani",
-                "followers_url": "https://api.github.com/users/justinfagnani/followers",
-                "following_url": "https://api.github.com/users/justinfagnani/following{/other_user}",
-                "gists_url": "https://api.github.com/users/justinfagnani/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/justinfagnani/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/justinfagnani/subscriptions",
-                "organizations_url": "https://api.github.com/users/justinfagnani/orgs",
-                "repos_url": "https://api.github.com/users/justinfagnani/repos",
-                "events_url": "https://api.github.com/users/justinfagnani/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/justinfagnani/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "action": "added"
-        },
-        "public": true,
-        "created_at": "2022-09-02T21:33:56Z",
-        "org": {
-            "id": 1905708,
-            "login": "webcomponents",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/webcomponents",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1905708?"
-        }
-    },
-    {
-        "id": "23648986524",
-        "type": "PushEvent",
-        "actor": {
-            "id": 46725,
-            "login": "dfreedm",
-            "display_login": "dfreedm",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/dfreedm",
-            "avatar_url": "https://avatars.githubusercontent.com/u/46725?"
-        },
-        "repo": {
-            "id": 28572436,
-            "name": "dfreedm/prezto",
-            "url": "https://api.github.com/repos/dfreedm/prezto"
-        },
-        "payload": {
-            "push_id": 10837433200,
-            "size": 5,
-            "distinct_size": 5,
-            "ref": "refs/heads/master",
-            "head": "ad874c556eca246e1c6833d958723040dbb224cb",
-            "before": "ffb2207a81eed942abefae5aeb8a3597c11fe40c",
-            "commits": [
-                {
-                    "sha": "0aef8086b5deeda4681ce12b90df621d53d16b3c",
-                    "author": {
-                        "email": "irc@indrajit.com",
-                        "name": "Indrajit Raychaudhuri"
-                    },
-                    "message": "completion: Update completion submodule to 0.34.0",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/0aef8086b5deeda4681ce12b90df621d53d16b3c"
-                },
-                {
-                    "sha": "3ea20cfbe8d55259016e37a69e4fae7356e322e0",
-                    "author": {
-                        "email": "irc@indrajit.com",
-                        "name": "Indrajit Raychaudhuri"
-                    },
-                    "message": "utility: Make 'http-serve' handler faster for well known cases\n\nIn most systems, python2 or python3 command/soft-link would almost\nalways exist. In such cases, we don't need to invoke `python` to\ndetect the version. This should speed things up a bit as well.",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/3ea20cfbe8d55259016e37a69e4fae7356e322e0"
-                },
-                {
-                    "sha": "51c4ff6de4e2d1afd30e52ba19b21b1128fd1ed5",
-                    "author": {
-                        "email": "ginny690901@hotmail.de",
-                        "name": "Shea690901"
-                    },
-                    "message": "feat(module/ssh): add globbing for ssh-add param\n\nfixes #2000\n\nSigned-off-by: Shea690901 <ginny690901@hotmail.de>",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/51c4ff6de4e2d1afd30e52ba19b21b1128fd1ed5"
-                },
-                {
-                    "sha": "4600accdc929e5f7d07afecec3f20c47f2e8e613",
-                    "author": {
-                        "email": "dfreedm2@gmail.com",
-                        "name": "Daniel Freedman"
-                    },
-                    "message": "Merge branch 'master' of ssh://github.com/sorin-ionescu/prezto",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/4600accdc929e5f7d07afecec3f20c47f2e8e613"
-                },
-                {
-                    "sha": "ad874c556eca246e1c6833d958723040dbb224cb",
-                    "author": {
-                        "email": "dfreedm2@gmail.com",
-                        "name": "Daniel Freedman"
-                    },
-                    "message": "Use doas instead of sudo if available",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/dfreedm/prezto/commits/ad874c556eca246e1c6833d958723040dbb224cb"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-26T03:29:17Z"
     }
 ]

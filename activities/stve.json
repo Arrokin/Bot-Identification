@@ -1,6 +1,50 @@
 [
     {
-        "id": "25036569870",
+        "id": "25333496565",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 314975143,
+            "name": "meeb/tubesync",
+            "url": "https://api.github.com/repos/meeb/tubesync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-18T15:01:33Z"
+    },
+    {
+        "id": "25188249652",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 6103911,
+            "name": "jsatk/dotfiles",
+            "url": "https://api.github.com/repos/jsatk/dotfiles"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-11T20:32:04Z"
+    },
+    {
+        "id": "25058783548",
         "type": "PushEvent",
         "actor": {
             "id": 28044,
@@ -16,103 +60,30 @@
             "url": "https://api.github.com/repos/stve/dotfiles"
         },
         "payload": {
-            "push_id": 11556791881,
+            "push_id": 11570801673,
             "size": 1,
             "distinct_size": 1,
             "ref": "refs/heads/fish",
-            "head": "b13a91254a411f8bc777876dd2ee036e453391dd",
-            "before": "7bf187a62d48f9194165b7c15d1cff7ab93aca68",
+            "head": "7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88",
+            "before": "a5be43443807241ec336ef14055ccec1d942554b",
             "commits": [
                 {
-                    "sha": "b13a91254a411f8bc777876dd2ee036e453391dd",
+                    "sha": "7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88",
                     "author": {
                         "email": "steve.agalloco@gmail.com",
                         "name": "Steve Agalloco"
                     },
-                    "message": "Enable autoSetupRemote on branch pushes",
+                    "message": "Add brew-cleanup script",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/b13a91254a411f8bc777876dd2ee036e453391dd"
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-11-04T16:30:47Z"
+        "created_at": "2022-11-06T20:23:59Z"
     },
     {
-        "id": "24605247532",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 509970897,
-            "name": "bensadeh/tailspin",
-            "url": "https://api.github.com/repos/bensadeh/tailspin"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-14T15:38:15Z"
-    },
-    {
-        "id": "24511894388",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 538355550,
-            "name": "shubhamgrg04/awesome-diagramming",
-            "url": "https://api.github.com/repos/shubhamgrg04/awesome-diagramming"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-10T22:40:53Z"
-    },
-    {
-        "id": "24352814122",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 400215964,
-            "name": "novuhq/novu",
-            "url": "https://api.github.com/repos/novuhq/novu"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-03T03:01:39Z",
-        "org": {
-            "id": 77433905,
-            "login": "novuhq",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/novuhq",
-            "avatar_url": "https://avatars.githubusercontent.com/u/77433905?"
-        }
-    },
-    {
-        "id": "24167857205",
+        "id": "25056793687",
         "type": "PushEvent",
         "actor": {
             "id": 28044,
@@ -128,515 +99,47 @@
             "url": "https://api.github.com/repos/stve/dotfiles"
         },
         "payload": {
-            "push_id": 11106618462,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/fish",
-            "head": "7bf187a62d48f9194165b7c15d1cff7ab93aca68",
-            "before": "a7899399f2e8acac201b6142e2a334b8e1555961",
-            "commits": [
-                {
-                    "sha": "7bf187a62d48f9194165b7c15d1cff7ab93aca68",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Simplify current branch name in git",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/7bf187a62d48f9194165b7c15d1cff7ab93aca68"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-22T16:27:09Z"
-    },
-    {
-        "id": "24117740918",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 361834303,
-            "name": "ListenNotes/podcast-api-go",
-            "url": "https://api.github.com/repos/ListenNotes/podcast-api-go"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-20T15:56:50Z",
-        "org": {
-            "id": 34229391,
-            "login": "ListenNotes",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/ListenNotes",
-            "avatar_url": "https://avatars.githubusercontent.com/u/34229391?"
-        }
-    },
-    {
-        "id": "24094436394",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 534305169,
-            "name": "skymethod/op3",
-            "url": "https://api.github.com/repos/skymethod/op3"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-19T17:25:24Z",
-        "org": {
-            "id": 47259760,
-            "login": "skymethod",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/skymethod",
-            "avatar_url": "https://avatars.githubusercontent.com/u/47259760?"
-        }
-    },
-    {
-        "id": "23927133250",
-        "type": "PushEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 25445635,
-            "name": "stve/dotfiles",
-            "url": "https://api.github.com/repos/stve/dotfiles"
-        },
-        "payload": {
-            "push_id": 10980762239,
+            "push_id": 11569455663,
             "size": 3,
             "distinct_size": 3,
             "ref": "refs/heads/fish",
-            "head": "a7899399f2e8acac201b6142e2a334b8e1555961",
-            "before": "f2bd5786daa8f39aa991bf17dc4e6926aab84e9c",
+            "head": "a5be43443807241ec336ef14055ccec1d942554b",
+            "before": "b13a91254a411f8bc777876dd2ee036e453391dd",
             "commits": [
                 {
-                    "sha": "e047070a5907a01281095225cd00319c10b60214",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Fix git pushup",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/e047070a5907a01281095225cd00319c10b60214"
-                },
-                {
-                    "sha": "ae3f945a561f2c495af403531f554e4e142458f9",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove zsh c function",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ae3f945a561f2c495af403531f554e4e142458f9"
-                },
-                {
-                    "sha": "a7899399f2e8acac201b6142e2a334b8e1555961",
+                    "sha": "3d3ae87513c1d303277db7bc44de839a130c8528",
                     "author": {
                         "email": "steve.agalloco@gmail.com",
                         "name": "Steve Agalloco"
                     },
                     "message": "Update starship prompt",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a7899399f2e8acac201b6142e2a334b8e1555961"
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3d3ae87513c1d303277db7bc44de839a130c8528"
+                },
+                {
+                    "sha": "d1d2b62401080271bc15562c7274a3848cecb806",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Update project autocomplete script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/d1d2b62401080271bc15562c7274a3848cecb806"
+                },
+                {
+                    "sha": "a5be43443807241ec336ef14055ccec1d942554b",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Updat iterm config",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a5be43443807241ec336ef14055ccec1d942554b"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-10T01:48:13Z"
-    },
-    {
-        "id": "23926749765",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 25445635,
-            "name": "stve/dotfiles",
-            "url": "https://api.github.com/repos/stve/dotfiles"
-        },
-        "payload": {
-            "ref": "fish",
-            "ref_type": "branch",
-            "master_branch": "main",
-            "description": "My fork of @holman's dotfiles",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-10T00:38:03Z"
-    },
-    {
-        "id": "23876849235",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 384024019,
-            "name": "justinhoward/cutoff",
-            "url": "https://api.github.com/repos/justinhoward/cutoff"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-07T19:58:12Z"
-    },
-    {
-        "id": "23848675538",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 4682612,
-            "name": "cactus/go-camo",
-            "url": "https://api.github.com/repos/cactus/go-camo"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-06T15:53:35Z",
-        "org": {
-            "id": 61860448,
-            "login": "cactus",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/cactus",
-            "avatar_url": "https://avatars.githubusercontent.com/u/61860448?"
-        }
-    },
-    {
-        "id": "23665033325",
-        "type": "PushEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 25445635,
-            "name": "stve/dotfiles",
-            "url": "https://api.github.com/repos/stve/dotfiles"
-        },
-        "payload": {
-            "push_id": 10845411742,
-            "size": 10,
-            "distinct_size": 10,
-            "ref": "refs/heads/main",
-            "head": "ec5387cb552d567690a7aacdc59f8df105f9b9eb",
-            "before": "94a8561cc64f688139eb63e22ead21c5a552fccb",
-            "commits": [
-                {
-                    "sha": "3ea1205c2fb33132f96847668011689321516d72",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove atom config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3ea1205c2fb33132f96847668011689321516d72"
-                },
-                {
-                    "sha": "d057d6ec7e16b6acfb5cec2c10c99d5f8a621ce6",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove heroku",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/d057d6ec7e16b6acfb5cec2c10c99d5f8a621ce6"
-                },
-                {
-                    "sha": "8e4b67b26f884255a85e8a0bafb01a5cf11f7c76",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove vim config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/8e4b67b26f884255a85e8a0bafb01a5cf11f7c76"
-                },
-                {
-                    "sha": "3e12895e664df7f5ed1684ad553f9b23f8e37dd1",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove ios simulator",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3e12895e664df7f5ed1684ad553f9b23f8e37dd1"
-                },
-                {
-                    "sha": "0efc584fcac5be830455952b34bddb85456d5283",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Cleanup unused system configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/0efc584fcac5be830455952b34bddb85456d5283"
-                },
-                {
-                    "sha": "a7d7492f7438f9f8ed535d42ca037b8dd68aff49",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove pow",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a7d7492f7438f9f8ed535d42ca037b8dd68aff49"
-                },
-                {
-                    "sha": "2539fbbec42e49e1ff5c1810eda1883d15f449b8",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove mongo config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/2539fbbec42e49e1ff5c1810eda1883d15f449b8"
-                },
-                {
-                    "sha": "5fb7e48d614304914bf015617a21f4b5b6567c28",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove electron config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/5fb7e48d614304914bf015617a21f4b5b6567c28"
-                },
-                {
-                    "sha": "ffdcc614f6bb901c56f467aa5bbbb88b7667b595",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove osx configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ffdcc614f6bb901c56f467aa5bbbb88b7667b595"
-                },
-                {
-                    "sha": "ec5387cb552d567690a7aacdc59f8df105f9b9eb",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove direnv config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ec5387cb552d567690a7aacdc59f8df105f9b9eb"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-26T19:49:30Z"
-    },
-    {
-        "id": "23470284195",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 71318852,
-            "name": "stve/scar",
-            "url": "https://api.github.com/repos/stve/scar"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/stve/scar/issues/3",
-                "repository_url": "https://api.github.com/repos/stve/scar",
-                "labels_url": "https://api.github.com/repos/stve/scar/issues/3/labels{/name}",
-                "comments_url": "https://api.github.com/repos/stve/scar/issues/3/comments",
-                "events_url": "https://api.github.com/repos/stve/scar/issues/3/events",
-                "html_url": "https://github.com/stve/scar/issues/3",
-                "id": 1148728124,
-                "node_id": "I_kwDOBEA9RM5EeDM8",
-                "number": 3,
-                "title": "User art",
-                "user": {
-                    "login": "89z",
-                    "id": 73562167,
-                    "node_id": "MDQ6VXNlcjczNTYyMTY3",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/73562167?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/89z",
-                    "html_url": "https://github.com/89z",
-                    "followers_url": "https://api.github.com/users/89z/followers",
-                    "following_url": "https://api.github.com/users/89z/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/89z/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/89z/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/89z/subscriptions",
-                    "organizations_url": "https://api.github.com/users/89z/orgs",
-                    "repos_url": "https://api.github.com/users/89z/repos",
-                    "events_url": "https://api.github.com/users/89z/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/89z/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-02-24T00:39:03Z",
-                "updated_at": "2022-08-16T21:01:39Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Is it possible to get user artwork?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stve/scar/issues/3/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/stve/scar/issues/3/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/stve/scar/issues/comments/1217160956",
-                "html_url": "https://github.com/stve/scar/issues/3#issuecomment-1217160956",
-                "issue_url": "https://api.github.com/repos/stve/scar/issues/3",
-                "id": 1217160956,
-                "node_id": "IC_kwDOBEA9RM5IjGb8",
-                "user": {
-                    "login": "stve",
-                    "id": 28044,
-                    "node_id": "MDQ6VXNlcjI4MDQ0",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/28044?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/stve",
-                    "html_url": "https://github.com/stve",
-                    "followers_url": "https://api.github.com/users/stve/followers",
-                    "following_url": "https://api.github.com/users/stve/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/stve/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/stve/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/stve/subscriptions",
-                    "organizations_url": "https://api.github.com/users/stve/orgs",
-                    "repos_url": "https://api.github.com/users/stve/repos",
-                    "events_url": "https://api.github.com/users/stve/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/stve/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-08-16T21:01:39Z",
-                "updated_at": "2022-08-16T21:01:39Z",
-                "author_association": "OWNER",
-                "body": "@89z Apologize I missed this question when you asked it. I think it's definitely possible. How are you looking to leverage it? As an option instead of track artwork? Or by way of `scar https://soundcloud.com/artist` as the command?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stve/scar/issues/comments/1217160956/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-08-16T21:01:40Z"
-    },
-    {
-        "id": "23466889246",
-        "type": "PushEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 71318852,
-            "name": "stve/scar",
-            "url": "https://api.github.com/repos/stve/scar"
-        },
-        "payload": {
-            "push_id": 10744558464,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/main",
-            "head": "aba363dd38df6429876eee09301463ebf83982e1",
-            "before": "9ebb39ca6675573742d22c0e8981da37c5dd1ea3",
-            "commits": [
-                {
-                    "sha": "aba363dd38df6429876eee09301463ebf83982e1",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Ensure a URL argument is passed",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/scar/commits/aba363dd38df6429876eee09301463ebf83982e1"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-16T17:39:09Z"
+        "created_at": "2022-11-06T15:38:51Z"
     },
     {
         "id": "25036569870",
@@ -848,7 +351,51 @@
         }
     },
     {
-        "id": "23927133250",
+        "id": "25333496565",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 314975143,
+            "name": "meeb/tubesync",
+            "url": "https://api.github.com/repos/meeb/tubesync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-18T15:01:33Z"
+    },
+    {
+        "id": "25188249652",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 6103911,
+            "name": "jsatk/dotfiles",
+            "url": "https://api.github.com/repos/jsatk/dotfiles"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-11T20:32:04Z"
+    },
+    {
+        "id": "25058783548",
         "type": "PushEvent",
         "actor": {
             "id": 28044,
@@ -864,418 +411,86 @@
             "url": "https://api.github.com/repos/stve/dotfiles"
         },
         "payload": {
-            "push_id": 10980762239,
+            "push_id": 11570801673,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/fish",
+            "head": "7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88",
+            "before": "a5be43443807241ec336ef14055ccec1d942554b",
+            "commits": [
+                {
+                    "sha": "7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Add brew-cleanup script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-06T20:23:59Z"
+    },
+    {
+        "id": "25056793687",
+        "type": "PushEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 25445635,
+            "name": "stve/dotfiles",
+            "url": "https://api.github.com/repos/stve/dotfiles"
+        },
+        "payload": {
+            "push_id": 11569455663,
             "size": 3,
             "distinct_size": 3,
             "ref": "refs/heads/fish",
-            "head": "a7899399f2e8acac201b6142e2a334b8e1555961",
-            "before": "f2bd5786daa8f39aa991bf17dc4e6926aab84e9c",
+            "head": "a5be43443807241ec336ef14055ccec1d942554b",
+            "before": "b13a91254a411f8bc777876dd2ee036e453391dd",
             "commits": [
                 {
-                    "sha": "e047070a5907a01281095225cd00319c10b60214",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Fix git pushup",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/e047070a5907a01281095225cd00319c10b60214"
-                },
-                {
-                    "sha": "ae3f945a561f2c495af403531f554e4e142458f9",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove zsh c function",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ae3f945a561f2c495af403531f554e4e142458f9"
-                },
-                {
-                    "sha": "a7899399f2e8acac201b6142e2a334b8e1555961",
+                    "sha": "3d3ae87513c1d303277db7bc44de839a130c8528",
                     "author": {
                         "email": "steve.agalloco@gmail.com",
                         "name": "Steve Agalloco"
                     },
                     "message": "Update starship prompt",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a7899399f2e8acac201b6142e2a334b8e1555961"
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3d3ae87513c1d303277db7bc44de839a130c8528"
+                },
+                {
+                    "sha": "d1d2b62401080271bc15562c7274a3848cecb806",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Update project autocomplete script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/d1d2b62401080271bc15562c7274a3848cecb806"
+                },
+                {
+                    "sha": "a5be43443807241ec336ef14055ccec1d942554b",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Updat iterm config",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a5be43443807241ec336ef14055ccec1d942554b"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-10T01:48:13Z"
-    },
-    {
-        "id": "23926749765",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 25445635,
-            "name": "stve/dotfiles",
-            "url": "https://api.github.com/repos/stve/dotfiles"
-        },
-        "payload": {
-            "ref": "fish",
-            "ref_type": "branch",
-            "master_branch": "main",
-            "description": "My fork of @holman's dotfiles",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-10T00:38:03Z"
-    },
-    {
-        "id": "23876849235",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 384024019,
-            "name": "justinhoward/cutoff",
-            "url": "https://api.github.com/repos/justinhoward/cutoff"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-07T19:58:12Z"
-    },
-    {
-        "id": "23848675538",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 4682612,
-            "name": "cactus/go-camo",
-            "url": "https://api.github.com/repos/cactus/go-camo"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-09-06T15:53:35Z",
-        "org": {
-            "id": 61860448,
-            "login": "cactus",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/cactus",
-            "avatar_url": "https://avatars.githubusercontent.com/u/61860448?"
-        }
-    },
-    {
-        "id": "23665033325",
-        "type": "PushEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 25445635,
-            "name": "stve/dotfiles",
-            "url": "https://api.github.com/repos/stve/dotfiles"
-        },
-        "payload": {
-            "push_id": 10845411742,
-            "size": 10,
-            "distinct_size": 10,
-            "ref": "refs/heads/main",
-            "head": "ec5387cb552d567690a7aacdc59f8df105f9b9eb",
-            "before": "94a8561cc64f688139eb63e22ead21c5a552fccb",
-            "commits": [
-                {
-                    "sha": "3ea1205c2fb33132f96847668011689321516d72",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove atom config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3ea1205c2fb33132f96847668011689321516d72"
-                },
-                {
-                    "sha": "d057d6ec7e16b6acfb5cec2c10c99d5f8a621ce6",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove heroku",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/d057d6ec7e16b6acfb5cec2c10c99d5f8a621ce6"
-                },
-                {
-                    "sha": "8e4b67b26f884255a85e8a0bafb01a5cf11f7c76",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove vim config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/8e4b67b26f884255a85e8a0bafb01a5cf11f7c76"
-                },
-                {
-                    "sha": "3e12895e664df7f5ed1684ad553f9b23f8e37dd1",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove ios simulator",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3e12895e664df7f5ed1684ad553f9b23f8e37dd1"
-                },
-                {
-                    "sha": "0efc584fcac5be830455952b34bddb85456d5283",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Cleanup unused system configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/0efc584fcac5be830455952b34bddb85456d5283"
-                },
-                {
-                    "sha": "a7d7492f7438f9f8ed535d42ca037b8dd68aff49",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove pow",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a7d7492f7438f9f8ed535d42ca037b8dd68aff49"
-                },
-                {
-                    "sha": "2539fbbec42e49e1ff5c1810eda1883d15f449b8",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove mongo config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/2539fbbec42e49e1ff5c1810eda1883d15f449b8"
-                },
-                {
-                    "sha": "5fb7e48d614304914bf015617a21f4b5b6567c28",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove electron config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/5fb7e48d614304914bf015617a21f4b5b6567c28"
-                },
-                {
-                    "sha": "ffdcc614f6bb901c56f467aa5bbbb88b7667b595",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove osx configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ffdcc614f6bb901c56f467aa5bbbb88b7667b595"
-                },
-                {
-                    "sha": "ec5387cb552d567690a7aacdc59f8df105f9b9eb",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove direnv config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ec5387cb552d567690a7aacdc59f8df105f9b9eb"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-26T19:49:30Z"
-    },
-    {
-        "id": "23470284195",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 71318852,
-            "name": "stve/scar",
-            "url": "https://api.github.com/repos/stve/scar"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/stve/scar/issues/3",
-                "repository_url": "https://api.github.com/repos/stve/scar",
-                "labels_url": "https://api.github.com/repos/stve/scar/issues/3/labels{/name}",
-                "comments_url": "https://api.github.com/repos/stve/scar/issues/3/comments",
-                "events_url": "https://api.github.com/repos/stve/scar/issues/3/events",
-                "html_url": "https://github.com/stve/scar/issues/3",
-                "id": 1148728124,
-                "node_id": "I_kwDOBEA9RM5EeDM8",
-                "number": 3,
-                "title": "User art",
-                "user": {
-                    "login": "89z",
-                    "id": 73562167,
-                    "node_id": "MDQ6VXNlcjczNTYyMTY3",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/73562167?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/89z",
-                    "html_url": "https://github.com/89z",
-                    "followers_url": "https://api.github.com/users/89z/followers",
-                    "following_url": "https://api.github.com/users/89z/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/89z/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/89z/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/89z/subscriptions",
-                    "organizations_url": "https://api.github.com/users/89z/orgs",
-                    "repos_url": "https://api.github.com/users/89z/repos",
-                    "events_url": "https://api.github.com/users/89z/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/89z/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-02-24T00:39:03Z",
-                "updated_at": "2022-08-16T21:01:39Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Is it possible to get user artwork?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stve/scar/issues/3/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/stve/scar/issues/3/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/stve/scar/issues/comments/1217160956",
-                "html_url": "https://github.com/stve/scar/issues/3#issuecomment-1217160956",
-                "issue_url": "https://api.github.com/repos/stve/scar/issues/3",
-                "id": 1217160956,
-                "node_id": "IC_kwDOBEA9RM5IjGb8",
-                "user": {
-                    "login": "stve",
-                    "id": 28044,
-                    "node_id": "MDQ6VXNlcjI4MDQ0",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/28044?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/stve",
-                    "html_url": "https://github.com/stve",
-                    "followers_url": "https://api.github.com/users/stve/followers",
-                    "following_url": "https://api.github.com/users/stve/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/stve/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/stve/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/stve/subscriptions",
-                    "organizations_url": "https://api.github.com/users/stve/orgs",
-                    "repos_url": "https://api.github.com/users/stve/repos",
-                    "events_url": "https://api.github.com/users/stve/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/stve/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-08-16T21:01:39Z",
-                "updated_at": "2022-08-16T21:01:39Z",
-                "author_association": "OWNER",
-                "body": "@89z Apologize I missed this question when you asked it. I think it's definitely possible. How are you looking to leverage it? As an option instead of track artwork? Or by way of `scar https://soundcloud.com/artist` as the command?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stve/scar/issues/comments/1217160956/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-08-16T21:01:40Z"
-    },
-    {
-        "id": "23466889246",
-        "type": "PushEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 71318852,
-            "name": "stve/scar",
-            "url": "https://api.github.com/repos/stve/scar"
-        },
-        "payload": {
-            "push_id": 10744558464,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/main",
-            "head": "aba363dd38df6429876eee09301463ebf83982e1",
-            "before": "9ebb39ca6675573742d22c0e8981da37c5dd1ea3",
-            "commits": [
-                {
-                    "sha": "aba363dd38df6429876eee09301463ebf83982e1",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Ensure a URL argument is passed",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/scar/commits/aba363dd38df6429876eee09301463ebf83982e1"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-16T17:39:09Z"
+        "created_at": "2022-11-06T15:38:51Z"
     },
     {
         "id": "25036569870",
@@ -1487,7 +702,51 @@
         }
     },
     {
-        "id": "23927133250",
+        "id": "25333496565",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 314975143,
+            "name": "meeb/tubesync",
+            "url": "https://api.github.com/repos/meeb/tubesync"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-18T15:01:33Z"
+    },
+    {
+        "id": "25188249652",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 6103911,
+            "name": "jsatk/dotfiles",
+            "url": "https://api.github.com/repos/jsatk/dotfiles"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-11T20:32:04Z"
+    },
+    {
+        "id": "25058783548",
         "type": "PushEvent",
         "actor": {
             "id": 28044,
@@ -1503,51 +762,90 @@
             "url": "https://api.github.com/repos/stve/dotfiles"
         },
         "payload": {
-            "push_id": 10980762239,
+            "push_id": 11570801673,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/fish",
+            "head": "7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88",
+            "before": "a5be43443807241ec336ef14055ccec1d942554b",
+            "commits": [
+                {
+                    "sha": "7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Add brew-cleanup script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/7e4ddcf06c9ba069bd1fb60cc1df8f0b7208dc88"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-06T20:23:59Z"
+    },
+    {
+        "id": "25056793687",
+        "type": "PushEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 25445635,
+            "name": "stve/dotfiles",
+            "url": "https://api.github.com/repos/stve/dotfiles"
+        },
+        "payload": {
+            "push_id": 11569455663,
             "size": 3,
             "distinct_size": 3,
             "ref": "refs/heads/fish",
-            "head": "a7899399f2e8acac201b6142e2a334b8e1555961",
-            "before": "f2bd5786daa8f39aa991bf17dc4e6926aab84e9c",
+            "head": "a5be43443807241ec336ef14055ccec1d942554b",
+            "before": "b13a91254a411f8bc777876dd2ee036e453391dd",
             "commits": [
                 {
-                    "sha": "e047070a5907a01281095225cd00319c10b60214",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Fix git pushup",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/e047070a5907a01281095225cd00319c10b60214"
-                },
-                {
-                    "sha": "ae3f945a561f2c495af403531f554e4e142458f9",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove zsh c function",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ae3f945a561f2c495af403531f554e4e142458f9"
-                },
-                {
-                    "sha": "a7899399f2e8acac201b6142e2a334b8e1555961",
+                    "sha": "3d3ae87513c1d303277db7bc44de839a130c8528",
                     "author": {
                         "email": "steve.agalloco@gmail.com",
                         "name": "Steve Agalloco"
                     },
                     "message": "Update starship prompt",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a7899399f2e8acac201b6142e2a334b8e1555961"
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3d3ae87513c1d303277db7bc44de839a130c8528"
+                },
+                {
+                    "sha": "d1d2b62401080271bc15562c7274a3848cecb806",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Update project autocomplete script",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/d1d2b62401080271bc15562c7274a3848cecb806"
+                },
+                {
+                    "sha": "a5be43443807241ec336ef14055ccec1d942554b",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Updat iterm config",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a5be43443807241ec336ef14055ccec1d942554b"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-10T01:48:13Z"
+        "created_at": "2022-11-06T15:38:51Z"
     },
     {
-        "id": "23926749765",
-        "type": "CreateEvent",
+        "id": "25036569870",
+        "type": "PushEvent",
         "actor": {
             "id": 28044,
             "login": "stve",
@@ -1562,17 +860,30 @@
             "url": "https://api.github.com/repos/stve/dotfiles"
         },
         "payload": {
-            "ref": "fish",
-            "ref_type": "branch",
-            "master_branch": "main",
-            "description": "My fork of @holman's dotfiles",
-            "pusher_type": "user"
+            "push_id": 11556791881,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/fish",
+            "head": "b13a91254a411f8bc777876dd2ee036e453391dd",
+            "before": "7bf187a62d48f9194165b7c15d1cff7ab93aca68",
+            "commits": [
+                {
+                    "sha": "b13a91254a411f8bc777876dd2ee036e453391dd",
+                    "author": {
+                        "email": "steve.agalloco@gmail.com",
+                        "name": "Steve Agalloco"
+                    },
+                    "message": "Enable autoSetupRemote on branch pushes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/b13a91254a411f8bc777876dd2ee036e453391dd"
+                }
+            ]
         },
         "public": true,
-        "created_at": "2022-09-10T00:38:03Z"
+        "created_at": "2022-11-04T16:30:47Z"
     },
     {
-        "id": "23876849235",
+        "id": "24605247532",
         "type": "WatchEvent",
         "actor": {
             "id": 28044,
@@ -1583,18 +894,18 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
         },
         "repo": {
-            "id": 384024019,
-            "name": "justinhoward/cutoff",
-            "url": "https://api.github.com/repos/justinhoward/cutoff"
+            "id": 509970897,
+            "name": "bensadeh/tailspin",
+            "url": "https://api.github.com/repos/bensadeh/tailspin"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-09-07T19:58:12Z"
+        "created_at": "2022-10-14T15:38:15Z"
     },
     {
-        "id": "23848675538",
+        "id": "24511894388",
         "type": "WatchEvent",
         "actor": {
             "id": 28044,
@@ -1605,25 +916,47 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
         },
         "repo": {
-            "id": 4682612,
-            "name": "cactus/go-camo",
-            "url": "https://api.github.com/repos/cactus/go-camo"
+            "id": 538355550,
+            "name": "shubhamgrg04/awesome-diagramming",
+            "url": "https://api.github.com/repos/shubhamgrg04/awesome-diagramming"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-09-06T15:53:35Z",
+        "created_at": "2022-10-10T22:40:53Z"
+    },
+    {
+        "id": "24352814122",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 400215964,
+            "name": "novuhq/novu",
+            "url": "https://api.github.com/repos/novuhq/novu"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-03T03:01:39Z",
         "org": {
-            "id": 61860448,
-            "login": "cactus",
+            "id": 77433905,
+            "login": "novuhq",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/cactus",
-            "avatar_url": "https://avatars.githubusercontent.com/u/61860448?"
+            "url": "https://api.github.com/orgs/novuhq",
+            "avatar_url": "https://avatars.githubusercontent.com/u/77433905?"
         }
     },
     {
-        "id": "23665033325",
+        "id": "24167857205",
         "type": "PushEvent",
         "actor": {
             "id": 28044,
@@ -1639,281 +972,84 @@
             "url": "https://api.github.com/repos/stve/dotfiles"
         },
         "payload": {
-            "push_id": 10845411742,
-            "size": 10,
-            "distinct_size": 10,
-            "ref": "refs/heads/main",
-            "head": "ec5387cb552d567690a7aacdc59f8df105f9b9eb",
-            "before": "94a8561cc64f688139eb63e22ead21c5a552fccb",
-            "commits": [
-                {
-                    "sha": "3ea1205c2fb33132f96847668011689321516d72",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove atom config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3ea1205c2fb33132f96847668011689321516d72"
-                },
-                {
-                    "sha": "d057d6ec7e16b6acfb5cec2c10c99d5f8a621ce6",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove heroku",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/d057d6ec7e16b6acfb5cec2c10c99d5f8a621ce6"
-                },
-                {
-                    "sha": "8e4b67b26f884255a85e8a0bafb01a5cf11f7c76",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove vim config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/8e4b67b26f884255a85e8a0bafb01a5cf11f7c76"
-                },
-                {
-                    "sha": "3e12895e664df7f5ed1684ad553f9b23f8e37dd1",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove ios simulator",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/3e12895e664df7f5ed1684ad553f9b23f8e37dd1"
-                },
-                {
-                    "sha": "0efc584fcac5be830455952b34bddb85456d5283",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Cleanup unused system configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/0efc584fcac5be830455952b34bddb85456d5283"
-                },
-                {
-                    "sha": "a7d7492f7438f9f8ed535d42ca037b8dd68aff49",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove pow",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/a7d7492f7438f9f8ed535d42ca037b8dd68aff49"
-                },
-                {
-                    "sha": "2539fbbec42e49e1ff5c1810eda1883d15f449b8",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove mongo config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/2539fbbec42e49e1ff5c1810eda1883d15f449b8"
-                },
-                {
-                    "sha": "5fb7e48d614304914bf015617a21f4b5b6567c28",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove electron config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/5fb7e48d614304914bf015617a21f4b5b6567c28"
-                },
-                {
-                    "sha": "ffdcc614f6bb901c56f467aa5bbbb88b7667b595",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove osx configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ffdcc614f6bb901c56f467aa5bbbb88b7667b595"
-                },
-                {
-                    "sha": "ec5387cb552d567690a7aacdc59f8df105f9b9eb",
-                    "author": {
-                        "email": "steve.agalloco@gmail.com",
-                        "name": "Steve Agalloco"
-                    },
-                    "message": "Remove direnv config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/stve/dotfiles/commits/ec5387cb552d567690a7aacdc59f8df105f9b9eb"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-26T19:49:30Z"
-    },
-    {
-        "id": "23470284195",
-        "type": "IssueCommentEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 71318852,
-            "name": "stve/scar",
-            "url": "https://api.github.com/repos/stve/scar"
-        },
-        "payload": {
-            "action": "created",
-            "issue": {
-                "url": "https://api.github.com/repos/stve/scar/issues/3",
-                "repository_url": "https://api.github.com/repos/stve/scar",
-                "labels_url": "https://api.github.com/repos/stve/scar/issues/3/labels{/name}",
-                "comments_url": "https://api.github.com/repos/stve/scar/issues/3/comments",
-                "events_url": "https://api.github.com/repos/stve/scar/issues/3/events",
-                "html_url": "https://github.com/stve/scar/issues/3",
-                "id": 1148728124,
-                "node_id": "I_kwDOBEA9RM5EeDM8",
-                "number": 3,
-                "title": "User art",
-                "user": {
-                    "login": "89z",
-                    "id": 73562167,
-                    "node_id": "MDQ6VXNlcjczNTYyMTY3",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/73562167?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/89z",
-                    "html_url": "https://github.com/89z",
-                    "followers_url": "https://api.github.com/users/89z/followers",
-                    "following_url": "https://api.github.com/users/89z/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/89z/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/89z/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/89z/subscriptions",
-                    "organizations_url": "https://api.github.com/users/89z/orgs",
-                    "repos_url": "https://api.github.com/users/89z/repos",
-                    "events_url": "https://api.github.com/users/89z/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/89z/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 1,
-                "created_at": "2022-02-24T00:39:03Z",
-                "updated_at": "2022-08-16T21:01:39Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "Is it possible to get user artwork?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stve/scar/issues/3/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/stve/scar/issues/3/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            },
-            "comment": {
-                "url": "https://api.github.com/repos/stve/scar/issues/comments/1217160956",
-                "html_url": "https://github.com/stve/scar/issues/3#issuecomment-1217160956",
-                "issue_url": "https://api.github.com/repos/stve/scar/issues/3",
-                "id": 1217160956,
-                "node_id": "IC_kwDOBEA9RM5IjGb8",
-                "user": {
-                    "login": "stve",
-                    "id": 28044,
-                    "node_id": "MDQ6VXNlcjI4MDQ0",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/28044?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/stve",
-                    "html_url": "https://github.com/stve",
-                    "followers_url": "https://api.github.com/users/stve/followers",
-                    "following_url": "https://api.github.com/users/stve/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/stve/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/stve/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/stve/subscriptions",
-                    "organizations_url": "https://api.github.com/users/stve/orgs",
-                    "repos_url": "https://api.github.com/users/stve/repos",
-                    "events_url": "https://api.github.com/users/stve/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/stve/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "created_at": "2022-08-16T21:01:39Z",
-                "updated_at": "2022-08-16T21:01:39Z",
-                "author_association": "OWNER",
-                "body": "@89z Apologize I missed this question when you asked it. I think it's definitely possible. How are you looking to leverage it? As an option instead of track artwork? Or by way of `scar https://soundcloud.com/artist` as the command?",
-                "reactions": {
-                    "url": "https://api.github.com/repos/stve/scar/issues/comments/1217160956/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "performed_via_github_app": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-08-16T21:01:40Z"
-    },
-    {
-        "id": "23466889246",
-        "type": "PushEvent",
-        "actor": {
-            "id": 28044,
-            "login": "stve",
-            "display_login": "stve",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/stve",
-            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
-        },
-        "repo": {
-            "id": 71318852,
-            "name": "stve/scar",
-            "url": "https://api.github.com/repos/stve/scar"
-        },
-        "payload": {
-            "push_id": 10744558464,
+            "push_id": 11106618462,
             "size": 1,
             "distinct_size": 1,
-            "ref": "refs/heads/main",
-            "head": "aba363dd38df6429876eee09301463ebf83982e1",
-            "before": "9ebb39ca6675573742d22c0e8981da37c5dd1ea3",
+            "ref": "refs/heads/fish",
+            "head": "7bf187a62d48f9194165b7c15d1cff7ab93aca68",
+            "before": "a7899399f2e8acac201b6142e2a334b8e1555961",
             "commits": [
                 {
-                    "sha": "aba363dd38df6429876eee09301463ebf83982e1",
+                    "sha": "7bf187a62d48f9194165b7c15d1cff7ab93aca68",
                     "author": {
                         "email": "steve.agalloco@gmail.com",
                         "name": "Steve Agalloco"
                     },
-                    "message": "Ensure a URL argument is passed",
+                    "message": "Simplify current branch name in git",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/stve/scar/commits/aba363dd38df6429876eee09301463ebf83982e1"
+                    "url": "https://api.github.com/repos/stve/dotfiles/commits/7bf187a62d48f9194165b7c15d1cff7ab93aca68"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-16T17:39:09Z"
+        "created_at": "2022-09-22T16:27:09Z"
+    },
+    {
+        "id": "24117740918",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 361834303,
+            "name": "ListenNotes/podcast-api-go",
+            "url": "https://api.github.com/repos/ListenNotes/podcast-api-go"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-20T15:56:50Z",
+        "org": {
+            "id": 34229391,
+            "login": "ListenNotes",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/ListenNotes",
+            "avatar_url": "https://avatars.githubusercontent.com/u/34229391?"
+        }
+    },
+    {
+        "id": "24094436394",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 28044,
+            "login": "stve",
+            "display_login": "stve",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stve",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28044?"
+        },
+        "repo": {
+            "id": 534305169,
+            "name": "skymethod/op3",
+            "url": "https://api.github.com/repos/skymethod/op3"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-09-19T17:25:24Z",
+        "org": {
+            "id": 47259760,
+            "login": "skymethod",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/skymethod",
+            "avatar_url": "https://avatars.githubusercontent.com/u/47259760?"
+        }
     }
 ]

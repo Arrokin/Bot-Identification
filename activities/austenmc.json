@@ -1,1 +1,938 @@
-[]
+[
+    {
+        "id": "25530463669",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 39872221,
+            "name": "Tmeister/wp-api-jwt-auth",
+            "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263",
+                "repository_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth",
+                "labels_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/comments",
+                "events_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/events",
+                "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263",
+                "id": 1442099939,
+                "node_id": "PR_kwDOAmBm3c5Chlcw",
+                "number": 263,
+                "title": "PHP Warning: Undefined array key \"REDIRECT_HTTP_AUTHORIZATION\"",
+                "user": {
+                    "login": "gassan",
+                    "id": 2382015,
+                    "node_id": "MDQ6VXNlcjIzODIwMTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2382015?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gassan",
+                    "html_url": "https://github.com/gassan",
+                    "followers_url": "https://api.github.com/users/gassan/followers",
+                    "following_url": "https://api.github.com/users/gassan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gassan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gassan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gassan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gassan/orgs",
+                    "repos_url": "https://api.github.com/users/gassan/repos",
+                    "events_url": "https://api.github.com/users/gassan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gassan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-09T13:25:26Z",
+                "updated_at": "2022-11-29T07:58:20Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/pulls/263",
+                    "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263",
+                    "diff_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263.diff",
+                    "patch_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263.patch",
+                    "merged_at": null
+                },
+                "body": "Bugfix: isset() check is missed.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/comments/1330227053",
+                "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263#issuecomment-1330227053",
+                "issue_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263",
+                "id": 1330227053,
+                "node_id": "IC_kwDOAmBm3c5PSadt",
+                "user": {
+                    "login": "austenmc",
+                    "id": 1338823,
+                    "node_id": "MDQ6VXNlcjEzMzg4MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1338823?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/austenmc",
+                    "html_url": "https://github.com/austenmc",
+                    "followers_url": "https://api.github.com/users/austenmc/followers",
+                    "following_url": "https://api.github.com/users/austenmc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/austenmc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/austenmc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/austenmc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/austenmc/orgs",
+                    "repos_url": "https://api.github.com/users/austenmc/repos",
+                    "events_url": "https://api.github.com/users/austenmc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/austenmc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-29T07:58:20Z",
+                "updated_at": "2022-11-29T07:58:20Z",
+                "author_association": "NONE",
+                "body": "Thanks for putting this up. This is affecting pretty much every REST API call not using Bearer authentication. For example...\r\n\r\nGET /wp-json/wp/v2/users\r\n<br />\r\n<b>Notice</b>:  Undefined index: HTTP_AUTHORIZATION in <b>/var/www/staging/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php</b> on line <b>222</b><br />\r\n<br />\r\n<b>Notice</b>:  Undefined index: REDIRECT_HTTP_AUTHORIZATION in <b>/var/www/staging/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php</b> on line <b>225</b><br />\r\n\r\nPlease consider merging :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/comments/1330227053/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-29T07:58:20Z"
+    },
+    {
+        "id": "25267973406",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "My dotfiles, crossing the alps into new machines.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:54:12Z"
+    },
+    {
+        "id": "25267973421",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:54:12Z"
+    },
+    {
+        "id": "25267969553",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:59Z"
+    },
+    {
+        "id": "25267965040",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "push_id": 11678487969,
+            "size": 1,
+            "distinct_size": 0,
+            "ref": "refs/heads/master",
+            "head": "e8dee1a7015948a8b2e59eafb6f1c23edd019192",
+            "before": "951ab1b3b20b432fb0689b33f2534117985a4589",
+            "commits": [
+                {
+                    "sha": "e8dee1a7015948a8b2e59eafb6f1c23edd019192",
+                    "author": {
+                        "email": "austenmc@Austens-MacBook-Pro.local",
+                        "name": "Austen McDonald"
+                    },
+                    "message": "Update for modernity",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/austenmc/.hannibal/commits/e8dee1a7015948a8b2e59eafb6f1c23edd019192"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:43Z"
+    },
+    {
+        "id": "25267956700",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "My dotfiles, crossing the alps into new machines.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:14Z"
+    },
+    {
+        "id": "25267881662",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 360970270,
+            "name": "austenmc/moonlight-pedal",
+            "url": "https://api.github.com/repos/austenmc/moonlight-pedal"
+        },
+        "payload": {
+            "push_id": 11678444492,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "dea39ed3756d4d41559bab22b562c37e1095af7b",
+            "before": "c79a22d7137d24f7b6bfb5c58693f84e8c18ff0c",
+            "commits": [
+                {
+                    "sha": "dea39ed3756d4d41559bab22b562c37e1095af7b",
+                    "author": {
+                        "email": "austen.mcdonald@gmail.com",
+                        "name": "Austen McDonald"
+                    },
+                    "message": "Update name to be Moonlight Through the Pines",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/austenmc/moonlight-pedal/commits/dea39ed3756d4d41559bab22b562c37e1095af7b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:48:41Z"
+    },
+    {
+        "id": "25530463669",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 39872221,
+            "name": "Tmeister/wp-api-jwt-auth",
+            "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263",
+                "repository_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth",
+                "labels_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/comments",
+                "events_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/events",
+                "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263",
+                "id": 1442099939,
+                "node_id": "PR_kwDOAmBm3c5Chlcw",
+                "number": 263,
+                "title": "PHP Warning: Undefined array key \"REDIRECT_HTTP_AUTHORIZATION\"",
+                "user": {
+                    "login": "gassan",
+                    "id": 2382015,
+                    "node_id": "MDQ6VXNlcjIzODIwMTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2382015?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gassan",
+                    "html_url": "https://github.com/gassan",
+                    "followers_url": "https://api.github.com/users/gassan/followers",
+                    "following_url": "https://api.github.com/users/gassan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gassan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gassan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gassan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gassan/orgs",
+                    "repos_url": "https://api.github.com/users/gassan/repos",
+                    "events_url": "https://api.github.com/users/gassan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gassan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-09T13:25:26Z",
+                "updated_at": "2022-11-29T07:58:20Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/pulls/263",
+                    "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263",
+                    "diff_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263.diff",
+                    "patch_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263.patch",
+                    "merged_at": null
+                },
+                "body": "Bugfix: isset() check is missed.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/comments/1330227053",
+                "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263#issuecomment-1330227053",
+                "issue_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263",
+                "id": 1330227053,
+                "node_id": "IC_kwDOAmBm3c5PSadt",
+                "user": {
+                    "login": "austenmc",
+                    "id": 1338823,
+                    "node_id": "MDQ6VXNlcjEzMzg4MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1338823?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/austenmc",
+                    "html_url": "https://github.com/austenmc",
+                    "followers_url": "https://api.github.com/users/austenmc/followers",
+                    "following_url": "https://api.github.com/users/austenmc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/austenmc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/austenmc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/austenmc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/austenmc/orgs",
+                    "repos_url": "https://api.github.com/users/austenmc/repos",
+                    "events_url": "https://api.github.com/users/austenmc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/austenmc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-29T07:58:20Z",
+                "updated_at": "2022-11-29T07:58:20Z",
+                "author_association": "NONE",
+                "body": "Thanks for putting this up. This is affecting pretty much every REST API call not using Bearer authentication. For example...\r\n\r\nGET /wp-json/wp/v2/users\r\n<br />\r\n<b>Notice</b>:  Undefined index: HTTP_AUTHORIZATION in <b>/var/www/staging/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php</b> on line <b>222</b><br />\r\n<br />\r\n<b>Notice</b>:  Undefined index: REDIRECT_HTTP_AUTHORIZATION in <b>/var/www/staging/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php</b> on line <b>225</b><br />\r\n\r\nPlease consider merging :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/comments/1330227053/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-29T07:58:20Z"
+    },
+    {
+        "id": "25267973406",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "My dotfiles, crossing the alps into new machines.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:54:12Z"
+    },
+    {
+        "id": "25267973421",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:54:12Z"
+    },
+    {
+        "id": "25267969553",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:59Z"
+    },
+    {
+        "id": "25267965040",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "push_id": 11678487969,
+            "size": 1,
+            "distinct_size": 0,
+            "ref": "refs/heads/master",
+            "head": "e8dee1a7015948a8b2e59eafb6f1c23edd019192",
+            "before": "951ab1b3b20b432fb0689b33f2534117985a4589",
+            "commits": [
+                {
+                    "sha": "e8dee1a7015948a8b2e59eafb6f1c23edd019192",
+                    "author": {
+                        "email": "austenmc@Austens-MacBook-Pro.local",
+                        "name": "Austen McDonald"
+                    },
+                    "message": "Update for modernity",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/austenmc/.hannibal/commits/e8dee1a7015948a8b2e59eafb6f1c23edd019192"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:43Z"
+    },
+    {
+        "id": "25267956700",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "My dotfiles, crossing the alps into new machines.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:14Z"
+    },
+    {
+        "id": "25267881662",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 360970270,
+            "name": "austenmc/moonlight-pedal",
+            "url": "https://api.github.com/repos/austenmc/moonlight-pedal"
+        },
+        "payload": {
+            "push_id": 11678444492,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "dea39ed3756d4d41559bab22b562c37e1095af7b",
+            "before": "c79a22d7137d24f7b6bfb5c58693f84e8c18ff0c",
+            "commits": [
+                {
+                    "sha": "dea39ed3756d4d41559bab22b562c37e1095af7b",
+                    "author": {
+                        "email": "austen.mcdonald@gmail.com",
+                        "name": "Austen McDonald"
+                    },
+                    "message": "Update name to be Moonlight Through the Pines",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/austenmc/moonlight-pedal/commits/dea39ed3756d4d41559bab22b562c37e1095af7b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:48:41Z"
+    },
+    {
+        "id": "25530463669",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 39872221,
+            "name": "Tmeister/wp-api-jwt-auth",
+            "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263",
+                "repository_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth",
+                "labels_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/labels{/name}",
+                "comments_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/comments",
+                "events_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/events",
+                "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263",
+                "id": 1442099939,
+                "node_id": "PR_kwDOAmBm3c5Chlcw",
+                "number": 263,
+                "title": "PHP Warning: Undefined array key \"REDIRECT_HTTP_AUTHORIZATION\"",
+                "user": {
+                    "login": "gassan",
+                    "id": 2382015,
+                    "node_id": "MDQ6VXNlcjIzODIwMTU=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2382015?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/gassan",
+                    "html_url": "https://github.com/gassan",
+                    "followers_url": "https://api.github.com/users/gassan/followers",
+                    "following_url": "https://api.github.com/users/gassan/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/gassan/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/gassan/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/gassan/subscriptions",
+                    "organizations_url": "https://api.github.com/users/gassan/orgs",
+                    "repos_url": "https://api.github.com/users/gassan/repos",
+                    "events_url": "https://api.github.com/users/gassan/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/gassan/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-09T13:25:26Z",
+                "updated_at": "2022-11-29T07:58:20Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "draft": false,
+                "pull_request": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/pulls/263",
+                    "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263",
+                    "diff_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263.diff",
+                    "patch_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263.patch",
+                    "merged_at": null
+                },
+                "body": "Bugfix: isset() check is missed.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/comments/1330227053",
+                "html_url": "https://github.com/Tmeister/wp-api-jwt-auth/pull/263#issuecomment-1330227053",
+                "issue_url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/263",
+                "id": 1330227053,
+                "node_id": "IC_kwDOAmBm3c5PSadt",
+                "user": {
+                    "login": "austenmc",
+                    "id": 1338823,
+                    "node_id": "MDQ6VXNlcjEzMzg4MjM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1338823?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/austenmc",
+                    "html_url": "https://github.com/austenmc",
+                    "followers_url": "https://api.github.com/users/austenmc/followers",
+                    "following_url": "https://api.github.com/users/austenmc/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/austenmc/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/austenmc/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/austenmc/subscriptions",
+                    "organizations_url": "https://api.github.com/users/austenmc/orgs",
+                    "repos_url": "https://api.github.com/users/austenmc/repos",
+                    "events_url": "https://api.github.com/users/austenmc/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/austenmc/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-29T07:58:20Z",
+                "updated_at": "2022-11-29T07:58:20Z",
+                "author_association": "NONE",
+                "body": "Thanks for putting this up. This is affecting pretty much every REST API call not using Bearer authentication. For example...\r\n\r\nGET /wp-json/wp/v2/users\r\n<br />\r\n<b>Notice</b>:  Undefined index: HTTP_AUTHORIZATION in <b>/var/www/staging/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php</b> on line <b>222</b><br />\r\n<br />\r\n<b>Notice</b>:  Undefined index: REDIRECT_HTTP_AUTHORIZATION in <b>/var/www/staging/wp-content/plugins/jwt-authentication-for-wp-rest-api/public/class-jwt-auth-public.php</b> on line <b>225</b><br />\r\n\r\nPlease consider merging :)",
+                "reactions": {
+                    "url": "https://api.github.com/repos/Tmeister/wp-api-jwt-auth/issues/comments/1330227053/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-29T07:58:20Z"
+    },
+    {
+        "id": "25267973406",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": "My dotfiles, crossing the alps into new machines.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:54:12Z"
+    },
+    {
+        "id": "25267973421",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:54:12Z"
+    },
+    {
+        "id": "25267969553",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:59Z"
+    },
+    {
+        "id": "25267965040",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "push_id": 11678487969,
+            "size": 1,
+            "distinct_size": 0,
+            "ref": "refs/heads/master",
+            "head": "e8dee1a7015948a8b2e59eafb6f1c23edd019192",
+            "before": "951ab1b3b20b432fb0689b33f2534117985a4589",
+            "commits": [
+                {
+                    "sha": "e8dee1a7015948a8b2e59eafb6f1c23edd019192",
+                    "author": {
+                        "email": "austenmc@Austens-MacBook-Pro.local",
+                        "name": "Austen McDonald"
+                    },
+                    "message": "Update for modernity",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/austenmc/.hannibal/commits/e8dee1a7015948a8b2e59eafb6f1c23edd019192"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:43Z"
+    },
+    {
+        "id": "25267956700",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 80780467,
+            "name": "austenmc/.hannibal",
+            "url": "https://api.github.com/repos/austenmc/.hannibal"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "My dotfiles, crossing the alps into new machines.",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:53:14Z"
+    },
+    {
+        "id": "25267881662",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1338823,
+            "login": "austenmc",
+            "display_login": "austenmc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/austenmc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1338823?"
+        },
+        "repo": {
+            "id": 360970270,
+            "name": "austenmc/moonlight-pedal",
+            "url": "https://api.github.com/repos/austenmc/moonlight-pedal"
+        },
+        "payload": {
+            "push_id": 11678444492,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "dea39ed3756d4d41559bab22b562c37e1095af7b",
+            "before": "c79a22d7137d24f7b6bfb5c58693f84e8c18ff0c",
+            "commits": [
+                {
+                    "sha": "dea39ed3756d4d41559bab22b562c37e1095af7b",
+                    "author": {
+                        "email": "austen.mcdonald@gmail.com",
+                        "name": "Austen McDonald"
+                    },
+                    "message": "Update name to be Moonlight Through the Pines",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/austenmc/moonlight-pedal/commits/dea39ed3756d4d41559bab22b562c37e1095af7b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-16T06:48:41Z"
+    }
+]

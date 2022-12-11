@@ -1,6 +1,6 @@
 [
     {
-        "id": "24680314619",
+        "id": "25497857442",
         "type": "WatchEvent",
         "actor": {
             "id": 123917,
@@ -11,690 +11,25 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
         },
         "repo": {
-            "id": 475103273,
-            "name": "nicolo-ribaudo/jest-light-runner",
-            "url": "https://api.github.com/repos/nicolo-ribaudo/jest-light-runner"
+            "id": 368917877,
+            "name": "BuilderIO/qwik",
+            "url": "https://api.github.com/repos/BuilderIO/qwik"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-10-18T20:40:58Z"
-    },
-    {
-        "id": "24670926535",
-        "type": "PushEvent",
-        "actor": {
-            "id": 123917,
-            "login": "refractalize",
-            "display_login": "refractalize",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/refractalize",
-            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
-        },
-        "repo": {
-            "id": 553588339,
-            "name": "featurist/sandbox",
-            "url": "https://api.github.com/repos/featurist/sandbox"
-        },
-        "payload": {
-            "push_id": 11367727800,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/main",
-            "head": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
-            "before": "9c4242519bb4b6fa886881b6044adae2db927700",
-            "commits": [
-                {
-                    "sha": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "Add disable-hydrate option",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/featurist/sandbox/commits/aa744f79cccc9518fe7a49c58d218aa59b2b44b8"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-18T13:43:45Z",
+        "created_at": "2022-11-27T22:10:41Z",
         "org": {
-            "id": 1021475,
-            "login": "featurist",
+            "id": 35700027,
+            "login": "BuilderIO",
             "gravatar_id": "",
-            "url": "https://api.github.com/orgs/featurist",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1021475?"
+            "url": "https://api.github.com/orgs/BuilderIO",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35700027?"
         }
     },
     {
-        "id": "24107095819",
-        "type": "PushEvent",
-        "actor": {
-            "id": 123917,
-            "login": "refractalize",
-            "display_login": "refractalize",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/refractalize",
-            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
-        },
-        "repo": {
-            "id": 1627485,
-            "name": "refractalize/dotfiles",
-            "url": "https://api.github.com/repos/refractalize/dotfiles"
-        },
-        "payload": {
-            "push_id": 11076390908,
-            "size": 27,
-            "distinct_size": 27,
-            "ref": "refs/heads/master",
-            "head": "d5c9f9f6eeedd6c98d9397d4f432045ea2344d31",
-            "before": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
-            "commits": [
-                {
-                    "sha": "a960419e7dc4ad827ab18540349aa0af5785d0ef",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "think we don't need this anymore, seems to work as expected without",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a960419e7dc4ad827ab18540349aa0af5785d0ef"
-                },
-                {
-                    "sha": "dd52c9fe4dda1b610b9f136356d64bb67510120c",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove unused configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dd52c9fe4dda1b610b9f136356d64bb67510120c"
-                },
-                {
-                    "sha": "44b38be266149dbac33ad0e24281f72cccf7b7d9",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "which-key",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/44b38be266149dbac33ad0e24281f72cccf7b7d9"
-                },
-                {
-                    "sha": "d32863ee954e80859fd089996ed7d18ada829ce6",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "material",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d32863ee954e80859fd089996ed7d18ada829ce6"
-                },
-                {
-                    "sha": "f1df9e1aef9599368ab7dbb699da5e4687243f4b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "simplify baleia stuff",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f1df9e1aef9599368ab7dbb699da5e4687243f4b"
-                },
-                {
-                    "sha": "bf8f7c5fbb34a6514397ac676d986da95330122f",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "git branch completion, open diffs with GdiffFiles",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bf8f7c5fbb34a6514397ac676d986da95330122f"
-                },
-                {
-                    "sha": "d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix <M-3> as no longer using UK keyboard",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7"
-                },
-                {
-                    "sha": "73150b6ebfd80f903ac7a01cd91d41e49a7af995",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "allow lualine to show tabs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/73150b6ebfd80f903ac7a01cd91d41e49a7af995"
-                },
-                {
-                    "sha": "dac03131d7762afa4742ab56380c66e70f55d3b3",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "diffview",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dac03131d7762afa4742ab56380c66e70f55d3b3"
-                },
-                {
-                    "sha": "e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "hlslens scrollbar",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1"
-                },
-                {
-                    "sha": "f14e0ce56b95eb319a3db14721b3bc6293287862",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "nvim-treesitter-textobjects parameters and swap instead of Sideways",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f14e0ce56b95eb319a3db14721b3bc6293287862"
-                },
-                {
-                    "sha": "720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better diff",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b"
-                },
-                {
-                    "sha": "53a8431bfc1f01efb6be86db0be338b544d083d6",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better lsp status",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/53a8431bfc1f01efb6be86db0be338b544d083d6"
-                },
-                {
-                    "sha": "992685df92c4c1e206f8f4fb677ecbc51026095e",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "watch",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/992685df92c4c1e206f8f4fb677ecbc51026095e"
-                },
-                {
-                    "sha": "ebdef63bebd598f03e9746570781352be1e39a98",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better delay",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ebdef63bebd598f03e9746570781352be1e39a98"
-                },
-                {
-                    "sha": "878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "don't confuse autocmds with other scripts",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd"
-                },
-                {
-                    "sha": "bca4e1f29d5c95829c8cb90e40ef2111877ff0a6",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "sort files",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bca4e1f29d5c95829c8cb90e40ef2111877ff0a6"
-                },
-                {
-                    "sha": "c7549ec3643bb720885c9ea61498333a32d62f92",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better command substitute",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c7549ec3643bb720885c9ea61498333a32d62f92"
-                },
-                {
-                    "sha": "3a4313ff04797becafa51592c2996f9e1e4ea273",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "some kitty improvements",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3a4313ff04797becafa51592c2996f9e1e4ea273"
-                },
-                {
-                    "sha": "ba92984c395c79087b71430bd3b9c3c06f3e355f",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "expand newlines in history",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ba92984c395c79087b71430bd3b9c3c06f3e355f"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-20T08:22:55Z"
-    },
-    {
-        "id": "24045147542",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 123917,
-            "login": "refractalize",
-            "display_login": "refractalize",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/refractalize",
-            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
-        },
-        "repo": {
-            "id": 16408992,
-            "name": "neovim/neovim",
-            "url": "https://api.github.com/repos/neovim/neovim"
-        },
-        "payload": {
-            "action": "opened",
-            "issue": {
-                "url": "https://api.github.com/repos/neovim/neovim/issues/20211",
-                "repository_url": "https://api.github.com/repos/neovim/neovim",
-                "labels_url": "https://api.github.com/repos/neovim/neovim/issues/20211/labels{/name}",
-                "comments_url": "https://api.github.com/repos/neovim/neovim/issues/20211/comments",
-                "events_url": "https://api.github.com/repos/neovim/neovim/issues/20211/events",
-                "html_url": "https://github.com/neovim/neovim/issues/20211",
-                "id": 1375550302,
-                "node_id": "I_kwDOAPphoM5R_Tte",
-                "number": 20211,
-                "title": "`substitute()` in lua doesn't pass matching strings argument to callback",
-                "user": {
-                    "login": "refractalize",
-                    "id": 123917,
-                    "node_id": "MDQ6VXNlcjEyMzkxNw==",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/123917?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/refractalize",
-                    "html_url": "https://github.com/refractalize",
-                    "followers_url": "https://api.github.com/users/refractalize/followers",
-                    "following_url": "https://api.github.com/users/refractalize/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/refractalize/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/refractalize/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/refractalize/subscriptions",
-                    "organizations_url": "https://api.github.com/users/refractalize/orgs",
-                    "repos_url": "https://api.github.com/users/refractalize/repos",
-                    "events_url": "https://api.github.com/users/refractalize/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/refractalize/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [
-                    {
-                        "id": 77997474,
-                        "node_id": "MDU6TGFiZWw3Nzk5NzQ3NA==",
-                        "url": "https://api.github.com/repos/neovim/neovim/labels/bug",
-                        "name": "bug",
-                        "color": "f9d0c4",
-                        "default": true,
-                        "description": "issues reporting wrong behavior"
-                    }
-                ],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-09-16T07:37:45Z",
-                "updated_at": "2022-09-16T07:37:45Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "### Neovim version (nvim -v)\n\nNVIM v0.8.0-dev-1093-g982fef601-dirty\n\n### Vim (not Nvim) behaves the same?\n\nno\n\n### Operating system/version\n\nmacOS 12.3.1\n\n### Terminal name/version\n\nkitty 0.25.2\n\n### $TERM environment variable\n\nxterm-kitty\n\n### Installation\n\nhomebrew install neovim --HEAD\n\n### How to reproduce the issue\n\nnvim --clean\r\n:lua print(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n\n\n### Expected behavior\n\nExpected `m` to be the array `{ 'b' }`, or otherwise the matched string with any other submatches as additional entries, as per documentation for `substitute()`.\r\n\r\nThat is:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nI would have expected\r\n\r\n```\r\n{ 'b' }\r\na b c\r\n```\r\n\n\n### Actual behavior\n\nActual behaviour is that the first argument to the lua function (`m` in this case) is _always_ an empty table `{}`. This is true even if there are matching groups in the regex. The lua expression:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nWill output:\r\n\r\n```\r\n{}\r\na v:null c\r\n```\r\n\r\nThe behaviour in equivalent VimScript is as expected:\r\n\r\n```viml\r\necho substitute('a b c', 'b', { m -> '(' . m[0] . ')' }, 'g')\r\n```\r\n\r\nWill output `a (b) c`.",
-                "reactions": {
-                    "url": "https://api.github.com/repos/neovim/neovim/issues/20211/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/neovim/neovim/issues/20211/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-16T07:37:45Z",
-        "org": {
-            "id": 6471485,
-            "login": "neovim",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/neovim",
-            "avatar_url": "https://avatars.githubusercontent.com/u/6471485?"
-        }
-    },
-    {
-        "id": "23852564746",
-        "type": "PushEvent",
-        "actor": {
-            "id": 123917,
-            "login": "refractalize",
-            "display_login": "refractalize",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/refractalize",
-            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
-        },
-        "repo": {
-            "id": 1627485,
-            "name": "refractalize/dotfiles",
-            "url": "https://api.github.com/repos/refractalize/dotfiles"
-        },
-        "payload": {
-            "push_id": 10943354829,
-            "size": 11,
-            "distinct_size": 11,
-            "ref": "refs/heads/master",
-            "head": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
-            "before": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-            "commits": [
-                {
-                    "sha": "10d5f0e36de14323b67d5f425f60c6d7866ccaa5",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better output viewing in kitty",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/10d5f0e36de14323b67d5f425f60c6d7866ccaa5"
-                },
-                {
-                    "sha": "36167b1236529f2c8c66c0c986573ed559d7aee1",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "renamed fix-tty, not just heroku",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/36167b1236529f2c8c66c0c986573ed559d7aee1"
-                },
-                {
-                    "sha": "1d946abc1b9e069c79d7879a4c7cbcb51a09b73d",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "ignore all git files",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/1d946abc1b9e069c79d7879a4c7cbcb51a09b73d"
-                },
-                {
-                    "sha": "02a0eeba731d851997dd3d5187f82a157acdc980",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "nocov ruby snippet",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/02a0eeba731d851997dd3d5187f82a157acdc980"
-                },
-                {
-                    "sha": "80ff85d43082503a4d6750d627b8f040d2d2bd8f",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better ansi coloring on kitty output",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/80ff85d43082503a4d6750d627b8f040d2d2bd8f"
-                },
-                {
-                    "sha": "bdc726d9f4c340f2fa0605fa109291901776518e",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix issues with show-kitty-output",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bdc726d9f4c340f2fa0605fa109291901776518e"
-                },
-                {
-                    "sha": "0079b86859ecf64810bca2d10132de2beb66d71c",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "format SQL",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/0079b86859ecf64810bca2d10132de2beb66d71c"
-                },
-                {
-                    "sha": "81945c766588ae7dde40d7d16cca2b391f271c0c",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "don't need these anymore",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/81945c766588ae7dde40d7d16cca2b391f271c0c"
-                },
-                {
-                    "sha": "db6faeee4e74138a4df58a3f088213ca3d448f12",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "auto-save",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/db6faeee4e74138a4df58a3f088213ca3d448f12"
-                },
-                {
-                    "sha": "448a72e301b08ede06d2166d9a61cbf102d6952e",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix unmap",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/448a72e301b08ede06d2166d9a61cbf102d6952e"
-                },
-                {
-                    "sha": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "baleia config in lua",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/8fcae54bf933cb2efbac5dc075d387bb43bdf4cd"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-06T19:25:51Z"
-    },
-    {
-        "id": "23716664619",
-        "type": "PushEvent",
-        "actor": {
-            "id": 123917,
-            "login": "refractalize",
-            "display_login": "refractalize",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/refractalize",
-            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
-        },
-        "repo": {
-            "id": 1627485,
-            "name": "refractalize/dotfiles",
-            "url": "https://api.github.com/repos/refractalize/dotfiles"
-        },
-        "payload": {
-            "push_id": 10873316357,
-            "size": 13,
-            "distinct_size": 13,
-            "ref": "refs/heads/master",
-            "head": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-            "before": "3acd1d017eb7f2b3ed361a2fc4fffea02c89d8a0",
-            "commits": [
-                {
-                    "sha": "4a48394ccad34a12cff6b68f0061e6ef4900dd72",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "sign commits",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/4a48394ccad34a12cff6b68f0061e6ef4900dd72"
-                },
-                {
-                    "sha": "b45de6258c34e243458c2dcbacf46ec68a45247d",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix GetVisualSelection when selection=inclusive",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/b45de6258c34e243458c2dcbacf46ec68a45247d"
-                },
-                {
-                    "sha": "a762c42d8d3db07bd87f30947eb1a9d648650d9b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "More snippets",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a762c42d8d3db07bd87f30947eb1a9d648650d9b"
-                },
-                {
-                    "sha": "c5bb17a97e737cf8c7bb2284991ccae66e08eed9",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "allow terminals to be placed full screen in new tab",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c5bb17a97e737cf8c7bb2284991ccae66e08eed9"
-                },
-                {
-                    "sha": "75e6e05ed00a0912fe103b5429120b3dde599f13",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "typescript shares snippets with javascript",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/75e6e05ed00a0912fe103b5429120b3dde599f13"
-                },
-                {
-                    "sha": "a7ee08321e8dfcf9ccd5c2b092fbf1959153eb6b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "auto-save",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a7ee08321e8dfcf9ccd5c2b092fbf1959153eb6b"
-                },
-                {
-                    "sha": "87bb979914756e6e502cc8023fbae3e13d696fd5",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "disable matchup and surround insert mappings for <C-G>, it messes with Telescope file_browser <C-G>",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/87bb979914756e6e502cc8023fbae3e13d696fd5"
-                },
-                {
-                    "sha": "2ef2c88ade08356d201188e054ea50cf8e29fa05",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better nvim-treesitter-textobjects setup",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/2ef2c88ade08356d201188e054ea50cf8e29fa05"
-                },
-                {
-                    "sha": "bc611094d919a58d25080276f5507efc000f9113",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "show modified buffers better",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bc611094d919a58d25080276f5507efc000f9113"
-                },
-                {
-                    "sha": "4b52f1d3a84f6dd1e52514dabb8d665fe0679366",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove useless matchup config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/4b52f1d3a84f6dd1e52514dabb8d665fe0679366"
-                },
-                {
-                    "sha": "998eafac8906c233711fa0d10d05d7475293d7a8",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "use Telescope file_browser instead of fern",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/998eafac8906c233711fa0d10d05d7475293d7a8"
-                },
-                {
-                    "sha": "9e89c316c43261caea0ca7fb15a87c04f5a3159a",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove deleted plugin",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/9e89c316c43261caea0ca7fb15a87c04f5a3159a"
-                },
-                {
-                    "sha": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "use trouble",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/573ed5c8048d74ce17f7a8211945ecfb51ac6de4"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-30T12:22:11Z"
-    },
-    {
-        "id": "24680314619",
+        "id": "25485415822",
         "type": "WatchEvent",
         "actor": {
             "id": 123917,
@@ -705,18 +40,47 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
         },
         "repo": {
-            "id": 475103273,
-            "name": "nicolo-ribaudo/jest-light-runner",
-            "url": "https://api.github.com/repos/nicolo-ribaudo/jest-light-runner"
+            "id": 321113412,
+            "name": "WebReflection/linkedom",
+            "url": "https://api.github.com/repos/WebReflection/linkedom"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-10-18T20:40:58Z"
+        "created_at": "2022-11-26T10:19:32Z"
     },
     {
-        "id": "24670926535",
+        "id": "25484133450",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 280068470,
+            "name": "swc-project/swc-node",
+            "url": "https://api.github.com/repos/swc-project/swc-node"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T06:09:54Z",
+        "org": {
+            "id": 26715726,
+            "login": "swc-project",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/swc-project",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26715726?"
+        }
+    },
+    {
+        "id": "25372295290",
         "type": "PushEvent",
         "actor": {
             "id": 123917,
@@ -727,42 +91,133 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
         },
         "repo": {
-            "id": 553588339,
-            "name": "featurist/sandbox",
-            "url": "https://api.github.com/repos/featurist/sandbox"
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
         },
         "payload": {
-            "push_id": 11367727800,
+            "push_id": 11734027322,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "6e2e199485612b59da74ff4739428e133140709c",
+            "before": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+            "commits": [
+                {
+                    "sha": "6f3f14b9e5f05c0a39bbd47c43c8e2b23c6ab585",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "rbenv is optional",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6f3f14b9e5f05c0a39bbd47c43c8e2b23c6ab585"
+                },
+                {
+                    "sha": "6e2e199485612b59da74ff4739428e133140709c",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "remove prompt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6e2e199485612b59da74ff4739428e133140709c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:29:00Z"
+    },
+    {
+        "id": "25371743933",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11733761366,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+            "before": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+            "commits": [
+                {
+                    "sha": "53198e573d5cd72bbe88aed6f5c1500d3a007bea",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "js",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/53198e573d5cd72bbe88aed6f5c1500d3a007bea"
+                },
+                {
+                    "sha": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "use ls",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a6d856a30643eaad39c0b130be6bd57eea192fb3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:04:39Z"
+    },
+    {
+        "id": "25328797258",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11708998951,
             "size": 1,
             "distinct_size": 1,
-            "ref": "refs/heads/main",
-            "head": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
-            "before": "9c4242519bb4b6fa886881b6044adae2db927700",
+            "ref": "refs/heads/master",
+            "head": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+            "before": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
             "commits": [
                 {
-                    "sha": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
+                    "sha": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "Add disable-hydrate option",
+                    "message": "fzf-mru",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/featurist/sandbox/commits/aa744f79cccc9518fe7a49c58d218aa59b2b44b8"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/37eb4ea1e459d2f5839c69a56bacb0795b9f900e"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-10-18T13:43:45Z",
-        "org": {
-            "id": 1021475,
-            "login": "featurist",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/featurist",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1021475?"
-        }
+        "created_at": "2022-11-18T11:30:51Z"
     },
     {
-        "id": "24107095819",
+        "id": "25328188087",
         "type": "PushEvent",
         "actor": {
             "id": 123917,
@@ -778,319 +233,30 @@
             "url": "https://api.github.com/repos/refractalize/dotfiles"
         },
         "payload": {
-            "push_id": 11076390908,
-            "size": 27,
-            "distinct_size": 27,
+            "push_id": 11708693295,
+            "size": 1,
+            "distinct_size": 1,
             "ref": "refs/heads/master",
-            "head": "d5c9f9f6eeedd6c98d9397d4f432045ea2344d31",
-            "before": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
+            "head": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
+            "before": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
             "commits": [
                 {
-                    "sha": "a960419e7dc4ad827ab18540349aa0af5785d0ef",
+                    "sha": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "think we don't need this anymore, seems to work as expected without",
+                    "message": "nvim improvements",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a960419e7dc4ad827ab18540349aa0af5785d0ef"
-                },
-                {
-                    "sha": "dd52c9fe4dda1b610b9f136356d64bb67510120c",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove unused configs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dd52c9fe4dda1b610b9f136356d64bb67510120c"
-                },
-                {
-                    "sha": "44b38be266149dbac33ad0e24281f72cccf7b7d9",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "which-key",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/44b38be266149dbac33ad0e24281f72cccf7b7d9"
-                },
-                {
-                    "sha": "d32863ee954e80859fd089996ed7d18ada829ce6",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "material",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d32863ee954e80859fd089996ed7d18ada829ce6"
-                },
-                {
-                    "sha": "f1df9e1aef9599368ab7dbb699da5e4687243f4b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "simplify baleia stuff",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f1df9e1aef9599368ab7dbb699da5e4687243f4b"
-                },
-                {
-                    "sha": "bf8f7c5fbb34a6514397ac676d986da95330122f",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "git branch completion, open diffs with GdiffFiles",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bf8f7c5fbb34a6514397ac676d986da95330122f"
-                },
-                {
-                    "sha": "d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix <M-3> as no longer using UK keyboard",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7"
-                },
-                {
-                    "sha": "73150b6ebfd80f903ac7a01cd91d41e49a7af995",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "allow lualine to show tabs",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/73150b6ebfd80f903ac7a01cd91d41e49a7af995"
-                },
-                {
-                    "sha": "dac03131d7762afa4742ab56380c66e70f55d3b3",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "diffview",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dac03131d7762afa4742ab56380c66e70f55d3b3"
-                },
-                {
-                    "sha": "e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "hlslens scrollbar",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1"
-                },
-                {
-                    "sha": "f14e0ce56b95eb319a3db14721b3bc6293287862",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "nvim-treesitter-textobjects parameters and swap instead of Sideways",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f14e0ce56b95eb319a3db14721b3bc6293287862"
-                },
-                {
-                    "sha": "720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better diff",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b"
-                },
-                {
-                    "sha": "53a8431bfc1f01efb6be86db0be338b544d083d6",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better lsp status",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/53a8431bfc1f01efb6be86db0be338b544d083d6"
-                },
-                {
-                    "sha": "992685df92c4c1e206f8f4fb677ecbc51026095e",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "watch",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/992685df92c4c1e206f8f4fb677ecbc51026095e"
-                },
-                {
-                    "sha": "ebdef63bebd598f03e9746570781352be1e39a98",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better delay",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ebdef63bebd598f03e9746570781352be1e39a98"
-                },
-                {
-                    "sha": "878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "don't confuse autocmds with other scripts",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd"
-                },
-                {
-                    "sha": "bca4e1f29d5c95829c8cb90e40ef2111877ff0a6",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "sort files",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bca4e1f29d5c95829c8cb90e40ef2111877ff0a6"
-                },
-                {
-                    "sha": "c7549ec3643bb720885c9ea61498333a32d62f92",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better command substitute",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c7549ec3643bb720885c9ea61498333a32d62f92"
-                },
-                {
-                    "sha": "3a4313ff04797becafa51592c2996f9e1e4ea273",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "some kitty improvements",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3a4313ff04797becafa51592c2996f9e1e4ea273"
-                },
-                {
-                    "sha": "ba92984c395c79087b71430bd3b9c3c06f3e355f",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "expand newlines in history",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ba92984c395c79087b71430bd3b9c3c06f3e355f"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3769e8eff99a7730553255f8b83d85fdaadff1b2"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-20T08:22:55Z"
+        "created_at": "2022-11-18T11:01:47Z"
     },
     {
-        "id": "24045147542",
-        "type": "IssuesEvent",
-        "actor": {
-            "id": 123917,
-            "login": "refractalize",
-            "display_login": "refractalize",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/refractalize",
-            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
-        },
-        "repo": {
-            "id": 16408992,
-            "name": "neovim/neovim",
-            "url": "https://api.github.com/repos/neovim/neovim"
-        },
-        "payload": {
-            "action": "opened",
-            "issue": {
-                "url": "https://api.github.com/repos/neovim/neovim/issues/20211",
-                "repository_url": "https://api.github.com/repos/neovim/neovim",
-                "labels_url": "https://api.github.com/repos/neovim/neovim/issues/20211/labels{/name}",
-                "comments_url": "https://api.github.com/repos/neovim/neovim/issues/20211/comments",
-                "events_url": "https://api.github.com/repos/neovim/neovim/issues/20211/events",
-                "html_url": "https://github.com/neovim/neovim/issues/20211",
-                "id": 1375550302,
-                "node_id": "I_kwDOAPphoM5R_Tte",
-                "number": 20211,
-                "title": "`substitute()` in lua doesn't pass matching strings argument to callback",
-                "user": {
-                    "login": "refractalize",
-                    "id": 123917,
-                    "node_id": "MDQ6VXNlcjEyMzkxNw==",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/123917?v=4",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/refractalize",
-                    "html_url": "https://github.com/refractalize",
-                    "followers_url": "https://api.github.com/users/refractalize/followers",
-                    "following_url": "https://api.github.com/users/refractalize/following{/other_user}",
-                    "gists_url": "https://api.github.com/users/refractalize/gists{/gist_id}",
-                    "starred_url": "https://api.github.com/users/refractalize/starred{/owner}{/repo}",
-                    "subscriptions_url": "https://api.github.com/users/refractalize/subscriptions",
-                    "organizations_url": "https://api.github.com/users/refractalize/orgs",
-                    "repos_url": "https://api.github.com/users/refractalize/repos",
-                    "events_url": "https://api.github.com/users/refractalize/events{/privacy}",
-                    "received_events_url": "https://api.github.com/users/refractalize/received_events",
-                    "type": "User",
-                    "site_admin": false
-                },
-                "labels": [
-                    {
-                        "id": 77997474,
-                        "node_id": "MDU6TGFiZWw3Nzk5NzQ3NA==",
-                        "url": "https://api.github.com/repos/neovim/neovim/labels/bug",
-                        "name": "bug",
-                        "color": "f9d0c4",
-                        "default": true,
-                        "description": "issues reporting wrong behavior"
-                    }
-                ],
-                "state": "open",
-                "locked": false,
-                "assignee": null,
-                "assignees": [],
-                "milestone": null,
-                "comments": 0,
-                "created_at": "2022-09-16T07:37:45Z",
-                "updated_at": "2022-09-16T07:37:45Z",
-                "closed_at": null,
-                "author_association": "NONE",
-                "active_lock_reason": null,
-                "body": "### Neovim version (nvim -v)\n\nNVIM v0.8.0-dev-1093-g982fef601-dirty\n\n### Vim (not Nvim) behaves the same?\n\nno\n\n### Operating system/version\n\nmacOS 12.3.1\n\n### Terminal name/version\n\nkitty 0.25.2\n\n### $TERM environment variable\n\nxterm-kitty\n\n### Installation\n\nhomebrew install neovim --HEAD\n\n### How to reproduce the issue\n\nnvim --clean\r\n:lua print(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n\n\n### Expected behavior\n\nExpected `m` to be the array `{ 'b' }`, or otherwise the matched string with any other submatches as additional entries, as per documentation for `substitute()`.\r\n\r\nThat is:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nI would have expected\r\n\r\n```\r\n{ 'b' }\r\na b c\r\n```\r\n\n\n### Actual behavior\n\nActual behaviour is that the first argument to the lua function (`m` in this case) is _always_ an empty table `{}`. This is true even if there are matching groups in the regex. The lua expression:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nWill output:\r\n\r\n```\r\n{}\r\na v:null c\r\n```\r\n\r\nThe behaviour in equivalent VimScript is as expected:\r\n\r\n```viml\r\necho substitute('a b c', 'b', { m -> '(' . m[0] . ')' }, 'g')\r\n```\r\n\r\nWill output `a (b) c`.",
-                "reactions": {
-                    "url": "https://api.github.com/repos/neovim/neovim/issues/20211/reactions",
-                    "total_count": 0,
-                    "+1": 0,
-                    "-1": 0,
-                    "laugh": 0,
-                    "hooray": 0,
-                    "confused": 0,
-                    "heart": 0,
-                    "rocket": 0,
-                    "eyes": 0
-                },
-                "timeline_url": "https://api.github.com/repos/neovim/neovim/issues/20211/timeline",
-                "performed_via_github_app": null,
-                "state_reason": null
-            }
-        },
-        "public": true,
-        "created_at": "2022-09-16T07:37:45Z",
-        "org": {
-            "id": 6471485,
-            "login": "neovim",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/neovim",
-            "avatar_url": "https://avatars.githubusercontent.com/u/6471485?"
-        }
-    },
-    {
-        "id": "23852564746",
+        "id": "25118965876",
         "type": "PushEvent",
         "actor": {
             "id": 123917,
@@ -1106,286 +272,207 @@
             "url": "https://api.github.com/repos/refractalize/dotfiles"
         },
         "payload": {
-            "push_id": 10943354829,
-            "size": 11,
-            "distinct_size": 11,
+            "push_id": 11600871561,
+            "size": 19,
+            "distinct_size": 19,
             "ref": "refs/heads/master",
-            "head": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
-            "before": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
+            "head": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+            "before": "d5c9f9f6eeedd6c98d9397d4f432045ea2344d31",
             "commits": [
                 {
-                    "sha": "10d5f0e36de14323b67d5f425f60c6d7866ccaa5",
+                    "sha": "48c1709d252563505beeae301663d6f13ec9f890",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "better output viewing in kitty",
+                    "message": "send all output to tempfile; works better for large outputs",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/10d5f0e36de14323b67d5f425f60c6d7866ccaa5"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/48c1709d252563505beeae301663d6f13ec9f890"
                 },
                 {
-                    "sha": "36167b1236529f2c8c66c0c986573ed559d7aee1",
+                    "sha": "952d88a9bed800d47ebe3aa2a0f1df3aac2e58ae",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "renamed fix-tty, not just heroku",
+                    "message": "better version of difflines, no editing in place, less bugs",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/36167b1236529f2c8c66c0c986573ed559d7aee1"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/952d88a9bed800d47ebe3aa2a0f1df3aac2e58ae"
                 },
                 {
-                    "sha": "1d946abc1b9e069c79d7879a4c7cbcb51a09b73d",
+                    "sha": "54a151610193abbd6d2543aa55a6a47f00cf476c",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "ignore all git files",
+                    "message": "fix nvrtab for new kitty",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/1d946abc1b9e069c79d7879a4c7cbcb51a09b73d"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/54a151610193abbd6d2543aa55a6a47f00cf476c"
                 },
                 {
-                    "sha": "02a0eeba731d851997dd3d5187f82a157acdc980",
+                    "sha": "0b0c13c2b5f20bfd0cc530a716f1ee080b0d615a",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "nocov ruby snippet",
+                    "message": "rewrite GetVisualText",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/02a0eeba731d851997dd3d5187f82a157acdc980"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/0b0c13c2b5f20bfd0cc530a716f1ee080b0d615a"
                 },
                 {
-                    "sha": "80ff85d43082503a4d6750d627b8f040d2d2bd8f",
+                    "sha": "feecca15a3e5ae2dc5c779a4782a1c4a3f19f2eb",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "better ansi coloring on kitty output",
+                    "message": "kittysplit",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/80ff85d43082503a4d6750d627b8f040d2d2bd8f"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/feecca15a3e5ae2dc5c779a4782a1c4a3f19f2eb"
                 },
                 {
-                    "sha": "bdc726d9f4c340f2fa0605fa109291901776518e",
+                    "sha": "793ff261e98810244c8b3ec478fb40ebeeacc757",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "fix issues with show-kitty-output",
+                    "message": "some diff tools",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bdc726d9f4c340f2fa0605fa109291901776518e"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/793ff261e98810244c8b3ec478fb40ebeeacc757"
                 },
                 {
-                    "sha": "0079b86859ecf64810bca2d10132de2beb66d71c",
+                    "sha": "cd2c8094887ff1f1ad08fe01fe61b8998ae6bf26",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "format SQL",
+                    "message": "windows command",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/0079b86859ecf64810bca2d10132de2beb66d71c"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/cd2c8094887ff1f1ad08fe01fe61b8998ae6bf26"
                 },
                 {
-                    "sha": "81945c766588ae7dde40d7d16cca2b391f271c0c",
+                    "sha": "40d959f3e401f44adaf2d1143d9414213e9ad464",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "don't need these anymore",
+                    "message": "cursorline only shows up on active window",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/81945c766588ae7dde40d7d16cca2b391f271c0c"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/40d959f3e401f44adaf2d1143d9414213e9ad464"
                 },
                 {
-                    "sha": "db6faeee4e74138a4df58a3f088213ca3d448f12",
+                    "sha": "bc43cd7c1d6f0a8230279ad45ec7778ce4c971a0",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "auto-save",
+                    "message": "open buffer in new tab",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/db6faeee4e74138a4df58a3f088213ca3d448f12"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bc43cd7c1d6f0a8230279ad45ec7778ce4c971a0"
                 },
                 {
-                    "sha": "448a72e301b08ede06d2166d9a61cbf102d6952e",
+                    "sha": "6dce601fab8dbffbbf8fc436d13619ffa33a5ed6",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "fix unmap",
+                    "message": "moving between tabs",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/448a72e301b08ede06d2166d9a61cbf102d6952e"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6dce601fab8dbffbbf8fc436d13619ffa33a5ed6"
                 },
                 {
-                    "sha": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
+                    "sha": "f3c8d9d8c570416b12cfbe07102f65639089227d",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "baleia config in lua",
+                    "message": "theme completion",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/8fcae54bf933cb2efbac5dc075d387bb43bdf4cd"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f3c8d9d8c570416b12cfbe07102f65639089227d"
+                },
+                {
+                    "sha": "6b48f10819d7cadac1b525ba216e14798da4a8f0",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "quickfix improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6b48f10819d7cadac1b525ba216e14798da4a8f0"
+                },
+                {
+                    "sha": "c055ef625aa1a4bc53ba39528cd427a937fd62a7",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "vnsips",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c055ef625aa1a4bc53ba39528cd427a937fd62a7"
+                },
+                {
+                    "sha": "3aaef2e0043b4f23a13e2318191f61edae51ae53",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "watch improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3aaef2e0043b4f23a13e2318191f61edae51ae53"
+                },
+                {
+                    "sha": "c737775c9226a78f25196d07f856aeca511a59c6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "vim settings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c737775c9226a78f25196d07f856aeca511a59c6"
+                },
+                {
+                    "sha": "86acb2524ecee749c10864ea1a4b5dbc3730e627",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "some new plugins",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/86acb2524ecee749c10864ea1a4b5dbc3730e627"
+                },
+                {
+                    "sha": "6b5fe8cdc26a39ed62ccaf1b00e563a8f464cd04",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6b5fe8cdc26a39ed62ccaf1b00e563a8f464cd04"
+                },
+                {
+                    "sha": "3f8d2fa07d3c6c6f58fdcaeab18f4a732060e2c2",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "modules",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3f8d2fa07d3c6c6f58fdcaeab18f4a732060e2c2"
+                },
+                {
+                    "sha": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "more modules and tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-06T19:25:51Z"
-    },
-    {
-        "id": "23716664619",
-        "type": "PushEvent",
-        "actor": {
-            "id": 123917,
-            "login": "refractalize",
-            "display_login": "refractalize",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/refractalize",
-            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
-        },
-        "repo": {
-            "id": 1627485,
-            "name": "refractalize/dotfiles",
-            "url": "https://api.github.com/repos/refractalize/dotfiles"
-        },
-        "payload": {
-            "push_id": 10873316357,
-            "size": 13,
-            "distinct_size": 13,
-            "ref": "refs/heads/master",
-            "head": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-            "before": "3acd1d017eb7f2b3ed361a2fc4fffea02c89d8a0",
-            "commits": [
-                {
-                    "sha": "4a48394ccad34a12cff6b68f0061e6ef4900dd72",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "sign commits",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/4a48394ccad34a12cff6b68f0061e6ef4900dd72"
-                },
-                {
-                    "sha": "b45de6258c34e243458c2dcbacf46ec68a45247d",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix GetVisualSelection when selection=inclusive",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/b45de6258c34e243458c2dcbacf46ec68a45247d"
-                },
-                {
-                    "sha": "a762c42d8d3db07bd87f30947eb1a9d648650d9b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "More snippets",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a762c42d8d3db07bd87f30947eb1a9d648650d9b"
-                },
-                {
-                    "sha": "c5bb17a97e737cf8c7bb2284991ccae66e08eed9",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "allow terminals to be placed full screen in new tab",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c5bb17a97e737cf8c7bb2284991ccae66e08eed9"
-                },
-                {
-                    "sha": "75e6e05ed00a0912fe103b5429120b3dde599f13",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "typescript shares snippets with javascript",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/75e6e05ed00a0912fe103b5429120b3dde599f13"
-                },
-                {
-                    "sha": "a7ee08321e8dfcf9ccd5c2b092fbf1959153eb6b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "auto-save",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a7ee08321e8dfcf9ccd5c2b092fbf1959153eb6b"
-                },
-                {
-                    "sha": "87bb979914756e6e502cc8023fbae3e13d696fd5",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "disable matchup and surround insert mappings for <C-G>, it messes with Telescope file_browser <C-G>",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/87bb979914756e6e502cc8023fbae3e13d696fd5"
-                },
-                {
-                    "sha": "2ef2c88ade08356d201188e054ea50cf8e29fa05",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better nvim-treesitter-textobjects setup",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/2ef2c88ade08356d201188e054ea50cf8e29fa05"
-                },
-                {
-                    "sha": "bc611094d919a58d25080276f5507efc000f9113",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "show modified buffers better",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bc611094d919a58d25080276f5507efc000f9113"
-                },
-                {
-                    "sha": "4b52f1d3a84f6dd1e52514dabb8d665fe0679366",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove useless matchup config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/4b52f1d3a84f6dd1e52514dabb8d665fe0679366"
-                },
-                {
-                    "sha": "998eafac8906c233711fa0d10d05d7475293d7a8",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "use Telescope file_browser instead of fern",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/998eafac8906c233711fa0d10d05d7475293d7a8"
-                },
-                {
-                    "sha": "9e89c316c43261caea0ca7fb15a87c04f5a3159a",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove deleted plugin",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/9e89c316c43261caea0ca7fb15a87c04f5a3159a"
-                },
-                {
-                    "sha": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "use trouble",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/573ed5c8048d74ce17f7a8211945ecfb51ac6de4"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-30T12:22:11Z"
+        "created_at": "2022-11-09T06:06:24Z"
     },
     {
         "id": "24680314619",
@@ -1784,8 +871,8 @@
         }
     },
     {
-        "id": "23852564746",
-        "type": "PushEvent",
+        "id": "25497857442",
+        "type": "WatchEvent",
         "actor": {
             "id": 123917,
             "login": "refractalize",
@@ -1795,135 +882,76 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
         },
         "repo": {
-            "id": 1627485,
-            "name": "refractalize/dotfiles",
-            "url": "https://api.github.com/repos/refractalize/dotfiles"
+            "id": 368917877,
+            "name": "BuilderIO/qwik",
+            "url": "https://api.github.com/repos/BuilderIO/qwik"
         },
         "payload": {
-            "push_id": 10943354829,
-            "size": 11,
-            "distinct_size": 11,
-            "ref": "refs/heads/master",
-            "head": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
-            "before": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-            "commits": [
-                {
-                    "sha": "10d5f0e36de14323b67d5f425f60c6d7866ccaa5",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better output viewing in kitty",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/10d5f0e36de14323b67d5f425f60c6d7866ccaa5"
-                },
-                {
-                    "sha": "36167b1236529f2c8c66c0c986573ed559d7aee1",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "renamed fix-tty, not just heroku",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/36167b1236529f2c8c66c0c986573ed559d7aee1"
-                },
-                {
-                    "sha": "1d946abc1b9e069c79d7879a4c7cbcb51a09b73d",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "ignore all git files",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/1d946abc1b9e069c79d7879a4c7cbcb51a09b73d"
-                },
-                {
-                    "sha": "02a0eeba731d851997dd3d5187f82a157acdc980",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "nocov ruby snippet",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/02a0eeba731d851997dd3d5187f82a157acdc980"
-                },
-                {
-                    "sha": "80ff85d43082503a4d6750d627b8f040d2d2bd8f",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better ansi coloring on kitty output",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/80ff85d43082503a4d6750d627b8f040d2d2bd8f"
-                },
-                {
-                    "sha": "bdc726d9f4c340f2fa0605fa109291901776518e",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix issues with show-kitty-output",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bdc726d9f4c340f2fa0605fa109291901776518e"
-                },
-                {
-                    "sha": "0079b86859ecf64810bca2d10132de2beb66d71c",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "format SQL",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/0079b86859ecf64810bca2d10132de2beb66d71c"
-                },
-                {
-                    "sha": "81945c766588ae7dde40d7d16cca2b391f271c0c",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "don't need these anymore",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/81945c766588ae7dde40d7d16cca2b391f271c0c"
-                },
-                {
-                    "sha": "db6faeee4e74138a4df58a3f088213ca3d448f12",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "auto-save",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/db6faeee4e74138a4df58a3f088213ca3d448f12"
-                },
-                {
-                    "sha": "448a72e301b08ede06d2166d9a61cbf102d6952e",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "fix unmap",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/448a72e301b08ede06d2166d9a61cbf102d6952e"
-                },
-                {
-                    "sha": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "baleia config in lua",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/8fcae54bf933cb2efbac5dc075d387bb43bdf4cd"
-                }
-            ]
+            "action": "started"
         },
         "public": true,
-        "created_at": "2022-09-06T19:25:51Z"
+        "created_at": "2022-11-27T22:10:41Z",
+        "org": {
+            "id": 35700027,
+            "login": "BuilderIO",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BuilderIO",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35700027?"
+        }
     },
     {
-        "id": "23716664619",
+        "id": "25485415822",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 321113412,
+            "name": "WebReflection/linkedom",
+            "url": "https://api.github.com/repos/WebReflection/linkedom"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T10:19:32Z"
+    },
+    {
+        "id": "25484133450",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 280068470,
+            "name": "swc-project/swc-node",
+            "url": "https://api.github.com/repos/swc-project/swc-node"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T06:09:54Z",
+        "org": {
+            "id": 26715726,
+            "login": "swc-project",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/swc-project",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26715726?"
+        }
+    },
+    {
+        "id": "25372295290",
         "type": "PushEvent",
         "actor": {
             "id": 123917,
@@ -1939,146 +967,1649 @@
             "url": "https://api.github.com/repos/refractalize/dotfiles"
         },
         "payload": {
-            "push_id": 10873316357,
-            "size": 13,
-            "distinct_size": 13,
+            "push_id": 11734027322,
+            "size": 2,
+            "distinct_size": 2,
             "ref": "refs/heads/master",
-            "head": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-            "before": "3acd1d017eb7f2b3ed361a2fc4fffea02c89d8a0",
+            "head": "6e2e199485612b59da74ff4739428e133140709c",
+            "before": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
             "commits": [
                 {
-                    "sha": "4a48394ccad34a12cff6b68f0061e6ef4900dd72",
+                    "sha": "6f3f14b9e5f05c0a39bbd47c43c8e2b23c6ab585",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "sign commits",
+                    "message": "rbenv is optional",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/4a48394ccad34a12cff6b68f0061e6ef4900dd72"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6f3f14b9e5f05c0a39bbd47c43c8e2b23c6ab585"
                 },
                 {
-                    "sha": "b45de6258c34e243458c2dcbacf46ec68a45247d",
+                    "sha": "6e2e199485612b59da74ff4739428e133140709c",
                     "author": {
                         "email": "timmacfarlane@gmail.com",
                         "name": "Tim Macfarlane"
                     },
-                    "message": "fix GetVisualSelection when selection=inclusive",
+                    "message": "remove prompt",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/b45de6258c34e243458c2dcbacf46ec68a45247d"
-                },
-                {
-                    "sha": "a762c42d8d3db07bd87f30947eb1a9d648650d9b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "More snippets",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a762c42d8d3db07bd87f30947eb1a9d648650d9b"
-                },
-                {
-                    "sha": "c5bb17a97e737cf8c7bb2284991ccae66e08eed9",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "allow terminals to be placed full screen in new tab",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c5bb17a97e737cf8c7bb2284991ccae66e08eed9"
-                },
-                {
-                    "sha": "75e6e05ed00a0912fe103b5429120b3dde599f13",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "typescript shares snippets with javascript",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/75e6e05ed00a0912fe103b5429120b3dde599f13"
-                },
-                {
-                    "sha": "a7ee08321e8dfcf9ccd5c2b092fbf1959153eb6b",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "auto-save",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a7ee08321e8dfcf9ccd5c2b092fbf1959153eb6b"
-                },
-                {
-                    "sha": "87bb979914756e6e502cc8023fbae3e13d696fd5",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "disable matchup and surround insert mappings for <C-G>, it messes with Telescope file_browser <C-G>",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/87bb979914756e6e502cc8023fbae3e13d696fd5"
-                },
-                {
-                    "sha": "2ef2c88ade08356d201188e054ea50cf8e29fa05",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "better nvim-treesitter-textobjects setup",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/2ef2c88ade08356d201188e054ea50cf8e29fa05"
-                },
-                {
-                    "sha": "bc611094d919a58d25080276f5507efc000f9113",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "show modified buffers better",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bc611094d919a58d25080276f5507efc000f9113"
-                },
-                {
-                    "sha": "4b52f1d3a84f6dd1e52514dabb8d665fe0679366",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove useless matchup config",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/4b52f1d3a84f6dd1e52514dabb8d665fe0679366"
-                },
-                {
-                    "sha": "998eafac8906c233711fa0d10d05d7475293d7a8",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "use Telescope file_browser instead of fern",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/998eafac8906c233711fa0d10d05d7475293d7a8"
-                },
-                {
-                    "sha": "9e89c316c43261caea0ca7fb15a87c04f5a3159a",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "remove deleted plugin",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/9e89c316c43261caea0ca7fb15a87c04f5a3159a"
-                },
-                {
-                    "sha": "573ed5c8048d74ce17f7a8211945ecfb51ac6de4",
-                    "author": {
-                        "email": "timmacfarlane@gmail.com",
-                        "name": "Tim Macfarlane"
-                    },
-                    "message": "use trouble",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/573ed5c8048d74ce17f7a8211945ecfb51ac6de4"
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6e2e199485612b59da74ff4739428e133140709c"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-30T12:22:11Z"
+        "created_at": "2022-11-21T11:29:00Z"
+    },
+    {
+        "id": "25371743933",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11733761366,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+            "before": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+            "commits": [
+                {
+                    "sha": "53198e573d5cd72bbe88aed6f5c1500d3a007bea",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "js",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/53198e573d5cd72bbe88aed6f5c1500d3a007bea"
+                },
+                {
+                    "sha": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "use ls",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a6d856a30643eaad39c0b130be6bd57eea192fb3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:04:39Z"
+    },
+    {
+        "id": "25328797258",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11708998951,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+            "before": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
+            "commits": [
+                {
+                    "sha": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "fzf-mru",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/37eb4ea1e459d2f5839c69a56bacb0795b9f900e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-18T11:30:51Z"
+    },
+    {
+        "id": "25328188087",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11708693295,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
+            "before": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+            "commits": [
+                {
+                    "sha": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "nvim improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3769e8eff99a7730553255f8b83d85fdaadff1b2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-18T11:01:47Z"
+    },
+    {
+        "id": "25118965876",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11600871561,
+            "size": 19,
+            "distinct_size": 19,
+            "ref": "refs/heads/master",
+            "head": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+            "before": "d5c9f9f6eeedd6c98d9397d4f432045ea2344d31",
+            "commits": [
+                {
+                    "sha": "48c1709d252563505beeae301663d6f13ec9f890",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "send all output to tempfile; works better for large outputs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/48c1709d252563505beeae301663d6f13ec9f890"
+                },
+                {
+                    "sha": "952d88a9bed800d47ebe3aa2a0f1df3aac2e58ae",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better version of difflines, no editing in place, less bugs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/952d88a9bed800d47ebe3aa2a0f1df3aac2e58ae"
+                },
+                {
+                    "sha": "54a151610193abbd6d2543aa55a6a47f00cf476c",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "fix nvrtab for new kitty",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/54a151610193abbd6d2543aa55a6a47f00cf476c"
+                },
+                {
+                    "sha": "0b0c13c2b5f20bfd0cc530a716f1ee080b0d615a",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "rewrite GetVisualText",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/0b0c13c2b5f20bfd0cc530a716f1ee080b0d615a"
+                },
+                {
+                    "sha": "feecca15a3e5ae2dc5c779a4782a1c4a3f19f2eb",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "kittysplit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/feecca15a3e5ae2dc5c779a4782a1c4a3f19f2eb"
+                },
+                {
+                    "sha": "793ff261e98810244c8b3ec478fb40ebeeacc757",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "some diff tools",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/793ff261e98810244c8b3ec478fb40ebeeacc757"
+                },
+                {
+                    "sha": "cd2c8094887ff1f1ad08fe01fe61b8998ae6bf26",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "windows command",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/cd2c8094887ff1f1ad08fe01fe61b8998ae6bf26"
+                },
+                {
+                    "sha": "40d959f3e401f44adaf2d1143d9414213e9ad464",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "cursorline only shows up on active window",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/40d959f3e401f44adaf2d1143d9414213e9ad464"
+                },
+                {
+                    "sha": "bc43cd7c1d6f0a8230279ad45ec7778ce4c971a0",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "open buffer in new tab",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bc43cd7c1d6f0a8230279ad45ec7778ce4c971a0"
+                },
+                {
+                    "sha": "6dce601fab8dbffbbf8fc436d13619ffa33a5ed6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "moving between tabs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6dce601fab8dbffbbf8fc436d13619ffa33a5ed6"
+                },
+                {
+                    "sha": "f3c8d9d8c570416b12cfbe07102f65639089227d",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "theme completion",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f3c8d9d8c570416b12cfbe07102f65639089227d"
+                },
+                {
+                    "sha": "6b48f10819d7cadac1b525ba216e14798da4a8f0",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "quickfix improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6b48f10819d7cadac1b525ba216e14798da4a8f0"
+                },
+                {
+                    "sha": "c055ef625aa1a4bc53ba39528cd427a937fd62a7",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "vnsips",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c055ef625aa1a4bc53ba39528cd427a937fd62a7"
+                },
+                {
+                    "sha": "3aaef2e0043b4f23a13e2318191f61edae51ae53",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "watch improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3aaef2e0043b4f23a13e2318191f61edae51ae53"
+                },
+                {
+                    "sha": "c737775c9226a78f25196d07f856aeca511a59c6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "vim settings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c737775c9226a78f25196d07f856aeca511a59c6"
+                },
+                {
+                    "sha": "86acb2524ecee749c10864ea1a4b5dbc3730e627",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "some new plugins",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/86acb2524ecee749c10864ea1a4b5dbc3730e627"
+                },
+                {
+                    "sha": "6b5fe8cdc26a39ed62ccaf1b00e563a8f464cd04",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6b5fe8cdc26a39ed62ccaf1b00e563a8f464cd04"
+                },
+                {
+                    "sha": "3f8d2fa07d3c6c6f58fdcaeab18f4a732060e2c2",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "modules",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3f8d2fa07d3c6c6f58fdcaeab18f4a732060e2c2"
+                },
+                {
+                    "sha": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "more modules and tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-09T06:06:24Z"
+    },
+    {
+        "id": "24680314619",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 475103273,
+            "name": "nicolo-ribaudo/jest-light-runner",
+            "url": "https://api.github.com/repos/nicolo-ribaudo/jest-light-runner"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-18T20:40:58Z"
+    },
+    {
+        "id": "24670926535",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 553588339,
+            "name": "featurist/sandbox",
+            "url": "https://api.github.com/repos/featurist/sandbox"
+        },
+        "payload": {
+            "push_id": 11367727800,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
+            "before": "9c4242519bb4b6fa886881b6044adae2db927700",
+            "commits": [
+                {
+                    "sha": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "Add disable-hydrate option",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/featurist/sandbox/commits/aa744f79cccc9518fe7a49c58d218aa59b2b44b8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-18T13:43:45Z",
+        "org": {
+            "id": 1021475,
+            "login": "featurist",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/featurist",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1021475?"
+        }
+    },
+    {
+        "id": "24107095819",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11076390908,
+            "size": 27,
+            "distinct_size": 27,
+            "ref": "refs/heads/master",
+            "head": "d5c9f9f6eeedd6c98d9397d4f432045ea2344d31",
+            "before": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
+            "commits": [
+                {
+                    "sha": "a960419e7dc4ad827ab18540349aa0af5785d0ef",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "think we don't need this anymore, seems to work as expected without",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a960419e7dc4ad827ab18540349aa0af5785d0ef"
+                },
+                {
+                    "sha": "dd52c9fe4dda1b610b9f136356d64bb67510120c",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "remove unused configs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dd52c9fe4dda1b610b9f136356d64bb67510120c"
+                },
+                {
+                    "sha": "44b38be266149dbac33ad0e24281f72cccf7b7d9",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "which-key",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/44b38be266149dbac33ad0e24281f72cccf7b7d9"
+                },
+                {
+                    "sha": "d32863ee954e80859fd089996ed7d18ada829ce6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "material",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d32863ee954e80859fd089996ed7d18ada829ce6"
+                },
+                {
+                    "sha": "f1df9e1aef9599368ab7dbb699da5e4687243f4b",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "simplify baleia stuff",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f1df9e1aef9599368ab7dbb699da5e4687243f4b"
+                },
+                {
+                    "sha": "bf8f7c5fbb34a6514397ac676d986da95330122f",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "git branch completion, open diffs with GdiffFiles",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bf8f7c5fbb34a6514397ac676d986da95330122f"
+                },
+                {
+                    "sha": "d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "fix <M-3> as no longer using UK keyboard",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7"
+                },
+                {
+                    "sha": "73150b6ebfd80f903ac7a01cd91d41e49a7af995",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "allow lualine to show tabs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/73150b6ebfd80f903ac7a01cd91d41e49a7af995"
+                },
+                {
+                    "sha": "dac03131d7762afa4742ab56380c66e70f55d3b3",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "diffview",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dac03131d7762afa4742ab56380c66e70f55d3b3"
+                },
+                {
+                    "sha": "e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "hlslens scrollbar",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1"
+                },
+                {
+                    "sha": "f14e0ce56b95eb319a3db14721b3bc6293287862",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "nvim-treesitter-textobjects parameters and swap instead of Sideways",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f14e0ce56b95eb319a3db14721b3bc6293287862"
+                },
+                {
+                    "sha": "720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better diff",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b"
+                },
+                {
+                    "sha": "53a8431bfc1f01efb6be86db0be338b544d083d6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better lsp status",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/53a8431bfc1f01efb6be86db0be338b544d083d6"
+                },
+                {
+                    "sha": "992685df92c4c1e206f8f4fb677ecbc51026095e",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "watch",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/992685df92c4c1e206f8f4fb677ecbc51026095e"
+                },
+                {
+                    "sha": "ebdef63bebd598f03e9746570781352be1e39a98",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better delay",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ebdef63bebd598f03e9746570781352be1e39a98"
+                },
+                {
+                    "sha": "878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "don't confuse autocmds with other scripts",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd"
+                },
+                {
+                    "sha": "bca4e1f29d5c95829c8cb90e40ef2111877ff0a6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "sort files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bca4e1f29d5c95829c8cb90e40ef2111877ff0a6"
+                },
+                {
+                    "sha": "c7549ec3643bb720885c9ea61498333a32d62f92",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better command substitute",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c7549ec3643bb720885c9ea61498333a32d62f92"
+                },
+                {
+                    "sha": "3a4313ff04797becafa51592c2996f9e1e4ea273",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "some kitty improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3a4313ff04797becafa51592c2996f9e1e4ea273"
+                },
+                {
+                    "sha": "ba92984c395c79087b71430bd3b9c3c06f3e355f",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "expand newlines in history",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ba92984c395c79087b71430bd3b9c3c06f3e355f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-20T08:22:55Z"
+    },
+    {
+        "id": "24045147542",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 16408992,
+            "name": "neovim/neovim",
+            "url": "https://api.github.com/repos/neovim/neovim"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/neovim/neovim/issues/20211",
+                "repository_url": "https://api.github.com/repos/neovim/neovim",
+                "labels_url": "https://api.github.com/repos/neovim/neovim/issues/20211/labels{/name}",
+                "comments_url": "https://api.github.com/repos/neovim/neovim/issues/20211/comments",
+                "events_url": "https://api.github.com/repos/neovim/neovim/issues/20211/events",
+                "html_url": "https://github.com/neovim/neovim/issues/20211",
+                "id": 1375550302,
+                "node_id": "I_kwDOAPphoM5R_Tte",
+                "number": 20211,
+                "title": "`substitute()` in lua doesn't pass matching strings argument to callback",
+                "user": {
+                    "login": "refractalize",
+                    "id": 123917,
+                    "node_id": "MDQ6VXNlcjEyMzkxNw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/123917?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/refractalize",
+                    "html_url": "https://github.com/refractalize",
+                    "followers_url": "https://api.github.com/users/refractalize/followers",
+                    "following_url": "https://api.github.com/users/refractalize/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/refractalize/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/refractalize/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/refractalize/subscriptions",
+                    "organizations_url": "https://api.github.com/users/refractalize/orgs",
+                    "repos_url": "https://api.github.com/users/refractalize/repos",
+                    "events_url": "https://api.github.com/users/refractalize/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/refractalize/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 77997474,
+                        "node_id": "MDU6TGFiZWw3Nzk5NzQ3NA==",
+                        "url": "https://api.github.com/repos/neovim/neovim/labels/bug",
+                        "name": "bug",
+                        "color": "f9d0c4",
+                        "default": true,
+                        "description": "issues reporting wrong behavior"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-09-16T07:37:45Z",
+                "updated_at": "2022-09-16T07:37:45Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Neovim version (nvim -v)\n\nNVIM v0.8.0-dev-1093-g982fef601-dirty\n\n### Vim (not Nvim) behaves the same?\n\nno\n\n### Operating system/version\n\nmacOS 12.3.1\n\n### Terminal name/version\n\nkitty 0.25.2\n\n### $TERM environment variable\n\nxterm-kitty\n\n### Installation\n\nhomebrew install neovim --HEAD\n\n### How to reproduce the issue\n\nnvim --clean\r\n:lua print(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n\n\n### Expected behavior\n\nExpected `m` to be the array `{ 'b' }`, or otherwise the matched string with any other submatches as additional entries, as per documentation for `substitute()`.\r\n\r\nThat is:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nI would have expected\r\n\r\n```\r\n{ 'b' }\r\na b c\r\n```\r\n\n\n### Actual behavior\n\nActual behaviour is that the first argument to the lua function (`m` in this case) is _always_ an empty table `{}`. This is true even if there are matching groups in the regex. The lua expression:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nWill output:\r\n\r\n```\r\n{}\r\na v:null c\r\n```\r\n\r\nThe behaviour in equivalent VimScript is as expected:\r\n\r\n```viml\r\necho substitute('a b c', 'b', { m -> '(' . m[0] . ')' }, 'g')\r\n```\r\n\r\nWill output `a (b) c`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/neovim/neovim/issues/20211/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/neovim/neovim/issues/20211/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-16T07:37:45Z",
+        "org": {
+            "id": 6471485,
+            "login": "neovim",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neovim",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6471485?"
+        }
+    },
+    {
+        "id": "25497857442",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 368917877,
+            "name": "BuilderIO/qwik",
+            "url": "https://api.github.com/repos/BuilderIO/qwik"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-27T22:10:41Z",
+        "org": {
+            "id": 35700027,
+            "login": "BuilderIO",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/BuilderIO",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35700027?"
+        }
+    },
+    {
+        "id": "25485415822",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 321113412,
+            "name": "WebReflection/linkedom",
+            "url": "https://api.github.com/repos/WebReflection/linkedom"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T10:19:32Z"
+    },
+    {
+        "id": "25484133450",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 280068470,
+            "name": "swc-project/swc-node",
+            "url": "https://api.github.com/repos/swc-project/swc-node"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-26T06:09:54Z",
+        "org": {
+            "id": 26715726,
+            "login": "swc-project",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/swc-project",
+            "avatar_url": "https://avatars.githubusercontent.com/u/26715726?"
+        }
+    },
+    {
+        "id": "25372295290",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11734027322,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "6e2e199485612b59da74ff4739428e133140709c",
+            "before": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+            "commits": [
+                {
+                    "sha": "6f3f14b9e5f05c0a39bbd47c43c8e2b23c6ab585",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "rbenv is optional",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6f3f14b9e5f05c0a39bbd47c43c8e2b23c6ab585"
+                },
+                {
+                    "sha": "6e2e199485612b59da74ff4739428e133140709c",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "remove prompt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6e2e199485612b59da74ff4739428e133140709c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:29:00Z"
+    },
+    {
+        "id": "25371743933",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11733761366,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+            "before": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+            "commits": [
+                {
+                    "sha": "53198e573d5cd72bbe88aed6f5c1500d3a007bea",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "js",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/53198e573d5cd72bbe88aed6f5c1500d3a007bea"
+                },
+                {
+                    "sha": "a6d856a30643eaad39c0b130be6bd57eea192fb3",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "use ls",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a6d856a30643eaad39c0b130be6bd57eea192fb3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-21T11:04:39Z"
+    },
+    {
+        "id": "25328797258",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11708998951,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+            "before": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
+            "commits": [
+                {
+                    "sha": "37eb4ea1e459d2f5839c69a56bacb0795b9f900e",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "fzf-mru",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/37eb4ea1e459d2f5839c69a56bacb0795b9f900e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-18T11:30:51Z"
+    },
+    {
+        "id": "25328188087",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11708693295,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
+            "before": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+            "commits": [
+                {
+                    "sha": "3769e8eff99a7730553255f8b83d85fdaadff1b2",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "nvim improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3769e8eff99a7730553255f8b83d85fdaadff1b2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-18T11:01:47Z"
+    },
+    {
+        "id": "25118965876",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11600871561,
+            "size": 19,
+            "distinct_size": 19,
+            "ref": "refs/heads/master",
+            "head": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+            "before": "d5c9f9f6eeedd6c98d9397d4f432045ea2344d31",
+            "commits": [
+                {
+                    "sha": "48c1709d252563505beeae301663d6f13ec9f890",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "send all output to tempfile; works better for large outputs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/48c1709d252563505beeae301663d6f13ec9f890"
+                },
+                {
+                    "sha": "952d88a9bed800d47ebe3aa2a0f1df3aac2e58ae",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better version of difflines, no editing in place, less bugs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/952d88a9bed800d47ebe3aa2a0f1df3aac2e58ae"
+                },
+                {
+                    "sha": "54a151610193abbd6d2543aa55a6a47f00cf476c",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "fix nvrtab for new kitty",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/54a151610193abbd6d2543aa55a6a47f00cf476c"
+                },
+                {
+                    "sha": "0b0c13c2b5f20bfd0cc530a716f1ee080b0d615a",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "rewrite GetVisualText",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/0b0c13c2b5f20bfd0cc530a716f1ee080b0d615a"
+                },
+                {
+                    "sha": "feecca15a3e5ae2dc5c779a4782a1c4a3f19f2eb",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "kittysplit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/feecca15a3e5ae2dc5c779a4782a1c4a3f19f2eb"
+                },
+                {
+                    "sha": "793ff261e98810244c8b3ec478fb40ebeeacc757",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "some diff tools",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/793ff261e98810244c8b3ec478fb40ebeeacc757"
+                },
+                {
+                    "sha": "cd2c8094887ff1f1ad08fe01fe61b8998ae6bf26",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "windows command",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/cd2c8094887ff1f1ad08fe01fe61b8998ae6bf26"
+                },
+                {
+                    "sha": "40d959f3e401f44adaf2d1143d9414213e9ad464",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "cursorline only shows up on active window",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/40d959f3e401f44adaf2d1143d9414213e9ad464"
+                },
+                {
+                    "sha": "bc43cd7c1d6f0a8230279ad45ec7778ce4c971a0",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "open buffer in new tab",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bc43cd7c1d6f0a8230279ad45ec7778ce4c971a0"
+                },
+                {
+                    "sha": "6dce601fab8dbffbbf8fc436d13619ffa33a5ed6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "moving between tabs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6dce601fab8dbffbbf8fc436d13619ffa33a5ed6"
+                },
+                {
+                    "sha": "f3c8d9d8c570416b12cfbe07102f65639089227d",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "theme completion",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f3c8d9d8c570416b12cfbe07102f65639089227d"
+                },
+                {
+                    "sha": "6b48f10819d7cadac1b525ba216e14798da4a8f0",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "quickfix improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6b48f10819d7cadac1b525ba216e14798da4a8f0"
+                },
+                {
+                    "sha": "c055ef625aa1a4bc53ba39528cd427a937fd62a7",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "vnsips",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c055ef625aa1a4bc53ba39528cd427a937fd62a7"
+                },
+                {
+                    "sha": "3aaef2e0043b4f23a13e2318191f61edae51ae53",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "watch improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3aaef2e0043b4f23a13e2318191f61edae51ae53"
+                },
+                {
+                    "sha": "c737775c9226a78f25196d07f856aeca511a59c6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "vim settings",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c737775c9226a78f25196d07f856aeca511a59c6"
+                },
+                {
+                    "sha": "86acb2524ecee749c10864ea1a4b5dbc3730e627",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "some new plugins",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/86acb2524ecee749c10864ea1a4b5dbc3730e627"
+                },
+                {
+                    "sha": "6b5fe8cdc26a39ed62ccaf1b00e563a8f464cd04",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/6b5fe8cdc26a39ed62ccaf1b00e563a8f464cd04"
+                },
+                {
+                    "sha": "3f8d2fa07d3c6c6f58fdcaeab18f4a732060e2c2",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "modules",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3f8d2fa07d3c6c6f58fdcaeab18f4a732060e2c2"
+                },
+                {
+                    "sha": "496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "more modules and tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/496c1a47e9c0f3ebecd32f1bc0d3576d3aa7fc25"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-09T06:06:24Z"
+    },
+    {
+        "id": "24680314619",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 475103273,
+            "name": "nicolo-ribaudo/jest-light-runner",
+            "url": "https://api.github.com/repos/nicolo-ribaudo/jest-light-runner"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-10-18T20:40:58Z"
+    },
+    {
+        "id": "24670926535",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 553588339,
+            "name": "featurist/sandbox",
+            "url": "https://api.github.com/repos/featurist/sandbox"
+        },
+        "payload": {
+            "push_id": 11367727800,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
+            "before": "9c4242519bb4b6fa886881b6044adae2db927700",
+            "commits": [
+                {
+                    "sha": "aa744f79cccc9518fe7a49c58d218aa59b2b44b8",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "Add disable-hydrate option",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/featurist/sandbox/commits/aa744f79cccc9518fe7a49c58d218aa59b2b44b8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-18T13:43:45Z",
+        "org": {
+            "id": 1021475,
+            "login": "featurist",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/featurist",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1021475?"
+        }
+    },
+    {
+        "id": "24107095819",
+        "type": "PushEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 1627485,
+            "name": "refractalize/dotfiles",
+            "url": "https://api.github.com/repos/refractalize/dotfiles"
+        },
+        "payload": {
+            "push_id": 11076390908,
+            "size": 27,
+            "distinct_size": 27,
+            "ref": "refs/heads/master",
+            "head": "d5c9f9f6eeedd6c98d9397d4f432045ea2344d31",
+            "before": "8fcae54bf933cb2efbac5dc075d387bb43bdf4cd",
+            "commits": [
+                {
+                    "sha": "a960419e7dc4ad827ab18540349aa0af5785d0ef",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "think we don't need this anymore, seems to work as expected without",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/a960419e7dc4ad827ab18540349aa0af5785d0ef"
+                },
+                {
+                    "sha": "dd52c9fe4dda1b610b9f136356d64bb67510120c",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "remove unused configs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dd52c9fe4dda1b610b9f136356d64bb67510120c"
+                },
+                {
+                    "sha": "44b38be266149dbac33ad0e24281f72cccf7b7d9",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "which-key",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/44b38be266149dbac33ad0e24281f72cccf7b7d9"
+                },
+                {
+                    "sha": "d32863ee954e80859fd089996ed7d18ada829ce6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "material",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d32863ee954e80859fd089996ed7d18ada829ce6"
+                },
+                {
+                    "sha": "f1df9e1aef9599368ab7dbb699da5e4687243f4b",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "simplify baleia stuff",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f1df9e1aef9599368ab7dbb699da5e4687243f4b"
+                },
+                {
+                    "sha": "bf8f7c5fbb34a6514397ac676d986da95330122f",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "git branch completion, open diffs with GdiffFiles",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bf8f7c5fbb34a6514397ac676d986da95330122f"
+                },
+                {
+                    "sha": "d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "fix <M-3> as no longer using UK keyboard",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/d2ddfd4470aa033a2257ab09b1b873aa7e7bf8f7"
+                },
+                {
+                    "sha": "73150b6ebfd80f903ac7a01cd91d41e49a7af995",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "allow lualine to show tabs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/73150b6ebfd80f903ac7a01cd91d41e49a7af995"
+                },
+                {
+                    "sha": "dac03131d7762afa4742ab56380c66e70f55d3b3",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "diffview",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/dac03131d7762afa4742ab56380c66e70f55d3b3"
+                },
+                {
+                    "sha": "e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "hlslens scrollbar",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/e02e07f2fc674e8886906a8c7f7ab1d35cfaffc1"
+                },
+                {
+                    "sha": "f14e0ce56b95eb319a3db14721b3bc6293287862",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "nvim-treesitter-textobjects parameters and swap instead of Sideways",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/f14e0ce56b95eb319a3db14721b3bc6293287862"
+                },
+                {
+                    "sha": "720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better diff",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/720dce9a5f7e87ebd09ab1dd84c4b1e9affa230b"
+                },
+                {
+                    "sha": "53a8431bfc1f01efb6be86db0be338b544d083d6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better lsp status",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/53a8431bfc1f01efb6be86db0be338b544d083d6"
+                },
+                {
+                    "sha": "992685df92c4c1e206f8f4fb677ecbc51026095e",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "watch",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/992685df92c4c1e206f8f4fb677ecbc51026095e"
+                },
+                {
+                    "sha": "ebdef63bebd598f03e9746570781352be1e39a98",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better delay",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ebdef63bebd598f03e9746570781352be1e39a98"
+                },
+                {
+                    "sha": "878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "don't confuse autocmds with other scripts",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/878c26c9d3ca2b85afaf5d95cc0b360c4a6684fd"
+                },
+                {
+                    "sha": "bca4e1f29d5c95829c8cb90e40ef2111877ff0a6",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "sort files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/bca4e1f29d5c95829c8cb90e40ef2111877ff0a6"
+                },
+                {
+                    "sha": "c7549ec3643bb720885c9ea61498333a32d62f92",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "better command substitute",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/c7549ec3643bb720885c9ea61498333a32d62f92"
+                },
+                {
+                    "sha": "3a4313ff04797becafa51592c2996f9e1e4ea273",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "some kitty improvements",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/3a4313ff04797becafa51592c2996f9e1e4ea273"
+                },
+                {
+                    "sha": "ba92984c395c79087b71430bd3b9c3c06f3e355f",
+                    "author": {
+                        "email": "timmacfarlane@gmail.com",
+                        "name": "Tim Macfarlane"
+                    },
+                    "message": "expand newlines in history",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/refractalize/dotfiles/commits/ba92984c395c79087b71430bd3b9c3c06f3e355f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-20T08:22:55Z"
+    },
+    {
+        "id": "24045147542",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 123917,
+            "login": "refractalize",
+            "display_login": "refractalize",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/refractalize",
+            "avatar_url": "https://avatars.githubusercontent.com/u/123917?"
+        },
+        "repo": {
+            "id": 16408992,
+            "name": "neovim/neovim",
+            "url": "https://api.github.com/repos/neovim/neovim"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/neovim/neovim/issues/20211",
+                "repository_url": "https://api.github.com/repos/neovim/neovim",
+                "labels_url": "https://api.github.com/repos/neovim/neovim/issues/20211/labels{/name}",
+                "comments_url": "https://api.github.com/repos/neovim/neovim/issues/20211/comments",
+                "events_url": "https://api.github.com/repos/neovim/neovim/issues/20211/events",
+                "html_url": "https://github.com/neovim/neovim/issues/20211",
+                "id": 1375550302,
+                "node_id": "I_kwDOAPphoM5R_Tte",
+                "number": 20211,
+                "title": "`substitute()` in lua doesn't pass matching strings argument to callback",
+                "user": {
+                    "login": "refractalize",
+                    "id": 123917,
+                    "node_id": "MDQ6VXNlcjEyMzkxNw==",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/123917?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/refractalize",
+                    "html_url": "https://github.com/refractalize",
+                    "followers_url": "https://api.github.com/users/refractalize/followers",
+                    "following_url": "https://api.github.com/users/refractalize/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/refractalize/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/refractalize/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/refractalize/subscriptions",
+                    "organizations_url": "https://api.github.com/users/refractalize/orgs",
+                    "repos_url": "https://api.github.com/users/refractalize/repos",
+                    "events_url": "https://api.github.com/users/refractalize/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/refractalize/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 77997474,
+                        "node_id": "MDU6TGFiZWw3Nzk5NzQ3NA==",
+                        "url": "https://api.github.com/repos/neovim/neovim/labels/bug",
+                        "name": "bug",
+                        "color": "f9d0c4",
+                        "default": true,
+                        "description": "issues reporting wrong behavior"
+                    }
+                ],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-09-16T07:37:45Z",
+                "updated_at": "2022-09-16T07:37:45Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Neovim version (nvim -v)\n\nNVIM v0.8.0-dev-1093-g982fef601-dirty\n\n### Vim (not Nvim) behaves the same?\n\nno\n\n### Operating system/version\n\nmacOS 12.3.1\n\n### Terminal name/version\n\nkitty 0.25.2\n\n### $TERM environment variable\n\nxterm-kitty\n\n### Installation\n\nhomebrew install neovim --HEAD\n\n### How to reproduce the issue\n\nnvim --clean\r\n:lua print(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n\n\n### Expected behavior\n\nExpected `m` to be the array `{ 'b' }`, or otherwise the matched string with any other submatches as additional entries, as per documentation for `substitute()`.\r\n\r\nThat is:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nI would have expected\r\n\r\n```\r\n{ 'b' }\r\na b c\r\n```\r\n\n\n### Actual behavior\n\nActual behaviour is that the first argument to the lua function (`m` in this case) is _always_ an empty table `{}`. This is true even if there are matching groups in the regex. The lua expression:\r\n\r\n```lua\r\nprint(vim.fn.substitute('a b c', 'b', function(m) print(vim.inspect(m)); return m[1] end, 'g'))\r\n```\r\n\r\nWill output:\r\n\r\n```\r\n{}\r\na v:null c\r\n```\r\n\r\nThe behaviour in equivalent VimScript is as expected:\r\n\r\n```viml\r\necho substitute('a b c', 'b', { m -> '(' . m[0] . ')' }, 'g')\r\n```\r\n\r\nWill output `a (b) c`.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/neovim/neovim/issues/20211/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/neovim/neovim/issues/20211/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-09-16T07:37:45Z",
+        "org": {
+            "id": 6471485,
+            "login": "neovim",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/neovim",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6471485?"
+        }
     }
 ]

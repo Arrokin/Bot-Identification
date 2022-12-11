@@ -1,5 +1,418 @@
 [
     {
+        "id": "25510653564",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 432767611,
+            "name": "CuyZ/Valinor",
+            "url": "https://api.github.com/repos/CuyZ/Valinor"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-28T12:53:07Z",
+        "org": {
+            "id": 32244822,
+            "login": "CuyZ",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CuyZ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32244822?"
+        }
+    },
+    {
+        "id": "25251507021",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "push_id": 11670149784,
+            "size": 7,
+            "distinct_size": 7,
+            "ref": "refs/heads/master",
+            "head": "c93243cdf4bca919c397d94aa6d1b75f2ef03769",
+            "before": "3809a35a13579b8a01bd50fbe092a9ed66364d10",
+            "commits": [
+                {
+                    "sha": "e092013519d2d90fc13e7216065c32e13b7288cd",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Various changes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/e092013519d2d90fc13e7216065c32e13b7288cd"
+                },
+                {
+                    "sha": "7100d264ddfcbb54dc13e3c2adcc7c1d05badd58",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Handle extensions for ~/.files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/7100d264ddfcbb54dc13e3c2adcc7c1d05badd58"
+                },
+                {
+                    "sha": "9b715517f705562ed81f7f6ef33e35ab930219e5",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "git autoSetupRemote !\n\nI should have done this years ago",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/9b715517f705562ed81f7f6ef33e35ab930219e5"
+                },
+                {
+                    "sha": "93dc0fdc32139db98e68779c67f1bfb9274814d9",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Simplify editorconfig. Most of it should be site in my IntelliJ",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/93dc0fdc32139db98e68779c67f1bfb9274814d9"
+                },
+                {
+                    "sha": "1d0889f297c39af01f994a9315fec3ec8e79f5f3",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "dont install docker via brew",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/1d0889f297c39af01f994a9315fec3ec8e79f5f3"
+                },
+                {
+                    "sha": "fde96201d4a1ee66c94c8aa472ce81b75486dcde",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/fde96201d4a1ee66c94c8aa472ce81b75486dcde"
+                },
+                {
+                    "sha": "c93243cdf4bca919c397d94aa6d1b75f2ef03769",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "README",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/c93243cdf4bca919c397d94aa6d1b75f2ef03769"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-15T15:00:33Z"
+    },
+    {
+        "id": "25251464361",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/5",
+                "id": 1449923790,
+                "node_id": "I_kwDOAKtE3s5WbBTO",
+                "number": 5,
+                "title": "Screenshots",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-15T14:58:44Z",
+                "updated_at": "2022-11-15T14:58:55Z",
+                "closed_at": "2022-11-15T14:58:55Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "<img width=\"897\" alt=\"Screenshot 2022-11-15 at 15 58 33\" src=\"https://user-images.githubusercontent.com/1525636/201951710-1df49a04-7600-4e53-8bec-d0c4cbe0fe0c.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:56Z"
+    },
+    {
+        "id": "25251459252",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/5",
+                "id": 1449923790,
+                "node_id": "I_kwDOAKtE3s5WbBTO",
+                "number": 5,
+                "title": "Screenshots",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-15T14:58:44Z",
+                "updated_at": "2022-11-15T14:58:44Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "<img width=\"897\" alt=\"Screenshot 2022-11-15 at 15 58 33\" src=\"https://user-images.githubusercontent.com/1525636/201951710-1df49a04-7600-4e53-8bec-d0c4cbe0fe0c.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:45Z"
+    },
+    {
+        "id": "25251444276",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/2",
+                "id": 218686246,
+                "node_id": "MDU6SXNzdWUyMTg2ODYyNDY=",
+                "number": 2,
+                "title": "Do not install atom (and such) if host is headless",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2017-04-01T10:14:37Z",
+                "updated_at": "2022-11-15T14:58:10Z",
+                "closed_at": "2022-11-15T14:58:10Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:11Z"
+    },
+    {
+        "id": "25175715987",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 551825309,
+            "name": "julienbourdeau/demo-hashids-with-laravel",
+            "url": "https://api.github.com/repos/julienbourdeau/demo-hashids-with-laravel"
+        },
+        "payload": {
+            "push_id": 11629160084,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4d20ca7794deac124f88c0c970caed9d1c9b407e",
+            "before": "0c1fa71b4e3569a8cbcf8ac8beccf7ab157d9b10",
+            "commits": [
+                {
+                    "sha": "4d20ca7794deac124f88c0c970caed9d1c9b407e",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/demo-hashids-with-laravel/commits/4d20ca7794deac124f88c0c970caed9d1c9b407e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-11T09:04:37Z"
+    },
+    {
         "id": "24951343741",
         "type": "WatchEvent",
         "actor": {
@@ -42,28 +455,6 @@
         },
         "public": true,
         "created_at": "2022-11-01T07:35:51Z"
-    },
-    {
-        "id": "24810633392",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1525636,
-            "login": "julienbourdeau",
-            "display_login": "julienbourdeau",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/julienbourdeau",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
-        },
-        "repo": {
-            "id": 539012562,
-            "name": "themsaid/hover",
-            "url": "https://api.github.com/repos/themsaid/hover"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-25T09:08:35Z"
     },
     {
         "id": "24771534889",
@@ -1526,7 +1917,7 @@
         "created_at": "2022-10-05T07:45:01Z"
     },
     {
-        "id": "23345657768",
+        "id": "25510653564",
         "type": "WatchEvent",
         "actor": {
             "id": 1525636,
@@ -1537,19 +1928,26 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
         },
         "repo": {
-            "id": 191712234,
-            "name": "nicoverbruggen/phpmon",
-            "url": "https://api.github.com/repos/nicoverbruggen/phpmon"
+            "id": 432767611,
+            "name": "CuyZ/Valinor",
+            "url": "https://api.github.com/repos/CuyZ/Valinor"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-08-09T17:42:08Z"
+        "created_at": "2022-11-28T12:53:07Z",
+        "org": {
+            "id": 32244822,
+            "login": "CuyZ",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CuyZ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32244822?"
+        }
     },
     {
-        "id": "23293202854",
-        "type": "WatchEvent",
+        "id": "25251507021",
+        "type": "PushEvent",
         "actor": {
             "id": 1525636,
             "login": "julienbourdeau",
@@ -1559,15 +1957,377 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
         },
         "repo": {
-            "id": 517756513,
-            "name": "Sammyjo20/laravel-haystack",
-            "url": "https://api.github.com/repos/Sammyjo20/laravel-haystack"
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
         },
         "payload": {
-            "action": "started"
+            "push_id": 11670149784,
+            "size": 7,
+            "distinct_size": 7,
+            "ref": "refs/heads/master",
+            "head": "c93243cdf4bca919c397d94aa6d1b75f2ef03769",
+            "before": "3809a35a13579b8a01bd50fbe092a9ed66364d10",
+            "commits": [
+                {
+                    "sha": "e092013519d2d90fc13e7216065c32e13b7288cd",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Various changes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/e092013519d2d90fc13e7216065c32e13b7288cd"
+                },
+                {
+                    "sha": "7100d264ddfcbb54dc13e3c2adcc7c1d05badd58",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Handle extensions for ~/.files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/7100d264ddfcbb54dc13e3c2adcc7c1d05badd58"
+                },
+                {
+                    "sha": "9b715517f705562ed81f7f6ef33e35ab930219e5",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "git autoSetupRemote !\n\nI should have done this years ago",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/9b715517f705562ed81f7f6ef33e35ab930219e5"
+                },
+                {
+                    "sha": "93dc0fdc32139db98e68779c67f1bfb9274814d9",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Simplify editorconfig. Most of it should be site in my IntelliJ",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/93dc0fdc32139db98e68779c67f1bfb9274814d9"
+                },
+                {
+                    "sha": "1d0889f297c39af01f994a9315fec3ec8e79f5f3",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "dont install docker via brew",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/1d0889f297c39af01f994a9315fec3ec8e79f5f3"
+                },
+                {
+                    "sha": "fde96201d4a1ee66c94c8aa472ce81b75486dcde",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/fde96201d4a1ee66c94c8aa472ce81b75486dcde"
+                },
+                {
+                    "sha": "c93243cdf4bca919c397d94aa6d1b75f2ef03769",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "README",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/c93243cdf4bca919c397d94aa6d1b75f2ef03769"
+                }
+            ]
         },
         "public": true,
-        "created_at": "2022-08-06T06:18:43Z"
+        "created_at": "2022-11-15T15:00:33Z"
+    },
+    {
+        "id": "25251464361",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/5",
+                "id": 1449923790,
+                "node_id": "I_kwDOAKtE3s5WbBTO",
+                "number": 5,
+                "title": "Screenshots",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-15T14:58:44Z",
+                "updated_at": "2022-11-15T14:58:55Z",
+                "closed_at": "2022-11-15T14:58:55Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "<img width=\"897\" alt=\"Screenshot 2022-11-15 at 15 58 33\" src=\"https://user-images.githubusercontent.com/1525636/201951710-1df49a04-7600-4e53-8bec-d0c4cbe0fe0c.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:56Z"
+    },
+    {
+        "id": "25251459252",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/5",
+                "id": 1449923790,
+                "node_id": "I_kwDOAKtE3s5WbBTO",
+                "number": 5,
+                "title": "Screenshots",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-15T14:58:44Z",
+                "updated_at": "2022-11-15T14:58:44Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "<img width=\"897\" alt=\"Screenshot 2022-11-15 at 15 58 33\" src=\"https://user-images.githubusercontent.com/1525636/201951710-1df49a04-7600-4e53-8bec-d0c4cbe0fe0c.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:45Z"
+    },
+    {
+        "id": "25251444276",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/2",
+                "id": 218686246,
+                "node_id": "MDU6SXNzdWUyMTg2ODYyNDY=",
+                "number": 2,
+                "title": "Do not install atom (and such) if host is headless",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2017-04-01T10:14:37Z",
+                "updated_at": "2022-11-15T14:58:10Z",
+                "closed_at": "2022-11-15T14:58:10Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:11Z"
+    },
+    {
+        "id": "25175715987",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 551825309,
+            "name": "julienbourdeau/demo-hashids-with-laravel",
+            "url": "https://api.github.com/repos/julienbourdeau/demo-hashids-with-laravel"
+        },
+        "payload": {
+            "push_id": 11629160084,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4d20ca7794deac124f88c0c970caed9d1c9b407e",
+            "before": "0c1fa71b4e3569a8cbcf8ac8beccf7ab157d9b10",
+            "commits": [
+                {
+                    "sha": "4d20ca7794deac124f88c0c970caed9d1c9b407e",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/demo-hashids-with-laravel/commits/4d20ca7794deac124f88c0c970caed9d1c9b407e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-11T09:04:37Z"
     },
     {
         "id": "24951343741",
@@ -1612,28 +2372,6 @@
         },
         "public": true,
         "created_at": "2022-11-01T07:35:51Z"
-    },
-    {
-        "id": "24810633392",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1525636,
-            "login": "julienbourdeau",
-            "display_login": "julienbourdeau",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/julienbourdeau",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
-        },
-        "repo": {
-            "id": 539012562,
-            "name": "themsaid/hover",
-            "url": "https://api.github.com/repos/themsaid/hover"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-25T09:08:35Z"
     },
     {
         "id": "24771534889",
@@ -3096,7 +3834,7 @@
         "created_at": "2022-10-05T07:45:01Z"
     },
     {
-        "id": "23345657768",
+        "id": "25510653564",
         "type": "WatchEvent",
         "actor": {
             "id": 1525636,
@@ -3107,19 +3845,26 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
         },
         "repo": {
-            "id": 191712234,
-            "name": "nicoverbruggen/phpmon",
-            "url": "https://api.github.com/repos/nicoverbruggen/phpmon"
+            "id": 432767611,
+            "name": "CuyZ/Valinor",
+            "url": "https://api.github.com/repos/CuyZ/Valinor"
         },
         "payload": {
             "action": "started"
         },
         "public": true,
-        "created_at": "2022-08-09T17:42:08Z"
+        "created_at": "2022-11-28T12:53:07Z",
+        "org": {
+            "id": 32244822,
+            "login": "CuyZ",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/CuyZ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/32244822?"
+        }
     },
     {
-        "id": "23293202854",
-        "type": "WatchEvent",
+        "id": "25251507021",
+        "type": "PushEvent",
         "actor": {
             "id": 1525636,
             "login": "julienbourdeau",
@@ -3129,15 +3874,377 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
         },
         "repo": {
-            "id": 517756513,
-            "name": "Sammyjo20/laravel-haystack",
-            "url": "https://api.github.com/repos/Sammyjo20/laravel-haystack"
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
         },
         "payload": {
-            "action": "started"
+            "push_id": 11670149784,
+            "size": 7,
+            "distinct_size": 7,
+            "ref": "refs/heads/master",
+            "head": "c93243cdf4bca919c397d94aa6d1b75f2ef03769",
+            "before": "3809a35a13579b8a01bd50fbe092a9ed66364d10",
+            "commits": [
+                {
+                    "sha": "e092013519d2d90fc13e7216065c32e13b7288cd",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Various changes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/e092013519d2d90fc13e7216065c32e13b7288cd"
+                },
+                {
+                    "sha": "7100d264ddfcbb54dc13e3c2adcc7c1d05badd58",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Handle extensions for ~/.files",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/7100d264ddfcbb54dc13e3c2adcc7c1d05badd58"
+                },
+                {
+                    "sha": "9b715517f705562ed81f7f6ef33e35ab930219e5",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "git autoSetupRemote !\n\nI should have done this years ago",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/9b715517f705562ed81f7f6ef33e35ab930219e5"
+                },
+                {
+                    "sha": "93dc0fdc32139db98e68779c67f1bfb9274814d9",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Simplify editorconfig. Most of it should be site in my IntelliJ",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/93dc0fdc32139db98e68779c67f1bfb9274814d9"
+                },
+                {
+                    "sha": "1d0889f297c39af01f994a9315fec3ec8e79f5f3",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "dont install docker via brew",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/1d0889f297c39af01f994a9315fec3ec8e79f5f3"
+                },
+                {
+                    "sha": "fde96201d4a1ee66c94c8aa472ce81b75486dcde",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "update",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/fde96201d4a1ee66c94c8aa472ce81b75486dcde"
+                },
+                {
+                    "sha": "c93243cdf4bca919c397d94aa6d1b75f2ef03769",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "README",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/commits/c93243cdf4bca919c397d94aa6d1b75f2ef03769"
+                }
+            ]
         },
         "public": true,
-        "created_at": "2022-08-06T06:18:43Z"
+        "created_at": "2022-11-15T15:00:33Z"
+    },
+    {
+        "id": "25251464361",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/5",
+                "id": 1449923790,
+                "node_id": "I_kwDOAKtE3s5WbBTO",
+                "number": 5,
+                "title": "Screenshots",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-15T14:58:44Z",
+                "updated_at": "2022-11-15T14:58:55Z",
+                "closed_at": "2022-11-15T14:58:55Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "<img width=\"897\" alt=\"Screenshot 2022-11-15 at 15 58 33\" src=\"https://user-images.githubusercontent.com/1525636/201951710-1df49a04-7600-4e53-8bec-d0c4cbe0fe0c.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:56Z"
+    },
+    {
+        "id": "25251459252",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/5",
+                "id": 1449923790,
+                "node_id": "I_kwDOAKtE3s5WbBTO",
+                "number": 5,
+                "title": "Screenshots",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-11-15T14:58:44Z",
+                "updated_at": "2022-11-15T14:58:44Z",
+                "closed_at": null,
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": "<img width=\"897\" alt=\"Screenshot 2022-11-15 at 15 58 33\" src=\"https://user-images.githubusercontent.com/1525636/201951710-1df49a04-7600-4e53-8bec-d0c4cbe0fe0c.png\">\r\n",
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/5/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:45Z"
+    },
+    {
+        "id": "25251444276",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 11224286,
+            "name": "julienbourdeau/dotfiles",
+            "url": "https://api.github.com/repos/julienbourdeau/dotfiles"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2",
+                "repository_url": "https://api.github.com/repos/julienbourdeau/dotfiles",
+                "labels_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/comments",
+                "events_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/events",
+                "html_url": "https://github.com/julienbourdeau/dotfiles/issues/2",
+                "id": 218686246,
+                "node_id": "MDU6SXNzdWUyMTg2ODYyNDY=",
+                "number": 2,
+                "title": "Do not install atom (and such) if host is headless",
+                "user": {
+                    "login": "julienbourdeau",
+                    "id": 1525636,
+                    "node_id": "MDQ6VXNlcjE1MjU2MzY=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1525636?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/julienbourdeau",
+                    "html_url": "https://github.com/julienbourdeau",
+                    "followers_url": "https://api.github.com/users/julienbourdeau/followers",
+                    "following_url": "https://api.github.com/users/julienbourdeau/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/julienbourdeau/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/julienbourdeau/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/julienbourdeau/subscriptions",
+                    "organizations_url": "https://api.github.com/users/julienbourdeau/orgs",
+                    "repos_url": "https://api.github.com/users/julienbourdeau/repos",
+                    "events_url": "https://api.github.com/users/julienbourdeau/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/julienbourdeau/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2017-04-01T10:14:37Z",
+                "updated_at": "2022-11-15T14:58:10Z",
+                "closed_at": "2022-11-15T14:58:10Z",
+                "author_association": "OWNER",
+                "active_lock_reason": null,
+                "body": null,
+                "reactions": {
+                    "url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/julienbourdeau/dotfiles/issues/2/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-15T14:58:11Z"
+    },
+    {
+        "id": "25175715987",
+        "type": "PushEvent",
+        "actor": {
+            "id": 1525636,
+            "login": "julienbourdeau",
+            "display_login": "julienbourdeau",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/julienbourdeau",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
+        },
+        "repo": {
+            "id": 551825309,
+            "name": "julienbourdeau/demo-hashids-with-laravel",
+            "url": "https://api.github.com/repos/julienbourdeau/demo-hashids-with-laravel"
+        },
+        "payload": {
+            "push_id": 11629160084,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4d20ca7794deac124f88c0c970caed9d1c9b407e",
+            "before": "0c1fa71b4e3569a8cbcf8ac8beccf7ab157d9b10",
+            "commits": [
+                {
+                    "sha": "4d20ca7794deac124f88c0c970caed9d1c9b407e",
+                    "author": {
+                        "email": "julien@julienbourdeau.com",
+                        "name": "Julien Bourdeau"
+                    },
+                    "message": "Update README.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/julienbourdeau/demo-hashids-with-laravel/commits/4d20ca7794deac124f88c0c970caed9d1c9b407e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-11T09:04:37Z"
     },
     {
         "id": "24951343741",
@@ -3182,28 +4289,6 @@
         },
         "public": true,
         "created_at": "2022-11-01T07:35:51Z"
-    },
-    {
-        "id": "24810633392",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1525636,
-            "login": "julienbourdeau",
-            "display_login": "julienbourdeau",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/julienbourdeau",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
-        },
-        "repo": {
-            "id": 539012562,
-            "name": "themsaid/hover",
-            "url": "https://api.github.com/repos/themsaid/hover"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-10-25T09:08:35Z"
     },
     {
         "id": "24771534889",
@@ -4664,49 +5749,5 @@
         },
         "public": true,
         "created_at": "2022-10-05T07:45:01Z"
-    },
-    {
-        "id": "23345657768",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1525636,
-            "login": "julienbourdeau",
-            "display_login": "julienbourdeau",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/julienbourdeau",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
-        },
-        "repo": {
-            "id": 191712234,
-            "name": "nicoverbruggen/phpmon",
-            "url": "https://api.github.com/repos/nicoverbruggen/phpmon"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-09T17:42:08Z"
-    },
-    {
-        "id": "23293202854",
-        "type": "WatchEvent",
-        "actor": {
-            "id": 1525636,
-            "login": "julienbourdeau",
-            "display_login": "julienbourdeau",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/julienbourdeau",
-            "avatar_url": "https://avatars.githubusercontent.com/u/1525636?"
-        },
-        "repo": {
-            "id": 517756513,
-            "name": "Sammyjo20/laravel-haystack",
-            "url": "https://api.github.com/repos/Sammyjo20/laravel-haystack"
-        },
-        "payload": {
-            "action": "started"
-        },
-        "public": true,
-        "created_at": "2022-08-06T06:18:43Z"
     }
 ]

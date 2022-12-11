@@ -1,6 +1,6 @@
 [
     {
-        "id": "25028368655",
+        "id": "25722475699",
         "type": "PushEvent",
         "actor": {
             "id": 4276295,
@@ -16,215 +16,37 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "push_id": 11552695600,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/5.6",
-            "head": "073d65c71917df9030ea00e98304ef99fa0be392",
-            "before": "ca28c00c4125af17bb77d77162a4aae7d53e290b",
-            "commits": [
-                {
-                    "sha": "81624b0efef69906562c70734188c219d4e62353",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.14.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/81624b0efef69906562c70734188c219d4e62353"
-                },
-                {
-                    "sha": "073d65c71917df9030ea00e98304ef99fa0be392",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.15-SNAPSHOT",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/073d65c71917df9030ea00e98304ef99fa0be392"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-04T10:07:26Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "25028368584",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "5.6.14",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-11-04T10:07:26Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "25017528079",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 11546967803,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/5.6",
-            "head": "9b065d05ea5757c77df9e8b692f27522fb52d083",
-            "before": "1d539eae9fd359210a4936030ad3e0f6e75a6f76",
-            "commits": [
-                {
-                    "sha": "5a1d6f6ac084d8e20d223711464c5210028ebc08",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.13.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/5a1d6f6ac084d8e20d223711464c5210028ebc08"
-                },
-                {
-                    "sha": "9b065d05ea5757c77df9e8b692f27522fb52d083",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.14-SNAPSHOT",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/9b065d05ea5757c77df9e8b692f27522fb52d083"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-11-03T20:15:48Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "25017527931",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "5.6.13",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-11-03T20:15:48Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24891308255",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 11480939013,
+            "push_id": 11915313815,
             "size": 2,
             "distinct_size": 2,
             "ref": "refs/heads/6.1",
-            "head": "527bdbdaf578cb3ec0abb9d743fe935ba3385a6d",
-            "before": "6894d57b0bd65d636b3412cd8e2277c2967ce9a0",
+            "head": "60308c7dda8073040ac8ad6b83fd659118529988",
+            "before": "64d26d6ec975732a67571ddbe2327339f182b91a",
             "commits": [
                 {
-                    "sha": "4e31f88651c41e8a2db547b6de7228c04cb33b50",
+                    "sha": "c905c8ebe3699c762e0123d7c6653ed8d6361c47",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "Pre-steps for release : `6.1.5.Final`",
+                    "message": "Pre-steps for release : `6.1.6.Final`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/4e31f88651c41e8a2db547b6de7228c04cb33b50"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/c905c8ebe3699c762e0123d7c6653ed8d6361c47"
                 },
                 {
-                    "sha": "527bdbdaf578cb3ec0abb9d743fe935ba3385a6d",
+                    "sha": "60308c7dda8073040ac8ad6b83fd659118529988",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "Post-steps for release : `6.1.5.Final`",
+                    "message": "Post-steps for release : `6.1.6.Final`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/527bdbdaf578cb3ec0abb9d743fe935ba3385a6d"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/60308c7dda8073040ac8ad6b83fd659118529988"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-10-28T12:17:21Z",
+        "created_at": "2022-12-07T14:35:44Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -234,7 +56,7 @@
         }
     },
     {
-        "id": "24891308140",
+        "id": "25722475585",
         "type": "CreateEvent",
         "actor": {
             "id": 4276295,
@@ -250,1238 +72,14 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "ref": "6.1.5",
+            "ref": "6.1.6",
             "ref_type": "tag",
             "master_branch": "main",
             "description": "Hibernate's core Object/Relational Mapping functionality",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-10-28T12:17:20Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24864857346",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "ref": "5.11.11.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Search: full-text search for domain model",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-10-27T11:06:21Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24864857201",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "push_id": 11467527037,
-            "size": 3,
-            "distinct_size": 3,
-            "ref": "refs/heads/5.11",
-            "head": "df44df54b94eb20e8fe7176954c14dd73ec8ac43",
-            "before": "50bf2fa614415b2aad684f3e1a44a0fdb9413646",
-            "commits": [
-                {
-                    "sha": "cacf3f67965bc3e81f1e9c3dae0f3041df3e22a9",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 5.11.11.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/cacf3f67965bc3e81f1e9c3dae0f3041df3e22a9"
-                },
-                {
-                    "sha": "212e091aca606125c788d736f8bf2914e35a9fb8",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 5.11.11.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/212e091aca606125c788d736f8bf2914e35a9fb8"
-                },
-                {
-                    "sha": "df44df54b94eb20e8fe7176954c14dd73ec8ac43",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/df44df54b94eb20e8fe7176954c14dd73ec8ac43"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-27T11:06:20Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24864851975",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "ref": "5.10.13.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Search: full-text search for domain model",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-10-27T11:06:06Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24864851908",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "push_id": 11467524395,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/5.10",
-            "head": "6889d48251777c3cf0c8ea88dcd1fa99a64dc63c",
-            "before": "83492279c462ed1e98cbfdcc1756d2db37645d9e",
-            "commits": [
-                {
-                    "sha": "375f8fcccc4f2198460beab96399baa4ca98aea7",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] README.md updated by release build 5.10.13.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/375f8fcccc4f2198460beab96399baa4ca98aea7"
-                },
-                {
-                    "sha": "f1d56272b4d188b40b57f0e4490bb91fdfde9eb5",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 5.10.13.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/f1d56272b4d188b40b57f0e4490bb91fdfde9eb5"
-                },
-                {
-                    "sha": "0143266dd492b91e9735d5439a8a3933c89b030a",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 5.10.13.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/0143266dd492b91e9735d5439a8a3933c89b030a"
-                },
-                {
-                    "sha": "6889d48251777c3cf0c8ea88dcd1fa99a64dc63c",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/6889d48251777c3cf0c8ea88dcd1fa99a64dc63c"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-27T11:06:06Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24743725981",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 51439002,
-            "name": "beanvalidation/beanvalidation.github.io",
-            "url": "https://api.github.com/repos/beanvalidation/beanvalidation.github.io"
-        },
-        "payload": {
-            "push_id": 11403920309,
-            "size": 1,
-            "distinct_size": 1,
-            "ref": "refs/heads/master",
-            "head": "2887d960d151d99cefff1177f71205d346aebc27",
-            "before": "6c37c6c9a96af6268716713e5a0e6064f496f545",
-            "commits": [
-                {
-                    "sha": "2887d960d151d99cefff1177f71205d346aebc27",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "Publish generated site",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/beanvalidation/beanvalidation.github.io/commits/2887d960d151d99cefff1177f71205d346aebc27"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-21T07:59:22Z",
-        "org": {
-            "id": 420577,
-            "login": "beanvalidation",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/beanvalidation",
-            "avatar_url": "https://avatars.githubusercontent.com/u/420577?"
-        }
-    },
-    {
-        "id": "24408540713",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 11231083813,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/6.1",
-            "head": "21e40bb5e76e9116eb1989968b2e24bd7d8a277d",
-            "before": "267129a5fd7ea5c048e5898afbcebf23cefaf706",
-            "commits": [
-                {
-                    "sha": "80c489178eb6cbbc2f82747b85fed1e070187aba",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "Pre-steps for release : `6.1.4.Final`",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/80c489178eb6cbbc2f82747b85fed1e070187aba"
-                },
-                {
-                    "sha": "21e40bb5e76e9116eb1989968b2e24bd7d8a277d",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "Post-steps for release : `6.1.4.Final`",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/21e40bb5e76e9116eb1989968b2e24bd7d8a277d"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-10-05T10:09:41Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24408540551",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "6.1.4",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-10-05T10:09:41Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24248375378",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "5.6.12",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-27T12:29:09Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24248375172",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 11149560067,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/5.6",
-            "head": "be8a297474fd8a3b2b024de3fc54a0ceeb118fbf",
-            "before": "ee08830f0381665cb4a106f04bd40991e8c770b6",
-            "commits": [
-                {
-                    "sha": "e9147dd0ee0c49651c6aa4bc2d88236dfd66be35",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.12.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/e9147dd0ee0c49651c6aa4bc2d88236dfd66be35"
-                },
-                {
-                    "sha": "be8a297474fd8a3b2b024de3fc54a0ceeb118fbf",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.13-SNAPSHOT",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/be8a297474fd8a3b2b024de3fc54a0ceeb118fbf"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-27T12:29:08Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24044382421",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "ref": "6.1.7.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Search: full-text search for domain model",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-16T06:52:45Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "24044382234",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "push_id": 11041832141,
-            "size": 3,
-            "distinct_size": 3,
-            "ref": "refs/heads/6.1",
-            "head": "9e2a32eb17db5cd85a79011f01b984f2c61aa270",
-            "before": "3033ce8af04ee6d2b23f4d400ea032084f1c4137",
-            "commits": [
-                {
-                    "sha": "5101acf08a3bda8364b0d54ad3242aaba49972e9",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 6.1.7.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/5101acf08a3bda8364b0d54ad3242aaba49972e9"
-                },
-                {
-                    "sha": "269a8c378e948876ac197420b7223dc2833c038c",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 6.1.7.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/269a8c378e948876ac197420b7223dc2833c038c"
-                },
-                {
-                    "sha": "9e2a32eb17db5cd85a79011f01b984f2c61aa270",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/9e2a32eb17db5cd85a79011f01b984f2c61aa270"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-16T06:52:44Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23955131747",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "ref": "6.2.5.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Validator - Jakarta Bean Validation Reference Implementation",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-12T14:26:31Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23955131668",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "push_id": 10997258896,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/6.2",
-            "head": "487b5c5ded55ea24da276bb38f9a557e9798a375",
-            "before": "9e439bb8e4646854f135276d2206a01348b02d9e",
-            "commits": [
-                {
-                    "sha": "70637b7d9c219a015dd187606e604eecd5e072d2",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] README.md updated by release build 6.2.5.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/70637b7d9c219a015dd187606e604eecd5e072d2"
-                },
-                {
-                    "sha": "e43c32d411bb3866f5bb64fd8a79ba158b83842e",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 6.2.5.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/e43c32d411bb3866f5bb64fd8a79ba158b83842e"
-                },
-                {
-                    "sha": "36feac36982b9eaf0f55adbc7c313c4652c7fb00",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 6.2.5.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/36feac36982b9eaf0f55adbc7c313c4652c7fb00"
-                },
-                {
-                    "sha": "487b5c5ded55ea24da276bb38f9a557e9798a375",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/487b5c5ded55ea24da276bb38f9a557e9798a375"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-12T14:26:30Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23916998145",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "push_id": 10975544020,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/main",
-            "head": "4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3",
-            "before": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-            "commits": [
-                {
-                    "sha": "fef02e29e103bf9e37686dadac162bf6127de3e0",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] README.md updated by release build 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/fef02e29e103bf9e37686dadac162bf6127de3e0"
-                },
-                {
-                    "sha": "a0eb2d7c43377314d2fc2a6e36d56c50f9485b35",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/a0eb2d7c43377314d2fc2a6e36d56c50f9485b35"
-                },
-                {
-                    "sha": "065a6ba2602329b966479a6e83a065b932eaf2c5",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/065a6ba2602329b966479a6e83a065b932eaf2c5"
-                },
-                {
-                    "sha": "4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-09T13:33:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23916998058",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "ref": "8.0.0.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Validator - Jakarta Bean Validation Reference Implementation",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-09T13:33:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23894645489",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 10964347255,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/6.1",
-            "head": "b0f2faedca2992bb820bb6628f469b5fbf4bbc9f",
-            "before": "7b05d24c5538d9112eebf0c1876ba5fde0227a3f",
-            "commits": [
-                {
-                    "sha": "27627073866cd8cb221231ac995c4c28d84b04b1",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "Pre-steps for release : `6.1.3.Final`",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/27627073866cd8cb221231ac995c4c28d84b04b1"
-                },
-                {
-                    "sha": "b0f2faedca2992bb820bb6628f469b5fbf4bbc9f",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "Post-steps for release : `6.1.3.Final`",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/b0f2faedca2992bb820bb6628f469b5fbf4bbc9f"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-08T13:59:08Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23894644449",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "6.1.3",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-08T13:59:06Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23720516085",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 10875161029,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/5.6",
-            "head": "307b74641664554ab9e0ac10459dfd2e8c91dc5b",
-            "before": "52f39f8ba0b3a4c455aba3c1ff6d958908603f62",
-            "commits": [
-                {
-                    "sha": "0be6e7d280a0e9eef137f60bfcc75fb9c0bac519",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.11.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/0be6e7d280a0e9eef137f60bfcc75fb9c0bac519"
-                },
-                {
-                    "sha": "307b74641664554ab9e0ac10459dfd2e8c91dc5b",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.12-SNAPSHOT",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/307b74641664554ab9e0ac10459dfd2e8c91dc5b"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-30T14:59:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23720515904",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "5.6.11",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-30T14:59:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23588473284",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "ref": "6.0.10.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Search: full-text search for domain model",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-23T13:30:45Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23588473175",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "push_id": 10807495066,
-            "size": 3,
-            "distinct_size": 3,
-            "ref": "refs/heads/6.0",
-            "head": "b69b616c973f15e306a60632edbd0b237553e3d5",
-            "before": "8d17e920784af9aaead5d90f6e1e08826c0daa5b",
-            "commits": [
-                {
-                    "sha": "2999d0a67c2c02d8dc5e3d80f85f9ba85ce4d68e",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 6.0.10.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/2999d0a67c2c02d8dc5e3d80f85f9ba85ce4d68e"
-                },
-                {
-                    "sha": "ca84afbad49d0d9e5747d6962659a240e7994d31",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 6.0.10.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/ca84afbad49d0d9e5747d6962659a240e7994d31"
-                },
-                {
-                    "sha": "b69b616c973f15e306a60632edbd0b237553e3d5",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/b69b616c973f15e306a60632edbd0b237553e3d5"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-23T13:30:45Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23433733689",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "5.3.28",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-15T07:20:23Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23433733636",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 10728216559,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/5.3",
-            "head": "744d3ea644852a1a332e460f8950969745594387",
-            "before": "65f33f77039d8b3bbe6e6679a84486892ecc77ac",
-            "commits": [
-                {
-                    "sha": "2e17c73197bdb926a6c0ab50937fc5e8b905d473",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.3.28.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/2e17c73197bdb926a6c0ab50937fc5e8b905d473"
-                },
-                {
-                    "sha": "744d3ea644852a1a332e460f8950969745594387",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.3.29-SNAPSHOT",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/744d3ea644852a1a332e460f8950969745594387"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-15T07:20:22Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23343530575",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "push_id": 10680455346,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/main",
-            "head": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-            "before": "454b836bae2a6167b3626818019340b37ae171bf",
-            "commits": [
-                {
-                    "sha": "e7ee250c2274e31c499596b216dfe63153cf8400",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] README.md updated by release build 8.0.0.CR3",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/e7ee250c2274e31c499596b216dfe63153cf8400"
-                },
-                {
-                    "sha": "84d84588aec9f854177e236e56b7d311124dafd7",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 8.0.0.CR3",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/84d84588aec9f854177e236e56b7d311124dafd7"
-                },
-                {
-                    "sha": "24129bacaaf77c1bcd41a190d90a3b53f61923d0",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 8.0.0.CR3",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/24129bacaaf77c1bcd41a190d90a3b53f61923d0"
-                },
-                {
-                    "sha": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/9586bb87c6a9f8670392bcb617ca94f710f3ed74"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-09T15:49:06Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23343530464",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "ref": "8.0.0.CR3",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Validator - Jakarta Bean Validation Reference Implementation",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-09T15:49:06Z",
+        "created_at": "2022-12-07T14:35:44Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -2398,116 +996,7 @@
         }
     },
     {
-        "id": "23916998145",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "push_id": 10975544020,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/main",
-            "head": "4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3",
-            "before": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-            "commits": [
-                {
-                    "sha": "fef02e29e103bf9e37686dadac162bf6127de3e0",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] README.md updated by release build 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/fef02e29e103bf9e37686dadac162bf6127de3e0"
-                },
-                {
-                    "sha": "a0eb2d7c43377314d2fc2a6e36d56c50f9485b35",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/a0eb2d7c43377314d2fc2a6e36d56c50f9485b35"
-                },
-                {
-                    "sha": "065a6ba2602329b966479a6e83a065b932eaf2c5",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/065a6ba2602329b966479a6e83a065b932eaf2c5"
-                },
-                {
-                    "sha": "4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-09T13:33:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23916998058",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "ref": "8.0.0.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Validator - Jakarta Bean Validation Reference Implementation",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-09T13:33:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23894645489",
+        "id": "25722475699",
         "type": "PushEvent",
         "actor": {
             "id": 4276295,
@@ -2523,37 +1012,37 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "push_id": 10964347255,
+            "push_id": 11915313815,
             "size": 2,
             "distinct_size": 2,
             "ref": "refs/heads/6.1",
-            "head": "b0f2faedca2992bb820bb6628f469b5fbf4bbc9f",
-            "before": "7b05d24c5538d9112eebf0c1876ba5fde0227a3f",
+            "head": "60308c7dda8073040ac8ad6b83fd659118529988",
+            "before": "64d26d6ec975732a67571ddbe2327339f182b91a",
             "commits": [
                 {
-                    "sha": "27627073866cd8cb221231ac995c4c28d84b04b1",
+                    "sha": "c905c8ebe3699c762e0123d7c6653ed8d6361c47",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "Pre-steps for release : `6.1.3.Final`",
+                    "message": "Pre-steps for release : `6.1.6.Final`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/27627073866cd8cb221231ac995c4c28d84b04b1"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/c905c8ebe3699c762e0123d7c6653ed8d6361c47"
                 },
                 {
-                    "sha": "b0f2faedca2992bb820bb6628f469b5fbf4bbc9f",
+                    "sha": "60308c7dda8073040ac8ad6b83fd659118529988",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "Post-steps for release : `6.1.3.Final`",
+                    "message": "Post-steps for release : `6.1.6.Final`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/b0f2faedca2992bb820bb6628f469b5fbf4bbc9f"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/60308c7dda8073040ac8ad6b83fd659118529988"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-08T13:59:08Z",
+        "created_at": "2022-12-07T14:35:44Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -2563,7 +1052,7 @@
         }
     },
     {
-        "id": "23894644449",
+        "id": "25722475585",
         "type": "CreateEvent",
         "actor": {
             "id": 4276295,
@@ -2579,400 +1068,14 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "ref": "6.1.3",
+            "ref": "6.1.6",
             "ref_type": "tag",
             "master_branch": "main",
             "description": "Hibernate's core Object/Relational Mapping functionality",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-09-08T13:59:06Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23720516085",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 10875161029,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/5.6",
-            "head": "307b74641664554ab9e0ac10459dfd2e8c91dc5b",
-            "before": "52f39f8ba0b3a4c455aba3c1ff6d958908603f62",
-            "commits": [
-                {
-                    "sha": "0be6e7d280a0e9eef137f60bfcc75fb9c0bac519",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.11.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/0be6e7d280a0e9eef137f60bfcc75fb9c0bac519"
-                },
-                {
-                    "sha": "307b74641664554ab9e0ac10459dfd2e8c91dc5b",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.6.12-SNAPSHOT",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/307b74641664554ab9e0ac10459dfd2e8c91dc5b"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-30T14:59:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23720515904",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "5.6.11",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-30T14:59:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23588473284",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "ref": "6.0.10.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Search: full-text search for domain model",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-23T13:30:45Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23588473175",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 990281,
-            "name": "hibernate/hibernate-search",
-            "url": "https://api.github.com/repos/hibernate/hibernate-search"
-        },
-        "payload": {
-            "push_id": 10807495066,
-            "size": 3,
-            "distinct_size": 3,
-            "ref": "refs/heads/6.0",
-            "head": "b69b616c973f15e306a60632edbd0b237553e3d5",
-            "before": "8d17e920784af9aaead5d90f6e1e08826c0daa5b",
-            "commits": [
-                {
-                    "sha": "2999d0a67c2c02d8dc5e3d80f85f9ba85ce4d68e",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 6.0.10.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/2999d0a67c2c02d8dc5e3d80f85f9ba85ce4d68e"
-                },
-                {
-                    "sha": "ca84afbad49d0d9e5747d6962659a240e7994d31",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 6.0.10.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/ca84afbad49d0d9e5747d6962659a240e7994d31"
-                },
-                {
-                    "sha": "b69b616c973f15e306a60632edbd0b237553e3d5",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/b69b616c973f15e306a60632edbd0b237553e3d5"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-23T13:30:45Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23433733689",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "ref": "5.3.28",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate's core Object/Relational Mapping functionality",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-15T07:20:23Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23433733636",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 961036,
-            "name": "hibernate/hibernate-orm",
-            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
-        },
-        "payload": {
-            "push_id": 10728216559,
-            "size": 2,
-            "distinct_size": 2,
-            "ref": "refs/heads/5.3",
-            "head": "744d3ea644852a1a332e460f8950969745594387",
-            "before": "65f33f77039d8b3bbe6e6679a84486892ecc77ac",
-            "commits": [
-                {
-                    "sha": "2e17c73197bdb926a6c0ab50937fc5e8b905d473",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.3.28.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/2e17c73197bdb926a6c0ab50937fc5e8b905d473"
-                },
-                {
-                    "sha": "744d3ea644852a1a332e460f8950969745594387",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Hibernate-CI"
-                    },
-                    "message": "5.3.29-SNAPSHOT",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/744d3ea644852a1a332e460f8950969745594387"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-15T07:20:22Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23343530575",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "push_id": 10680455346,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/main",
-            "head": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-            "before": "454b836bae2a6167b3626818019340b37ae171bf",
-            "commits": [
-                {
-                    "sha": "e7ee250c2274e31c499596b216dfe63153cf8400",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] README.md updated by release build 8.0.0.CR3",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/e7ee250c2274e31c499596b216dfe63153cf8400"
-                },
-                {
-                    "sha": "84d84588aec9f854177e236e56b7d311124dafd7",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 8.0.0.CR3",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/84d84588aec9f854177e236e56b7d311124dafd7"
-                },
-                {
-                    "sha": "24129bacaaf77c1bcd41a190d90a3b53f61923d0",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 8.0.0.CR3",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/24129bacaaf77c1bcd41a190d90a3b53f61923d0"
-                },
-                {
-                    "sha": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/9586bb87c6a9f8670392bcb617ca94f710f3ed74"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-08-09T15:49:06Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23343530464",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "ref": "8.0.0.CR3",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Validator - Jakarta Bean Validation Reference Implementation",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-08-09T15:49:06Z",
+        "created_at": "2022-12-07T14:35:44Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -3889,116 +1992,7 @@
         }
     },
     {
-        "id": "23916998145",
-        "type": "PushEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "push_id": 10975544020,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/main",
-            "head": "4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3",
-            "before": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-            "commits": [
-                {
-                    "sha": "fef02e29e103bf9e37686dadac162bf6127de3e0",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] README.md updated by release build 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/fef02e29e103bf9e37686dadac162bf6127de3e0"
-                },
-                {
-                    "sha": "a0eb2d7c43377314d2fc2a6e36d56c50f9485b35",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/a0eb2d7c43377314d2fc2a6e36d56c50f9485b35"
-                },
-                {
-                    "sha": "065a6ba2602329b966479a6e83a065b932eaf2c5",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 8.0.0.Final",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/065a6ba2602329b966479a6e83a065b932eaf2c5"
-                },
-                {
-                    "sha": "4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing next development iteration",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/4a592eaaa7ec3dbc350a0fe4c8502c748bf8ebc3"
-                }
-            ]
-        },
-        "public": true,
-        "created_at": "2022-09-09T13:33:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23916998058",
-        "type": "CreateEvent",
-        "actor": {
-            "id": 4276295,
-            "login": "Hibernate-CI",
-            "display_login": "Hibernate-CI",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Hibernate-CI",
-            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
-        },
-        "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
-        },
-        "payload": {
-            "ref": "8.0.0.Final",
-            "ref_type": "tag",
-            "master_branch": "main",
-            "description": "Hibernate Validator - Jakarta Bean Validation Reference Implementation",
-            "pusher_type": "user"
-        },
-        "public": true,
-        "created_at": "2022-09-09T13:33:57Z",
-        "org": {
-            "id": 348262,
-            "login": "hibernate",
-            "gravatar_id": "",
-            "url": "https://api.github.com/orgs/hibernate",
-            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
-        }
-    },
-    {
-        "id": "23894645489",
+        "id": "25722475699",
         "type": "PushEvent",
         "actor": {
             "id": 4276295,
@@ -4014,37 +2008,37 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "push_id": 10964347255,
+            "push_id": 11915313815,
             "size": 2,
             "distinct_size": 2,
             "ref": "refs/heads/6.1",
-            "head": "b0f2faedca2992bb820bb6628f469b5fbf4bbc9f",
-            "before": "7b05d24c5538d9112eebf0c1876ba5fde0227a3f",
+            "head": "60308c7dda8073040ac8ad6b83fd659118529988",
+            "before": "64d26d6ec975732a67571ddbe2327339f182b91a",
             "commits": [
                 {
-                    "sha": "27627073866cd8cb221231ac995c4c28d84b04b1",
+                    "sha": "c905c8ebe3699c762e0123d7c6653ed8d6361c47",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "Pre-steps for release : `6.1.3.Final`",
+                    "message": "Pre-steps for release : `6.1.6.Final`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/27627073866cd8cb221231ac995c4c28d84b04b1"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/c905c8ebe3699c762e0123d7c6653ed8d6361c47"
                 },
                 {
-                    "sha": "b0f2faedca2992bb820bb6628f469b5fbf4bbc9f",
+                    "sha": "60308c7dda8073040ac8ad6b83fd659118529988",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "Post-steps for release : `6.1.3.Final`",
+                    "message": "Post-steps for release : `6.1.6.Final`",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/b0f2faedca2992bb820bb6628f469b5fbf4bbc9f"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/60308c7dda8073040ac8ad6b83fd659118529988"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-09-08T13:59:08Z",
+        "created_at": "2022-12-07T14:35:44Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4054,7 +2048,7 @@
         }
     },
     {
-        "id": "23894644449",
+        "id": "25722475585",
         "type": "CreateEvent",
         "actor": {
             "id": 4276295,
@@ -4070,14 +2064,14 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "ref": "6.1.3",
+            "ref": "6.1.6",
             "ref_type": "tag",
             "master_branch": "main",
             "description": "Hibernate's core Object/Relational Mapping functionality",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-09-08T13:59:06Z",
+        "created_at": "2022-12-07T14:35:44Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4087,7 +2081,7 @@
         }
     },
     {
-        "id": "23720516085",
+        "id": "25028368655",
         "type": "PushEvent",
         "actor": {
             "id": 4276295,
@@ -4103,37 +2097,37 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "push_id": 10875161029,
+            "push_id": 11552695600,
             "size": 2,
             "distinct_size": 2,
             "ref": "refs/heads/5.6",
-            "head": "307b74641664554ab9e0ac10459dfd2e8c91dc5b",
-            "before": "52f39f8ba0b3a4c455aba3c1ff6d958908603f62",
+            "head": "073d65c71917df9030ea00e98304ef99fa0be392",
+            "before": "ca28c00c4125af17bb77d77162a4aae7d53e290b",
             "commits": [
                 {
-                    "sha": "0be6e7d280a0e9eef137f60bfcc75fb9c0bac519",
+                    "sha": "81624b0efef69906562c70734188c219d4e62353",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "5.6.11.Final",
+                    "message": "5.6.14.Final",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/0be6e7d280a0e9eef137f60bfcc75fb9c0bac519"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/81624b0efef69906562c70734188c219d4e62353"
                 },
                 {
-                    "sha": "307b74641664554ab9e0ac10459dfd2e8c91dc5b",
+                    "sha": "073d65c71917df9030ea00e98304ef99fa0be392",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "5.6.12-SNAPSHOT",
+                    "message": "5.6.15-SNAPSHOT",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/307b74641664554ab9e0ac10459dfd2e8c91dc5b"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/073d65c71917df9030ea00e98304ef99fa0be392"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-30T14:59:57Z",
+        "created_at": "2022-11-04T10:07:26Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4143,7 +2137,7 @@
         }
     },
     {
-        "id": "23720515904",
+        "id": "25028368584",
         "type": "CreateEvent",
         "actor": {
             "id": 4276295,
@@ -4159,14 +2153,14 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "ref": "5.6.11",
+            "ref": "5.6.14",
             "ref_type": "tag",
             "master_branch": "main",
             "description": "Hibernate's core Object/Relational Mapping functionality",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-08-30T14:59:57Z",
+        "created_at": "2022-11-04T10:07:26Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4176,7 +2170,185 @@
         }
     },
     {
-        "id": "23588473284",
+        "id": "25017528079",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 961036,
+            "name": "hibernate/hibernate-orm",
+            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
+        },
+        "payload": {
+            "push_id": 11546967803,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/5.6",
+            "head": "9b065d05ea5757c77df9e8b692f27522fb52d083",
+            "before": "1d539eae9fd359210a4936030ad3e0f6e75a6f76",
+            "commits": [
+                {
+                    "sha": "5a1d6f6ac084d8e20d223711464c5210028ebc08",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Hibernate-CI"
+                    },
+                    "message": "5.6.13.Final",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/5a1d6f6ac084d8e20d223711464c5210028ebc08"
+                },
+                {
+                    "sha": "9b065d05ea5757c77df9e8b692f27522fb52d083",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Hibernate-CI"
+                    },
+                    "message": "5.6.14-SNAPSHOT",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/9b065d05ea5757c77df9e8b692f27522fb52d083"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-11-03T20:15:48Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "25017527931",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 961036,
+            "name": "hibernate/hibernate-orm",
+            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
+        },
+        "payload": {
+            "ref": "5.6.13",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Hibernate's core Object/Relational Mapping functionality",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-11-03T20:15:48Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24891308255",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 961036,
+            "name": "hibernate/hibernate-orm",
+            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
+        },
+        "payload": {
+            "push_id": 11480939013,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/6.1",
+            "head": "527bdbdaf578cb3ec0abb9d743fe935ba3385a6d",
+            "before": "6894d57b0bd65d636b3412cd8e2277c2967ce9a0",
+            "commits": [
+                {
+                    "sha": "4e31f88651c41e8a2db547b6de7228c04cb33b50",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Hibernate-CI"
+                    },
+                    "message": "Pre-steps for release : `6.1.5.Final`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/4e31f88651c41e8a2db547b6de7228c04cb33b50"
+                },
+                {
+                    "sha": "527bdbdaf578cb3ec0abb9d743fe935ba3385a6d",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Hibernate-CI"
+                    },
+                    "message": "Post-steps for release : `6.1.5.Final`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/527bdbdaf578cb3ec0abb9d743fe935ba3385a6d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-28T12:17:21Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24891308140",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 961036,
+            "name": "hibernate/hibernate-orm",
+            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
+        },
+        "payload": {
+            "ref": "6.1.5",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Hibernate's core Object/Relational Mapping functionality",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-28T12:17:20Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24864857346",
         "type": "CreateEvent",
         "actor": {
             "id": 4276295,
@@ -4192,14 +2364,14 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-search"
         },
         "payload": {
-            "ref": "6.0.10.Final",
+            "ref": "5.11.11.Final",
             "ref_type": "tag",
             "master_branch": "main",
             "description": "Hibernate Search: full-text search for domain model",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-08-23T13:30:45Z",
+        "created_at": "2022-10-27T11:06:21Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4209,7 +2381,7 @@
         }
     },
     {
-        "id": "23588473175",
+        "id": "24864857201",
         "type": "PushEvent",
         "actor": {
             "id": 4276295,
@@ -4225,47 +2397,47 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-search"
         },
         "payload": {
-            "push_id": 10807495066,
+            "push_id": 11467527037,
             "size": 3,
             "distinct_size": 3,
-            "ref": "refs/heads/6.0",
-            "head": "b69b616c973f15e306a60632edbd0b237553e3d5",
-            "before": "8d17e920784af9aaead5d90f6e1e08826c0daa5b",
+            "ref": "refs/heads/5.11",
+            "head": "df44df54b94eb20e8fe7176954c14dd73ec8ac43",
+            "before": "50bf2fa614415b2aad684f3e1a44a0fdb9413646",
             "commits": [
                 {
-                    "sha": "2999d0a67c2c02d8dc5e3d80f85f9ba85ce4d68e",
+                    "sha": "cacf3f67965bc3e81f1e9c3dae0f3041df3e22a9",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Jenkins"
                     },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 6.0.10.Final",
+                    "message": "[Jenkins release job] changelog.txt updated by release build 5.11.11.Final",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/2999d0a67c2c02d8dc5e3d80f85f9ba85ce4d68e"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/cacf3f67965bc3e81f1e9c3dae0f3041df3e22a9"
                 },
                 {
-                    "sha": "ca84afbad49d0d9e5747d6962659a240e7994d31",
+                    "sha": "212e091aca606125c788d736f8bf2914e35a9fb8",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Jenkins"
                     },
-                    "message": "[Jenkins release job] Preparing release 6.0.10.Final",
+                    "message": "[Jenkins release job] Preparing release 5.11.11.Final",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/ca84afbad49d0d9e5747d6962659a240e7994d31"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/212e091aca606125c788d736f8bf2914e35a9fb8"
                 },
                 {
-                    "sha": "b69b616c973f15e306a60632edbd0b237553e3d5",
+                    "sha": "df44df54b94eb20e8fe7176954c14dd73ec8ac43",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Jenkins"
                     },
                     "message": "[Jenkins release job] Preparing next development iteration",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/b69b616c973f15e306a60632edbd0b237553e3d5"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/df44df54b94eb20e8fe7176954c14dd73ec8ac43"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-23T13:30:45Z",
+        "created_at": "2022-10-27T11:06:20Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4275,7 +2447,218 @@
         }
     },
     {
-        "id": "23433733689",
+        "id": "24864851975",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 990281,
+            "name": "hibernate/hibernate-search",
+            "url": "https://api.github.com/repos/hibernate/hibernate-search"
+        },
+        "payload": {
+            "ref": "5.10.13.Final",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Hibernate Search: full-text search for domain model",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-10-27T11:06:06Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24864851908",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 990281,
+            "name": "hibernate/hibernate-search",
+            "url": "https://api.github.com/repos/hibernate/hibernate-search"
+        },
+        "payload": {
+            "push_id": 11467524395,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/5.10",
+            "head": "6889d48251777c3cf0c8ea88dcd1fa99a64dc63c",
+            "before": "83492279c462ed1e98cbfdcc1756d2db37645d9e",
+            "commits": [
+                {
+                    "sha": "375f8fcccc4f2198460beab96399baa4ca98aea7",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] README.md updated by release build 5.10.13.Final",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/375f8fcccc4f2198460beab96399baa4ca98aea7"
+                },
+                {
+                    "sha": "f1d56272b4d188b40b57f0e4490bb91fdfde9eb5",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] changelog.txt updated by release build 5.10.13.Final",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/f1d56272b4d188b40b57f0e4490bb91fdfde9eb5"
+                },
+                {
+                    "sha": "0143266dd492b91e9735d5439a8a3933c89b030a",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] Preparing release 5.10.13.Final",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/0143266dd492b91e9735d5439a8a3933c89b030a"
+                },
+                {
+                    "sha": "6889d48251777c3cf0c8ea88dcd1fa99a64dc63c",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] Preparing next development iteration",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/6889d48251777c3cf0c8ea88dcd1fa99a64dc63c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-27T11:06:06Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24743725981",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 51439002,
+            "name": "beanvalidation/beanvalidation.github.io",
+            "url": "https://api.github.com/repos/beanvalidation/beanvalidation.github.io"
+        },
+        "payload": {
+            "push_id": 11403920309,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "2887d960d151d99cefff1177f71205d346aebc27",
+            "before": "6c37c6c9a96af6268716713e5a0e6064f496f545",
+            "commits": [
+                {
+                    "sha": "2887d960d151d99cefff1177f71205d346aebc27",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Hibernate-CI"
+                    },
+                    "message": "Publish generated site",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/beanvalidation/beanvalidation.github.io/commits/2887d960d151d99cefff1177f71205d346aebc27"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-21T07:59:22Z",
+        "org": {
+            "id": 420577,
+            "login": "beanvalidation",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/beanvalidation",
+            "avatar_url": "https://avatars.githubusercontent.com/u/420577?"
+        }
+    },
+    {
+        "id": "24408540713",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 961036,
+            "name": "hibernate/hibernate-orm",
+            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
+        },
+        "payload": {
+            "push_id": 11231083813,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/6.1",
+            "head": "21e40bb5e76e9116eb1989968b2e24bd7d8a277d",
+            "before": "267129a5fd7ea5c048e5898afbcebf23cefaf706",
+            "commits": [
+                {
+                    "sha": "80c489178eb6cbbc2f82747b85fed1e070187aba",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Hibernate-CI"
+                    },
+                    "message": "Pre-steps for release : `6.1.4.Final`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/80c489178eb6cbbc2f82747b85fed1e070187aba"
+                },
+                {
+                    "sha": "21e40bb5e76e9116eb1989968b2e24bd7d8a277d",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Hibernate-CI"
+                    },
+                    "message": "Post-steps for release : `6.1.4.Final`",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/21e40bb5e76e9116eb1989968b2e24bd7d8a277d"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-10-05T10:09:41Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24408540551",
         "type": "CreateEvent",
         "actor": {
             "id": 4276295,
@@ -4291,14 +2674,14 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "ref": "5.3.28",
+            "ref": "6.1.4",
             "ref_type": "tag",
             "master_branch": "main",
             "description": "Hibernate's core Object/Relational Mapping functionality",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-08-15T07:20:23Z",
+        "created_at": "2022-10-05T10:09:41Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4308,7 +2691,40 @@
         }
     },
     {
-        "id": "23433733636",
+        "id": "24248375378",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 961036,
+            "name": "hibernate/hibernate-orm",
+            "url": "https://api.github.com/repos/hibernate/hibernate-orm"
+        },
+        "payload": {
+            "ref": "5.6.12",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Hibernate's core Object/Relational Mapping functionality",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-27T12:29:09Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24248375172",
         "type": "PushEvent",
         "actor": {
             "id": 4276295,
@@ -4324,37 +2740,37 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-orm"
         },
         "payload": {
-            "push_id": 10728216559,
+            "push_id": 11149560067,
             "size": 2,
             "distinct_size": 2,
-            "ref": "refs/heads/5.3",
-            "head": "744d3ea644852a1a332e460f8950969745594387",
-            "before": "65f33f77039d8b3bbe6e6679a84486892ecc77ac",
+            "ref": "refs/heads/5.6",
+            "head": "be8a297474fd8a3b2b024de3fc54a0ceeb118fbf",
+            "before": "ee08830f0381665cb4a106f04bd40991e8c770b6",
             "commits": [
                 {
-                    "sha": "2e17c73197bdb926a6c0ab50937fc5e8b905d473",
+                    "sha": "e9147dd0ee0c49651c6aa4bc2d88236dfd66be35",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "5.3.28.Final",
+                    "message": "5.6.12.Final",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/2e17c73197bdb926a6c0ab50937fc5e8b905d473"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/e9147dd0ee0c49651c6aa4bc2d88236dfd66be35"
                 },
                 {
-                    "sha": "744d3ea644852a1a332e460f8950969745594387",
+                    "sha": "be8a297474fd8a3b2b024de3fc54a0ceeb118fbf",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Hibernate-CI"
                     },
-                    "message": "5.3.29-SNAPSHOT",
+                    "message": "5.6.13-SNAPSHOT",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/744d3ea644852a1a332e460f8950969745594387"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-orm/commits/be8a297474fd8a3b2b024de3fc54a0ceeb118fbf"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-15T07:20:22Z",
+        "created_at": "2022-09-27T12:29:08Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4364,7 +2780,40 @@
         }
     },
     {
-        "id": "23343530575",
+        "id": "24044382421",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 990281,
+            "name": "hibernate/hibernate-search",
+            "url": "https://api.github.com/repos/hibernate/hibernate-search"
+        },
+        "payload": {
+            "ref": "6.1.7.Final",
+            "ref_type": "tag",
+            "master_branch": "main",
+            "description": "Hibernate Search: full-text search for domain model",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-09-16T06:52:45Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "24044382234",
         "type": "PushEvent",
         "actor": {
             "id": 4276295,
@@ -4375,62 +2824,52 @@
             "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
         },
         "repo": {
-            "id": 972205,
-            "name": "hibernate/hibernate-validator",
-            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
+            "id": 990281,
+            "name": "hibernate/hibernate-search",
+            "url": "https://api.github.com/repos/hibernate/hibernate-search"
         },
         "payload": {
-            "push_id": 10680455346,
-            "size": 4,
-            "distinct_size": 4,
-            "ref": "refs/heads/main",
-            "head": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
-            "before": "454b836bae2a6167b3626818019340b37ae171bf",
+            "push_id": 11041832141,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/6.1",
+            "head": "9e2a32eb17db5cd85a79011f01b984f2c61aa270",
+            "before": "3033ce8af04ee6d2b23f4d400ea032084f1c4137",
             "commits": [
                 {
-                    "sha": "e7ee250c2274e31c499596b216dfe63153cf8400",
+                    "sha": "5101acf08a3bda8364b0d54ad3242aaba49972e9",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Jenkins"
                     },
-                    "message": "[Jenkins release job] README.md updated by release build 8.0.0.CR3",
+                    "message": "[Jenkins release job] changelog.txt updated by release build 6.1.7.Final",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/e7ee250c2274e31c499596b216dfe63153cf8400"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/5101acf08a3bda8364b0d54ad3242aaba49972e9"
                 },
                 {
-                    "sha": "84d84588aec9f854177e236e56b7d311124dafd7",
+                    "sha": "269a8c378e948876ac197420b7223dc2833c038c",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Jenkins"
                     },
-                    "message": "[Jenkins release job] changelog.txt updated by release build 8.0.0.CR3",
+                    "message": "[Jenkins release job] Preparing release 6.1.7.Final",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/84d84588aec9f854177e236e56b7d311124dafd7"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/269a8c378e948876ac197420b7223dc2833c038c"
                 },
                 {
-                    "sha": "24129bacaaf77c1bcd41a190d90a3b53f61923d0",
-                    "author": {
-                        "email": "ci@hibernate.org",
-                        "name": "Jenkins"
-                    },
-                    "message": "[Jenkins release job] Preparing release 8.0.0.CR3",
-                    "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/24129bacaaf77c1bcd41a190d90a3b53f61923d0"
-                },
-                {
-                    "sha": "9586bb87c6a9f8670392bcb617ca94f710f3ed74",
+                    "sha": "9e2a32eb17db5cd85a79011f01b984f2c61aa270",
                     "author": {
                         "email": "ci@hibernate.org",
                         "name": "Jenkins"
                     },
                     "message": "[Jenkins release job] Preparing next development iteration",
                     "distinct": true,
-                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/9586bb87c6a9f8670392bcb617ca94f710f3ed74"
+                    "url": "https://api.github.com/repos/hibernate/hibernate-search/commits/9e2a32eb17db5cd85a79011f01b984f2c61aa270"
                 }
             ]
         },
         "public": true,
-        "created_at": "2022-08-09T15:49:06Z",
+        "created_at": "2022-09-16T06:52:44Z",
         "org": {
             "id": 348262,
             "login": "hibernate",
@@ -4440,7 +2879,7 @@
         }
     },
     {
-        "id": "23343530464",
+        "id": "23955131747",
         "type": "CreateEvent",
         "actor": {
             "id": 4276295,
@@ -4456,14 +2895,90 @@
             "url": "https://api.github.com/repos/hibernate/hibernate-validator"
         },
         "payload": {
-            "ref": "8.0.0.CR3",
+            "ref": "6.2.5.Final",
             "ref_type": "tag",
             "master_branch": "main",
             "description": "Hibernate Validator - Jakarta Bean Validation Reference Implementation",
             "pusher_type": "user"
         },
         "public": true,
-        "created_at": "2022-08-09T15:49:06Z",
+        "created_at": "2022-09-12T14:26:31Z",
+        "org": {
+            "id": 348262,
+            "login": "hibernate",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hibernate",
+            "avatar_url": "https://avatars.githubusercontent.com/u/348262?"
+        }
+    },
+    {
+        "id": "23955131668",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4276295,
+            "login": "Hibernate-CI",
+            "display_login": "Hibernate-CI",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Hibernate-CI",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4276295?"
+        },
+        "repo": {
+            "id": 972205,
+            "name": "hibernate/hibernate-validator",
+            "url": "https://api.github.com/repos/hibernate/hibernate-validator"
+        },
+        "payload": {
+            "push_id": 10997258896,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/6.2",
+            "head": "487b5c5ded55ea24da276bb38f9a557e9798a375",
+            "before": "9e439bb8e4646854f135276d2206a01348b02d9e",
+            "commits": [
+                {
+                    "sha": "70637b7d9c219a015dd187606e604eecd5e072d2",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] README.md updated by release build 6.2.5.Final",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/70637b7d9c219a015dd187606e604eecd5e072d2"
+                },
+                {
+                    "sha": "e43c32d411bb3866f5bb64fd8a79ba158b83842e",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] changelog.txt updated by release build 6.2.5.Final",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/e43c32d411bb3866f5bb64fd8a79ba158b83842e"
+                },
+                {
+                    "sha": "36feac36982b9eaf0f55adbc7c313c4652c7fb00",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] Preparing release 6.2.5.Final",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/36feac36982b9eaf0f55adbc7c313c4652c7fb00"
+                },
+                {
+                    "sha": "487b5c5ded55ea24da276bb38f9a557e9798a375",
+                    "author": {
+                        "email": "ci@hibernate.org",
+                        "name": "Jenkins"
+                    },
+                    "message": "[Jenkins release job] Preparing next development iteration",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/487b5c5ded55ea24da276bb38f9a557e9798a375"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-09-12T14:26:30Z",
         "org": {
             "id": 348262,
             "login": "hibernate",

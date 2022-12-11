@@ -1,1 +1,1418 @@
-[]
+[
+    {
+        "id": "25794448995",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11950756881,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "6d3821274bc7378f2af5ce23206126ee28255136",
+            "before": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+            "commits": [
+                {
+                    "sha": "6d3821274bc7378f2af5ce23206126ee28255136",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 10 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/6d3821274bc7378f2af5ce23206126ee28255136"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-10T11:57:45Z"
+    },
+    {
+        "id": "25793944371",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11950456514,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+            "before": "204c7bc78835095bb8c9806464979f74d20888af",
+            "commits": [
+                {
+                    "sha": "7982c01eb166db9468061cb463031dae83157b79",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 9 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/7982c01eb166db9468061cb463031dae83157b79"
+                },
+                {
+                    "sha": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 9 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/586c9b233f4d5f5655ec3f22b3193d2da3674d54"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-10T10:45:54Z"
+    },
+    {
+        "id": "25753835442",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11930388597,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "204c7bc78835095bb8c9806464979f74d20888af",
+            "before": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+            "commits": [
+                {
+                    "sha": "204c7bc78835095bb8c9806464979f74d20888af",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 8 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/204c7bc78835095bb8c9806464979f74d20888af"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T15:03:04Z"
+    },
+    {
+        "id": "25750296776",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11928684015,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+            "before": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+            "commits": [
+                {
+                    "sha": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 8 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/0037e1d83a8b3c3b60ba9602966390eebca39c72"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T12:46:45Z"
+    },
+    {
+        "id": "25748862367",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11927971774,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+            "before": "0387740a89a42d38b56bc761857817e4aa668906",
+            "commits": [
+                {
+                    "sha": "183e59b41bd32893b934c2d92e0ea29bb1c93160",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 7 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/183e59b41bd32893b934c2d92e0ea29bb1c93160"
+                },
+                {
+                    "sha": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 7 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T11:45:35Z"
+    },
+    {
+        "id": "25704508858",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11906495821,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "0387740a89a42d38b56bc761857817e4aa668906",
+            "before": "a64814218cd822f55494a6960923e3e087b2b9ab",
+            "commits": [
+                {
+                    "sha": "ad8d9e7dbf82852b8e0da27591dfc0c1478e861d",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 6 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/ad8d9e7dbf82852b8e0da27591dfc0c1478e861d"
+                },
+                {
+                    "sha": "0387740a89a42d38b56bc761857817e4aa668906",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 6 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/0387740a89a42d38b56bc761857817e4aa668906"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T23:04:45Z"
+    },
+    {
+        "id": "25675155693",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11892373937,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a64814218cd822f55494a6960923e3e087b2b9ab",
+            "before": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+            "commits": [
+                {
+                    "sha": "a64814218cd822f55494a6960923e3e087b2b9ab",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 5 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/a64814218cd822f55494a6960923e3e087b2b9ab"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T23:22:30Z"
+    },
+    {
+        "id": "25674972020",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11892288355,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+            "before": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+            "commits": [
+                {
+                    "sha": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 5 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/b078a3eb9ddd8aa57a7b11ededf8db93b0280e70"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T23:12:23Z"
+    },
+    {
+        "id": "25642518972",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11876016506,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+            "before": "3012947701de4edb609a0ec8aca5480da84d2c97",
+            "commits": [
+                {
+                    "sha": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 4 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/10d89fb472c2bb9cffa9616543560f05a78ca7af"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:47:57Z"
+    },
+    {
+        "id": "25642455661",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11875982370,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3012947701de4edb609a0ec8aca5480da84d2c97",
+            "before": "efb3892dae908bca2a5f22d8569761f49e799c3b",
+            "commits": [
+                {
+                    "sha": "3012947701de4edb609a0ec8aca5480da84d2c97",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 4 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/3012947701de4edb609a0ec8aca5480da84d2c97"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:41:59Z"
+    },
+    {
+        "id": "25637023538",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-04T00:33:00Z"
+    },
+    {
+        "id": "25637021293",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-04T00:32:34Z"
+    },
+    {
+        "id": "25794448995",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11950756881,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "6d3821274bc7378f2af5ce23206126ee28255136",
+            "before": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+            "commits": [
+                {
+                    "sha": "6d3821274bc7378f2af5ce23206126ee28255136",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 10 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/6d3821274bc7378f2af5ce23206126ee28255136"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-10T11:57:45Z"
+    },
+    {
+        "id": "25793944371",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11950456514,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+            "before": "204c7bc78835095bb8c9806464979f74d20888af",
+            "commits": [
+                {
+                    "sha": "7982c01eb166db9468061cb463031dae83157b79",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 9 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/7982c01eb166db9468061cb463031dae83157b79"
+                },
+                {
+                    "sha": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 9 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/586c9b233f4d5f5655ec3f22b3193d2da3674d54"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-10T10:45:54Z"
+    },
+    {
+        "id": "25753835442",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11930388597,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "204c7bc78835095bb8c9806464979f74d20888af",
+            "before": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+            "commits": [
+                {
+                    "sha": "204c7bc78835095bb8c9806464979f74d20888af",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 8 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/204c7bc78835095bb8c9806464979f74d20888af"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T15:03:04Z"
+    },
+    {
+        "id": "25750296776",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11928684015,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+            "before": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+            "commits": [
+                {
+                    "sha": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 8 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/0037e1d83a8b3c3b60ba9602966390eebca39c72"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T12:46:45Z"
+    },
+    {
+        "id": "25748862367",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11927971774,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+            "before": "0387740a89a42d38b56bc761857817e4aa668906",
+            "commits": [
+                {
+                    "sha": "183e59b41bd32893b934c2d92e0ea29bb1c93160",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 7 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/183e59b41bd32893b934c2d92e0ea29bb1c93160"
+                },
+                {
+                    "sha": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 7 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T11:45:35Z"
+    },
+    {
+        "id": "25704508858",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11906495821,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "0387740a89a42d38b56bc761857817e4aa668906",
+            "before": "a64814218cd822f55494a6960923e3e087b2b9ab",
+            "commits": [
+                {
+                    "sha": "ad8d9e7dbf82852b8e0da27591dfc0c1478e861d",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 6 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/ad8d9e7dbf82852b8e0da27591dfc0c1478e861d"
+                },
+                {
+                    "sha": "0387740a89a42d38b56bc761857817e4aa668906",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 6 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/0387740a89a42d38b56bc761857817e4aa668906"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T23:04:45Z"
+    },
+    {
+        "id": "25675155693",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11892373937,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a64814218cd822f55494a6960923e3e087b2b9ab",
+            "before": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+            "commits": [
+                {
+                    "sha": "a64814218cd822f55494a6960923e3e087b2b9ab",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 5 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/a64814218cd822f55494a6960923e3e087b2b9ab"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T23:22:30Z"
+    },
+    {
+        "id": "25674972020",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11892288355,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+            "before": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+            "commits": [
+                {
+                    "sha": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 5 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/b078a3eb9ddd8aa57a7b11ededf8db93b0280e70"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T23:12:23Z"
+    },
+    {
+        "id": "25642518972",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11876016506,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+            "before": "3012947701de4edb609a0ec8aca5480da84d2c97",
+            "commits": [
+                {
+                    "sha": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 4 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/10d89fb472c2bb9cffa9616543560f05a78ca7af"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:47:57Z"
+    },
+    {
+        "id": "25642455661",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11875982370,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3012947701de4edb609a0ec8aca5480da84d2c97",
+            "before": "efb3892dae908bca2a5f22d8569761f49e799c3b",
+            "commits": [
+                {
+                    "sha": "3012947701de4edb609a0ec8aca5480da84d2c97",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 4 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/3012947701de4edb609a0ec8aca5480da84d2c97"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:41:59Z"
+    },
+    {
+        "id": "25637023538",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-04T00:33:00Z"
+    },
+    {
+        "id": "25637021293",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-04T00:32:34Z"
+    },
+    {
+        "id": "25794448995",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11950756881,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "6d3821274bc7378f2af5ce23206126ee28255136",
+            "before": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+            "commits": [
+                {
+                    "sha": "6d3821274bc7378f2af5ce23206126ee28255136",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 10 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/6d3821274bc7378f2af5ce23206126ee28255136"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-10T11:57:45Z"
+    },
+    {
+        "id": "25793944371",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11950456514,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+            "before": "204c7bc78835095bb8c9806464979f74d20888af",
+            "commits": [
+                {
+                    "sha": "7982c01eb166db9468061cb463031dae83157b79",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 9 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/7982c01eb166db9468061cb463031dae83157b79"
+                },
+                {
+                    "sha": "586c9b233f4d5f5655ec3f22b3193d2da3674d54",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 9 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/586c9b233f4d5f5655ec3f22b3193d2da3674d54"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-10T10:45:54Z"
+    },
+    {
+        "id": "25753835442",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11930388597,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "204c7bc78835095bb8c9806464979f74d20888af",
+            "before": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+            "commits": [
+                {
+                    "sha": "204c7bc78835095bb8c9806464979f74d20888af",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 8 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/204c7bc78835095bb8c9806464979f74d20888af"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T15:03:04Z"
+    },
+    {
+        "id": "25750296776",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11928684015,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+            "before": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+            "commits": [
+                {
+                    "sha": "0037e1d83a8b3c3b60ba9602966390eebca39c72",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 8 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/0037e1d83a8b3c3b60ba9602966390eebca39c72"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T12:46:45Z"
+    },
+    {
+        "id": "25748862367",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11927971774,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+            "before": "0387740a89a42d38b56bc761857817e4aa668906",
+            "commits": [
+                {
+                    "sha": "183e59b41bd32893b934c2d92e0ea29bb1c93160",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 7 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/183e59b41bd32893b934c2d92e0ea29bb1c93160"
+                },
+                {
+                    "sha": "9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 7 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/9b6d526b6826bb4d21d77c9a7822e5c9c7da9ec3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-08T11:45:35Z"
+    },
+    {
+        "id": "25704508858",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11906495821,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/main",
+            "head": "0387740a89a42d38b56bc761857817e4aa668906",
+            "before": "a64814218cd822f55494a6960923e3e087b2b9ab",
+            "commits": [
+                {
+                    "sha": "ad8d9e7dbf82852b8e0da27591dfc0c1478e861d",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 6 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/ad8d9e7dbf82852b8e0da27591dfc0c1478e861d"
+                },
+                {
+                    "sha": "0387740a89a42d38b56bc761857817e4aa668906",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 6 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/0387740a89a42d38b56bc761857817e4aa668906"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-06T23:04:45Z"
+    },
+    {
+        "id": "25675155693",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11892373937,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "a64814218cd822f55494a6960923e3e087b2b9ab",
+            "before": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+            "commits": [
+                {
+                    "sha": "a64814218cd822f55494a6960923e3e087b2b9ab",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 5 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/a64814218cd822f55494a6960923e3e087b2b9ab"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T23:22:30Z"
+    },
+    {
+        "id": "25674972020",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11892288355,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+            "before": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+            "commits": [
+                {
+                    "sha": "b078a3eb9ddd8aa57a7b11ededf8db93b0280e70",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 5 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/b078a3eb9ddd8aa57a7b11ededf8db93b0280e70"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-05T23:12:23Z"
+    },
+    {
+        "id": "25642518972",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11876016506,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+            "before": "3012947701de4edb609a0ec8aca5480da84d2c97",
+            "commits": [
+                {
+                    "sha": "10d89fb472c2bb9cffa9616543560f05a78ca7af",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 4 - part 2",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/10d89fb472c2bb9cffa9616543560f05a78ca7af"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:47:57Z"
+    },
+    {
+        "id": "25642455661",
+        "type": "PushEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "push_id": 11875982370,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "3012947701de4edb609a0ec8aca5480da84d2c97",
+            "before": "efb3892dae908bca2a5f22d8569761f49e799c3b",
+            "commits": [
+                {
+                    "sha": "3012947701de4edb609a0ec8aca5480da84d2c97",
+                    "author": {
+                        "email": "mikiwalczak+github@gmail.com",
+                        "name": "Miko\u0142aj Walczak"
+                    },
+                    "message": "Day 4 - part 1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/earlgreyz/aoc2022/commits/3012947701de4edb609a0ec8aca5480da84d2c97"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-04T13:41:59Z"
+    },
+    {
+        "id": "25637023538",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "ref": "main",
+            "ref_type": "branch",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-04T00:33:00Z"
+    },
+    {
+        "id": "25637021293",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 6977403,
+            "login": "earlgreyz",
+            "display_login": "earlgreyz",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/earlgreyz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6977403?"
+        },
+        "repo": {
+            "id": 573956422,
+            "name": "earlgreyz/aoc2022",
+            "url": "https://api.github.com/repos/earlgreyz/aoc2022"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "main",
+            "description": null,
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2022-12-04T00:32:34Z"
+    }
+]

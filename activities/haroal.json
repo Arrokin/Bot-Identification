@@ -1,5 +1,277 @@
 [
     {
+        "id": "25807680596",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958278303,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "303c0dc8bc1814679638a09e95143aa3c984082b",
+            "before": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+            "commits": [
+                {
+                    "sha": "303c0dc8bc1814679638a09e95143aa3c984082b",
+                    "author": {
+                        "email": "aanneix@archsys.io",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Add Regolith Xresources file",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/303c0dc8bc1814679638a09e95143aa3c984082b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T15:05:16Z"
+    },
+    {
+        "id": "25807624571",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958246633,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+            "before": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+            "commits": [
+                {
+                    "sha": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+                    "author": {
+                        "email": "aanneix@archsys.io",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Add alacritty configuration file to Regolith Linux",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/55af01ad1c3b7a943d506a57d2977a1f79fa0375"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T15:00:05Z"
+    },
+    {
+        "id": "25807604447",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958235161,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+            "before": "5c68341a2c8bcc5e7f40f369c2744ceaaa00cdfb",
+            "commits": [
+                {
+                    "sha": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+                    "author": {
+                        "email": "alexis.anneix@gmail.com",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Update with Regolith Linux",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/4ec3e4bef94dfb5be45f97f0dbfb4789e2042424"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T14:57:59Z"
+    },
+    {
+        "id": "25481389870",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 420042240,
+            "name": "0xsyr0/OSCP",
+            "url": "https://api.github.com/repos/0xsyr0/OSCP"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-25T21:45:56Z"
+    },
+    {
+        "id": "25152163832",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 254620642,
+            "name": "transifex/transifex-python",
+            "url": "https://api.github.com/repos/transifex/transifex-python"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/transifex/transifex-python/issues/81",
+                "repository_url": "https://api.github.com/repos/transifex/transifex-python",
+                "labels_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/labels{/name}",
+                "comments_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/comments",
+                "events_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/events",
+                "html_url": "https://github.com/transifex/transifex-python/issues/81",
+                "id": 1316837113,
+                "node_id": "I_kwDODy0z4s5OfVb5",
+                "number": 81,
+                "title": "Can't disable HTML escape when using lazy translation",
+                "user": {
+                    "login": "haroal",
+                    "id": 24915462,
+                    "node_id": "MDQ6VXNlcjI0OTE1NDYy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24915462?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/haroal",
+                    "html_url": "https://github.com/haroal",
+                    "followers_url": "https://api.github.com/users/haroal/followers",
+                    "following_url": "https://api.github.com/users/haroal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/haroal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/haroal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/haroal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/haroal/orgs",
+                    "repos_url": "https://api.github.com/users/haroal/repos",
+                    "events_url": "https://api.github.com/users/haroal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/haroal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-07-25T13:24:44Z",
+                "updated_at": "2022-11-10T10:49:10Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nJust noticed that disabling HTML escape does not work with `lazyt`. It is basically due to a typo I think :)\r\n\r\n## Description\r\n\r\n```python\r\nfrom transifex.native.django import lazyt\r\n\r\na = lazyt(\"I don't want to be HTML escaped!\", _escape=False)\r\n```\r\n\r\nWhen no translation is available, with default policy returning the source string, we will have:\r\n\r\n> \"I don&#x27;t want to be HTML escaped!\"\r\n\r\nExpected result:\r\n\r\n> \"I don't want to be HTML escaped!\"\r\n\r\n## Hint\r\n\r\n`lazyt` just calls `lazy_translate` which is implemented like that:\r\n\r\n```python\r\ndef lazy_translate(_string, _context=None, _escape=True, **params):\r\n    return LazyString(\r\n        translate,\r\n        _string,\r\n        _context=_context,\r\n        escape=_escape,\r\n        fallback_value=_string,\r\n        **params\r\n    )\r\n```\r\n\r\nDoing that, LazyString will just call the `translate` function with all provided `**kwargs` (except `fallback_value`).\r\nThe issue is that `translate` has this signature:\r\n\r\n```python\r\ndef translate(_string, _context=None, _escape=True, **params)\r\n```\r\n\r\nNote that parameter is called `_escape` where `lasy_translate` creates a `LazyString` with the `escape` kwarg (without the leading underscore `_`).\r\nIt results in the `escape` parameter passed to `translate` but just ignored, and `_escape` will fallback to its default value `_escape=True`.\r\n\r\n## Versions\r\n\r\nPython 3.8\r\ntransifex-python 3.0.2\r\nLinux 5.14 x86_64 / Ubuntu 20.04",
+                "reactions": {
+                    "url": "https://api.github.com/repos/transifex/transifex-python/issues/81/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/transifex/transifex-python/issues/comments/1310097656",
+                "html_url": "https://github.com/transifex/transifex-python/issues/81#issuecomment-1310097656",
+                "issue_url": "https://api.github.com/repos/transifex/transifex-python/issues/81",
+                "id": 1310097656,
+                "node_id": "IC_kwDODy0z4s5OFoD4",
+                "user": {
+                    "login": "haroal",
+                    "id": 24915462,
+                    "node_id": "MDQ6VXNlcjI0OTE1NDYy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24915462?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/haroal",
+                    "html_url": "https://github.com/haroal",
+                    "followers_url": "https://api.github.com/users/haroal/followers",
+                    "following_url": "https://api.github.com/users/haroal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/haroal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/haroal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/haroal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/haroal/orgs",
+                    "repos_url": "https://api.github.com/users/haroal/repos",
+                    "events_url": "https://api.github.com/users/haroal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/haroal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-10T10:49:10Z",
+                "updated_at": "2022-11-10T10:49:10Z",
+                "author_association": "NONE",
+                "body": "Hi,\r\n\r\nJust pinging again about this issue, because I noticed that my workaround prevents `python manage.py transifex push` to detect strings to push :/\r\n\r\nMy workaround was that I overridded `lazyt` in my project to call `LazyString` with the right parameters. But doing so, it looks like `python manage.py transifex push` does not detect that my new `lazyt` function is actually the same as the one you provide :/ \r\n\r\nCould you check this out, please?\r\n\r\nThank you!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/transifex/transifex-python/issues/comments/1310097656/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-10T10:49:10Z",
+        "org": {
+            "id": 22542,
+            "login": "transifex",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/transifex",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22542?"
+        }
+    },
+    {
         "id": "24310280039",
         "type": "WatchEvent",
         "actor": {
@@ -58,6 +330,278 @@
         }
     },
     {
+        "id": "25807680596",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958278303,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "303c0dc8bc1814679638a09e95143aa3c984082b",
+            "before": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+            "commits": [
+                {
+                    "sha": "303c0dc8bc1814679638a09e95143aa3c984082b",
+                    "author": {
+                        "email": "aanneix@archsys.io",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Add Regolith Xresources file",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/303c0dc8bc1814679638a09e95143aa3c984082b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T15:05:16Z"
+    },
+    {
+        "id": "25807624571",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958246633,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+            "before": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+            "commits": [
+                {
+                    "sha": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+                    "author": {
+                        "email": "aanneix@archsys.io",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Add alacritty configuration file to Regolith Linux",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/55af01ad1c3b7a943d506a57d2977a1f79fa0375"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T15:00:05Z"
+    },
+    {
+        "id": "25807604447",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958235161,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+            "before": "5c68341a2c8bcc5e7f40f369c2744ceaaa00cdfb",
+            "commits": [
+                {
+                    "sha": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+                    "author": {
+                        "email": "alexis.anneix@gmail.com",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Update with Regolith Linux",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/4ec3e4bef94dfb5be45f97f0dbfb4789e2042424"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T14:57:59Z"
+    },
+    {
+        "id": "25481389870",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 420042240,
+            "name": "0xsyr0/OSCP",
+            "url": "https://api.github.com/repos/0xsyr0/OSCP"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-25T21:45:56Z"
+    },
+    {
+        "id": "25152163832",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 254620642,
+            "name": "transifex/transifex-python",
+            "url": "https://api.github.com/repos/transifex/transifex-python"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/transifex/transifex-python/issues/81",
+                "repository_url": "https://api.github.com/repos/transifex/transifex-python",
+                "labels_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/labels{/name}",
+                "comments_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/comments",
+                "events_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/events",
+                "html_url": "https://github.com/transifex/transifex-python/issues/81",
+                "id": 1316837113,
+                "node_id": "I_kwDODy0z4s5OfVb5",
+                "number": 81,
+                "title": "Can't disable HTML escape when using lazy translation",
+                "user": {
+                    "login": "haroal",
+                    "id": 24915462,
+                    "node_id": "MDQ6VXNlcjI0OTE1NDYy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24915462?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/haroal",
+                    "html_url": "https://github.com/haroal",
+                    "followers_url": "https://api.github.com/users/haroal/followers",
+                    "following_url": "https://api.github.com/users/haroal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/haroal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/haroal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/haroal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/haroal/orgs",
+                    "repos_url": "https://api.github.com/users/haroal/repos",
+                    "events_url": "https://api.github.com/users/haroal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/haroal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-07-25T13:24:44Z",
+                "updated_at": "2022-11-10T10:49:10Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nJust noticed that disabling HTML escape does not work with `lazyt`. It is basically due to a typo I think :)\r\n\r\n## Description\r\n\r\n```python\r\nfrom transifex.native.django import lazyt\r\n\r\na = lazyt(\"I don't want to be HTML escaped!\", _escape=False)\r\n```\r\n\r\nWhen no translation is available, with default policy returning the source string, we will have:\r\n\r\n> \"I don&#x27;t want to be HTML escaped!\"\r\n\r\nExpected result:\r\n\r\n> \"I don't want to be HTML escaped!\"\r\n\r\n## Hint\r\n\r\n`lazyt` just calls `lazy_translate` which is implemented like that:\r\n\r\n```python\r\ndef lazy_translate(_string, _context=None, _escape=True, **params):\r\n    return LazyString(\r\n        translate,\r\n        _string,\r\n        _context=_context,\r\n        escape=_escape,\r\n        fallback_value=_string,\r\n        **params\r\n    )\r\n```\r\n\r\nDoing that, LazyString will just call the `translate` function with all provided `**kwargs` (except `fallback_value`).\r\nThe issue is that `translate` has this signature:\r\n\r\n```python\r\ndef translate(_string, _context=None, _escape=True, **params)\r\n```\r\n\r\nNote that parameter is called `_escape` where `lasy_translate` creates a `LazyString` with the `escape` kwarg (without the leading underscore `_`).\r\nIt results in the `escape` parameter passed to `translate` but just ignored, and `_escape` will fallback to its default value `_escape=True`.\r\n\r\n## Versions\r\n\r\nPython 3.8\r\ntransifex-python 3.0.2\r\nLinux 5.14 x86_64 / Ubuntu 20.04",
+                "reactions": {
+                    "url": "https://api.github.com/repos/transifex/transifex-python/issues/81/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/transifex/transifex-python/issues/comments/1310097656",
+                "html_url": "https://github.com/transifex/transifex-python/issues/81#issuecomment-1310097656",
+                "issue_url": "https://api.github.com/repos/transifex/transifex-python/issues/81",
+                "id": 1310097656,
+                "node_id": "IC_kwDODy0z4s5OFoD4",
+                "user": {
+                    "login": "haroal",
+                    "id": 24915462,
+                    "node_id": "MDQ6VXNlcjI0OTE1NDYy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24915462?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/haroal",
+                    "html_url": "https://github.com/haroal",
+                    "followers_url": "https://api.github.com/users/haroal/followers",
+                    "following_url": "https://api.github.com/users/haroal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/haroal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/haroal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/haroal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/haroal/orgs",
+                    "repos_url": "https://api.github.com/users/haroal/repos",
+                    "events_url": "https://api.github.com/users/haroal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/haroal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-10T10:49:10Z",
+                "updated_at": "2022-11-10T10:49:10Z",
+                "author_association": "NONE",
+                "body": "Hi,\r\n\r\nJust pinging again about this issue, because I noticed that my workaround prevents `python manage.py transifex push` to detect strings to push :/\r\n\r\nMy workaround was that I overridded `lazyt` in my project to call `LazyString` with the right parameters. But doing so, it looks like `python manage.py transifex push` does not detect that my new `lazyt` function is actually the same as the one you provide :/ \r\n\r\nCould you check this out, please?\r\n\r\nThank you!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/transifex/transifex-python/issues/comments/1310097656/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-10T10:49:10Z",
+        "org": {
+            "id": 22542,
+            "login": "transifex",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/transifex",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22542?"
+        }
+    },
+    {
         "id": "24310280039",
         "type": "WatchEvent",
         "actor": {
@@ -113,6 +657,278 @@
             "gravatar_id": "",
             "url": "https://api.github.com/orgs/helix-editor",
             "avatar_url": "https://avatars.githubusercontent.com/u/66235900?"
+        }
+    },
+    {
+        "id": "25807680596",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958278303,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "303c0dc8bc1814679638a09e95143aa3c984082b",
+            "before": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+            "commits": [
+                {
+                    "sha": "303c0dc8bc1814679638a09e95143aa3c984082b",
+                    "author": {
+                        "email": "aanneix@archsys.io",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Add Regolith Xresources file",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/303c0dc8bc1814679638a09e95143aa3c984082b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T15:05:16Z"
+    },
+    {
+        "id": "25807624571",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958246633,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+            "before": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+            "commits": [
+                {
+                    "sha": "55af01ad1c3b7a943d506a57d2977a1f79fa0375",
+                    "author": {
+                        "email": "aanneix@archsys.io",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Add alacritty configuration file to Regolith Linux",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/55af01ad1c3b7a943d506a57d2977a1f79fa0375"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T15:00:05Z"
+    },
+    {
+        "id": "25807604447",
+        "type": "PushEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 135212938,
+            "name": "haroal/dotfiles",
+            "url": "https://api.github.com/repos/haroal/dotfiles"
+        },
+        "payload": {
+            "push_id": 11958235161,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+            "before": "5c68341a2c8bcc5e7f40f369c2744ceaaa00cdfb",
+            "commits": [
+                {
+                    "sha": "4ec3e4bef94dfb5be45f97f0dbfb4789e2042424",
+                    "author": {
+                        "email": "alexis.anneix@gmail.com",
+                        "name": "Alexis ANNEIX"
+                    },
+                    "message": "Update with Regolith Linux",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/haroal/dotfiles/commits/4ec3e4bef94dfb5be45f97f0dbfb4789e2042424"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2022-12-11T14:57:59Z"
+    },
+    {
+        "id": "25481389870",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 420042240,
+            "name": "0xsyr0/OSCP",
+            "url": "https://api.github.com/repos/0xsyr0/OSCP"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2022-11-25T21:45:56Z"
+    },
+    {
+        "id": "25152163832",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 24915462,
+            "login": "haroal",
+            "display_login": "haroal",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/haroal",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24915462?"
+        },
+        "repo": {
+            "id": 254620642,
+            "name": "transifex/transifex-python",
+            "url": "https://api.github.com/repos/transifex/transifex-python"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/transifex/transifex-python/issues/81",
+                "repository_url": "https://api.github.com/repos/transifex/transifex-python",
+                "labels_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/labels{/name}",
+                "comments_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/comments",
+                "events_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/events",
+                "html_url": "https://github.com/transifex/transifex-python/issues/81",
+                "id": 1316837113,
+                "node_id": "I_kwDODy0z4s5OfVb5",
+                "number": 81,
+                "title": "Can't disable HTML escape when using lazy translation",
+                "user": {
+                    "login": "haroal",
+                    "id": 24915462,
+                    "node_id": "MDQ6VXNlcjI0OTE1NDYy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24915462?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/haroal",
+                    "html_url": "https://github.com/haroal",
+                    "followers_url": "https://api.github.com/users/haroal/followers",
+                    "following_url": "https://api.github.com/users/haroal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/haroal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/haroal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/haroal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/haroal/orgs",
+                    "repos_url": "https://api.github.com/users/haroal/repos",
+                    "events_url": "https://api.github.com/users/haroal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/haroal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2022-07-25T13:24:44Z",
+                "updated_at": "2022-11-10T10:49:10Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "Hi,\r\n\r\nJust noticed that disabling HTML escape does not work with `lazyt`. It is basically due to a typo I think :)\r\n\r\n## Description\r\n\r\n```python\r\nfrom transifex.native.django import lazyt\r\n\r\na = lazyt(\"I don't want to be HTML escaped!\", _escape=False)\r\n```\r\n\r\nWhen no translation is available, with default policy returning the source string, we will have:\r\n\r\n> \"I don&#x27;t want to be HTML escaped!\"\r\n\r\nExpected result:\r\n\r\n> \"I don't want to be HTML escaped!\"\r\n\r\n## Hint\r\n\r\n`lazyt` just calls `lazy_translate` which is implemented like that:\r\n\r\n```python\r\ndef lazy_translate(_string, _context=None, _escape=True, **params):\r\n    return LazyString(\r\n        translate,\r\n        _string,\r\n        _context=_context,\r\n        escape=_escape,\r\n        fallback_value=_string,\r\n        **params\r\n    )\r\n```\r\n\r\nDoing that, LazyString will just call the `translate` function with all provided `**kwargs` (except `fallback_value`).\r\nThe issue is that `translate` has this signature:\r\n\r\n```python\r\ndef translate(_string, _context=None, _escape=True, **params)\r\n```\r\n\r\nNote that parameter is called `_escape` where `lasy_translate` creates a `LazyString` with the `escape` kwarg (without the leading underscore `_`).\r\nIt results in the `escape` parameter passed to `translate` but just ignored, and `_escape` will fallback to its default value `_escape=True`.\r\n\r\n## Versions\r\n\r\nPython 3.8\r\ntransifex-python 3.0.2\r\nLinux 5.14 x86_64 / Ubuntu 20.04",
+                "reactions": {
+                    "url": "https://api.github.com/repos/transifex/transifex-python/issues/81/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/transifex/transifex-python/issues/81/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/transifex/transifex-python/issues/comments/1310097656",
+                "html_url": "https://github.com/transifex/transifex-python/issues/81#issuecomment-1310097656",
+                "issue_url": "https://api.github.com/repos/transifex/transifex-python/issues/81",
+                "id": 1310097656,
+                "node_id": "IC_kwDODy0z4s5OFoD4",
+                "user": {
+                    "login": "haroal",
+                    "id": 24915462,
+                    "node_id": "MDQ6VXNlcjI0OTE1NDYy",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24915462?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/haroal",
+                    "html_url": "https://github.com/haroal",
+                    "followers_url": "https://api.github.com/users/haroal/followers",
+                    "following_url": "https://api.github.com/users/haroal/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/haroal/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/haroal/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/haroal/subscriptions",
+                    "organizations_url": "https://api.github.com/users/haroal/orgs",
+                    "repos_url": "https://api.github.com/users/haroal/repos",
+                    "events_url": "https://api.github.com/users/haroal/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/haroal/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2022-11-10T10:49:10Z",
+                "updated_at": "2022-11-10T10:49:10Z",
+                "author_association": "NONE",
+                "body": "Hi,\r\n\r\nJust pinging again about this issue, because I noticed that my workaround prevents `python manage.py transifex push` to detect strings to push :/\r\n\r\nMy workaround was that I overridded `lazyt` in my project to call `LazyString` with the right parameters. But doing so, it looks like `python manage.py transifex push` does not detect that my new `lazyt` function is actually the same as the one you provide :/ \r\n\r\nCould you check this out, please?\r\n\r\nThank you!",
+                "reactions": {
+                    "url": "https://api.github.com/repos/transifex/transifex-python/issues/comments/1310097656/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2022-11-10T10:49:10Z",
+        "org": {
+            "id": 22542,
+            "login": "transifex",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/transifex",
+            "avatar_url": "https://avatars.githubusercontent.com/u/22542?"
         }
     },
     {
